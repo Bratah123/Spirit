@@ -1,0 +1,23 @@
+from enum import Enum
+
+
+class InPacket(Enum):
+    """
+    Login Op InHeader
+    """
+    CONNECT_CHAT = 1
+    REDISPLAY_SERVER_LIST = 7
+    GUILD_CHAT = 19
+    FRIEND_CHAT = 20
+    GUEST_LOGIN = 22
+    TOS = 29
+    VIEW_SERVER_LIST = 33
+    VIEW_REGISTER_PIC = 50
+    VIEW_SELECT_PIC = 53
+    CLIENT_FAILED = 57
+    PART_TIME_JOB = 59
+    CHARACTER_CARD = 60
+    ENABLE_LV50_CHAR = 61
+    CREATE_LV50_CHAR = 62
+    ENABLE_SPECIAL_CREATION = 62
+    CREATE_SPECIAL_CHAR = 65
