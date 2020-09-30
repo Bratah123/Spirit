@@ -5,7 +5,7 @@ Created: 8/21/2020
 """
 
 from src.net.packets.OutPackets import OutPacket
-from src.net.packets.OutPacketRecv import OutPacketRecv
+from src.net.packets.byte_buffer.Packet import Packet
 from src.net.server import ServerConstants
 
 
@@ -17,17 +17,17 @@ class Login:
 
         :param siv: byte[]
         :param riv: byte[]
-        :return: OutPacketRecv
+        :return: Packet
         """
-        send_packet = OutPacketRecv()
+        send_packet = Packet()
 
-        send_packet.encode_value(15)  # encode short
-        send_packet.encode_value(ServerConstants.SERVER_VERSION)  # encode short
+        send_packet.encode_short(15)
+        send_packet.encode_short(ServerConstants.SERVER_VERSION)
         send_packet.encode_string(ServerConstants.MINOR_VERSION)
-        send_packet.encode_value(siv)  # encoding arrays
-        send_packet.encode_value(riv)  # encoding arrays
-        send_packet.encode_value(ServerConstants.LOCALE)
-        send_packet.encode_value(bytes(False))  # encode byte
+        send_packet.encode_int(riv)  # encoding arrays
+        send_packet.encode_int(siv)  # encoding arrays
+        send_packet.encode_byte(ServerConstants.LOCALE)
+        send_packet.encode_byte(bytes(False))  # encode byte
 
         return send_packet
 
@@ -37,15 +37,15 @@ class Login:
         :param use_auth_server: boolean
         :return: OutPacketRecv
         """
-        send_packet = OutPacketRecv(OutPacket.AUTH_SERVER.value)
+        send_packet = Packet(OutPacket.AUTH_SERVER.value)
 
-        send_packet.encode_value(bytes(use_auth_server))
+        send_packet.encode_byte(use_auth_server)
 
         return send_packet
 
     @staticmethod
     def send_start_client():
-        send_packet = OutPacketRecv(OutPacket.CLIENT_START.value)
+        send_packet = Packet(OutPacket.CLIENT_START.value)
 
         send_packet.encode_value(bytes(True))  # encode byte
 
@@ -53,8 +53,8 @@ class Login:
 
     @staticmethod
     def send_auth_response(response):
-        send_packet = OutPacketRecv(OutPacket.PRIVATE_SERVER_PACKET.value)
+        send_packet = Packet(OutPacket.PRIVATE_SERVER_PACKET.value)
 
-        send_packet.encode_value(response)
+        send_packet.encode_int(response)
 
         return send_packet

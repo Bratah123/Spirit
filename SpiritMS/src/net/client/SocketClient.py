@@ -1,34 +1,81 @@
-import socket
-from threading import Thread
+import asyncio
+
+from src.net.packets.byte_buffer.Packet import Packet
+from src.net.packets.encryption.MapleAes import MapleAes
+from src.net.packets.encryption.Shanda import Shanda
+from src.net.server import ServerConstants
+
+"""
+    Credits go to Rooba for this SocketClient
+"""
 
 
 class SocketClient:
-    HOST = "127.0.0.1"
-    PORT = 8484
-    srv = (HOST, PORT)
+    def __init__(self, socket):
+        self._loop = asyncio.get_event_loop()
+        self._socket = socket
+        self._lock = asyncio.Lock()
+        self.receive_size = 16384
+        self.riv = None
+        self.siv = None
+        self._r_counter = 0
+        self._s_counter = 0
+        self._is_online = False
+        self._overflow = None
 
-    def __init__(self):
-        self.buffer = 512
-        self.messages = []
-        self.client_socket = socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.client_socket.connect(self.srv)
-        self.receive_thread = Thread(target=self.receive_msg)
-        self.receive_thread.start()
+    @property
+    def identifier(self):
+        return self._socket.getpeername()
 
-    def receive_msg(self):
-        while True:
-            try:
-                msg = self.client_socket.recv(self.buffer).decode()
-                print(msg)
-            except Exception as e:
-                print("[ERROR]", e)
-                break
+    def close(self):
+        """
+            Regular python socket object close() function
+        """
+        return self._socket.close()
 
-    def send_message(self, message):
-        self.client_socket.send(bytes(message, "utf-8"))
-        self.messages.append(message)
-        if message == "!quit":
-            self.client_socket.close()
+    async def receive(self, client):
+        self._is_online = True
+        while self._is_online:
+            if not self._overflow:
+                recv_buffer = await self._loop.sock_recv(self._socket, self.receive_size)
 
-    def write(self, packet):
-        self.client_socket.write(packet)
+                if not recv_buffer:
+                    client._parent.on_client_disconnect(client)
+                    return
+                else:
+                    recv_buffer = self._overflow
+                    self._overflow = None
+                if self.riv:
+                    async with self._lock:
+                        length = MapleAes.get_length(recv_buffer)
+                        if length != len(recv_buffer) - 4:
+                            self._overflow = recv_buffer[length + 4:]
+                            recv_buffer = recv_buffer[:length + 4]
+                        recv_buffer = self.manipulate_buffer(recv_buffer)
+        client.dispatch(Packet(recv_buffer))
+
+    async def send_packet(self, out_packet):
+        packet_length = len(out_packet)
+        packet = bytearray(out_packet.getvalue())
+
+        buf = packet[:]
+
+        final_length = packet_length + 4
+        final = bytearray(final_length)
+        async with self._lock:
+            MapleAes.get_header(final, self.m_siv, packet_length, ServerConstants.SERVER_VERSION)
+            buf = Shanda.encrypt_transform(buf)
+            final[4:] = MapleAes.transform(buf, self.m_siv)
+
+        await self._loop.sock_sendall(self._socket, final)
+
+    async def send_packet_raw(self, packet):
+        await self._loop.sock_sendall(self._socket, packet.getvalue())
+
+    def manipulate_buffer(self, buffer):
+        buf = bytearray(buffer)[4:]
+
+        buf = MapleAes.transform(buf, self.m_riv)
+        buf = Shanda.decrypt_transform(buf)
+
+        return buf

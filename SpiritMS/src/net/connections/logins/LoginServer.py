@@ -1,6 +1,7 @@
 import socket
 
 from src.net.client.Client import Client
+from src.net.client.SocketClient import SocketClient
 from src.net.client.User import User
 from src.net.debug.Debug import Debug
 from threading import Thread
@@ -46,14 +47,19 @@ class LoginServer:
             # Listen for connections
             try:
                 client, address = self.socket_server.accept()
-                user = User(client)
-                c = Client(bytes(siv), bytes(riv))
-                c.write(Login.send_connect(bytes(siv), bytes(riv)))
+                maple_client = self.on_connection(client)
+                user = User(maple_client) # just adding all the clients to a list of users
                 self.users.append(user)
                 print(f"[CONNECTION] {address} has connected to the server")
+                maple_client.send_packet_raw(Login.send_connect(siv,riv))
             except Exception as e:
                 Debug.error(e)
                 break
+
+    async def on_connection(self, sock):
+        client = SocketClient(socket)
+        maple_client = await getattr(self, 'client_connect')(client)
+        return maple_client
 
     def get_users(self):
         return self.users
