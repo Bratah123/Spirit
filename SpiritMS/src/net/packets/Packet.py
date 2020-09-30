@@ -10,7 +10,7 @@ import copy
 
 from numpy.core import byte
 
-from src.net.Util import Util
+from src.net.util import Util
 
 
 class Packet:
