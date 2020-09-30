@@ -1,9 +1,8 @@
 import socket
 
 from src.net.client.Client import Client
-from src.net.client.SocketClient import SocketClient
 from src.net.client.User import User
-from src.net.debug import Debug
+from src.net.debug.Debug import Debug
 from threading import Thread
 
 from src.net.login.Login import Login

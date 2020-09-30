@@ -4,7 +4,7 @@ Static "class"
 Created: 8/21/2020
 """
 
-from src.net.packets.OutPacket import OutPacket
+from src.net.packets.OutPackets import OutPacket
 from src.net.packets.OutPacketRecv import OutPacketRecv
 from src.net.server import ServerConstants
 
