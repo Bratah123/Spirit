@@ -11,13 +11,13 @@ from src.net.server import ServerConstants
 
 
 class SocketClient:
-    def __init__(self, socket):
+    def __init__(self, socket, riv, siv):
         self._loop = asyncio.get_event_loop()
         self._socket = socket
         self._lock = asyncio.Lock()
         self.receive_size = 16384
-        self.riv = None
-        self.siv = None
+        self.riv = riv
+        self.siv = siv
         self._r_counter = 0
         self._s_counter = 0
         self._is_online = False

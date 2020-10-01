@@ -19,13 +19,13 @@ class Login:
         :param riv: byte[]
         :return: Packet
         """
-        send_packet = Packet()
+        send_packet = Packet(opcode=15)
 
-        send_packet.encode_short(15)
+        #send_packet.encode_short(15)
         send_packet.encode_short(ServerConstants.SERVER_VERSION)
         send_packet.encode_string(ServerConstants.MINOR_VERSION)
-        send_packet.encode_int(riv)  # encoding arrays
-        send_packet.encode_int(siv)  # encoding arrays
+        send_packet.encode_int(riv.value)  # encoding arrays
+        send_packet.encode_int(siv.value)  # encoding arrays
         send_packet.encode_byte(ServerConstants.LOCALE)
         send_packet.encode_byte(bytes(False))  # encode byte
 
