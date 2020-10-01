@@ -49,9 +49,6 @@ class Packet(ByteBuffer):
     def to_array(self):
         return self.getvalue()
 
-    def get_to_array(self):
-        return self.to_array(self.getvalue())
-
     def __len__(self):
         return len(self.getvalue())
 
@@ -68,7 +65,7 @@ class Packet(ByteBuffer):
     def to_string(self):
         if self.getvalue() is None:
             return ""
-        return Util.readable_byte_arr(self.get_to_array())
+        return self.getvalue()
 
     def clone(self):
         new_packet = Packet(self.data)

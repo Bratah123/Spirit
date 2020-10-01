@@ -13,21 +13,15 @@ class Login:
 
     @staticmethod
     def send_connect(siv, riv):
-        """
 
-        :param siv: byte[]
-        :param riv: byte[]
-        :return: Packet
-        """
         send_packet = Packet(opcode=15)
 
-        #send_packet.encode_short(15)
         send_packet.encode_short(ServerConstants.SERVER_VERSION)
         send_packet.encode_string(ServerConstants.MINOR_VERSION)
-        send_packet.encode_int(riv.value)  # encoding arrays
-        send_packet.encode_int(siv.value)  # encoding arrays
+        send_packet.encode_int(riv)
+        send_packet.encode_int(siv)
         send_packet.encode_byte(ServerConstants.LOCALE)
-        send_packet.encode_byte(bytes(False))  # encode byte
+        send_packet.encode_byte(False)  # encode byte
 
         return send_packet
 
@@ -47,7 +41,7 @@ class Login:
     def send_start_client():
         send_packet = Packet(OutPacket.CLIENT_START.value)
 
-        send_packet.encode_value(bytes(True))  # encode byte
+        send_packet.encode_value(True)  # encode byte
 
         return send_packet
 

@@ -1,4 +1,6 @@
 from src.net.debug.Debug import Debug
+from src.net.packets.byte_buffer.Packet import Packet
+from src.net.server import ServerConstants
 
 
 class PacketClient:
@@ -11,6 +13,26 @@ class PacketClient:
         self.logged_in = False
         self.world_id = None
         self.channel_id = None
+
+    async def initialize(self):
+        send_packet = Packet(opcode=15)
+
+        send_packet.encode_short(ServerConstants.SERVER_VERSION)
+        send_packet.encode_string(ServerConstants.MINOR_VERSION)
+        send_packet.encode_int(self.socket.riv.value)
+        send_packet.encode_int(self.socket.siv.value)
+        send_packet.encode_byte(ServerConstants.LOCALE)
+
+        await self.send_packet_raw(send_packet)
+
+        await self.socket.receive(self)
+
+
+    async def receive(self):
+        await self.socket.receive(self)
+
+    def dispatch(self, packet):
+        self._parent.dispatcher.push(self, packet)
 
     async def send_packet(self, packet):
         Debug.logs(packet.to_string())
@@ -25,11 +47,11 @@ class PacketClient:
         return self._parent
 
     @property
-    def get_ip(self):
+    def ip(self):
         return self.socket.identifier[0]
 
     @property
-    def get_data(self):
+    def data(self):
         return self._parent.data
 
 
