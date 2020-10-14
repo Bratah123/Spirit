@@ -24,22 +24,22 @@ class PacketClient:
         send_packet.encode_byte(ServerConstants.LOCALE)
 
         await self.send_packet_raw(send_packet)
+        # await self.send_packet_raw(send_packet)
 
         await self.socket.receive(self)
-
 
     async def receive(self):
         await self.socket.receive(self)
 
     def dispatch(self, packet):
-        self._parent.dispatcher.push(self, packet)
+        self._parent.packet_reader.push(self, packet)
 
     async def send_packet(self, packet):
-        Debug.logs(packet.to_string())
+        Debug.logs("OutPacket Opcode: " + str(packet.name) + " | " + str(packet.to_string()) + " |")
         await self.socket.send_packet(packet)
 
     async def send_packet_raw(self, packet):
-        Debug.logs(packet.to_string())
+        Debug.logs("OutPacket Opcode: " + str(packet.name) + " | " + str(packet.to_string()) + " |")
         await self.socket.send_packet_raw(packet)
 
     @property

@@ -7,7 +7,7 @@ Ported over from SwordieMS to Python SpiritMS src
 Created 8/21/2020
 """
 from src.net.packets.byte_buffer.ByteBuffer import ByteBuffer
-from src.net.util.Util import Util
+from src.net.util import Util
 from src.net.packets.OutPackets import OutPacket
 
 
@@ -22,6 +22,7 @@ class Packet(ByteBuffer):
 
     def __init__(self, data=None, opcode=None, raw=False):
 
+        self._data = None
         if data is None:
             data = b''
 
@@ -63,9 +64,7 @@ class Packet(ByteBuffer):
         return self._data[0] + (self._data[1] << 8)
 
     def to_string(self):
-        if self.getvalue() is None:
-            return ""
-        return self.getvalue()
+        return Util.to_string(self.getvalue())
 
     def clone(self):
         new_packet = Packet(self.data)

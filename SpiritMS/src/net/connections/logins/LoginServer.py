@@ -9,8 +9,8 @@ from src.net.debug.Debug import Debug
 from threading import Thread
 
 from src.net.handlers.PacketHandler import PacketHandler, packet_handler
-from src.net.login.Login import Login
 from src.net.packets.InPackets import InPacket
+from src.net.packets.PacketReader import PacketReader
 from src.net.packets.encryption.MapleIV import MapleIV
 from src.net.server import ServerConstants
 
@@ -29,12 +29,13 @@ class LoginServer:
         self._HOST = "127.0.0.1"
         self._BUFFER_SIZE = 512
         self._loop = get_event_loop()
-        self._packet_handlers = []
 
         self.socket_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.socket_server.setblocking(0)
+        self.socket_server.setblocking(False)
         self.socket_server.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
         self.users = []
+        self._packet_handlers = []
+        self._packet_reader = PacketReader(self)
 
         self.add_packet_handlers()
 
@@ -60,7 +61,7 @@ class LoginServer:
             # Listen for connections
             try:
                 client, address = await self._loop.sock_accept(self.socket_server)
-                client.setblocking(0)
+                client.setblocking(False)
                 client.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
                 user = User(client)
                 self.users.append(user)
@@ -77,7 +78,7 @@ class LoginServer:
         return maple_client
 
     async def client_connect(self, client):
-        return WvsLoginClient(self, socket=client)
+        return WvsLoginClient(parent=self, socket=client)
 
     def add_packet_handlers(self):
         import inspect
@@ -85,11 +86,22 @@ class LoginServer:
         members = inspect.getmembers(self)
         for _, member in members:
             # register all packet handlers for server
-
             if isinstance(member, PacketHandler) and member not in self._packet_handlers:
                 self._packet_handlers.append(member)
 
     def get_users(self):
         return self.users
+
+    @property
+    def packet_reader(self):
+        return self._packet_reader
+
+    @packet_handler(opcode=InPacket.PERMISSION_REQUEST)
+    async def handle_permission_request(self, client, packet):
+        locale = packet.decode_byte()
+        version = packet.decode_short()
+        minor_version = packet.decode_string()
+        if locale != ServerConstants.LOCALE or version != ServerConstants.SERVER_VERSION:
+            await client.close()
 
     # TODO: Add a function that handles clients disconnecting

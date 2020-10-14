@@ -42,17 +42,20 @@ class SocketClient:
                 if not recv_buffer:
                     client._parent.on_client_disconnect(client)
                     return
-                else:
-                    recv_buffer = self._overflow
-                    self._overflow = None
-                if self.riv:
-                    async with self._lock:
-                        length = MapleAes.get_length(recv_buffer)
-                        if length != len(recv_buffer) - 4:
-                            self._overflow = recv_buffer[length + 4:]
-                            recv_buffer = recv_buffer[:length + 4]
-                        recv_buffer = self.manipulate_buffer(recv_buffer)
-        client.dispatch(Packet(recv_buffer))
+
+            else:
+                recv_buffer = self._overflow
+                self._overflow = None
+
+            if self.riv:
+                async with self._lock:
+                    length = MapleAes.get_length(recv_buffer)
+                    if length != len(recv_buffer) - 4:
+                        self._overflow = recv_buffer[length + 4:]
+                        recv_buffer = recv_buffer[:length + 4]
+                    recv_buffer = self.manipulate_buffer(recv_buffer)
+
+            client.dispatch(Packet(recv_buffer))
 
     async def send_packet(self, out_packet):
         packet_length = len(out_packet)
@@ -63,9 +66,9 @@ class SocketClient:
         final_length = packet_length + 4
         final = bytearray(final_length)
         async with self._lock:
-            MapleAes.get_header(final, self.m_siv, packet_length, ServerConstants.SERVER_VERSION)
+            MapleAes.get_header(final, self.siv, packet_length, ServerConstants.SERVER_VERSION)
             buf = Shanda.encrypt_transform(buf)
-            final[4:] = MapleAes.transform(buf, self.m_siv)
+            final[4:] = MapleAes.transform(buf, self.siv)
 
         await self._loop.sock_sendall(self._socket, final)
 
@@ -75,7 +78,7 @@ class SocketClient:
     def manipulate_buffer(self, buffer):
         buf = bytearray(buffer)[4:]
 
-        buf = MapleAes.transform(buf, self.m_riv)
+        buf = MapleAes.transform(buf, self.riv)
         buf = Shanda.decrypt_transform(buf)
 
         return buf

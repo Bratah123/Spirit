@@ -1,4 +1,5 @@
 class Shanda:
+
     @staticmethod
     def decrypt_transform(data):
         for j in range(1, 7):
@@ -10,24 +11,24 @@ class Shanda:
                     cur = data[i]
                     cur = (cur - 0x48) & 0xFF
                     cur = ~cur & 0xFF
-                    cur = data.roll_left(cur, data_length & 0xFF)
+                    cur = Shanda.roll_left(cur, data_length & 0xFF)
                     next_remember = cur
                     cur ^= remember
                     remember = next_remember
                     cur = (cur - data_length) & 0xFF
-                    cur = data.roll_right(cur, 3)
+                    cur = Shanda.roll_right(cur, 3)
                     data[i] = cur
                     data_length -= 1
             else:
                 for i in reversed(range(len(data))):
                     cur = data[i]
-                    cur = data.roll_left(cur, 3)
+                    cur = Shanda.roll_left(cur, 3)
                     cur ^= 0x13
                     next_remember = cur
                     cur ^= remember
                     remember = next_remember
                     cur = (cur - data_length) & 0xFF
-                    cur = data.roll_right(cur, 4) & 0xFF
+                    cur = Shanda.roll_right(cur, 4) & 0xFF
                     data[i] = cur
                     data_length -= 1
 
@@ -43,11 +44,11 @@ class Shanda:
             xor_key = 0
             i = 0
             while i < len(data):
-                cur = data.roll_left(data[i], 3)
+                cur = Shanda.roll_left(data[i], 3)
                 cur = cur + length
                 cur = (cur ^ xor_key) & 0xFF
                 xor_key = cur
-                cur = ~data.roll_right(cur, length & 0xFF) & 0xFF
+                cur = ~Shanda.roll_right(cur, length & 0xFF) & 0xFF
                 cur = (cur + 0x48) & 0xFF
                 data[i] = cur
                 b[str(i)] = cur
@@ -59,12 +60,12 @@ class Shanda:
             i = len(data) - 1
 
             while i >= 0:
-                cur = data.roll_left(data[i], 4)
+                cur = Shanda.roll_left(data[i], 4)
                 cur += length
                 cur = (cur ^ xor_key) & 0xFF
                 xor_key = cur
                 cur ^= 0x13
-                cur = data.roll_right(cur, 3)
+                cur = Shanda.roll_right(cur, 3)
                 data[i] = cur
                 b[str(i)] = cur
                 length -= 1

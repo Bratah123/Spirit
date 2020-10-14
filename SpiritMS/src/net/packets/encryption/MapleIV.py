@@ -46,21 +46,21 @@ class MapleIV:
 
             a = seed[1]
             b = a
-            b = self._shuffle[b & 0xFF]
+            b = self._shuffle_bytes[b & 0xFF]
             b -= temp_p_iv
             seed[0] += b
             b = seed[2]
-            b ^= self._shuffle[int(temp_p_iv) & 0xFF]
+            b ^= self._shuffle_bytes[int(temp_p_iv) & 0xFF]
             a -= int(b) & 0xFF
             seed[1] = a
             a = seed[3]
             b = a
             a -= seed[0] & 0xFF
-            b = self._shuffle[b & 0xFF]
+            b = self._shuffle_bytes[b & 0xFF]
             b += temp_p_iv
             b ^= seed[2]
             seed[2] = b & 0xFF
-            a += self._shuffle[temp_p_iv & 0xFF] & 0xFF
+            a += self._shuffle_bytes[temp_p_iv & 0xFF] & 0xFF
             seed[3] = a
 
             c = seed[0] & 0xFF

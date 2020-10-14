@@ -41,7 +41,7 @@ class Login:
     def send_start_client():
         send_packet = Packet(OutPacket.CLIENT_START.value)
 
-        send_packet.encode_value(True)  # encode byte
+        send_packet.encode_byte(False)  # encode byte
 
         return send_packet
 
