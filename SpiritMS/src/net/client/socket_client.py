@@ -1,7 +1,9 @@
 import asyncio
+from random import randint
 
 from src.net.packets.byte_buffer.packet import Packet
 from src.net.packets.encryption.maple_aes import MapleAes
+from src.net.packets.encryption.maple_iv import MapleIV
 from src.net.packets.encryption.shanda import Shanda
 from src.net.server import server_constants
 
@@ -11,7 +13,7 @@ from src.net.server import server_constants
 
 
 class SocketClient:
-    def __init__(self, socket, riv, siv):
+    def __init__(self, socket, riv=MapleIV(randint(0, 2 ** 31 - 1)), siv=MapleIV(randint(0, 2 ** 31 - 1))):
         self._loop = asyncio.get_event_loop()
         self._socket = socket
         self._lock = asyncio.Lock()

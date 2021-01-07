@@ -1,4 +1,4 @@
-from src.net.debug.debug import Debug
+from src.net.debug import debug
 
 
 class PacketReader:
@@ -6,7 +6,7 @@ class PacketReader:
         self.parent = parent
 
     def push(self, client, packet):
-        Debug.logs(f"InPacket Opcode: {packet.name}: | {packet.to_string()} |")
+        debug.logs(f"InPacket Opcode: {packet.name}: | {packet.to_string()} |")
 
         try:
             coro = None
@@ -20,7 +20,7 @@ class PacketReader:
                 raise AttributeError
 
         except AttributeError:
-            Debug.warn(
+            debug.warn(
                 f"{self.parent.name} Unhandled InPacket in : <w>{packet.name}</w>")
 
         else:

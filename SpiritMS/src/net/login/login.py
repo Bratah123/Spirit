@@ -21,7 +21,7 @@ class Login:
         send_packet.encode_int(riv)
         send_packet.encode_int(siv)
         send_packet.encode_byte(server_constants.LOCALE)
-        send_packet.encode_byte(False)  # encode byte
+        #send_packet.encode_byte(False)  # encode byte
 
         return send_packet
 
