@@ -1,4 +1,4 @@
-from src.net.client.SocketClient import SocketClient
+from src.net.client.socket_client import SocketClient
 
 
 class Client(SocketClient):

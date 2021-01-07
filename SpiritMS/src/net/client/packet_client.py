@@ -1,6 +1,6 @@
-from src.net.debug.Debug import Debug
-from src.net.packets.byte_buffer.Packet import Packet
-from src.net.server import ServerConstants
+from src.net.debug.debug import Debug
+from src.net.packets.byte_buffer.packet import Packet
+from src.net.server import server_constants
 
 
 class PacketClient:
@@ -17,11 +17,11 @@ class PacketClient:
     async def initialize(self):
         send_packet = Packet(opcode=15)
 
-        send_packet.encode_short(ServerConstants.SERVER_VERSION)
-        send_packet.encode_string(ServerConstants.MINOR_VERSION)
+        send_packet.encode_short(server_constants.SERVER_VERSION)
+        send_packet.encode_string(server_constants.MINOR_VERSION)
         send_packet.encode_int(self.socket.riv.value)
         send_packet.encode_int(self.socket.siv.value)
-        send_packet.encode_byte(ServerConstants.LOCALE)
+        send_packet.encode_byte(server_constants.LOCALE)
 
         await self.send_packet_raw(send_packet)
         # await self.send_packet_raw(send_packet)

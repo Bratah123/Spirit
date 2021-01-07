@@ -2,17 +2,17 @@ import socket
 from asyncio import get_event_loop, create_task
 from random import randint
 
-from src.net.client.PacketClient import WvsLoginClient
-from src.net.client.SocketClient import SocketClient
-from src.net.client.User import User
-from src.net.debug.Debug import Debug
+from src.net.client.packet_client import WvsLoginClient
+from src.net.client.socket_client import SocketClient
+from src.net.client.user import User
+from src.net.debug.debug import Debug
 from threading import Thread
 
-from src.net.handlers.PacketHandler import PacketHandler, packet_handler
-from src.net.packets.InPackets import InPacket
-from src.net.packets.PacketReader import PacketReader
-from src.net.packets.encryption.MapleIV import MapleIV
-from src.net.server import ServerConstants
+from src.net.handlers.packet_handler import PacketHandler, packet_handler
+from src.net.packets.recv_ops import InPacket
+from src.net.packets.packet_reader import PacketReader
+from src.net.packets.encryption.maple_iv import MapleIV
+from src.net.server import server_constants
 
 """
 Simple Client to Server Communications for Logging in.
@@ -55,11 +55,11 @@ class LoginServer:
         self.socket_server.close()
 
     async def listen_connections(self):
-        siv = MapleIV(randint(0, 2 ** 31 - 1))
-        riv = MapleIV(randint(0, 2 ** 31 - 1))
         while True:
             # Listen for connections
             try:
+                siv = MapleIV(randint(0, 2 ** 31 - 1))
+                riv = MapleIV(randint(0, 2 ** 31 - 1))
                 client, address = await self._loop.sock_accept(self.socket_server)
                 client.setblocking(False)
                 client.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
@@ -101,7 +101,9 @@ class LoginServer:
         locale = packet.decode_byte()
         version = packet.decode_short()
         minor_version = packet.decode_string()
-        if locale != ServerConstants.LOCALE or version != ServerConstants.SERVER_VERSION:
+        if locale != server_constants.LOCALE or version != server_constants.SERVER_VERSION:
             await client.close()
 
-    # TODO: Add a function that handles clients disconnecting
+    def on_client_disconnect(self, client):
+        self.users.remove(client)
+        print("A Client has disconnected from the server!")

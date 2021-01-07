@@ -6,9 +6,9 @@ Ported over from SwordieMS to Python SpiritMS src
 @author Brandon
 Created 8/21/2020
 """
-from src.net.packets.byte_buffer.ByteBuffer import ByteBuffer
-from src.net.util import Util
-from src.net.packets.OutPackets import OutPacket
+from src.net.packets.byte_buffer.byte_buffer import ByteBuffer
+from src.net.util import util
+from src.net.packets.send_ops import OutPacket
 
 
 class Packet(ByteBuffer):
@@ -64,7 +64,7 @@ class Packet(ByteBuffer):
         return self._data[0] + (self._data[1] << 8)
 
     def to_string(self):
-        return Util.to_string(self.getvalue())
+        return util.to_string(self.getvalue())
 
     def clone(self):
         new_packet = Packet(self.data)

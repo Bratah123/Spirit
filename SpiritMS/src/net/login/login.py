@@ -4,9 +4,9 @@ Static "class"
 Created: 8/21/2020
 """
 
-from src.net.packets.OutPackets import OutPacket
-from src.net.packets.byte_buffer.Packet import Packet
-from src.net.server import ServerConstants
+from src.net.packets.send_ops import OutPacket
+from src.net.packets.byte_buffer.packet import Packet
+from src.net.server import server_constants
 
 
 class Login:
@@ -16,11 +16,11 @@ class Login:
 
         send_packet = Packet(opcode=15)
 
-        send_packet.encode_short(ServerConstants.SERVER_VERSION)
-        send_packet.encode_string(ServerConstants.MINOR_VERSION)
+        send_packet.encode_short(server_constants.SERVER_VERSION)
+        send_packet.encode_string(server_constants.MINOR_VERSION)
         send_packet.encode_int(riv)
         send_packet.encode_int(siv)
-        send_packet.encode_byte(ServerConstants.LOCALE)
+        send_packet.encode_byte(server_constants.LOCALE)
         send_packet.encode_byte(False)  # encode byte
 
         return send_packet

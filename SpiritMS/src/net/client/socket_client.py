@@ -1,9 +1,9 @@
 import asyncio
 
-from src.net.packets.byte_buffer.Packet import Packet
-from src.net.packets.encryption.MapleAes import MapleAes
-from src.net.packets.encryption.Shanda import Shanda
-from src.net.server import ServerConstants
+from src.net.packets.byte_buffer.packet import Packet
+from src.net.packets.encryption.maple_aes import MapleAes
+from src.net.packets.encryption.shanda import Shanda
+from src.net.server import server_constants
 
 """
     Credits go to Rooba for this SocketClient
@@ -66,7 +66,7 @@ class SocketClient:
         final_length = packet_length + 4
         final = bytearray(final_length)
         async with self._lock:
-            MapleAes.get_header(final, self.siv, packet_length, ServerConstants.SERVER_VERSION)
+            MapleAes.get_header(final, self.siv, packet_length, server_constants.SERVER_VERSION)
             buf = Shanda.encrypt_transform(buf)
             final[4:] = MapleAes.transform(buf, self.siv)
 

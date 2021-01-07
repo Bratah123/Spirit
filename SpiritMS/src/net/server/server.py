@@ -1,6 +1,6 @@
 import asyncio
 
-from src.net.connections.logins.LoginServer import LoginServer
+from src.net.connections.logins.login_server import LoginServer
 
 
 async def main():

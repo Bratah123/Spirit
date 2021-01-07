@@ -1,8 +1,8 @@
-from src.net.connections.logins.LoginServer import LoginServer
-from src.net.handlers.PacketHandler import packet_handler
-from src.net.login.Login import Login
-from src.net.packets.InPackets import InPacket
-from src.net.server import ServerConstants
+from src.net.connections.logins.login_server import LoginServer
+from src.net.handlers.packet_handler import packet_handler
+from src.net.login.login import Login
+from src.net.packets.recv_ops import InPacket
+from src.net.server import server_constants
 
 
 class LoginHandler:
@@ -12,7 +12,7 @@ class LoginHandler:
         locale = packet.decode_byte()
         version = packet.decode_short()
         minor_version = packet.decode_string()
-        if locale != ServerConstants.LOCALE or version != ServerConstants.SERVER_VERSION:
+        if locale != server_constants.LOCALE or version != server_constants.SERVER_VERSION:
             client.close()
 
     @packet_handler(opcode=InPacket.USE_AUTH_SERVER)

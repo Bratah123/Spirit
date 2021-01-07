@@ -1,4 +1,4 @@
-from src.net.debug.Debug import Debug
+from src.net.debug.debug import Debug
 
 
 class PacketReader:
