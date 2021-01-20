@@ -1,3 +1,5 @@
+from src.net.connections.database import database_manager
+from src.net.enum.login_type import LoginType
 from src.net.handlers.packet_handler import packet_handler
 from src.net.login.login import Login
 from src.net.packets.recv_ops import InPacket
@@ -28,3 +30,24 @@ class LoginHandler:
         await client.send_packet(Login.send_auth_response(
             OutPacket.PRIVATE_SERVER_PACKET.value ^ packet.decode_int()
         ))
+
+    @packet_handler(opcode=InPacket.CHECK_LOGIN_AUTH_INFO)
+    async def handle_check_login_auth_info(self, client, packet):
+        sid = packet.decode_byte()
+        password = packet.decode_string()
+        username = packet.decode_string()
+        machine_id = packet.decode_buffer(16)
+
+        success = False
+        result = None
+        user = None
+        # user = await database_manager.get_user_from_db(username)
+
+        if user is not None:
+            pass
+        else:
+            result = LoginType.NotRegistered
+
+        await client.send_packet(Login.check_password_result(success, result, user))
+
+
