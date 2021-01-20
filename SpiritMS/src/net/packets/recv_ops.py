@@ -565,9 +565,7 @@ class InPacket(Enum):
 
     B_E_G_I_N__E_V_E_N_T__G_R_O_U_P = 648
     INVITATION_ACCEPT_USER = 649 # was
-    IACCEPT
     INVITATION_CANCEL_USER = 650 # was
-    CANCLE
     EVENT_GROUP_LEAVE = 651
     B_E_G_I_N__E_V_E_N_T__G_R_O_U_P__P_A_C_K_E_T = 652
     E_N_D__E_V_E_N_T__G_R_O_U_P__P_A_C_K_E_T = 653
@@ -667,8 +665,7 @@ class InPacket(Enum):
     FAMILIAR_SPAWN_REQUEST = 754
     FAMILIAR_RENAME_REQUEST = 755
 
-    # Beast
-    Tamer
+    # Beast Tamer
     BEAST_TAMER_REGROUP_REQUEST = 790
 
     FAMILIAR_MOVE = 811
