@@ -1,7 +1,5 @@
-import asyncio
 import signal
 from asyncio import get_event_loop
-from http.server import HTTPServer
 
 from src.net.connections.logins.login_server import LoginServer
 from src.net.debug import debug
@@ -33,11 +31,10 @@ class ServerApp:
         except NotImplementedError:
             pass
 
-        #def stop_loop_on_completion(f):
-            #loop.stop()
+        def stop_loop_on_completion(f):
+            loop.stop()
 
         future = loop.create_task(self.start())
-        #future.add_done_callback(stop_loop_on_completion)
 
         try:
             loop.run_forever()

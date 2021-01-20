@@ -11,8 +11,8 @@ class PacketReader:
         try:
             coro = None
 
-            for packet_handler in self.parent._packet_handlers:
-                if packet_handler.op_code == packet.op_code:
+            for packet_handler in self.parent.packet_handlers:
+                if packet_handler.opcode == packet.opcode:
                     coro = packet_handler.callback
                     break
 
@@ -21,7 +21,7 @@ class PacketReader:
 
         except AttributeError:
             debug.warn(
-                f"{self.parent.name} Unhandled InPacket in : <w>{packet.name}</w>")
+                f"{self.parent.name} Unhandled InPacket in : {packet.name}")
 
         else:
             self.parent._loop.create_task(

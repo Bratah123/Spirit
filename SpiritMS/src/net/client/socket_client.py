@@ -4,7 +4,6 @@ from random import randint
 from src.net.packets.byte_buffer.packet import Packet
 from src.net.packets.encryption.maple_aes import MapleAes
 from src.net.packets.encryption.maple_iv import MapleIV
-from src.net.packets.encryption.shanda import Shanda
 from src.net.server import server_constants
 
 """
@@ -69,7 +68,6 @@ class SocketClient:
         final = bytearray(final_length)
         async with self._lock:
             MapleAes.get_header(final, self.siv, packet_length, server_constants.SERVER_VERSION)
-            buf = Shanda.encrypt_transform(buf)
             final[4:] = MapleAes.transform(buf, self.siv)
 
         await self._loop.sock_sendall(self._socket, final)
@@ -81,6 +79,5 @@ class SocketClient:
         buf = bytearray(buffer)[4:]
 
         buf = MapleAes.transform(buf, self.riv)
-        buf = Shanda.decrypt_transform(buf)
 
         return buf

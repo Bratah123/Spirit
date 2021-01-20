@@ -1,5 +1,7 @@
 from src.net.debug import debug
+from src.net.login.login import Login
 from src.net.packets.byte_buffer.packet import Packet
+from src.net.packets.send_ops import OutPacket
 from src.net.server import server_constants
 
 
@@ -15,19 +17,25 @@ class PacketClient:
         self.channel_id = None
 
     async def initialize(self):
-        send_packet = Packet(opcode=0xF)
+        send_packet = Packet(opcode=15)
 
         send_packet.encode_short(server_constants.SERVER_VERSION)
         send_packet.encode_string(server_constants.MINOR_VERSION)
         send_packet.encode_int(self.socket.riv.value)
         send_packet.encode_int(self.socket.siv.value)
         send_packet.encode_byte(server_constants.LOCALE)
-        send_packet.encode_byte(0)
+        send_packet.encode_byte(False)
 
         await self.send_packet_raw(send_packet)
-        # await self.send_packet_raw(send_packet)
 
         await self.receive()
+
+    async def init_auth_server(self):
+        send_packet = Packet(opcode=OutPacket.AUTH_SERVER)
+
+        send_packet.encode_byte(False)
+
+        await self.send_packet(send_packet)
 
     async def receive(self):
         await self.socket.receive(self)

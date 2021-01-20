@@ -1,9 +1,9 @@
 from src.net.client.packet_client import WvsLoginClient
-from src.net.handlers.packet_handler import packet_handler
-from src.net.packets.recv_ops import InPacket
-from src.net.server import server_constants
+from src.net.handlers.login_handler import LoginHandler
+from src.net.handlers.packet_handler import PacketHandler
 from src.net.server.server_base import ServerBase
 from src.net.server.server_constants import LOGIN_PORT
+import inspect
 
 """
 Simple Client to Server Communications for Logging in.
@@ -17,6 +17,11 @@ class LoginServer(ServerBase):
     def __init__(self, parent):
         super().__init__(parent, LOGIN_PORT, 'LoginServer')
         self._worlds = []
+        self._handlers = [
+            LoginHandler()
+        ]
+
+        self.add_packet_handlers()
 
     """
         Params:
@@ -35,10 +40,11 @@ class LoginServer(ServerBase):
     async def client_connect(self, client):
         return WvsLoginClient(self, client)
 
-    @packet_handler(opcode=InPacket.PERMISSION_REQUEST)
-    async def handle_permission_request(self, client, packet):
-        locale = packet.decode_byte()
-        version = packet.decode_short()
-        minor_version = packet.decode_string()
-        if locale != server_constants.LOCALE or version != server_constants.SERVER_VERSION:
-            await client.close()
+    def add_packet_handlers(self):
+        for handler in self._handlers:
+            members = inspect.getmembers(handler)
+            for _, member in members:
+                # register all packet handlers for server
+
+                if isinstance(member, PacketHandler) and member not in self._packet_handlers:
+                    self._packet_handlers.append(member)

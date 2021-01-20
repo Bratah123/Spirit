@@ -29,9 +29,8 @@ class ServerBase:
         self.is_alive = False
         self._clients = []
         self._packet_handlers = []
-        self._dispatcher = PacketReader(self)
+        self._packet_reader = PacketReader(self)
 
-        self.add_packet_handlers()
 
     async def start(self):
         self.is_alive = True
@@ -57,16 +56,6 @@ class ServerBase:
 
         debug.logs(f"Client Disconnected {client.ip}")
 
-    def add_packet_handlers(self):
-        import inspect
-
-        members = inspect.getmembers(self)
-        for _, member in members:
-            # register all packet handlers for server
-
-            if isinstance(member, PacketHandler) and member not in self._packet_handlers:
-                self._packet_handlers.append(member)
-
     async def wait_until_ready(self):
         """|coro|
 
@@ -82,8 +71,8 @@ class ServerBase:
         return self._parent.data
 
     @property
-    def dispatcher(self):
-        return self._dispatcher
+    def packet_reader(self):
+        return self._packet_reader
 
     @property
     def name(self):
@@ -100,3 +89,7 @@ class ServerBase:
     @property
     def population(self):
         return len(self._clients)
+
+    @property
+    def packet_handlers(self):
+        return self._packet_handlers
