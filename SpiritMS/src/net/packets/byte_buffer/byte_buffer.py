@@ -65,6 +65,14 @@ class ByteBuffer(BytesIO):
         self.write(bytes.fromhex(string))
         return self
 
+    def encode_ft(self, filetime):
+        if filetime is None:
+            self.encode_long(0)
+        else:
+            pass
+            # TODO, code file time
+            # filetime.encode(self)
+
     def decode_byte(self):
         return self.read(1)[0]
 

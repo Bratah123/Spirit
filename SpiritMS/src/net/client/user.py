@@ -28,6 +28,7 @@ class User:
             has_censored_nx_login_id="",
             censored_nx_login_id="",
             character_slots=4,
+            creation_date=None,
             maple_points=0,
             nx_prepaid=0,
             ban_reason=""
@@ -51,6 +52,7 @@ class User:
         self._has_censored_nx_login_id = has_censored_nx_login_id
         self._censored_nx_login_id = censored_nx_login_id
         self._character_slots = character_slots
+        self._creation_date = creation_date
         self._maple_points = maple_points
         self._nx_prepaid = nx_prepaid
         self._ban_reason = ban_reason
@@ -90,6 +92,7 @@ class User:
             grade_code=user_stats['gradecode'],
             censored_nx_login_id=user_stats['censorednxloginid'],
             character_slots=user_stats['characterslots'],
+            creation_date=user_stats['creationdate'],
             maple_points=db_user.maple_points,
             nx_prepaid=db_user.nx_prepaid,
             ban_reason=db_user.ban_reason
@@ -184,3 +187,7 @@ class User:
     @property
     def chat_unblock_date(self):
         return self._chat_unblock_date
+
+    @property
+    def creation_date(self):
+        return self._creation_date

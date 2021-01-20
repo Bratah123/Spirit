@@ -59,20 +59,10 @@ class Login:
         return send_packet
 
     @staticmethod
-    def check_password_result(success: bool, login_type: LoginType, user: User):
-        """
+    def check_password_result(success: bool, login_type: LoginType, user: User) -> Packet:
 
-        Parameters
-        ----------
-        success: boolean
-        login_type: LoginType
-        user: User
-
-        Returns: Packet
-        -------
-
-        """
         send_packet = Packet(opcode=OutPacket.CHECK_PASSWORD_RESULT)
+
         if success:
             send_packet.encode_byte(LoginType.Success.value)
             send_packet.encode_byte(0)
@@ -97,11 +87,17 @@ class Login:
             send_packet.encode_long(user.chat_unblock_date)
             send_packet.encode_int(user.character_slots + 3)
             job_constants.encode(send_packet)
-
-
-
+            send_packet.encode_byte(user.grade_code)
+            send_packet.encode_int(-1)
+            send_packet.encode_byte(0)  # Unknown
+            send_packet.encode_byte(0)  # Unknown
+            send_packet.encode_ft(user.creation_date)
         elif login_type == LoginType.Blocked:
-            pass
+            send_packet.encode_byte(login_type.value)
+            send_packet.encode_byte(0)
+            send_packet.encode_int(0)
+            send_packet.encode_byte(0)
+            send_packet.encode_ft(None) # FileTime is not handled atm
         else:
             send_packet.encode_byte(login_type.value)
             send_packet.encode_byte(0)
