@@ -4,6 +4,7 @@ Static "class"
 Created: 8/21/2020
 """
 from src.net.client.user import User
+from src.net.constant import job_constants
 from src.net.enum.login_type import LoginType
 from src.net.packets.send_ops import OutPacket
 from src.net.packets.byte_buffer.packet import Packet
@@ -95,7 +96,7 @@ class Login:
             send_packet.encode_long(user.chat_unblock_date)
             send_packet.encode_long(user.chat_unblock_date)
             send_packet.encode_int(user.character_slots + 3)
-
+            job_constants.encode(send_packet)
 
 
 
