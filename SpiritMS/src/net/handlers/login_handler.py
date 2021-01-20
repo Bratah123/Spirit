@@ -40,7 +40,7 @@ class LoginHandler:
 
         success = False
         result = None
-        user = None
+        user = await database_manager.get_user_from_db(username)
         # user = await database_manager.get_user_from_db(username)
 
         if user is not None:
