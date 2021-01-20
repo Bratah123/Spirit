@@ -1,4 +1,6 @@
+from src.net.client.character.broadcast_msg import BroadcastMsg
 from src.net.connections.database import database_manager
+from src.net.connections.packet.wvs_context import WvsContext
 from src.net.enum.login_type import LoginType
 from src.net.handlers.packet_handler import packet_handler
 from src.net.login.login import Login
@@ -41,10 +43,13 @@ class LoginHandler:
         success = False
         result = None
         user = await database_manager.get_user_from_db(username)
-        # user = await database_manager.get_user_from_db(username)
 
         if user is not None:
-            pass
+            if password.lower() == "fixme":
+                await client.send_packet(
+                    WvsContext.broadcast_msg(BroadcastMsg.pop_up_message("Your account is now logged out"))
+                )
+
         else:
             result = LoginType.NotRegistered
 
