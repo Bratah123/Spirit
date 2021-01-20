@@ -6,7 +6,7 @@ class BroadcastMsg:
     def __init__(self, string1="", broadcast_type=None):
         self.broadcast_msg_type = broadcast_type
         self.item = None
-        self.string1 = ""
+        self.string1 = string1
         self.string2 = ""
         self.string3 = ""
         self.arg1 = 0
