@@ -1,7 +1,10 @@
 # SpiritMSPy
 Maplestory V176
 
-A Failed attempt for a MapleStory python server emulator. I will possibly try to fix at a later date!
+A MapleStory Server Emulator in Python.
+
+Current Progress:
+- We are now able to get to login screen!
 
 Inspirations:
   - Rooba
