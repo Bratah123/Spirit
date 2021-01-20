@@ -1,4 +1,5 @@
 from src.net.client.character.broadcast_msg import BroadcastMsg
+from src.net.client.user import User
 from src.net.connections.database import database_manager
 from src.net.connections.packet.wvs_context import WvsContext
 from src.net.enum.login_type import LoginType
@@ -42,14 +43,21 @@ class LoginHandler:
 
         success = False
         result = None
-        user = await database_manager.get_user_from_db(username)
+        # db_user is a database object, setting anything would set it in the database: SwordieDB()
+        db_user = await database_manager.get_user_from_db(username)
+        # this user is the User object in the source
+        user = None
 
-        if user is not None:
+        if db_user is not None:
             if password.lower() == "fixme":
                 await client.send_packet(
                     WvsContext.broadcast_msg(BroadcastMsg.pop_up_message("Your account is now logged out"))
                 )
-
+            db_password = db_user.password
+            success = db_password == password
+            result = LoginType.Success if success else LoginType.IncorrectPassword
+            if success:
+                user = await User.get_user_from_dbuser(db_user)
         else:
             result = LoginType.NotRegistered
 
