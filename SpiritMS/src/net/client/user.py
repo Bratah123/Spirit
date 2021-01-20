@@ -82,7 +82,7 @@ class User:
             vote_point=db_user.vote_points,
             donation_points=db_user.donation_points,
             age=user_stats['age'],
-            vip_grade=user_stats['vip_grade'],
+            vip_grade=user_stats['vipgrade'],
             block_reason=user_stats['nblockreason'],
             gender=user_stats['gender'],
             msg2=user_stats['msg2'],

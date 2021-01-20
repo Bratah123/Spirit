@@ -2,9 +2,11 @@ from src.net.client.character.broadcast_msg import BroadcastMsg
 from src.net.client.user import User
 from src.net.connections.database import database_manager
 from src.net.connections.packet.wvs_context import WvsContext
+from src.net.debug import debug
 from src.net.enum.login_type import LoginType
 from src.net.handlers.packet_handler import packet_handler
 from src.net.login.login import Login
+from src.net.packets.byte_buffer.packet import Packet
 from src.net.packets.recv_ops import InPacket
 from src.net.packets.send_ops import OutPacket
 from src.net.server import server_constants
@@ -63,4 +65,29 @@ class LoginHandler:
 
         await client.send_packet(Login.check_password_result(success, result, user))
 
+    @packet_handler(opcode=InPacket.CLIENT_ERROR)
+    async def handle_client_error(self, client, packet: Packet):
+        client.close()
+        if packet.get_length() < 8:
+            debug.error(f"Error: {packet.to_string()}")
+            return
+        error_str_type = packet.decode_short()
+        type_str = ""
 
+        if error_str_type == 0x01:
+            type_str = "SendBackupPacket"
+        elif error_str_type == 0x02:
+            type_str = "CrashReport"
+        elif error_str_type == 0x03:
+            type_str = "Exception"
+
+        error_type = packet.decode_int()
+        data_length = packet.decode_short()
+        unk1 = packet.decode_int()
+
+        opcode = packet.decode_short()
+        debug.error(f"Error {error_type} at Opcode: {opcode}")
+
+    @packet_handler(opcode=InPacket.WORLD_LIST_REQUEST)
+    async def handle_world_list_request(self, client, packet):
+        pass

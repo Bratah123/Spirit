@@ -86,4 +86,4 @@ def encode(out_packet: Packet):
         job_flag = job_info[1]
         job_enum = job_info[2]
         out_packet.encode_byte(job_flag.value)
-        out_packet.encode_byte(job_flag.value)
+        out_packet.encode_short(job_flag.value)

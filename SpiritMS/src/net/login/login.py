@@ -71,7 +71,7 @@ class Login:
             send_packet.encode_int(user.user_id)
             send_packet.encode_byte(user.gender)
             send_packet.encode_byte(user.msg2)
-            send_packet.encode_int(user.acc_type.val)
+            send_packet.encode_int(user.acc_type.value)
             send_packet.encode_int(user.age)
 
             has_censored = user.has_censored_nx_login_id
@@ -88,7 +88,7 @@ class Login:
             send_packet.encode_int(user.character_slots + 3)
             job_constants.encode(send_packet)
             send_packet.encode_byte(user.grade_code)
-            send_packet.encode_int(-1)
+            send_packet.encode_int(0)  # Enable Star Planet
             send_packet.encode_byte(0)  # Unknown
             send_packet.encode_byte(0)  # Unknown
             send_packet.encode_ft(user.creation_date)
@@ -97,7 +97,7 @@ class Login:
             send_packet.encode_byte(0)
             send_packet.encode_int(0)
             send_packet.encode_byte(0)
-            send_packet.encode_ft(None) # FileTime is not handled atm
+            send_packet.encode_ft(None)  # FileTime is not handled atm
         else:
             send_packet.encode_byte(login_type.value)
             send_packet.encode_byte(0)

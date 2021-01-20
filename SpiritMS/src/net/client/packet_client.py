@@ -86,6 +86,9 @@ class WvsLoginClient(PacketClient):
             .account(id=self.account.id) \
             .get_characters(world_id=world_id)
 
+    def close(self):
+        self.socket.close()
+
     @property
     def account_id(self):
         return self.account.id if getattr(self.account, 'id') else - 1
