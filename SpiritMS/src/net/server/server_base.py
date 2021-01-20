@@ -1,8 +1,7 @@
-from asyncio import get_event_loop, create_task, Event, Task
-from src.net.debug import debug
+from asyncio import get_event_loop, Event
 
 from src.net.client.socket_client import SocketClient
-from src.net.handlers.packet_handler import PacketHandler
+from src.net.debug import debug
 from src.net.packets.packet_reader import PacketReader
 from src.net.server.client_listener import ClientListener
 from src.net.server.server_constants import HOST_IP
@@ -30,7 +29,6 @@ class ServerBase:
         self._clients = []
         self._packet_handlers = []
         self._packet_reader = PacketReader(self)
-
 
     async def start(self):
         self.is_alive = True
