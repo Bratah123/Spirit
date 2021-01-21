@@ -122,7 +122,7 @@ class LoginHandler:
         if user is not None and world is not None and world.get_channel_by_id(channel) is not None:
             if account is None:
                 account = Account(user=user, world_id=world_id)
-                user.add_account(user)
+                user.add_account(account)
             client.account = account
             client.wid = world_id
             client.channel = channel
@@ -148,4 +148,6 @@ class LoginHandler:
 
     @packet_handler(opcode=InPacket.WORLD_INFO_REQUEST)
     async def handle_world_info_request(self, client: WvsLoginClient, packet: Packet):
-        pass
+        for world in global_states.worlds:
+            await client.send_packet(Login.send_world_information(world, None))
+        await client.send_packet(Login.send_world_info_end())
