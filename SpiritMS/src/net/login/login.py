@@ -9,6 +9,7 @@ from src.net.enum.login_type import LoginType
 from src.net.packets.send_ops import OutPacket
 from src.net.packets.byte_buffer.packet import Packet
 from src.net.server import server_constants
+from src.net.world.world import World
 
 
 class Login:
@@ -102,5 +103,13 @@ class Login:
             send_packet.encode_byte(login_type.value)
             send_packet.encode_byte(0)
             send_packet.encode_int(0)
+
+        return send_packet
+
+    @staticmethod
+    def send_world_information(world: World, string_infos):
+        send_packet = Packet(OutPacket.WORLD_INFORMATION)
+
+        send_packet.encode_byte(world.)
 
         return send_packet

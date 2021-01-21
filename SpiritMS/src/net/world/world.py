@@ -36,3 +36,43 @@ class World:
 
         self._char_create_block = False
         self._reboot = reboot
+
+    @property
+    def world_id(self):
+        return self._world_id
+
+    @property
+    def world_state(self):
+        return self._world_state
+
+    @property
+    def world_event_exp_wse(self):
+        return self._world_event_exp_wse
+
+    @property
+    def world_event_drop_wse(self):
+        return self._world_event_drop_wse
+
+    @property
+    def boom_up_event_notice(self):
+        return self._boom_up_event_notice
+
+    @property
+    def star_planet(self):
+        return self._star_planet
+
+    @property
+    def name(self):
+        return self._name
+
+    @property
+    def world_event_description(self):
+        return self._world_event_description
+
+    @property
+    def char_create_block(self):
+        return self._char_create_block
+
+    @property
+    def reboot(self):
+        return self._reboot
