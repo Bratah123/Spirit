@@ -135,7 +135,7 @@ class CosmeticLook:
 
     @hair_equips.setter
     def hair_equips(self, hair_equips):
-        self._hair_equips = hair_equips
+        self._hair_equips = list(hair_equips)
 
     @property
     def unseen_equips(self):
@@ -143,7 +143,7 @@ class CosmeticLook:
 
     @unseen_equips.setter
     def unseen_equips(self, unseen_equips):
-        self._unseen_equips = unseen_equips
+        self._unseen_equips = list(unseen_equips)
 
     @property
     def pet_ids(self):
@@ -151,7 +151,7 @@ class CosmeticLook:
 
     @pet_ids.setter
     def pet_ids(self, pet_ids):
-        self._pet_ids = pet_ids
+        self._pet_ids = list(pet_ids)
 
     @property
     def job_id(self):
@@ -161,4 +161,106 @@ class CosmeticLook:
     def job_id(self, new_job_id):
         self._job_id = new_job_id
 
-    
+    @property
+    def draw_elf_ears(self):
+        return self._draw_elf_ears
+
+    @draw_elf_ears.setter
+    def draw_elf_ears(self, draw: bool):
+        self._draw_elf_ears = draw
+
+    @property
+    def demon_slayer_def_face_acc(self):
+        return self._demon_slayer_def_face_acc
+
+    @demon_slayer_def_face_acc.setter
+    def demon_slayer_def_face_acc(self, ds_def_face_acc):
+        self._demon_slayer_def_face_acc = ds_def_face_acc
+
+    @property
+    def xenon_def_face_acc(self):
+        return self._xenon_def_face_acc
+
+    @xenon_def_face_acc.setter
+    def xenon_def_face_acc(self, xenon_face_acc):
+        self._xenon_def_face_acc = xenon_face_acc
+
+    @property
+    def beast_tamer_def_face_acc(self):
+        return self._beast_tamer_def_face_acc
+
+    @beast_tamer_def_face_acc.setter
+    def beast_tamer_def_face_acc(self, bt_def_face_acc):
+        self._beast_tamer_def_face_acc = bt_def_face_acc
+
+    @property
+    def is_zero_beta_look(self):
+        return self._is_zero_beta_look
+
+    @is_zero_beta_look.setter
+    def is_zero_beta_look(self, zero_look: bool):
+        self._is_zero_beta_look = zero_look
+
+    @property
+    def mixed_hair_color(self):
+        return self._mixed_hair_color
+
+    @mixed_hair_color.setter
+    def mixed_hair_color(self, mixed_hair_id):
+        self._mixed_hair_color = mixed_hair_id
+
+    @property
+    def mix_hair_percent(self):
+        return self._mix_hair_percent
+
+    @mix_hair_percent.setter
+    def mix_hair_percent(self, percent):
+        self._mix_hair_percent = percent
+
+    @property
+    def totems(self):
+        return self._totems
+
+    @totems.setter
+    def totems(self, totems):
+        self._totems = list(totems)
+
+    @property
+    def ears(self):
+        return self._ears
+
+    @ears.setter
+    def ears(self, ear_id):
+        self._ears = ear_id
+
+    @property
+    def tail(self):
+        return self._tail
+
+    @tail.setter
+    def tail(self, tail_id):
+        self._tail = tail_id
+
+    @property
+    def demon_wing_id(self):
+        return self._demon_wing_id
+
+    @demon_wing_id.setter
+    def demon_wing_id(self, d_wing_id):
+        self._demon_wing_id = d_wing_id
+
+    @property
+    def kaiser_wing_id(self):
+        return self._kaiser_wing_id
+
+    @kaiser_wing_id.setter
+    def kaiser_wing_id(self, k_wing_id):
+        self._kaiser_wing_id = k_wing_id
+
+    @property
+    def kaiser_tail_id(self):
+        return self._kaiser_tail_id
+
+    @kaiser_tail_id.setter
+    def kaiser_tail_id(self, k_tail_id):
+        self._kaiser_tail_id = k_tail_id
