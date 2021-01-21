@@ -198,6 +198,7 @@ class Login:
         chars = account.characters
         chars.sort()
         char_size = len(chars)
+        send_packet.encode_int(char_size)
 
         for char in chars:
             send_packet.encode_int(char.id)
