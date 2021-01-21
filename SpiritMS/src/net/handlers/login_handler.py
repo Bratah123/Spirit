@@ -116,7 +116,7 @@ class LoginHandler:
         user = client.user
 
         account = user.get_account_by_world_id(world_id)
-        world = global_states.worlds[0]  # This way only allows us to have one world will change in the furture
+        world = global_states.worlds[0]  # This way only allows us to have one world will change in the future
 
         if user is not None and world is not None and world.get_channel_by_id(channel) is not None:
             if account is None:
