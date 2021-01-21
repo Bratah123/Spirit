@@ -9,7 +9,6 @@ Created 8/21/2020
 from src.net.packets.byte_buffer.byte_buffer import ByteBuffer
 from src.net.packets.recv_ops import InPacket
 from src.net.util import util
-from src.net.packets.send_ops import OutPacket
 
 
 class Packet(ByteBuffer):

@@ -3,6 +3,8 @@ Static "class"
 @author Brandon
 Created: 8/21/2020
 """
+from typing import Tuple, List
+
 from src.net.client.user import User
 from src.net.constant import job_constants
 from src.net.enum.login_type import LoginType
@@ -107,9 +109,34 @@ class Login:
         return send_packet
 
     @staticmethod
-    def send_world_information(world: World, string_infos):
+    def send_world_information(world: World, string_infos: List[Tuple]):
         send_packet = Packet(OutPacket.WORLD_INFORMATION)
 
-        send_packet.encode_byte(world.)
+        send_packet.encode_byte(world.world_id)
+        send_packet.encode_string(world.name)
+        send_packet.encode_byte(world.world_state)
+        send_packet.encode_string(world.world_event_description)
+        send_packet.encode_short(world.world_event_exp_wse)
+        send_packet.encode_short(world.world_event_drop_wse)
+        send_packet.encode_byte(world.char_create_block)
+        send_packet.encode_byte(world.get_channel_size())
+
+        for channel in world.channels:
+            send_packet.encode_string(channel.name)
+            send_packet.encode_int(channel.get_gauge_percent())
+            send_packet.encode_byte(channel.world_id)
+            send_packet.encode_byte(channel.channel_id)
+            send_packet.encode_byte(channel.adult_channel)
+
+        if string_infos is None:
+            send_packet.encode_short(0)
+        else:
+            send_packet.encode_short(len(string_infos))
+            for string_info in string_infos:
+                send_packet.encode_position(string_info[0])
+                send_packet.encode_string(string_info[1])
+
+        send_packet.encode_int(0)  # some Offset
+        send_packet.encode_byte(world.star_planet)
 
         return send_packet

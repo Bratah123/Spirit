@@ -1,4 +1,5 @@
 from src.net.server import server_constants
+from src.net.world.channel import Channel
 
 
 class World:
@@ -28,6 +29,15 @@ class World:
         self._world_event_description = world_event_msg
 
         self._channels = []
+
+        for i in range(1, channels_amount + 1):
+            self._channels.append(
+                Channel(
+                    name=name,
+                    world_id=world_id,
+                    channel_id=i,
+                )
+            )
 
         self._parties = {}
         self._guilds = {}
@@ -76,3 +86,10 @@ class World:
     @property
     def reboot(self):
         return self._reboot
+
+    @property
+    def channels(self):
+        return self._channels
+
+    def get_channel_size(self):
+        return len(self.channels)
