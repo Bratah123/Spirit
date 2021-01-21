@@ -14,7 +14,7 @@ class Position:
     @property
     def y(self):
         return self._y
-    
+
     @y.setter
     def y(self, y_pos):
         self._y = y_pos

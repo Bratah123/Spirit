@@ -2,6 +2,8 @@ from enum import Enum
 from io import BytesIO
 from struct import unpack, pack
 
+from src.net.util.position import Position
+
 
 class ByteBuffer(BytesIO):
     """
@@ -72,6 +74,14 @@ class ByteBuffer(BytesIO):
             pass
             # TODO, code file time
             # filetime.encode(self)
+
+    def encode_position(self, position: Position):
+        if position is not None:
+            self.encode_short(position.x)
+            self.encode_short(position.y)
+        else:
+            self.encode_short(0)
+            self.encode_short(0)
 
     def decode_byte(self):
         return self.read(1)[0]
