@@ -83,6 +83,10 @@ class ByteBuffer(BytesIO):
             self.encode_short(0)
             self.encode_short(0)
 
+    def encode_arr(self, aob):
+        for b in aob:
+            self.encode_byte(b)
+
     def decode_byte(self):
         return self.read(1)[0]
 

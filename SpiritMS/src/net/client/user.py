@@ -1,4 +1,5 @@
 from src.net.enum import account_type
+from src.net.enum.pic_status import PicStatus
 
 
 class User:
@@ -203,6 +204,15 @@ class User:
             if account.world_id == world_id:
                 return account
         return None
-    
+
     def add_account(self, account):
         self._accounts.append(account)
+
+    def get_pic_status(self):
+        pic_status = None
+        if self.pic is None or len(self.pic) <= 0:
+            pic_status = PicStatus.CREATE_PIC
+        else:
+            pic_status = PicStatus.ENTER_PIC
+
+        return pic_status

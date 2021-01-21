@@ -14,6 +14,7 @@ from src.net.packets.send_ops import OutPacket
 from src.net.packets.byte_buffer.packet import Packet
 from src.net.server import server_constants
 from src.net.server.global_states import worlds
+from src.net.server.server_constants import CHAT_PORT
 from src.net.world.world import World
 
 
@@ -176,7 +177,67 @@ class Login:
 
     @staticmethod
     def select_world_result(user: User, account: Account, success_code, special_server, burning_event_block):
-        send_packet = Packet(OutPacket.SELECT_WORLD_RESULT)
+        send_packet = Packet(opcode=OutPacket.SELECT_WORLD_RESULT)
         send_packet.encode_byte(success_code)
         send_packet.encode_string(special_server)
-        send_packet.encode_int(account)
+        send_packet.encode_int(20)  # trunk/storage slot count
+        send_packet.encode_byte(burning_event_block)
+
+        reserved = 0
+        send_packet.encode_int(reserved)  # Reserved size
+
+        send_packet.encode_ft(None)
+        for i in range(reserved):
+            # FileTime
+            send_packet.encode_int(0)
+            # ft.encode()
+
+        is_edited = False
+        send_packet.encode_byte(is_edited)
+
+        chars = account.characters
+        chars.sort()
+        char_size = len(chars)
+
+        for char in chars:
+            send_packet.encode_int(char.id)
+
+        send_packet.encode_byte(char_size)
+
+        for char in chars:
+            pass
+
+        send_packet.encode_byte(user.get_pic_status())
+        send_packet.encode_byte(False)  # bQuerySSNOnCreateNewCharacter
+        send_packet.encode_int(user.character_slots)
+        send_packet.encode_int(0)
+        send_packet.encode_int(0)  # nEventNewCharJob
+        send_packet.encode_ft(None)
+        send_packet.encode_byte(0)  # RenameCount
+        send_packet.encode_byte(0)
+
+        return send_packet
+
+    @staticmethod
+    def select_character_result(login_type: LoginType, error_code, port, character_id):
+        send_packet = Packet(opcode=OutPacket.SELECT_CHARACTER_RESULT)
+        send_packet.encode_byte(login_type.value)
+        send_packet.encode_byte(error_code)
+        if login_type == LoginType.Success:
+            server = [8, 31, 99, 141]
+            send_packet.encode_arr(server)
+            send_packet.encode_short(port)
+
+            chat_server = [8, 31, 99, 141]
+            send_packet.encode_arr(chat_server)
+            send_packet.encode_short(CHAT_PORT)
+
+            send_packet.encode_int(character_id)
+            send_packet.encode_byte(0)
+            send_packet.encode_int(0) # ulArgument
+            send_packet.encode_byte(0)
+            send_packet.encode_int(0)
+            send_packet.encode_int(0)
+            send_packet.encode_byte(0)
+
+        return send_packet

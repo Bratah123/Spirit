@@ -118,10 +118,29 @@ class LoginHandler:
         account = user.get_account_by_world_id(world_id)
         world = global_states.worlds[0]  # This way only allows us to have one world will change in the furture
 
-        if user is not None and world is not None and world.get_channel_by_id() is not None:
+        if user is not None and world is not None and world.get_channel_by_id(channel) is not None:
             if account is None:
                 account = Account(user=user, world_id=world_id)
                 user.add_account(user)
             client.account = account
             client.wid = world_id
             client.channel = channel
+
+            await client.send_packet(
+                Login.select_world_result(
+                    user=client.user,
+                    account=client.account,
+                    success_code=success_code,
+                    special_server="normal",
+                    burning_event_block=False
+                )
+            )
+        else:
+            await client.send_packet(
+                Login.select_character_result(
+                    login_type=LoginType.UnauthorizedUser,
+                    error_code=0,
+                    port=0,
+                    character_id=0,
+                )
+            )
