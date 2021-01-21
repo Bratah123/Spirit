@@ -3,21 +3,9 @@ from asyncio import get_event_loop
 
 from src.net.connections.logins.login_server import LoginServer
 from src.net.debug import debug
-from src.net.enum.world_id import WorldId
-from src.net.server.server_constants import CHANNEL_PORT, LOGIN_PORT
-from src.net.world.world import World
-from src.net.server.server_constants import SERVER_NAME, CHANNEL_AMOUNT, EVENT_MESSAGE
 
 
 class ServerApp:
-    worlds = [
-        World(
-            world_id=WorldId.Scania.value,
-            name=SERVER_NAME,
-            channels_amount=CHANNEL_AMOUNT,
-            world_event_msg=EVENT_MESSAGE
-        )
-    ]
 
     def __init__(self):
         self.name = "ServerApp"
@@ -28,10 +16,6 @@ class ServerApp:
 
         self.login = None
         self.shop = None
-
-    @classmethod
-    def get_worlds(cls):
-        return cls.worlds
 
     @classmethod
     def run(cls):
@@ -67,5 +51,6 @@ class ServerApp:
         self.login = await LoginServer.run(self)
 
 
-loop = get_event_loop()
-ServerApp.run()
+if __name__ == '__main__':
+    loop = get_event_loop()
+    ServerApp.run()

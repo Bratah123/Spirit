@@ -4,6 +4,7 @@
 SERVER_NAME = "SpiritMS"
 CHANNEL_AMOUNT = 3
 EVENT_MESSAGE = "Maplestory in python poggies!"
+RECOMMEND_MSG = "Scania Gang"
 
 DEBUG_MODE = True
 SERVER_VERSION = 176

@@ -4,12 +4,14 @@ from src.net.connections.database import database_manager
 from src.net.connections.packet.wvs_context import WvsContext
 from src.net.debug import debug
 from src.net.enum.login_type import LoginType
+from src.net.enum.world_id import WorldId
 from src.net.handlers.packet_handler import packet_handler
 from src.net.login.login import Login
 from src.net.packets.byte_buffer.packet import Packet
 from src.net.packets.recv_ops import InPacket
 from src.net.packets.send_ops import OutPacket
 from src.net.server import server_constants
+from src.net.server.global_states import worlds
 
 
 class LoginHandler:
@@ -90,4 +92,9 @@ class LoginHandler:
 
     @packet_handler(opcode=InPacket.WORLD_LIST_REQUEST)
     async def handle_world_list_request(self, client, packet):
-        pass
+        for world in worlds:
+            await client.send_packet(
+                Login.send_world_information(world, None)
+            )
+        await client.send_packet(Login.send_world_info_end())
+        await client.send_packet(Login.send_recommended_world_msg(WorldId.Scania.value, server_constants.RECOMMEND_MSG))

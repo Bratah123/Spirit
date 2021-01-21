@@ -110,7 +110,7 @@ class Login:
 
     @staticmethod
     def send_world_information(world: World, string_infos: List[Tuple]):
-        send_packet = Packet(OutPacket.WORLD_INFORMATION)
+        send_packet = Packet(opcode=OutPacket.WORLD_INFORMATION)
 
         send_packet.encode_byte(world.world_id)
         send_packet.encode_string(world.name)
@@ -139,4 +139,18 @@ class Login:
         send_packet.encode_int(0)  # some Offset
         send_packet.encode_byte(world.star_planet)
 
+        return send_packet
+
+    @staticmethod
+    def send_world_info_end():
+        send_packet = Packet(opcode=OutPacket.WORLD_INFORMATION)
+        send_packet.encode_int(255)
+        return send_packet
+
+    @staticmethod
+    def send_recommended_world_msg(world_id, msg):
+        send_packet = Packet(opcode=OutPacket.RECOMMENDED_WORLD_MESSAGE)
+        send_packet.encode_byte(1)
+        send_packet.encode_int(world_id)
+        send_packet.encode_string(msg)
         return send_packet
