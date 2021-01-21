@@ -5,6 +5,7 @@ Created: 8/21/2020
 """
 from typing import Tuple, List
 
+from src.net.client.account import Account
 from src.net.client.user import User
 from src.net.constant import job_constants
 from src.net.enum.login_type import LoginType
@@ -172,3 +173,10 @@ class Login:
         send_packet.encode_byte(0)  # unknown
 
         return send_packet
+
+    @staticmethod
+    def select_world_result(user: User, account: Account, success_code, special_server, burning_event_block):
+        send_packet = Packet(OutPacket.SELECT_WORLD_RESULT)
+        send_packet.encode_byte(success_code)
+        send_packet.encode_string(special_server)
+        send_packet.encode_int(account)

@@ -1,4 +1,6 @@
+from src.net.client.account import Account
 from src.net.client.character.broadcast_msg import BroadcastMsg
+from src.net.client.packet_client import WvsLoginClient
 from src.net.client.user import User
 from src.net.connections.database import database_manager
 from src.net.connections.packet.wvs_context import WvsContext
@@ -10,7 +12,7 @@ from src.net.login.login import Login
 from src.net.packets.byte_buffer.packet import Packet
 from src.net.packets.recv_ops import InPacket
 from src.net.packets.send_ops import OutPacket
-from src.net.server import server_constants
+from src.net.server import server_constants, global_states
 from src.net.server.global_states import worlds
 
 
@@ -62,6 +64,7 @@ class LoginHandler:
             result = LoginType.Success if success else LoginType.IncorrectPassword
             if success:
                 user = await User.get_user_from_dbuser(db_user)
+                client.user = user
         else:
             result = LoginType.NotRegistered
 
@@ -103,3 +106,22 @@ class LoginHandler:
     async def handle_world_status_request(self, client, packet):
         world_id = packet.decode_byte()
         await client.send_packet(Login.send_server_status(world_id))
+
+    @packet_handler(opcode=InPacket.SELECT_WORLD)
+    async def handle_select_world(self, client: WvsLoginClient, packet):
+        unk1 = packet.decode_byte()
+        world_id = packet.decode_byte()
+        channel = packet.decode_byte() + 1  # We add one cause channels start at index 0 client-side
+        success_code = 0
+        user = client.user
+
+        account = user.get_account_by_world_id(world_id)
+        world = global_states.worlds[0]  # This way only allows us to have one world will change in the furture
+
+        if user is not None and world is not None and world.get_channel_by_id() is not None:
+            if account is None:
+                account = Account(user=user, world_id=world_id)
+                user.add_account(user)
+            client.account = account
+            client.wid = world_id
+            client.channel = channel

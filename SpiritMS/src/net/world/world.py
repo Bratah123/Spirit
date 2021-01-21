@@ -101,3 +101,9 @@ class World:
                 full = False
                 break
         return full
+
+    def get_channel_by_id(self, channel_id):
+        for channel in self.channels:
+            if channel.channel_id == channel_id:
+                return channel
+        return None

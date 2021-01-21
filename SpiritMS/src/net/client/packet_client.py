@@ -67,24 +67,11 @@ class WvsLoginClient(PacketClient):
     def __init__(self, parent, socket):
         super().__init__(parent, socket)
 
-        self.account = None
+        self._account = None
+        self._user = None
+        self._world_id = 0
+        self._channel = 0
         self.avatars = []
-
-    async def login(self, username, password):
-        response, account = await self.data. \
-            account(username=username, password=password).login()
-
-        if not response:
-            self.account = account
-            self.logged_in = True
-            return 0
-
-        return response
-
-    async def load_avatars(self, world_id=None):
-        self.avatars = await self.data \
-            .account(id=self.account.id) \
-            .get_characters(world_id=world_id)
 
     def close(self):
         self.socket.close()
@@ -92,3 +79,35 @@ class WvsLoginClient(PacketClient):
     @property
     def account_id(self):
         return self.account.id if getattr(self.account, 'id') else - 1
+
+    @property
+    def user(self):
+        return self._user
+
+    @user.setter
+    def user(self, user_obj):
+        self._user = user_obj
+
+    @property
+    def account(self):
+        return self._account
+
+    @account.setter
+    def account(self, account_obj):
+        self._account = account_obj
+
+    @property
+    def world_id(self):
+        return self._world_id
+
+    @world_id.setter
+    def world_id(self, wid):
+        self._world_id = wid
+
+    @property
+    def channel(self):
+        return self._channel
+
+    @channel.setter
+    def channel(self, new_channel):
+        self._channel = new_channel

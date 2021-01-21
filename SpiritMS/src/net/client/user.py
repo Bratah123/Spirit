@@ -60,6 +60,8 @@ class User:
         self._current_chr = None
         self._current_account = None
 
+        self._accounts = []
+
     @staticmethod
     async def get_user_from_dbuser(db_user):
         """
@@ -191,3 +193,16 @@ class User:
     @property
     def creation_date(self):
         return self._creation_date
+
+    @property
+    def accounts(self):
+        return self._accounts
+
+    def get_account_by_world_id(self, world_id):
+        for account in self.accounts:
+            if account.world_id == world_id:
+                return account
+        return None
+    
+    def add_account(self, account):
+        self._accounts.append(account)
