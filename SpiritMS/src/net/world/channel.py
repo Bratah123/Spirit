@@ -51,3 +51,6 @@ class Channel:
 
     def get_gauge_percent(self):
         return max(1, len(self.characters) // self.max_size)
+
+    def get_size(self):
+        return len(self.characters)

@@ -8,9 +8,11 @@ from typing import Tuple, List
 from src.net.client.user import User
 from src.net.constant import job_constants
 from src.net.enum.login_type import LoginType
+from src.net.enum.server_status import ServerStatus
 from src.net.packets.send_ops import OutPacket
 from src.net.packets.byte_buffer.packet import Packet
 from src.net.server import server_constants
+from src.net.server.global_states import worlds
 from src.net.world.world import World
 
 
@@ -153,4 +155,20 @@ class Login:
         send_packet.encode_byte(1)
         send_packet.encode_int(world_id)
         send_packet.encode_string(msg)
+        return send_packet
+
+    @staticmethod
+    def send_server_status(world_id):
+        send_packet = Packet(opcode=OutPacket.SERVER_STATUS)
+        world = None
+        for world_created in worlds:
+            if world_created.world_id == world_id:
+                world = world_created
+        if world is not None and not world.is_full():
+            send_packet.encode_byte(ServerStatus.NORMAL.value)
+        else:
+            send_packet.encode_byte(ServerStatus.BUSY.value)
+
+        send_packet.encode_byte(0)  # unknown
+
         return send_packet

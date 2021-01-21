@@ -93,3 +93,11 @@ class World:
 
     def get_channel_size(self):
         return len(self.channels)
+
+    def is_full(self):
+        full = True
+        for channel in self.channels:
+            if channel.get_size() < channel.max_size:
+                full = False
+                break
+        return full

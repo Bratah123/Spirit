@@ -98,3 +98,8 @@ class LoginHandler:
             )
         await client.send_packet(Login.send_world_info_end())
         await client.send_packet(Login.send_recommended_world_msg(WorldId.Scania.value, server_constants.RECOMMEND_MSG))
+
+    @packet_handler(opcode=InPacket.WORLD_STATUS_REQUEST)
+    async def handle_world_status_request(self, client, packet):
+        world_id = packet.decode_byte()
+        await client.send_packet(Login.send_server_status(world_id))
