@@ -78,6 +78,14 @@ LOGIN_JOB = {
 }
 
 
+def get_login_job_by_id(login_job_id):
+    for job in LOGIN_JOB.values():
+        id_ = job[0]
+        if login_job_id == id_:
+            return job
+    return None
+
+
 def is_zero(job_id):
     return job_id == 10000 or job_id == 10100 or job_id == 10110 or job_id == 10111 or job_id == 10112
 
@@ -103,3 +111,15 @@ def encode(out_packet: Packet):
         job_enum = job_info[2]
         out_packet.encode_byte(job_flag.value)
         out_packet.encode_short(job_flag.value)
+
+
+def gm(job_id):
+    return job_id == JobEnum.GM.value[0]
+
+
+def is_super_gm(job_id):
+    return job_id == JobEnum.SUPERGM.value[0]
+
+
+def is_gm_job(job_id):
+    return gm(job_id) or is_super_gm(job_id)

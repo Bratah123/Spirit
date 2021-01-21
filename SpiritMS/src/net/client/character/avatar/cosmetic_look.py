@@ -5,7 +5,7 @@ from src.net.packets.byte_buffer.packet import Packet
 class CosmeticLook:
     def __init__(
             self,
-            cosmetic_look_id,
+            cosmetic_look_id=0,
             gender=0,
             skin=0,
             face=0,

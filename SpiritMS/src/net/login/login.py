@@ -8,6 +8,7 @@ from typing import Tuple, List
 from src.net.client.account import Account
 from src.net.client.user import User
 from src.net.constant import job_constants
+from src.net.enum.char_name_result import CharNameResult
 from src.net.enum.login_type import LoginType
 from src.net.enum.server_status import ServerStatus
 from src.net.packets.send_ops import OutPacket
@@ -206,7 +207,12 @@ class Login:
         send_packet.encode_byte(char_size)
 
         for char in chars:
-            pass
+            char.cosmetic_info.encode_cosmetic(send_packet)
+            send_packet.encode_byte(False)  # Family Stuff
+            has_ranking = char.ranking is not None and not job_constants.is_gm_job(char.job_id)
+            send_packet.encode_byte(has_ranking)
+            if has_ranking:
+                char.ranking.encode(send_packet)
 
         send_packet.encode_byte(user.get_pic_status())
         send_packet.encode_byte(False)  # bQuerySSNOnCreateNewCharacter
@@ -240,5 +246,14 @@ class Login:
             send_packet.encode_int(0)
             send_packet.encode_int(0)
             send_packet.encode_byte(0)
+
+        return send_packet
+
+    @staticmethod
+    def check_duplicated_id_result(name: str, char_name_result: CharNameResult):
+        send_packet = Packet(opcode=OutPacket.CHECK_DUPLICATED_ID_RESULT)
+
+        send_packet.encode_string(name)
+        send_packet.encode_byte(char_name_result.value)
 
         return send_packet

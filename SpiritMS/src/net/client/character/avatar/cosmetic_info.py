@@ -39,9 +39,14 @@ class CosmeticInfo:
     def zero_cosmetic_look(self, zero_cos_look):
         self._zero_cosmetic_look = zero_cos_look
 
+    @cosmetic_look.setter
+    def cosmetic_look(self, value):
+        self._cosmetic_look = value
+
     def encode_cosmetic(self, out_packet):
         self.character_stat.encode(out_packet)
         self.cosmetic_look.encode(out_packet)
         if job_constants.is_zero(self.character_stat.job):
             self.zero_cosmetic_look.encode()
+
 

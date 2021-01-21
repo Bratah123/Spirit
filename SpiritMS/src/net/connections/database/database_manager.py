@@ -12,3 +12,12 @@ async def get_user_from_db(username):
     except Exception as e:
         debug.error(e)
         return None
+
+
+async def check_name_taken(name):
+    spirit = SwordieDB(schema=SCHEMA_NAME)
+    try:
+        spirit.get_char_by_name(name)
+    except Exception:
+        return False
+    return True

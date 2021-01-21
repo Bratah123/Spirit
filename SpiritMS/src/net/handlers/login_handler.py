@@ -1,10 +1,14 @@
 from src.net.client.account import Account
 from src.net.client.character.broadcast_msg import BroadcastMsg
+from src.net.client.character.character import Character
 from src.net.client.packet_client import WvsLoginClient
 from src.net.client.user import User
 from src.net.connections.database import database_manager
 from src.net.connections.packet.wvs_context import WvsContext
+from src.net.constant import job_constants
+from src.net.constant.game_constants import BLOCKED_NAMES
 from src.net.debug import debug
+from src.net.enum.char_name_result import CharNameResult
 from src.net.enum.login_type import LoginType
 from src.net.enum.world_id import WorldId
 from src.net.handlers.packet_handler import packet_handler
@@ -151,3 +155,54 @@ class LoginHandler:
         for world in global_states.worlds:
             await client.send_packet(Login.send_world_information(world, None))
         await client.send_packet(Login.send_world_info_end())
+
+    @packet_handler(opcode=InPacket.CHECK_DUPLICATE_ID)
+    async def handle_check_duplicate_id(self, client: WvsLoginClient, packet: Packet):
+        name = packet.decode_string()
+        code = None
+        if name.lower() in BLOCKED_NAMES:
+            code = CharNameResult.Unavailable_Invalid
+        else:
+            name_taken = await database_manager.check_name_taken(name)
+            code = CharNameResult.Unavailable_InUse if name_taken else CharNameResult.Available
+
+        await client.send_packet(Login.check_duplicated_id_result(name, code))
+
+    @packet_handler(opcode=InPacket.CREATE_NEW_CHARACTER)
+    async def handle_create_new_char(self, client: WvsLoginClient, packet: Packet):
+        account = client.account
+        name = packet.decode_string()
+        key_setting_type = packet.decode_int()
+        event_new_char_sale_job = packet.decode_int()
+        cur_selected_race = packet.decode_int()
+        job = job_constants.get_login_job_by_id(cur_selected_race)[3]
+        cur_selected_sub_job = packet.decode_short()
+        gender = packet.decode_byte()
+        skin = packet.decode_byte()
+
+        item_length = packet.decode_byte()
+        items = [packet.decode_int() for i in range(item_length)]
+
+        face = items[0]
+        hair = items[1]
+
+        name_result_code = None
+        # Add a check if starting items are valid
+        if skin > 13:
+            name_result_code = CharNameResult.Unavailable_CashItem
+
+        name_taken = await database_manager.check_name_taken(name)
+
+        if name in BLOCKED_NAMES:
+            name_result_code = CharNameResult.Unavailable_Invalid
+        elif name_taken:
+            name_result_code = CharNameResult.Unavailable_InUse
+
+        if name_result_code is not None:
+            await client.send_packet(Login.check_duplicated_id_result(name, name_result_code))
+            return
+
+        char = Character(
+            acc_id=account.account_id,
+        )
+
