@@ -12,7 +12,7 @@ Tech Stack:
 
 Inspirations:
   - Rooba
-  - Swordie source
+  - Swordie
 
 
 A Project mostly for learning and educational purposes
