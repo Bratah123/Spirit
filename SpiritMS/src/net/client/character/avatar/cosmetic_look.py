@@ -114,7 +114,6 @@ class CosmeticLook:
         out_packet.encode_byte(self.mixed_hair_color)
         out_packet.encode_byte(self.mix_hair_percent)
 
-
     @property
     def cosmetic_look_id(self):
         return self._id
