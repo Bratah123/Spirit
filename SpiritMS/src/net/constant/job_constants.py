@@ -78,6 +78,10 @@ LOGIN_JOB = {
 }
 
 
+def is_zero(job_id):
+    return job_id == 10000 or job_id == 10100 or job_id == 10110 or job_id == 10111 or job_id == 10112
+
+
 def encode(out_packet: Packet):
     out_packet.encode_byte(ENABLE_JOBS)
     out_packet.encode_byte(JOB_ORDER)

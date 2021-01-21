@@ -235,7 +235,7 @@ class Login:
 
             send_packet.encode_int(character_id)
             send_packet.encode_byte(0)
-            send_packet.encode_int(0) # ulArgument
+            send_packet.encode_int(0)  # ulArgument
             send_packet.encode_byte(0)
             send_packet.encode_int(0)
             send_packet.encode_int(0)
