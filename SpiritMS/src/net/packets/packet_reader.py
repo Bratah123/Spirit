@@ -1,4 +1,5 @@
 from src.net.debug import debug
+from src.net.packets import recv_ops
 
 
 class PacketReader:
@@ -6,8 +7,8 @@ class PacketReader:
         self.parent = parent
 
     def push(self, client, packet):
-        debug.logs(f"InPacket Opcode: {packet.name}: | {packet.to_string()} |")
-
+        if packet not in recv_ops.recv_spam_ops:
+            debug.logs(f"InPacket Opcode: {packet.name}: | {packet.to_string()} |")
         try:
             coro = None
 

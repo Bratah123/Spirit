@@ -42,6 +42,7 @@ class LoginHandler:
 
     @packet_handler(opcode=InPacket.CHECK_LOGIN_AUTH_INFO)
     async def handle_check_login_auth_info(self, client, packet):
+        """Where logging in is handled, passwords/username etc"""
         sid = packet.decode_byte()
         password = packet.decode_string()
         username = packet.decode_string()
@@ -144,3 +145,7 @@ class LoginHandler:
                     character_id=0,
                 )
             )
+
+    @packet_handler(opcode=InPacket.WORLD_INFO_REQUEST)
+    async def handle_world_info_request(self, client: WvsLoginClient, packet: Packet):
+        pass
