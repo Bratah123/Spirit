@@ -4,7 +4,7 @@ Maplestory V176
 A MapleStory Server Emulator in Python.
 
 Current Progress:
-- We are now able to get to login screen!
+- Server is now able to reach character selection screen!
 
 Tech Stack:
 - Python 3.8.5
