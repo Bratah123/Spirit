@@ -7,7 +7,7 @@ class PacketReader:
         self.parent = parent
 
     def push(self, client, packet):
-        if packet not in recv_ops.recv_spam_ops:
+        if packet.name.upper() not in recv_ops.recv_spam_ops:
             debug.logs(f"InPacket Opcode: {packet.name}: | {packet.to_string()} |")
         try:
             coro = None

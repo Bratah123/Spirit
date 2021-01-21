@@ -1015,6 +1015,6 @@ class InPacket(Enum):
 
 
 recv_spam_ops = [
-    InPacket.PRIVATE_SERVER_PACKET,
-    InPacket.UPDATE_CLIENT_ENVIRONMENT,
+    "PRIVATE_SERVER_PACKET",
+    "UPDATE_CLIENT_ENVIRONMENT",
 ]
