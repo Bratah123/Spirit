@@ -29,13 +29,6 @@ class PacketClient:
 
         await self.receive()
 
-    async def init_auth_server(self):
-        send_packet = Packet(opcode=OutPacket.AUTH_SERVER)
-
-        send_packet.encode_byte(False)
-
-        await self.send_packet(send_packet)
-
     async def receive(self):
         await self.socket.receive(self)
 

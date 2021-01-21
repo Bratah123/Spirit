@@ -82,6 +82,18 @@ def is_zero(job_id):
     return job_id == 10000 or job_id == 10100 or job_id == 10110 or job_id == 10111 or job_id == 10112
 
 
+def is_xenon(job_id):
+    return job_id // 100 == 36 or job_id == 3002
+
+
+def is_demon(job_id):
+    return job_id // 100 == 31 or job_id == 3001
+
+
+def is_beast_tamer(job_id):
+    return job_id // 1000 == 11
+
+
 def encode(out_packet: Packet):
     out_packet.encode_byte(ENABLE_JOBS)
     out_packet.encode_byte(JOB_ORDER)

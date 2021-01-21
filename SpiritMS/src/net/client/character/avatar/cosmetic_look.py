@@ -1,3 +1,7 @@
+from src.net.constant import job_constants
+from src.net.packets.byte_buffer.packet import Packet
+
+
 class CosmeticLook:
     def __init__(
             self,
@@ -64,6 +68,52 @@ class CosmeticLook:
         self._demon_wing_id = demon_wing_id
         self._kaiser_wing_id = kaiser_wing_id
         self._kaiser_tail_id = kaiser_tail_id
+
+    def encode(self, out_packet: Packet):
+        out_packet.encode_byte(self.gender)
+        out_packet.encode_byte(self.skin)
+        out_packet.encode_int(self.face)
+        out_packet.encode_int(self.job_id)
+        out_packet.encode_byte(0)  # ignored
+        out_packet.encode_int(self.hair)
+
+        for item_id in self.hair_equips:
+            body_part = 0  # get_body_part_from_item
+            if body_part != 0:
+                out_packet.encode_byte(body_part)
+                out_packet.encode_int(item_id)
+        out_packet.encode_byte(-1)
+
+        for item_id in self.totems:
+            body_part = 0  # get_body_part_from_item
+            out_packet.encode_byte(body_part)
+            out_packet.encode_int(item_id)
+
+        pet_amount = len(self.pet_ids)
+        for i in range(3):
+            if pet_amount > 1:
+                out_packet.encode_int(self.pet_ids[i])
+            else:
+                out_packet.encode_int(0)
+
+        if job_constants.is_zero(self.job_id):
+            out_packet.encode_byte(self.is_zero_beta_look)
+        if job_constants.is_xenon(self.job_id):
+            out_packet.encode_int(self.xenon_def_face_acc)
+        if job_constants.is_beast_tamer(self.job_id):
+            out_packet.encode_int(self.demon_slayer_def_face_acc)
+        if job_constants.is_beast_tamer(self.job_id):
+            has_ears = self.ears > 0
+            has_tail = self.tail > 0
+            out_packet.encode_int(self.beast_tamer_def_face_acc)
+            out_packet.encode_byte(has_ears)
+            out_packet.encode_int(self.ears)
+            out_packet.encode_byte(has_tail)
+            out_packet.encode_int(self.tail)
+
+        out_packet.encode_byte(self.mixed_hair_color)
+        out_packet.encode_byte(self.mix_hair_percent)
+
 
     @property
     def cosmetic_look_id(self):
