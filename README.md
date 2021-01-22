@@ -1,4 +1,4 @@
-# SpiritMSPy
+# Spirit
 Maplestory V176
 
 A MapleStory Server Emulator in Python.
