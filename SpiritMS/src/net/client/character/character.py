@@ -16,7 +16,7 @@ class Character:
     """
     def __init__(
             self,
-            id=0,
+            chr_id=0,
             acc_id=0,
             client=None,
             func_key_maps=None,
@@ -30,7 +30,7 @@ class Character:
             items=None,
     ):
         # Database attributes
-        self._id = id
+        self._id = chr_id
         self._acc_id = acc_id
 
         # Non-Database attributes
@@ -57,5 +57,5 @@ class Character:
         self._character_stat = character_stat
 
     @property
-    def id(self):
+    def chr_id(self):
         return self._id
