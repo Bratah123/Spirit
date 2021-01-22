@@ -1,4 +1,8 @@
 class Account:
+    """
+    Represents an Account in MapleStory. Not World-Wide though (Scania, Bera).
+    Every User will be assigned a different "account" for each world
+    """
     def __init__(
             self,
             user=None,

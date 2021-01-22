@@ -3,6 +3,17 @@ from src.net.client.character.avatar.cosmetic_look import CosmeticLook
 
 
 class Character:
+    """
+    The Character class a representation of a MapleStory "character"
+    Notable attributes:
+        character_stat:
+            class CharacterStat
+            Stores every stat in MapleStory (I.E. HP, MP, DEX, STR, MESOS)
+        cosmetic_info:
+            class CosmeticInfo:
+            You guessed it, this attribute stores all of the characters cosmetic related stats.
+            (I.E. HAIR, FACE, EYE)
+    """
     def __init__(
             self,
             id=0,

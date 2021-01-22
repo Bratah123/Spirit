@@ -16,6 +16,7 @@ class PacketClient:
         self.channel_id = None
 
     async def initialize(self):
+        # Handshake packet
         send_packet = Packet(opcode=15)
 
         send_packet.encode_short(server_constants.SERVER_VERSION)

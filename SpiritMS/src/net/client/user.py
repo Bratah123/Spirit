@@ -3,7 +3,8 @@ from src.net.enum.pic_status import PicStatus
 
 
 class User:
-    """
+    """This class is a representation of an "Account" in MapleStory
+    However, the User Class represents all attributes of an account regardless of World (Scania, ETC)
     Params:
         client: Client
     """
