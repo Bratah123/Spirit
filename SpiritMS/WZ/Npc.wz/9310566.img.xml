@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9310566.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="ShanghaiMapleGate"/>
+			</imgdir>
+		</imgdir>
+		<int name="dcLeft" value="-100"/>
+		<int name="dcTop" value="-300"/>
+		<int name="dcRight" value="100"/>
+		<int name="dcBottom" value="0"/>
+		<canvas name="default" width="80" height="117">
+			<vector name="origin" x="39" y="117"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="3000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="201" height="201">
+			<vector name="origin" x="99" y="201"/>
+			<int name="delay" value="120"/>
+		</canvas>
+	</imgdir>
+</imgdir>

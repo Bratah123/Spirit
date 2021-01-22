@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1531025.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+		<canvas name="default" width="188" height="360">
+			<vector name="origin" x="78" y="375"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="188" height="360">
+			<vector name="origin" x="78" y="375"/>
+			<int name="z" value="-1"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="break">
+		<int name="special" value="1"/>
+		<canvas name="0" width="256" height="320">
+			<vector name="origin" x="89" y="294"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="1" width="377" height="401">
+			<vector name="origin" x="146" y="351"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="2" width="397" height="237">
+			<vector name="origin" x="157" y="238"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="3" width="188" height="359">
+			<vector name="origin" x="78" y="374"/>
+			<int name="z" value="-1"/>
+			<int name="delay" value="1000000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="broken">
+		<int name="special" value="1"/>
+		<canvas name="0" width="188" height="359">
+			<vector name="origin" x="78" y="374"/>
+			<int name="z" value="-1"/>
+			<int name="delay" value="1000000"/>
+		</canvas>
+	</imgdir>
+</imgdir>

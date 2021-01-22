@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1201000.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="lilin"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="3000"/>
+			<string name="source" value="Npc/1105012.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1105012.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="2" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1105012.img/stand/0"/>
+		</canvas>
+		<canvas name="3" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1201000.img/say/1"/>
+		</canvas>
+		<canvas name="4" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1105012.img/stand/0"/>
+		</canvas>
+		<canvas name="5" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="6" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1105012.img/stand/0"/>
+		</canvas>
+		<canvas name="7" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1201000.img/say/5"/>
+		</canvas>
+		<uol name="8" value="0"/>
+		<uol name="9" value="1"/>
+		<uol name="10" value="2"/>
+		<uol name="11" value="3"/>
+		<uol name="12" value="4"/>
+		<uol name="13" value="5"/>
+		<uol name="14" value="6"/>
+		<uol name="15" value="7"/>
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1105012.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="2" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="wind">
+		<canvas name="0" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/1105012.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="52" height="70">
+			<vector name="origin" x="22" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="2" width="52" height="70">
+			<vector name="origin" x="22" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/1201000.img/wind/1"/>
+		</canvas>
+		<canvas name="3" width="52" height="70">
+			<vector name="origin" x="22" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="4" width="52" height="70">
+			<vector name="origin" x="22" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/1201000.img/wind/1"/>
+		</canvas>
+		<canvas name="5" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/1201000.img/eye/2"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="penguin">
+		<canvas name="0" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1105012.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="2" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="3" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="4" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="5" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="6" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1201000.img/penguin/4"/>
+		</canvas>
+		<canvas name="7" width="51" height="70">
+			<vector name="origin" x="21" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<imgdir name="say">
+			<uol name="0" value="../../say/0"/>
+			<uol name="1" value="../../say/1"/>
+			<uol name="2" value="../../say/2"/>
+			<uol name="3" value="../../say/3"/>
+			<uol name="4" value="../../say/4"/>
+			<uol name="5" value="../../say/5"/>
+			<uol name="6" value="../../say/6"/>
+			<uol name="7" value="../../say/7"/>
+			<uol name="8" value="../../say/0"/>
+			<uol name="9" value="../../say/1"/>
+			<uol name="10" value="../../say/2"/>
+			<uol name="11" value="../../say/3"/>
+			<uol name="12" value="../../say/4"/>
+			<uol name="13" value="../../say/5"/>
+			<uol name="14" value="../../say/6"/>
+			<uol name="15" value="../../say/7"/>
+			<imgdir name="speak">
+				<string name="0" value="n0"/>
+				<string name="1" value="n1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="eye">
+			<uol name="0" value="../../eye/0"/>
+			<uol name="1" value="../../eye/1"/>
+			<uol name="2" value="../../eye/2"/>
+		</imgdir>
+		<imgdir name="wind">
+			<uol name="0" value="../../wind/0"/>
+			<uol name="1" value="../../wind/1"/>
+			<uol name="2" value="../../wind/2"/>
+			<uol name="3" value="../../wind/3"/>
+			<uol name="4" value="../../wind/4"/>
+			<uol name="5" value="../../wind/5"/>
+		</imgdir>
+		<imgdir name="penguin">
+			<uol name="0" value="../../penguin/0"/>
+			<uol name="1" value="../../penguin/1"/>
+			<uol name="2" value="../../penguin/2"/>
+			<uol name="3" value="../../penguin/3"/>
+			<uol name="4" value="../../penguin/4"/>
+			<uol name="5" value="../../penguin/5"/>
+			<uol name="6" value="../../penguin/6"/>
+			<uol name="7" value="../../penguin/7"/>
+		</imgdir>
+		<int name="32348" value="2"/>
+	</imgdir>
+	<imgdir name="condition2">
+		<imgdir name="stand">
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<imgdir name="say">
+			<uol name="0" value="../../say/0"/>
+			<uol name="1" value="../../say/1"/>
+			<uol name="2" value="../../say/2"/>
+			<uol name="3" value="../../say/3"/>
+			<uol name="4" value="../../say/4"/>
+			<uol name="5" value="../../say/5"/>
+			<uol name="6" value="../../say/6"/>
+			<uol name="7" value="../../say/7"/>
+			<uol name="8" value="../../say/0"/>
+			<uol name="9" value="../../say/1"/>
+			<uol name="10" value="../../say/2"/>
+			<uol name="11" value="../../say/3"/>
+			<uol name="12" value="../../say/4"/>
+			<uol name="13" value="../../say/5"/>
+			<uol name="14" value="../../say/6"/>
+			<uol name="15" value="../../say/7"/>
+			<imgdir name="speak">
+				<string name="0" value="n0"/>
+				<string name="1" value="n1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="eye">
+			<uol name="0" value="../../eye/0"/>
+			<uol name="1" value="../../eye/1"/>
+			<uol name="2" value="../../eye/2"/>
+		</imgdir>
+		<imgdir name="wind">
+			<uol name="0" value="../../wind/0"/>
+			<uol name="1" value="../../wind/1"/>
+			<uol name="2" value="../../wind/2"/>
+			<uol name="3" value="../../wind/3"/>
+			<uol name="4" value="../../wind/4"/>
+			<uol name="5" value="../../wind/5"/>
+		</imgdir>
+		<imgdir name="penguin">
+			<uol name="0" value="../../penguin/0"/>
+			<uol name="1" value="../../penguin/1"/>
+			<uol name="2" value="../../penguin/2"/>
+			<uol name="3" value="../../penguin/3"/>
+			<uol name="4" value="../../penguin/4"/>
+			<uol name="5" value="../../penguin/5"/>
+			<uol name="6" value="../../penguin/6"/>
+			<uol name="7" value="../../penguin/7"/>
+		</imgdir>
+		<int name="32322" value="3"/>
+		<int name="hide" value="1"/>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9305633.img">
+	<imgdir name="info">
+		<int name="firstAttack" value="1"/>
+		<string name="link" value="8500001"/>
+		<int name="ignoreFieldOut" value="1"/>
+		<int name="bodyAttack" value="1"/>
+		<imgdir name="skill">
+			<imgdir name="0">
+				<int name="skill" value="127"/>
+				<int name="action" value="1"/>
+				<int name="level" value="1"/>
+				<int name="effectAfter" value="0"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="skill" value="126"/>
+				<int name="action" value="2"/>
+				<int name="level" value="1"/>
+				<int name="effectAfter" value="0"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="skill" value="123"/>
+				<int name="action" value="1"/>
+				<int name="level" value="4"/>
+				<int name="effectAfter" value="0"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="default">
+			<canvas name="0" width="189" height="222">
+				<vector name="origin" x="94" y="111"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Mob/8500002.img/info/default/0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="attack">
+			<imgdir name="0">
+				<int name="action" value="1"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="conMP" value="10"/>
+				<int name="magic" value="1"/>
+				<string name="elemAttr" value="L"/>
+				<int name="doFirst" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="action" value="2"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="conMP" value="100"/>
+				<int name="magic" value="1"/>
+				<string name="elemAttr" value="I"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="action" value="3"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="conMP" value="10"/>
+				<int name="magic" value="1"/>
+				<string name="elemAttr" value="L"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="action" value="4"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="conMP" value="100"/>
+				<int name="magic" value="1"/>
+				<string name="elemAttr" value="F"/>
+			</imgdir>
+		</imgdir>
+		<int name="level" value="185"/>
+		<int name="maxHP" value="866230000"/>
+		<int name="maxMP" value="35000"/>
+		<int name="speed" value="-40"/>
+		<int name="PADamage" value="20082"/>
+		<int name="PDDamage" value="1000"/>
+		<int name="PDRate" value="50"/>
+		<int name="MADamage" value="19913"/>
+		<int name="MDDamage" value="1100"/>
+		<int name="MDRate" value="50"/>
+		<int name="acc" value="832"/>
+		<int name="eva" value="240"/>
+		<int name="pushed" value="1000000000"/>
+		<float name="fs" value="10.0"/>
+		<int name="boss" value="1"/>
+		<int name="exp" value="625900"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="8"/>
+		<int name="hpRecovery" value="10000"/>
+		<int name="mpRecovery" value="50000"/>
+		<string name="mobType" value="7N"/>
+		<float name="finalAdjustedDamageRate" value="0.1"/>
+	</imgdir>
+</imgdir>

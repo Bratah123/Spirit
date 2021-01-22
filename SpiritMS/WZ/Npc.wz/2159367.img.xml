@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2159367.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="102" height="90">
+			<vector name="origin" x="50" y="89"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2159363.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="96" height="88">
+			<vector name="origin" x="48" y="87"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2159363.img/stand/1"/>
+		</canvas>
+		<canvas name="2" width="93" height="88">
+			<vector name="origin" x="47" y="87"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2159363.img/stand/2"/>
+		</canvas>
+		<canvas name="3" width="87" height="91">
+			<vector name="origin" x="42" y="90"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2159363.img/stand/3"/>
+		</canvas>
+		<canvas name="4" width="93" height="91">
+			<vector name="origin" x="38" y="90"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2159363.img/stand/4"/>
+		</canvas>
+		<canvas name="5" width="104" height="91">
+			<vector name="origin" x="50" y="90"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2159363.img/stand/5"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="25674">
+			<string name="value" value="1"/>
+		</imgdir>
+		<imgdir name="stand">
+			<canvas name="0" width="99" height="231">
+				<vector name="origin" x="44" y="229"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/1520022.img/stand/0"/>
+			</canvas>
+			<canvas name="1" width="107" height="231">
+				<vector name="origin" x="53" y="229"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/1520022.img/stand/1"/>
+			</canvas>
+			<canvas name="2" width="149" height="231">
+				<vector name="origin" x="72" y="229"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/1520022.img/stand/2"/>
+			</canvas>
+			<canvas name="3" width="214" height="231">
+				<vector name="origin" x="103" y="229"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/1520022.img/stand/3"/>
+			</canvas>
+			<canvas name="4" width="229" height="231">
+				<vector name="origin" x="111" y="229"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/1520022.img/stand/4"/>
+			</canvas>
+			<canvas name="5" width="232" height="231">
+				<vector name="origin" x="112" y="229"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/1520022.img/stand/5"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+</imgdir>

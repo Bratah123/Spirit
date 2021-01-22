@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="0533.img">
+	<imgdir name="05330000">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="28">
+				<vector name="origin" x="0" y="28"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="27">
+				<vector name="origin" x="0" y="28"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05530052">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="30">
+				<vector name="origin" x="0" y="30"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="25">
+				<vector name="origin" x="0" y="30"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+		<imgdir name="reward">
+			<imgdir name="0">
+				<string name="item" value="2048018"/>
+				<int name="prob" value="100"/>
+				<string name="Effect" value="Effect/BasicEff/Event1/Success"/>
+				<int name="count" value="2"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05530053">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="30">
+				<vector name="origin" x="0" y="30"/>
+				<string name="source" value="Item/Cash/0533.img/05530052/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="25">
+				<vector name="origin" x="0" y="30"/>
+				<string name="source" value="Item/Cash/0533.img/05530052/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+		<imgdir name="reward">
+			<imgdir name="0">
+				<string name="item" value="2048019"/>
+				<int name="prob" value="100"/>
+				<string name="Effect" value="Effect/BasicEff/Event1/Success"/>
+				<int name="count" value="2"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2420008.img">
+	<imgdir name="info">
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="51" height="78">
+			<vector name="origin" x="25" y="78"/>
+			<string name="source" value="Npc/2101002.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="51" height="78">
+			<vector name="origin" x="25" y="78"/>
+			<int name="delay" value="2000"/>
+			<string name="source" value="Npc/2101002.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="51" height="78">
+			<vector name="origin" x="25" y="78"/>
+			<int name="delay" value="80"/>
+			<string name="source" value="Npc/2101002.img/eye/1"/>
+		</canvas>
+		<canvas name="2" width="51" height="78">
+			<vector name="origin" x="25" y="78"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Npc/2101002.img/eye/2"/>
+		</canvas>
+		<canvas name="3" width="51" height="78">
+			<vector name="origin" x="25" y="78"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Npc/2101002.img/eye/3"/>
+		</canvas>
+		<canvas name="4" width="51" height="78">
+			<vector name="origin" x="25" y="78"/>
+			<int name="delay" value="80"/>
+			<string name="source" value="Npc/2101002.img/eye/1"/>
+		</canvas>
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="hand">
+		<canvas name="0" width="51" height="78">
+			<vector name="origin" x="25" y="78"/>
+			<int name="delay" value="2000"/>
+			<string name="source" value="Npc/2101002.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="51" height="77">
+			<vector name="origin" x="25" y="77"/>
+			<int name="delay" value="400"/>
+			<string name="source" value="Npc/2101002.img/hand/1"/>
+		</canvas>
+		<canvas name="2" width="51" height="77">
+			<vector name="origin" x="25" y="77"/>
+			<int name="delay" value="400"/>
+			<string name="source" value="Npc/2101002.img/hand/1"/>
+		</canvas>
+		<canvas name="3" width="51" height="77">
+			<vector name="origin" x="25" y="77"/>
+			<int name="delay" value="400"/>
+			<string name="source" value="Npc/2101002.img/hand/1"/>
+		</canvas>
+	</imgdir>
+</imgdir>

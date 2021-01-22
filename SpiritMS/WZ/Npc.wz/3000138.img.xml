@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3000138.img">
+	<imgdir name="info">
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="100" height="118">
+			<vector name="origin" x="58" y="104"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2159354.img/special/32"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="100" height="118">
+			<vector name="origin" x="58" y="104"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="1500"/>
+			<string name="source" value="Npc/2159354.img/special/32"/>
+		</canvas>
+		<canvas name="1" width="100" height="118">
+			<vector name="origin" x="58" y="104"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="90"/>
+			<string name="source" value="Npc/2159355.img/eye/1"/>
+		</canvas>
+		<canvas name="2" width="100" height="118">
+			<vector name="origin" x="58" y="104"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="90"/>
+			<string name="source" value="Npc/2159355.img/eye/2"/>
+		</canvas>
+		<canvas name="3" width="100" height="118">
+			<vector name="origin" x="58" y="104"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="1500"/>
+			<string name="source" value="Npc/2159354.img/special/32"/>
+		</canvas>
+		<uol name="4" value="1"/>
+		<uol name="5" value="2"/>
+		<uol name="6" value="3"/>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="100" height="118">
+			<vector name="origin" x="58" y="104"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="300"/>
+			<string name="source" value="Npc/2159354.img/special/32"/>
+		</canvas>
+		<canvas name="1" width="100" height="118">
+			<vector name="origin" x="58" y="104"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="90"/>
+			<string name="source" value="Npc/2159355.img/say/1"/>
+		</canvas>
+		<canvas name="2" width="100" height="118">
+			<vector name="origin" x="58" y="104"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="90"/>
+			<string name="source" value="Npc/2159354.img/special/32"/>
+		</canvas>
+		<canvas name="3" width="100" height="118">
+			<vector name="origin" x="58" y="104"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="90"/>
+			<string name="source" value="Npc/2159355.img/say/1"/>
+		</canvas>
+		<uol name="4" value="0"/>
+		<uol name="5" value="1"/>
+		<uol name="7" value="0"/>
+		<uol name="8" value="2"/>
+		<uol name="9" value="3"/>
+		<canvas name="10" width="100" height="118">
+			<vector name="origin" x="58" y="104"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="90"/>
+			<string name="source" value="Npc/2159355.img/say/1"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="teleportation">
+		<canvas name="0" width="100" height="118">
+			<vector name="origin" x="58" y="104"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="90"/>
+			<string name="source" value="Npc/2159354.img/special/32"/>
+		</canvas>
+		<canvas name="1" width="98" height="165">
+			<vector name="origin" x="56" y="139"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="90"/>
+			<string name="source" value="Npc/2159355.img/teleportation/1"/>
+		</canvas>
+		<canvas name="2" width="98" height="148">
+			<vector name="origin" x="56" y="125"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="90"/>
+			<string name="source" value="Npc/2159355.img/teleportation/2"/>
+		</canvas>
+		<canvas name="3" width="68" height="179">
+			<vector name="origin" x="39" y="146"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="90"/>
+			<string name="source" value="Npc/2159355.img/teleportation/3"/>
+		</canvas>
+		<canvas name="4" width="38" height="148">
+			<vector name="origin" x="21" y="137"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="90"/>
+			<string name="source" value="Npc/2159355.img/teleportation/4"/>
+		</canvas>
+		<canvas name="5" width="1" height="1">
+			<vector name="origin" x="0" y="33"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="3000"/>
+			<string name="source" value="Npc/1032116.img/stand/0"/>
+		</canvas>
+		<int name="special" value="1"/>
+	</imgdir>
+</imgdir>

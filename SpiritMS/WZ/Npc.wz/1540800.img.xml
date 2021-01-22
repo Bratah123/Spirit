@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1540800.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="npc_1540800"/>
+			</imgdir>
+		</imgdir>
+		<int name="forceMove" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="59" height="67">
+			<vector name="origin" x="28" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="56" height="68">
+			<vector name="origin" x="26" y="68"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="59" height="67">
+			<vector name="origin" x="28" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="55" height="68">
+			<vector name="origin" x="25" y="68"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="59" height="67">
+			<vector name="origin" x="28" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="59" height="67">
+			<vector name="origin" x="28" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="59" height="67">
+			<vector name="origin" x="28" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="59" height="67">
+			<vector name="origin" x="28" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="59" height="67">
+			<vector name="origin" x="28" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<int name="special" value="1"/>
+	</imgdir>
+	<imgdir name="stand2">
+		<canvas name="0" width="84" height="32">
+			<vector name="origin" x="48" y="32"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="84" height="40">
+			<vector name="origin" x="48" y="39"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="84" height="43">
+			<vector name="origin" x="48" y="43"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="84" height="48">
+			<vector name="origin" x="48" y="47"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<int name="special" value="1"/>
+	</imgdir>
+	<imgdir name="stand3">
+		<canvas name="0" width="59" height="67">
+			<vector name="origin" x="28" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<int name="special" value="1"/>
+	</imgdir>
+	<imgdir name="mouth">
+		<canvas name="0" width="59" height="67">
+			<vector name="origin" x="28" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="55" height="68">
+			<vector name="origin" x="25" y="68"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="59" height="67">
+			<vector name="origin" x="28" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="55" height="68">
+			<vector name="origin" x="25" y="68"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<int name="special" value="1"/>
+	</imgdir>
+</imgdir>

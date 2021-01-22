@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2460027.img">
+	<imgdir name="info">
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="46" height="83">
+			<vector name="origin" x="20" y="83"/>
+			<int name="delay" value="5000"/>
+			<string name="source" value="Npc/2111003.img/eye/1"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition">
+		<imgdir name="stand">
+			<canvas name="0" width="46" height="83">
+				<vector name="origin" x="20" y="83"/>
+				<int name="delay" value="5000"/>
+				<string name="source" value="Npc/2111003.img/eye/1"/>
+			</canvas>
+		</imgdir>
+		<int name="41272" value="1"/>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9111002.img">
+	<imgdir name="info">
+		<imgdir name="illustration2">
+			<imgdir name="face">
+				<canvas name="talk_illust_yibaraki.png" width="1024" height="512">
+					<vector name="origin" x="512" y="256"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<string name="spine" value="talk_illust_yibaraki"/>
+				<string name="talk_illust_yibaraki.json" value="{\n&quot;skeleton&quot;: {\n	&quot;hash&quot;: &quot;KsND9TCGUVhNS8hnO/YSB6PLyR4&quot;,\n	&quot;spine&quot;: &quot;2.1.27&quot;,\n	&quot;width&quot;: 312.15,\n	&quot;height&quot;: 390.09,\n	&quot;images&quot;: &quot;./../../../Spine_ImageSource/illust/160118_mushroom_temple_talk_illust/image/yibaraki/&quot;\n},\n&quot;bones&quot;: [\n	{ &quot;name&quot;: &quot;root&quot;, &quot;color&quot;: &quot;ffffff74&quot; },\n	{ &quot;name&quot;: &quot;body&quot;, &quot;parent&quot;: &quot;root&quot;, &quot;length&quot;: 106.18, &quot;x&quot;: -3.68, &quot;y&quot;: 3.11, &quot;rotation&quot;: 89.09, &quot;color&quot;: &quot;ffffff74&quot; },\n	{ &quot;name&quot;: &quot;head&quot;, &quot;parent&quot;: &quot;body&quot;, &quot;length&quot;: 177.27, &quot;x&quot;: 111.57, &quot;y&quot;: -9.75, &quot;rotation&quot;: 18.29, &quot;color&quot;: &quot;ffffff74&quot; },\n	{ &quot;name&quot;: &quot;eye_l&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 63.95, &quot;y&quot;: -34.22, &quot;color&quot;: &quot;ffffff74&quot; },\n	{ &quot;name&quot;: &quot;eye_r&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 71.96, &quot;y&quot;: 48.67, &quot;rotation&quot;: -11.1, &quot;color&quot;: &quot;ffffff74&quot; },\n	{ &quot;name&quot;: &quot;eyebrow_l&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 85.88, &quot;y&quot;: -11.74, &quot;rotation&quot;: 30.79, &quot;color&quot;: &quot;ffffff74&quot; },\n	{ &quot;name&quot;: &quot;eyebrow_r&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 86.87, &quot;y&quot;: 43.13, &quot;rotation&quot;: -36.23, &quot;color&quot;: &quot;ffffff74&quot; },\n	{ &quot;name&quot;: &quot;hair_f0&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;length&quot;: 88.1, &quot;x&quot;: 188.9, &quot;y&quot;: -3.1, &quot;rotation&quot;: 105.82, &quot;color&quot;: &quot;ffffff74&quot; },\n	{ &quot;name&quot;: &quot;mouth&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 20.93, &quot;y&quot;: 14.5, &quot;rotation&quot;: -5.65, &quot;color&quot;: &quot;ffffff74&quot; },\n	{ &quot;name&quot;: &quot;hair_f1&quot;, &quot;parent&quot;: &quot;hair_f0&quot;, &quot;length&quot;: 87.78, &quot;x&quot;: 88.1, &quot;y&quot;: 0.23, &quot;rotation&quot;: 11.56, &quot;color&quot;: &quot;ffffff74&quot; }\n],\n&quot;slots&quot;: [\n	{ &quot;name&quot;: &quot;body&quot;, &quot;bone&quot;: &quot;body&quot;, &quot;attachment&quot;: &quot;body&quot; },\n	{ &quot;name&quot;: &quot;horn_l&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;horn_l&quot; },\n	{ &quot;name&quot;: &quot;head&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;head&quot; },\n	{ &quot;name&quot;: &quot;hair_sha&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;hair_sha&quot; },\n	{ &quot;name&quot;: &quot;mouth&quot;, &quot;bone&quot;: &quot;mouth&quot;, &quot;attachment&quot;: &quot;mouth0&quot; },\n	{ &quot;name&quot;: &quot;eye_l&quot;, &quot;bone&quot;: &quot;eye_l&quot;, &quot;attachment&quot;: &quot;eye_l0&quot; },\n	{ &quot;name&quot;: &quot;eye_r&quot;, &quot;bone&quot;: &quot;eye_r&quot;, &quot;attachment&quot;: &quot;eye_r0&quot; },\n	{ &quot;name&quot;: &quot;eyebrow_l&quot;, &quot;bone&quot;: &quot;eyebrow_l&quot;, &quot;attachment&quot;: &quot;eyebrow_l0&quot; },\n	{ &quot;name&quot;: &quot;eyebrow_r&quot;, &quot;bone&quot;: &quot;eyebrow_r&quot;, &quot;attachment&quot;: &quot;eyebrow_r0&quot; },\n	{ &quot;name&quot;: &quot;face_acc_l&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;face_acc_l&quot; },\n	{ &quot;name&quot;: &quot;face_acc_r&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;face_acc_r&quot; },\n	{ &quot;name&quot;: &quot;bandage&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;bandage&quot; },\n	{ &quot;name&quot;: &quot;hair_f&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;hair_f&quot; },\n	{ &quot;name&quot;: &quot;horn_r&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;horn_r&quot; },\n	{ &quot;name&quot;: &quot;head_acc&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;head_acc&quot; }\n],\n&quot;skins&quot;: {\n	&quot;default&quot;: {\n		&quot;bandage&quot;: {\n			&quot;bandage&quot;: { &quot;x&quot;: 116.19, &quot;y&quot;: -42.68, &quot;rotation&quot;: -107.39, &quot;width&quot;: 39, &quot;height&quot;: 18 }\n		},\n		&quot;body&quot;: {\n			&quot;body&quot;: {\n				&quot;type&quot;: &quot;skinnedmesh&quot;,\n				&quot;uvs&quot;: [ 0.92408, 0.36435, 1, 0.77362, 0.91471, 1, 0.69458, 1, 0.33393, 1, 0.22044, 1, 0, 1, 0, 0.76783, 0.04821, 0.51283, 0.11856, 0.18741, 0.47132, 0, 0.80855, 0, 0.3433, 0.78701, 0.37765, 0.58428, 0.40731, 0.41407, 0.43541, 0.29359, 0.6415, 0.82143, 0.68677, 0.525, 0.19614, 0.55488, 0.22265, 0.80115 ],\n				&quot;triangles&quot;: [ 1, 2, 16, 4, 16, 3, 2, 3, 16, 5, 19, 4, 4, 12, 16, 4, 19, 12, 5, 6, 19, 6, 7, 19, 12, 13, 16, 16, 17, 1, 16, 13, 17, 12, 19, 18, 19, 7, 18, 12, 18, 13, 17, 0, 1, 7, 8, 18, 13, 14, 17, 13, 18, 14, 14, 18, 9, 14, 15, 17, 0, 17, 15, 0, 15, 11, 11, 15, 10, 18, 8, 9, 14, 9, 15, 15, 9, 10 ],\n				&quot;vertices&quot;: [ 2, 1, 100.19, -91.51, 0.83199, 0, 89.41, 101.84, 0.168, 2, 1, 34.96, -107.43, 0.64, 0, 104.29, 36.34999, 0.35999, 1, 0, 87.58, 0.13, 1, 1, 0, 44.43, 0.13, 1, 1, 0, -26.25, 0.13, 1, 1, 0, -48.49, 0.13, 1, 1, 0, -91.7, 0.13, 1, 2, 1, 32.75999, 88.55, 0.64, 0, -91.7, 37.28, 0.35999, 2, 1, 73.71, 79.75, 0.83199, 0, -82.25, 78.08, 0.168, 1, 1, 125.99, 66.79, 1, 1, 1, 157.07, -1.86, 1, 1, 1, 158.12, -67.94, 1, 2, 1, 30.77, 21.22, 0.64, 0, -24.41, 34.21, 0.35999, 2, 1, 63.3, 15, 0.83199, 0, -17.68, 66.65, 0.168, 1, 1, 90.63, 9.62, 1, 1, 1, 109.99, 4.42, 1, 2, 1, 26.19, -37.3, 0.64, 0, 34.03, 28.7, 0.35999, 2, 1, 73.75, -45.41, 0.83199, 0, 42.9, 76.12999, 0.168, 2, 1, 67.44, 50.65, 0.82289, 0, -53.25, 71.35, 0.1771, 2, 1, 28.13, 44.83, 0.58243, 0, -48.06, 31.95, 0.41756 ],\n				&quot;hull&quot;: 12,\n				&quot;edges&quot;: [ 12, 14, 14, 16, 22, 0, 0, 2, 2, 4, 16, 18, 20, 22, 18, 20, 4, 6, 6, 8, 8, 10, 10, 12 ],\n				&quot;width&quot;: 196,\n				&quot;height&quot;: 160\n			}\n		},\n		&quot;eye_l&quot;: {\n			&quot;eye_l0&quot;: { &quot;x&quot;: 9.24, &quot;y&quot;: 0.22, &quot;rotation&quot;: -107.39, &quot;width&quot;: 64, &quot;height&quot;: 39 },\n			&quot;eye_l1&quot;: { &quot;x&quot;: 9.24, &quot;y&quot;: 0.22, &quot;rotation&quot;: -107.39, &quot;width&quot;: 62, &quot;height&quot;: 39 },\n			&quot;eye_l2&quot;: { &quot;x&quot;: 9.24, &quot;y&quot;: 0.22, &quot;rotation&quot;: -107.39, &quot;width&quot;: 65, &quot;height&quot;: 40 },\n			&quot;eye_lc&quot;: { &quot;x&quot;: 7.42, &quot;y&quot;: 1.79, &quot;rotation&quot;: -107.39, &quot;width&quot;: 63, &quot;height&quot;: 39 }\n		},\n		&quot;eye_r&quot;: {\n			&quot;eye_r0&quot;: { &quot;x&quot;: 5.45, &quot;y&quot;: 3.79, &quot;rotation&quot;: -96.28, &quot;width&quot;: 46, &quot;height&quot;: 21 },\n			&quot;eye_r1&quot;: { &quot;x&quot;: 5.45, &quot;y&quot;: 3.79, &quot;rotation&quot;: -96.28, &quot;width&quot;: 46, &quot;height&quot;: 20 },\n			&quot;eye_r2&quot;: { &quot;x&quot;: 5.45, &quot;y&quot;: 3.79, &quot;rotation&quot;: -96.28, &quot;width&quot;: 45, &quot;height&quot;: 22 },\n			&quot;eye_rc&quot;: { &quot;x&quot;: -0.33, &quot;y&quot;: 0.69, &quot;rotation&quot;: -96.28, &quot;width&quot;: 35, &quot;height&quot;: 11 }\n		},\n		&quot;eyebrow_l&quot;: {\n			&quot;eyebrow_l0&quot;: { &quot;x&quot;: -5.6, &quot;y&quot;: -6.85, &quot;rotation&quot;: -138.19, &quot;width&quot;: 74, &quot;height&quot;: 43 }\n		},\n		&quot;eyebrow_r&quot;: {\n			&quot;eyebrow_r0&quot;: { &quot;x&quot;: -1.84, &quot;y&quot;: 5.3, &quot;rotation&quot;: -71.15, &quot;width&quot;: 49, &quot;height&quot;: 21 }\n		},\n		&quot;face_acc_l&quot;: {\n			&quot;face_acc_l&quot;: { &quot;x&quot;: 47.59, &quot;y&quot;: -32.41, &quot;rotation&quot;: -107.39, &quot;width&quot;: 18, &quot;height&quot;: 36 }\n		},\n		&quot;face_acc_r&quot;: {\n			&quot;face_acc_r&quot;: { &quot;x&quot;: 56.14, &quot;y&quot;: 53.89, &quot;rotation&quot;: -107.39, &quot;width&quot;: 19, &quot;height&quot;: 26 }\n		},\n		&quot;hair_f&quot;: {\n			&quot;hair_f&quot;: {\n				&quot;type&quot;: &quot;skinnedmesh&quot;,\n				&quot;uvs&quot;: [ 0.18949, 0.21212, 0.24384, 0.12352, 0.39134, 0.12091, 0.70814, 0.11531, 0.88363, 0.48487, 0.64253, 0.78632, 0.65341, 0.70056, 0.68577, 0.56903, 0.63026, 0.64936, 0.56069, 0.86101, 0.37369, 0.99998, 0.3328, 0.82816, 0.20363, 1, 0.1559, 0.95856, 0.25237, 0.67869, 0.03942, 0.85745, 0, 0.82323, 0.09761, 0.5555, 0, 0.62284, 0, 0.52101 ],\n				&quot;triangles&quot;: [ 17, 19, 0, 18, 19, 17, 9, 14, 0, 17, 0, 14, 17, 14, 16, 9, 11, 14, 15, 16, 14, 11, 13, 14, 10, 11, 9, 12, 13, 11, 7, 2, 3, 7, 3, 4, 8, 2, 7, 4, 5, 6, 4, 6, 7, 2, 0, 1, 0, 8, 9, 0, 2, 8 ],\n				&quot;vertices&quot;: [ 2, 7, 76.82, -80, 0.616, 9, -27.12, -76.35, 0.38399, 1, 7, 54.09, -87.03, 1, 1, 2, 246.09, 33.25, 1, 1, 2, 220.82, -51.44, 1, 1, 2, 133.19, -75.33, 1, 2, 7, 36.16999, 88.67, 0.38334, 2, 93.71, 7.49, 0.61665, 2, 7, 23.91, 75.48, 0.18867, 2, 109.75, -0.7, 0.81132, 2, 7, 1.44, 57.65, 0.12091, 2, 133.04, -17.44, 0.87908, 2, 7, 23.51, 63.08, 0.776, 2, 121.79, 2.29, 0.224, 2, 7, 63.75, 89.1, 0.624, 9, -6.05, 91.94, 0.37599, 1, 9, 51.23, 75.62, 1, 1, 9, 34.28, 42.33, 1, 1, 9, 84.92, 42.21, 1, 1, 9, 88.34, 26.74, 1, 1, 9, 28.43, 4.57, 1, 1, 9, 96.67, -11, 1, 1, 9, 99.49, -23.77, 1, 1, 9, 41.12, -43.94, 1, 1, 9, 70.28, -53.22, 1, 1, 9, 55.43, -68.19, 1 ],\n				&quot;hull&quot;: 20,\n				&quot;edges&quot;: [ 18, 20, 6, 8, 2, 4, 4, 6, 38, 0, 0, 2, 18, 0, 20, 22, 22, 24, 32, 34, 36, 38, 34, 36, 24, 26, 28, 26, 28, 30, 30, 32, 4, 16, 18, 16, 16, 14, 14, 12, 12, 10, 8, 10 ],\n				&quot;width&quot;: 279,\n				&quot;height&quot;: 207\n			}\n		},\n		&quot;hair_sha&quot;: {\n			&quot;hair_sha&quot;: {\n				&quot;type&quot;: &quot;skinnedmesh&quot;,\n				&quot;uvs&quot;: [ 1, 0.49684, 0.72963, 0.60049, 0.91027, 0.3269, 0.76226, 0.38293, 0.74572, 0.36953, 0.52663, 0.72901, 0.48467, 0.63937, 0.32384, 1, 0.29058, 1, 0, 0.53835, 0, 0, 1, 0 ],\n				&quot;triangles&quot;: [ 4, 5, 6, 10, 4, 6, 8, 9, 6, 0, 1, 2, 6, 9, 10, 2, 11, 0, 3, 4, 2, 2, 4, 11, 11, 4, 10, 7, 8, 6 ],\n				&quot;vertices&quot;: [ 1, 2, 103.57, -48.6, 1, 1, 2, 97.88, -9.14, 1, 1, 2, 134.05, -45.63, 1, 1, 2, 131.05, -24.07, 1, 2, 2, 133.83, -22.63, 0.256, 7, -3.75, 58.3, 0.74399, 2, 7, 53.31, 92.27, 0.76799, 9, -15.65, 97.14, 0.232, 2, 7, 49.82, 76.76, 0.77599, 9, -22.17, 82.64, 0.224, 1, 2, 50.7, 62.16, 1, 1, 2, 52.02, 66.37999, 1, 1, 2, 136.69, 80.39, 1, 1, 2, 221.99, 53.71, 1, 1, 2, 182.28, -73.22, 1 ],\n				&quot;hull&quot;: 12,\n				&quot;edges&quot;: [ 20, 22, 14, 12, 12, 10, 10, 8, 8, 6, 6, 4, 4, 2, 0, 22, 2, 0, 14, 16, 18, 20, 16, 18 ],\n				&quot;width&quot;: 133,\n				&quot;height&quot;: 166\n			}\n		},\n		&quot;head&quot;: {\n			&quot;head&quot;: { &quot;x&quot;: 120.22, &quot;y&quot;: -20, &quot;rotation&quot;: -107.39, &quot;width&quot;: 229, &quot;height&quot;: 268 }\n		},\n		&quot;head_acc&quot;: {\n			&quot;head_acc&quot;: { &quot;x&quot;: 169.95, &quot;y&quot;: -82.71, &quot;rotation&quot;: -107.39, &quot;width&quot;: 131, &quot;height&quot;: 143 }\n		},\n		&quot;horn_l&quot;: {\n			&quot;horn_l&quot;: { &quot;x&quot;: 168.67, &quot;y&quot;: 106.96, &quot;rotation&quot;: -107.39, &quot;width&quot;: 100, &quot;height&quot;: 189 }\n		},\n		&quot;horn_r&quot;: {\n			&quot;horn_r&quot;: { &quot;x&quot;: 178, &quot;y&quot;: -36.2, &quot;rotation&quot;: -107.39, &quot;width&quot;: 132, &quot;height&quot;: 190 }\n		},\n		&quot;mouth&quot;: {\n			&quot;mouth0&quot;: { &quot;x&quot;: 4.83, &quot;y&quot;: -1.47, &quot;rotation&quot;: -101.74, &quot;width&quot;: 46, &quot;height&quot;: 18 },\n			&quot;mouth1&quot;: { &quot;x&quot;: 4.83, &quot;y&quot;: -1.47, &quot;rotation&quot;: -101.74, &quot;width&quot;: 64, &quot;height&quot;: 27 },\n			&quot;mouth2&quot;: { &quot;x&quot;: 1.39, &quot;y&quot;: 4.42, &quot;rotation&quot;: -101.74, &quot;width&quot;: 57, &quot;height&quot;: 9 }\n		}\n	}\n},\n&quot;animations&quot;: {\n	&quot;0&quot;: {\n		&quot;slots&quot;: {\n			&quot;bandage&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;bandage&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;bandage&quot; }\n				]\n			},\n			&quot;body&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;body&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;body&quot; }\n				]\n			},\n			&quot;eye_l&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_l0&quot; },\n					{ &quot;time&quot;: 3.5, &quot;name&quot;: &quot;eye_lc&quot; },\n					{ &quot;time&quot;: 3.6, &quot;name&quot;: &quot;eye_l0&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;eye_l0&quot; }\n				]\n			},\n			&quot;eye_r&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_r0&quot; },\n					{ &quot;time&quot;: 3.5, &quot;name&quot;: &quot;eye_rc&quot; },\n					{ &quot;time&quot;: 3.6, &quot;name&quot;: &quot;eye_r0&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;eye_r0&quot; }\n				]\n			},\n			&quot;eyebrow_l&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_l0&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;eyebrow_l0&quot; }\n				]\n			},\n			&quot;eyebrow_r&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_r0&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;eyebrow_r0&quot; }\n				]\n			},\n			&quot;face_acc_l&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;face_acc_l&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;face_acc_l&quot; }\n				]\n			},\n			&quot;face_acc_r&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;face_acc_r&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;face_acc_r&quot; }\n				]\n			},\n			&quot;hair_f&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;hair_f&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;hair_f&quot; }\n				]\n			},\n			&quot;hair_sha&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;hair_sha&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;hair_sha&quot; }\n				]\n			},\n			&quot;head&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;head&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;head&quot; }\n				]\n			},\n			&quot;head_acc&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;head_acc&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;head_acc&quot; }\n				]\n			},\n			&quot;horn_l&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;horn_l&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;horn_l&quot; }\n				]\n			},\n			&quot;horn_r&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;horn_r&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;horn_r&quot; }\n				]\n			},\n			&quot;mouth&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;mouth0&quot; },\n					{ &quot;time&quot;: 6, &quot;name&quot;: &quot;mouth0&quot; }\n				]\n			}\n		},\n		&quot;bones&quot;: {\n			&quot;head&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 0.3333, &quot;angle&quot;: 4.06 },\n					{ &quot;time&quot;: 0.6666, &quot;angle&quot;: 5.9 },\n					{ &quot;time&quot;: 2, &quot;angle&quot;: -4.2 },\n					{ &quot;time&quot;: 2.6666, &quot;angle&quot;: -15.88 },\n					{ &quot;time&quot;: 3, &quot;angle&quot;: -14.07 },\n					{ &quot;time&quot;: 3.3333, &quot;angle&quot;: -15.88 },\n					{ &quot;time&quot;: 3.6666, &quot;angle&quot;: -14.07 },\n					{ &quot;time&quot;: 4, &quot;angle&quot;: -15.88 },\n					{ &quot;time&quot;: 4.6666, &quot;angle&quot;: -8.22 },\n					{ &quot;time&quot;: 5, &quot;angle&quot;: -6.11 },\n					{ &quot;time&quot;: 6, &quot;angle&quot;: 0 }\n				]\n			},\n			&quot;eyebrow_r&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0.6666, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 0.9, &quot;angle&quot;: -2.83, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.5, &quot;angle&quot;: -2.83 },\n					{ &quot;time&quot;: 1.7, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.3333, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 3.4666, &quot;angle&quot;: -2.83 },\n					{ &quot;time&quot;: 3.6666, &quot;angle&quot;: 0 }\n				],\n				&quot;translate&quot;: [\n					{ &quot;time&quot;: 0.6666, &quot;x&quot;: 0, &quot;y&quot;: 0 },\n					{ &quot;time&quot;: 0.9, &quot;x&quot;: -2.29, &quot;y&quot;: -1.53, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.5, &quot;x&quot;: -2.29, &quot;y&quot;: -1.53 },\n					{ &quot;time&quot;: 1.7, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 },\n					{ &quot;time&quot;: 3.4666, &quot;x&quot;: -2.29, &quot;y&quot;: -1.53 },\n					{ &quot;time&quot;: 3.6666, &quot;x&quot;: 0, &quot;y&quot;: 0 }\n				]\n			},\n			&quot;eyebrow_l&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0.6666, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 0.9, &quot;angle&quot;: 3.11, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.5, &quot;angle&quot;: 3.11 },\n					{ &quot;time&quot;: 1.7, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.3333, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 3.4666, &quot;angle&quot;: 3.11 },\n					{ &quot;time&quot;: 3.6666, &quot;angle&quot;: 0 }\n				],\n				&quot;translate&quot;: [\n					{ &quot;time&quot;: 0.6666, &quot;x&quot;: 0, &quot;y&quot;: 0 },\n					{ &quot;time&quot;: 0.9, &quot;x&quot;: -2.97, &quot;y&quot;: 0.82, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.5, &quot;x&quot;: -2.97, &quot;y&quot;: 0.82 },\n					{ &quot;time&quot;: 1.7, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 },\n					{ &quot;time&quot;: 3.4666, &quot;x&quot;: -2.97, &quot;y&quot;: 0.82 },\n					{ &quot;time&quot;: 3.6666, &quot;x&quot;: 0, &quot;y&quot;: 0 }\n				]\n			},\n			&quot;eye_r&quot;: {\n				&quot;scale&quot;: [\n					{ &quot;time&quot;: 0.6666, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 0.9, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.5, &quot;x&quot;: 0.725, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 1.7, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 3.4666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.5666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.6333, &quot;x&quot;: 0.725, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 3.7333, &quot;x&quot;: 1, &quot;y&quot;: 1 }\n				]\n			},\n			&quot;eye_l&quot;: {\n				&quot;scale&quot;: [\n					{ &quot;time&quot;: 0.6666, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 0.9, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.5, &quot;x&quot;: 0.725, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 1.7, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 3.4666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.5666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.6333, &quot;x&quot;: 0.725, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 3.7333, &quot;x&quot;: 1, &quot;y&quot;: 1 }\n				]\n			},\n			&quot;body&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 1, &quot;angle&quot;: 1.18 },\n					{ &quot;time&quot;: 2, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 2.6666, &quot;angle&quot;: 2.51, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.0666, &quot;angle&quot;: 2.51 },\n					{ &quot;time&quot;: 4.0333, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 5.1666, &quot;angle&quot;: -1.35 },\n					{ &quot;time&quot;: 6, &quot;angle&quot;: 0 }\n				]\n			},\n			&quot;hair_f0&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{\n						&quot;time&quot;: 0.1666,\n						&quot;angle&quot;: 0,\n						&quot;curve&quot;: [ 0.43, 1, 0.704, 1.61 ]\n					},\n					{ &quot;time&quot;: 1.2333, &quot;angle&quot;: 5 },\n					{ &quot;time&quot;: 1.6666, &quot;angle&quot;: 0.48 },\n					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: -4.95 },\n					{ &quot;time&quot;: 4, &quot;angle&quot;: -8.01 },\n					{ &quot;time&quot;: 6, &quot;angle&quot;: 0 }\n				]\n			},\n			&quot;hair_f1&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{\n						&quot;time&quot;: 0.1666,\n						&quot;angle&quot;: 0,\n						&quot;curve&quot;: [ 0.43, 1, 0.704, 1.61 ]\n					},\n					{ &quot;time&quot;: 1.2333, &quot;angle&quot;: 5 },\n					{ &quot;time&quot;: 1.6666, &quot;angle&quot;: 0.48 },\n					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: -4.95 },\n					{ &quot;time&quot;: 3, &quot;angle&quot;: -7.35 },\n					{ &quot;time&quot;: 3.3333, &quot;angle&quot;: -0.76 },\n					{ &quot;time&quot;: 4, &quot;angle&quot;: -6.07 },\n					{ &quot;time&quot;: 4.3333, &quot;angle&quot;: -4.23 },\n					{ &quot;time&quot;: 6, &quot;angle&quot;: 0 }\n				]\n			}\n		}\n	},\n	&quot;1&quot;: {\n		&quot;slots&quot;: {\n			&quot;eye_l&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_l1&quot; },\n					{ &quot;time&quot;: 4.3, &quot;name&quot;: &quot;eye_lc&quot; },\n					{ &quot;time&quot;: 4.4, &quot;name&quot;: &quot;eye_l1&quot; },\n					{ &quot;time&quot;: 5, &quot;name&quot;: &quot;eye_l1&quot; }\n				]\n			},\n			&quot;eye_r&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_r1&quot; },\n					{ &quot;time&quot;: 4.3, &quot;name&quot;: &quot;eye_rc&quot; },\n					{ &quot;time&quot;: 4.4, &quot;name&quot;: &quot;eye_r1&quot; },\n					{ &quot;time&quot;: 5, &quot;name&quot;: &quot;eye_r1&quot; }\n				]\n			},\n			&quot;mouth&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;mouth1&quot; },\n					{ &quot;time&quot;: 5, &quot;name&quot;: &quot;mouth1&quot; }\n				]\n			}\n		},\n		&quot;bones&quot;: {\n			&quot;eye_l&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 1, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: 0 }\n				],\n				&quot;translate&quot;: [\n					{ &quot;time&quot;: 1, &quot;x&quot;: 0, &quot;y&quot;: 0 }\n				],\n				&quot;scale&quot;: [\n					{ &quot;time&quot;: 2, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0.863, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 4.1333, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 4.2666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 4.3666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 4.4333, &quot;x&quot;: 0.725, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 4.5333, &quot;x&quot;: 1, &quot;y&quot;: 1 }\n				]\n			},\n			&quot;eye_r&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 1, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: 0 }\n				],\n				&quot;translate&quot;: [\n					{ &quot;time&quot;: 1, &quot;x&quot;: 0, &quot;y&quot;: 0 }\n				],\n				&quot;scale&quot;: [\n					{ &quot;time&quot;: 2, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0.863, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 4.1333, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 4.2666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 4.3666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 4.4333, &quot;x&quot;: 0.725, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 4.5333, &quot;x&quot;: 1, &quot;y&quot;: 1 }\n				]\n			},\n			&quot;mouth&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 1, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 1.2333, &quot;angle&quot;: 2.15, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.3333, &quot;angle&quot;: 2.15 },\n					{ &quot;time&quot;: 3.6666, &quot;angle&quot;: 0 }\n				],\n				&quot;scale&quot;: [\n					{ &quot;time&quot;: 1, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 1.2333, &quot;x&quot;: 1.073, &quot;y&quot;: 1.028, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.3333, &quot;x&quot;: 1.073, &quot;y&quot;: 1.028 },\n					{ &quot;time&quot;: 3.6666, &quot;x&quot;: 1, &quot;y&quot;: 1 }\n				]\n			},\n			&quot;head&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 0.6333, &quot;angle&quot;: 3.58 },\n					{ &quot;time&quot;: 1.1, &quot;angle&quot;: 0.44 },\n					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 1.9666, &quot;angle&quot;: 3.58 },\n					{ &quot;time&quot;: 2.4333, &quot;angle&quot;: 0.44 },\n					{ &quot;time&quot;: 2.6, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 3.3, &quot;angle&quot;: 3.58 },\n					{ &quot;time&quot;: 3.6666, &quot;angle&quot;: 0.44 },\n					{ &quot;time&quot;: 3.9333, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 4.5333, &quot;angle&quot;: 3.58 },\n					{ &quot;time&quot;: 5, &quot;angle&quot;: 0 }\n				]\n			},\n			&quot;hair_f0&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 0.6333, &quot;angle&quot;: 2.5 },\n					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 1.8666, &quot;angle&quot;: 2.5 },\n					{ &quot;time&quot;: 2.5, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 3.1333, &quot;angle&quot;: 2.5 },\n					{ &quot;time&quot;: 3.8333, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 4.4666, &quot;angle&quot;: 2.5 },\n					{ &quot;time&quot;: 5, &quot;angle&quot;: 0 }\n				]\n			},\n			&quot;hair_f1&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 1.1, &quot;angle&quot;: 3.62 },\n					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 2.3, &quot;angle&quot;: 3.62 },\n					{ &quot;time&quot;: 2.5, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 3.6, &quot;angle&quot;: 3.62 },\n					{ &quot;time&quot;: 3.8333, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 4.8, &quot;angle&quot;: 3.62 },\n					{ &quot;time&quot;: 5, &quot;angle&quot;: 0 }\n				]\n			},\n			&quot;body&quot;: {\n				&quot;rotate&quot;: [\n					{\n						&quot;time&quot;: 0,\n						&quot;angle&quot;: -4.46,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{\n						&quot;time&quot;: 0.8,\n						&quot;angle&quot;: 2.7,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{\n						&quot;time&quot;: 1.6333,\n						&quot;angle&quot;: -8.34,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{\n						&quot;time&quot;: 2.4333,\n						&quot;angle&quot;: -2.93,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{\n						&quot;time&quot;: 3.3666,\n						&quot;angle&quot;: -4.46,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{\n						&quot;time&quot;: 4.1333,\n						&quot;angle&quot;: 2.91,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{ &quot;time&quot;: 5, &quot;angle&quot;: -4.46 }\n				]\n			},\n			&quot;eyebrow_l&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: 9.38 },\n					{ &quot;time&quot;: 4, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 5, &quot;angle&quot;: 0 }\n				],\n				&quot;translate&quot;: [\n					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1, &quot;x&quot;: 0, &quot;y&quot;: 0 },\n					{ &quot;time&quot;: 1.3333, &quot;x&quot;: -1.7, &quot;y&quot;: 2.2 },\n					{ &quot;time&quot;: 4, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 5, &quot;x&quot;: 0, &quot;y&quot;: 0 }\n				]\n			},\n			&quot;eyebrow_r&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: -6.4 },\n					{ &quot;time&quot;: 4, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 5, &quot;angle&quot;: 0 }\n				],\n				&quot;translate&quot;: [\n					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1, &quot;x&quot;: 0, &quot;y&quot;: 0 },\n					{ &quot;time&quot;: 1.3333, &quot;x&quot;: -1.7, &quot;y&quot;: -4.37 },\n					{ &quot;time&quot;: 4, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 5, &quot;x&quot;: 0, &quot;y&quot;: 0 }\n				]\n			}\n		}\n	},\n	&quot;2&quot;: {\n		&quot;slots&quot;: {\n			&quot;eye_l&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_l2&quot; },\n					{ &quot;time&quot;: 1.5, &quot;name&quot;: &quot;eye_lc&quot; },\n					{ &quot;time&quot;: 1.6, &quot;name&quot;: &quot;eye_l2&quot; },\n					{ &quot;time&quot;: 3.5, &quot;name&quot;: &quot;eye_lc&quot; },\n					{ &quot;time&quot;: 3.6, &quot;name&quot;: &quot;eye_l2&quot; }\n				]\n			},\n			&quot;eye_r&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_r2&quot; },\n					{ &quot;time&quot;: 1.5, &quot;name&quot;: &quot;eye_rc&quot; },\n					{ &quot;time&quot;: 1.6, &quot;name&quot;: &quot;eye_r2&quot; },\n					{ &quot;time&quot;: 3.5, &quot;name&quot;: &quot;eye_rc&quot; },\n					{ &quot;time&quot;: 3.6, &quot;name&quot;: &quot;eye_r2&quot; }\n				]\n			},\n			&quot;mouth&quot;: {\n				&quot;attachment&quot;: [\n					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;mouth2&quot; }\n				]\n			}\n		},\n		&quot;bones&quot;: {\n			&quot;eye_l&quot;: {\n				&quot;scale&quot;: [\n					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.6333, &quot;x&quot;: 0.725, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 1.7333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 3.4666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.5666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.6333, &quot;x&quot;: 0.725, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 3.7333, &quot;x&quot;: 1, &quot;y&quot;: 1 }\n				]\n			},\n			&quot;eye_r&quot;: {\n				&quot;scale&quot;: [\n					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 1.6333, &quot;x&quot;: 0.725, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 1.7333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 3.4666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.5666, &quot;x&quot;: 0.725, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.6333, &quot;x&quot;: 0.725, &quot;y&quot;: 1 },\n					{ &quot;time&quot;: 3.7333, &quot;x&quot;: 1, &quot;y&quot;: 1 }\n				]\n			},\n			&quot;body&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 1, &quot;angle&quot;: -2.46 },\n					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 1.58 },\n					{ &quot;time&quot;: 4.3333, &quot;angle&quot;: 0 }\n				]\n			},\n			&quot;head&quot;: {\n				&quot;rotate&quot;: [\n					{\n						&quot;time&quot;: 0,\n						&quot;angle&quot;: 0,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{\n						&quot;time&quot;: 0.6666,\n						&quot;angle&quot;: 1.63,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{\n						&quot;time&quot;: 1.4333,\n						&quot;angle&quot;: -8.69,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{\n						&quot;time&quot;: 1.9,\n						&quot;angle&quot;: -9.96,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{\n						&quot;time&quot;: 2.4,\n						&quot;angle&quot;: -8.69,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{\n						&quot;time&quot;: 2.9,\n						&quot;angle&quot;: -9.96,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{\n						&quot;time&quot;: 3.3333,\n						&quot;angle&quot;: -8.69,\n						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]\n					},\n					{ &quot;time&quot;: 4.3333, &quot;angle&quot;: 0 }\n				]\n			},\n			&quot;eyebrow_r&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 0.3333, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 0.5666, &quot;angle&quot;: -2.83, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.1333, &quot;angle&quot;: -2.83 },\n					{ &quot;time&quot;: 3.3333, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 4.3333, &quot;angle&quot;: 0 }\n				],\n				&quot;translate&quot;: [\n					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 0.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 },\n					{ &quot;time&quot;: 0.5666, &quot;x&quot;: -2.29, &quot;y&quot;: -1.53, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.1333, &quot;x&quot;: -2.29, &quot;y&quot;: -1.53 },\n					{ &quot;time&quot;: 3.3333, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 4.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }\n				]\n			},\n			&quot;eyebrow_l&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 0.3333, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 0.5666, &quot;angle&quot;: 3.11, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.1333, &quot;angle&quot;: 3.11 },\n					{ &quot;time&quot;: 3.3333, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 4.3333, &quot;angle&quot;: 0 }\n				],\n				&quot;translate&quot;: [\n					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 0.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 },\n					{ &quot;time&quot;: 0.5666, &quot;x&quot;: -2.97, &quot;y&quot;: 0.82, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 3.1333, &quot;x&quot;: -2.97, &quot;y&quot;: 0.82 },\n					{ &quot;time&quot;: 3.3333, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 4.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }\n				]\n			},\n			&quot;hair_f0&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 1, &quot;angle&quot;: 4.08 },\n					{ &quot;time&quot;: 1.6666, &quot;angle&quot;: 0.42 },\n					{ &quot;time&quot;: 3, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 4.3333, &quot;angle&quot;: 0 }\n				]\n			},\n			&quot;hair_f1&quot;: {\n				&quot;rotate&quot;: [\n					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },\n					{ &quot;time&quot;: 0.6666, &quot;angle&quot;: 0 },\n					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: 2.89 },\n					{ &quot;time&quot;: 2, &quot;angle&quot;: -5.08 },\n					{ &quot;time&quot;: 3, &quot;angle&quot;: 0 }\n				]\n			}\n		}\n	}\n}\n}"/>
+				<string name="talk_illust_yibaraki.atlas" value="\ntalk_illust_yibaraki.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbandage\n  rotate: false\n  xy: 974, 415\n  size: 39, 18\n  orig: 39, 18\n  offset: 0, 0\n  index: -1\nbody\n  rotate: false\n  xy: 2, 70\n  size: 196, 160\n  orig: 196, 160\n  offset: 0, 0\n  index: -1\neye_l0\n  rotate: false\n  xy: 233, 252\n  size: 64, 39\n  orig: 64, 39\n  offset: 0, 0\n  index: -1\neye_l1\n  rotate: false\n  xy: 78, 29\n  size: 62, 39\n  orig: 62, 39\n  offset: 0, 0\n  index: -1\neye_l2\n  rotate: true\n  xy: 974, 435\n  size: 65, 40\n  orig: 65, 40\n  offset: 0, 0\n  index: -1\neye_lc\n  rotate: true\n  xy: 928, 335\n  size: 63, 39\n  orig: 63, 39\n  offset: 0, 0\n  index: -1\neye_r0\n  rotate: false\n  xy: 2, 2\n  size: 46, 21\n  orig: 46, 21\n  offset: 0, 0\n  index: -1\neye_r1\n  rotate: true\n  xy: 928, 287\n  size: 46, 20\n  orig: 46, 20\n  offset: 0, 0\n  index: -1\neye_r2\n  rotate: false\n  xy: 299, 269\n  size: 45, 22\n  orig: 45, 22\n  offset: 0, 0\n  index: -1\neye_rc\n  rotate: true\n  xy: 200, 129\n  size: 35, 11\n  orig: 35, 11\n  offset: 0, 0\n  index: -1\neyebrow_l0\n  rotate: false\n  xy: 2, 25\n  size: 74, 43\n  orig: 74, 43\n  offset: 0, 0\n  index: -1\neyebrow_r0\n  rotate: false\n  xy: 648, 311\n  size: 49, 21\n  orig: 49, 21\n  offset: 0, 0\n  index: -1\nface_acc_l\n  rotate: false\n  xy: 142, 32\n  size: 18, 36\n  orig: 18, 36\n  offset: 0, 0\n  index: -1\nface_acc_r\n  rotate: false\n  xy: 229, 204\n  size: 19, 26\n  orig: 19, 26\n  offset: 0, 0\n  index: -1\nhair_f\n  rotate: false\n  xy: 233, 293\n  size: 279, 207\n  orig: 279, 207\n  offset: 0, 0\n  index: -1\nhair_sha\n  rotate: false\n  xy: 648, 334\n  size: 133, 166\n  orig: 133, 166\n  offset: 0, 0\n  index: -1\nhead\n  rotate: false\n  xy: 2, 232\n  size: 229, 268\n  orig: 229, 268\n  offset: 0, 0\n  index: -1\nhead_acc\n  rotate: true\n  xy: 783, 267\n  size: 131, 143\n  orig: 131, 143\n  offset: 0, 0\n  index: -1\nhorn_l\n  rotate: true\n  xy: 783, 400\n  size: 100, 189\n  orig: 100, 189\n  offset: 0, 0\n  index: -1\nhorn_r\n  rotate: false\n  xy: 514, 310\n  size: 132, 190\n  orig: 132, 190\n  offset: 0, 0\n  index: -1\nmouth0\n  rotate: false\n  xy: 233, 232\n  size: 46, 18\n  orig: 46, 18\n  offset: 0, 0\n  index: -1\nmouth1\n  rotate: true\n  xy: 200, 166\n  size: 64, 27\n  orig: 64, 27\n  offset: 0, 0\n  index: -1\nmouth2\n  rotate: false\n  xy: 514, 299\n  size: 57, 9\n  orig: 57, 9\n  offset: 0, 0\n  index: -1\n"/>
+			</imgdir>
+			<canvas name="base" width="89" height="51">
+				<vector name="origin" x="44" y="51"/>
+				<int name="delay" value="3000"/>
+			</canvas>
+		</imgdir>
+		<int name="forceMove" value="1"/>
+		<int name="hideName" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="1" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="2" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="3" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="1" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="2" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="3" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="4" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="5" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="attack">
+		<int name="special" value="1"/>
+		<canvas name="0" width="85" height="91">
+			<vector name="origin" x="52" y="91"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="1" width="86" height="91">
+			<vector name="origin" x="51" y="91"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="2" width="92" height="90">
+			<vector name="origin" x="67" y="90"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="3" width="578" height="115">
+			<vector name="origin" x="491" y="97"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="4" width="583" height="119">
+			<vector name="origin" x="489" y="99"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="5" width="624" height="144">
+			<vector name="origin" x="536" y="100"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="6" width="621" height="138">
+			<vector name="origin" x="534" y="92"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="7" width="613" height="144">
+			<vector name="origin" x="519" y="97"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="8" width="601" height="138">
+			<vector name="origin" x="513" y="99"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="9" width="623" height="144">
+			<vector name="origin" x="536" y="100"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="10" width="628" height="138">
+			<vector name="origin" x="534" y="92"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="11" width="607" height="138">
+			<vector name="origin" x="519" y="91"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="12" width="602" height="130">
+			<vector name="origin" x="513" y="91"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="13" width="146" height="91">
+			<vector name="origin" x="52" y="91"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="72" height="94">
+			<vector name="origin" x="49" y="94"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="72" height="92">
+			<vector name="origin" x="49" y="92"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="72" height="94">
+			<vector name="origin" x="49" y="94"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="5" width="72" height="92">
+			<vector name="origin" x="49" y="92"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="morph">
+		<int name="special" value="1"/>
+		<canvas name="0" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="1" width="76" height="92">
+			<vector name="origin" x="49" y="92"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="2" width="76" height="91">
+			<vector name="origin" x="49" y="91"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="3" width="76" height="91">
+			<vector name="origin" x="49" y="91"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="4" width="87" height="110">
+			<vector name="origin" x="56" y="101"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="5" width="86" height="108">
+			<vector name="origin" x="55" y="100"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="6" width="85" height="107">
+			<vector name="origin" x="54" y="100"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="7" width="85" height="104">
+			<vector name="origin" x="53" y="98"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="8" width="82" height="100">
+			<vector name="origin" x="50" y="96"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="9" width="72" height="94">
+			<vector name="origin" x="49" y="94"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="10" width="72" height="93">
+			<vector name="origin" x="49" y="93"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="11" width="86" height="104">
+			<vector name="origin" x="52" y="92"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="12" width="85" height="91">
+			<vector name="origin" x="52" y="91"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="13" width="85" height="91">
+			<vector name="origin" x="52" y="91"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+	</imgdir>
+</imgdir>

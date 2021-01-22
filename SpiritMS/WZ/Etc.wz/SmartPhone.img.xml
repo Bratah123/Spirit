@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="SmartPhone.img">
+	<imgdir name="addressBook">
+		<imgdir name="1530000">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32710"/>
+				<string name="todayMsg" value="--SCHOOL SUX--"/>
+				<string name="callScript" value="call_1530000"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530020">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32711"/>
+				<string name="todayMsg" value="We all make mistakes!"/>
+				<string name="callScript" value="call_1530020"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530040">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32735"/>
+				<string name="todayMsg" value="Meow!"/>
+				<string name="callScript" value="call_1530040"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530060">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32713"/>
+				<string name="todayMsg" value="Shinsoo Corp &lt;3s u! "/>
+				<string name="callScript" value="call_1530060"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530070">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32730"/>
+				<string name="todayMsg" value="For a better tomorrow"/>
+				<string name="callScript" value="call_1530070"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530080">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32737"/>
+				<string name="todayMsg" value="Kendo 5pm MWF"/>
+				<string name="callScript" value="call_1530080"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530090">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32737"/>
+				<string name="todayMsg" value="Unlisted"/>
+				<string name="callScript" value="call_1530090"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530100">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32736"/>
+				<string name="todayMsg" value="Over 1M served!"/>
+				<string name="callScript" value="call_1530100"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530110">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32742"/>
+				<string name="todayMsg" value="I &lt;3 books! "/>
+				<string name="callScript" value="call_1530110"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530120">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32742"/>
+				<string name="todayMsg" value="No Idiots Allowed"/>
+				<string name="callScript" value="call_1530120"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530130">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32783"/>
+				<string name="todayMsg" value="Next concert TBD"/>
+				<string name="callScript" value="call_1530130"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="flagQuestID" value="32789"/>
+				<string name="todayMsg" value="Follow me on MB!"/>
+				<string name="callScript" value="call_1530130"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="flagQuestID" value="32850"/>
+				<string name="todayMsg" value=""/>
+				<string name="callScript" value="call_1530130"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530140">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32715"/>
+				<string name="todayMsg" value="On dark wings"/>
+				<string name="callScript" value="call_1530140"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530160">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32770"/>
+				<string name="todayMsg" value="At Club Pentagon"/>
+				<string name="callScript" value="call_1530160"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530180">
+			<imgdir name="0">
+				<int name="flagQuestID" value="32852"/>
+				<string name="todayMsg" value="Fortunes totally read! "/>
+				<string name="callScript" value="call_1530180"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530200">
+			<imgdir name="0">
+				<int name="flagQuestID" value="33056"/>
+				<string name="todayMsg" value=""/>
+				<string name="callScript" value="call_1530200"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530220">
+			<imgdir name="0">
+				<int name="flagQuestID" value="33054"/>
+				<string name="todayMsg" value="211 for emergency"/>
+				<string name="callScript" value="call_1530220"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530370">
+			<imgdir name="0">
+				<int name="flagQuestID" value="33005"/>
+				<string name="todayMsg" value="Quit slacking!"/>
+				<string name="callScript" value="call_1530370"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1530574">
+			<imgdir name="0">
+				<int name="flagQuestID" value="33055"/>
+				<string name="todayMsg" value="Penguins 4 eva"/>
+				<string name="callScript" value="call_1530574"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="sms">
+		<imgdir name="32720">
+			<string name="key" value="sms"/>
+			<imgdir name="10">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="11">
+				<string name="msg" value="Party after school? Invite!"/>
+				<int name="faceNpcID" value="1530020"/>
+			</imgdir>
+			<imgdir name="12">
+				<string name="msg" value="Ignore Elwin"/>
+				<int name="faceNpcID" value="1530040"/>
+			</imgdir>
+			<imgdir name="20">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="21">
+				<string name="msg" value="Today is going to be so fun! I'll be waiting for you at the Front Gate."/>
+				<int name="faceNpcID" value="1530060"/>
+			</imgdir>
+			<imgdir name="22">
+				<string name="msg" value="Change of plans. I'll be waiting outside the school. Hurry."/>
+				<int name="faceNpcID" value="1530060"/>
+			</imgdir>
+			<imgdir name="30">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="31">
+				<string name="msg" value="Hear about the rumor? Let's talk on the school roof!"/>
+				<int name="faceNpcID" value="1530110"/>
+			</imgdir>
+			<imgdir name="40">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="41">
+				<string name="msg" value="Glad it wasn't so terrible"/>
+				<int name="faceNpcID" value="1530080"/>
+			</imgdir>
+			<imgdir name="42">
+				<string name="msg" value="Bully flirting with me now HELP"/>
+				<int name="faceNpcID" value="1530120"/>
+			</imgdir>
+			<imgdir name="43">
+				<string name="msg" value="#e@Irena#n PAHAHA congrats"/>
+				<int name="faceNpcID" value="1530100"/>
+			</imgdir>
+			<imgdir name="44">
+				<string name="msg" value="#e@Hawkeye#n Watch it!"/>
+				<int name="faceNpcID" value="1530120"/>
+			</imgdir>
+			<imgdir name="45">
+				<string name="msg" value="#e@Irena#n Sry"/>
+				<int name="faceNpcID" value="1530100"/>
+			</imgdir>
+			<imgdir name="50">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="51">
+				<string name="msg" value="Ok this stays here lol Who do you think is prettier Orchid or Irena?"/>
+				<int name="faceNpcID" value="1530100"/>
+			</imgdir>
+			<imgdir name="52">
+				<string name="msg" value="Not interested"/>
+				<int name="faceNpcID" value="1530090"/>
+			</imgdir>
+			<imgdir name="53">
+				<string name="msg" value="Not cool Hawkeye"/>
+				<int name="faceNpcID" value="1530080"/>
+			</imgdir>
+			<imgdir name="54">
+				<string name="msg" value="#e@Eckhart @Mihile#n Booooooooring"/>
+				<int name="faceNpcID" value="1530100"/>
+			</imgdir>
+			<imgdir name="60">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="61">
+				<string name="msg" value="Francis iz hopeless that letter ugh"/>
+				<int name="faceNpcID" value="1530110"/>
+			</imgdir>
+			<imgdir name="62">
+				<string name="msg" value="He needs some help. Desperately. @#h0# bring the books."/>
+				<int name="faceNpcID" value="1530070"/>
+			</imgdir>
+			<imgdir name="70">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="71">
+				<string name="msg" value="My friend, the photograph of Orchid... Where is it? I will be waiting desperately at the School Infirmary..."/>
+				<int name="faceNpcID" value="1530140"/>
+			</imgdir>
+			<imgdir name="80">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="81">
+				<string name="msg" value="Go away, you dummy!"/>
+				<int name="faceNpcID" value="1530130"/>
+			</imgdir>
+			<imgdir name="90">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="91">
+				<string name="msg" value="I love that book! It's so touching how two middle-class people overcome poverty and fall in love!"/>
+				<int name="faceNpcID" value="1530060"/>
+			</imgdir>
+			<imgdir name="92">
+				<string name="msg" value="#e@Cygnus#n The guy character is super rich."/>
+				<int name="faceNpcID" value="1530120"/>
+			</imgdir>
+			<imgdir name="93">
+				<string name="msg" value="#e@Irena#n Oh I had no idea..."/>
+				<int name="faceNpcID" value="1530060"/>
+			</imgdir>
+			<imgdir name="94">
+				<string name="msg" value="#e@Cygnus#n Sigh..."/>
+				<int name="faceNpcID" value="1530110"/>
+			</imgdir>
+			<imgdir name="100">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="101">
+				<string name="msg" value="What are you guys up to? Im bored"/>
+				<int name="faceNpcID" value="1530120"/>
+			</imgdir>
+			<imgdir name="102">
+				<string name="msg" value="#e@Irena#n GUY STUFF"/>
+				<int name="faceNpcID" value="1530100"/>
+			</imgdir>
+			<imgdir name="110">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="111">
+				<string name="msg" value="Figure out Magnus and Hila's name combination and put it on every chalkboard."/>
+				<int name="faceNpcID" value="1530070"/>
+			</imgdir>
+			<imgdir name="120">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="121">
+				<string name="msg" value="I know who Irenas in love with LOL"/>
+				<int name="faceNpcID" value="1530110"/>
+			</imgdir>
+			<imgdir name="122">
+				<string name="msg" value="Its a seeeeeeecret"/>
+				<int name="faceNpcID" value="1530110"/>
+			</imgdir>
+			<imgdir name="130">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="131">
+				<string name="msg" value="I saw that LOL"/>
+				<int name="faceNpcID" value="1530080"/>
+			</imgdir>
+			<imgdir name="132">
+				<string name="msg" value="HAHAHAHA what"/>
+				<int name="faceNpcID" value="1530090"/>
+			</imgdir>
+			<imgdir name="133">
+				<string name="msg" value="Shooting soccer balls LOL"/>
+				<int name="faceNpcID" value="1530100"/>
+			</imgdir>
+			<imgdir name="140">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="141">
+				<string name="msg" value="If you need help with those scary stories, I'm an expert!"/>
+				<int name="faceNpcID" value="1530140"/>
+			</imgdir>
+			<imgdir name="150">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="151">
+				<string name="msg" value="Did u really go in there? 2spooky"/>
+				<int name="faceNpcID" value="1530110"/>
+			</imgdir>
+			<imgdir name="160">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="161">
+				<string name="msg" value="I HATE GHOSTS"/>
+				<int name="faceNpcID" value="1530020"/>
+			</imgdir>
+			<imgdir name="170">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="171">
+				<string name="msg" value="Sory i lied"/>
+				<int name="faceNpcID" value="1530180"/>
+			</imgdir>
+			<imgdir name="172">
+				<string name="msg" value="Nenhart forgiv me &lt;3"/>
+				<int name="faceNpcID" value="1530180"/>
+			</imgdir>
+			<imgdir name="173">
+				<string name="msg" value="#e@Cassandra#n No"/>
+				<int name="faceNpcID" value="1530110"/>
+			</imgdir>
+			<imgdir name="174">
+				<string name="msg" value="#e@Cassandra#n No"/>
+				<int name="faceNpcID" value="1530070"/>
+			</imgdir>
+			<imgdir name="175">
+				<string name="msg" value="ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ;;;;"/>
+				<int name="faceNpcID" value="1530180"/>
+			</imgdir>
+			<imgdir name="180">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="181">
+				<string name="msg" value="Student teacher is single! All girls gon cray!"/>
+				<int name="faceNpcID" value="1530110"/>
+			</imgdir>
+			<imgdir name="182">
+				<string name="msg" value="Five couples broke up yesterday."/>
+				<int name="faceNpcID" value="1530120"/>
+			</imgdir>
+			<imgdir name="183">
+				<string name="msg" value="Hes not that hot yo"/>
+				<int name="faceNpcID" value="1530100"/>
+			</imgdir>
+			<imgdir name="184">
+				<string name="msg" value="The school is in chaos. Stan having some issues."/>
+				<int name="faceNpcID" value="1530070"/>
+			</imgdir>
+			<imgdir name="190">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="191">
+				<string name="msg" value="Is the wkend date thing tru?"/>
+				<int name="faceNpcID" value="1530110"/>
+			</imgdir>
+			<imgdir name="192">
+				<string name="msg" value="Id be down"/>
+				<int name="faceNpcID" value="1530120"/>
+			</imgdir>
+			<imgdir name="193">
+				<string name="msg" value="TRYHARD"/>
+				<int name="faceNpcID" value="1530100"/>
+			</imgdir>
+			<imgdir name="194">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="195">
+				<string name="msg" value="I killed it on guitar!!! You guys did okay too"/>
+				<int name="faceNpcID" value="1530100"/>
+			</imgdir>
+			<imgdir name="196">
+				<string name="msg" value="That was INSANE! I LOVED it! We gotta do it again sometime!!!"/>
+				<int name="faceNpcID" value="1530110"/>
+			</imgdir>
+			<imgdir name="197">
+				<string name="msg" value="I'm pretty proud of that song. Hope everyone dug it."/>
+				<int name="faceNpcID" value="1530120"/>
+			</imgdir>
+			<imgdir name="198">
+				<string name="msg" value="Yo guys count me in next time"/>
+				<int name="faceNpcID" value="1530080"/>
+			</imgdir>
+			<imgdir name="199">
+				<string name="msg" value="You were with Cygnus the whole time."/>
+				<int name="faceNpcID" value="1530090"/>
+			</imgdir>
+			<imgdir name="200">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="201">
+				<string name="msg" value="he@wrlp merweee"/>
+				<int name="faceNpcID" value="1530140"/>
+			</imgdir>
+			<imgdir name="210">
+				<int name="line" value="1"/>
+			</imgdir>
+			<imgdir name="211">
+				<string name="msg" value="Mr. Hugh Head's makes great uniforms... I want one too."/>
+				<int name="faceNpcID" value="1530040"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="face">
+		<imgdir name="1530000">
+			<canvas name="0" width="50" height="51">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="50" height="51">
+				<vector name="origin" x="-1" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530020">
+			<canvas name="0" width="51" height="51">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530040">
+			<canvas name="0" width="51" height="51">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530060">
+			<canvas name="0" width="48" height="50">
+				<vector name="origin" x="-3" y="-1"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530070">
+			<canvas name="0" width="49" height="51">
+				<vector name="origin" x="-2" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530080">
+			<canvas name="0" width="51" height="51">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530090">
+			<canvas name="0" width="46" height="51">
+				<vector name="origin" x="-1" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530100">
+			<canvas name="0" width="51" height="51">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530110">
+			<canvas name="0" width="51" height="51">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530120">
+			<canvas name="0" width="49" height="51">
+				<vector name="origin" x="-2" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530130">
+			<canvas name="0" width="51" height="50">
+				<vector name="origin" x="0" y="-1"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530140">
+			<canvas name="0" width="46" height="51">
+				<vector name="origin" x="-5" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530160">
+			<canvas name="0" width="48" height="51">
+				<vector name="origin" x="-3" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530180">
+			<canvas name="0" width="51" height="51">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530200">
+			<canvas name="0" width="48" height="51">
+				<vector name="origin" x="-2" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530370">
+			<canvas name="0" width="49" height="51">
+				<vector name="origin" x="-2" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530574">
+			<canvas name="0" width="48" height="51">
+				<vector name="origin" x="-2" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530203">
+			<canvas name="0" width="49" height="51">
+				<vector name="origin" x="-1" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1530220">
+			<canvas name="0" width="48" height="51">
+				<vector name="origin" x="-1" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+	<imgdir name="gallery">
+		<imgdir name="0">
+			<canvas name="icon" width="58" height="69">
+				<vector name="origin" x="29" y="34"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="picture" width="400" height="300">
+				<vector name="origin" x="200" y="150"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="3000"/>
+			</canvas>
+			<int name="questId" value="32715"/>
+		</imgdir>
+		<imgdir name="1">
+			<canvas name="icon" width="58" height="69">
+				<vector name="origin" x="29" y="34"/>
+			</canvas>
+			<canvas name="picture" width="400" height="300">
+				<vector name="origin" x="200" y="150"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="questId" value="32752"/>
+		</imgdir>
+		<imgdir name="2">
+			<canvas name="icon" width="58" height="69">
+				<vector name="origin" x="29" y="34"/>
+			</canvas>
+			<canvas name="picture" width="400" height="300">
+				<vector name="origin" x="200" y="150"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="questId" value="32774"/>
+		</imgdir>
+		<imgdir name="3">
+			<canvas name="icon" width="58" height="69">
+				<vector name="origin" x="29" y="34"/>
+			</canvas>
+			<canvas name="picture" width="400" height="300">
+				<vector name="origin" x="200" y="150"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="questId" value="32823"/>
+		</imgdir>
+		<imgdir name="4">
+			<canvas name="icon" width="58" height="69">
+				<vector name="origin" x="29" y="34"/>
+			</canvas>
+			<canvas name="picture" width="400" height="300">
+				<vector name="origin" x="200" y="150"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="questId" value="32870"/>
+		</imgdir>
+		<imgdir name="5">
+			<canvas name="icon" width="58" height="69">
+				<vector name="origin" x="29" y="34"/>
+			</canvas>
+			<canvas name="picture" width="400" height="300">
+				<vector name="origin" x="200" y="150"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="3000"/>
+			</canvas>
+			<int name="questId" value="33021"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

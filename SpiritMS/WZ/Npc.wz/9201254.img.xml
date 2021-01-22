@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9201254.img">
+	<imgdir name="info">
+		<int name="shop" value="1"/>
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="143" height="163">
+			<vector name="origin" x="72" y="156"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="1500"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="143" height="163">
+			<vector name="origin" x="72" y="156"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="1000"/>
+			<string name="source" value="Npc/9201254.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="143" height="164">
+			<vector name="origin" x="72" y="157"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="2" width="143" height="163">
+			<vector name="origin" x="72" y="156"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="3" width="143" height="162">
+			<vector name="origin" x="72" y="155"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<uol name="4" value="1"/>
+		<uol name="5" value="2"/>
+		<uol name="6" value="3"/>
+	</imgdir>
+	<imgdir name="say0">
+		<canvas name="0" width="143" height="163">
+			<vector name="origin" x="72" y="156"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="300"/>
+			<string name="source" value="Npc/9201254.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="143" height="164">
+			<vector name="origin" x="72" y="157"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="300"/>
+		</canvas>
+		<canvas name="2" width="143" height="163">
+			<vector name="origin" x="72" y="156"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="300"/>
+		</canvas>
+		<canvas name="3" width="143" height="162">
+			<vector name="origin" x="72" y="155"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="300"/>
+		</canvas>
+		<canvas name="4" width="143" height="163">
+			<vector name="origin" x="72" y="156"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="300"/>
+		</canvas>
+		<canvas name="5" width="143" height="164">
+			<vector name="origin" x="72" y="157"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="300"/>
+		</canvas>
+		<canvas name="6" width="143" height="163">
+			<vector name="origin" x="72" y="156"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="300"/>
+		</canvas>
+		<canvas name="7" width="143" height="162">
+			<vector name="origin" x="72" y="155"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="300"/>
+			<string name="source" value="Npc/9201254.img/eye/3"/>
+		</canvas>
+	</imgdir>
+</imgdir>

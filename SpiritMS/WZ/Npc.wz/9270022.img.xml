@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9270022.img">
+	<imgdir name="info">
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="1800"/>
+		</canvas>
+		<canvas name="1" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="60"/>
+		</canvas>
+		<canvas name="2" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="50"/>
+		</canvas>
+		<canvas name="3" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="250"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say0">
+		<canvas name="0" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="1000"/>
+		</canvas>
+		<canvas name="1" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="350"/>
+			<string name="source" value="Npc/9270022.img/stand/0"/>
+		</canvas>
+		<canvas name="2" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="3" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="200"/>
+		</canvas>
+		<canvas name="4" width="58" height="80">
+			<vector name="origin" x="28" y="80"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="5" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9270022.img/say0/3"/>
+		</canvas>
+		<canvas name="6" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="7" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="8" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="200"/>
+			<string name="source" value="Npc/9270022.img/say0/0"/>
+		</canvas>
+		<canvas name="9" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="500"/>
+			<string name="source" value="Npc/9270022.img/stand/0"/>
+		</canvas>
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="say1">
+		<canvas name="0" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="1000"/>
+		</canvas>
+		<canvas name="1" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="200"/>
+		</canvas>
+		<canvas name="2" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9270022.img/say1/0"/>
+		</canvas>
+		<canvas name="3" width="58" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="delay" value="200"/>
+		</canvas>
+		<uol name="4" value="2"/>
+		<uol name="5" value="3"/>
+	</imgdir>
+</imgdir>

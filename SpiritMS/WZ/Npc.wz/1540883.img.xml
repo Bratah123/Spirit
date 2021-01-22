@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1540883.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="HofM_Party"/>
+			</imgdir>
+		</imgdir>
+		<int name="forceMove" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="55" height="79">
+			<vector name="origin" x="30" y="79"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="60" height="77">
+			<vector name="origin" x="24" y="77"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="62" height="80">
+			<vector name="origin" x="25" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="65" height="85">
+			<vector name="origin" x="29" y="85"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="70" height="86">
+			<vector name="origin" x="33" y="89"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+</imgdir>

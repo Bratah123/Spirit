@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="000000.img">
+	<imgdir name="stand">
+		<canvas name="0" width="1" height="1">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="attack">
+		<imgdir name="info">
+			<int name="damage" value="100"/>
+			<int name="type" value="0"/>
+			<imgdir name="hit">
+				<canvas name="0" width="1" height="1">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<canvas name="0" width="1" height="1">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+			<vector name="lt" x="-700" y="-600"/>
+			<vector name="rb" x="700" y="160"/>
+		</canvas>
+	</imgdir>
+</imgdir>

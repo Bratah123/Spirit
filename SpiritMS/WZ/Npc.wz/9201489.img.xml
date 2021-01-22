@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9201489.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+		<string name="dcLeft" value="-50"/>
+		<string name="dcTop" value="-185"/>
+		<int name="dcRight" value="75"/>
+		<int name="dcBottom" value="0"/>
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="door01_outside"/>
+			</imgdir>
+		</imgdir>
+		<canvas name="default" width="81" height="118">
+			<vector name="origin" x="39" y="118"/>
+			<int name="delay" value="3000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="168" height="247">
+			<vector name="origin" x="76" y="247"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="168" height="248">
+				<vector name="origin" x="76" y="247"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="100"/>
+			</canvas>
+		</imgdir>
+		<int name="61213" value="2"/>
+	</imgdir>
+</imgdir>

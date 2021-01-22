@@ -1,0 +1,2048 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="UISpinOff.img">
+	<imgdir name="spinOff1">
+		<canvas name="backgrnd" width="456" height="358">
+			<vector name="origin" x="-1" y="-1"/>
+			<int name="z" value="-5"/>
+		</canvas>
+		<canvas name="backgrnd2" width="444" height="329">
+			<vector name="origin" x="-7" y="-24"/>
+			<int name="z" value="-4"/>
+		</canvas>
+		<canvas name="backgrnd3" width="434" height="318">
+			<vector name="origin" x="-12" y="-30"/>
+			<int name="z" value="-3"/>
+		</canvas>
+		<canvas name="Cover_B" width="50" height="50">
+			<vector name="origin" x="25" y="25"/>
+			<int name="z" value="1"/>
+		</canvas>
+		<canvas name="Cover_W" width="50" height="50">
+			<vector name="origin" x="25" y="25"/>
+			<int name="z" value="1"/>
+		</canvas>
+		<canvas name="Clear" width="55" height="35">
+			<vector name="origin" x="-14" y="-107"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="Lock_L" width="32" height="37">
+			<vector name="origin" x="16" y="18"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="Lock_S" width="23" height="26">
+			<vector name="origin" x="11" y="13"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<imgdir name="Chapter">
+			<canvas name="0" width="50" height="50">
+				<vector name="origin" x="-17" y="-100"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="50" height="50">
+				<vector name="origin" x="-79" y="-100"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="50" height="50">
+				<vector name="origin" x="-141" y="-100"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="50" height="50">
+				<vector name="origin" x="-203" y="-100"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="50" height="50">
+				<vector name="origin" x="-265" y="-100"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="50" height="50">
+				<vector name="origin" x="-327" y="-100"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="50" height="50">
+				<vector name="origin" x="-390" y="-101"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="BtGo">
+			<imgdir name="normal">
+				<canvas name="0" width="79" height="25">
+					<vector name="origin" x="-189" y="-163"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="79" height="25">
+					<vector name="origin" x="-189" y="-163"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="79" height="25">
+					<vector name="origin" x="-189" y="-163"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="79" height="25">
+					<vector name="origin" x="-189" y="-163"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="btInfo">
+			<imgdir name="normal">
+				<canvas name="0" width="79" height="25">
+					<vector name="origin" x="-189" y="-163"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="79" height="25">
+					<vector name="origin" x="-189" y="-163"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="79" height="25">
+					<vector name="origin" x="-189" y="-163"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="79" height="25">
+					<vector name="origin" x="-189" y="-163"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<canvas name="story" width="35" height="18">
+			<vector name="origin" x="-21" y="-208"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="reward" width="93" height="19">
+			<vector name="origin" x="-21" y="-291"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<imgdir name="num">
+			<canvas name="0" width="9" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="9" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="9" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="9" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="11" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="9" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="9" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="9" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="8" width="9" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="9" width="9" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="colon" width="9" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="DayLock">
+			<canvas name="0" width="21" height="19">
+				<vector name="origin" x="10" y="10"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<uol name="1" value="0"/>
+			<canvas name="2" width="50" height="50">
+				<vector name="origin" x="25" y="25"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="50" height="50">
+				<vector name="origin" x="25" y="25"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="50" height="50">
+				<vector name="origin" x="25" y="25"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="50" height="50">
+				<vector name="origin" x="25" y="25"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="50" height="50">
+				<vector name="origin" x="25" y="25"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="DayLock_T">
+			<uol name="0" value="../DayLock/0"/>
+			<uol name="1" value="../DayLock/0"/>
+			<uol name="2" value="../DayLock/0"/>
+			<canvas name="3" width="50" height="50">
+				<vector name="origin" x="25" y="25"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<uol name="4" value="3"/>
+			<uol name="5" value="3"/>
+			<uol name="6" value="../DayLock/6"/>
+		</imgdir>
+		<canvas name="selected" width="58" height="58">
+			<vector name="origin" x="29" y="29"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<imgdir name="BtReset">
+			<imgdir name="normal">
+				<canvas name="0" width="64" height="25">
+					<vector name="origin" x="-373" y="-40"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="64" height="25">
+					<vector name="origin" x="-373" y="-40"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="64" height="25">
+					<vector name="origin" x="-373" y="-40"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="64" height="25">
+					<vector name="origin" x="-373" y="-40"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<canvas name="new" width="25" height="11">
+			<vector name="origin" x="-392" y="-100"/>
+			<int name="z" value="2"/>
+			<string name="expired" value="20150331"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="spinOffResult">
+		<canvas name="backgrnd" width="374" height="591">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<imgdir name="Number">
+			<canvas name="0" width="14" height="22">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="10" height="21">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="13" height="22">
+				<int name="z" value="0"/>
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="3" width="13" height="22">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="14" height="21">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="14" height="21">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="13" height="22">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="14" height="21">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="8" width="14" height="22">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="9" width="14" height="22">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="plus" width="14" height="14">
+				<vector name="origin" x="0" y="-5"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="multiple" width="14" height="17">
+				<vector name="origin" x="0" y="-3"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="comma" width="6" height="9">
+				<vector name="origin" x="-4" y="-16"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="BtOK">
+			<imgdir name="normal">
+				<canvas name="0" width="104" height="43">
+					<vector name="origin" x="-135" y="-512"/>
+					<int name="z" value="3"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="104" height="43">
+					<vector name="origin" x="-135" y="-512"/>
+					<int name="z" value="3"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="104" height="43">
+					<vector name="origin" x="-135" y="-511"/>
+					<int name="z" value="3"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="104" height="43">
+					<vector name="origin" x="-135" y="-511"/>
+					<int name="z" value="3"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Bonus">
+			<imgdir name="mobIcon">
+				<imgdir name="2700100">
+					<imgdir name="abled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="disabled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+				</imgdir>
+				<imgdir name="2700101">
+					<imgdir name="abled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="disabled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+				</imgdir>
+				<imgdir name="2700102">
+					<imgdir name="abled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="disabled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+				</imgdir>
+				<imgdir name="2700103">
+					<imgdir name="abled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="disabled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+				</imgdir>
+				<imgdir name="2700104">
+					<imgdir name="abled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="disabled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+				</imgdir>
+				<imgdir name="2700200">
+					<imgdir name="abled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="disabled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+				</imgdir>
+				<imgdir name="2700201">
+					<imgdir name="abled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="disabled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+				</imgdir>
+				<imgdir name="2700202">
+					<imgdir name="abled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="disabled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+				</imgdir>
+				<imgdir name="2700203">
+					<imgdir name="abled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="disabled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+				</imgdir>
+				<imgdir name="2700204">
+					<imgdir name="abled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="disabled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+				</imgdir>
+				<imgdir name="2700205">
+					<imgdir name="abled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="disabled">
+						<canvas name="0" width="54" height="54">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<imgdir name="bonusIcon">
+				<canvas name="exp" width="54" height="54">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="badge" width="54" height="54">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="needdle" width="54" height="54">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Transform">
+				<canvas name="0" width="160" height="152">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="143" height="139">
+					<vector name="origin" x="-6" y="-8"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="123" height="121">
+					<vector name="origin" x="-16" y="-18"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="117" height="108">
+					<vector name="origin" x="-19" y="-25"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="4" width="109" height="97">
+					<vector name="origin" x="-22" y="-30"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="5" width="54" height="54">
+					<vector name="origin" x="-52" y="-52"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="6" width="52" height="52">
+					<vector name="origin" x="-53" y="-53"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Guage">
+			<imgdir name="0">
+				<canvas name="0" width="1" height="3">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="1">
+				<canvas name="0" width="1" height="3">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="itemLev">
+				<imgdir name="abled">
+					<canvas name="0" width="19" height="5">
+						<vector name="origin" x="0" y="0"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="1" width="19" height="5">
+						<vector name="origin" x="0" y="0"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="EqpLvUpEffect">
+			<canvas name="0" width="1" height="1">
+				<vector name="origin" x="0" y="0"/>
+				<int name="delay" value="100"/>
+			</canvas>
+			<canvas name="1" width="453" height="502">
+				<vector name="origin" x="40" y="-87"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="449" height="512">
+				<vector name="origin" x="38" y="-82"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="448" height="520">
+				<vector name="origin" x="38" y="-78"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="452" height="524">
+				<vector name="origin" x="40" y="-76"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="455" height="524">
+				<vector name="origin" x="41" y="-76"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="455" height="509">
+				<vector name="origin" x="41" y="-84"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="378" height="314">
+				<vector name="origin" x="3" y="-181"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="8" width="336" height="303">
+				<vector name="origin" x="-18" y="-187"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="9" width="247" height="135">
+				<vector name="origin" x="-63" y="-271"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="PreEqpLvUpEffect">
+			<canvas name="0" width="177" height="29">
+				<vector name="origin" x="-123" y="-286"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="177" height="29">
+				<vector name="origin" x="-123" y="-286"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="177" height="29">
+				<vector name="origin" x="-123" y="-286"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="175" height="27">
+				<vector name="origin" x="-124" y="-287"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="173" height="25">
+				<vector name="origin" x="-125" y="-288"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="175" height="27">
+				<vector name="origin" x="-124" y="-287"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="177" height="29">
+				<vector name="origin" x="-123" y="-286"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="177" height="29">
+				<vector name="origin" x="-123" y="-286"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="EffectTime">
+			<int name="CharExp" value="2500"/>
+			<int name="EquipExp" value="2000"/>
+			<int name="ItemCount" value="1000"/>
+			<int name="IncCharExp" value="1500"/>
+			<int name="IncEquipExp" value="1000"/>
+			<int name="IncItemCount" value="1000"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="smartPhone">
+		<canvas name="backgrnd" width="272" height="517">
+			<vector name="origin" x="0" y="0"/>
+		</canvas>
+		<imgdir name="button:back">
+			<imgdir name="normal">
+				<canvas name="0" width="41" height="21">
+					<vector name="origin" x="-116" y="-474"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="45" height="25">
+					<vector name="origin" x="-114" y="-472"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="41" height="21">
+					<vector name="origin" x="-116" y="-474"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="41" height="21">
+					<vector name="origin" x="-116" y="-474"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="2000"/>
+			<int name="drawBack" value="1"/>
+		</imgdir>
+		<imgdir name="button:close">
+			<imgdir name="normal">
+				<canvas name="0" width="16" height="15">
+					<vector name="origin" x="-228" y="-32"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="16" height="15">
+					<vector name="origin" x="-228" y="-32"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="16" height="15">
+					<vector name="origin" x="-228" y="-32"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="20" height="19">
+					<vector name="origin" x="-226" y="-30"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1000"/>
+			<int name="drawBack" value="1"/>
+		</imgdir>
+		<imgdir name="HomeView">
+			<imgdir name="button:call">
+				<imgdir name="normal">
+					<canvas name="0" width="60" height="76">
+						<vector name="origin" x="-61" y="-376"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="mouseOver">
+					<canvas name="0" width="60" height="76">
+						<vector name="origin" x="-61" y="-376"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="pressed">
+					<canvas name="0" width="60" height="75">
+						<vector name="origin" x="-61" y="-377"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disabled">
+					<canvas name="0" width="60" height="76">
+						<vector name="origin" x="-61" y="-376"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<int name="id" value="2005"/>
+			</imgdir>
+			<imgdir name="button:sms">
+				<imgdir name="normal">
+					<canvas name="0" width="60" height="79">
+						<vector name="origin" x="-151" y="-376"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="mouseOver">
+					<canvas name="0" width="60" height="79">
+						<vector name="origin" x="-151" y="-376"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="pressed">
+					<canvas name="0" width="60" height="78">
+						<vector name="origin" x="-151" y="-377"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disabled">
+					<canvas name="0" width="60" height="79">
+						<vector name="origin" x="-151" y="-376"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<int name="id" value="2002"/>
+			</imgdir>
+			<imgdir name="button:addressBook">
+				<imgdir name="normal">
+					<canvas name="0" width="60" height="77">
+						<vector name="origin" x="-35" y="-95"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="mouseOver">
+					<canvas name="0" width="60" height="77">
+						<vector name="origin" x="-35" y="-95"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="pressed">
+					<canvas name="0" width="60" height="76">
+						<vector name="origin" x="-35" y="-96"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disabled">
+					<canvas name="0" width="60" height="77">
+						<vector name="origin" x="-35" y="-95"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<int name="id" value="2001"/>
+			</imgdir>
+			<imgdir name="button:gallery">
+				<imgdir name="normal">
+					<canvas name="0" width="60" height="78">
+						<vector name="origin" x="-106" y="-95"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="mouseOver">
+					<canvas name="0" width="60" height="78">
+						<vector name="origin" x="-106" y="-95"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="pressed">
+					<canvas name="0" width="60" height="77">
+						<vector name="origin" x="-106" y="-96"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disabled">
+					<canvas name="0" width="60" height="78">
+						<vector name="origin" x="-106" y="-95"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<int name="id" value="2003"/>
+			</imgdir>
+			<imgdir name="button:camera">
+				<imgdir name="normal">
+					<canvas name="0" width="60" height="77">
+						<vector name="origin" x="-177" y="-95"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="mouseOver">
+					<canvas name="0" width="60" height="77">
+						<vector name="origin" x="-177" y="-95"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="pressed">
+					<canvas name="0" width="60" height="76">
+						<vector name="origin" x="-177" y="-96"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disabled">
+					<canvas name="0" width="60" height="77">
+						<vector name="origin" x="-177" y="-95"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<int name="id" value="2004"/>
+			</imgdir>
+			<imgdir name="num">
+				<canvas name="0" width="26" height="26">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="26" height="26">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="26" height="26">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="26" height="26">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="4" width="26" height="26">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="5" width="26" height="26">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="6" width="26" height="26">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="7" width="26" height="26">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="8" width="26" height="26">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="9" width="26" height="26">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="SecondView:addressBook">
+			<canvas name="backgrnd" width="232" height="408">
+				<vector name="origin" x="-20" y="-55"/>
+			</canvas>
+			<canvas name="front" width="208" height="61">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<imgdir name="button:call">
+				<imgdir name="normal">
+					<canvas name="0" width="49" height="50">
+						<vector name="origin" x="-6" y="-6"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="mouseOver">
+					<canvas name="0" width="49" height="50">
+						<vector name="origin" x="-6" y="-6"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="pressed">
+					<canvas name="0" width="49" height="50">
+						<vector name="origin" x="-6" y="-7"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disabled">
+					<canvas name="0" width="49" height="50">
+						<vector name="origin" x="-6" y="-6"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<string name="ToolTip" value="Call"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="SecondView:sms">
+			<canvas name="backgrnd" width="232" height="408">
+				<vector name="origin" x="-20" y="-55"/>
+			</canvas>
+			<canvas name="front" width="49" height="49">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="line" width="209" height="2">
+				<vector name="origin" x="-5" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="SecondView:gallery">
+			<canvas name="backgrnd" width="232" height="408">
+				<vector name="origin" x="-20" y="-55"/>
+			</canvas>
+			<canvas name="front" width="66" height="78">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="SecondView:call">
+			<imgdir name="button:accept">
+				<imgdir name="normal">
+					<canvas name="0" width="90" height="57">
+						<vector name="origin" x="-40" y="-383"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="mouseOver">
+					<canvas name="0" width="90" height="57">
+						<vector name="origin" x="-40" y="-383"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="pressed">
+					<canvas name="0" width="90" height="57">
+						<vector name="origin" x="-40" y="-384"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disabled">
+					<canvas name="0" width="90" height="57">
+						<vector name="origin" x="-40" y="-383"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<string name="ToolTip" value="Accept Call"/>
+				<int name="id" value="6000"/>
+			</imgdir>
+			<imgdir name="button:reject">
+				<imgdir name="normal">
+					<canvas name="0" width="90" height="57">
+						<vector name="origin" x="-142" y="-383"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="mouseOver">
+					<canvas name="0" width="90" height="57">
+						<vector name="origin" x="-142" y="-383"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="pressed">
+					<canvas name="0" width="90" height="57">
+						<vector name="origin" x="-142" y="-384"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disabled">
+					<canvas name="0" width="90" height="57">
+						<vector name="origin" x="-142" y="-383"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<string name="ToolTip" value="End Call"/>
+				<int name="id" value="6001"/>
+			</imgdir>
+			<imgdir name="button:cancelcall">
+				<imgdir name="normal">
+					<canvas name="0" width="170" height="57">
+						<vector name="origin" x="-51" y="-383"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="mouseOver">
+					<canvas name="0" width="170" height="57">
+						<vector name="origin" x="-51" y="-383"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="pressed">
+					<canvas name="0" width="170" height="57">
+						<vector name="origin" x="-51" y="-384"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disabled">
+					<canvas name="0" width="170" height="57">
+						<vector name="origin" x="-51" y="-383"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<string name="ToolTip" value="End Call"/>
+				<int name="id" value="6002"/>
+			</imgdir>
+			<imgdir name="callAni">
+				<canvas name="0" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="1" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="2" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="3" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="4" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="5" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="6" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="7" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="8" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="9" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="10" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="11" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="12" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+				<canvas name="13" width="232" height="408">
+					<vector name="origin" x="-20" y="-55"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="chatBalloon">
+			<canvas name="nw" width="11" height="11">
+				<vector name="origin" x="11" y="11"/>
+			</canvas>
+			<canvas name="ne" width="11" height="11">
+				<vector name="origin" x="0" y="11"/>
+			</canvas>
+			<canvas name="sw" width="11" height="13">
+				<vector name="origin" x="11" y="0"/>
+			</canvas>
+			<canvas name="se" width="11" height="13">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="n" width="1" height="11">
+				<vector name="origin" x="0" y="11"/>
+			</canvas>
+			<canvas name="s" width="1" height="13">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="w" width="11" height="1">
+				<vector name="origin" x="11" y="0"/>
+			</canvas>
+			<canvas name="e" width="11" height="1">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="c" width="10" height="13">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="arrow" width="19" height="13">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+	<imgdir name="spinOFF_Guitar">
+		<canvas name="backgrnd" width="678" height="189">
+			<vector name="origin" x="11" y="14"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<imgdir name="Guage">
+			<imgdir name="normal">
+				<canvas name="0" width="7" height="14">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="1" height="14">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="7" height="14">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="fever">
+				<canvas name="0" width="7" height="14">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="1" height="14">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="7" height="14">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Note">
+			<imgdir name="bad">
+				<canvas name="0" width="33" height="31">
+					<vector name="origin" x="14" y="15"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="45" height="42">
+					<vector name="origin" x="22" y="21"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="48" height="46">
+					<vector name="origin" x="24" y="22"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="41" height="40">
+					<vector name="origin" x="19" y="20"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="4" width="44" height="40">
+					<vector name="origin" x="21" y="18"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="5" width="44" height="40">
+					<vector name="origin" x="21" y="19"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Good">
+				<canvas name="0" width="109" height="100">
+					<vector name="origin" x="48" y="53"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="97" height="76">
+					<vector name="origin" x="36" y="41"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="99" height="80">
+					<vector name="origin" x="38" y="43"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="88" height="82">
+					<vector name="origin" x="39" y="44"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Great">
+				<canvas name="0" width="120" height="100">
+					<vector name="origin" x="50" y="54"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="113" height="88">
+					<vector name="origin" x="44" y="48"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="109" height="88">
+					<vector name="origin" x="44" y="48"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="92" height="82">
+					<vector name="origin" x="41" y="45"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Generate">
+				<canvas name="0" width="13" height="13">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="21" height="21">
+					<vector name="origin" x="4" y="4"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="31" height="31">
+					<vector name="origin" x="9" y="9"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="39" height="39">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="4" width="37" height="37">
+					<vector name="origin" x="12" y="12"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="5" width="39" height="39">
+					<vector name="origin" x="13" y="13"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="GenerateFever">
+				<canvas name="0" width="19" height="19">
+					<vector name="origin" x="3" y="3"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="23" height="23">
+					<vector name="origin" x="5" y="5"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="35" height="35">
+					<vector name="origin" x="11" y="11"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="43" height="43">
+					<vector name="origin" x="15" y="15"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="4" width="41" height="41">
+					<vector name="origin" x="14" y="14"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="5" width="43" height="43">
+					<vector name="origin" x="15" y="15"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Pick">
+			<canvas name="0" width="66" height="58">
+				<vector name="origin" x="62" y="29"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="66" height="58">
+				<vector name="origin" x="62" y="29"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="66" height="58">
+				<vector name="origin" x="62" y="29"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="66" height="58">
+				<vector name="origin" x="62" y="29"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="66" height="58">
+				<vector name="origin" x="62" y="29"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="66" height="58">
+				<vector name="origin" x="62" y="29"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="PickLine">
+			<canvas name="0" width="41" height="187">
+				<vector name="origin" x="22" y="52"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="LineEffect">
+			<imgdir name="0">
+				<canvas name="0" width="609" height="9">
+					<vector name="origin" x="-17" y="-51"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="541" height="15">
+					<vector name="origin" x="-35" y="-48"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="567" height="19">
+					<vector name="origin" x="-29" y="-46"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="543" height="21">
+					<vector name="origin" x="-35" y="-45"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="4" width="484" height="23">
+					<vector name="origin" x="-48" y="-44"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="1">
+				<int name="z" value="1"/>
+				<canvas name="0" width="609" height="9">
+					<vector name="origin" x="-17" y="-91"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="541" height="15">
+					<vector name="origin" x="-35" y="-88"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="567" height="19">
+					<vector name="origin" x="-29" y="-86"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="543" height="21">
+					<vector name="origin" x="-35" y="-85"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="4" width="484" height="23">
+					<vector name="origin" x="-48" y="-84"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="2">
+				<int name="z" value="1"/>
+				<canvas name="0" width="609" height="9">
+					<vector name="origin" x="-20" y="-131"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="541" height="15">
+					<vector name="origin" x="-38" y="-128"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="567" height="19">
+					<vector name="origin" x="-32" y="-126"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="543" height="21">
+					<vector name="origin" x="-38" y="-125"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="4" width="484" height="23">
+					<vector name="origin" x="-51" y="-124"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Guage_Effect">
+			<canvas name="0" width="345" height="49">
+				<vector name="origin" x="-156" y="-148"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="349" height="53">
+				<vector name="origin" x="-154" y="-146"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="351" height="55">
+				<vector name="origin" x="-153" y="-145"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="351" height="55">
+				<vector name="origin" x="-153" y="-145"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="352" height="57">
+				<vector name="origin" x="-153" y="-144"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="351" height="55">
+				<vector name="origin" x="-153" y="-145"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="351" height="55">
+				<vector name="origin" x="-153" y="-145"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="349" height="53">
+				<vector name="origin" x="-154" y="-146"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="8" width="345" height="49">
+				<vector name="origin" x="-156" y="-148"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="TextEffect">
+			<imgdir name="bad">
+				<canvas name="0" width="132" height="48">
+					<vector name="origin" x="-261" y="29"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="good">
+				<canvas name="0" width="151" height="50">
+					<vector name="origin" x="-252" y="32"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="great">
+				<canvas name="0" width="192" height="59">
+					<vector name="origin" x="-237" y="40"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="BakcGauge">
+			<imgdir name="normal">
+				<canvas name="0" width="327" height="42">
+					<vector name="origin" x="-179" y="-155"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="1">
+				<canvas name="backgrnd" width="355" height="59">
+					<vector name="origin" x="-151" y="-146"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="2">
+				<canvas name="backgrnd3" width="86" height="39">
+					<vector name="origin" x="-161" y="-156"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="info">
+			<int name="pickMove" value="4"/>
+			<int name="pickMoveTick" value="1"/>
+			<int name="invisibleLength" value="200"/>
+			<int name="invisibleTime" value="1000"/>
+			<int name="textEffetInvisibleTime" value="3000"/>
+			<int name="feverComboCount" value="30"/>
+		</imgdir>
+		<imgdir name="NoteInfo">
+			<string name="info" value="Song Number"/>
+			<imgdir name="0">
+				<string name="info" value="Page"/>
+				<int name="pickMove" value="4"/>
+				<int name="pickMoveTick" value="1"/>
+				<imgdir name="0">
+				</imgdir>
+				<imgdir name="1">
+					<int name="77" value="2"/>
+					<int name="86" value="2"/>
+					<int name="93" value="2"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="20" value="2"/>
+					<int name="28" value="2"/>
+					<int name="35" value="2"/>
+					<int name="63" value="2"/>
+					<int name="80" value="1"/>
+					<int name="95" value="1"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="4" value="1"/>
+					<int name="14" value="1"/>
+					<int name="21" value="1"/>
+					<int name="28" value="1"/>
+					<int name="35" value="1"/>
+					<int name="47" value="1"/>
+					<int name="56" value="1"/>
+					<int name="65" value="1"/>
+					<int name="75" value="1"/>
+					<int name="86" value="0"/>
+					<int name="92" value="0"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="0" value="0"/>
+					<int name="8" value="0"/>
+					<int name="33" value="0"/>
+					<int name="48" value="0"/>
+					<int name="66" value="0"/>
+					<int name="76" value="0"/>
+					<int name="83" value="0"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="18" value="0"/>
+					<int name="34" value="0"/>
+					<int name="62" value="0"/>
+					<int name="72" value="0"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="4" value="0"/>
+					<int name="16" value="0"/>
+					<int name="92" value="1"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="10" value="1"/>
+					<int name="34" value="1"/>
+					<int name="43" value="1"/>
+					<int name="75" value="1"/>
+					<int name="86" value="1"/>
+					<int name="96" value="1"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="7" value="1"/>
+					<int name="18" value="1"/>
+					<int name="27" value="0"/>
+					<int name="34" value="0"/>
+					<int name="40" value="0"/>
+					<int name="48" value="0"/>
+					<int name="60" value="0"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="3" value="1"/>
+					<int name="14" value="1"/>
+					<int name="35" value="1"/>
+					<int name="46" value="1"/>
+					<int name="90" value="1"/>
+					<int name="99" value="1"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="20" value="1"/>
+					<int name="31" value="1"/>
+					<int name="42" value="1"/>
+					<int name="74" value="2"/>
+					<int name="84" value="2"/>
+					<int name="95" value="2"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="6" value="2"/>
+					<int name="18" value="2"/>
+					<int name="29" value="2"/>
+					<int name="40" value="2"/>
+					<int name="50" value="2"/>
+					<int name="60" value="2"/>
+					<int name="69" value="1"/>
+					<int name="76" value="1"/>
+					<int name="86" value="1"/>
+					<int name="92" value="1"/>
+				</imgdir>
+				<imgdir name="12">
+					<int name="3" value="0"/>
+					<int name="11" value="0"/>
+					<int name="18" value="0"/>
+					<int name="34" value="0"/>
+					<int name="45" value="0"/>
+					<int name="57" value="0"/>
+					<int name="67" value="0"/>
+					<int name="78" value="0"/>
+					<int name="88" value="0"/>
+					<int name="98" value="0"/>
+				</imgdir>
+				<imgdir name="13">
+					<int name="8" value="0"/>
+					<int name="19" value="0"/>
+					<int name="29" value="0"/>
+					<int name="39" value="0"/>
+					<int name="50" value="0"/>
+					<int name="59" value="0"/>
+					<int name="73" value="1"/>
+					<int name="81" value="1"/>
+					<int name="93" value="1"/>
+				</imgdir>
+				<imgdir name="14">
+					<int name="4" value="1"/>
+					<int name="16" value="1"/>
+					<int name="27" value="1"/>
+					<int name="38" value="2"/>
+					<int name="48" value="2"/>
+					<int name="58" value="2"/>
+					<int name="70" value="2"/>
+					<int name="81" value="2"/>
+					<int name="92" value="2"/>
+				</imgdir>
+				<imgdir name="15">
+					<int name="0" value="2"/>
+					<int name="9" value="2"/>
+					<int name="17" value="2"/>
+					<int name="22" value="2"/>
+					<int name="30" value="2"/>
+					<int name="38" value="2"/>
+					<int name="44" value="2"/>
+					<int name="52" value="2"/>
+					<int name="60" value="2"/>
+					<int name="66" value="2"/>
+					<int name="76" value="2"/>
+					<int name="86" value="2"/>
+				</imgdir>
+				<imgdir name="16">
+					<int name="17" value="0"/>
+					<int name="71" value="1"/>
+					<int name="79" value="1"/>
+					<int name="87" value="1"/>
+					<int name="92" value="1"/>
+				</imgdir>
+				<imgdir name="17">
+					<int name="1" value="1"/>
+					<int name="8" value="1"/>
+					<int name="15" value="1"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="1">
+				<int name="pickMove" value="4"/>
+				<int name="pickMoveTick" value="1"/>
+				<string name="info" value="Page"/>
+				<imgdir name="0">
+					<int name="39" value="1"/>
+					<int name="45" value="1"/>
+					<int name="52" value="1"/>
+					<int name="61" value="1"/>
+					<int name="69" value="1"/>
+					<int name="75" value="1"/>
+					<int name="81" value="1"/>
+					<int name="84" value="1"/>
+					<int name="92" value="1"/>
+					<int name="97" value="1"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="4" value="2"/>
+					<int name="13" value="2"/>
+					<int name="28" value="2"/>
+					<int name="44" value="2"/>
+					<int name="51" value="2"/>
+					<int name="57" value="2"/>
+					<int name="67" value="2"/>
+					<int name="75" value="2"/>
+					<int name="82" value="2"/>
+					<int name="88" value="2"/>
+					<int name="91" value="2"/>
+					<int name="97" value="2"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="23" value="0"/>
+					<int name="48" value="0"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="1" value="0"/>
+					<int name="53" value="0"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="7" value="0"/>
+					<int name="59" value="0"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="12" value="0"/>
+					<int name="65" value="1"/>
+					<int name="71" value="1"/>
+					<int name="78" value="1"/>
+					<int name="83" value="1"/>
+					<int name="90" value="1"/>
+					<int name="94" value="1"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="0" value="0"/>
+					<int name="8" value="0"/>
+					<int name="16" value="0"/>
+					<int name="23" value="0"/>
+					<int name="27" value="1"/>
+					<int name="69" value="1"/>
+					<int name="89" value="1"/>
+					<int name="97" value="1"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="3" value="1"/>
+					<int name="7" value="1"/>
+					<int name="13" value="1"/>
+					<int name="17" value="2"/>
+					<int name="41" value="2"/>
+					<int name="53" value="2"/>
+					<int name="62" value="2"/>
+					<int name="69" value="2"/>
+					<int name="76" value="1"/>
+					<int name="94" value="1"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="2" value="1"/>
+					<int name="9" value="1"/>
+					<int name="12" value="1"/>
+					<int name="19" value="2"/>
+					<int name="23" value="2"/>
+					<int name="31" value="2"/>
+					<int name="33" value="2"/>
+					<int name="40" value="2"/>
+					<int name="43" value="2"/>
+					<int name="49" value="1"/>
+					<int name="53" value="1"/>
+					<int name="59" value="1"/>
+					<int name="62" value="1"/>
+					<int name="69" value="1"/>
+					<int name="80" value="0"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="7" value="0"/>
+					<int name="11" value="0"/>
+					<int name="18" value="0"/>
+					<int name="24" value="0"/>
+					<int name="34" value="0"/>
+					<int name="53" value="0"/>
+					<int name="61" value="0"/>
+					<int name="64" value="0"/>
+					<int name="70" value="0"/>
+					<int name="76" value="1"/>
+					<int name="93" value="1"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="0" value="1"/>
+					<int name="7" value="1"/>
+					<int name="13" value="1"/>
+					<int name="16" value="1"/>
+					<int name="22" value="1"/>
+					<int name="29" value="2"/>
+					<int name="46" value="2"/>
+					<int name="53" value="2"/>
+					<int name="59" value="2"/>
+					<int name="66" value="2"/>
+					<int name="69" value="2"/>
+					<int name="75" value="2"/>
+					<int name="81" value="2"/>
+					<int name="84" value="2"/>
+					<int name="91" value="1"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="11" value="1"/>
+					<int name="18" value="1"/>
+					<int name="22" value="1"/>
+					<int name="28" value="1"/>
+					<int name="35" value="1"/>
+					<int name="44" value="1"/>
+					<int name="64" value="1"/>
+					<int name="71" value="1"/>
+					<int name="75" value="1"/>
+					<int name="81" value="1"/>
+					<int name="86" value="1"/>
+				</imgdir>
+				<imgdir name="12">
+					<int name="4" value="1"/>
+					<int name="10" value="1"/>
+					<int name="17" value="1"/>
+					<int name="24" value="1"/>
+					<int name="35" value="1"/>
+					<int name="43" value="1"/>
+					<int name="51" value="1"/>
+					<int name="57" value="1"/>
+					<int name="61" value="1"/>
+					<int name="67" value="1"/>
+					<int name="70" value="1"/>
+					<int name="87" value="1"/>
+					<int name="95" value="1"/>
+				</imgdir>
+				<imgdir name="13">
+					<int name="2" value="1"/>
+				</imgdir>
+				<imgdir name="14">
+					<int name="8" value="1"/>
+					<int name="61" value="0"/>
+				</imgdir>
+				<imgdir name="15">
+					<int name="13" value="0"/>
+					<int name="65" value="0"/>
+				</imgdir>
+				<imgdir name="16">
+					<int name="19" value="0"/>
+					<int name="72" value="0"/>
+				</imgdir>
+				<imgdir name="17">
+					<int name="25" value="0"/>
+					<int name="38" value="0"/>
+					<int name="51" value="0"/>
+					<int name="54" value="0"/>
+					<int name="62" value="0"/>
+					<int name="69" value="0"/>
+					<int name="78" value="0"/>
+					<int name="87" value="0"/>
+				</imgdir>
+				<imgdir name="18">
+					<int name="30" value="2"/>
+					<int name="44" value="2"/>
+					<int name="57" value="2"/>
+					<int name="67" value="1"/>
+					<int name="73" value="1"/>
+					<int name="76" value="1"/>
+					<int name="81" value="1"/>
+					<int name="90" value="1"/>
+				</imgdir>
+				<imgdir name="19">
+					<int name="0" value="2"/>
+					<int name="12" value="2"/>
+					<int name="20" value="2"/>
+					<int name="28" value="2"/>
+					<int name="41" value="1"/>
+					<int name="62" value="1"/>
+					<int name="69" value="1"/>
+					<int name="73" value="1"/>
+					<int name="79" value="1"/>
+					<int name="83" value="1"/>
+					<int name="87" value="2"/>
+					<int name="97" value="2"/>
+				</imgdir>
+				<imgdir name="20">
+					<int name="0" value="2"/>
+					<int name="9" value="2"/>
+					<int name="12" value="2"/>
+					<int name="18" value="2"/>
+					<int name="21" value="2"/>
+					<int name="27" value="2"/>
+					<int name="40" value="2"/>
+					<int name="61" value="2"/>
+					<int name="67" value="2"/>
+					<int name="71" value="2"/>
+					<int name="76" value="2"/>
+					<int name="82" value="2"/>
+					<int name="92" value="2"/>
+				</imgdir>
+				<imgdir name="21">
+					<int name="12" value="1"/>
+					<int name="19" value="1"/>
+					<int name="23" value="1"/>
+					<int name="28" value="1"/>
+					<int name="36" value="0"/>
+					<int name="53" value="0"/>
+					<int name="61" value="0"/>
+					<int name="67" value="0"/>
+					<int name="73" value="0"/>
+					<int name="76" value="0"/>
+					<int name="82" value="0"/>
+					<int name="89" value="0"/>
+				</imgdir>
+				<imgdir name="22">
+					<int name="5" value="1"/>
+					<int name="12" value="1"/>
+					<int name="18" value="1"/>
+					<int name="25" value="1"/>
+					<int name="29" value="1"/>
+					<int name="35" value="1"/>
+					<int name="41" value="1"/>
+					<int name="44" value="1"/>
+					<int name="52" value="2"/>
+					<int name="72" value="2"/>
+					<int name="78" value="2"/>
+					<int name="82" value="2"/>
+					<int name="88" value="2"/>
+					<int name="94" value="2"/>
+				</imgdir>
+				<imgdir name="23">
+					<int name="4" value="2"/>
+					<int name="23" value="2"/>
+					<int name="31" value="2"/>
+					<int name="34" value="2"/>
+					<int name="41" value="2"/>
+					<int name="48" value="1"/>
+					<int name="64" value="1"/>
+					<int name="71" value="1"/>
+					<int name="76" value="1"/>
+					<int name="82" value="1"/>
+					<int name="92" value="1"/>
+				</imgdir>
+				<imgdir name="24">
+					<int name="2" value="1"/>
+					<int name="9" value="1"/>
+					<int name="15" value="1"/>
+					<int name="19" value="1"/>
+					<int name="25" value="1"/>
+					<int name="28" value="0"/>
+					<int name="62" value="0"/>
+					<int name="69" value="0"/>
+					<int name="75" value="0"/>
+					<int name="86" value="0"/>
+					<int name="92" value="0"/>
+				</imgdir>
+				<imgdir name="25">
+					<int name="0" value="0"/>
+					<int name="7" value="0"/>
+					<int name="13" value="1"/>
+					<int name="38" value="1"/>
+					<int name="58" value="0"/>
+					<int name="62" value="0"/>
+					<int name="66" value="0"/>
+					<int name="70" value="0"/>
+					<int name="78" value="0"/>
+					<int name="84" value="0"/>
+					<int name="90" value="0"/>
+				</imgdir>
+				<imgdir name="26">
+					<int name="2" value="0"/>
+					<int name="19" value="1"/>
+					<int name="27" value="1"/>
+					<int name="34" value="1"/>
+					<int name="46" value="1"/>
+					<int name="53" value="1"/>
+					<int name="59" value="1"/>
+					<int name="66" value="0"/>
+					<int name="73" value="0"/>
+					<int name="86" value="0"/>
+					<int name="96" value="0"/>
+				</imgdir>
+				<imgdir name="27">
+					<int name="10" value="0"/>
+					<int name="18" value="0"/>
+					<int name="25" value="0"/>
+					<int name="37" value="1"/>
+					<int name="52" value="1"/>
+					<int name="79" value="1"/>
+					<int name="89" value="1"/>
+				</imgdir>
+				<imgdir name="28">
+					<int name="0" value="1"/>
+					<int name="4" value="1"/>
+					<int name="8" value="1"/>
+					<int name="17" value="1"/>
+					<int name="30" value="1"/>
+					<int name="44" value="1"/>
+					<int name="58" value="1"/>
+					<int name="71" value="1"/>
+					<int name="82" value="1"/>
+					<int name="97" value="1"/>
+				</imgdir>
+				<imgdir name="29">
+					<int name="10" value="1"/>
+					<int name="23" value="2"/>
+					<int name="49" value="2"/>
+					<int name="64" value="2"/>
+					<int name="75" value="2"/>
+				</imgdir>
+				<imgdir name="30">
+					<int name="1" value="1"/>
+					<int name="15" value="1"/>
+					<int name="29" value="1"/>
+					<int name="41" value="1"/>
+					<int name="53" value="1"/>
+					<int name="61" value="1"/>
+					<int name="75" value="1"/>
+					<int name="89" value="1"/>
+				</imgdir>
+				<imgdir name="31">
+					<int name="7" value="1"/>
+					<int name="21" value="1"/>
+					<int name="33" value="1"/>
+					<int name="61" value="1"/>
+					<int name="75" value="1"/>
+					<int name="86" value="2"/>
+				</imgdir>
+				<imgdir name="32">
+					<int name="28" value="2"/>
+					<int name="37" value="2"/>
+					<int name="44" value="2"/>
+					<int name="51" value="2"/>
+					<int name="61" value="2"/>
+					<int name="64" value="1"/>
+					<int name="97" value="1"/>
+				</imgdir>
+				<imgdir name="33">
+					<int name="0" value="1"/>
+					<int name="4" value="1"/>
+					<int name="57" value="2"/>
+					<int name="86" value="1"/>
+					<int name="89" value="1"/>
+					<int name="95" value="1"/>
+				</imgdir>
+				<imgdir name="34">
+					<int name="1" value="1"/>
+					<int name="10" value="2"/>
+					<int name="31" value="2"/>
+					<int name="38" value="2"/>
+					<int name="41" value="2"/>
+					<int name="48" value="2"/>
+					<int name="54" value="0"/>
+					<int name="71" value="0"/>
+					<int name="77" value="0"/>
+					<int name="82" value="0"/>
+					<int name="91" value="0"/>
+					<int name="99" value="0"/>
+				</imgdir>
+				<imgdir name="35">
+					<int name="7" value="1"/>
+					<int name="23" value="1"/>
+					<int name="30" value="1"/>
+					<int name="36" value="1"/>
+					<int name="43" value="0"/>
+					<int name="46" value="0"/>
+					<int name="53" value="0"/>
+					<int name="59" value="0"/>
+					<int name="63" value="0"/>
+					<int name="70" value="1"/>
+					<int name="87" value="1"/>
+					<int name="95" value="1"/>
+					<int name="99" value="1"/>
+				</imgdir>
+				<imgdir name="36">
+					<int name="5" value="1"/>
+					<int name="11" value="1"/>
+					<int name="21" value="1"/>
+					<int name="41" value="1"/>
+					<int name="48" value="1"/>
+					<int name="51" value="1"/>
+					<int name="58" value="1"/>
+					<int name="65" value="1"/>
+					<int name="81" value="1"/>
+					<int name="88" value="1"/>
+					<int name="95" value="2"/>
+				</imgdir>
+				<imgdir name="37">
+					<int name="0" value="2"/>
+					<int name="12" value="2"/>
+					<int name="20" value="2"/>
+					<int name="27" value="1"/>
+					<int name="33" value="1"/>
+					<int name="37" value="1"/>
+					<int name="43" value="1"/>
+					<int name="46" value="2"/>
+					<int name="65" value="2"/>
+					<int name="72" value="2"/>
+					<int name="79" value="2"/>
+				</imgdir>
+				<imgdir name="38">
+					<int name="33" value="1"/>
+					<int name="43" value="1"/>
+					<int name="51" value="1"/>
+					<int name="62" value="1"/>
+					<int name="73" value="2"/>
+					<int name="78" value="2"/>
+					<int name="84" value="2"/>
+					<int name="93" value="1"/>
+				</imgdir>
+				<imgdir name="39">
+					<int name="38" value="1"/>
+					<int name="48" value="1"/>
+					<int name="56" value="1"/>
+					<int name="69" value="1"/>
+					<int name="77" value="1"/>
+					<int name="82" value="1"/>
+					<int name="89" value="1"/>
+					<int name="99" value="1"/>
+				</imgdir>
+				<imgdir name="40">
+					<int name="44" value="0"/>
+					<int name="53" value="0"/>
+					<int name="62" value="0"/>
+					<int name="75" value="0"/>
+					<int name="82" value="0"/>
+					<int name="89" value="0"/>
+					<int name="95" value="0"/>
+				</imgdir>
+				<imgdir name="41">
+					<int name="5" value="1"/>
+					<int name="49" value="1"/>
+					<int name="58" value="1"/>
+					<int name="67" value="1"/>
+					<int name="78" value="1"/>
+					<int name="86" value="1"/>
+					<int name="92" value="1"/>
+					<int name="97" value="1"/>
+				</imgdir>
+				<imgdir name="42">
+					<int name="9" value="1"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

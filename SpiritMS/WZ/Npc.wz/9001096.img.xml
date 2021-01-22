@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9001096.img">
+	<imgdir name="info">
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="96" height="127">
+			<vector name="origin" x="37" y="127"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="95" height="127">
+			<vector name="origin" x="37" y="127"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="96" height="127">
+			<vector name="origin" x="37" y="127"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="95" height="127">
+			<vector name="origin" x="37" y="127"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="96" height="127">
+			<vector name="origin" x="37" y="127"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-28" y="-91"/>
+			<vector name="rb" x="24" y="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="jump">
+		<canvas name="0" width="96" height="126">
+			<vector name="origin" x="37" y="133"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-28" y="-91"/>
+			<vector name="rb" x="24" y="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="hang">
+		<canvas name="0" width="100" height="120">
+			<vector name="origin" x="49" y="154"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+</imgdir>

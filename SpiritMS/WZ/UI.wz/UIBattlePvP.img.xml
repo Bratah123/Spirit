@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="UIBattlePvP.img">
+	<imgdir name="BattleStatCoreBar">
+		<imgdir name="info">
+		</imgdir>
+		<canvas name="disable" width="50" height="50">
+			<vector name="origin" x="16" y="16"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="back" width="237" height="46">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="-4"/>
+		</canvas>
+		<canvas name="key" width="154" height="9">
+			<vector name="origin" x="-71" y="-29"/>
+			<int name="z" value="3"/>
+		</canvas>
+		<imgdir name="1">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-52" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="Q"/>
+			<string name="toolTip" value="ATT +#c2%#\nCost: #c540#"/>
+			<string name="cost" value="Cost: 540"/>
+			<string name="option" value="Effect: ATT +2%"/>
+		</imgdir>
+		<imgdir name="2">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-52" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="Q"/>
+			<string name="toolTip" value="ATT +#c5%#\nCost: #c990#"/>
+			<string name="cost" value="Cost: 990"/>
+			<string name="option" value="Effect: ATT 5%"/>
+		</imgdir>
+		<imgdir name="3">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-52" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="Q"/>
+			<string name="toolTip" value="ATT +#c10%#\nCost: #c1620#"/>
+			<string name="cost" value="Cost: 1620"/>
+			<string name="option" value="Effect: ATT 10%"/>
+		</imgdir>
+		<imgdir name="4">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-52" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="Q"/>
+			<string name="toolTip" value="ATT +#c15%#\nCost: #c2340#"/>
+			<string name="cost" value="Cost: 2340"/>
+			<string name="option" value="Effect: ATT 15%"/>
+		</imgdir>
+		<imgdir name="5">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-52" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="Q"/>
+			<string name="toolTip" value="ATT +#c20%#\nCost: #c3300#"/>
+			<string name="cost" value="Cost: 3300"/>
+			<string name="option" value="Effect: ATT 20%"/>
+		</imgdir>
+		<imgdir name="6">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-52" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="Q"/>
+			<string name="toolTip" value="ATT +20%\nUpgrade Complete"/>
+			<string name="cost" value="Complete"/>
+			<string name="option" value="Complete"/>
+		</imgdir>
+		<imgdir name="101">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-88" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="W"/>
+			<string name="toolTip" value="Max HP/MP +#c2%# \nCost: #c540#"/>
+			<string name="cost" value="Cost: 540"/>
+			<string name="option" value="Effect: Max HP/MP +2%"/>
+		</imgdir>
+		<imgdir name="102">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-88" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="W"/>
+			<string name="toolTip" value="Max HP/MP +#c7%# \nCost: #c990#"/>
+			<string name="cost" value="Cost: 990"/>
+			<string name="option" value="Effect: Max HP/MP 7%"/>
+		</imgdir>
+		<imgdir name="103">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-88" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="W"/>
+			<string name="toolTip" value="Max HP/MP +#c15%# \nCost: #c1620#"/>
+			<string name="cost" value="Cost: 1620"/>
+			<string name="option" value="Effect: Max HP/MP 15%"/>
+		</imgdir>
+		<imgdir name="104">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-88" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="W"/>
+			<string name="toolTip" value="Max HP/MP +#c20%# \nCost: #c2340#"/>
+			<string name="cost" value="Cost: 2340"/>
+			<string name="option" value="Effect: Max HP/MP 20%"/>
+		</imgdir>
+		<imgdir name="105">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-88" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="W"/>
+			<string name="toolTip" value="Max HP/MP +#c30%# \nCost: #c3300#"/>
+			<string name="cost" value="Cost: 3300"/>
+			<string name="option" value="Effect: Max HP/MP 30%"/>
+		</imgdir>
+		<imgdir name="106">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-88" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="W"/>
+			<string name="toolTip" value="Max HP/MP +30%\nUpgrade Complete"/>
+			<string name="cost" value="Complete"/>
+			<string name="option" value="Complete"/>
+		</imgdir>
+		<imgdir name="201">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-124" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="E"/>
+			<string name="toolTip" value="Critical Chance +#c3%#\nCost: #c540#"/>
+			<string name="cost" value="Cost: 540"/>
+			<string name="option" value="Effect: Critical Chance +3%"/>
+		</imgdir>
+		<imgdir name="202">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-124" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="E"/>
+			<string name="toolTip" value="Critical Chance +#c6%#\nCost: #c990#"/>
+			<string name="cost" value="Cost: 990"/>
+			<string name="option" value="Effect: Critical Chance 6%"/>
+		</imgdir>
+		<imgdir name="203">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-124" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="E"/>
+			<string name="toolTip" value="Critical Chance +#c12%#\nCost: #c1620#"/>
+			<string name="cost" value="Cost: 1620"/>
+			<string name="option" value="Effect: Critical Chance 12%"/>
+		</imgdir>
+		<imgdir name="204">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-124" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="E"/>
+			<string name="toolTip" value="Critical Chance +#c18%#\nCost: #c2340#"/>
+			<string name="cost" value="Cost: 2340"/>
+			<string name="option" value="Effect: Critical Chance 18%"/>
+		</imgdir>
+		<imgdir name="205">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-124" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="E"/>
+			<string name="toolTip" value="Critical Chance +#c25%#\nCost: #c3300#"/>
+			<string name="cost" value="Cost: 3300"/>
+			<string name="option" value="Effect: Critical Chance 25%"/>
+		</imgdir>
+		<imgdir name="206">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-124" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="E"/>
+			<string name="toolTip" value="Critical Chance +25%\nUpgrade Complete"/>
+			<string name="cost" value="Complete"/>
+			<string name="option" value="Complete"/>
+		</imgdir>
+		<imgdir name="301">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-160" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="R"/>
+			<string name="toolTip" value="Attack Speed/Jump/Speed #cStage 1#\nCost: #c540#"/>
+			<string name="cost" value="Cost: 540"/>
+			<string name="option" value="Effect: Attack Speed/Jump/Speed Stage 1"/>
+		</imgdir>
+		<imgdir name="302">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-160" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="R"/>
+			<string name="toolTip" value="Attack Speed/Jump/Speed #cStage 2#\nCost: #c990#"/>
+			<string name="cost" value="Cost: 990"/>
+			<string name="option" value="Effect: Attack Speed/Jump/Speed Stage 2"/>
+		</imgdir>
+		<imgdir name="303">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-160" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="R"/>
+			<string name="toolTip" value="Attack Speed/Jump/Speed #cStage 3#\nCost: #c1620#"/>
+			<string name="cost" value="Cost: 1620"/>
+			<string name="option" value="Effect: Attack Speed/Jump/Speed Stage 3"/>
+		</imgdir>
+		<imgdir name="304">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-160" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="R"/>
+			<string name="toolTip" value="Attack Speed/Jump/Speed #cStage 4#\nCost: #c2340#"/>
+			<string name="cost" value="Cost: 2340"/>
+			<string name="option" value="Effect: Attack Speed/Jump/Speed Stage 4"/>
+		</imgdir>
+		<imgdir name="305">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-160" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="R"/>
+			<string name="toolTip" value="Attack Speed/Jump/Speed #cStage 5#\nCost: #c3300#"/>
+			<string name="cost" value="Cost: 3300"/>
+			<string name="option" value="Effect: Attack Speed/Jump/Speed Stage 5"/>
+		</imgdir>
+		<imgdir name="306">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-160" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="R"/>
+			<string name="toolTip" value="Attack Speed/Jump/Speed Stage 5\nUpgrade Complete"/>
+			<string name="cost" value="Complete"/>
+			<string name="option" value="Complete"/>
+		</imgdir>
+		<imgdir name="401">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-196" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="T"/>
+			<string name="toolTip" value="HP/MP Recovery #cStage 1#\nCost: #c540#"/>
+			<string name="cost" value="Cost: 540"/>
+			<string name="option" value="Effect: HP/MP Recovery Stage 1"/>
+		</imgdir>
+		<imgdir name="402">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-196" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="T"/>
+			<string name="toolTip" value="HP/MP Recovery #cStage 2#\nCost: #c990#"/>
+			<string name="cost" value="Cost: 990"/>
+			<string name="option" value="Effect: HP/MP Recovery Stage 2"/>
+		</imgdir>
+		<imgdir name="403">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-196" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="T"/>
+			<string name="toolTip" value="HP/MP Recovery #cStage 3#\nCost: #c1620#"/>
+			<string name="cost" value="Cost: 1620"/>
+			<string name="option" value="Effect: HP/MP Recovery Stage 3"/>
+		</imgdir>
+		<imgdir name="404">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-196" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="T"/>
+			<string name="toolTip" value="HP/MP Recovery #cStage 4#\nCost: #c2340#"/>
+			<string name="cost" value="Cost: 2340"/>
+			<string name="option" value="Effect: HP/MP Recovery Stage 4"/>
+		</imgdir>
+		<imgdir name="405">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-196" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="T"/>
+			<string name="toolTip" value="HP/MP Recovery #cStage 5#\nCost: #c3300#"/>
+			<string name="cost" value="Cost: 3300"/>
+			<string name="option" value="Effect: HP/MP Recovery Stage 5"/>
+		</imgdir>
+		<imgdir name="406">
+			<canvas name="0" width="32" height="32">
+				<vector name="origin" x="-196" y="-7"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<string name="key" value="T"/>
+			<string name="toolTip" value="HP/MP Recovery Stage 5\nUpgrade Complete"/>
+			<string name="cost" value="Complete"/>
+			<string name="option" value="Complete"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="BattleStatUI">
+		<canvas name="backgrnd" width="212" height="166">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="BattleBulletin">
+		<canvas name="backgrnd" width="210" height="222">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="BattleAvatarSelect">
+		<canvas name="backgrnd" width="773" height="367">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="backgrnd2" width="752" height="333">
+			<vector name="origin" x="-10" y="-23"/>
+			<int name="z" value="6"/>
+		</canvas>
+		<imgdir name="backAnimation">
+			<canvas name="0" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="1" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="2" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="3" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="4" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="5" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="6" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="7" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="8" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="9" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="10" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="11" width="328" height="276">
+				<vector name="origin" x="-425" y="-71"/>
+				<int name="z" value="6"/>
+				<int name="delay" value="120"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="Avatar">
+			<canvas name="layer:lock" width="99" height="138">
+				<vector name="origin" x="-1" y="-2"/>
+				<int name="z" value="2"/>
+			</canvas>
+			<imgdir name="Avatar0">
+				<imgdir name="info">
+					<string name="feature1" value="Slice the heavens,"/>
+					<string name="feature2" value="sword master of Perion!"/>
+					<string name="skill1" value="Triple Slice"/>
+					<string name="skill2" value="Ankle Sweep"/>
+					<string name="skill3" value="Sky Splitter"/>
+					<string name="skill4" value="Heart of the Sword"/>
+				</imgdir>
+				<canvas name="able" width="99" height="137">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="disable" width="99" height="142">
+					<vector name="origin" x="-1" y="3"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="select" width="101" height="143">
+					<vector name="origin" x="0" y="3"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Avatar1">
+				<imgdir name="info">
+					<string name="feature1" value="Protect Victoria Island,"/>
+					<string name="feature2" value="gatekeeper of good!"/>
+					<string name="skill1" value="Maul"/>
+					<string name="skill2" value="Iron Spirit"/>
+					<string name="skill3" value="Combat Shield"/>
+					<string name="skill4" value="Trumpet of Sacrifice"/>
+				</imgdir>
+				<canvas name="able" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="disable" width="99" height="142">
+					<vector name="origin" x="-1" y="3"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="select" width="101" height="143">
+					<vector name="origin" x="0" y="4"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Avatar2">
+				<imgdir name="info">
+					<string name="feature1" value="Send foes to darkness,"/>
+					<string name="feature2" value="mighty master of thieves!"/>
+					<string name="skill1" value="Dragon Poison"/>
+					<string name="skill2" value="Bat Grave"/>
+					<string name="skill3" value="Giant Shuriken"/>
+					<string name="skill4" value="Dark Wind"/>
+				</imgdir>
+				<canvas name="able" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="disable" width="99" height="142">
+					<vector name="origin" x="-1" y="3"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="select" width="101" height="143">
+					<vector name="origin" x="0" y="4"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Avatar3">
+				<imgdir name="info">
+					<string name="feature1" value="Leading his pupils to victory,"/>
+					<string name="feature2" value="Ellinia's great magician!"/>
+					<string name="skill1" value="Ice Needle"/>
+					<string name="skill2" value="Healing Orb"/>
+					<string name="skill3" value="Ice Orb"/>
+					<string name="skill4" value="Doom Meteor"/>
+				</imgdir>
+				<canvas name="able" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="disable" width="99" height="142">
+					<vector name="origin" x="-1" y="3"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="select" width="101" height="143">
+					<vector name="origin" x="0" y="4"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Avatar4">
+				<imgdir name="info">
+					<string name="feature1" value="Rising to the top,"/>
+					<string name="feature2" value="Mu Lung's top fighter!"/>
+					<string name="skill1" value="One Ton Strike"/>
+					<string name="skill2" value="Whirlwind Kick"/>
+					<string name="skill3" value="Halfmoon Kick"/>
+					<string name="skill4" value="Panda Strike"/>
+				</imgdir>
+				<canvas name="able" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="disable" width="99" height="142">
+					<vector name="origin" x="-1" y="3"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="select" width="101" height="143">
+					<vector name="origin" x="0" y="4"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Avatar5">
+				<imgdir name="info">
+					<string name="feature1" value="Piercing the heavens! "/>
+					<string name="feature2" value="Bowman Hero of Henesys!"/>
+					<string name="skill1" value="Windward"/>
+					<string name="skill2" value="Burning Salvo"/>
+					<string name="skill3" value="Ice Arrow"/>
+					<string name="skill4" value="Concentrated Fire"/>
+				</imgdir>
+				<canvas name="able" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="disable" width="99" height="142">
+					<vector name="origin" x="-1" y="3"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="select" width="101" height="143">
+					<vector name="origin" x="0" y="4"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="beforeStart" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="afterEnd" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="2"/>
+				</canvas>
+				<int name="priority" value="1"/>
+				<int name="new" value="1"/>
+			</imgdir>
+			<imgdir name="Avatar6">
+				<imgdir name="info">
+					<string name="feature1" value="Wily spirit master! "/>
+					<string name="feature2" value="A paragon among foxes!"/>
+					<string name="skill1" value="Liver Circle Dance"/>
+					<string name="skill2" value="Fox Ridge Flash"/>
+					<string name="skill3" value="Shielding Spirit Ward"/>
+					<string name="skill4" value="Nine-Tailed Charm"/>
+				</imgdir>
+				<canvas name="able" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="disable" width="99" height="142">
+					<vector name="origin" x="-1" y="3"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="select" width="101" height="143">
+					<vector name="origin" x="0" y="4"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="beforeStart" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="afterEnd" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="2"/>
+				</canvas>
+				<int name="priority" value="2"/>
+				<int name="new" value="1"/>
+			</imgdir>
+			<imgdir name="Avatar7">
+				<imgdir name="info">
+					<string name="feature1" value="이렇게 된 이상"/>
+					<string name="feature2" value=" 메이플로 간다"/>
+					<string name="skill1" value="와장창 퍽퍽"/>
+					<string name="skill2" value="갸아악 데굴데굴"/>
+					<string name="skill3" value="단도 만세"/>
+					<string name="skill4" value="그리고 세계는 멸망했다"/>
+				</imgdir>
+				<canvas name="able" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="disable" width="99" height="142">
+					<vector name="origin" x="-1" y="3"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="select" width="101" height="143">
+					<vector name="origin" x="0" y="4"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="beforeStart" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="afterEnd" width="99" height="138">
+					<vector name="origin" x="-1" y="-2"/>
+					<int name="z" value="2"/>
+				</canvas>
+				<int name="priority" value="3"/>
+				<int name="new" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Name">
+			<canvas name="Avatar0" width="69" height="27">
+				<vector name="origin" x="-480" y="-312"/>
+				<int name="z" value="9"/>
+			</canvas>
+			<canvas name="Avatar1" width="59" height="24">
+				<vector name="origin" x="-483" y="-312"/>
+				<int name="z" value="9"/>
+			</canvas>
+			<canvas name="Avatar2" width="124" height="25">
+				<vector name="origin" x="-450" y="-310"/>
+				<int name="z" value="9"/>
+			</canvas>
+			<canvas name="Avatar3" width="149" height="42">
+				<vector name="origin" x="-437" y="-301"/>
+				<int name="z" value="9"/>
+			</canvas>
+			<canvas name="Avatar4" width="112" height="29">
+				<vector name="origin" x="-456" y="-310"/>
+				<int name="z" value="9"/>
+			</canvas>
+			<canvas name="Avatar5" width="76" height="39">
+				<vector name="origin" x="-476" y="-302"/>
+				<int name="z" value="9"/>
+			</canvas>
+			<canvas name="Avatar6" width="136" height="24">
+				<vector name="origin" x="-446" y="-311"/>
+				<int name="z" value="9"/>
+			</canvas>
+			<canvas name="Avatar7" width="83" height="38">
+				<vector name="origin" x="-472" y="-301"/>
+				<int name="z" value="9"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="Notice">
+			<canvas name="0" width="158" height="7">
+				<vector name="origin" x="-492" y="-43"/>
+				<int name="z" value="9"/>
+				<int name="delay" value="1000"/>
+			</canvas>
+			<canvas name="1" width="259" height="9">
+				<vector name="origin" x="-436" y="-43"/>
+				<int name="z" value="9"/>
+				<int name="delay" value="1000"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="button:Start">
+			<imgdir name="normal">
+				<canvas name="0" width="150" height="60">
+					<vector name="origin" x="-597" y="-279"/>
+					<int name="z" value="9"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="150" height="60">
+					<vector name="origin" x="-597" y="-279"/>
+					<int name="z" value="9"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="150" height="60">
+					<vector name="origin" x="-597" y="-279"/>
+					<int name="z" value="9"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="150" height="60">
+					<vector name="origin" x="-597" y="-279"/>
+					<int name="z" value="9"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1900"/>
+		</imgdir>
+		<imgdir name="New">
+			<canvas name="0" width="26" height="24">
+				<vector name="origin" x="-11" y="-3"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="26" height="24">
+				<vector name="origin" x="-11" y="-3"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="26" height="24">
+				<vector name="origin" x="-11" y="-3"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="26" height="24">
+				<vector name="origin" x="-11" y="-3"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="26" height="24">
+				<vector name="origin" x="-11" y="-3"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="26" height="24">
+				<vector name="origin" x="-11" y="-3"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="26" height="24">
+				<vector name="origin" x="-11" y="-3"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="New1">
+			<canvas name="0" width="26" height="24">
+				<vector name="origin" x="-11" y="-8"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="26" height="24">
+				<vector name="origin" x="-11" y="-8"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="26" height="24">
+				<vector name="origin" x="-11" y="-8"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="26" height="24">
+				<vector name="origin" x="-11" y="-8"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="26" height="24">
+				<vector name="origin" x="-11" y="-8"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="26" height="24">
+				<vector name="origin" x="-11" y="-8"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="26" height="24">
+				<vector name="origin" x="-11" y="-8"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+	<imgdir name="BattleCoreTooltip">
+		<canvas name="0" width="265" height="170">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+</imgdir>

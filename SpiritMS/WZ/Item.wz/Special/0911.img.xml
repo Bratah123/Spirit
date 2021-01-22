@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="0911.img">
+	<imgdir name="9110000">
+		<canvas name="icon" width="28" height="28">
+			<vector name="origin" x="-2" y="28"/>
+		</canvas>
+		<string name="name" value="Add Storage Slots"/>
+		<int name="delta" value="8"/>
+	</imgdir>
+	<imgdir name="9111000">
+		<canvas name="icon" width="28" height="28">
+			<vector name="origin" x="-2" y="28"/>
+			<string name="source" value="Item/Cash/0553.img/05530241/info/icon"/>
+		</canvas>
+		<string name="name" value="Add Equip Slots"/>
+		<int name="delta" value="8"/>
+	</imgdir>
+	<imgdir name="9112000">
+		<canvas name="icon" width="28" height="28">
+			<vector name="origin" x="-2" y="28"/>
+			<string name="source" value="Item/Cash/0553.img/05530242/info/icon"/>
+		</canvas>
+		<string name="name" value="Add Use Slots"/>
+		<int name="delta" value="8"/>
+	</imgdir>
+	<imgdir name="9113000">
+		<canvas name="icon" width="28" height="28">
+			<vector name="origin" x="-2" y="28"/>
+			<string name="source" value="Item/Cash/0553.img/05530243/info/icon"/>
+		</canvas>
+		<string name="name" value="Add Set-up Slots"/>
+		<int name="delta" value="8"/>
+	</imgdir>
+	<imgdir name="9114000">
+		<canvas name="icon" width="28" height="28">
+			<vector name="origin" x="-2" y="28"/>
+			<string name="source" value="Item/Cash/0553.img/05530244/info/icon"/>
+		</canvas>
+		<string name="name" value="Add ETC Slots"/>
+		<int name="delta" value="8"/>
+	</imgdir>
+	<imgdir name="9110001">
+		<canvas name="icon" width="28" height="31">
+			<vector name="origin" x="-2" y="28"/>
+		</canvas>
+		<string name="name" value="Max Storage Slots"/>
+		<int name="delta" value="96"/>
+		<string name="desc" value="Increases the number of your Storage slots to max value (96) at once."/>
+	</imgdir>
+	<imgdir name="9111002">
+		<canvas name="icon" width="28" height="31">
+			<vector name="origin" x="-2" y="28"/>
+		</canvas>
+		<string name="name" value="Max Equip Slots"/>
+		<int name="delta" value="96"/>
+		<string name="desc" value="Increases the number of slots in the Equip tab of your item inventory to max value (96)."/>
+	</imgdir>
+	<imgdir name="9112002">
+		<canvas name="icon" width="28" height="31">
+			<vector name="origin" x="-2" y="28"/>
+		</canvas>
+		<string name="name" value="Max Use Slots"/>
+		<int name="delta" value="96"/>
+		<string name="desc" value="Increases the number of slots in the Use tab of your item inventory to max value (96)."/>
+	</imgdir>
+	<imgdir name="9113001">
+		<canvas name="icon" width="28" height="31">
+			<vector name="origin" x="-2" y="28"/>
+		</canvas>
+		<string name="name" value="Max Set-up Slots"/>
+		<int name="delta" value="96"/>
+		<string name="desc" value="Increases the number of slots in the Set-up tab of your item inventory to max value (96)."/>
+	</imgdir>
+	<imgdir name="9114002">
+		<canvas name="icon" width="28" height="31">
+			<vector name="origin" x="-2" y="28"/>
+		</canvas>
+		<string name="name" value="Max ETC Slots"/>
+		<int name="delta" value="96"/>
+		<string name="desc" value="Increases the number of slots in the ETC tab of your item inventory to max value (96)."/>
+	</imgdir>
+	<imgdir name="9116000">
+		<canvas name="icon" width="30" height="31">
+			<vector name="origin" x="-2" y="28"/>
+		</canvas>
+		<string name="name" value="Max Inventory Slots"/>
+		<int name="delta" value="8"/>
+		<string name="desc" value="Increases the number of slots in ALL tabs of your item inventory to max value (96)."/>
+	</imgdir>
+</imgdir>

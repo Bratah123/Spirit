@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="0106.img">
+	<imgdir name="info">
+		<int name="gender" value="1"/>
+		<int name="chatBalloon" value="36"/>
+		<int name="nameTag" value="38"/>
+	</imgdir>
+	<imgdir name="basic">
+		<int name="longcoat" value="1052653"/>
+		<int name="shoes" value="1072854"/>
+		<int name="cap" value="1003948"/>
+		<int name="cape" value="1102613"/>
+		<int name="gloves" value="1082541"/>
+		<int name="accessory" value="1032204"/>
+	</imgdir>
+	<imgdir name="costume">
+		<imgdir name="skin">
+			<string name="0" value="2000"/>
+		</imgdir>
+		<imgdir name="hair">
+			<int name="0" value="37930"/>
+			<int name="1" value="37931"/>
+			<int name="2" value="37932"/>
+			<int name="3" value="37933"/>
+			<int name="4" value="37934"/>
+			<int name="5" value="37935"/>
+			<int name="6" value="37936"/>
+			<int name="7" value="37937"/>
+		</imgdir>
+		<imgdir name="face">
+			<int name="0" value="21099"/>
+			<int name="1" value="21199"/>
+			<int name="2" value="21299"/>
+			<int name="3" value="21399"/>
+			<int name="4" value="21499"/>
+			<int name="5" value="21599"/>
+			<int name="6" value="21699"/>
+			<int name="7" value="21799"/>
+			<int name="8" value="21899"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="action">
+		<imgdir name="hello">
+			<imgdir name="0">
+				<string name="sound" value="hello"/>
+				<string name="face" value="smile"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="sound" value="hello"/>
+				<string name="face" value="wink"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="levelup">
+			<imgdir name="0">
+				<string name="face" value="glitter"/>
+				<string name="chat" value="Master~ It's amazing!"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="chat" value="Not bad?"/>
+				<string name="face" value="bewildered"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="dead">
+			<imgdir name="0">
+				<string name="face" value="cry"/>
+				<string name="chat" value="Nooo!"/>
+				<string name="sound" value="bye"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="face" value="despair"/>
+				<string name="chat" value="Masteeer!"/>
+				<string name="action" value="dead"/>
+				<string name="sound" value="bye"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="bye">
+			<imgdir name="0">
+				<string name="sound" value="bye"/>
+				<string name="face" value="cry"/>
+				<string name="chat" value="I'll miss you..."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="job">
+			<imgdir name="0">
+				<string name="face" value="shine"/>
+				<string name="chat" value="Whoa! Neat!"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="alert">
+			<imgdir name="0">
+				<string name="face" value="hit"/>
+				<string name="action" value="alert"/>
+				<int name="prob" value="10"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="prob" value="90"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

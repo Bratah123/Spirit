@@ -1,0 +1,1539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="MonsterBattleSkill.img">
+	<imgdir name="ability">
+		<imgdir name="0100">
+			<imgdir name="info">
+				<string name="skillName" value="Normal Attack Damage: +#incNormalDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incNormalDamage" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="3"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0110">
+			<imgdir name="info">
+				<string name="skillName" value="Attack Skill Activation Chance: +#incAttSkillProb%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incAttSkillProb" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="3"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0120">
+			<imgdir name="info">
+				<string name="skillName" value="Attack Skill Damage: +#incAttSkillDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incAttSkillDamage" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="3"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0130">
+			<imgdir name="info">
+				<string name="skillName" value="Defense Skill Activation Chance: +#incDefSkillProb%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incDefSkillProb" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="3"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0140">
+			<imgdir name="info">
+				<string name="skillName" value="Defense Skill Defense Chance: +#incDefSkillEffect%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incDefSkillEffect" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="3"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0150">
+			<imgdir name="info">
+				<string name="skillName" value="DEF: +#incPDD%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incPDD" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="3"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0160">
+			<imgdir name="info">
+				<string name="skillName" value="ATT: +#incPAD%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incPAD" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="3"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0170">
+			<imgdir name="info">
+				<string name="skillName" value="MaxHP +#incMHP%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incMHP" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="2"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0180">
+			<imgdir name="info">
+				<string name="skillName" value="#stunProb% chance to inflict stun for #stunDuration turns"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="stunProb" value="1"/>
+				<int name="stunDuration" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="10"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0190">
+			<imgdir name="info">
+				<string name="skillName" value="#sealProb% chance to inflict seal for #sealDuration turns"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="sealProb" value="1"/>
+				<int name="sealDuration" value="2"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="10"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0200">
+			<imgdir name="info">
+				<string name="skillName" value="#poisonProb% chance to inflict poison for #poisonDuration turns"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="poisonProb" value="1"/>
+				<int name="poisonDuration" value="3"/>
+				<int name="poisonDamage" value="5"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="10"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0210">
+			<imgdir name="info">
+				<string name="skillName" value="Status Ailment Duration: -#decDuration turns"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="decDuration" value="1"/>
+				<string name="incValue" value="0"/>
+				<string name="startValue" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0220">
+			<imgdir name="info">
+				<string name="skillName" value="Stun Resistance: #decStunProb%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="decStunProb" value="1"/>
+				<string name="incValue" value="5"/>
+				<string name="startValue" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0230">
+			<imgdir name="info">
+				<string name="skillName" value="Seal Resistance: #decSealProb%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="decSealProb" value="1"/>
+				<string name="incValue" value="5"/>
+				<string name="startValue" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0240">
+			<imgdir name="info">
+				<string name="skillName" value="Poison Resistance: #decPoisonProb%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="decPoisonProb" value="1"/>
+				<string name="incValue" value="5"/>
+				<string name="startValue" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0250">
+			<imgdir name="info">
+				<string name="skillName" value="#heal% of HP restored"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="heal" value="1"/>
+				<string name="incValue" value="0.2"/>
+				<string name="startValue" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0260">
+			<imgdir name="info">
+				<string name="skillName" value="Bonus damage against bosses +#incBossDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incBossDamage" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="10"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0400">
+			<imgdir name="info">
+				<string name="skillName" value="+#incAAttSkillProb% for all Battle Monster offensive skills"/>
+				<int name="Boss" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incAAttSkillProb" value="1"/>
+				<int name="target" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="2"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0410">
+			<imgdir name="info">
+				<string name="skillName" value="+#incADefSkillProb% chance activation for all Battle Monster defensive skills"/>
+				<int name="Boss" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incADefSkillProb" value="1"/>
+				<int name="target" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="2"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0420">
+			<imgdir name="info">
+				<string name="skillName" value="All Battle Monster ATT +#incAPAD%"/>
+				<int name="Boss" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incAPAD" value="1"/>
+				<int name="target" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="2"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0430">
+			<imgdir name="info">
+				<string name="skillName" value="All Battle Monster HP +#incAMHP%"/>
+				<int name="Boss" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incAMHP" value="1"/>
+				<int name="target" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="2"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0440">
+			<imgdir name="info">
+				<string name="skillName" value="All Battle Monster DEF +#incAPDD%"/>
+				<int name="Boss" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incAPDD" value="1"/>
+				<int name="target" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="2"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0450">
+			<imgdir name="info">
+				<string name="skillName" value="Battle Monster EXP +#expProb%"/>
+				<int name="Boss" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="expProb" value="1"/>
+				<string name="incValue" value="1"/>
+				<string name="startValue" value="2"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0460">
+			<imgdir name="info">
+				<string name="skillName" value="#healOther% HP of Battle Monsters in critical condition"/>
+				<int name="Boss" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="healOther" value="1"/>
+				<string name="incValue" value="0.2"/>
+				<string name="startValue" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="0470">
+			<imgdir name="info">
+				<string name="skillName" value="#healAll% HP of all Battle Monsters restored"/>
+				<int name="Boss" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="healAll" value="1"/>
+				<int name="target" value="1"/>
+				<string name="incValue" value="0.2"/>
+				<string name="startValue" value="0.5"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="attack">
+		<imgdir name="0">
+			<imgdir name="info">
+				<string name="skillName" value="Basic Attack"/>
+				<string name="skillDesc" value="ATT: #damage%, Activation Chance: #prob%, Cooldown: #cooltime turns"/>
+				<string name="skillEffect" value="112.img/skill/1121008/effect/3"/>
+				<string name="hitEffect" value="112.img/skill/1121008/hit/0"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="prob" value="100"/>
+				<int name="damage" value="100"/>
+				<int name="cooltime" value="1"/>
+				<int name="cost" value="1"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="89" height="190">
+					<vector name="origin" x="48" y="32"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="89" height="208">
+					<vector name="origin" x="48" y="112"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="100" height="97">
+					<vector name="origin" x="54" y="112"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="102" height="99">
+					<vector name="origin" x="55" y="113"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="102" height="99">
+					<vector name="origin" x="56" y="113"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="hit">
+				<canvas name="0" width="289" height="243">
+					<vector name="origin" x="147" y="194"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="309" height="276">
+					<vector name="origin" x="159" y="243"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="317" height="287">
+					<vector name="origin" x="162" y="251"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="219" height="180">
+					<vector name="origin" x="108" y="150"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="89" height="62">
+					<vector name="origin" x="13" y="69"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1001">
+			<imgdir name="info">
+				<string name="skillName" value="Medium Attack 1"/>
+				<string name="skillDesc" value="ATT: #damage%. Activation Chance: #prob%."/>
+				<string name="skillEffect" value="112.img/skill/1121008/effect/3"/>
+				<string name="hitEffect" value="112.img/skill/1121008/hit/0"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="prob" value="60"/>
+				<int name="damage" value="200"/>
+				<int name="cooltime" value="3"/>
+				<int name="cost" value="1"/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="effect">
+				<canvas name="0" width="156" height="163">
+					<vector name="origin" x="70" y="144"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="133" height="133">
+					<vector name="origin" x="74" y="113"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="99" height="71">
+					<vector name="origin" x="94" y="44"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="hit">
+				<canvas name="0" width="64" height="64">
+					<vector name="origin" x="68" y="107"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="148" height="95">
+					<vector name="origin" x="77" y="105"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="148" height="102">
+					<vector name="origin" x="79" y="111"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="156" height="105">
+					<vector name="origin" x="81" y="113"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="89" height="62">
+					<vector name="origin" x="13" y="69"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/0/hit/4"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1002">
+			<imgdir name="info">
+				<string name="skillName" value="Medium Attack 2"/>
+				<string name="skillDesc" value="ATT: #damage%. Activation Chance: #prob%."/>
+				<string name="skillEffect" value="412.img/skill/4121016/effect"/>
+				<string name="hitEffect" value="412.img/skill/4121016/hit/0"/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="prob" value="50"/>
+				<int name="damage" value="300"/>
+				<int name="cooltime" value="3"/>
+				<int name="cost" value="2"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="156" height="163">
+					<vector name="origin" x="53" y="140"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="174" height="178">
+					<vector name="origin" x="99" y="155"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="139" height="151">
+					<vector name="origin" x="76" y="121"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="99" height="71">
+					<vector name="origin" x="27" y="63"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="139" height="151">
+					<vector name="origin" x="76" y="121"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/1002/effect/2"/>
+				</canvas>
+				<canvas name="5" width="139" height="151">
+					<vector name="origin" x="76" y="121"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/1002/effect/2"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="hit">
+				<canvas name="0" width="64" height="64">
+					<vector name="origin" x="60" y="60"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="158" height="118">
+					<vector name="origin" x="75" y="110"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="165" height="148">
+					<vector name="origin" x="78" y="121"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="110" height="152">
+					<vector name="origin" x="22" y="120"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="102" height="70">
+					<vector name="origin" x="36" y="37"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1003">
+			<imgdir name="info">
+				<string name="skillName" value="Heavy Attack 1"/>
+				<string name="skillDesc" value="ATT: #damage%. Activation Chance: #prob%."/>
+				<string name="skillEffect" value="6111.img/skill/61111101/effect"/>
+				<string name="hitEffect" value="6111.img/skill/61111101/hit/0"/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="prob" value="40"/>
+				<int name="damage" value="400"/>
+				<int name="cooltime" value="5"/>
+				<int name="cost" value="5"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="113" height="107">
+					<vector name="origin" x="59" y="113"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="113" height="117">
+					<vector name="origin" x="59" y="119"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="234" height="210">
+					<vector name="origin" x="114" y="162"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="235" height="207">
+					<vector name="origin" x="117" y="179"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="231" height="205">
+					<vector name="origin" x="117" y="177"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="213" height="197">
+					<vector name="origin" x="115" y="169"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="213" height="197">
+					<vector name="origin" x="114" y="169"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="101" height="54">
+					<vector name="origin" x="50" y="83"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="hit">
+				<canvas name="0" width="97" height="92">
+					<vector name="origin" x="57" y="110"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="85" height="100">
+					<vector name="origin" x="47" y="111"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="65" height="91">
+					<vector name="origin" x="48" y="104"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="90" height="43">
+					<vector name="origin" x="50" y="54"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1004">
+			<imgdir name="info">
+				<string name="skillName" value="Heavy Attack 2"/>
+				<string name="skillDesc" value="ATT: #damage%. Activation Chance: #prob%."/>
+				<string name="skillEffect" value="6511.img/skill/65111002/effect"/>
+				<string name="hitEffect" value="6511.img/skill/65111002/hit/0"/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="prob" value="30"/>
+				<int name="damage" value="500"/>
+				<int name="cooltime" value="5"/>
+				<int name="cost" value="7"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="126" height="124">
+					<vector name="origin" x="60" y="123"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="134" height="134">
+					<vector name="origin" x="64" y="128"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="274" height="244">
+					<vector name="origin" x="125" y="178"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="276" height="243">
+					<vector name="origin" x="131" y="197"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="272" height="242">
+					<vector name="origin" x="131" y="196"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="250" height="232">
+					<vector name="origin" x="128" y="186"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="132" height="71">
+					<vector name="origin" x="63" y="92"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="129" height="72">
+					<vector name="origin" x="61" y="94"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="hit">
+				<canvas name="0" width="97" height="92">
+					<vector name="origin" x="57" y="110"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/1003/hit/0"/>
+				</canvas>
+				<canvas name="1" width="85" height="100">
+					<vector name="origin" x="47" y="111"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/1003/hit/1"/>
+				</canvas>
+				<canvas name="2" width="65" height="91">
+					<vector name="origin" x="48" y="104"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/1003/hit/2"/>
+				</canvas>
+				<canvas name="3" width="90" height="43">
+					<vector name="origin" x="50" y="54"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/1003/hit/3"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1005">
+			<imgdir name="info">
+				<string name="skillName" value="Special Attack"/>
+				<string name="skillDesc" value="ATT: #damage%. Activation Chance: #prob%."/>
+				<string name="skillEffect" value="532.img/skill/5321000/effect"/>
+				<string name="hitEffect" value="532.img/skill/5321000/hit/0"/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="prob" value="20"/>
+				<int name="damage" value="1000"/>
+				<int name="cooltime" value="10"/>
+				<int name="cost" value="10"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="66" height="134">
+					<vector name="origin" x="37" y="5"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="81" height="175">
+					<vector name="origin" x="43" y="133"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="178" height="190">
+					<vector name="origin" x="93" y="69"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="110" height="175">
+					<vector name="origin" x="89" y="85"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="65" height="132">
+					<vector name="origin" x="-23" y="93"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="71" height="167">
+					<vector name="origin" x="37" y="9"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="71" height="167">
+					<vector name="origin" x="42" y="89"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="80" height="78">
+					<vector name="origin" x="47" y="89"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="8" width="82" height="80">
+					<vector name="origin" x="48" y="90"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="9" width="81" height="79">
+					<vector name="origin" x="48" y="90"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="hit">
+				<canvas name="0" width="231" height="194">
+					<vector name="origin" x="121" y="154"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="247" height="205">
+					<vector name="origin" x="131" y="177"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="253" height="207">
+					<vector name="origin" x="133" y="177"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="175" height="145">
+					<vector name="origin" x="90" y="122"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1011">
+			<imgdir name="info">
+				<string name="skillName" value="Piercing Attack"/>
+				<string name="skillDesc" value="ATT: #damage%, Ignore Target Defense Skill, Activation Chance: #prob%."/>
+				<string name="skillEffect" value="2711.img/skill/27111303/effect"/>
+				<string name="hitEffect" value="2711.img/skill/27111303/hit/0"/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="prob" value="60"/>
+				<int name="damage" value="150"/>
+				<int name="cooltime" value="3"/>
+				<int name="ignoreDEF" value="1"/>
+				<int name="cost" value="20"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="177" height="108">
+					<vector name="origin" x="172" y="112"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="294" height="233">
+					<vector name="origin" x="129" y="187"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="272" height="215">
+					<vector name="origin" x="100" y="184"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="274" height="197">
+					<vector name="origin" x="89" y="174"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="150" height="64">
+					<vector name="origin" x="-25" y="92"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="149" height="62">
+					<vector name="origin" x="-28" y="91"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="hit">
+				<canvas name="0" width="97" height="92">
+					<vector name="origin" x="57" y="110"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/1003/hit/0"/>
+				</canvas>
+				<canvas name="1" width="85" height="100">
+					<vector name="origin" x="47" y="111"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/1003/hit/1"/>
+				</canvas>
+				<canvas name="2" width="65" height="91">
+					<vector name="origin" x="48" y="104"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/1003/hit/2"/>
+				</canvas>
+				<canvas name="3" width="90" height="43">
+					<vector name="origin" x="50" y="54"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/1003/hit/3"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1021">
+			<imgdir name="info">
+				<string name="skillName" value="All Attack"/>
+				<string name="skillDesc" value="ATT: #damage%, Ignore Target Defense Skill, Activation Chance: #prob%."/>
+				<string name="skillEffect" value="2711.img/skill/27111303/effect"/>
+				<string name="hitEffect" value="2711.img/skill/27111303/hit/0"/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Skill/MonsterBattleSkill.img/attack/1021/icon"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="hit">
+				<canvas name="0" width="82" height="121">
+					<vector name="origin" x="110" y="72"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="177" height="138">
+					<vector name="origin" x="110" y="88"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="181" height="134">
+					<vector name="origin" x="113" y="97"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="227" height="133">
+					<vector name="origin" x="115" y="77"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="217" height="136">
+					<vector name="origin" x="106" y="81"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="124" height="120">
+					<vector name="origin" x="16" y="79"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="93" height="93">
+					<vector name="origin" x="-18" y="47"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="76" height="87">
+					<vector name="origin" x="-26" y="45"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="8" width="76" height="87">
+					<vector name="origin" x="-26" y="45"/>
+					<int name="delay" value="90"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/attack/1021/hit/7"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="common">
+				<int name="prob" value="25"/>
+				<int name="damage" value="200"/>
+				<int name="cooltime" value="3"/>
+				<int name="cost" value="20"/>
+				<int name="target" value="1"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="198" height="118">
+					<vector name="origin" x="99" y="124"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="181" height="216">
+					<vector name="origin" x="90" y="173"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="191" height="227">
+					<vector name="origin" x="95" y="178"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="188" height="199">
+					<vector name="origin" x="94" y="164"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="161" height="255">
+					<vector name="origin" x="80" y="192"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="117" height="198">
+					<vector name="origin" x="58" y="164"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="146" height="70">
+					<vector name="origin" x="73" y="100"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1031">
+			<imgdir name="info">
+				<string name="skillName" value="Double Attack"/>
+				<string name="skillDesc" value="ATT: #damage%, Ignore Target Defense Skill, Activation Chance: #prob%. "/>
+				<string name="skillEffect" value="2711.img/skill/27111303/effect"/>
+				<string name="hitEffect" value="2711.img/skill/27111303/hit/0"/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="effect">
+				<canvas name="0" width="190" height="49">
+					<vector name="origin" x="95" y="24"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="128" height="49">
+					<vector name="origin" x="64" y="24"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="168" height="58">
+					<vector name="origin" x="84" y="29"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="166" height="64">
+					<vector name="origin" x="83" y="32"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="187" height="92">
+					<vector name="origin" x="93" y="46"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="290" height="183">
+					<vector name="origin" x="145" y="91"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="364" height="203">
+					<vector name="origin" x="182" y="101"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="369" height="203">
+					<vector name="origin" x="184" y="101"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="hit">
+				<canvas name="0" width="147" height="56">
+					<vector name="origin" x="73" y="28"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="231" height="151">
+					<vector name="origin" x="115" y="75"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="283" height="183">
+					<vector name="origin" x="141" y="91"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="319" height="206">
+					<vector name="origin" x="159" y="103"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="common">
+				<int name="prob" value="40"/>
+				<int name="damage" value="200"/>
+				<int name="cooltime" value="3"/>
+				<int name="cost" value="20"/>
+				<int name="target" value="2"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="defence">
+		<imgdir name="2001">
+			<imgdir name="info">
+				<string name="skillName" value="Defend 1"/>
+				<string name="skillDesc" value="Defense: #decDamage%, Activation Chance: #prob%."/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="prob" value="40"/>
+				<int name="decDamage" value="40"/>
+				<int name="cooltime" value="2"/>
+				<int name="cost" value="1"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="98" height="97">
+					<vector name="origin" x="46" y="103"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="1" width="94" height="94">
+					<vector name="origin" x="43" y="100"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="2" width="94" height="92">
+					<vector name="origin" x="42" y="98"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="3" width="94" height="93">
+					<vector name="origin" x="41" y="98"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="4" width="93" height="90">
+					<vector name="origin" x="40" y="96"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="5" width="73" height="82">
+					<vector name="origin" x="36" y="93"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="6" width="69" height="82">
+					<vector name="origin" x="36" y="93"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="7" width="51" height="82">
+					<vector name="origin" x="36" y="93"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="8" width="48" height="82">
+					<vector name="origin" x="36" y="93"/>
+					<int name="delay" value="70"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2002">
+			<imgdir name="info">
+				<string name="skillName" value="Defend 2"/>
+				<string name="skillDesc" value="Defense: #decDamage%, Activation Chance: #prob%."/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="prob" value="30"/>
+				<int name="decDamage" value="60"/>
+				<int name="cooltime" value="3"/>
+				<int name="cost" value="5"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="133" height="133">
+					<vector name="origin" x="68" y="132"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="1" width="130" height="128">
+					<vector name="origin" x="65" y="128"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="2" width="128" height="127">
+					<vector name="origin" x="62" y="127"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="3" width="129" height="128">
+					<vector name="origin" x="62" y="127"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="4" width="128" height="127">
+					<vector name="origin" x="61" y="126"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="5" width="121" height="122">
+					<vector name="origin" x="57" y="125"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="6" width="81" height="113">
+					<vector name="origin" x="41" y="124"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="7" width="68" height="102">
+					<vector name="origin" x="35" y="119"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="8" width="45" height="41">
+					<vector name="origin" x="23" y="82"/>
+					<int name="delay" value="70"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2003">
+			<imgdir name="info">
+				<string name="skillName" value="Power Defense"/>
+				<string name="skillDesc" value="Defense: #decDamage%, Activation Chance: #prob%."/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="prob" value="20"/>
+				<int name="decDamage" value="80"/>
+				<int name="cooltime" value="5"/>
+				<int name="cost" value="10"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="174" height="205">
+					<vector name="origin" x="96" y="173"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="1" width="205" height="202">
+					<vector name="origin" x="109" y="173"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="2" width="168" height="190">
+					<vector name="origin" x="93" y="166"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="3" width="163" height="190">
+					<vector name="origin" x="90" y="166"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="4" width="165" height="160">
+					<vector name="origin" x="89" y="148"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="5" width="124" height="158">
+					<vector name="origin" x="67" y="147"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="6" width="118" height="156">
+					<vector name="origin" x="64" y="146"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="7" width="108" height="146">
+					<vector name="origin" x="59" y="141"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="8" width="30" height="27">
+					<vector name="origin" x="20" y="97"/>
+					<int name="delay" value="70"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2011">
+			<imgdir name="info">
+				<string name="skillName" value="Counter"/>
+				<string name="skillDesc" value="Defense: #decDamage%, Damage Reflected: #reflectDamage%, Activation Chance: #prob%."/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="prob" value="15"/>
+				<int name="decDamage" value="50"/>
+				<int name="cooltime" value="5"/>
+				<int name="reflectDamage" value="50"/>
+				<int name="cost" value="15"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="231" height="221">
+					<vector name="origin" x="116" y="175"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="1" width="208" height="202">
+					<vector name="origin" x="107" y="164"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="2" width="173" height="170">
+					<vector name="origin" x="89" y="148"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="3" width="174" height="174">
+					<vector name="origin" x="88" y="150"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="4" width="178" height="178">
+					<vector name="origin" x="90" y="152"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="5" width="104" height="129">
+					<vector name="origin" x="53" y="132"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="6" width="97" height="124">
+					<vector name="origin" x="49" y="129"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="7" width="48" height="73">
+					<vector name="origin" x="25" y="100"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="8" width="33" height="29">
+					<vector name="origin" x="17" y="78"/>
+					<int name="delay" value="70"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2012">
+			<imgdir name="info">
+				<string name="skillName" value="Cross Counter"/>
+				<string name="skillDesc" value="Defense: #decDamage%, Damage Reflected: #reflectDamage%, Activation Chance: #prob%."/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="prob" value="20"/>
+				<int name="decDamage" value="0"/>
+				<int name="cooltime" value="5"/>
+				<int name="reflectDamage" value="100"/>
+				<int name="cost" value="20"/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="effect">
+				<canvas name="0" width="231" height="221">
+					<vector name="origin" x="116" y="175"/>
+					<int name="delay" value="70"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/defence/2011/effect/0"/>
+				</canvas>
+				<canvas name="1" width="208" height="202">
+					<vector name="origin" x="107" y="164"/>
+					<int name="delay" value="70"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/defence/2011/effect/1"/>
+				</canvas>
+				<canvas name="2" width="173" height="170">
+					<vector name="origin" x="89" y="148"/>
+					<int name="delay" value="70"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/defence/2011/effect/2"/>
+				</canvas>
+				<canvas name="3" width="174" height="174">
+					<vector name="origin" x="88" y="150"/>
+					<int name="delay" value="70"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/defence/2011/effect/3"/>
+				</canvas>
+				<canvas name="4" width="178" height="178">
+					<vector name="origin" x="90" y="152"/>
+					<int name="delay" value="70"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/defence/2011/effect/4"/>
+				</canvas>
+				<canvas name="5" width="104" height="129">
+					<vector name="origin" x="53" y="132"/>
+					<int name="delay" value="70"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/defence/2011/effect/5"/>
+				</canvas>
+				<canvas name="6" width="97" height="124">
+					<vector name="origin" x="49" y="129"/>
+					<int name="delay" value="70"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/defence/2011/effect/6"/>
+				</canvas>
+				<canvas name="7" width="48" height="73">
+					<vector name="origin" x="25" y="100"/>
+					<int name="delay" value="70"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/defence/2011/effect/7"/>
+				</canvas>
+				<canvas name="8" width="33" height="29">
+					<vector name="origin" x="17" y="78"/>
+					<int name="delay" value="70"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/defence/2011/effect/8"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2021">
+			<imgdir name="info">
+				<string name="skillName" value="Area Defense"/>
+				<string name="skillDesc" value="Defense: #decDamage%, Damage Reflected: #reflectDamage%, Activation Chance: #prob%."/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="prob" value="20"/>
+				<int name="decDamage" value="50"/>
+				<int name="cooltime" value="5"/>
+				<int name="cost" value="20"/>
+				<int name="target" value="1"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="122" height="107">
+					<vector name="origin" x="66" y="108"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="1" width="122" height="108">
+					<vector name="origin" x="66" y="109"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="2" width="124" height="108">
+					<vector name="origin" x="67" y="109"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="3" width="122" height="108">
+					<vector name="origin" x="66" y="109"/>
+					<int name="delay" value="70"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/defence/2021/effect/1"/>
+				</canvas>
+				<canvas name="4" width="122" height="107">
+					<vector name="origin" x="66" y="108"/>
+					<int name="delay" value="70"/>
+					<string name="source" value="Skill/MonsterBattleSkill.img/defence/2021/effect/0"/>
+				</canvas>
+				<canvas name="5" width="120" height="105">
+					<vector name="origin" x="65" y="107"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="6" width="42" height="48">
+					<vector name="origin" x="26" y="79"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="7" width="41" height="46">
+					<vector name="origin" x="25" y="78"/>
+					<int name="delay" value="70"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2004">
+			<imgdir name="info">
+				<string name="skillName" value="Evasion"/>
+				<string name="skillDesc" value="Defense: #decDamage%, Activation Chance: #prob%."/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="prob" value="15"/>
+				<int name="decDamage" value="100"/>
+				<int name="cooltime" value="3"/>
+				<int name="cost" value="5"/>
+			</imgdir>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="effect">
+				<canvas name="0" width="259" height="59">
+					<vector name="origin" x="129" y="29"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="1" width="175" height="85">
+					<vector name="origin" x="87" y="42"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="2" width="196" height="95">
+					<vector name="origin" x="98" y="47"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="3" width="187" height="91">
+					<vector name="origin" x="93" y="45"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="4" width="183" height="88">
+					<vector name="origin" x="91" y="44"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="5" width="174" height="90">
+					<vector name="origin" x="87" y="45"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="6" width="154" height="108">
+					<vector name="origin" x="77" y="54"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="7" width="135" height="119">
+					<vector name="origin" x="67" y="59"/>
+					<int name="delay" value="70"/>
+				</canvas>
+				<canvas name="8" width="120" height="124">
+					<vector name="origin" x="60" y="62"/>
+					<int name="delay" value="70"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="battleEffect">
+		<imgdir name="3001">
+			<imgdir name="info">
+				<string name="skillName" value="Normal Attack Damage: +#incNormalDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incNormalDamage" value="10"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3002">
+			<imgdir name="info">
+				<string name="skillName" value="Normal Attack Damage: +#incNormalDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incNormalDamage" value="20"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3003">
+			<imgdir name="info">
+				<string name="skillName" value="Normal Attack Damage: +#incNormalDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incNormalDamage" value="30"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3011">
+			<imgdir name="info">
+				<string name="skillName" value="Final Attack Skill Activation Chance: +#incAttSkillFinalProb%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incAttSkillFinalProb" value="10"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3012">
+			<imgdir name="info">
+				<string name="skillName" value="Final Attack Skill Activation Chance: +#incAttSkillFinalProb%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incAttSkillFinalProb" value="20"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3013">
+			<imgdir name="info">
+				<string name="skillName" value="Final Attack Skill Activation Chance: +#incAttSkillFinalProb%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incAttSkillFinalProb" value="30"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3021">
+			<imgdir name="info">
+				<string name="skillName" value="Final Defense Skill Activation Chance: +#incDefSkillFinalProb%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incDefSkillFinalProb" value="10"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3022">
+			<imgdir name="info">
+				<string name="skillName" value="Final Defense Skill Activation Chance: +#incDefSkillFinalProb%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incDefSkillFinalProb" value="20"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3023">
+			<imgdir name="info">
+				<string name="skillName" value="Final Defense Skill Activation Chance: +#incDefSkillFinalProb%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incDefSkillFinalProb" value="30"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3031">
+			<imgdir name="info">
+				<string name="skillName" value="Damage Dealt to Target: +#incDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incDamage" value="5"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3032">
+			<imgdir name="info">
+				<string name="skillName" value="Damage Dealt to Target: +#incDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incDamage" value="10"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3033">
+			<imgdir name="info">
+				<string name="skillName" value="Damage Dealt to Target: +#incDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="incDamage" value="15"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3041">
+			<imgdir name="info">
+				<string name="skillName" value="Damage Taken: -#decDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="decDamage" value="5"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3042">
+			<imgdir name="info">
+				<string name="skillName" value="Damage Taken: -#decDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="decDamage" value="10"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3043">
+			<imgdir name="info">
+				<string name="skillName" value="Damage Taken: -#decDamage%"/>
+			</imgdir>
+			<imgdir name="common">
+				<int name="decDamage" value="15"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

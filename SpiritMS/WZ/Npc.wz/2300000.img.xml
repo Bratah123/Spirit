@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2300000.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="luti"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="114" height="76">
+			<vector name="origin" x="61" y="77"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="114" height="75">
+			<vector name="origin" x="61" y="76"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="114" height="76">
+			<vector name="origin" x="61" y="77"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="114" height="77">
+			<vector name="origin" x="61" y="78"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="114" height="78">
+			<vector name="origin" x="61" y="79"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="5" width="114" height="79">
+			<vector name="origin" x="61" y="80"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="6" width="114" height="78">
+			<vector name="origin" x="61" y="79"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="7" width="114" height="77">
+			<vector name="origin" x="61" y="78"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<uol name="0" value="../stand/0"/>
+		<uol name="1" value="../stand/1"/>
+		<uol name="3" value="../stand/3"/>
+		<uol name="2" value="../stand/2"/>
+		<uol name="4" value="../stand/4"/>
+		<uol name="5" value="../stand/5"/>
+		<uol name="6" value="../stand/6"/>
+		<uol name="7" value="../stand/7"/>
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+			<string name="2" value="n2"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="condition1">
+		<int name="23696" value="2"/>
+		<imgdir name="stand">
+			<canvas name="0" width="114" height="76">
+				<vector name="origin" x="61" y="77"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/0"/>
+			</canvas>
+			<canvas name="1" width="114" height="75">
+				<vector name="origin" x="61" y="76"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/1"/>
+			</canvas>
+			<canvas name="2" width="114" height="76">
+				<vector name="origin" x="61" y="77"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/2"/>
+			</canvas>
+			<canvas name="3" width="114" height="77">
+				<vector name="origin" x="61" y="78"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/3"/>
+			</canvas>
+			<canvas name="4" width="114" height="78">
+				<vector name="origin" x="61" y="79"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/4"/>
+			</canvas>
+			<canvas name="5" width="114" height="79">
+				<vector name="origin" x="61" y="80"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/5"/>
+			</canvas>
+			<canvas name="6" width="114" height="78">
+				<vector name="origin" x="61" y="79"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/6"/>
+			</canvas>
+			<canvas name="7" width="114" height="77">
+				<vector name="origin" x="61" y="78"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/7"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="say">
+			<uol name="0" value="../stand/0"/>
+			<uol name="1" value="../stand/1"/>
+			<uol name="3" value="../stand/3"/>
+			<uol name="2" value="../stand/2"/>
+			<uol name="4" value="../stand/4"/>
+			<uol name="5" value="../stand/5"/>
+			<uol name="6" value="../stand/6"/>
+			<uol name="7" value="../stand/7"/>
+			<imgdir name="speak">
+				<string name="0" value="n0"/>
+				<string name="1" value="n1"/>
+				<string name="2" value="n2"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="condition2">
+		<int name="23689" value="2"/>
+		<int name="hide" value="1"/>
+		<imgdir name="stand">
+			<canvas name="0" width="114" height="76">
+				<vector name="origin" x="61" y="77"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/0"/>
+			</canvas>
+			<canvas name="1" width="114" height="75">
+				<vector name="origin" x="61" y="76"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/1"/>
+			</canvas>
+			<canvas name="2" width="114" height="76">
+				<vector name="origin" x="61" y="77"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/2"/>
+			</canvas>
+			<canvas name="3" width="114" height="77">
+				<vector name="origin" x="61" y="78"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/3"/>
+			</canvas>
+			<canvas name="4" width="114" height="78">
+				<vector name="origin" x="61" y="79"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/4"/>
+			</canvas>
+			<canvas name="5" width="114" height="79">
+				<vector name="origin" x="61" y="80"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/5"/>
+			</canvas>
+			<canvas name="6" width="114" height="78">
+				<vector name="origin" x="61" y="79"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/6"/>
+			</canvas>
+			<canvas name="7" width="114" height="77">
+				<vector name="origin" x="61" y="78"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2300000.img/stand/7"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="say">
+			<uol name="0" value="../stand/0"/>
+			<uol name="1" value="../stand/1"/>
+			<uol name="3" value="../stand/3"/>
+			<uol name="2" value="../stand/2"/>
+			<uol name="4" value="../stand/4"/>
+			<uol name="5" value="../stand/5"/>
+			<uol name="6" value="../stand/6"/>
+			<uol name="7" value="../stand/7"/>
+			<imgdir name="speak">
+				<string name="0" value="n0"/>
+				<string name="1" value="n1"/>
+				<string name="2" value="n2"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

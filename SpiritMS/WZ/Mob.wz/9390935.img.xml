@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9390935.img">
+	<imgdir name="info">
+		<int name="level" value="5"/>
+		<int name="bodyAttack" value="0"/>
+		<int name="maxHP" value="20"/>
+		<int name="maxMP" value="20"/>
+		<int name="speed" value="-99"/>
+		<int name="PADamage" value="0"/>
+		<int name="PDDamage" value="0"/>
+		<int name="PDRate" value="10"/>
+		<int name="MADamage" value="0"/>
+		<int name="MDDamage" value="0"/>
+		<int name="MDRate" value="10"/>
+		<int name="acc" value="10"/>
+		<int name="eva" value="10"/>
+		<int name="pushed" value="11000"/>
+		<float name="fs" value="10.0"/>
+		<int name="exp" value="0"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="6"/>
+		<int name="noFlip" value="1"/>
+		<int name="notAttack" value="1"/>
+		<int name="hideName" value="1"/>
+		<int name="hideHP" value="1"/>
+		<int name="onlyNormalAttack" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="195" height="119">
+			<vector name="origin" x="88" y="116"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<vector name="lt" x="-85" y="-134"/>
+			<vector name="rb" x="64" y="-14"/>
+			<vector name="head" x="-4" y="-118"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="hit1">
+		<canvas name="0" width="195" height="119">
+			<vector name="origin" x="88" y="116"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-85" y="-134"/>
+			<vector name="rb" x="64" y="-14"/>
+			<vector name="head" x="-4" y="-118"/>
+		</canvas>
+		<canvas name="1" width="257" height="185">
+			<vector name="origin" x="118" y="182"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-85" y="-134"/>
+			<vector name="rb" x="63" y="-15"/>
+			<vector name="head" x="-4" y="-119"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="die1">
+		<canvas name="0" width="279" height="170">
+			<vector name="origin" x="128" y="162"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="316" height="182">
+			<vector name="origin" x="151" y="167"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="340" height="173">
+			<vector name="origin" x="162" y="170"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="198" height="119">
+			<vector name="origin" x="91" y="116"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="195" height="119">
+			<vector name="origin" x="88" y="116"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+</imgdir>

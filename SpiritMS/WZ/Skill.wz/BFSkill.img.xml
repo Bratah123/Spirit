@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="BFSkill.img">
+	<imgdir name="0">
+		<string name="name" value="Cry"/>
+		<int name="mobSkillID" value="126"/>
+		<int name="userCount" value="5"/>
+		<int name="owner" value="0"/>
+		<string name="effect" value="Effect/BasicEff/ItemSkill/Success"/>
+		<string name="desc" value="You cry at the Wolf. The nearby wolves slow down as if they're in shock."/>
+		<int name="level" value="22"/>
+	</imgdir>
+	<imgdir name="1">
+		<string name="name" value="Surprise Attack"/>
+		<string name="desc" value="You attack the Wolf. He should be momentarily stunned. "/>
+		<int name="mobSkillID" value="123"/>
+		<int name="level" value="14"/>
+		<int name="userCount" value="2"/>
+		<int name="owner" value="0"/>
+		<string name="effect" value="Effect/BasicEff/ItemSkill/Success"/>
+	</imgdir>
+	<imgdir name="2">
+		<string name="name" value="Great Confusion"/>
+		<int name="mobSkillID" value="132"/>
+		<int name="userCount" value="6"/>
+		<int name="owner" value="1"/>
+		<string name="effect" value="Effect/BasicEff/ItemSkill/Success"/>
+		<string name="desc" value="All of the sheep are in a state of confusion."/>
+		<int name="level" value="15"/>
+		<int name="allMap" value="1"/>
+	</imgdir>
+	<imgdir name="3">
+		<string name="name" value="Sheep's Bell"/>
+		<string name="desc" value="The Wolves have slowed down."/>
+		<int name="mobSkillID" value="126"/>
+		<int name="allMap" value="1"/>
+		<int name="owner" value="0"/>
+		<int name="level" value="23"/>
+	</imgdir>
+	<imgdir name="4">
+		<string name="name" value="Wolf's Bell"/>
+		<string name="desc" value="The Sheep are momentarily stunned."/>
+		<int name="mobSkillID" value="123"/>
+		<int name="allMap" value="1"/>
+		<int name="owner" value="1"/>
+		<int name="level" value="51"/>
+	</imgdir>
+	<imgdir name="5">
+		<string name="name" value="Wolf's Threat"/>
+		<int name="mobSkillID" value="122"/>
+		<int name="allMap" value="1"/>
+		<int name="owner" value="1"/>
+		<int name="userCount" value="6"/>
+		<string name="effect" value="Effect/BasicEff/ItemSkill/Success"/>
+		<string name="desc" value="All of the sheep are momentarily weakened."/>
+		<int name="level" value="16"/>
+	</imgdir>
+	<imgdir name="6">
+		<string name="name" value="Scream 2"/>
+		<string name="desc" value="You let out a great cry at the wolf. All wolves are shocked and have decreased movement speed."/>
+		<int name="mobSkillID" value="126"/>
+		<int name="level" value="21"/>
+		<int name="userCount" value="5"/>
+		<int name="owner" value="0"/>
+		<string name="effect" value="Effect/BasicEff/ItemSkill/Success"/>
+		<int name="allMap" value="1"/>
+	</imgdir>
+</imgdir>

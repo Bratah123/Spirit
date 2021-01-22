@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="commerce.img">
+	<imgdir name="local">
+		<imgdir name="0">
+			<string name="title" value="Dolce"/>
+			<int name="time sec" value="180"/>
+			<int name="energy" value="10"/>
+			<imgdir name="mob">
+				<int name="0" value="9390823"/>
+				<int name="1" value="9390824"/>
+				<int name="2" value="9390825"/>
+			</imgdir>
+			<imgdir name="time adv">
+				<int name="50" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1">
+			<string name="title" value="Luna"/>
+			<int name="time sec" value="300"/>
+			<int name="energy" value="12"/>
+			<imgdir name="mob">
+				<int name="0" value="9390823"/>
+				<int name="1" value="9390824"/>
+				<int name="2" value="9390825"/>
+				<int name="3" value="9390826"/>
+			</imgdir>
+			<imgdir name="active">
+				<string name="tooltip" value="Take 5 trade voyages to Dolce"/>
+				<int name="coin" value="0"/>
+				<imgdir name="sailing">
+					<int name="0" value="5"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="time adv">
+				<int name="40" value="1"/>
+				<int name="50" value="2"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2">
+			<string name="title" value="Rosa"/>
+			<int name="time sec" value="420"/>
+			<int name="energy" value="15"/>
+			<imgdir name="mob">
+				<int name="0" value="9390823"/>
+				<int name="1" value="9390824"/>
+				<int name="2" value="9390825"/>
+				<int name="3" value="9390826"/>
+				<int name="4" value="9390857"/>
+			</imgdir>
+			<imgdir name="time adv">
+				<int name="40" value="1"/>
+				<int name="50" value="2"/>
+			</imgdir>
+			<imgdir name="active">
+				<string name="tooltip" value="Take 5 trade voyages to Luna"/>
+				<int name="coin" value="10"/>
+				<imgdir name="sailing">
+					<int name="1" value="5"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3">
+			<string name="title" value="Herb Town"/>
+			<int name="time sec" value="1000"/>
+			<int name="energy" value="20"/>
+			<imgdir name="mob">
+				<int name="0" value="9390823"/>
+				<int name="1" value="9390824"/>
+				<int name="2" value="9390825"/>
+				<int name="3" value="9390826"/>
+				<int name="4" value="9390857"/>
+				<int name="5" value="9390859"/>
+			</imgdir>
+			<imgdir name="time adv">
+				<int name="30" value="1"/>
+				<int name="40" value="2"/>
+				<int name="50" value="3"/>
+			</imgdir>
+			<imgdir name="item adv">
+				<int name="3100006" value="20"/>
+				<int name="3100007" value="20"/>
+			</imgdir>
+			<imgdir name="active">
+				<string name="tooltip" value="Take 5 trade voyages to Rosa"/>
+				<int name="coin" value="20"/>
+				<imgdir name="sailing">
+					<int name="2" value="5"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="4">
+			<string name="title" value="Rien Harbor"/>
+			<int name="time sec" value="1300"/>
+			<int name="energy" value="25"/>
+			<imgdir name="mob">
+				<int name="0" value="9390823"/>
+				<int name="1" value="9390824"/>
+				<int name="2" value="9390825"/>
+				<int name="3" value="9390826"/>
+				<int name="4" value="9390857"/>
+				<int name="5" value="9390859"/>
+			</imgdir>
+			<imgdir name="time adv">
+				<int name="30" value="1"/>
+				<int name="40" value="2"/>
+				<int name="50" value="3"/>
+			</imgdir>
+			<imgdir name="active">
+				<string name="tooltip" value="Take 5 trade voyages to Herb Town"/>
+				<int name="coin" value="50"/>
+				<imgdir name="sailing">
+					<int name="3" value="5"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="5">
+			<string name="title" value="Lith Harbor"/>
+			<int name="time sec" value="1900"/>
+			<int name="energy" value="30"/>
+			<imgdir name="mob">
+				<int name="0" value="9390823"/>
+				<int name="1" value="9390824"/>
+				<int name="2" value="9390825"/>
+				<int name="3" value="9390826"/>
+				<int name="4" value="9390857"/>
+				<int name="5" value="9390859"/>
+			</imgdir>
+			<imgdir name="time adv">
+				<int name="30" value="1"/>
+				<int name="40" value="2"/>
+				<int name="50" value="3"/>
+			</imgdir>
+			<imgdir name="item adv">
+				<int name="3100008" value="20"/>
+			</imgdir>
+			<imgdir name="active">
+				<string name="tooltip" value="Take 5 trade voyages to Rien Harbor"/>
+				<int name="coin" value="80"/>
+				<imgdir name="sailing">
+					<int name="4" value="5"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="100">
+			<string name="title" value="Goldway"/>
+			<int name="time sec" value="420"/>
+			<int name="energy" value="0"/>
+			<imgdir name="mob">
+				<int name="0" value="9390823"/>
+				<int name="1" value="9390824"/>
+				<int name="2" value="9390825"/>
+				<int name="3" value="9390826"/>
+				<int name="4" value="9390857"/>
+				<int name="5" value="9390859"/>
+			</imgdir>
+			<imgdir name="time adv">
+			</imgdir>
+			<imgdir name="item adv">
+			</imgdir>
+			<imgdir name="active">
+			</imgdir>
+		</imgdir>
+		<imgdir name="101">
+			<string name="title" value="Huntersway"/>
+			<int name="time sec" value="420"/>
+			<int name="energy" value="0"/>
+			<imgdir name="mob">
+				<int name="0" value="9390823"/>
+				<int name="1" value="9390824"/>
+				<int name="2" value="9390825"/>
+				<int name="3" value="9390826"/>
+				<int name="4" value="9390857"/>
+				<int name="5" value="9390859"/>
+			</imgdir>
+			<imgdir name="time adv">
+			</imgdir>
+			<imgdir name="item adv">
+			</imgdir>
+			<imgdir name="active">
+			</imgdir>
+		</imgdir>
+		<imgdir name="102">
+			<string name="title" value="Silkway"/>
+			<int name="time sec" value="420"/>
+			<int name="energy" value="0"/>
+			<imgdir name="mob">
+				<int name="0" value="9390823"/>
+				<int name="1" value="9390824"/>
+				<int name="2" value="9390825"/>
+				<int name="3" value="9390826"/>
+				<int name="4" value="9390857"/>
+				<int name="5" value="9390859"/>
+			</imgdir>
+			<imgdir name="time adv">
+			</imgdir>
+			<imgdir name="item adv">
+			</imgdir>
+			<imgdir name="active">
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="vessel">
+		<imgdir name="0">
+			<string name="name" value="Cargo Skiff"/>
+			<int name="energy" value="100"/>
+			<int name="pad" value="1000000"/>
+			<imgdir name="skill">
+				<string name="80011001" value="able"/>
+				<string name="80011002" value="disable"/>
+				<string name="80011003" value="disable"/>
+			</imgdir>
+			<imgdir name="level">
+				<imgdir name="1">
+					<int name="cargo" value="2"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="cargo" value="2"/>
+					<int name="sailing exp" value="600"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="900"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="1350"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="2025"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="3038"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="4556"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="6834"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="8885"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="11550"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1">
+			<string name="name" value="Sailboat"/>
+			<int name="pad" value="1500000"/>
+			<int name="energy" value="100"/>
+			<int name="coin" value="200"/>
+			<imgdir name="skill">
+				<string name="80011001" value="able"/>
+				<string name="80011002" value="able"/>
+				<string name="80011003" value="disable"/>
+			</imgdir>
+			<imgdir name="level">
+				<imgdir name="1">
+					<int name="cargo" value="4"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="12000"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="13200"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="14520"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="15972"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="17569"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="19326"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="21259"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="23385"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="cargo" value="4"/>
+					<int name="sailing exp" value="25723"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2">
+			<string name="name" value="Dreadnought"/>
+			<int name="energy" value="120"/>
+			<int name="coin" value="500"/>
+			<int name="pad" value="2000000"/>
+			<imgdir name="skill">
+				<string name="80011001" value="able"/>
+				<string name="80011002" value="able"/>
+				<string name="80011003" value="able"/>
+			</imgdir>
+			<imgdir name="level">
+				<imgdir name="1">
+					<int name="cargo" value="6"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="cargo" value="6"/>
+					<int name="sailing exp" value="26000"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="cargo" value="6"/>
+					<int name="sailing exp" value="28600"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="cargo" value="6"/>
+					<int name="sailing exp" value="31460"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="cargo" value="6"/>
+					<int name="sailing exp" value="34606"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="cargo" value="6"/>
+					<int name="sailing exp" value="38067"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="cargo" value="6"/>
+					<int name="sailing exp" value="41873"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="cargo" value="6"/>
+					<int name="sailing exp" value="46061"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="cargo" value="6"/>
+					<int name="sailing exp" value="50667"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="cargo" value="6"/>
+					<int name="sailing exp" value="55733"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

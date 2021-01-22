@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9000428.img">
+	<imgdir name="info">
+		<int name="forceMove" value="1"/>
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="ayame_sc_KR"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<int name="delay" value="1000"/>
+			<string name="source" value="Npc/9000425.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9000425.img/stand/1"/>
+		</canvas>
+		<canvas name="2" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9000425.img/stand/2"/>
+		</canvas>
+		<canvas name="3" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9000425.img/stand/1"/>
+		</canvas>
+		<uol name="4" value="0"/>
+		<uol name="5" value="1"/>
+		<uol name="6" value="2"/>
+		<uol name="7" value="3"/>
+	</imgdir>
+	<imgdir name="action">
+		<canvas name="0" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<string name="delay" value="1000"/>
+			<string name="source" value="Npc/9000425.img/action/0"/>
+		</canvas>
+		<canvas name="1" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<string name="delay" value="210"/>
+			<string name="source" value="Npc/9000425.img/stand/0"/>
+		</canvas>
+		<canvas name="2" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<string name="delay" value="180"/>
+			<string name="source" value="Npc/9000425.img/action/2"/>
+		</canvas>
+		<canvas name="3" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<string name="delay" value="180"/>
+			<string name="source" value="Npc/9000425.img/action/3"/>
+		</canvas>
+		<canvas name="4" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<string name="delay" value="180"/>
+			<string name="source" value="Npc/9000425.img/action/4"/>
+		</canvas>
+		<canvas name="5" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<string name="delay" value="180"/>
+			<string name="source" value="Npc/9000425.img/action/5"/>
+		</canvas>
+		<canvas name="6" width="66" height="87">
+			<vector name="origin" x="30" y="87"/>
+			<string name="delay" value="180"/>
+			<string name="source" value="Npc/9000425.img/action/6"/>
+		</canvas>
+		<canvas name="7" width="67" height="87">
+			<vector name="origin" x="31" y="87"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9000425.img/action/7"/>
+		</canvas>
+		<canvas name="8" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9000425.img/action/8"/>
+		</canvas>
+		<canvas name="9" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9000425.img/action/9"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<int name="delay" value="1000"/>
+			<string name="source" value="Npc/9000425.img/say/0"/>
+		</canvas>
+		<canvas name="1" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Npc/9000425.img/say/1"/>
+		</canvas>
+		<canvas name="2" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<int name="delay" value="200"/>
+			<string name="source" value="Npc/9000425.img/say/2"/>
+		</canvas>
+		<canvas name="3" width="65" height="87">
+			<vector name="origin" x="29" y="87"/>
+			<int name="delay" value="200"/>
+			<string name="source" value="Npc/9000425.img/say/3"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="66" height="87">
+			<vector name="origin" x="30" y="87"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9000426.img/move/0"/>
+		</canvas>
+		<canvas name="1" width="65" height="88">
+			<vector name="origin" x="29" y="88"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9000426.img/move/1"/>
+		</canvas>
+		<canvas name="2" width="65" height="88">
+			<vector name="origin" x="29" y="88"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9000426.img/move/2"/>
+		</canvas>
+		<canvas name="3" width="64" height="87">
+			<vector name="origin" x="28" y="87"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9000426.img/move/3"/>
+		</canvas>
+		<canvas name="4" width="65" height="88">
+			<vector name="origin" x="29" y="88"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9000426.img/move/4"/>
+		</canvas>
+		<canvas name="5" width="65" height="88">
+			<vector name="origin" x="29" y="88"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9000426.img/move/5"/>
+		</canvas>
+	</imgdir>
+</imgdir>

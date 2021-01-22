@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="ContentsShortcut.img">
+	<imgdir name="BossArena">
+		<imgdir name="questIDs">
+			<string name="0" value="25959"/>
+			<string name="1" value="25964"/>
+		</imgdir>
+		<string name="toolTip" value="Boss Arena"/>
+		<string name="resourcePath" value="bossArena"/>
+	</imgdir>
+	<imgdir name="CrossHunter">
+		<string name="toolTip" value="Silent Crusade"/>
+		<string name="resourcePath" value="crossHunter"/>
+		<int name="openUI_idx" value="73"/>
+	</imgdir>
+	<imgdir name="ItemPot">
+		<string name="toolTip" value="Item Pot"/>
+		<int name="openUI_idx" value="51"/>
+	</imgdir>
+	<imgdir name="Bits">
+		<string name="toolTip" value="Bits"/>
+		<int name="openUI_idx" value="125"/>
+	</imgdir>
+	<imgdir name="maplechat">
+		<string name="toolTip" value="Maple Chat"/>
+		<int name="openUI_idx" value="34"/>
+	</imgdir>
+</imgdir>

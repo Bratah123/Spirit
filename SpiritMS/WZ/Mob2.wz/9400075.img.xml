@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9400075.img">
+	<imgdir name="info">
+		<int name="boss" value="1"/>
+		<int name="level" value="160"/>
+		<string name="mobType" value="7N"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="1"/>
+		<string name="elemAttr" value=""/>
+		<int name="skeleton" value="1"/>
+		<int name="ignoreFieldOut" value="1"/>
+		<int name="ignoreMoveImpact" value="1"/>
+		<int name="showNotRemoteDam" value="1"/>
+		<int name="useReaction" value="1"/>
+		<imgdir name="option_skeleton">
+			<string name="luaEventListener" value="EventListener_Tengu"/>
+			<imgdir name="noMixAnimation">
+				<imgdir name="80_fly">
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<int name="invincible" value="1"/>
+		<int name="firstAttack" value="1"/>
+		<int name="bodyAttack" value="1"/>
+		<int name="maxHP" value="2100000000"/>
+		<int name="maxMP" value="1500000"/>
+		<int name="PADamage" value="10000"/>
+		<int name="MADamage" value="10000"/>
+		<int name="PDRate" value="10"/>
+		<int name="MDRate" value="10"/>
+		<int name="acc" value="3000"/>
+		<int name="eva" value="144"/>
+		<int name="pushed" value="1000000000"/>
+		<float name="fs" value="10.0"/>
+		<int name="removeAfter" value="7"/>
+		<int name="noFlip" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<string name="aniName" value="80_fly"/>
+	</imgdir>
+	<imgdir name="die1">
+		<string name="aniName" value="00_idle"/>
+	</imgdir>
+	<imgdir name="HitParts">
+		<imgdir name="bbox">
+			<imgdir name="0">
+				<imgdir name="stat">
+					<string name="info" value="부위의 속성값"/>
+					<int name="durability" value="100"/>
+					<int name="hardness" value="40"/>
+				</imgdir>
+				<imgdir name="hitEvent">
+					<string name="info" value="해당 부위 타격시 처리해야할 내용들"/>
+					<string name="replaceHitEffect" value="Mob/9400080.img/HitEffect/0"/>
+					<string name="replaceHitSound" value="Sound/SoundEff.img/urus/midHit"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="HitEffect">
+		<imgdir name="0">
+			<canvas name="0" width="83" height="109">
+				<vector name="origin" x="38" y="58"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="90"/>
+			</canvas>
+			<canvas name="1" width="238" height="214">
+				<vector name="origin" x="122" y="116"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="90"/>
+			</canvas>
+			<canvas name="2" width="243" height="233">
+				<vector name="origin" x="126" y="127"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="90"/>
+			</canvas>
+			<canvas name="3" width="237" height="229">
+				<vector name="origin" x="125" y="125"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="90"/>
+			</canvas>
+			<canvas name="4" width="214" height="210">
+				<vector name="origin" x="120" y="115"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="90"/>
+			</canvas>
+			<canvas name="5" width="205" height="211">
+				<vector name="origin" x="114" y="113"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="90"/>
+			</canvas>
+			<canvas name="6" width="21" height="27">
+				<vector name="origin" x="12" y="13"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="90"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+	<string name="9400075.atlas" value="\ntengou.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\neffect/drum_2\n  rotate: false\n  xy: 667, 312\n  size: 204, 176\n  orig: 204, 176\n  offset: 0, 0\n  index: -1\neffect/ef_eye_light00\n  rotate: false\n  xy: 667, 503\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\neffect/eff_aura03\n  rotate: false\n  xy: 733, 490\n  size: 289, 133\n  orig: 289, 133\n  offset: 0, 0\n  index: -1\neffect/eff_feather_blur_0\n  rotate: true\n  xy: 734, 625\n  size: 15, 284\n  orig: 15, 284\n  offset: 0, 0\n  index: -1\neffect/eff_grab_0\n  rotate: false\n  xy: 873, 288\n  size: 142, 200\n  orig: 142, 200\n  offset: 0, 0\n  index: -1\neffect/eff_rock/eff_rock00\n  rotate: false\n  xy: 667, 555\n  size: 64, 85\n  orig: 64, 85\n  offset: 0, 0\n  index: -1\neffect/eff_rock/eff_rock04\n  rotate: false\n  xy: 903, 261\n  size: 34, 25\n  orig: 34, 25\n  offset: 0, 0\n  index: -1\neffect/eff_rock/eff_rock05\n  rotate: true\n  xy: 870, 260\n  size: 26, 31\n  orig: 26, 31\n  offset: 0, 0\n  index: -1\neffect/eff_rock/eff_rock06\n  rotate: true\n  xy: 939, 268\n  size: 18, 16\n  orig: 18, 16\n  offset: 0, 0\n  index: -1\neffect/eff_rock/eff_rock07\n  rotate: true\n  xy: 992, 267\n  size: 19, 30\n  orig: 19, 30\n  offset: 0, 0\n  index: -1\neffect/eff_wind_ready1\n  rotate: false\n  xy: 734, 2\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\neye_l\n  rotate: true\n  xy: 992, 230\n  size: 35, 28\n  orig: 35, 28\n  offset: 0, 0\n  index: -1\neye_r\n  rotate: true\n  xy: 992, 193\n  size: 35, 28\n  orig: 35, 28\n  offset: 0, 0\n  index: -1\nface_5\n  rotate: true\n  xy: 2, 8\n  size: 292, 398\n  orig: 292, 398\n  offset: 0, 0\n  index: -1\nfoot_3\n  rotate: false\n  xy: 734, 260\n  size: 134, 50\n  orig: 134, 50\n  offset: 0, 0\n  index: -1\ngagose\n  rotate: false\n  xy: 364, 305\n  size: 301, 335\n  orig: 301, 335\n  offset: 0, 0\n  index: -1\nhorn_0\n  rotate: false\n  xy: 402, 3\n  size: 330, 300\n  orig: 330, 300\n  offset: 0, 0\n  index: -1\nn_wing_1\n  rotate: false\n  xy: 364, 642\n  size: 656, 380\n  orig: 656, 380\n  offset: 0, 0\n  index: -1\nn_wing_3\n  rotate: false\n  xy: 2, 302\n  size: 360, 720\n  orig: 360, 720\n  offset: 0, 0\n  index: -1\n\ntengou2.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\neffect/drum_0\n  rotate: true\n  xy: 444, 23\n  size: 91, 39\n  orig: 91, 39\n  offset: 0, 0\n  index: -1\neffect/drum_3\n  rotate: false\n  xy: 674, 2\n  size: 190, 176\n  orig: 190, 176\n  offset: 0, 0\n  index: -1\neffect/eff_aura02\n  rotate: false\n  xy: 674, 180\n  size: 345, 428\n  orig: 345, 428\n  offset: 0, 0\n  index: -1\neffect/eff_ground_shock0_0\n  rotate: false\n  xy: 2, 794\n  size: 670, 224\n  orig: 670, 224\n  offset: 0, 0\n  index: -1\neffect/eff_ground_shock0_1\n  rotate: false\n  xy: 2, 568\n  size: 670, 224\n  orig: 670, 224\n  offset: 0, 0\n  index: -1\neffect/eff_ground_shock0_2\n  rotate: false\n  xy: 2, 342\n  size: 670, 224\n  orig: 670, 224\n  offset: 0, 0\n  index: -1\neffect/eff_ground_shock0_3\n  rotate: false\n  xy: 2, 116\n  size: 670, 224\n  orig: 670, 224\n  offset: 0, 0\n  index: -1\neffect/fly_wind_2\n  rotate: false\n  xy: 866, 28\n  size: 150, 150\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nface_6\n  rotate: false\n  xy: 674, 610\n  size: 346, 408\n  orig: 346, 408\n  offset: 0, 0\n  index: -1\nfoot_0\n  rotate: true\n  xy: 2, 10\n  size: 104, 120\n  orig: 104, 120\n  offset: 0, 0\n  index: -1\nfoot_1\n  rotate: true\n  xy: 485, 24\n  size: 90, 88\n  orig: 90, 88\n  offset: 0, 0\n  index: -1\nfoot_2\n  rotate: false\n  xy: 124, 10\n  size: 90, 104\n  orig: 90, 104\n  offset: 0, 0\n  index: -1\nfoot_5\n  rotate: false\n  xy: 575, 26\n  size: 90, 88\n  orig: 90, 88\n  offset: 0, 0\n  index: -1\nleg_l_2a\n  rotate: true\n  xy: 312, 22\n  size: 92, 130\n  orig: 92, 130\n  offset: 0, 0\n  index: -1\nleg_r_1d\n  rotate: true\n  xy: 216, 18\n  size: 96, 94\n  orig: 96, 94\n  offset: 0, 0\n  index: -1\n\ntengou3.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nball_0\n  rotate: false\n  xy: 956, 4\n  size: 42, 42\n  orig: 42, 42\n  offset: 0, 0\n  index: -1\nball_1\n  rotate: false\n  xy: 584, 475\n  size: 42, 42\n  orig: 42, 42\n  offset: 0, 0\n  index: -1\neffect/ef_ora_0\n  rotate: false\n  xy: 880, 48\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\neffect/eff_dust_0\n  rotate: true\n  xy: 886, 820\n  size: 199, 121\n  orig: 199, 121\n  offset: 0, 0\n  index: -1\neffect/eff_ground_shock0_4\n  rotate: true\n  xy: 654, 25\n  size: 670, 224\n  orig: 670, 224\n  offset: 0, 0\n  index: -1\neffect/eff_rock/eff_rock01\n  rotate: false\n  xy: 584, 519\n  size: 35, 84\n  orig: 35, 84\n  offset: 0, 0\n  index: -1\neffect/eff_rock/eff_rock02\n  rotate: false\n  xy: 584, 519\n  size: 35, 84\n  orig: 35, 84\n  offset: 0, 0\n  index: -1\neffect/shout_stock_1\n  rotate: false\n  xy: 584, 697\n  size: 300, 322\n  orig: 300, 322\n  offset: 0, 0\n  index: -1\nex_1_l\n  rotate: true\n  xy: 2, 5\n  size: 150, 228\n  orig: 150, 228\n  offset: 0, 0\n  index: -1\nex_1_r\n  rotate: true\n  xy: 232, 5\n  size: 150, 228\n  orig: 150, 228\n  offset: 0, 0\n  index: -1\nface_1_b\n  rotate: false\n  xy: 462, 5\n  size: 150, 150\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nfoot_1b\n  rotate: true\n  xy: 880, 2\n  size: 44, 74\n  orig: 44, 74\n  offset: 0, 0\n  index: -1\nfoot_4\n  rotate: true\n  xy: 584, 605\n  size: 90, 50\n  orig: 90, 50\n  offset: 0, 0\n  index: -1\nleg_l_0\n  rotate: false\n  xy: 880, 514\n  size: 120, 170\n  orig: 120, 170\n  offset: 0, 0\n  index: -1\nleg_l_1\n  rotate: false\n  xy: 880, 342\n  size: 120, 170\n  orig: 120, 170\n  offset: 0, 0\n  index: -1\nleg_r_1\n  rotate: false\n  xy: 880, 170\n  size: 120, 170\n  orig: 120, 170\n  offset: 0, 0\n  index: -1\nleg_r_1a\n  rotate: false\n  xy: 614, 109\n  size: 38, 46\n  orig: 38, 46\n  offset: 0, 0\n  index: -1\nleg_r_2a\n  rotate: false\n  xy: 886, 686\n  size: 128, 132\n  orig: 128, 132\n  offset: 0, 0\n  index: -1\nn_wing_0\n  rotate: false\n  xy: 2, 459\n  size: 580, 560\n  orig: 580, 560\n  offset: 0, 0\n  index: -1\nn_wing_2\n  rotate: false\n  xy: 2, 157\n  size: 650, 300\n  orig: 650, 300\n  offset: 0, 0\n  index: -1\n\ntengou4.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbody_0\n  rotate: true\n  xy: 331, 19\n  size: 220, 320\n  orig: 220, 320\n  offset: 0, 0\n  index: -1\nbody_1\n  rotate: true\n  xy: 653, 2\n  size: 250, 280\n  orig: 250, 280\n  offset: 0, 0\n  index: -1\neffect/beak_attack_eff1\n  rotate: false\n  xy: 2, 430\n  size: 187, 592\n  orig: 187, 592\n  offset: 0, 0\n  index: -1\neffect/beak_attack_eff2\n  rotate: false\n  xy: 191, 430\n  size: 187, 592\n  orig: 187, 592\n  offset: 0, 0\n  index: -1\neffect/beak_attack_eff3\n  rotate: false\n  xy: 380, 430\n  size: 187, 592\n  orig: 187, 592\n  offset: 0, 0\n  index: -1\neffect/beak_attack_eff4\n  rotate: false\n  xy: 569, 430\n  size: 187, 592\n  orig: 187, 592\n  offset: 0, 0\n  index: -1\neffect/beak_attack_eff5\n  rotate: true\n  xy: 2, 241\n  size: 187, 592\n  orig: 187, 592\n  offset: 0, 0\n  index: -1\neffect/eff_aura01\n  rotate: false\n  xy: 758, 698\n  size: 256, 324\n  orig: 256, 324\n  offset: 0, 0\n  index: -1\neffect/eff_rock/eff_rock03\n  rotate: false\n  xy: 948, 294\n  size: 40, 69\n  orig: 40, 69\n  offset: 0, 0\n  index: -1\neffect/shout_1\n  rotate: false\n  xy: 758, 434\n  size: 262, 262\n  orig: 262, 262\n  offset: 0, 0\n  index: -1\neffect/tengu_blur_0\n  rotate: false\n  xy: 2, 21\n  size: 327, 218\n  orig: 327, 218\n  offset: 0, 0\n  index: -1\nex_0\n  rotate: true\n  xy: 596, 254\n  size: 174, 228\n  orig: 174, 228\n  offset: 0, 0\n  index: -1\nfoot_2b\n  rotate: false\n  xy: 948, 365\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nleg_r_3\n  rotate: false\n  xy: 826, 262\n  size: 120, 170\n  orig: 120, 170\n  offset: 0, 0\n  index: -1\n\ntengou5.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\neffect/drum_1\n  rotate: false\n  xy: 284, 718\n  size: 300, 300\n  orig: 300, 300\n  offset: 0, 0\n  index: -1\neffect/ef_ora_1\n  rotate: false\n  xy: 2, 35\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\neffect/ef_ora_2\n  rotate: false\n  xy: 124, 35\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\neffect/ef_ora_3\n  rotate: false\n  xy: 886, 338\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\neffect/ef_ora_4\n  rotate: false\n  xy: 886, 216\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\neffect/ef_ora_5\n  rotate: false\n  xy: 888, 898\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\neffect/ef_ora_6\n  rotate: false\n  xy: 888, 776\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\neffect/ef_ora_7\n  rotate: false\n  xy: 246, 2\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\neffect/ef_ora_8\n  rotate: false\n  xy: 368, 2\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\neffect/fly_wind_0\n  rotate: false\n  xy: 604, 12\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\neffect/shout_0\n  rotate: false\n  xy: 312, 416\n  size: 300, 300\n  orig: 300, 300\n  offset: 0, 0\n  index: -1\neffect/shout_2\n  rotate: false\n  xy: 2, 389\n  size: 308, 307\n  orig: 308, 307\n  offset: 0, 0\n  index: -1\neffect/shout_stock_0\n  rotate: false\n  xy: 806, 12\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nface_0\n  rotate: false\n  xy: 614, 496\n  size: 220, 220\n  orig: 220, 220\n  offset: 0, 0\n  index: -1\nface_2\n  rotate: false\n  xy: 2, 157\n  size: 230, 230\n  orig: 230, 230\n  offset: 0, 0\n  index: -1\nhead_0\n  rotate: false\n  xy: 312, 124\n  size: 290, 290\n  orig: 290, 290\n  offset: 0, 0\n  index: -1\nhead_1\n  rotate: false\n  xy: 586, 718\n  size: 300, 300\n  orig: 300, 300\n  offset: 0, 0\n  index: -1\nhorn_1\n  rotate: false\n  xy: 2, 698\n  size: 280, 320\n  orig: 280, 320\n  offset: 0, 0\n  index: -1\ntail_0\n  rotate: true\n  xy: 604, 214\n  size: 200, 280\n  orig: 200, 280\n  offset: 0, 0\n  index: -1\ntail_1\n  rotate: false\n  xy: 836, 460\n  size: 164, 256\n  orig: 164, 256\n  offset: 0, 0\n  index: -1\n\ntengou6.png\nsize: 512,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\neffect/ef_ora_9\n  rotate: false\n  xy: 386, 102\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\nface_4\n  rotate: false\n  xy: 2, 2\n  size: 220, 220\n  orig: 220, 220\n  offset: 0, 0\n  index: -1\nleg_r_0\n  rotate: true\n  xy: 224, 2\n  size: 220, 160\n  orig: 220, 160\n  offset: 0, 0\n  index: -1\n"/>
+	<sound name="9400075"/>
+	<canvas name="tengou6.png" width="512" height="256">
+		<vector name="origin" x="256" y="128"/>
+		<int name="z" value="0"/>
+	</canvas>
+	<canvas name="tengou5.png" width="1024" height="1024">
+		<vector name="origin" x="512" y="512"/>
+		<int name="z" value="0"/>
+	</canvas>
+	<canvas name="tengou3.png" width="1024" height="1024">
+		<vector name="origin" x="512" y="512"/>
+		<int name="z" value="0"/>
+	</canvas>
+	<canvas name="tengou4.png" width="1024" height="1024">
+		<vector name="origin" x="512" y="512"/>
+		<int name="z" value="0"/>
+	</canvas>
+	<canvas name="tengou2.png" width="1024" height="1024">
+		<vector name="origin" x="512" y="512"/>
+		<int name="z" value="0"/>
+	</canvas>
+	<canvas name="tengou.png" width="1024" height="1024">
+		<vector name="origin" x="512" y="512"/>
+		<int name="z" value="0"/>
+	</canvas>
+</imgdir>

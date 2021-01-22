@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9201272.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="jett_npc_2"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="80" height="67">
+			<vector name="origin" x="35" y="81"/>
+		</canvas>
+		<canvas name="1" width="80" height="66">
+			<vector name="origin" x="35" y="78"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="2" width="81" height="64">
+			<vector name="origin" x="35" y="74"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="3" width="84" height="60">
+			<vector name="origin" x="35" y="69"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="4" width="81" height="65">
+			<vector name="origin" x="35" y="75"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="5" width="80" height="66">
+			<vector name="origin" x="35" y="78"/>
+			<int name="delay" value="120"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="80" height="67">
+			<vector name="origin" x="35" y="81"/>
+		</canvas>
+		<canvas name="1" width="80" height="66">
+			<vector name="origin" x="35" y="78"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="2" width="81" height="64">
+			<vector name="origin" x="35" y="74"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="3" width="84" height="60">
+			<vector name="origin" x="35" y="69"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="4" width="81" height="65">
+			<vector name="origin" x="35" y="75"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="5" width="80" height="66">
+			<vector name="origin" x="35" y="78"/>
+			<int name="delay" value="120"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<uol name="0" value="../say/0"/>
+		<uol name="1" value="../say/1"/>
+		<uol name="2" value="../say/2"/>
+		<uol name="3" value="../say/3"/>
+		<uol name="4" value="../say/4"/>
+		<uol name="5" value="../say/5"/>
+	</imgdir>
+</imgdir>

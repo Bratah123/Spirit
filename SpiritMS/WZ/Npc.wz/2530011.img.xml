@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2530011.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="64" height="84">
+			<vector name="origin" x="26" y="84"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="64" height="84">
+				<vector name="origin" x="26" y="84"/>
+				<int name="delay" value="3000"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="32669">
+			<string name="value" value="1"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

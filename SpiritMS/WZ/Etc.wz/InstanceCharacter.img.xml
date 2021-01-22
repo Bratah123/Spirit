@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="InstanceCharacter.img">
+	<imgdir name="001">
+		<string name="name" value="Kirito"/>
+		<imgdir name="AvatarLook">
+			<int name="Face" value="23009"/>
+			<int name="Hair" value="32640"/>
+			<int name="Skin" value="0"/>
+			<int name="Gender" value="0"/>
+		</imgdir>
+		<imgdir name="Equip">
+			<int name="0" value="1302298"/>
+			<int name="1" value="1052672"/>
+			<int name="2" value="1082558"/>
+		</imgdir>
+		<imgdir name="Skill">
+			<imgdir name="80001357">
+				<int name="QuickSlotID" value="4"/>
+				<int name="FuncKeySlotID" value="29"/>
+			</imgdir>
+			<imgdir name="80001361">
+				<int name="QuickSlotID" value="6"/>
+				<int name="FuncKeySlotID" value="83"/>
+			</imgdir>
+			<imgdir name="80001362">
+				<int name="QuickSlotID" value="0"/>
+				<int name="FuncKeySlotID" value="42"/>
+			</imgdir>
+			<imgdir name="80001358">
+			</imgdir>
+			<imgdir name="80001359">
+			</imgdir>
+			<imgdir name="80001360">
+			</imgdir>
+			<imgdir name="80001368">
+			</imgdir>
+		</imgdir>
+		<imgdir name="BasicAction">
+			<imgdir name="53">
+				<int name="QuickSlotID" value="5"/>
+				<int name="FuncKeySlotID" value="56"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Stat">
+			<int name="Job" value="12000"/>
+			<int name="Level" value="120"/>
+			<int name="MHP" value="10000"/>
+			<int name="MMP" value="8000"/>
+			<int name="STR" value="600"/>
+			<int name="DEX" value="500"/>
+			<int name="INT" value="500"/>
+			<int name="LUK" value="500"/>
+			<int name="CriticalProb" value="5"/>
+			<int name="CriticalDamage" value="200"/>
+			<int name="BossProb" value="100"/>
+			<int name="BossDamage" value="100"/>
+		</imgdir>
+		<imgdir name="Item">
+			<imgdir name="2010014">
+				<int name="QuickSlotID" value="7"/>
+				<int name="FuncKeySlotID" value="79"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="002">
+		<string name="name" value="Asuna"/>
+		<imgdir name="AvatarLook">
+			<int name="Face" value="24005"/>
+			<int name="Hair" value="32650"/>
+			<int name="Skin" value="0"/>
+			<int name="Gender" value="1"/>
+		</imgdir>
+		<imgdir name="Equip">
+			<int name="0" value="1402221"/>
+			<int name="1" value="1042283"/>
+			<int name="2" value="1072873"/>
+			<int name="3" value="1102627"/>
+		</imgdir>
+		<imgdir name="Skill">
+			<imgdir name="80001363">
+				<int name="QuickSlotID" value="4"/>
+				<int name="FuncKeySlotID" value="29"/>
+			</imgdir>
+			<imgdir name="80001402">
+				<int name="QuickSlotID" value="6"/>
+				<int name="FuncKeySlotID" value="83"/>
+			</imgdir>
+			<imgdir name="80001364">
+				<int name="QuickSlotID" value="0"/>
+				<int name="FuncKeySlotID" value="42"/>
+			</imgdir>
+			<imgdir name="80001368">
+			</imgdir>
+		</imgdir>
+		<imgdir name="BasicAction">
+			<imgdir name="53">
+				<int name="QuickSlotID" value="5"/>
+				<int name="FuncKeySlotID" value="56"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Stat">
+			<int name="Job" value="12001"/>
+			<int name="Level" value="120"/>
+			<int name="MHP" value="6000"/>
+			<int name="MMP" value="7000"/>
+			<int name="STR" value="500"/>
+			<int name="DEX" value="500"/>
+			<int name="INT" value="500"/>
+			<int name="LUK" value="500"/>
+			<int name="CriticalProb" value="20"/>
+			<int name="CriticalDamage" value="130"/>
+			<int name="BossProb" value="100"/>
+			<int name="BossDamage" value="100"/>
+		</imgdir>
+		<imgdir name="Item">
+			<imgdir name="2010014">
+				<int name="QuickSlotID" value="7"/>
+				<int name="FuncKeySlotID" value="79"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="003">
+		<string name="name" value="Leafa"/>
+		<imgdir name="AvatarLook">
+			<int name="Face" value="24006"/>
+			<int name="Hair" value="32660"/>
+			<int name="Skin" value="0"/>
+			<int name="Gender" value="1"/>
+		</imgdir>
+		<imgdir name="Equip">
+			<int name="0" value="1332248"/>
+			<int name="1" value="1042284"/>
+			<int name="2" value="1072875"/>
+			<int name="3" value="1102628"/>
+		</imgdir>
+		<imgdir name="Skill">
+			<imgdir name="80001365">
+				<int name="QuickSlotID" value="4"/>
+				<int name="FuncKeySlotID" value="29"/>
+			</imgdir>
+			<imgdir name="80001366">
+				<int name="QuickSlotID" value="6"/>
+				<int name="FuncKeySlotID" value="83"/>
+			</imgdir>
+			<imgdir name="80001367">
+				<int name="QuickSlotID" value="0"/>
+				<int name="FuncKeySlotID" value="42"/>
+			</imgdir>
+			<imgdir name="80001368">
+			</imgdir>
+		</imgdir>
+		<imgdir name="BasicAction">
+			<imgdir name="53">
+				<int name="QuickSlotID" value="5"/>
+				<int name="FuncKeySlotID" value="56"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Stat">
+			<int name="Job" value="12002"/>
+			<int name="Level" value="120"/>
+			<int name="MHP" value="6000"/>
+			<int name="MMP" value="8000"/>
+			<int name="STR" value="500"/>
+			<int name="DEX" value="500"/>
+			<int name="INT" value="500"/>
+			<int name="LUK" value="500"/>
+			<int name="CriticalProb" value="10"/>
+			<int name="CriticalDamage" value="150"/>
+			<int name="BossProb" value="100"/>
+			<int name="BossDamage" value="100"/>
+		</imgdir>
+		<imgdir name="Item">
+			<imgdir name="2010014">
+				<int name="QuickSlotID" value="7"/>
+				<int name="FuncKeySlotID" value="79"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

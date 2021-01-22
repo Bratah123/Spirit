@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2120032.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="72" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="72" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="72" height="81">
+			<vector name="origin" x="29" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="72" height="81">
+			<vector name="origin" x="29" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="72" height="81">
+			<vector name="origin" x="29" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="72" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+		<canvas name="0" width="72" height="81">
+			<vector name="origin" x="28" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="72" height="80">
+			<vector name="origin" x="27" y="80"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="72" height="81">
+			<vector name="origin" x="27" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="72" height="81">
+			<vector name="origin" x="27" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="72" height="81">
+			<vector name="origin" x="27" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="5" width="72" height="81">
+			<vector name="origin" x="27" y="81"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<uol name="6" value="../say/0"/>
+		<uol name="7" value="../say/1"/>
+		<uol name="8" value="../say/2"/>
+		<uol name="9" value="../say/3"/>
+		<uol name="10" value="../say/4"/>
+		<uol name="11" value="../say/5"/>
+	</imgdir>
+</imgdir>

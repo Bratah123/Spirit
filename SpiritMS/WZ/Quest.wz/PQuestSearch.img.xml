@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="PQuestSearch.img">
+	<imgdir name="party">
+		<imgdir name="13">
+			<string name="name" value="Mu Lung Dojo"/>
+			<string name="mark" value="Map/MapHelper/mark/MuruengRaid"/>
+			<int name="levelMin" value="90"/>
+			<int name="levelMax" value="200"/>
+			<int name="count" value="10"/>
+			<int name="price" value="0"/>
+			<int name="periodMin" value="5"/>
+			<imgdir name="title">
+				<string name="0" value="Do the Mu Lung Dojo together!"/>
+				<string name="1" value="Looking for people interested in!"/>
+				<string name="2" value="Get a new belt!"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="expedition">
+		<imgdir name="0">
+			<string name="name" value="Balrog Expedition"/>
+			<string name="mark" value="Map/MapHelper/mark/Balog"/>
+			<int name="levelMin" value="65"/>
+			<int name="count" value="10"/>
+			<int name="periodMin" value="20"/>
+			<int name="userCount" value="6"/>
+			<imgdir name="title">
+				<string name="0" value="Who wants a piece of the Balrog?"/>
+				<string name="1" value="Come in on!"/>
+				<string name="2" value="Join in quickly! "/>
+			</imgdir>
+			<int name="price" value="0"/>
+			<int name="levelMax" value="100"/>
+		</imgdir>
+		<imgdir name="3">
+			<string name="name" value="Normal Horntail Expedition"/>
+			<string name="mark" value="Map/MapHelper/mark/Hontale"/>
+			<int name="levelMin" value="80"/>
+			<int name="levelMax" value="250"/>
+			<int name="count" value="10"/>
+			<int name="periodMin" value="20"/>
+			<int name="userCount" value="30"/>
+			<imgdir name="title">
+				<string name="0" value="Who wants the Horntail PQ? "/>
+				<string name="1" value="Do you want to defeat Horntail?"/>
+				<string name="2" value="Join in quickly! "/>
+			</imgdir>
+			<int name="price" value="0"/>
+		</imgdir>
+		<imgdir name="4">
+			<string name="name" value="Pink Bean Expedition"/>
+			<string name="mark" value="Map/MapHelper/mark/PinkBean"/>
+			<string name="levelMax" value="250"/>
+			<int name="count" value="10"/>
+			<int name="periodMin" value="20"/>
+			<int name="userCount" value="30"/>
+			<imgdir name="title">
+				<string name="0" value="Who wants the Pink Bean PQ?"/>
+				<string name="1" value="Do you want to defeat Pink Bean?"/>
+				<string name="2" value="Join in quickly! "/>
+			</imgdir>
+			<string name="levelMin" value="120"/>
+			<int name="price" value="0"/>
+		</imgdir>
+		<imgdir name="6">
+			<string name="name" value="Chaos Horntail Expedition"/>
+			<string name="mark" value="Map/MapHelper/mark/Hontale"/>
+			<int name="levelMin" value="110"/>
+			<int name="levelMax" value="250"/>
+			<int name="count" value="10"/>
+			<int name="price" value="0"/>
+			<int name="periodMin" value="20"/>
+			<int name="userCount" value="30"/>
+			<imgdir name="title">
+				<string name="0" value="Recruiting for Chaos Horntail Expedition."/>
+				<string name="1" value="Apply if you want to catch Chaos Tail!"/>
+				<string name="2" value="Apply if you're confident!"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="7">
+			<string name="name" value="Von Leon Expedition"/>
+			<string name="mark" value="Map/MapHelper/mark/VanLeon"/>
+			<int name="levelMin" value="120"/>
+			<int name="levelMax" value="250"/>
+			<int name="count" value="10"/>
+			<int name="price" value="0"/>
+			<int name="periodMin" value="20"/>
+			<int name="userCount" value="18"/>
+			<imgdir name="title">
+				<string name="0" value="Recruiting for Von Leon Expedition."/>
+				<string name="1" value="Apply if you want to eliminate Von Leon!"/>
+				<string name="2" value="Apply if you're confident!"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="9">
+			<string name="name" value="Arkarium Expedition"/>
+			<string name="mark" value="Map/MapHelper/mark/Akayrum"/>
+			<int name="levelMin" value="120"/>
+			<int name="levelMax" value="250"/>
+			<int name="count" value="10"/>
+			<int name="price" value="0"/>
+			<int name="periodMin" value="20"/>
+			<int name="userCount" value="18"/>
+			<imgdir name="title">
+				<string name="0" value="Recruiting members for the Arkarium Expedition!"/>
+				<string name="1" value="Sign up now to eliminate Arkarium!"/>
+				<string name="2" value="Only accepting confident heroes."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="10">
+			<string name="name" value="Hilla Expedition"/>
+			<string name="mark" value="Map/MapHelper/mark/Aswan"/>
+			<int name="levelMin" value="120"/>
+			<int name="levelMax" value="250"/>
+			<int name="count" value="10"/>
+			<int name="price" value="0"/>
+			<int name="periodMin" value="20"/>
+			<int name="userCount" value="6"/>
+			<imgdir name="title">
+				<string name="0" value="We are recruiting members for the Hilla Expedition!"/>
+				<string name="1" value="Sign up now to eliminate the she-devil!"/>
+				<string name="2" value="Only those who seek the liberation of Azwan should apply!"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="11">
+			<string name="name" value="Chaos Pink Bean Expedition"/>
+			<string name="mark" value="Map/MapHelper/mark/PinkBean"/>
+			<string name="levelMin" value="170"/>
+			<string name="levelMax" value="250"/>
+			<int name="count" value="10"/>
+			<int name="price" value="0"/>
+			<int name="periodMin" value="20"/>
+			<int name="userCount" value="30"/>
+			<imgdir name="title">
+				<string name="0" value="Currently recruiting members for the Pink Bean Expedition."/>
+				<string name="1" value="Anyone interested in hunting down Chaos Pink Bean can apply."/>
+				<string name="2" value="Only seasoned and confident adventurers need apply."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="92">
+			<string name="name" value="Ranmaru Expedition"/>
+			<string name="mark" value="Map/MapHelper/mark/Ranmaru"/>
+			<int name="levelMin" value="120"/>
+			<int name="levelMax" value="250"/>
+			<int name="count" value="10"/>
+			<int name="price" value="0"/>
+			<int name="periodMin" value="20"/>
+			<int name="userCount" value="18"/>
+			<imgdir name="title">
+				<string name="0" value="Currently recruiting members for the Ranmaru Expedition."/>
+				<string name="1" value="Anyone intrested in hunting down Ranmaru can apply. "/>
+				<string name="2" value="Only Seasoned and confident adventurers need apply. "/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="93">
+			<string name="name" value="Madman Ranmaru Expedition"/>
+			<string name="mark" value="Map/MapHelper/mark/Ranmaru"/>
+			<int name="levelMin" value="180"/>
+			<int name="levelMax" value="250"/>
+			<int name="count" value="10"/>
+			<int name="price" value="0"/>
+			<int name="periodMin" value="20"/>
+			<int name="userCount" value="18"/>
+			<imgdir name="title">
+				<string name="0" value="Now recruiting Madman Ranmaru Expedition members."/>
+				<string name="1" value="Anyone intrested in hunting down Madman Ranmaru can apply. "/>
+				<string name="2" value="Only Seasoned and confident adventurers need apply. "/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

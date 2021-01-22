@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2460002.img">
+	<imgdir name="info">
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="5000"/>
+			<string name="source" value="Npc/2112003.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112003.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112003.img/eye/1"/>
+		</canvas>
+		<canvas name="2" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2112003.img/eye/2"/>
+		</canvas>
+		<canvas name="3" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2112003.img/eye/3"/>
+		</canvas>
+		<canvas name="4" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2112003.img/eye/4"/>
+		</canvas>
+		<canvas name="5" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112003.img/eye/5"/>
+		</canvas>
+		<canvas name="6" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112003.img/eye/2"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="prayer">
+		<canvas name="0" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112003.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112003.img/eye/1"/>
+		</canvas>
+		<canvas name="2" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112003.img/eye/2"/>
+		</canvas>
+		<canvas name="3" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112003.img/prayer/3"/>
+		</canvas>
+		<canvas name="4" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112003.img/prayer/4"/>
+		</canvas>
+		<canvas name="5" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112003.img/prayer/5"/>
+		</canvas>
+		<canvas name="6" width="49" height="70">
+			<vector name="origin" x="25" y="69"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112003.img/eye/2"/>
+		</canvas>
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="condition">
+		<imgdir name="stand">
+			<canvas name="0" width="75" height="33">
+				<vector name="origin" x="33" y="32"/>
+				<int name="delay" value="5000"/>
+				<string name="source" value="Npc/2112008.img/stand/0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="eye">
+			<canvas name="0" width="75" height="33">
+				<vector name="origin" x="33" y="32"/>
+				<int name="delay" value="210"/>
+				<string name="source" value="Npc/2112008.img/stand/0"/>
+			</canvas>
+			<uol name="1" value="0"/>
+			<uol name="2" value="0"/>
+			<uol name="3" value="0"/>
+			<uol name="4" value="0"/>
+			<uol name="5" value="0"/>
+			<uol name="6" value="0"/>
+		</imgdir>
+		<imgdir name="prayer">
+			<canvas name="0" width="75" height="33">
+				<vector name="origin" x="33" y="32"/>
+				<int name="delay" value="210"/>
+				<string name="source" value="Npc/2112008.img/stand/0"/>
+			</canvas>
+			<uol name="1" value="0"/>
+			<uol name="2" value="0"/>
+			<uol name="3" value="0"/>
+			<uol name="4" value="0"/>
+			<uol name="5" value="0"/>
+			<uol name="6" value="0"/>
+		</imgdir>
+		<int name="41252" value="1"/>
+		<int name="hide" value="1"/>
+	</imgdir>
+</imgdir>

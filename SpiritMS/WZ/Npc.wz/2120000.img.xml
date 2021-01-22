@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2120000.img">
+	<imgdir name="info">
+		<int name="dcLeft" value="-29"/>
+		<int name="dcTop" value="-119"/>
+		<int name="dcRight" value="38"/>
+		<int name="dcBottom" value="0"/>
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="maskScript"/>
+				<int name="start" value="20081020"/>
+				<int name="end" value="20081105"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="60" height="112">
+			<vector name="origin" x="33" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="jaw">
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+		<canvas name="0" width="60" height="112">
+			<vector name="origin" x="33" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="60" height="112">
+			<vector name="origin" x="33" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="60" height="112">
+			<vector name="origin" x="33" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="60" height="112">
+			<vector name="origin" x="33" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<uol name="4" value="../stand/0"/>
+	</imgdir>
+	<imgdir name="stick">
+		<canvas name="0" width="60" height="112">
+			<vector name="origin" x="33" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="60" height="112">
+			<vector name="origin" x="32" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="60" height="112">
+			<vector name="origin" x="32" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="64" height="112">
+			<vector name="origin" x="37" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="64" height="112">
+			<vector name="origin" x="37" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="5" width="60" height="112">
+			<vector name="origin" x="33" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="6" width="60" height="112">
+			<vector name="origin" x="33" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="7" width="60" height="112">
+			<vector name="origin" x="33" y="112"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<uol name="8" value="../stand/0"/>
+	</imgdir>
+	<imgdir name="condition1">
+		<int name="15136" value="2"/>
+		<imgdir name="stand">
+			<canvas name="0" width="4" height="4">
+				<vector name="origin" x="0" y="4"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="move">
+			<canvas name="0" width="4" height="4">
+				<vector name="origin" x="0" y="4"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="jaw">
+			<canvas name="0" width="4" height="4">
+				<vector name="origin" x="0" y="4"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="stick">
+			<canvas name="0" width="4" height="4">
+				<vector name="origin" x="0" y="4"/>
+			</canvas>
+		</imgdir>
+		<int name="hide" value="1"/>
+	</imgdir>
+</imgdir>

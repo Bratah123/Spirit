@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9201474.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="madHouse_phone"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="58" height="77">
+			<vector name="origin" x="35" y="85"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="1000"/>
+		</canvas>
+		<canvas name="1" width="59" height="77">
+			<vector name="origin" x="35" y="85"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+		</canvas>
+		<canvas name="2" width="58" height="77">
+			<vector name="origin" x="35" y="85"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+		</canvas>
+		<canvas name="3" width="58" height="76">
+			<vector name="origin" x="35" y="84"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+		</canvas>
+	</imgdir>
+</imgdir>

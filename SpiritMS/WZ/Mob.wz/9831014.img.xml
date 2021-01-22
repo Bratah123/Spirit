@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9831014.img">
+	<imgdir name="info">
+		<int name="level" value="30"/>
+		<int name="maxHP" value="100"/>
+		<int name="maxMP" value="200"/>
+		<int name="speed" value="-20"/>
+		<int name="pushed" value="9999999"/>
+		<float name="fs" value="10.0"/>
+		<int name="exp" value="6"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="7"/>
+		<string name="mobType" value="7N"/>
+		<int name="lifePoint" value="1"/>
+		<int name="defenseMob" value="1"/>
+		<int name="boss" value="1"/>
+		<int name="changeableMob" value="1"/>
+		<string name="changeableMob_Type" value="PoloWaveMob5_3"/>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="205" height="246">
+			<vector name="origin" x="109" y="258"/>
+			<vector name="lt" x="-109" y="-230"/>
+			<vector name="rb" x="64" y="-12"/>
+			<vector name="head" x="-74" y="-244"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/move/0"/>
+		</canvas>
+		<canvas name="1" width="204" height="246">
+			<vector name="origin" x="109" y="259"/>
+			<vector name="lt" x="-109" y="-235"/>
+			<vector name="rb" x="64" y="-13"/>
+			<vector name="head" x="-74" y="-245"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/move/1"/>
+		</canvas>
+		<canvas name="2" width="204" height="248">
+			<vector name="origin" x="109" y="263"/>
+			<vector name="lt" x="-109" y="-237"/>
+			<vector name="rb" x="64" y="-15"/>
+			<vector name="head" x="-74" y="-249"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/move/2"/>
+		</canvas>
+		<canvas name="3" width="205" height="248">
+			<vector name="origin" x="109" y="265"/>
+			<vector name="lt" x="-109" y="-238"/>
+			<vector name="rb" x="64" y="-17"/>
+			<vector name="head" x="-74" y="-251"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/move/3"/>
+		</canvas>
+		<canvas name="4" width="207" height="247">
+			<vector name="origin" x="109" y="263"/>
+			<vector name="lt" x="-109" y="-235"/>
+			<vector name="rb" x="64" y="-16"/>
+			<vector name="head" x="-74" y="-249"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/move/4"/>
+		</canvas>
+		<canvas name="5" width="207" height="247">
+			<vector name="origin" x="109" y="261"/>
+			<vector name="lt" x="-109" y="-233"/>
+			<vector name="rb" x="64" y="-14"/>
+			<vector name="head" x="-74" y="-247"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/move/5"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="193" height="244">
+			<vector name="origin" x="97" y="256"/>
+			<vector name="lt" x="-98" y="-230"/>
+			<vector name="rb" x="61" y="-12"/>
+			<vector name="head" x="-62" y="-242"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="195" height="246">
+			<vector name="origin" x="97" y="257"/>
+			<vector name="lt" x="-98" y="-229"/>
+			<vector name="rb" x="61" y="-11"/>
+			<vector name="head" x="-62" y="-243"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/stand/1"/>
+		</canvas>
+		<canvas name="2" width="196" height="247">
+			<vector name="origin" x="97" y="256"/>
+			<vector name="lt" x="-97" y="-227"/>
+			<vector name="rb" x="61" y="-9"/>
+			<vector name="head" x="-62" y="-242"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/stand/2"/>
+		</canvas>
+		<canvas name="3" width="196" height="247">
+			<vector name="origin" x="97" y="254"/>
+			<vector name="lt" x="-97" y="-224"/>
+			<vector name="rb" x="62" y="-7"/>
+			<vector name="head" x="-62" y="-240"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/stand/3"/>
+		</canvas>
+		<canvas name="4" width="195" height="247">
+			<vector name="origin" x="97" y="253"/>
+			<vector name="lt" x="-97" y="-223"/>
+			<vector name="rb" x="62" y="-6"/>
+			<vector name="head" x="-62" y="-239"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/stand/4"/>
+		</canvas>
+		<canvas name="5" width="213" height="247">
+			<vector name="origin" x="117" y="252"/>
+			<vector name="lt" x="-98" y="-225"/>
+			<vector name="rb" x="62" y="-5"/>
+			<vector name="head" x="-62" y="-238"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/stand/5"/>
+		</canvas>
+		<canvas name="6" width="212" height="247">
+			<vector name="origin" x="117" y="253"/>
+			<vector name="lt" x="-98" y="-227"/>
+			<vector name="rb" x="61" y="-6"/>
+			<vector name="head" x="-62" y="-239"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/stand/6"/>
+		</canvas>
+		<canvas name="7" width="217" height="246">
+			<vector name="origin" x="122" y="255"/>
+			<vector name="lt" x="-98" y="-230"/>
+			<vector name="rb" x="62" y="-9"/>
+			<vector name="head" x="-62" y="-241"/>
+			<int name="delay" value="130"/>
+			<string name="source" value="Mob/8180000.img/stand/7"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="hit1">
+		<canvas name="0" width="185" height="287">
+			<vector name="origin" x="84" y="306"/>
+			<vector name="lt" x="-84" y="-263"/>
+			<vector name="rb" x="66" y="-19"/>
+			<vector name="head" x="-33" y="-292"/>
+			<int name="delay" value="600"/>
+			<string name="source" value="Mob/8180000.img/hit1/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="die1">
+		<canvas name="0" width="185" height="287">
+			<vector name="origin" x="84" y="306"/>
+			<vector name="head" x="-33" y="-292"/>
+			<int name="delay" value="110"/>
+			<string name="source" value="Mob/8180000.img/hit1/0"/>
+		</canvas>
+		<canvas name="1" width="191" height="287">
+			<vector name="origin" x="88" y="307"/>
+			<vector name="head" x="-31" y="-293"/>
+			<int name="delay" value="110"/>
+			<string name="source" value="Mob/8180000.img/die1/1"/>
+		</canvas>
+		<canvas name="2" width="193" height="287">
+			<vector name="origin" x="89" y="308"/>
+			<vector name="head" x="-30" y="-294"/>
+			<int name="delay" value="110"/>
+			<string name="source" value="Mob/8180000.img/die1/2"/>
+		</canvas>
+		<canvas name="3" width="191" height="262">
+			<vector name="origin" x="86" y="284"/>
+			<vector name="head" x="-51" y="-267"/>
+			<int name="delay" value="110"/>
+			<string name="source" value="Mob/8180000.img/die1/3"/>
+		</canvas>
+		<canvas name="4" width="205" height="227">
+			<vector name="origin" x="100" y="223"/>
+			<vector name="head" x="-53" y="-209"/>
+			<int name="delay" value="110"/>
+			<string name="source" value="Mob/8180000.img/die1/4"/>
+		</canvas>
+		<canvas name="5" width="210" height="228">
+			<vector name="origin" x="105" y="224"/>
+			<vector name="head" x="-53" y="-210"/>
+			<int name="delay" value="110"/>
+			<string name="source" value="Mob/8180000.img/die1/5"/>
+		</canvas>
+		<canvas name="6" width="209" height="228">
+			<vector name="origin" x="104" y="223"/>
+			<vector name="head" x="-53" y="-209"/>
+			<int name="delay" value="110"/>
+			<string name="source" value="Mob/8180000.img/die1/6"/>
+		</canvas>
+		<canvas name="7" width="210" height="228">
+			<vector name="origin" x="105" y="223"/>
+			<vector name="head" x="-53" y="-209"/>
+			<int name="delay" value="110"/>
+			<string name="source" value="Mob/8180000.img/die1/7"/>
+		</canvas>
+		<canvas name="8" width="209" height="150">
+			<vector name="origin" x="104" y="150"/>
+			<vector name="head" x="-53" y="-206"/>
+			<int name="delay" value="110"/>
+			<string name="source" value="Mob/8180000.img/die1/8"/>
+		</canvas>
+		<canvas name="9" width="209" height="137">
+			<vector name="origin" x="109" y="146"/>
+			<vector name="head" x="-53" y="-201"/>
+			<int name="delay" value="110"/>
+			<string name="source" value="Mob/8180000.img/die1/9"/>
+		</canvas>
+		<canvas name="10" width="31" height="32">
+			<vector name="origin" x="-16" y="141"/>
+			<vector name="head" x="-53" y="-196"/>
+			<int name="delay" value="300"/>
+			<int name="a0" value="255"/>
+			<int name="a1" value="0"/>
+			<string name="source" value="Mob/8180000.img/die1/10"/>
+		</canvas>
+	</imgdir>
+</imgdir>

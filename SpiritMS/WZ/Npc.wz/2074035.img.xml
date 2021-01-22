@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2074035.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+		<canvas name="default" width="108" height="78">
+			<vector name="origin" x="53" y="75"/>
+		</canvas>
+		<int name="hide" value="1"/>
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="npc_2074035"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="44" height="44">
+			<vector name="origin" x="21" y="62"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="1" width="44" height="46">
+			<vector name="origin" x="21" y="64"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="2" width="44" height="46">
+			<vector name="origin" x="21" y="64"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="3" width="44" height="46">
+			<vector name="origin" x="21" y="64"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="4" width="44" height="44">
+			<vector name="origin" x="21" y="62"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="5" width="44" height="46">
+			<vector name="origin" x="21" y="64"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="6" width="44" height="46">
+			<vector name="origin" x="21" y="64"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="7" width="44" height="46">
+			<vector name="origin" x="21" y="64"/>
+			<int name="delay" value="150"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="30927">
+			<string name="value" value="1"/>
+		</imgdir>
+		<uol name="stand" value="../stand"/>
+	</imgdir>
+	<imgdir name="condition2">
+		<imgdir name="30927">
+			<string name="value" value="2"/>
+			<int name="hide" value="1"/>
+		</imgdir>
+		<uol name="stand" value="../stand"/>
+		<int name="hide" value="1"/>
+	</imgdir>
+</imgdir>

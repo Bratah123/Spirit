@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9390209.img">
+	<imgdir name="info">
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+			<string name="2" value="n2"/>
+		</imgdir>
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="5000"/>
+		</canvas>
+		<canvas name="1" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9390209.img/stand/0"/>
+		</canvas>
+		<canvas name="3" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9390209.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9390209.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9390209.img/stand/1"/>
+		</canvas>
+		<canvas name="2" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9390209.img/stand/0"/>
+		</canvas>
+		<canvas name="4" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="5" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="6" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9390209.img/stand/0"/>
+		</canvas>
+		<canvas name="7" width="51" height="91">
+			<vector name="origin" x="25" y="91"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9390209.img/say/4"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="5000"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+			<canvas name="1" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/1"/>
+			</canvas>
+			<canvas name="2" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+			<canvas name="3" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="say">
+			<canvas name="0" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+			<canvas name="1" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/1"/>
+			</canvas>
+			<canvas name="2" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/say/2"/>
+			</canvas>
+			<canvas name="3" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+			<canvas name="4" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/say/4"/>
+			</canvas>
+			<canvas name="5" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/say/5"/>
+			</canvas>
+			<canvas name="6" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+			<canvas name="7" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/say/4"/>
+			</canvas>
+		</imgdir>
+		<int name="hide" value="1"/>
+		<int name="17645" value="2"/>
+	</imgdir>
+	<imgdir name="condition2">
+		<imgdir name="stand">
+			<canvas name="0" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="5000"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+			<canvas name="1" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/1"/>
+			</canvas>
+			<canvas name="2" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+			<canvas name="3" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="say">
+			<canvas name="0" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+			<canvas name="1" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/1"/>
+			</canvas>
+			<canvas name="2" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/say/2"/>
+			</canvas>
+			<canvas name="3" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+			<canvas name="4" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/say/4"/>
+			</canvas>
+			<canvas name="5" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/say/5"/>
+			</canvas>
+			<canvas name="6" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/stand/0"/>
+			</canvas>
+			<canvas name="7" width="51" height="91">
+				<vector name="origin" x="25" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9390209.img/say/4"/>
+			</canvas>
+		</imgdir>
+		<int name="17644" value="2"/>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9450013.img">
+	<imgdir name="info">
+		<int name="hpTagColor" value="1"/>
+		<int name="hpTagBgcolor" value="5"/>
+		<int name="firstAttack" value="1"/>
+		<int name="level" value="160"/>
+		<int name="bodyAttack" value="1"/>
+		<int name="maxHP" value="60000000"/>
+		<int name="maxMP" value="200000"/>
+		<int name="speed" value="-60"/>
+		<int name="PADamage" value="2145"/>
+		<int name="PDDamage" value="1800"/>
+		<int name="PDRate" value="30"/>
+		<int name="MADamage" value="2000"/>
+		<int name="MDDamage" value="1800"/>
+		<int name="MDRate" value="30"/>
+		<int name="acc" value="360"/>
+		<int name="eva" value="97"/>
+		<int name="pushed" value="999999"/>
+		<float name="fs" value="10.0"/>
+		<int name="exp" value="204288"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="8"/>
+		<int name="hpRecovery" value="10000"/>
+		<int name="mpRecovery" value="50000"/>
+		<string name="mobType" value="7N"/>
+		<int name="dropItemPeriod" value="60"/>
+		<int name="damagedByMob" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="232" height="144">
+			<vector name="origin" x="135" y="143"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="1" width="236" height="140">
+			<vector name="origin" x="141" y="139"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="2" width="236" height="136">
+			<vector name="origin" x="142" y="135"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="3" width="231" height="140">
+			<vector name="origin" x="136" y="139"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="4" width="232" height="144">
+			<vector name="origin" x="135" y="143"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="5" width="231" height="143">
+			<vector name="origin" x="133" y="142"/>
+			<int name="delay" value="150"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="236" height="144">
+			<vector name="origin" x="139" y="143"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="1" width="232" height="147">
+			<vector name="origin" x="136" y="145"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="2" width="232" height="144">
+			<vector name="origin" x="137" y="143"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="3" width="236" height="142">
+			<vector name="origin" x="142" y="141"/>
+			<int name="delay" value="180"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="hit1">
+		<canvas name="0" width="267" height="175">
+			<vector name="origin" x="149" y="178"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="die1">
+		<canvas name="0" width="236" height="144">
+			<vector name="origin" x="139" y="143"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="267" height="175">
+			<vector name="origin" x="149" y="178"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="274" height="178">
+			<vector name="origin" x="154" y="181"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="274" height="180">
+			<vector name="origin" x="152" y="182"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="415" height="158">
+			<vector name="origin" x="221" y="120"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="5" width="433" height="148">
+			<vector name="origin" x="218" y="129"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="6" width="424" height="164">
+			<vector name="origin" x="207" y="129"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="7" width="423" height="165">
+			<vector name="origin" x="207" y="129"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="8" width="372" height="164">
+			<vector name="origin" x="207" y="128"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="9" width="160" height="29">
+			<vector name="origin" x="-1" y="34"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+</imgdir>

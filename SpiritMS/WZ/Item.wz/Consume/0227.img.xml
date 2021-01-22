@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="0227.img">
+	<imgdir name="02270000">
+		<imgdir name="info">
+			<canvas name="icon" width="27" height="30">
+				<vector name="origin" x="-2" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="27" height="29">
+				<vector name="origin" x="-2" y="31"/>
+			</canvas>
+			<int name="mob" value="9300101"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="create" value="2431856"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270001">
+		<imgdir name="info">
+			<canvas name="icon" width="28" height="29">
+				<vector name="origin" x="-2" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="28" height="27">
+				<vector name="origin" x="-2" y="29"/>
+			</canvas>
+			<int name="mob" value="9500197"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4031830"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="40"/>
+			<int name="bridleMsgType" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270002">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="30">
+				<vector name="origin" x="-2" y="30"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="27">
+				<vector name="origin" x="-2" y="30"/>
+			</canvas>
+			<int name="mob" value="9300157"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4031868"/>
+			<int name="left" value="-70"/>
+			<int name="right" value="70"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="40"/>
+			<int name="bridleMsgType" value="2"/>
+			<int name="bridleProp" value="50"/>
+			<float name="bridlePropChg" value="1.2"/>
+			<int name="useDelay" value="800"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270003">
+		<imgdir name="info">
+			<canvas name="icon" width="25" height="30">
+				<vector name="origin" x="-3" y="30"/>
+			</canvas>
+			<canvas name="iconRaw" width="25" height="29">
+				<vector name="origin" x="-3" y="30"/>
+			</canvas>
+			<int name="mob" value="9500320"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4031887"/>
+			<int name="left" value="-70"/>
+			<int name="right" value="70"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="40"/>
+			<int name="only" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270007">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-2" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="25">
+				<vector name="origin" x="-2" y="29"/>
+			</canvas>
+			<int name="slotMax" value="100"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="max" value="10"/>
+			<int name="mob" value="9500424"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4032813"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="80"/>
+			<int name="notSale" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270004">
+		<imgdir name="info">
+			<canvas name="icon" width="28" height="30">
+				<vector name="origin" x="-3" y="30"/>
+			</canvas>
+			<canvas name="iconRaw" width="28" height="28">
+				<vector name="origin" x="-3" y="30"/>
+			</canvas>
+			<int name="mob" value="9300175"/>
+			<int name="price" value="1"/>
+			<int name="pquest" value="1"/>
+			<int name="create" value="4001169"/>
+			<int name="left" value="-70"/>
+			<int name="right" value="70"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="70"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270008">
+		<imgdir name="info">
+			<canvas name="icon" width="28" height="28">
+				<vector name="origin" x="-2" y="28"/>
+			</canvas>
+			<canvas name="iconRaw" width="27" height="26">
+				<vector name="origin" x="-2" y="28"/>
+			</canvas>
+			<int name="mob" value="9500336"/>
+			<int name="price" value="1"/>
+			<int name="create" value="2022323"/>
+			<int name="left" value="-5"/>
+			<int name="right" value="5"/>
+			<string name="top" value="-60"/>
+			<int name="bottom" value="-20"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="useDelay" value="3000"/>
+			<int name="slotMax" value="200"/>
+			<string name="delayMsg" value="You cannot use the Fishing Net yet."/>
+			<int name="bridleMsgType" value="4"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270009">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="31">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="31">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<int name="mob" value="9300302"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="2109000"/>
+			<int name="left" value="-70"/>
+			<int name="right" value="70"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="100"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270010">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="31">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="31">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<int name="mob" value="9300302"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="2109001"/>
+			<int name="left" value="-70"/>
+			<int name="right" value="70"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="100"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270011">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="31">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="31">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<int name="mob" value="9300302"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="2109002"/>
+			<int name="left" value="-70"/>
+			<int name="right" value="70"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="100"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270012">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="31">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="31">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<int name="mob" value="9300302"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="2109003"/>
+			<int name="left" value="-70"/>
+			<int name="right" value="70"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="100"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270005">
+		<imgdir name="info">
+			<canvas name="icon" width="26" height="31">
+				<vector name="origin" x="-4" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="26" height="30">
+				<vector name="origin" x="-4" y="31"/>
+			</canvas>
+			<int name="mob" value="7220002"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4032618"/>
+			<int name="left" value="-70"/>
+			<int name="right" value="70"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="30"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="quest" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270017">
+		<imgdir name="info">
+			<canvas name="icon" width="28" height="28">
+				<vector name="origin" x="-2" y="28"/>
+				<string name="source" value="Item/Consume/0227.img/02270008/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="27" height="26">
+				<vector name="origin" x="-2" y="28"/>
+				<string name="source" value="Item/Consume/0227.img/02270008/info/iconRaw"/>
+			</canvas>
+			<int name="mob" value="9500336"/>
+			<int name="price" value="1"/>
+			<int name="create" value="2022323"/>
+			<int name="left" value="-5"/>
+			<int name="right" value="5"/>
+			<string name="top" value="-60"/>
+			<int name="bottom" value="-20"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="useDelay" value="3000"/>
+			<int name="slotMax" value="200"/>
+			<string name="delayMsg" value="You cannot use the net yet."/>
+			<int name="bridleMsgType" value="4"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270018">
+		<imgdir name="info">
+			<canvas name="icon" width="28" height="28">
+				<vector name="origin" x="-2" y="28"/>
+				<string name="source" value="Item/Consume/0227.img/02270008/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="27" height="26">
+				<vector name="origin" x="-2" y="28"/>
+				<string name="source" value="Item/Consume/0227.img/02270008/info/iconRaw"/>
+			</canvas>
+			<int name="mob" value="1150002"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4032751"/>
+			<int name="left" value="-5"/>
+			<int name="right" value="5"/>
+			<string name="top" value="-60"/>
+			<int name="bottom" value="-20"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="useDelay" value="3000"/>
+			<int name="slotMax" value="200"/>
+			<string name="delayMsg" value="It can't be used yet."/>
+			<int name="bridleMsgType" value="4"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270019">
+		<imgdir name="info">
+			<canvas name="icon" width="28" height="28">
+				<vector name="origin" x="-2" y="28"/>
+				<string name="source" value="Item/Consume/0227.img/02270008/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="27" height="26">
+				<vector name="origin" x="-2" y="28"/>
+				<string name="source" value="Item/Consume/0227.img/02270008/info/iconRaw"/>
+			</canvas>
+			<int name="mob" value="1150002"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4032751"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="40"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270020">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="29">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="26">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<int name="mob" value="9300417"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4032769"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="20"/>
+			<int name="slotMax" value="200"/>
+			<int name="bridleMsgType" value="4"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270021">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="31">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="mob" value="8600003"/>
+			<int name="price" value="1"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="create" value="4032924"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="30"/>
+			<int name="slotMax" value="200"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270022">
+		<imgdir name="info">
+			<canvas name="icon" width="31" height="32">
+				<vector name="origin" x="-1" y="32"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Item/Consume/0210.img/02100000/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="31" height="31">
+				<vector name="origin" x="-1" y="32"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Item/Consume/0210.img/02100000/info/iconRaw"/>
+			</canvas>
+			<int name="mob" value="3110100"/>
+			<int name="price" value="1"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="create" value="4033044"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="30"/>
+			<int name="slotMax" value="200"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270023">
+		<imgdir name="info">
+			<canvas name="icon" width="28" height="29">
+				<vector name="origin" x="-1" y="29"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconRaw" width="27" height="27">
+				<vector name="origin" x="-1" y="29"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="mob" value="9300307"/>
+			<int name="create" value="4033116"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="30"/>
+			<int name="slotMax" value="200"/>
+			<int name="quest" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270024">
+		<imgdir name="info">
+			<canvas name="icon" width="27" height="30">
+				<vector name="origin" x="-3" y="30"/>
+			</canvas>
+			<canvas name="iconRaw" width="26" height="29">
+				<vector name="origin" x="-3" y="30"/>
+			</canvas>
+			<int name="mob" value="9810303"/>
+			<int name="create" value="4033206"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="35"/>
+			<int name="slotMax" value="200"/>
+			<int name="quest" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270025">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="mob" value="9100033"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="3994618"/>
+			<int name="left" value="-70"/>
+			<int name="right" value="70"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="50"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270027">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="35">
+				<vector name="origin" x="1" y="34"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="34">
+				<vector name="origin" x="1" y="33"/>
+			</canvas>
+			<int name="mob" value="2400005"/>
+			<int name="create" value="4033654"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="100"/>
+			<int name="slotMax" value="200"/>
+			<int name="quest" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270028">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="35">
+				<vector name="origin" x="1" y="34"/>
+				<string name="source" value="Item/Consume/0227.img/02270027/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="34">
+				<vector name="origin" x="1" y="33"/>
+				<string name="source" value="Item/Consume/0227.img/02270027/info/iconRaw"/>
+			</canvas>
+			<int name="mob" value="2400006"/>
+			<int name="create" value="4033655"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="100"/>
+			<int name="slotMax" value="200"/>
+			<int name="quest" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270006">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="29">
+				<vector name="origin" x="-1" y="27"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="27">
+				<vector name="origin" x="-1" y="27"/>
+			</canvas>
+			<int name="mob" value="9420123"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4032713"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="100"/>
+			<int name="slotMax" value="3"/>
+			<int name="bridleMsgType" value="3"/>
+			<string name="nomobMsg" value="There aren't any unidentified aliens who appear dexterous."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270029">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<string name="source" value="Item/Consume/0227.img/02270021/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="31">
+				<vector name="origin" x="0" y="32"/>
+				<string name="source" value="Item/Consume/0227.img/02270021/info/iconRaw"/>
+			</canvas>
+			<int name="mob" value="9300761"/>
+			<int name="price" value="1"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="create" value="4033816"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="30"/>
+			<int name="slotMax" value="200"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270030">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<string name="source" value="Item/Consume/0227.img/02270021/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="31">
+				<vector name="origin" x="0" y="32"/>
+				<string name="source" value="Item/Consume/0227.img/02270021/info/iconRaw"/>
+			</canvas>
+			<int name="mob" value="2600315"/>
+			<int name="price" value="1"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="create" value="4033822"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="8000"/>
+			<int name="slotMax" value="200"/>
+			<int name="noDrop" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270031">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="mob" value="2600602"/>
+			<int name="price" value="1"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="create" value="4033865"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="1000000"/>
+			<int name="slotMax" value="200"/>
+			<int name="noDrop" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270032">
+		<imgdir name="info">
+			<canvas name="icon" width="26" height="32">
+				<vector name="origin" x="-4" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="23" height="31">
+				<vector name="origin" x="-5" y="32"/>
+			</canvas>
+			<int name="mob" value="9300795"/>
+			<int name="price" value="1"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="create" value="4033911"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="30"/>
+			<int name="slotMax" value="200"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270033">
+		<imgdir name="info">
+			<canvas name="icon" width="31" height="31">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="31" height="30">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<int name="mob" value="8630003"/>
+			<int name="price" value="1"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="create" value="4033926"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="50"/>
+			<int name="slotMax" value="200"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270038">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="31">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="mob" value="3300105"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="create" value="4034111"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="75"/>
+			<int name="slotMax" value="100"/>
+			<int name="noDrop" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270013">
+		<imgdir name="info">
+			<canvas name="icon" width="34" height="27">
+				<vector name="origin" x="1" y="27"/>
+			</canvas>
+			<canvas name="iconRaw" width="34" height="26">
+				<vector name="origin" x="1" y="27"/>
+			</canvas>
+			<int name="mob" value="9500396"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4032606"/>
+			<int name="createPeriod" value="30"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="100"/>
+			<int name="slotMax" value="1"/>
+			<int name="bridleMsgType" value="3"/>
+			<string name="nomobMsg" value="There are no tigers nearby to take pictures of."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270014">
+		<imgdir name="info">
+			<uol name="icon" value="../../02270013/info/icon"/>
+			<uol name="iconRaw" value="../../02270013/info/iconRaw"/>
+			<int name="mob" value="9500397"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4032608"/>
+			<int name="createPeriod" value="30"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="100"/>
+			<int name="slotMax" value="1"/>
+			<int name="bridleMsgType" value="3"/>
+			<string name="nomobMsg" value="There are no tigers nearby to take pictures of."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270015">
+		<imgdir name="info">
+			<uol name="icon" value="../../02270013/info/icon"/>
+			<uol name="iconRaw" value="../../02270013/info/iconRaw"/>
+			<int name="mob" value="9500398"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4032610"/>
+			<int name="createPeriod" value="30"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="100"/>
+			<int name="slotMax" value="1"/>
+			<int name="bridleMsgType" value="3"/>
+			<string name="nomobMsg" value="There are no tigers nearby to take pictures of."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270016">
+		<imgdir name="info">
+			<uol name="icon" value="../../02270013/info/icon"/>
+			<uol name="iconRaw" value="../../02270013/info/iconRaw"/>
+			<int name="mob" value="9500399"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4032612"/>
+			<int name="createPeriod" value="30"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="20"/>
+			<int name="mobHP" value="100"/>
+			<int name="slotMax" value="1"/>
+			<int name="bridleMsgType" value="3"/>
+			<string name="nomobMsg" value="There are no tigers nearby to take pictures of."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270040">
+		<imgdir name="info">
+			<canvas name="icon" width="31" height="32">
+				<vector name="origin" x="-1" y="32"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Item/Consume/0210.img/02100000/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="31" height="31">
+				<vector name="origin" x="-1" y="32"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Item/Consume/0210.img/02100000/info/iconRaw"/>
+			</canvas>
+			<int name="mob" value="9480118"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4034272"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="50"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270041">
+		<imgdir name="info">
+			<canvas name="icon" width="31" height="27">
+				<vector name="origin" x="-1" y="27"/>
+			</canvas>
+			<canvas name="iconRaw" width="31" height="24">
+				<vector name="origin" x="-1" y="27"/>
+			</canvas>
+			<int name="mob" value="9600315"/>
+			<int name="price" value="1"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="30"/>
+			<int name="slotMax" value="10"/>
+			<int name="noDrop" value="1"/>
+			<int name="bridleMsgType" value="3"/>
+			<int name="bridleProp" value="0"/>
+			<float name="bridlePropChg" value="0.0"/>
+			<string name="nomobMsg" value="The jiangshi is too far away for you to sprinkle red bean porridge on."/>
+			<int name="create" value="4034272"/>
+			<string name="bridlePropZeroMsg" value="You've sprinkled so much red bean porridge, but nothing happens!"/>
+			<int name="useDelay" value="5000"/>
+			<string name="delayMsg" value="You can't use that yet."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270042">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="28">
+				<vector name="origin" x="1" y="28"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="21">
+				<vector name="origin" x="1" y="28"/>
+			</canvas>
+			<int name="mob" value="9600315"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="create" value="4034706"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="30"/>
+			<string name="nomobMsg" value="There is no jiangshi nearby for you to capture."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02270043">
+		<imgdir name="info">
+			<canvas name="icon" width="36" height="33">
+				<vector name="origin" x="0" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="36" height="31">
+				<vector name="origin" x="0" y="33"/>
+			</canvas>
+			<int name="mob" value="9600315"/>
+			<int name="tradeBlock" value="1"/>
+			<int name="notSale" value="1"/>
+			<int name="price" value="1"/>
+			<int name="left" value="-100"/>
+			<int name="right" value="100"/>
+			<int name="top" value="-100"/>
+			<int name="bottom" value="50"/>
+			<int name="mobHP" value="30"/>
+			<int name="slotMax" value="10"/>
+			<int name="noDrop" value="1"/>
+			<int name="bridleMsgType" value="3"/>
+			<int name="bridleProp" value="0"/>
+			<float name="bridlePropChg" value="0.0"/>
+			<string name="nomobMsg" value="The jiangshi is too far away for you to reach."/>
+			<int name="create" value="4034272"/>
+			<string name="bridlePropZeroMsg" value="You have failed to place the talisman on the jiangshi."/>
+			<int name="useDelay" value="5000"/>
+			<string name="delayMsg" value="You can't use that yet."/>
+		</imgdir>
+	</imgdir>
+</imgdir>

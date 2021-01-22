@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="BlockedBehavior.img">
+	<imgdir name="101">
+		<imgdir name="quest">
+			<imgdir name="0">
+				<string name="info" value="Gaining EXP"/>
+				<int name="quest" value="40914"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="info" value="Meso Magnet"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="info" value="Item Pouch"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="info" value="Gaining Non-Battle Traits"/>
+				<int name="quest" value="40901"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="info" value="Gaining Profession"/>
+				<int name="quest" value="40901"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="info" value="Unlocking Stranger Status"/>
+				<int name="quest" value="40914"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="info" value="Moving to Mirror World"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="info" value="Trade"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="info" value="Storage"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="info" value="Quest"/>
+				<int name="ignoreExceptField" value="1"/>
+				<int name="quest" value="40914"/>
+			</imgdir>
+			<imgdir name="10">
+				<string name="info" value="Party"/>
+				<int name="quest" value="40901"/>
+			</imgdir>
+			<imgdir name="11">
+				<string name="info" value="Guild"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="12">
+				<string name="info" value="Friend"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="13">
+				<string name="info" value="Family"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="14">
+				<string name="info" value="Open WP Window"/>
+				<int name="quest" value="40905"/>
+				<int name="ignoreExceptField" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="exceptField">
+			<int name="begin" value="320000000"/>
+			<int name="end" value="329999999"/>
+		</imgdir>
+		<imgdir name="exceptQuest">
+			<imgdir name="0">
+				<int name="begin" value="40000"/>
+				<int name="end" value="41999"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="category" value="51"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="category" value="53"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="category" value="64"/>
+			</imgdir>
+			<imgdir name="4">
+				<int name="category" value="10"/>
+			</imgdir>
+			<imgdir name="5">
+				<int name="category" value="59"/>
+			</imgdir>
+			<imgdir name="6">
+				<int name="begin" value="49000"/>
+				<int name="end" value="49999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="acceptQuest">
+		</imgdir>
+	</imgdir>
+	<imgdir name="100">
+		<imgdir name="quest">
+			<imgdir name="3">
+				<string name="info" value="Gaining Non-Battle Traits"/>
+				<int name="quest" value="40901"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="info" value="Gaining Profession"/>
+				<int name="quest" value="40901"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="info" value="Moving to Mirror World"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="info" value="Trade"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="info" value="Storage"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="10">
+				<string name="info" value="Party"/>
+				<int name="quest" value="40901"/>
+			</imgdir>
+			<imgdir name="11">
+				<string name="info" value="Guild"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="12">
+				<string name="info" value="Friend"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="13">
+				<string name="info" value="Family"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="14">
+				<string name="info" value="Open WP Window"/>
+				<int name="quest" value="40905"/>
+				<int name="ignoreExceptField" value="1"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="info" value="Gaining EXP"/>
+				<int name="quest" value="40914"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="info" value="Meso Magnet"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="info" value="Item Pouch"/>
+				<int name="quest" value="40900"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="info" value="Unlocking Stranger Status"/>
+				<int name="quest" value="40914"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="info" value="Quest"/>
+				<int name="quest" value="40914"/>
+				<int name="ignoreExceptField" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="exceptField">
+			<int name="begin" value="320000000"/>
+			<int name="end" value="329999999"/>
+		</imgdir>
+		<imgdir name="exceptQuest">
+			<imgdir name="0">
+				<int name="begin" value="40000"/>
+				<int name="end" value="41999"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="category" value="50"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="category" value="51"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="category" value="52"/>
+			</imgdir>
+			<imgdir name="4">
+				<int name="category" value="53"/>
+			</imgdir>
+			<imgdir name="5">
+				<int name="category" value="59"/>
+			</imgdir>
+			<imgdir name="6">
+				<int name="category" value="64"/>
+			</imgdir>
+			<imgdir name="7">
+				<int name="category" value="10"/>
+			</imgdir>
+			<imgdir name="8">
+				<int name="begin" value="49000"/>
+				<int name="end" value="49999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="acceptQuest">
+		</imgdir>
+	</imgdir>
+	<imgdir name="otherJob">
+		<imgdir name="blockQuest">
+			<imgdir name="0">
+				<int name="begin" value="40000"/>
+				<int name="end" value="41999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="blockField">
+			<imgdir name="0">
+				<int name="begin" value="320000000"/>
+				<int name="end" value="329999999"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

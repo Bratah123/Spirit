@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="BattleScene.img">
+	<imgdir name="9400080">
+		<imgdir name="0">
+			<string name="info" value="착지공격 event 설정"/>
+			<string name="actionType" value="ATTACK"/>
+			<short name="actionIndex" value="6"/>
+			<string name="scriptHeader" value="Attack1"/>
+			<string name="triggerEventName" value="trigger1"/>
+			<int name="maxStep" value="10"/>
+			<int name="fixDamR" value="10"/>
+		</imgdir>
+		<imgdir name="1">
+			<string name="info" value="발톱공격 event 설정"/>
+			<string name="actionType" value="ATTACK"/>
+			<short name="actionIndex" value="8"/>
+			<string name="scriptHeader" value="Attack2"/>
+			<string name="triggerEventName" value="trigger2"/>
+			<int name="maxStep" value="10"/>
+			<int name="fixDamR" value="10"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="8240166.img">
+	<imgdir name="info">
+		<int name="skeleton" value="1"/>
+		<int name="level" value="5"/>
+		<int name="maxHP" value="5000000"/>
+		<int name="acc" value="203"/>
+		<int name="eva" value="51"/>
+		<float name="fs" value="10.0"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="8"/>
+		<string name="mobType" value="1N"/>
+		<int name="blockUserMove" value="1"/>
+		<int name="bodyAttack" value="1"/>
+		<int name="skelAniMixRate" value="0"/>
+		<int name="nonLevelCheckEVA" value="1"/>
+		<int name="nonLevelCheckACC" value="1"/>
+		<int name="noFlip" value="1"/>
+		<imgdir name="speak">
+			<int name="chatBalloon" value="0"/>
+			<imgdir name="0">
+				<int name="hp" value="4000000"/>
+				<string name="0" value="...!"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="hp" value="3000000"/>
+				<string name="0" value="You shall not pass."/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="hp" value="2000000"/>
+				<string name="0" value="...!!"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="hp" value="1000000"/>
+				<string name="0" value="...!!!"/>
+				<string name="1" value="You shall not pass."/>
+				<string name="2" value="Kapus...!"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="damagedBySelectedSkill">
+			<int name="0" value="80001910"/>
+			<int name="1" value="80001911"/>
+			<int name="2" value="80001912"/>
+			<int name="3" value="80001913"/>
+			<int name="4" value="80001914"/>
+			<int name="5" value="80001915"/>
+			<int name="6" value="80001916"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="regen">
+		<string name="aniName" value="00_summon"/>
+	</imgdir>
+	<imgdir name="die1">
+		<string name="aniName" value="02_die"/>
+	</imgdir>
+	<imgdir name="stand">
+		<string name="aniName" value="01_stand"/>
+	</imgdir>
+	<string name="8240166.atlas" value="\nsummon_mon.png\nsize: 836,330\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nafter\n  rotate: true\n  xy: 287, 49\n  size: 139, 201\n  orig: 139, 201\n  offset: 0, 0\n  index: -1\nattack_light\n  rotate: false\n  xy: 2, 45\n  size: 283, 283\n  orig: 283, 283\n  offset: 0, 0\n  index: -1\nbit_01\n  rotate: false\n  xy: 381, 19\n  size: 36, 28\n  orig: 36, 28\n  offset: 0, 0\n  index: -1\nbit_02\n  rotate: true\n  xy: 669, 5\n  size: 31, 47\n  orig: 31, 47\n  offset: 0, 0\n  index: -1\nstone_08\n  rotate: true\n  xy: 669, 5\n  size: 31, 47\n  orig: 31, 47\n  offset: 0, 0\n  index: -1\nbit_03\n  rotate: false\n  xy: 769, 58\n  size: 44, 48\n  orig: 44, 48\n  offset: 0, 0\n  index: -1\nstone_09\n  rotate: false\n  xy: 769, 58\n  size: 44, 48\n  orig: 44, 48\n  offset: 0, 0\n  index: -1\nbit_04\n  rotate: false\n  xy: 2, 18\n  size: 99, 25\n  orig: 99, 25\n  offset: 0, 0\n  index: -1\nbit_05\n  rotate: false\n  xy: 634, 108\n  size: 94, 53\n  orig: 94, 53\n  offset: 0, 0\n  index: -1\nbit_06\n  rotate: false\n  xy: 734, 38\n  size: 33, 68\n  orig: 33, 68\n  offset: 0, 0\n  index: -1\nbit_07\n  rotate: false\n  xy: 669, 38\n  size: 63, 68\n  orig: 63, 68\n  offset: 0, 0\n  index: -1\nbit_08_core\n  rotate: false\n  xy: 769, 16\n  size: 51, 40\n  orig: 51, 40\n  offset: 0, 0\n  index: -1\neye effect\n  rotate: true\n  xy: 490, 2\n  size: 84, 60\n  orig: 84, 60\n  offset: 0, 0\n  index: -1\neye effect2\n  rotate: false\n  xy: 2, 5\n  size: 39, 11\n  orig: 39, 11\n  offset: 0, 0\n  index: -1\neye_A\n  rotate: false\n  xy: 337, 14\n  size: 42, 33\n  orig: 42, 33\n  offset: 0, 0\n  index: -1\neye_B copy\n  rotate: true\n  xy: 457, 8\n  size: 39, 20\n  orig: 39, 20\n  offset: 0, 0\n  index: -1\nmain_stobe\n  rotate: false\n  xy: 490, 88\n  size: 142, 81\n  orig: 142, 81\n  offset: 0, 0\n  index: -1\nring\n  rotate: false\n  xy: 496, 171\n  size: 179, 157\n  orig: 179, 157\n  offset: 0, 0\n  index: -1\nsmoke\n  rotate: false\n  xy: 287, 190\n  size: 207, 138\n  orig: 207, 138\n  offset: 0, 0\n  index: -1\nstone_01\n  rotate: false\n  xy: 419, 19\n  size: 36, 28\n  orig: 36, 28\n  offset: 0, 0\n  index: -1\nstone_02\n  rotate: true\n  xy: 718, 5\n  size: 31, 47\n  orig: 31, 47\n  offset: 0, 0\n  index: -1\nstone_03\n  rotate: true\n  xy: 287, 3\n  size: 44, 48\n  orig: 44, 48\n  offset: 0, 0\n  index: -1\nstone_04\n  rotate: false\n  xy: 103, 18\n  size: 99, 25\n  orig: 99, 25\n  offset: 0, 0\n  index: -1\nstone_05\n  rotate: false\n  xy: 204, 20\n  size: 75, 23\n  orig: 75, 23\n  offset: 0, 0\n  index: -1\nstone_06\n  rotate: false\n  xy: 730, 108\n  size: 94, 53\n  orig: 94, 53\n  offset: 0, 0\n  index: -1\nstone_07\n  rotate: false\n  xy: 815, 60\n  size: 19, 46\n  orig: 19, 46\n  offset: 0, 0\n  index: -1\nstone_back\n  rotate: true\n  xy: 552, 16\n  size: 70, 115\n  orig: 70, 115\n  offset: 0, 0\n  index: -1\nsummon_t\n  rotate: false\n  xy: 677, 163\n  size: 137, 165\n  orig: 137, 165\n  offset: 0, 0\n  index: -1\n"/>
+	<sound name="8240166"/>
+	<canvas name="summon_mon.png" width="836" height="330">
+		<vector name="origin" x="698" y="246"/>
+		<int name="z" value="0"/>
+	</canvas>
+</imgdir>

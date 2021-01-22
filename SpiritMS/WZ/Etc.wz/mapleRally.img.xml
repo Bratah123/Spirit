@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="mapleRally.img">
+	<imgdir name="0">
+		<imgdir name="info">
+			<string name="name" value="Victoria Return to Nature Rally"/>
+			<imgdir name="startSet">
+				<int name="npc" value="1052002"/>
+			</imgdir>
+			<imgdir name="endSet">
+				<int name="infoEx" value="52923"/>
+				<string name="ex" value="rally"/>
+				<string name="value" value="end"/>
+				<int name="npc" value="1040002"/>
+			</imgdir>
+			<imgdir name="effect">
+				<string name="start" value="event/start"/>
+				<string name="pass" value="monsterPark/clear"/>
+				<string name="finish" value="monsterPark/clearF"/>
+				<string name="fail" value="killing/fail"/>
+				<string name="timeOver" value="SportsDay/EndMessage/TimeOver"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="point">
+			<imgdir name="0">
+				<string name="portal" value="east00"/>
+				<int name="map" value="103000000"/>
+				<int name="time" value="15"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Reach the portal on the east side of Kerning City within the time limit"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="portal" value="east00"/>
+				<int name="map" value="103010000"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Octopuses and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="portal" value="east00"/>
+				<int name="map" value="103010100"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Orange Mushrooms and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="portal" value="eli00"/>
+				<int name="map" value="104020000"/>
+				<int name="time" value="30"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Reach the eastern portal leading to Ellinia within the time limit"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="portal" value="north00"/>
+				<int name="map" value="101010100"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Reach the northern portal leading to Ellinia within the time limit."/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="portal" value="north00"/>
+				<int name="map" value="101010000"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Slimes and go to the northern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="portal" value="north00"/>
+				<int name="map" value="101000000"/>
+				<int name="time" value="30"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Reach to the portal on the northern side of Ellinia within the time limit"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="portal" value="north00"/>
+				<int name="map" value="101020000"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Slimes and go to the northern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="portal" value="north00"/>
+				<int name="map" value="101020100"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Bubblings and go to the northern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="portal" value="west00"/>
+				<int name="map" value="101020200"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Fairies and go to the western portal within the time limit"/>
+			</imgdir>
+			<imgdir name="10">
+				<int name="map" value="101030000"/>
+				<int name="time" value="15"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Get to Fanzy within the time limit to complete the rally"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="1">
+		<imgdir name="info">
+			<string name="name" value="El Nath Mountains' Ice Fields Rally"/>
+			<imgdir name="startSet">
+				<int name="npc" value="2020006"/>
+			</imgdir>
+			<imgdir name="endSet">
+				<int name="infoEx" value="52924"/>
+				<string name="ex" value="rally"/>
+				<string name="value" value="end"/>
+				<int name="npc" value="2030000"/>
+			</imgdir>
+			<imgdir name="effect">
+				<string name="start" value="event/start"/>
+				<string name="pass" value="monsterPark/clear"/>
+				<string name="finish" value="monsterPark/clearF"/>
+				<string name="fail" value="killing/fail"/>
+				<string name="timeOver" value="SportsDay/EndMessage/TimeOver"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="point">
+			<imgdir name="0">
+				<string name="portal" value="east00"/>
+				<int name="map" value="211000000"/>
+				<int name="time" value="20"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Reach the portal on the east side of El Nath within the time limit"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="portal" value="east00"/>
+				<int name="map" value="211010000"/>
+				<int name="time" value="90"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Jr. Yetis and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="portal" value="east00"/>
+				<int name="map" value="211020000"/>
+				<int name="time" value="90"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Dark Jr. Yetis and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="portal" value="east00"/>
+				<int name="map" value="211030000"/>
+				<int name="time" value="90"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Pepes and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="portal" value="top00"/>
+				<int name="map" value="211040000"/>
+				<int name="time" value="90"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Dark Pepes and go to the northeastern portal leading to the Ice Valley within the time limit"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="portal" value="top00"/>
+				<int name="map" value="211040100"/>
+				<int name="time" value="90"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Hectors and go to the northern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="6">
+				<int name="map" value="211040200"/>
+				<int name="time" value="20"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Get to Jeff within the time limit to complete the rally"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="2">
+		<imgdir name="info">
+			<string name="name" value="Nihal Desert's Day-long Rally"/>
+			<imgdir name="startSet">
+				<int name="npc" value="2100001"/>
+			</imgdir>
+			<imgdir name="endSet">
+				<int name="infoEx" value="52925"/>
+				<string name="ex" value="rally"/>
+				<string name="value" value="end"/>
+				<int name="npc" value="2111004"/>
+			</imgdir>
+			<imgdir name="effect">
+				<string name="start" value="event/start"/>
+				<string name="pass" value="monsterPark/clear"/>
+				<string name="finish" value="monsterPark/clearF"/>
+				<string name="fail" value="killing/fail"/>
+				<string name="timeOver" value="SportsDay/EndMessage/TimeOver"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="point">
+			<imgdir name="0">
+				<string name="portal" value="out00"/>
+				<int name="map" value="260000200"/>
+				<int name="time" value="10"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Take the portal on the west side of Ariant to reach Ariant within the time limit"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="portal" value="east01"/>
+				<int name="map" value="260000000"/>
+				<int name="time" value="20"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Take the northeastern portal in Ariant to get to Outside the North Entrance of Ariant within the time limit"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="portal" value="east00"/>
+				<int name="map" value="260020000"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Meerkats and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="portal" value="east00"/>
+				<int name="map" value="260020100"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Meerkats and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="portal" value="east00"/>
+				<int name="map" value="260020200"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Kiyos and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="portal" value="east00"/>
+				<int name="map" value="260020300"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Sand Dwarves and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="portal" value="east00"/>
+				<int name="map" value="260020400"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Sand Dwarves and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="portal" value="east00"/>
+				<int name="map" value="260020500"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Scorpions and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="portal" value="east00"/>
+				<int name="map" value="260020600"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Sand Rats and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="portal" value="east00"/>
+				<int name="map" value="260020700"/>
+				<int name="time" value="60"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Sand Rats and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="10">
+				<int name="map" value="261000000"/>
+				<int name="time" value="20"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Get to Phyllia within the time limit to complete the rally"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="3">
+		<imgdir name="info">
+			<string name="name" value="Minar Forest Safari Rally"/>
+			<imgdir name="startSet">
+				<int name="npc" value="2081000"/>
+			</imgdir>
+			<imgdir name="endSet">
+				<int name="infoEx" value="52926"/>
+				<string name="ex" value="rally"/>
+				<string name="value" value="end"/>
+				<int name="npc" value="2081009"/>
+			</imgdir>
+			<imgdir name="effect">
+				<string name="start" value="event/start"/>
+				<string name="pass" value="monsterPark/clear"/>
+				<string name="finish" value="monsterPark/clearF"/>
+				<string name="fail" value="killing/fail"/>
+				<string name="timeOver" value="SportsDay/EndMessage/TimeOver"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="point">
+			<imgdir name="0">
+				<string name="portal" value="east00"/>
+				<int name="map" value="240000000"/>
+				<int name="time" value="20"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Reach the portal on the east side of Leafre within the time limit"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="portal" value="east00"/>
+				<int name="map" value="240011000"/>
+				<int name="time" value="90"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Beetles and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="portal" value="east00"/>
+				<int name="map" value="240010900"/>
+				<int name="time" value="90"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Dual Beetles and go to the eastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="portal" value="east01"/>
+				<int name="map" value="240010800"/>
+				<int name="time" value="90"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Harps and go to the southeastern portal within the time limit"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="portal" value="west00"/>
+				<int name="map" value="240010700"/>
+				<int name="time" value="90"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Blood Harps and go to the western portal within the time limit"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="portal" value="west00"/>
+				<int name="map" value="240010600"/>
+				<int name="time" value="90"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Blood Harps and go to the western portal within the time limit"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="portal" value="west00"/>
+				<int name="map" value="240010500"/>
+				<int name="time" value="90"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Eliminate the Dual Birks and go to the western portal within the time limit"/>
+			</imgdir>
+			<imgdir name="7">
+				<int name="map" value="240010400"/>
+				<int name="time" value="20"/>
+				<int name="item" value="5120132"/>
+				<string name="message" value="Get to Moose within the time limit to complete the rally"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

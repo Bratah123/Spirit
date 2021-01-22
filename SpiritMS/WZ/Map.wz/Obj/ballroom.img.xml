@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="ballroom.img">
+	<imgdir name="ballroom">
+		<imgdir name="ballroomLobby">
+			<imgdir name="0">
+				<canvas name="0" width="1106" height="617">
+					<vector name="origin" x="553" y="308"/>
+					<int name="z" value="0"/>
+					<extended name="foothold">
+						<vector name="foothold" x="-264" y="243"/>
+						<vector name="foothold" x="245" y="244"/>
+					</extended>
+					<extended name="foothold1">
+						<vector name="foothold1" x="269" y="279"/>
+						<vector name="foothold1" x="463" y="281"/>
+					</extended>
+				</canvas>
+			</imgdir>
+			<imgdir name="1">
+				<canvas name="0" width="1106" height="151">
+					<vector name="origin" x="553" y="75"/>
+					<int name="z" value="0"/>
+					<extended name="foothold">
+						<vector name="foothold" x="-550" y="-75"/>
+						<vector name="foothold" x="555" y="-71"/>
+					</extended>
+				</canvas>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

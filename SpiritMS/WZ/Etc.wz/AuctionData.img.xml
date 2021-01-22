@@ -1,0 +1,3180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="AuctionData.img">
+	<imgdir name="Pay">
+		<int name="depositMin" value="2000"/>
+		<int name="depositRate" value="1"/>
+		<int name="PremiumCommissionRate" value="3"/>
+		<int name="commissionRate" value="5"/>
+		<int name="PCCommissionRate" value="3"/>
+	</imgdir>
+	<imgdir name="Register">
+		<int name="endHour" value="12"/>
+		<int name="PCEndHour" value="48"/>
+		<int name="PremiumEndHour" value="48"/>
+	</imgdir>
+	<imgdir name="Search">
+		<int name="dailyCount" value="5"/>
+		<int name="rechargeInterval" value="10"/>
+		<int name="rechargeByMeso" value="50000"/>
+		<int name="dailyCountPremium" value="5"/>
+		<int name="rechargeIntervalPremium" value="10"/>
+		<int name="searchCooltime" value="7"/>
+	</imgdir>
+	<imgdir name="Slot">
+		<int name="buySlot" value="5"/>
+		<int name="pcBuySlot" value="15"/>
+		<int name="extraSellSlot" value="10"/>
+		<int name="extraBuySlot" value="10"/>
+		<int name="sellSlot" value="5"/>
+		<int name="pcSellSlot" value="15"/>
+	</imgdir>
+	<imgdir name="OptionalSearchCategory">
+		<imgdir name="0">
+			<string name="desc" value="Default: STR"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="STR"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1">
+			<string name="desc" value="Default: DEX"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="DEX"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2">
+			<string name="desc" value="Default: INT"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="INT"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3">
+			<string name="desc" value="Default: LUK"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="LUK"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="4">
+			<string name="desc" value="Default: ATT"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="PAD"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="5">
+			<string name="desc" value="Default: Magic ATT"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="MAD"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="6">
+			<string name="desc" value="Default: Increases Boss Damage"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="BDR"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="7">
+			<string name="desc" value="Default: Mob DEF Ignored"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="IMDR"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="8">
+			<string name="desc" value="Boss Damage +%"/>
+			<imgdir name="option">
+				<string name="0" value="boss"/>
+				<string name="1" value="incDAMr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="9">
+			<string name="desc" value="Mob DEF Ignored"/>
+			<imgdir name="option">
+				<string name="0" value="ignoreTargetDEF"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="10">
+			<string name="desc" value="Total Damage +%"/>
+			<imgdir name="option">
+				<string name="0" value="incDAMr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="11">
+			<string name="desc" value="ATT +%"/>
+			<imgdir name="option">
+				<string name="0" value="incPADr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="12">
+			<string name="desc" value="Magic ATT +%"/>
+			<imgdir name="option">
+				<string name="0" value="incMADr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="13">
+			<string name="desc" value="All Stats +%"/>
+			<imgdir name="option">
+				<string name="0" value="incSTRr%"/>
+				<string name="1" value="incDEXr%"/>
+				<string name="2" value="incINTr%"/>
+				<string name="3" value="incLUKr%"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="14">
+			<string name="desc" value="STR +%"/>
+			<imgdir name="option">
+				<string name="0" value="incSTRr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="15">
+			<string name="desc" value="DEX +%"/>
+			<imgdir name="option">
+				<string name="0" value="incDEXr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="16">
+			<string name="desc" value="INT +%"/>
+			<imgdir name="option">
+				<string name="0" value="incINTr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="17">
+			<string name="desc" value="LUK +%"/>
+			<imgdir name="option">
+				<string name="0" value="incLUKr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="18">
+			<string name="desc" value="Increases Critical Rate"/>
+			<imgdir name="option">
+				<string name="0" value="incCr%"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="19">
+			<string name="desc" value="Decreases Abnormal Status Duration"/>
+			<imgdir name="option">
+				<string name="0" value="reduceDisease"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="20">
+			<string name="desc" value="Increases Abnormal Status Resistance"/>
+			<imgdir name="option">
+				<string name="0" value="incAsrR"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="21">
+			<string name="desc" value="Increases Elemental Resistance"/>
+			<imgdir name="option">
+				<string name="0" value="incTerR"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="22">
+			<string name="desc" value="Increases Max Critical Damage"/>
+			<imgdir name="option">
+				<string name="0" value="incCriticaldamageMax"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="23">
+			<string name="desc" value="Increases Minimum Critical Damage"/>
+			<imgdir name="option">
+				<string name="0" value="incCriticaldamageMin"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="24">
+			<string name="desc" value="Decreases All Skill Cooldowns"/>
+			<imgdir name="option">
+				<string name="0" value="reduceCooltime"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="25">
+			<string name="desc" value="Default: Increases Total Damage"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="DamR"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="26">
+			<string name="desc" value="Default: All Stats +%"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="StatR"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="27">
+			<string name="desc" value="Increases Item Acquisition Rate"/>
+			<imgdir name="option">
+				<string name="0" value="incRewardProp"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="28">
+			<string name="desc" value="Max HP +%"/>
+			<imgdir name="option">
+				<string name="0" value="incMHPr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="29">
+			<string name="desc" value="MaxMP +%"/>
+			<imgdir name="option">
+				<string name="0" value="incMMPr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="30">
+			<string name="desc" value="Default: MaxHP"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="MaxHP"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="31">
+			<string name="desc" value="Default: MaxMP"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="MaxMP"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="32">
+			<string name="desc" value="Increases Attack"/>
+			<imgdir name="option">
+				<string name="0" value="incPAD"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="33">
+			<string name="desc" value="Increases Magic Attack"/>
+			<imgdir name="option">
+				<string name="0" value="incMAD"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="34">
+			<string name="desc" value="Default: Lower Equipment Level Restriction"/>
+			<int name="normal" value="1"/>
+			<imgdir name="option">
+				<string name="0" value="ReduceReq"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="35">
+			<string name="desc" value="&lt;Decent Haste&gt; Skill"/>
+			<imgdir name="option">
+				<string name="0" value="haste"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="36">
+			<string name="desc" value="&lt;Decent Mystic Door&gt; Skill"/>
+			<imgdir name="option">
+				<string name="0" value="mysticDoor"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="37">
+			<string name="desc" value="&lt;Decent Sharp Eyes&gt; Skill"/>
+			<imgdir name="option">
+				<string name="0" value="sharpEyes"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="38">
+			<string name="desc" value="&lt;Decent Hyper Body&gt; Skill"/>
+			<imgdir name="option">
+				<string name="0" value="hyperBody"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="39">
+			<string name="desc" value="&lt;Decent Combat Orders&gt; Skill"/>
+			<imgdir name="option">
+				<string name="0" value="combatOrders"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="40">
+			<string name="desc" value="&lt;Decent Advanced Blessing&gt; Skill"/>
+			<imgdir name="option">
+				<string name="0" value="advancedBless"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="41">
+			<string name="desc" value="&lt;Decent Speed Infusion&gt; Skill"/>
+			<imgdir name="option">
+				<string name="0" value="windBooster"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="42">
+			<string name="desc" value="Increases Max Damage Cap"/>
+			<imgdir name="option">
+				<string name="0" value="incMaxDamage"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="43">
+			<string name="desc" value="Increase STR"/>
+			<imgdir name="option">
+				<string name="0" value="incSTR"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="44">
+			<string name="desc" value="Increases DEX"/>
+			<imgdir name="option">
+				<string name="0" value="incDEX"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="45">
+			<string name="desc" value="Increases INT"/>
+			<imgdir name="option">
+				<string name="0" value="incINT"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="46">
+			<string name="desc" value="Increases LUK"/>
+			<imgdir name="option">
+				<string name="0" value="incLUK"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="47">
+			<string name="desc" value="Increases MaxHP"/>
+			<imgdir name="option">
+				<string name="0" value="incMHP"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="48">
+			<string name="desc" value="Increases MaxMP"/>
+			<imgdir name="option">
+				<string name="0" value="incMMP"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="49">
+			<string name="desc" value="Increases All Stats"/>
+			<imgdir name="option">
+				<string name="0" value="incSTR"/>
+				<string name="1" value="incDEX"/>
+				<string name="2" value="incINT"/>
+				<string name="4" value="incLUK"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="50">
+			<string name="desc" value="Increases All Skill Levels"/>
+			<imgdir name="option">
+				<string name="0" value="incAllskill"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="51">
+			<string name="desc" value="Restores HP When Attacking"/>
+			<imgdir name="option">
+				<string name="0" value="HP"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="52">
+			<string name="desc" value="Restores MP When Attacking"/>
+			<imgdir name="option">
+				<string name="0" value="MP"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="53">
+			<string name="desc" value="Increases STR every 10 character levels"/>
+			<imgdir name="option">
+				<string name="0" value="incSTRlv"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="54">
+			<string name="desc" value="Increases DEX every 10 character levels"/>
+			<imgdir name="option">
+				<string name="0" value="incDEXlv"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="55">
+			<string name="desc" value="Increases INT every 10 character levels"/>
+			<imgdir name="option">
+				<string name="0" value="incINTlv"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="56">
+			<string name="desc" value="Increases LUK every 10 character levels"/>
+			<imgdir name="option">
+				<string name="0" value="incLUKlv"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="57">
+			<string name="desc" value="Increases HP Recovery Item and Skill Efficiency"/>
+			<imgdir name="option">
+				<string name="0" value="RecoveryUP"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="58">
+			<string name="desc" value="Increases EXP Earned"/>
+			<imgdir name="option">
+				<string name="0" value="incEXPr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="59">
+			<string name="desc" value="Increases Meso Drop"/>
+			<imgdir name="option">
+				<string name="0" value="incMesoProp"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="60">
+			<string name="desc" value="Increases ATT every 10 character levels"/>
+			<imgdir name="option">
+				<string name="0" value="incPADlv"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="61">
+			<string name="desc" value="Increases Magic ATT every 10 character levels"/>
+			<imgdir name="option">
+				<string name="0" value="incMADlv"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="OptionalCategory_NotUsed">
+		<imgdir name="0">
+			<string name="desc" value="Accuracy Increase"/>
+			<imgdir name="option">
+				<string name="0" value="incACC"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1">
+			<string name="desc" value="Avoidability Increase"/>
+			<imgdir name="option">
+				<string name="0" value="incEVA"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2">
+			<string name="desc" value="Increases Movement Speed"/>
+			<imgdir name="option">
+				<string name="0" value="incSpeed"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3">
+			<string name="desc" value="Increases Jump"/>
+			<imgdir name="option">
+				<string name="0" value="incJump"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="4">
+			<string name="desc" value="Angry When Hit"/>
+			<imgdir name="option">
+				<string name="0" value="angry"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="5">
+			<string name="desc" value="Happy When Hit"/>
+			<imgdir name="option">
+				<string name="0" value="cheers"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="6">
+			<string name="desc" value="Lovestruck When Hit"/>
+			<imgdir name="option">
+				<string name="0" value="love"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="7">
+			<string name="desc" value="Exasperated When Hit"/>
+			<imgdir name="option">
+				<string name="0" value="blaze"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="8">
+			<string name="desc" value="Deeply Moved When Hit"/>
+			<imgdir name="option">
+				<string name="0" value="glitter"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="9">
+			<string name="desc" value="Hourly HP Recovery"/>
+			<imgdir name="option">
+				<string name="0" value="RecoveryHP"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="10">
+			<string name="desc" value="Hourly MP Recovery"/>
+			<imgdir name="option">
+				<string name="0" value="RecoveryMP"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="11">
+			<string name="desc" value="Inflicts Poison"/>
+			<imgdir name="option">
+				<string name="0" value="attackType1000"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="12">
+			<string name="desc" value="Inflicts Stun"/>
+			<imgdir name="option">
+				<string name="0" value="attackType1001"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="13">
+			<string name="desc" value="Inflicts Slow"/>
+			<imgdir name="option">
+				<string name="0" value="attackType1002"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="14">
+			<string name="desc" value="Inflicts Blind"/>
+			<imgdir name="option">
+				<string name="0" value="attackType1003"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="15">
+			<string name="desc" value="Inflicts Freeze"/>
+			<imgdir name="option">
+				<string name="0" value="attackType1004"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="16">
+			<string name="desc" value="Inflicts Seal"/>
+			<imgdir name="option">
+				<string name="0" value="attackType1005"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="17">
+			<string name="desc" value="Ignores Damage When Hit"/>
+			<imgdir name="option">
+				<string name="0" value="ignoreDAM"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="18">
+			<string name="desc" value="Invincibility After Being Hit"/>
+			<imgdir name="option">
+				<string name="0" value="invincible"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="19">
+			<string name="desc" value="Recover HP Upon Defeating a Monster"/>
+			<imgdir name="option">
+				<string name="0" value="killHP"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="20">
+			<string name="desc" value="Recover MP Upon Defeating a Monster"/>
+			<imgdir name="option">
+				<string name="0" value="killMP"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="21">
+			<string name="desc" value="Reflect Damage When Hit"/>
+			<imgdir name="option">
+				<string name="0" value="DAMreflect"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="22">
+			<string name="desc" value="Auto Steal When Attacking"/>
+			<imgdir name="option">
+				<string name="0" value="autoSteal"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="23">
+			<string name="desc" value="Chance for Invincibility When Hit"/>
+			<imgdir name="option">
+				<string name="0" value="invincibleTime"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="24">
+			<string name="desc" value="Reduce MP Consumption for All Skills"/>
+			<imgdir name="option">
+				<string name="0" value="mpconReduce"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="25">
+			<string name="desc" value="Speed"/>
+			<imgdir name="option">
+				<string name="0" value="Speed"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="26">
+			<string name="desc" value="Jump"/>
+			<imgdir name="option">
+				<string name="0" value="Jump"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="27">
+			<string name="desc" value="Accuracy"/>
+			<imgdir name="option">
+				<string name="0" value="Acc"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="28">
+			<string name="desc" value="Avoidability"/>
+			<imgdir name="option">
+				<string name="0" value="EVA"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="29">
+			<string name="desc" value="Weapon DEF"/>
+			<imgdir name="option">
+				<string name="0" value="PDD"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="30">
+			<string name="desc" value="Magic DEF"/>
+			<imgdir name="option">
+				<string name="0" value="MDD"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="31">
+			<string name="desc" value="Accuracy +%"/>
+			<imgdir name="option">
+				<string name="0" value="incACCr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="32">
+			<string name="desc" value="Avoidability +%"/>
+			<imgdir name="option">
+				<string name="0" value="incEVAr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="33">
+			<string name="desc" value="Weapon Defense +%"/>
+			<imgdir name="option">
+				<string name="0" value="incPDDr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="34">
+			<string name="desc" value="Magic Defense +%"/>
+			<imgdir name="option">
+				<string name="0" value="incMDDr"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="35">
+			<string name="desc" value="Increases Weapon Defense"/>
+			<imgdir name="option">
+				<string name="0" value="incPDD"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="36">
+			<string name="desc" value="Increases Magic Defense"/>
+			<imgdir name="option">
+				<string name="0" value="incMDD"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="ErrorMsg">
+		<imgdir name="0">
+			<string name="info" value="Maple Auction Reset"/>
+			<string name="0" value="#eMaple Auction is available."/>
+			<string name="1" value="#eMaple Auction is temporarily under maintenance, and unavailable.\n#nThe Meso Market can be used as normal."/>
+			<string name="2" value="#eYour account has restrictions on using Maple Auction."/>
+			<string name="3" value="#ePlease close the other window first"/>
+			<string name="4" value="#eYou cannot search mutliple times in 7 seconds.\n#nPlease try again in a little bit."/>
+			<string name="5" value="#eYou are connecting from a different IP address than last time.\n#nTrades will be temporarily restricted."/>
+			<string name="6" value="Your account has been inactive for a while, \nso #eMaple Auction has been locked#. To unlock, \nlog in to the official website, choose \n#eMy Maple, Inactive Account Dismiss, Undo#."/>
+		</imgdir>
+		<imgdir name="1">
+			<string name="info" value="List Item"/>
+			<string name="0" value="#eYou successfully listed your item for trade."/>
+			<string name="1" value="#eThere seems to be a problem with the price you entered.\n#nPlease check the price requirement,\nor other entries."/>
+			<string name="2" value="#eYou cannot list this item because of its duration."/>
+			<string name="3" value="#eListing failed. You don't have enough for the Listing Deposit."/>
+			<string name="4" value="#eYou don't have enough sales slots.\n#nPlease check your Completed tab to see if you have items waiting."/>
+			<string name="5" value="#eReserve price cannot exceed the Buy Now price."/>
+			<string name="6" value="#eFailure due to unknown error."/>
+			<string name="7" value="#eYou cannot register Cash Items with bonus stats."/>
+		</imgdir>
+		<imgdir name="2">
+			<string name="info" value="Cancel Listing"/>
+			<string name="0" value="#eAuction cancelled.\n#nPlease check your Completed tab."/>
+			<string name="1" value="#eThis type of auction can not be canceled once in progress."/>
+			<string name="2" value="#eCancellations are only available within the first 5 minutes of listing."/>
+			<string name="3" value="#eThis item already has a bid, or is already making a deal."/>
+			<string name="4" value="#eOnly the seller can cancel an auction."/>
+			<string name="5" value="#eFailure due to unknown error."/>
+		</imgdir>
+		<imgdir name="3">
+			<string name="info" value="Buy Now"/>
+			<string name="0" value="#eBuy Now successful!\n#nPlease check the Completed tab."/>
+			<string name="1" value="#eThe Buy Now price has not been set."/>
+			<string name="2" value="#eBuy Now price is different from the requested price."/>
+			<string name="3" value="#eYou cannot put in a Buy Now request for the item you listed."/>
+			<string name="4" value="#e#eYou don't have enough mesos to Buy Now."/>
+			<string name="5" value="#eYou don't have enough Purchase Slots.\n#nPlease check your Completed tab to see if you have items waiting."/>
+			<string name="6" value="#eYou still have refunds you haven't received.\n#nCheck the Completed tab for refunds."/>
+			<string name="7" value="#eFailure due to unknown error."/>
+		</imgdir>
+		<imgdir name="4">
+			<string name="info" value="Bid"/>
+			<string name="0" value="#eBid successful."/>
+			<string name="1" value="#eFailed to get highest bid."/>
+			<string name="2" value="#eSomeone else has a higher bid."/>
+			<string name="3" value="#eYou cannot bid at the Buy Now price."/>
+			<string name="4" value="#eYou cannot bid on an item you listed."/>
+			<string name="5" value="#eYou are already the highest bidder."/>
+			<string name="6" value="#eYou don't have enough mesos to make that bid."/>
+			<string name="7" value="#eYou still have refunds you haven't received.\n#nCheck the Completed tab for refunds."/>
+			<string name="8" value="#eBid is too low.\n#n(New bids must be at least 5% higher than the current bid.)"/>
+			<string name="9" value="#eYou don't have enough Purchase Slots.\n#nPlease check your Completed tab to see if you have items waiting."/>
+			<string name="10" value="#eFailure due to unknown error."/>
+		</imgdir>
+		<imgdir name="5">
+			<string name="info" value="Average Price Auto Buy"/>
+			<string name="0" value="#eYour purchase request has been completed."/>
+			<string name="1" value="#eThere is an item with the wrong price."/>
+			<string name="2" value="#eSeller and buyer are the same."/>
+			<string name="3" value="#eThe item you're trying to purchase is sold out."/>
+			<string name="4" value="#eYou cannot purchase because there's not enough listed items\nor the average price has shifted.\n#n(You cannot purchase when there are only items you put up for auction.)"/>
+			<string name="5" value="#eYou don't have enough mesos for this purchase."/>
+			<string name="6" value="#eYou don't have enough Purchase Slots.\n#nPlease check your Completed tab to see if you have items waiting."/>
+			<string name="7" value="#eFailure due to unknown error."/>
+		</imgdir>
+		<imgdir name="6">
+			<string name="info" value="Complete"/>
+			<string name="0" value="#eYou completed successfully."/>
+			<string name="1" value="#eHighest bidder and recipient do not match."/>
+			<string name="2" value="#eItem owner and recipient are different."/>
+			<string name="3" value="#eYou can not receive the item because your Inventory is full."/>
+			<string name="4" value="#eIf you fail to sell a Cash Item, only the character\nthat listed the item can reclaim it."/>
+			<string name="5" value="#eYou exceeded the meso limit. \n#n Please check the number of mesos you have."/>
+			<string name="6" value="#eYou cannot try again so soon.#n\nPlease try again in a moment."/>
+			<string name="8" value="#eFailure due to unknown error."/>
+			<string name="7" value="#eYou can only have one of this item."/>
+		</imgdir>
+		<imgdir name="7">
+			<string name="info" value="Results"/>
+			<string name="0" value="#eSuccessful search."/>
+			<string name="1" value="#eYou have too many results.\n#nPlease enter more filters."/>
+			<string name="2" value="#eNo search results.\n#nThis search will not be counted."/>
+		</imgdir>
+		<imgdir name="8">
+			<string name="info" value="In Progress"/>
+		</imgdir>
+		<imgdir name="9">
+			<string name="info" value="Auction History"/>
+		</imgdir>
+		<imgdir name="10">
+			<string name="info" value="View Average Price"/>
+		</imgdir>
+		<imgdir name="11">
+			<string name="info" value="Haggle"/>
+			<string name="0" value="#eYou successfully put in a Haggle Request.\n#nPlease wait for the seller's response."/>
+			<string name="1" value="#eThis item has already been sold,\nor the seller is not willing to haggle."/>
+			<string name="2" value="#eThis item has already been sold,\nor the seller is not willing to haggle."/>
+			<string name="3" value="#eThis item is not available for haggling."/>
+			<string name="4" value="#eYour are unable to purchase \nan item that you listed for sale. "/>
+			<string name="5" value="#eYou can only haggle for 1 item at a time."/>
+			<string name="6" value="#eYou do not have enough mesos to haggle."/>
+			<string name="7" value="#eYour message is too long."/>
+			<string name="8" value="#eYou message contains restricted words, and cannot be sent."/>
+			<string name="9" value="#eYou cannot haggle for this item."/>
+			<string name="10" value="#eThe buyer who requested haggling could not pay the fee."/>
+			<string name="11" value="#eThe seller is currently offline."/>
+			<string name="12" value="#eFailed to complete item purchase."/>
+			<string name="13" value="#eYou can only accept\none haggle request#n per item."/>
+			<string name="14" value="#eYou don't have enough Purchase Slots.\n#nPlease check your Completed tab to see if you have items waiting."/>
+			<string name="15" value="#eEither the Auction House is under maintenance\nor you are on a channel that can't access the Auction House."/>
+		</imgdir>
+		<imgdir name="20">
+			<string name="info" value="Meso Market"/>
+			<string name="0" value="Success"/>
+			<string name="1" value="Please try again."/>
+			<string name="2" value="Trade stopped."/>
+			<string name="3" value="Please try again later."/>
+			<string name="4" value="Cannot process this request at this time. Please try again later."/>
+			<string name="5" value="Please close all remaining trades by selecting Cancel Purchase/Sales Request."/>
+			<string name="6" value="You have a completed trade. Please select Claim Mesos/Points."/>
+			<string name="7" value="You don't have any trades in progress."/>
+			<string name="8" value="Failure due to carrying too many mesos. "/>
+			<string name="9" value="Failure due to carrying too many Maple Points."/>
+			<string name="10" value="This transaction has already been completed."/>
+			<string name="11" value="Failed to authenticate."/>
+			<string name="12" value="The Meso Market cannot be used at this moment."/>
+			<string name="13" value="The Meso Market cannot be used while working on something else."/>
+			<string name="14" value="Failure due to too many mesos, or busy with another trade."/>
+			<string name="100" value="The Meso Market cannot be used at this moment."/>
+			<string name="101" value="This request cannot be processed right now."/>
+			<string name="102" value="The transaction is still not available."/>
+			<string name="103" value="Not available."/>
+			<string name="104" value="Please try again later."/>
+			<string name="105" value="You don't have enough mesos."/>
+			<string name="106" value="You don't have enough Maple Points."/>
+			<string name="107" value="Your Meso wallet is full."/>
+			<string name="108" value="Your Maple Points wallet is full."/>
+			<string name="109" value="There is already a trade in progress."/>
+			<string name="110" value="Max listings already reached."/>
+			<string name="111" value="That cannot be traded."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="ItemCategory_Armor">
+		<imgdir name="default">
+			<string name="string" value="All"/>
+		</imgdir>
+		<imgdir name="Armor">
+			<string name="string" value="Armor"/>
+		</imgdir>
+		<imgdir name="Accessory">
+			<string name="string" value="Accessory"/>
+		</imgdir>
+		<imgdir name="Etc">
+			<string name="string" value="Etc"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="ItemDetailCategory_Armor">
+		<imgdir name="default">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="1000000"/>
+					<int name="end" value="1009999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="1040000"/>
+					<int name="end" value="1049999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="1050000"/>
+					<int name="end" value="1059999"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="1060000"/>
+					<int name="end" value="1069999"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="1070000"/>
+					<int name="end" value="1079999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="1080000"/>
+					<int name="end" value="1089999"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="begin" value="1090000"/>
+					<int name="end" value="1099999"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="begin" value="1100000"/>
+					<int name="end" value="1109999"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="begin" value="1010000"/>
+					<int name="end" value="1019999"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="begin" value="1020000"/>
+					<int name="end" value="1029999"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="begin" value="1030000"/>
+					<int name="end" value="1039999"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="begin" value="1110000"/>
+					<int name="end" value="1119999"/>
+				</imgdir>
+				<imgdir name="12">
+					<int name="begin" value="1120000"/>
+					<int name="end" value="1129999"/>
+				</imgdir>
+				<imgdir name="13">
+					<int name="begin" value="1130000"/>
+					<int name="end" value="1139999"/>
+				</imgdir>
+				<imgdir name="14">
+					<int name="begin" value="1140000"/>
+					<int name="end" value="1149999"/>
+				</imgdir>
+				<imgdir name="15">
+					<int name="begin" value="1150000"/>
+					<int name="end" value="1159999"/>
+				</imgdir>
+				<imgdir name="16">
+					<int name="begin" value="1160000"/>
+					<int name="end" value="1169999"/>
+				</imgdir>
+				<imgdir name="17">
+					<int name="begin" value="1180000"/>
+					<int name="end" value="1189999"/>
+				</imgdir>
+				<imgdir name="18">
+					<int name="begin" value="1190000"/>
+					<int name="end" value="1190199"/>
+				</imgdir>
+				<imgdir name="19">
+					<int name="begin" value="1190200"/>
+					<string name="end" value="1190299"/>
+				</imgdir>
+				<imgdir name="20">
+					<int name="begin" value="1610000"/>
+					<int name="end" value="1659999"/>
+				</imgdir>
+				<imgdir name="21">
+					<int name="begin" value="1660000"/>
+					<int name="end" value="1669999"/>
+				</imgdir>
+				<imgdir name="22">
+					<int name="begin" value="1670000"/>
+					<int name="end" value="1679999"/>
+				</imgdir>
+				<imgdir name="23">
+					<int name="begin" value="1800000"/>
+					<int name="end" value="1809999"/>
+				</imgdir>
+				<imgdir name="24">
+					<int name="begin" value="1940000"/>
+					<int name="end" value="1979999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Armor">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="1000000"/>
+					<int name="end" value="1009999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="1040000"/>
+					<int name="end" value="1049999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="1050000"/>
+					<int name="end" value="1059999"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="1060000"/>
+					<int name="end" value="1069999"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="1070000"/>
+					<int name="end" value="1079999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="1080000"/>
+					<int name="end" value="1089999"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="begin" value="1090000"/>
+					<int name="end" value="1099999"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="begin" value="1100000"/>
+					<int name="end" value="1109999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Cap">
+				<string name="string" value="Hat"/>
+				<imgdir name="0">
+					<int name="begin" value="1000000"/>
+					<int name="end" value="1009999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Coat">
+				<string name="string" value="Top"/>
+				<imgdir name="0">
+					<int name="begin" value="1040000"/>
+					<int name="end" value="1049999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Longcoat">
+				<string name="string" value="Outfit"/>
+				<imgdir name="0">
+					<int name="begin" value="1050000"/>
+					<int name="end" value="1059999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Pants">
+				<string name="string" value="Bottom"/>
+				<imgdir name="0">
+					<int name="begin" value="1060000"/>
+					<int name="end" value="1069999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Shoes">
+				<string name="string" value="Shoes"/>
+				<imgdir name="0">
+					<int name="begin" value="1070000"/>
+					<int name="end" value="1079999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Glove">
+				<string name="string" value="Glove"/>
+				<imgdir name="0">
+					<int name="begin" value="1080000"/>
+					<int name="end" value="1089999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Shield">
+				<string name="string" value="Shield"/>
+				<imgdir name="0">
+					<int name="begin" value="1090000"/>
+					<int name="end" value="1099999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Cape">
+				<string name="string" value="Cape"/>
+				<imgdir name="0">
+					<int name="begin" value="1100000"/>
+					<int name="end" value="1109999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Accessory">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="1010000"/>
+					<int name="end" value="1019999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="1020000"/>
+					<int name="end" value="1029999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="1030000"/>
+					<int name="end" value="1039999"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="1110000"/>
+					<int name="end" value="1119999"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="1120000"/>
+					<int name="end" value="1129999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="1130000"/>
+					<int name="end" value="1139999"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="begin" value="1140000"/>
+					<int name="end" value="1149999"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="begin" value="1150000"/>
+					<int name="end" value="1159999"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="begin" value="1160000"/>
+					<int name="end" value="1169999"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="begin" value="1180000"/>
+					<int name="end" value="1189999"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="begin" value="1190000"/>
+					<int name="end" value="1190199"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="begin" value="1190200"/>
+					<string name="end" value="1190299"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Face">
+				<string name="string" value="Face Accessory"/>
+				<imgdir name="0">
+					<int name="begin" value="1010000"/>
+					<int name="end" value="1019999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Eye">
+				<string name="string" value="Eyewear"/>
+				<imgdir name="0">
+					<int name="begin" value="1020000"/>
+					<int name="end" value="1029999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Ear">
+				<string name="string" value="Earrings"/>
+				<imgdir name="0">
+					<int name="begin" value="1030000"/>
+					<int name="end" value="1039999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Ring">
+				<string name="string" value="Ring"/>
+				<imgdir name="0">
+					<int name="begin" value="1110000"/>
+					<int name="end" value="1119999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Pendant">
+				<string name="string" value="Pendant"/>
+				<imgdir name="0">
+					<int name="begin" value="1120000"/>
+					<int name="end" value="1129999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Belt">
+				<string name="string" value="Belt"/>
+				<imgdir name="0">
+					<int name="begin" value="1130000"/>
+					<int name="end" value="1139999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Medal">
+				<string name="string" value="Medal"/>
+				<imgdir name="0">
+					<int name="begin" value="1140000"/>
+					<int name="end" value="1149999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Shoulder">
+				<string name="string" value="Shoulder Accessory"/>
+				<imgdir name="0">
+					<int name="begin" value="1150000"/>
+					<int name="end" value="1159999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Pocket">
+				<string name="string" value="Pocket Item"/>
+				<imgdir name="0">
+					<int name="begin" value="1160000"/>
+					<int name="end" value="1169999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Badge">
+				<string name="string" value="Badge"/>
+				<imgdir name="0">
+					<int name="begin" value="1180000"/>
+					<int name="end" value="1189999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Emblem">
+				<string name="string" value="Emblem"/>
+				<imgdir name="0">
+					<int name="begin" value="1190000"/>
+					<int name="end" value="1190199"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="PowerSource">
+				<string name="string" value="Power Source"/>
+				<imgdir name="0">
+					<int name="begin" value="1190200"/>
+					<string name="end" value="1190299"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Etc">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="1610000"/>
+					<int name="end" value="1659999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="1660000"/>
+					<int name="end" value="1669999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="1670000"/>
+					<int name="end" value="1679999"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="1800000"/>
+					<int name="end" value="1809999"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="1940000"/>
+					<int name="end" value="1979999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Mechanic">
+				<string name="string" value="Mechanic Gear"/>
+				<imgdir name="0">
+					<int name="begin" value="1610000"/>
+					<int name="end" value="1659999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Android">
+				<string name="string" value="Android"/>
+				<imgdir name="0">
+					<int name="begin" value="1660000"/>
+					<int name="end" value="1669999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="MachineHeart">
+				<string name="string" value="Mechanical Heart"/>
+				<imgdir name="0">
+					<int name="begin" value="1670000"/>
+					<int name="end" value="1679999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="PetEquip">
+				<string name="string" value="Pet Equipment"/>
+				<imgdir name="0">
+					<int name="begin" value="1800000"/>
+					<int name="end" value="1809999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="DragonCap">
+				<string name="string" value="Dragon Equipment"/>
+				<imgdir name="0">
+					<int name="begin" value="1940000"/>
+					<int name="end" value="1979999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="ItemCategory_Weapon">
+		<imgdir name="default">
+			<string name="string" value="All"/>
+		</imgdir>
+		<imgdir name="OneHandedWeapon">
+			<string name="string" value="One-handed Weapon"/>
+		</imgdir>
+		<imgdir name="TwoHandedWeapon">
+			<string name="string" value="Two-handed Weapon"/>
+		</imgdir>
+		<imgdir name="SubWeapon">
+			<string name="string" value="Secondary Weapon"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="ItemDetailCategory_Weapon">
+		<imgdir name="default">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="1212000"/>
+					<int name="end" value="1212999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="1222000"/>
+					<int name="end" value="1222999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="1232000"/>
+					<int name="end" value="1232999"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="1242000"/>
+					<int name="end" value="1242999"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="1300000"/>
+					<int name="end" value="1309999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="1310000"/>
+					<int name="end" value="1319999"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="begin" value="1320000"/>
+					<int name="end" value="1329999"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="begin" value="1330000"/>
+					<int name="end" value="1339999"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="begin" value="1340000"/>
+					<int name="end" value="1349999"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="begin" value="1360000"/>
+					<int name="end" value="1369999"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="begin" value="1370000"/>
+					<int name="end" value="1379999"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="begin" value="1380000"/>
+					<int name="end" value="1389999"/>
+				</imgdir>
+				<imgdir name="12">
+					<int name="begin" value="1400000"/>
+					<int name="end" value="1409999"/>
+				</imgdir>
+				<imgdir name="13">
+					<int name="end" value="1419999"/>
+					<int name="begin" value="1410000"/>
+				</imgdir>
+				<imgdir name="14">
+					<int name="end" value="1429999"/>
+					<int name="begin" value="1420000"/>
+				</imgdir>
+				<imgdir name="15">
+					<int name="end" value="1439999"/>
+					<int name="begin" value="1430000"/>
+				</imgdir>
+				<imgdir name="16">
+					<int name="end" value="1449999"/>
+					<int name="begin" value="1440000"/>
+				</imgdir>
+				<imgdir name="17">
+					<int name="end" value="1459999"/>
+					<int name="begin" value="1450000"/>
+				</imgdir>
+				<imgdir name="18">
+					<int name="end" value="1469999"/>
+					<int name="begin" value="1460000"/>
+				</imgdir>
+				<imgdir name="19">
+					<int name="end" value="1479999"/>
+					<int name="begin" value="1470000"/>
+				</imgdir>
+				<imgdir name="20">
+					<int name="end" value="1489999"/>
+					<int name="begin" value="1480000"/>
+				</imgdir>
+				<imgdir name="21">
+					<int name="end" value="1499999"/>
+					<int name="begin" value="1490000"/>
+				</imgdir>
+				<imgdir name="22">
+					<int name="end" value="1529999"/>
+					<int name="begin" value="1520000"/>
+				</imgdir>
+				<imgdir name="23">
+					<int name="end" value="1352099"/>
+					<int name="begin" value="1352000"/>
+				</imgdir>
+				<imgdir name="24">
+					<int name="end" value="1352199"/>
+					<int name="begin" value="1352100"/>
+				</imgdir>
+				<imgdir name="25">
+					<int name="end" value="1352499"/>
+					<int name="begin" value="1352400"/>
+				</imgdir>
+				<imgdir name="26">
+					<int name="end" value="1352209"/>
+					<int name="begin" value="1352200"/>
+				</imgdir>
+				<imgdir name="27">
+					<int name="end" value="1352219"/>
+					<int name="begin" value="1352210"/>
+				</imgdir>
+				<imgdir name="28">
+					<int name="end" value="1352229"/>
+					<int name="begin" value="1352220"/>
+				</imgdir>
+				<imgdir name="29">
+					<int name="end" value="1352259"/>
+					<int name="begin" value="1352230"/>
+				</imgdir>
+				<imgdir name="30">
+					<int name="end" value="1352269"/>
+					<int name="begin" value="1352260"/>
+				</imgdir>
+				<imgdir name="31">
+					<int name="end" value="1352279"/>
+					<int name="begin" value="1352270"/>
+				</imgdir>
+				<imgdir name="32">
+					<int name="end" value="1352289"/>
+					<int name="begin" value="1352280"/>
+				</imgdir>
+				<imgdir name="33">
+					<int name="end" value="1352299"/>
+					<int name="begin" value="1352290"/>
+				</imgdir>
+				<imgdir name="34">
+					<int name="end" value="1352909"/>
+					<int name="begin" value="1352900"/>
+				</imgdir>
+				<imgdir name="35">
+					<int name="end" value="1352919"/>
+					<int name="begin" value="1352910"/>
+				</imgdir>
+				<imgdir name="36">
+					<int name="end" value="1352929"/>
+					<int name="begin" value="1352920"/>
+				</imgdir>
+				<imgdir name="37">
+					<int name="end" value="1352919"/>
+					<int name="begin" value="1352910"/>
+				</imgdir>
+				<imgdir name="38">
+					<int name="end" value="1352949"/>
+					<int name="begin" value="1352940"/>
+				</imgdir>
+				<imgdir name="39">
+					<int name="end" value="1352959"/>
+					<int name="begin" value="1352950"/>
+				</imgdir>
+				<imgdir name="40">
+					<int name="end" value="1352969"/>
+					<int name="begin" value="1352960"/>
+				</imgdir>
+				<imgdir name="41">
+					<int name="end" value="1352979"/>
+					<int name="begin" value="1352970"/>
+				</imgdir>
+				<imgdir name="42">
+					<int name="end" value="1539999"/>
+					<int name="begin" value="1530000"/>
+				</imgdir>
+				<imgdir name="43">
+					<int name="begin" value="1262000"/>
+					<int name="end" value="1262999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="OneHandedWeapon">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="1212000"/>
+					<int name="end" value="1212999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="1222000"/>
+					<int name="end" value="1222999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="1232000"/>
+					<int name="end" value="1232999"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="1242000"/>
+					<int name="end" value="1242999"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="1300000"/>
+					<int name="end" value="1309999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="1310000"/>
+					<int name="end" value="1319999"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="begin" value="1320000"/>
+					<int name="end" value="1329999"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="begin" value="1330000"/>
+					<int name="end" value="1339999"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="begin" value="1340000"/>
+					<int name="end" value="1349999"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="begin" value="1360000"/>
+					<int name="end" value="1369999"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="begin" value="1370000"/>
+					<int name="end" value="1379999"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="begin" value="1380000"/>
+					<int name="end" value="1389999"/>
+				</imgdir>
+				<imgdir name="12">
+					<int name="begin" value="1262000"/>
+					<int name="end" value="1262999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="ShiningRod">
+				<string name="string" value="Shining Rod"/>
+				<imgdir name="0">
+					<int name="begin" value="1212000"/>
+					<int name="end" value="1212999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="SoulShooter">
+				<string name="string" value="Soul Shooter"/>
+				<imgdir name="0">
+					<int name="begin" value="1222000"/>
+					<int name="end" value="1222999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Desperado">
+				<string name="string" value="Desperado"/>
+				<imgdir name="0">
+					<int name="begin" value="1232000"/>
+					<int name="end" value="1232999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="EnergySword">
+				<string name="string" value="Whip Blade"/>
+				<imgdir name="0">
+					<int name="begin" value="1242000"/>
+					<int name="end" value="1242999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Sword">
+				<string name="string" value="One-handed Sword"/>
+				<imgdir name="0">
+					<int name="begin" value="1300000"/>
+					<int name="end" value="1309999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Axe">
+				<string name="string" value="One-handed Axe"/>
+				<imgdir name="0">
+					<int name="begin" value="1310000"/>
+					<int name="end" value="1319999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Mace">
+				<string name="string" value="One-handed Blunt Weapon"/>
+				<imgdir name="0">
+					<int name="begin" value="1320000"/>
+					<int name="end" value="1329999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Dagger">
+				<string name="string" value="Dagger"/>
+				<imgdir name="0">
+					<int name="begin" value="1330000"/>
+					<int name="end" value="1339999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Blade">
+				<string name="string" value="Katara"/>
+				<imgdir name="0">
+					<int name="begin" value="1340000"/>
+					<int name="end" value="1349999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Cane">
+				<string name="string" value="Cane"/>
+				<imgdir name="0">
+					<int name="begin" value="1360000"/>
+					<int name="end" value="1369999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Wand">
+				<string name="string" value="Wand"/>
+				<imgdir name="0">
+					<int name="begin" value="1370000"/>
+					<int name="end" value="1379999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Staff">
+				<string name="string" value="Staff"/>
+				<imgdir name="0">
+					<int name="begin" value="1380000"/>
+					<int name="end" value="1389999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="ESPLimiter">
+				<string name="string" value="Psy-limiter"/>
+				<imgdir name="0">
+					<int name="begin" value="1262000"/>
+					<int name="end" value="1262999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="TwoHandedWeapon">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="1400000"/>
+					<int name="end" value="1409999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="end" value="1419999"/>
+					<int name="begin" value="1410000"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="end" value="1429999"/>
+					<int name="begin" value="1420000"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="end" value="1439999"/>
+					<int name="begin" value="1430000"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="end" value="1449999"/>
+					<int name="begin" value="1440000"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="end" value="1459999"/>
+					<int name="begin" value="1450000"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="end" value="1469999"/>
+					<int name="begin" value="1460000"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="end" value="1479999"/>
+					<int name="begin" value="1470000"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="end" value="1489999"/>
+					<int name="begin" value="1480000"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="end" value="1499999"/>
+					<int name="begin" value="1490000"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="end" value="1529999"/>
+					<int name="begin" value="1520000"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="end" value="1539999"/>
+					<int name="begin" value="1530000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Sword">
+				<string name="string" value="Two-handed Sword"/>
+				<imgdir name="0">
+					<int name="begin" value="1400000"/>
+					<int name="end" value="1409999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Axe">
+				<string name="string" value="Two-Handed Axe"/>
+				<imgdir name="0">
+					<int name="end" value="1419999"/>
+					<int name="begin" value="1410000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Mace">
+				<string name="string" value="Two-Handed Blunt"/>
+				<imgdir name="0">
+					<int name="end" value="1429999"/>
+					<int name="begin" value="1420000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Spear">
+				<string name="string" value="Spear"/>
+				<imgdir name="0">
+					<int name="end" value="1439999"/>
+					<int name="begin" value="1430000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Polearm">
+				<string name="string" value="Pole Arm"/>
+				<imgdir name="0">
+					<int name="end" value="1449999"/>
+					<int name="begin" value="1440000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Bow">
+				<string name="string" value="Bow"/>
+				<imgdir name="0">
+					<int name="end" value="1459999"/>
+					<int name="begin" value="1450000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="CorssBow">
+				<string name="string" value="Crossbow"/>
+				<imgdir name="0">
+					<int name="end" value="1469999"/>
+					<int name="begin" value="1460000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="ThrowingGlove">
+				<string name="string" value="Claw"/>
+				<imgdir name="0">
+					<int name="end" value="1479999"/>
+					<int name="begin" value="1470000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Knuckle">
+				<string name="string" value="Knuckle"/>
+				<imgdir name="0">
+					<int name="end" value="1489999"/>
+					<int name="begin" value="1480000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Gun">
+				<string name="string" value="Gun"/>
+				<imgdir name="0">
+					<int name="end" value="1499999"/>
+					<int name="begin" value="1490000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="DualBow">
+				<string name="string" value="Dual Bowgun"/>
+				<imgdir name="0">
+					<int name="end" value="1529999"/>
+					<int name="begin" value="1520000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="HandCannon">
+				<string name="string" value="Hand Cannon"/>
+				<imgdir name="0">
+					<int name="end" value="1539999"/>
+					<int name="begin" value="1530000"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="SubWeapon">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="end" value="1352099"/>
+					<int name="begin" value="1352000"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="end" value="1352199"/>
+					<int name="begin" value="1352100"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="end" value="1352499"/>
+					<int name="begin" value="1352400"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="end" value="1352209"/>
+					<int name="begin" value="1352200"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="end" value="1352219"/>
+					<int name="begin" value="1352210"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="end" value="1352229"/>
+					<int name="begin" value="1352220"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="end" value="1352259"/>
+					<int name="begin" value="1352230"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="end" value="1352269"/>
+					<int name="begin" value="1352260"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="end" value="1352279"/>
+					<int name="begin" value="1352270"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="end" value="1352289"/>
+					<int name="begin" value="1352280"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="end" value="1352299"/>
+					<int name="begin" value="1352290"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="end" value="1352909"/>
+					<int name="begin" value="1352900"/>
+				</imgdir>
+				<imgdir name="12">
+					<int name="end" value="1352919"/>
+					<int name="begin" value="1352910"/>
+				</imgdir>
+				<imgdir name="13">
+					<int name="end" value="1352929"/>
+					<int name="begin" value="1352920"/>
+				</imgdir>
+				<imgdir name="14">
+					<int name="end" value="1352919"/>
+					<int name="begin" value="1352910"/>
+				</imgdir>
+				<imgdir name="15">
+					<int name="end" value="1352949"/>
+					<int name="begin" value="1352940"/>
+				</imgdir>
+				<imgdir name="16">
+					<int name="end" value="1352959"/>
+					<int name="begin" value="1352950"/>
+				</imgdir>
+				<imgdir name="17">
+					<int name="end" value="1352969"/>
+					<int name="begin" value="1352960"/>
+				</imgdir>
+				<imgdir name="18">
+					<int name="end" value="1352979"/>
+					<int name="begin" value="1352970"/>
+				</imgdir>
+				<imgdir name="19">
+					<int name="end" value="1353299"/>
+					<int name="begin" value="1353200"/>
+				</imgdir>
+				<imgdir name="20">
+					<int name="end" value="1353199"/>
+					<int name="begin" value="1353100"/>
+				</imgdir>
+				<imgdir name="21">
+					<int name="end" value="1353099"/>
+					<int name="begin" value="1353000"/>
+				</imgdir>
+				<imgdir name="22">
+					<int name="end" value="1352799"/>
+					<int name="begin" value="1352700"/>
+				</imgdir>
+				<imgdir name="23">
+					<int name="end" value="1352599"/>
+					<int name="begin" value="1352500"/>
+				</imgdir>
+				<imgdir name="24">
+					<int name="end" value="1352699"/>
+					<int name="begin" value="1352600"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="MagicArrow">
+				<string name="string" value="Magic Arrow"/>
+				<imgdir name="0">
+					<int name="end" value="1352099"/>
+					<int name="begin" value="1352000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Card">
+				<string name="string" value="Card"/>
+				<imgdir name="0">
+					<int name="end" value="1352199"/>
+					<int name="begin" value="1352100"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="EunwolFoxOrb">
+				<string name="string" value="Fox Marble"/>
+				<imgdir name="0">
+					<int name="end" value="1353199"/>
+					<int name="begin" value="1353100"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Orb">
+				<string name="string" value="Orb"/>
+				<imgdir name="0">
+					<int name="end" value="1352499"/>
+					<int name="begin" value="1352400"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="HeroMedal">
+				<string name="string" value="Medal"/>
+				<imgdir name="0">
+					<int name="end" value="1352209"/>
+					<int name="begin" value="1352200"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Rosario">
+				<string name="string" value="Rosary"/>
+				<imgdir name="0">
+					<int name="end" value="1352219"/>
+					<int name="begin" value="1352210"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Chain">
+				<string name="string" value="Iron Chain"/>
+				<imgdir name="0">
+					<int name="end" value="1352229"/>
+					<int name="begin" value="1352220"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Book">
+				<string name="string" value="Spellbook"/>
+				<imgdir name="0">
+					<int name="end" value="1352259"/>
+					<int name="begin" value="1352230"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="BowMasterFeather">
+				<string name="string" value="Arrow Fletching"/>
+				<imgdir name="0">
+					<int name="end" value="1352269"/>
+					<int name="begin" value="1352260"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="CrossBowThimble">
+				<string name="string" value="Bow Thimble"/>
+				<imgdir name="0">
+					<int name="end" value="1352279"/>
+					<int name="begin" value="1352270"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="ShadowerSheath">
+				<string name="string" value="Dagger Scabbard"/>
+				<imgdir name="0">
+					<int name="end" value="1352289"/>
+					<int name="begin" value="1352280"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="NightLordPouch">
+				<string name="string" value="Charm"/>
+				<imgdir name="0">
+					<int name="end" value="1352299"/>
+					<int name="begin" value="1352290"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="ViperWristband">
+				<string name="string" value="Wrist Band"/>
+				<imgdir name="0">
+					<int name="end" value="1352909"/>
+					<int name="begin" value="1352900"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="CaptainSight">
+				<string name="string" value="Far Sight"/>
+				<imgdir name="0">
+					<int name="end" value="1352919"/>
+					<int name="begin" value="1352910"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="CannonGunPowder">
+				<string name="string" value="Powder Keg"/>
+				<imgdir name="0">
+					<int name="end" value="1352929"/>
+					<int name="begin" value="1352920"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="end" value="1352989"/>
+					<int name="begin" value="1352980"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="AranPendulum">
+				<string name="string" value="Ballast"/>
+				<imgdir name="0">
+					<int name="end" value="1352939"/>
+					<int name="begin" value="1352930"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="EvanPaper">
+				<string name="string" value="Document"/>
+				<imgdir name="0">
+					<int name="end" value="1352949"/>
+					<int name="begin" value="1352940"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="BattlemageOrb">
+				<string name="string" value="Magic Marble"/>
+				<imgdir name="0">
+					<int name="end" value="1352959"/>
+					<int name="begin" value="1352950"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="WildHunterArrowHead">
+				<string name="string" value="Arrowhead"/>
+				<imgdir name="0">
+					<int name="end" value="1352969"/>
+					<int name="begin" value="1352960"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="XenonControler">
+				<string name="string" value="Controller"/>
+				<imgdir name="0">
+					<int name="end" value="1353099"/>
+					<int name="begin" value="1353000"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="MechanicMagnum">
+				<string name="string" value="Magnum"/>
+				<imgdir name="0">
+					<int name="end" value="1352799"/>
+					<int name="begin" value="1352700"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="KaiserNova">
+				<string name="string" value="Nova Essence"/>
+				<imgdir name="0">
+					<int name="end" value="1352599"/>
+					<int name="begin" value="1352500"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="AngelicBusterSoulRing">
+				<string name="string" value="Soul Ring"/>
+				<imgdir name="0">
+					<int name="end" value="1352699"/>
+					<int name="begin" value="1352600"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="ChessPiece">
+				<string name="string" value="Chess Piece"/>
+				<imgdir name="0">
+					<int name="end" value="1353299"/>
+					<int name="begin" value="1353200"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="CygnusGem">
+				<string name="string" value="Jewel"/>
+				<imgdir name="0">
+					<int name="end" value="1352979"/>
+					<int name="begin" value="1352970"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="ItemCategory_Consume">
+		<imgdir name="default">
+			<string name="string" value="All"/>
+		</imgdir>
+		<imgdir name="Potion">
+			<string name="string" value="Recovery Item"/>
+		</imgdir>
+		<imgdir name="Alchemy">
+			<string name="string" value="Alchemy Item"/>
+		</imgdir>
+		<imgdir name="Scroll">
+			<string name="string" value="Scroll"/>
+		</imgdir>
+		<imgdir name="Recipe">
+			<string name="string" value="Profession Recipes"/>
+		</imgdir>
+		<imgdir name="SkillBook">
+			<string name="string" value="Skill Book"/>
+		</imgdir>
+		<imgdir name="Etc">
+			<string name="string" value="Etc"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="ItemDetailCategory_Consume">
+		<imgdir name="default">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="2000000"/>
+					<int name="end" value="2000999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2001000"/>
+					<int name="end" value="2001499"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="2001000"/>
+					<int name="end" value="2001499"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="2003000"/>
+					<int name="end" value="2003499"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="2010000"/>
+					<int name="end" value="2010999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="2020000"/>
+					<int name="end" value="2020999"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="begin" value="2050000"/>
+					<int name="end" value="2059999"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="begin" value="2040000"/>
+					<int name="end" value="2040999"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="begin" value="2003000"/>
+					<int name="end" value="2004999"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="begin" value="2041000"/>
+					<int name="end" value="2041999"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="begin" value="2042000"/>
+					<int name="end" value="2042999"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="begin" value="2043000"/>
+					<int name="end" value="2043999"/>
+				</imgdir>
+				<imgdir name="12">
+					<int name="begin" value="2044000"/>
+					<int name="end" value="2044999"/>
+				</imgdir>
+				<imgdir name="13">
+					<int name="begin" value="2045000"/>
+					<int name="end" value="2045999"/>
+				</imgdir>
+				<imgdir name="14">
+					<int name="begin" value="2046000"/>
+					<int name="end" value="2046199"/>
+				</imgdir>
+				<imgdir name="15">
+					<int name="begin" value="2046900"/>
+					<int name="end" value="2046999"/>
+				</imgdir>
+				<imgdir name="16">
+					<int name="begin" value="2046200"/>
+					<int name="end" value="2046899"/>
+				</imgdir>
+				<imgdir name="17">
+					<int name="begin" value="2047800"/>
+					<int name="end" value="2047899"/>
+				</imgdir>
+				<imgdir name="18">
+					<int name="begin" value="2047900"/>
+					<int name="end" value="2047999"/>
+				</imgdir>
+				<imgdir name="19">
+					<int name="begin" value="2047000"/>
+					<int name="end" value="2047399"/>
+				</imgdir>
+				<imgdir name="20">
+					<int name="begin" value="2048000"/>
+					<int name="end" value="2048099"/>
+				</imgdir>
+				<imgdir name="21">
+					<int name="begin" value="2048800"/>
+					<int name="end" value="2048899"/>
+				</imgdir>
+				<imgdir name="22">
+					<int name="begin" value="2048100"/>
+					<int name="end" value="2048199"/>
+				</imgdir>
+				<imgdir name="23">
+					<int name="begin" value="2048200"/>
+					<int name="end" value="2048399"/>
+				</imgdir>
+				<imgdir name="24">
+					<int name="begin" value="2048400"/>
+					<int name="end" value="2048699"/>
+				</imgdir>
+				<imgdir name="25">
+					<int name="begin" value="2048700"/>
+					<int name="end" value="2048799"/>
+				</imgdir>
+				<imgdir name="26">
+					<int name="begin" value="2049200"/>
+					<int name="end" value="2049299"/>
+				</imgdir>
+				<imgdir name="27">
+					<int name="begin" value="2049300"/>
+					<int name="end" value="2049399"/>
+				</imgdir>
+				<imgdir name="28">
+					<int name="begin" value="2049400"/>
+					<int name="end" value="2049599"/>
+				</imgdir>
+				<imgdir name="29">
+					<int name="begin" value="2049000"/>
+					<int name="end" value="2049199"/>
+				</imgdir>
+				<imgdir name="30">
+					<int name="begin" value="2049600"/>
+					<int name="end" value="2049699"/>
+				</imgdir>
+				<imgdir name="31">
+					<int name="begin" value="2049700"/>
+					<int name="end" value="2049799"/>
+				</imgdir>
+				<imgdir name="32">
+					<int name="begin" value="2049000"/>
+					<int name="end" value="2049999"/>
+				</imgdir>
+				<imgdir name="33">
+					<int name="begin" value="2510000"/>
+					<int name="end" value="2513999"/>
+				</imgdir>
+				<imgdir name="34">
+					<int name="begin" value="2511000"/>
+					<int name="end" value="2511999"/>
+				</imgdir>
+				<imgdir name="35">
+					<int name="begin" value="2512000"/>
+					<int name="end" value="2512999"/>
+				</imgdir>
+				<imgdir name="36">
+					<int name="begin" value="2280000"/>
+					<int name="end" value="2289999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Potion">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="2000000"/>
+					<int name="end" value="2000999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2001000"/>
+					<int name="end" value="2001499"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="2001000"/>
+					<int name="end" value="2001499"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="2003000"/>
+					<int name="end" value="2003499"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="2010000"/>
+					<int name="end" value="2010999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="2020000"/>
+					<int name="end" value="2020999"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="begin" value="2050000"/>
+					<int name="end" value="2059999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Potion">
+				<string name="string" value="Recovery Item"/>
+				<imgdir name="0">
+					<int name="begin" value="2000000"/>
+					<int name="end" value="2000999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2001000"/>
+					<int name="end" value="2001499"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="2001000"/>
+					<int name="end" value="2001499"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="2003000"/>
+					<int name="end" value="2003499"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="2010000"/>
+					<int name="end" value="2010999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="2020000"/>
+					<int name="end" value="2020999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Cure">
+				<string name="string" value="Abnormal Status Recovery"/>
+				<imgdir name="0">
+					<int name="begin" value="2050000"/>
+					<int name="end" value="2059999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Alchemy">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="2003000"/>
+					<int name="end" value="2004999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Potion">
+				<string name="string" value="Recovery"/>
+				<imgdir name="0">
+					<int name="begin" value="2003000"/>
+					<int name="end" value="2003499"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Elixer">
+				<string name="string" value="Boost Potion"/>
+				<imgdir name="0">
+					<int name="begin" value="2003500"/>
+					<int name="end" value="2003999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Buff">
+				<string name="string" value="Buff"/>
+				<imgdir name="0">
+					<int name="begin" value="2004000"/>
+					<int name="end" value="2004999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Scroll">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="2040000"/>
+					<int name="end" value="2040999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2041000"/>
+					<int name="end" value="2041999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="2042000"/>
+					<int name="end" value="2042999"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="2043000"/>
+					<int name="end" value="2043999"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="2044000"/>
+					<int name="end" value="2044999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="2045000"/>
+					<int name="end" value="2045999"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="begin" value="2046000"/>
+					<int name="end" value="2046199"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="begin" value="2046900"/>
+					<int name="end" value="2046999"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="begin" value="2046200"/>
+					<int name="end" value="2046899"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="begin" value="2047800"/>
+					<int name="end" value="2047899"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="begin" value="2047900"/>
+					<int name="end" value="2047999"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="begin" value="2047000"/>
+					<int name="end" value="2047399"/>
+				</imgdir>
+				<imgdir name="12">
+					<int name="begin" value="2048000"/>
+					<int name="end" value="2048099"/>
+				</imgdir>
+				<imgdir name="13">
+					<int name="begin" value="2048800"/>
+					<int name="end" value="2048899"/>
+				</imgdir>
+				<imgdir name="14">
+					<int name="begin" value="2048100"/>
+					<int name="end" value="2048199"/>
+				</imgdir>
+				<imgdir name="15">
+					<int name="begin" value="2048200"/>
+					<int name="end" value="2048399"/>
+				</imgdir>
+				<imgdir name="16">
+					<int name="begin" value="2048400"/>
+					<int name="end" value="2048699"/>
+				</imgdir>
+				<imgdir name="17">
+					<int name="begin" value="2048700"/>
+					<int name="end" value="2048799"/>
+				</imgdir>
+				<imgdir name="18">
+					<int name="begin" value="2049200"/>
+					<int name="end" value="2049299"/>
+				</imgdir>
+				<imgdir name="19">
+					<int name="begin" value="2049300"/>
+					<int name="end" value="2049399"/>
+				</imgdir>
+				<imgdir name="20">
+					<int name="begin" value="2049400"/>
+					<int name="end" value="2049599"/>
+				</imgdir>
+				<imgdir name="21">
+					<int name="begin" value="2049000"/>
+					<int name="end" value="2049199"/>
+				</imgdir>
+				<imgdir name="22">
+					<int name="begin" value="2049600"/>
+					<int name="end" value="2049699"/>
+				</imgdir>
+				<imgdir name="23">
+					<int name="begin" value="2049700"/>
+					<int name="end" value="2049799"/>
+				</imgdir>
+				<imgdir name="24">
+					<int name="begin" value="2049000"/>
+					<int name="end" value="2049999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Armor">
+				<string name="string" value="Armor/Accessory"/>
+				<imgdir name="0">
+					<int name="begin" value="2040000"/>
+					<int name="end" value="2040999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2041000"/>
+					<int name="end" value="2041999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="2046200"/>
+					<int name="end" value="2046899"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="2047900"/>
+					<int name="end" value="2047999"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="2049200"/>
+					<int name="end" value="2049299"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Weapon">
+				<string name="string" value="Weapon"/>
+				<imgdir name="0">
+					<int name="begin" value="2042000"/>
+					<int name="end" value="2042999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2043000"/>
+					<int name="end" value="2043999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="2044000"/>
+					<int name="end" value="2044999"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="2045000"/>
+					<int name="end" value="2045999"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="2046000"/>
+					<int name="end" value="2046199"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="2046900"/>
+					<int name="end" value="2046999"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="begin" value="2047800"/>
+					<int name="end" value="2047899"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Enchant">
+				<string name="string" value="Enhancement/Potential"/>
+				<imgdir name="0">
+					<int name="begin" value="2049300"/>
+					<int name="end" value="2049399"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2049400"/>
+					<int name="end" value="2049599"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="2049700"/>
+					<int name="end" value="2049799"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="White">
+				<string name="string" value="Clean Slate/Soul Weapon Scroll"/>
+				<imgdir name="0">
+					<int name="begin" value="2049000"/>
+					<int name="end" value="2049199"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Flame">
+				<string name="string" value="Rebirth Flame"/>
+				<imgdir name="0">
+					<int name="begin" value="2048700"/>
+					<int name="end" value="2048799"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Pet">
+				<string name="string" value="Pet Scroll"/>
+				<imgdir name="0">
+					<int name="begin" value="2048000"/>
+					<int name="end" value="2048099"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2048800"/>
+					<int name="end" value="2048899"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Etc">
+				<string name="string" value="Miscellaneous Scroll"/>
+				<imgdir name="0">
+					<int name="begin" value="2047000"/>
+					<int name="end" value="2047399"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2048100"/>
+					<int name="end" value="2048199"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="2048200"/>
+					<int name="end" value="2048399"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="2048400"/>
+					<int name="end" value="2048699"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="2048900"/>
+					<int name="end" value="2048999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="2049600"/>
+					<int name="end" value="2049699"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="begin" value="2049000"/>
+					<int name="end" value="2049999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Recipe">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="2510000"/>
+					<int name="end" value="2513999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2511000"/>
+					<int name="end" value="2511999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="2512000"/>
+					<int name="end" value="2512999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Equip">
+				<string name="string" value="Equipment Recipe"/>
+				<imgdir name="0">
+					<int name="begin" value="2510000"/>
+					<int name="end" value="2510999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Accessory">
+				<string name="string" value="Accessory Recipe"/>
+				<imgdir name="0">
+					<int name="begin" value="2511000"/>
+					<int name="end" value="2511999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Alchemy">
+				<string name="string" value="Alchemy Recipe"/>
+				<imgdir name="0">
+					<int name="begin" value="2512000"/>
+					<int name="end" value="2512999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="SkillBook">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="2280000"/>
+					<int name="end" value="2289999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Etc">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="2030000"/>
+					<int name="end" value="2031999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2021000"/>
+					<int name="end" value="2029999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="2060000"/>
+					<int name="end" value="2061999"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="2080000"/>
+					<int name="end" value="2089999"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="2090000"/>
+					<int name="end" value="2099999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="2100000"/>
+					<int name="end" value="2109999"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="begin" value="2130000"/>
+					<int name="end" value="2999999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="MoveMap">
+				<string name="string" value="Transport Item"/>
+				<imgdir name="0">
+					<int name="begin" value="2030000"/>
+					<int name="end" value="2031999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Arrow">
+				<string name="string" value="Arrow/Throwing Star"/>
+				<imgdir name="0">
+					<int name="begin" value="2060000"/>
+					<int name="end" value="2061999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2070000"/>
+					<int name="end" value="2079999"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Etc">
+				<string name="string" value="Etc"/>
+				<imgdir name="0">
+					<int name="begin" value="2021000"/>
+					<int name="end" value="2029999"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="begin" value="2080000"/>
+					<int name="end" value="2089999"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="begin" value="2090000"/>
+					<int name="end" value="2099999"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="begin" value="2100000"/>
+					<int name="end" value="2109999"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="begin" value="2120000"/>
+					<int name="end" value="2129999"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="begin" value="2130000"/>
+					<int name="end" value="2999999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="ItemCategory_Cash">
+		<imgdir name="default">
+			<string name="string" value="All"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="ItemDetailCategory_Cash">
+		<imgdir name="default">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="5000000"/>
+					<int name="end" value="5999999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="ItemCategory_Etc">
+		<imgdir name="default">
+			<string name="string" value="All"/>
+		</imgdir>
+		<imgdir name="Chair">
+			<string name="string" value="Chair"/>
+		</imgdir>
+		<imgdir name="Subjob">
+			<string name="string" value="Profession"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="ItemDetailCategory_Etc">
+		<imgdir name="default">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="3000000"/>
+					<int name="end" value="4999999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Chair">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="3010000"/>
+					<int name="end" value="3013999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Subjob">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<imgdir name="0">
+					<int name="begin" value="4020000"/>
+					<int name="end" value="4029999"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="old_ItemCategory_Armor">
+		<imgdir name="Armor">
+			<string name="string" value="Armor"/>
+		</imgdir>
+		<imgdir name="Accessory">
+			<string name="string" value="Accessory"/>
+		</imgdir>
+		<imgdir name="Etc">
+			<string name="string" value="Etc"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="old_ItemDetailCategory_Armor">
+		<imgdir name="Armor">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="0"/>
+				<int name="end" value="0"/>
+			</imgdir>
+			<imgdir name="Cap">
+				<string name="string" value="Hat"/>
+				<int name="begin" value="1000000"/>
+				<int name="end" value="1009999"/>
+			</imgdir>
+			<imgdir name="Coat">
+				<string name="string" value="Top"/>
+				<int name="begin" value="1040000"/>
+				<int name="end" value="1049999"/>
+			</imgdir>
+			<imgdir name="Longcoat">
+				<string name="string" value="Outfit"/>
+				<int name="begin" value="1050000"/>
+				<int name="end" value="1059999"/>
+			</imgdir>
+			<imgdir name="Pants">
+				<string name="string" value="Bottom"/>
+				<int name="begin" value="1060000"/>
+				<int name="end" value="1069999"/>
+			</imgdir>
+			<imgdir name="Shoes">
+				<string name="string" value="Shoes"/>
+				<int name="begin" value="1070000"/>
+				<int name="end" value="1079999"/>
+			</imgdir>
+			<imgdir name="Glove">
+				<string name="string" value="Glove"/>
+				<int name="begin" value="1080000"/>
+				<int name="end" value="1089999"/>
+			</imgdir>
+			<imgdir name="Shield">
+				<string name="string" value="Shield"/>
+				<int name="begin" value="1090000"/>
+				<int name="end" value="1099999"/>
+			</imgdir>
+			<imgdir name="Cape">
+				<string name="string" value="Cape"/>
+				<int name="begin" value="1100000"/>
+				<int name="end" value="1109999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Accessory">
+			<imgdir name="Face">
+				<string name="string" value="Face Accessory"/>
+				<int name="begin" value="1010000"/>
+				<int name="end" value="1019999"/>
+			</imgdir>
+			<imgdir name="Eye">
+				<string name="string" value="Eyewear"/>
+				<int name="begin" value="1020000"/>
+				<int name="end" value="1029999"/>
+			</imgdir>
+			<imgdir name="Ear">
+				<string name="string" value="Earrings"/>
+				<int name="begin" value="1030000"/>
+				<int name="end" value="1039999"/>
+			</imgdir>
+			<imgdir name="Ring">
+				<string name="string" value="Ring"/>
+				<int name="begin" value="1110000"/>
+				<int name="end" value="1119999"/>
+			</imgdir>
+			<imgdir name="Pendant">
+				<string name="string" value="Pendant"/>
+				<int name="begin" value="1120000"/>
+				<int name="end" value="1129999"/>
+			</imgdir>
+			<imgdir name="Belt">
+				<string name="string" value="Belt"/>
+				<int name="begin" value="1130000"/>
+				<int name="end" value="1139999"/>
+			</imgdir>
+			<imgdir name="Medal">
+				<string name="string" value="Medal"/>
+				<int name="begin" value="1140000"/>
+				<int name="end" value="1149999"/>
+			</imgdir>
+			<imgdir name="Shoulder">
+				<string name="string" value="Shoulder Accessory"/>
+				<int name="begin" value="1150000"/>
+				<int name="end" value="1159999"/>
+			</imgdir>
+			<imgdir name="Pocket">
+				<string name="string" value="Pocket Item"/>
+				<int name="begin" value="1160000"/>
+				<int name="end" value="1169999"/>
+			</imgdir>
+			<imgdir name="Badge">
+				<string name="string" value="Badge"/>
+				<int name="begin" value="1180000"/>
+				<int name="end" value="1189999"/>
+			</imgdir>
+			<imgdir name="Emblem">
+				<string name="string" value="Emblem"/>
+				<int name="begin" value="1190000"/>
+				<int name="end" value="1190199"/>
+			</imgdir>
+			<imgdir name="PowerSource">
+				<string name="string" value="Power Source"/>
+				<int name="begin" value="1190200"/>
+				<string name="end" value="1190299"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Etc">
+			<imgdir name="Mechanic">
+				<string name="string" value="Mechanic Gear"/>
+				<int name="begin" value="1610000"/>
+				<int name="end" value="1659999"/>
+			</imgdir>
+			<imgdir name="Android">
+				<string name="string" value="Android"/>
+				<int name="begin" value="1660000"/>
+				<int name="end" value="1669999"/>
+			</imgdir>
+			<imgdir name="MachineHeart">
+				<string name="string" value="Mechanical Heart"/>
+				<int name="begin" value="1670000"/>
+				<int name="end" value="1679999"/>
+			</imgdir>
+			<imgdir name="PetEquip">
+				<string name="string" value="Pet Equipment"/>
+				<int name="begin" value="1800000"/>
+				<int name="end" value="1809999"/>
+			</imgdir>
+			<imgdir name="DragonCap">
+				<string name="string" value="Dragon Equipment"/>
+				<int name="begin" value="1940000"/>
+				<int name="end" value="1979999"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="old_ItemCategory_Weapon">
+		<imgdir name="OneHandedWeapon">
+			<string name="string" value="One-handed Weapon"/>
+		</imgdir>
+		<imgdir name="TwoHandedWeapon">
+			<string name="string" value="Two-handed Weapon"/>
+		</imgdir>
+		<imgdir name="SubWeapon">
+			<string name="string" value="Secondary Weapon"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="old_ItemDetailCategory_Weapon">
+		<imgdir name="OneHandedWeapon">
+			<imgdir name="ShiningRod">
+				<string name="string" value="Shining Rod"/>
+				<int name="begin" value="1212000"/>
+				<int name="end" value="1212999"/>
+			</imgdir>
+			<imgdir name="SoulShooter">
+				<string name="string" value="Soul Shooter"/>
+				<int name="begin" value="1222000"/>
+				<int name="end" value="1222999"/>
+			</imgdir>
+			<imgdir name="Desperado">
+				<string name="string" value="Desperado"/>
+				<int name="begin" value="1232000"/>
+				<int name="end" value="1232999"/>
+			</imgdir>
+			<imgdir name="EnergySword">
+				<string name="string" value="Whip Blade"/>
+				<int name="begin" value="1242000"/>
+				<int name="end" value="1242999"/>
+			</imgdir>
+			<imgdir name="Sword">
+				<string name="string" value="One-handed Sword"/>
+				<int name="begin" value="1300000"/>
+				<int name="end" value="1309999"/>
+			</imgdir>
+			<imgdir name="Axe">
+				<string name="string" value="One-handed Axe"/>
+				<int name="begin" value="1310000"/>
+				<int name="end" value="1319999"/>
+			</imgdir>
+			<imgdir name="Mace">
+				<string name="string" value="One-handed Blunt Weapon"/>
+				<int name="begin" value="1320000"/>
+				<int name="end" value="1329999"/>
+			</imgdir>
+			<imgdir name="Dagger">
+				<string name="string" value="Dagger"/>
+				<int name="begin" value="1330000"/>
+				<int name="end" value="1339999"/>
+			</imgdir>
+			<imgdir name="Blade">
+				<string name="string" value="Katara"/>
+				<int name="begin" value="1340000"/>
+				<int name="end" value="1349999"/>
+			</imgdir>
+			<imgdir name="Cane">
+				<string name="string" value="Cane"/>
+				<int name="begin" value="1360000"/>
+				<int name="end" value="1369999"/>
+			</imgdir>
+			<imgdir name="Wand">
+				<string name="string" value="Wand"/>
+				<int name="begin" value="1370000"/>
+				<int name="end" value="1379999"/>
+			</imgdir>
+			<imgdir name="Staff">
+				<string name="string" value="Staff"/>
+				<int name="begin" value="1380000"/>
+				<int name="end" value="1389999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="TwoHandedWeapon">
+			<imgdir name="Sword">
+				<string name="string" value="Two-handed Sword"/>
+				<int name="begin" value="1400000"/>
+				<int name="end" value="1409999"/>
+			</imgdir>
+			<imgdir name="Axe">
+				<string name="string" value="Two-Handed Axe"/>
+				<int name="begin" value="1410000"/>
+				<int name="end" value="1419999"/>
+			</imgdir>
+			<imgdir name="Mace">
+				<string name="string" value="Two-Handed Blunt"/>
+				<int name="begin" value="1420000"/>
+				<int name="end" value="1429999"/>
+			</imgdir>
+			<imgdir name="Spear">
+				<string name="string" value="Spear"/>
+				<int name="begin" value="1430000"/>
+				<int name="end" value="1439999"/>
+			</imgdir>
+			<imgdir name="Polearm">
+				<string name="string" value="Pole Arm"/>
+				<int name="begin" value="1440000"/>
+				<int name="end" value="1449999"/>
+			</imgdir>
+			<imgdir name="Bow">
+				<string name="string" value="Bow"/>
+				<int name="begin" value="1450000"/>
+				<int name="end" value="1459999"/>
+			</imgdir>
+			<imgdir name="CorssBow">
+				<string name="string" value="Crossbow"/>
+				<int name="begin" value="1460000"/>
+				<int name="end" value="1469999"/>
+			</imgdir>
+			<imgdir name="ThrowingGlove">
+				<string name="string" value="Claw"/>
+				<int name="begin" value="1470000"/>
+				<int name="end" value="1479999"/>
+			</imgdir>
+			<imgdir name="Knuckle">
+				<string name="string" value="Knuckle"/>
+				<int name="begin" value="1480000"/>
+				<int name="end" value="1489999"/>
+			</imgdir>
+			<imgdir name="Gun">
+				<string name="string" value="Gun"/>
+				<int name="begin" value="1490000"/>
+				<int name="end" value="1499999"/>
+			</imgdir>
+			<imgdir name="DualBow">
+				<string name="string" value="Dual Bowgun"/>
+				<int name="begin" value="1520000"/>
+				<int name="end" value="1529999"/>
+			</imgdir>
+			<imgdir name="HandCannon">
+				<string name="string" value="Hand Cannon"/>
+				<int name="begin" value="1530000"/>
+				<int name="end" value="1539999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="SubWeapon">
+			<imgdir name="MagicArrow">
+				<string name="string" value="Magic Arrow"/>
+				<int name="begin" value="1352000"/>
+				<int name="end" value="1352099"/>
+			</imgdir>
+			<imgdir name="Card">
+				<string name="string" value="Card"/>
+				<int name="begin" value="1352100"/>
+				<int name="end" value="1352199"/>
+			</imgdir>
+			<imgdir name="Orb">
+				<string name="string" value="Orb"/>
+				<int name="begin" value="1352400"/>
+				<int name="end" value="1352499"/>
+			</imgdir>
+			<imgdir name="HeroMedal">
+				<string name="string" value="Medal"/>
+				<int name="begin" value="1352200"/>
+				<int name="end" value="1352209"/>
+			</imgdir>
+			<imgdir name="Rosario">
+				<string name="string" value="Rosary"/>
+				<int name="begin" value="1352210"/>
+				<int name="end" value="1352219"/>
+			</imgdir>
+			<imgdir name="Chain">
+				<string name="string" value="Iron Chain"/>
+				<int name="begin" value="1352220"/>
+				<int name="end" value="1352229"/>
+			</imgdir>
+			<imgdir name="Book">
+				<string name="string" value="Spellbook"/>
+				<int name="begin" value="1352230"/>
+				<int name="end" value="1352259"/>
+			</imgdir>
+			<imgdir name="BowMasterFeather">
+				<string name="string" value="Arrow Fletching"/>
+				<int name="begin" value="1352260"/>
+				<int name="end" value="1352269"/>
+			</imgdir>
+			<imgdir name="CrossBowThimble">
+				<string name="string" value="Bow Thimble"/>
+				<int name="begin" value="1352270"/>
+				<int name="end" value="1352279"/>
+			</imgdir>
+			<imgdir name="ShadowerSheath">
+				<string name="string" value="Dagger Scabbard"/>
+				<int name="begin" value="1352280"/>
+				<int name="end" value="1352289"/>
+			</imgdir>
+			<imgdir name="NightLordPouch">
+				<string name="string" value="Charm"/>
+				<int name="begin" value="1352290"/>
+				<int name="end" value="1352299"/>
+			</imgdir>
+			<imgdir name="ViperWristband">
+				<string name="string" value="Wrist Band"/>
+				<int name="begin" value="1352900"/>
+				<int name="end" value="1352909"/>
+			</imgdir>
+			<imgdir name="CaptainSight">
+				<string name="string" value="Far Sight"/>
+				<int name="begin" value="1352910"/>
+				<int name="end" value="1352919"/>
+			</imgdir>
+			<imgdir name="CannonGunPowder">
+				<string name="string" value="Powder Keg"/>
+				<int name="begin" value="1352920"/>
+				<int name="end" value="1352929"/>
+			</imgdir>
+			<imgdir name="AranPendulum">
+				<string name="string" value="Ballast"/>
+				<int name="begin" value="1352910"/>
+				<int name="end" value="1352919"/>
+			</imgdir>
+			<imgdir name="EvanPaper">
+				<string name="string" value="Document"/>
+				<int name="begin" value="1352940"/>
+				<int name="end" value="1352949"/>
+			</imgdir>
+			<imgdir name="BattlemageOrb">
+				<string name="string" value="Magic Marble"/>
+				<int name="begin" value="1352950"/>
+				<int name="end" value="1352959"/>
+			</imgdir>
+			<imgdir name="WildHunterArrowHead">
+				<string name="string" value="Arrowhead"/>
+				<int name="begin" value="1352960"/>
+				<int name="end" value="1352969"/>
+			</imgdir>
+			<imgdir name="CygnusGem">
+				<string name="string" value="Jewel"/>
+				<int name="begin" value="1352970"/>
+				<int name="end" value="1352979"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="old_ItemCategory_Consume">
+		<imgdir name="Potion">
+			<string name="string" value="Recovery Item"/>
+		</imgdir>
+		<imgdir name="Alchemy">
+			<string name="string" value="Alchemy Item"/>
+		</imgdir>
+		<imgdir name="Scroll">
+			<string name="string" value="Scroll"/>
+		</imgdir>
+		<imgdir name="Recipe">
+			<string name="string" value="Profession Recipes"/>
+		</imgdir>
+		<imgdir name="SkillBook">
+			<string name="string" value="Skill Book"/>
+		</imgdir>
+		<imgdir name="Cure">
+			<string name="string" value="Abnormal Status Recovery"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="old_ItemDetailCategory_Consume">
+		<imgdir name="Potion">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="2000000"/>
+				<int name="end" value="2999999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Alchemy">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="2003000"/>
+				<int name="end" value="2004499"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Scroll">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="2040000"/>
+				<int name="end" value="2049999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Recipe">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="2510000"/>
+				<int name="end" value="2513999"/>
+			</imgdir>
+			<imgdir name="Equip">
+				<string name="string" value="Equipment Recipe"/>
+				<int name="begin" value="2510000"/>
+				<int name="end" value="2510999"/>
+			</imgdir>
+			<imgdir name="Accessory">
+				<string name="string" value="Accessory Recipe"/>
+				<int name="begin" value="2511000"/>
+				<int name="end" value="2511999"/>
+			</imgdir>
+			<imgdir name="Alchemy">
+				<string name="string" value="Alchemy Recipe"/>
+				<int name="begin" value="2512000"/>
+				<int name="end" value="2512999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="SkillBook">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="2280000"/>
+				<int name="end" value="2289999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Cure">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="2050000"/>
+				<int name="end" value="2051999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Circulator">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="2700000"/>
+				<int name="end" value="2702999"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="old_ItemCategory_Cash">
+		<imgdir name="default">
+			<string name="string" value="All"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="old_ItemDetailCategory_Cash">
+		<imgdir name="default">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="5000000"/>
+				<int name="end" value="5999999"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="old_ItemCategory_Etc">
+		<imgdir name="default">
+			<string name="string" value="All"/>
+		</imgdir>
+		<imgdir name="Chair">
+			<string name="string" value="Chair"/>
+		</imgdir>
+		<imgdir name="Subjob">
+			<string name="string" value="Profession"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="old_ItemDetailCategory_Etc">
+		<imgdir name="default">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="3000000"/>
+				<int name="end" value="4999999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Chair">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="3010000"/>
+				<int name="end" value="3013999"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Subjob">
+			<imgdir name="default">
+				<string name="string" value="All"/>
+				<int name="begin" value="4020000"/>
+				<int name="end" value="4029999"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="HelpMsg">
+		<imgdir name="0">
+			<string name="msg" value="You can enter item names for a quick search."/>
+			<vector name="lt" x="20" y="50"/>
+			<vector name="rb" x="80" y="65"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

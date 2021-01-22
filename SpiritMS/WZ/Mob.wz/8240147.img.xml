@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="8240147.img">
+	<imgdir name="info">
+		<int name="boss" value="1"/>
+		<int name="level" value="150"/>
+		<int name="maxHP" value="60000000"/>
+		<int name="maxMP" value="1000000"/>
+		<int name="hpTagColor" value="1"/>
+		<int name="hpTagBgcolor" value="5"/>
+		<int name="acc" value="203"/>
+		<int name="eva" value="51"/>
+		<int name="speed" value="50"/>
+		<int name="pushed" value="2000000000"/>
+		<float name="fs" value="10.0"/>
+		<int name="category" value="0"/>
+		<int name="summonType" value="1"/>
+		<string name="mobType" value="1N"/>
+		<int name="hideHP" value="1"/>
+		<int name="PADamage" value="1000"/>
+		<int name="PDDamage" value="1000"/>
+		<int name="MADamage" value="1000"/>
+		<int name="MDDamage" value="1000"/>
+		<int name="firstAttack" value="1"/>
+		<int name="ignoreMoveImpact" value="1"/>
+		<int name="skeleton" value="1"/>
+		<int name="nonLevelCheckEVA" value="1"/>
+		<int name="nonLevelCheckACC" value="1"/>
+		<int name="skelAniMixRate" value="0"/>
+		<imgdir name="firstAttackRange">
+			<vector name="lt" x="-1024" y="-800"/>
+			<vector name="rb" x="1024" y="800"/>
+		</imgdir>
+		<imgdir name="attack">
+			<imgdir name="0">
+				<string name="info" value="밀치기 넉백 공격"/>
+				<int name="action" value="1"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="fixDamR" value="5"/>
+				<int name="cooltime" value="8000"/>
+				<int name="afterDelay" value="6000"/>
+				<int name="ignoreStance" value="1"/>
+				<int name="notMissAttack" value="1"/>
+				<int name="ignoreEvasion" value="100"/>
+				<int name="knockback" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="info" value="내려찍기, 아래로 넉백 공격 밀치기와 연계하기 쉽게 돌무더기 소환"/>
+				<int name="action" value="2"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="fixDamR" value="5"/>
+				<int name="cooltime" value="8000"/>
+				<int name="afterDelay" value="6000"/>
+				<int name="ignoreStance" value="1"/>
+				<int name="ignoreEvasion" value="100"/>
+				<int name="notMissAttack" value="1"/>
+				<int name="dragdown" value="1"/>
+				<int name="jumpAttack" value="1"/>
+				<imgdir name="jumpAttackInfo">
+					<int name="impact" value="1000"/>
+					<int name="min" value="60"/>
+					<int name="max" value="120"/>
+				</imgdir>
+				<imgdir name="callSkillWithData">
+					<int name="skill" value="201"/>
+					<int name="level" value="176"/>
+					<int name="delay" value="2000"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="skill">
+			<imgdir name="0">
+				<string name="info" value="돌무더기소환, 액션없이"/>
+				<int name="action" value="1"/>
+				<int name="skill" value="201"/>
+				<int name="level" value="176"/>
+				<int name="skillAfter" value="500"/>
+				<int name="afterDelay" value="3000"/>
+				<int name="onlyOtherSkill" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="speak">
+			<int name="chatBalloon" value="0"/>
+			<imgdir name="0">
+				<int name="hp" value="50000000"/>
+				<string name="0" value="That is pointless. I am immortal, and I protect the ruins by order of the king!"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="hp" value="30000000"/>
+				<string name="0" value="That is correct. You cannot defeat me with your pitiful magic!"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="hp" value="20000000"/>
+				<string name="0" value="That is correct. I am the gatekeeper!"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="hp" value="10000000"/>
+				<string name="0" value="That is correct. You cannot defeat me with your pitiful magic!"/>
+				<string name="1" value="That is pointless. I am immortal, and I protect the ruins by order of the king!"/>
+				<string name="2" value="That is correct. I am the gatekeeper!"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="damagedBySelectedSkill">
+			<int name="0" value="80001910"/>
+			<int name="1" value="80001911"/>
+			<int name="2" value="80001912"/>
+			<int name="3" value="80001913"/>
+			<int name="4" value="80001914"/>
+			<int name="5" value="80001915"/>
+			<int name="6" value="80001916"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="attack1">
+		<imgdir name="info">
+			<imgdir name="range">
+				<vector name="lt" x="-480" y="-150"/>
+				<vector name="rb" x="50" y="-10"/>
+			</imgdir>
+			<imgdir name="hit">
+				<canvas name="0" width="82" height="120">
+					<vector name="origin" x="47" y="63"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="79" height="112">
+					<vector name="origin" x="54" y="71"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="104" height="128">
+					<vector name="origin" x="79" y="82"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="102" height="129">
+					<vector name="origin" x="79" y="83"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<int name="attackAfter" value="2160"/>
+		</imgdir>
+		<string name="aniName" value="06_attack_B"/>
+	</imgdir>
+	<imgdir name="attack2">
+		<imgdir name="info">
+			<imgdir name="range">
+				<vector name="lt" x="-400" y="-600"/>
+				<vector name="rb" x="0" y="10"/>
+			</imgdir>
+			<imgdir name="hit">
+				<int name="attach" value="1"/>
+				<canvas name="0" width="148" height="136">
+					<vector name="origin" x="75" y="76"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="159" height="175">
+					<vector name="origin" x="69" y="90"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="148" height="177">
+					<vector name="origin" x="76" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="155" height="180">
+					<vector name="origin" x="80" y="83"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<int name="attackAfter" value="1650"/>
+		</imgdir>
+		<string name="aniName" value="05_attack_A"/>
+	</imgdir>
+	<imgdir name="skill1">
+		<string name="aniName" value="07_attack_C"/>
+	</imgdir>
+	<imgdir name="move">
+		<string name="aniName" value="03_move"/>
+	</imgdir>
+	<imgdir name="stand">
+		<string name="aniName" value="02_stand"/>
+	</imgdir>
+	<imgdir name="die1">
+		<string name="aniName" value="08_die"/>
+	</imgdir>
+	<imgdir name="sleep">
+		<string name="aniName" value="00_bit stand"/>
+	</imgdir>
+	<imgdir name="wakeup">
+		<string name="aniName" value="01_summon"/>
+	</imgdir>
+	<imgdir name="say">
+		<string name="aniName" value="04_tire"/>
+	</imgdir>
+	<imgdir name="HitParts">
+		<imgdir name="1">
+			<string name="info" value="Hardness"/>
+			<imgdir name="0">
+				<imgdir name="stat">
+					<string name="info" value="부위의 속성값"/>
+					<int name="durability" value="80"/>
+					<int name="hardness" value="100"/>
+				</imgdir>
+				<imgdir name="hitEvent">
+					<string name="info" value="해당 부위 타격시 처리해야할 내용들"/>
+					<string name="replaceHitEffect" value="Mob/8881000.img/HitEffect/0"/>
+					<string name="replaceHitSound" value="Sound/SoundEff.img/urus/hardHit"/>
+				</imgdir>
+				<imgdir name="breakEvent">
+					<string name="info" value="info에 durability가 없으면 사용불가"/>
+					<string name="changeAction" value="tire"/>
+					<imgdir name="slotAttachment">
+					</imgdir>
+					<imgdir name="effect">
+					</imgdir>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2">
+			<string name="info" value="Weakness"/>
+			<imgdir name="0">
+				<imgdir name="stat">
+					<string name="info" value="부위의 속성값"/>
+					<int name="durability" value="99999999"/>
+					<int name="hardness" value="50"/>
+				</imgdir>
+				<imgdir name="hitEvent">
+					<string name="info" value="해당 부위 타격시 처리해야할 내용들"/>
+					<string name="replaceHitEffect" value="Mob/8881000.img/HitEffect/1"/>
+					<string name="replaceHitSound" value="Sound/SoundEff.img/urus/midHit"/>
+				</imgdir>
+				<imgdir name="breakEvent">
+					<string name="info" value="info에 durability가 없으면 사용불가"/>
+					<imgdir name="slotAttachment">
+					</imgdir>
+					<imgdir name="effect">
+					</imgdir>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="HitBlendEffect">
+		<imgdir name="info">
+			<int name="alpha" value="80"/>
+			<int name="red" value="255"/>
+			<int name="green" value="255"/>
+			<int name="blue" value="255"/>
+			<int name="loopCount" value="3"/>
+			<int name="delay" value="200"/>
+		</imgdir>
+		<imgdir name="HitPartsToSlot">
+			<imgdir name="1">
+				<string name="L_arm_A" value="L_arm_A"/>
+				<string name="L_arm_B_01" value="L_arm_B_01"/>
+				<string name="L_arm_B_02" value="L_arm_B_02"/>
+				<string name="L_arm_B_03" value="L_arm_B_03"/>
+				<string name="L_arm_B_04" value="L_arm_B_04"/>
+				<string name="L_arm_C_01" value="L_arm_C_01"/>
+				<string name="L_arm_C_02" value="L_arm_C_02"/>
+				<string name="L_arm_C_03" value="L_arm_C_03"/>
+				<string name="L_arm_C_04" value="L_arm_C_04"/>
+				<string name="L_arm_C_05" value="L_arm_C_05"/>
+				<string name="head copy" value="head copy"/>
+				<string name="r_arm_A" value="r_arm_A"/>
+				<string name="r_arm_B_01" value="r_arm_B_01"/>
+				<string name="r_arm_B_02" value="r_arm_B_02"/>
+				<string name="r_arm_B_03" value="r_arm_B_03"/>
+				<string name="r_arm_B_04" value="r_arm_B_04"/>
+				<string name="r_arm_C_01" value="r_arm_C_01"/>
+				<string name="r_arm_C_02" value="r_arm_C_02"/>
+				<string name="r_arm_C_03" value="r_arm_C_03"/>
+				<string name="r_arm_C_04" value="r_arm_C_04"/>
+				<string name="r_arm_C_05" value="r_arm_C_05"/>
+				<string name="L_leg" value="L_leg"/>
+				<string name="R_leg" value="R_leg"/>
+				<string name="body_01" value="body_01"/>
+				<string name="body_02" value="body_02"/>
+				<string name="body_03" value="body_03"/>
+				<string name="body_04" value="body_04"/>
+				<string name="body_05" value="body_05"/>
+				<string name="body_06" value="body_06"/>
+				<string name="body_07" value="body_07"/>
+				<string name="body_08" value="body_08"/>
+				<string name="body_09" value="body_09"/>
+				<string name="body_10" value="body_10"/>
+				<string name="body_back" value="body_back"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="body_core_1" value="body_core_1"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<string name="8240147.atlas" value="\nshimma.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nL_arm_A_core\n  rotate: true\n  xy: 946, 64\n  size: 51, 40\n  orig: 51, 40\n  offset: 0, 0\n  index: -1\nL_arm_B_01\n  rotate: true\n  xy: 998, 732\n  size: 20, 23\n  orig: 20, 23\n  offset: 0, 0\n  index: -1\nr_arm_B_01\n  rotate: true\n  xy: 998, 732\n  size: 20, 23\n  orig: 20, 23\n  offset: 0, 0\n  index: -1\nL_arm_B_02\n  rotate: false\n  xy: 998, 792\n  size: 24, 31\n  orig: 24, 31\n  offset: 0, 0\n  index: -1\nr_arm_B_02\n  rotate: false\n  xy: 998, 792\n  size: 24, 31\n  orig: 24, 31\n  offset: 0, 0\n  index: -1\nL_arm_B_04\n  rotate: false\n  xy: 526, 478\n  size: 60, 44\n  orig: 60, 44\n  offset: 0, 0\n  index: -1\nL_arm_B_04_grow\n  rotate: true\n  xy: 946, 2\n  size: 60, 44\n  orig: 60, 44\n  offset: 0, 0\n  index: -1\nL_arm_C_01\n  rotate: true\n  xy: 437, 6\n  size: 84, 73\n  orig: 84, 73\n  offset: 0, 0\n  index: -1\nL_leg\n  rotate: false\n  xy: 838, 116\n  size: 46, 41\n  orig: 46, 41\n  offset: 0, 0\n  index: -1\nL_leg_grow\n  rotate: false\n  xy: 886, 116\n  size: 46, 41\n  orig: 46, 41\n  offset: 0, 0\n  index: -1\nbody_03\n  rotate: false\n  xy: 988, 108\n  size: 34, 49\n  orig: 34, 49\n  offset: 0, 0\n  index: -1\nbody_04\n  rotate: true\n  xy: 934, 117\n  size: 40, 52\n  orig: 40, 52\n  offset: 0, 0\n  index: -1\nbody_11\n  rotate: true\n  xy: 587, 8\n  size: 82, 97\n  orig: 82, 97\n  offset: 0, 0\n  index: -1\neffect/bit_01\n  rotate: false\n  xy: 2, 785\n  size: 588, 237\n  orig: 588, 237\n  offset: 0, 0\n  index: -1\neffect/bit_02\n  rotate: true\n  xy: 2, 461\n  size: 322, 50\n  orig: 322, 50\n  offset: 0, 0\n  index: -1\neffect/bit_04\n  rotate: true\n  xy: 2, 21\n  size: 438, 342\n  orig: 438, 342\n  offset: 0, 0\n  index: -1\neffect/bit_06\n  rotate: true\n  xy: 838, 159\n  size: 300, 184\n  orig: 300, 184\n  offset: 0, 0\n  index: -1\neffect/bit_07\n  rotate: true\n  xy: 346, 92\n  size: 371, 240\n  orig: 371, 240\n  offset: 0, 0\n  index: -1\neffect/bit_08\n  rotate: false\n  xy: 592, 825\n  size: 412, 197\n  orig: 412, 197\n  offset: 0, 0\n  index: -1\neffect/r_light\n  rotate: true\n  xy: 592, 461\n  size: 362, 404\n  orig: 362, 404\n  offset: 0, 0\n  index: -1\neffect/ring_06\n  rotate: true\n  xy: 54, 465\n  size: 318, 307\n  orig: 318, 307\n  offset: 0, 0\n  index: -1\neffect/smoke_01\n  rotate: true\n  xy: 588, 115\n  size: 344, 248\n  orig: 344, 248\n  offset: 0, 0\n  index: -1\neffect/text\n  rotate: true\n  xy: 363, 524\n  size: 259, 223\n  orig: 259, 223\n  offset: 0, 0\n  index: -1\neffect_core_A\n  rotate: false\n  xy: 998, 754\n  size: 23, 36\n  orig: 23, 36\n  offset: 0, 0\n  index: -1\neffect_core_B\n  rotate: false\n  xy: 479, 466\n  size: 45, 56\n  orig: 45, 56\n  offset: 0, 0\n  index: -1\nhead copy\n  rotate: true\n  xy: 686, 5\n  size: 108, 128\n  orig: 108, 128\n  offset: 0, 0\n  index: -1\nhead_grow\n  rotate: true\n  xy: 346, 4\n  size: 86, 89\n  orig: 86, 89\n  offset: 0, 0\n  index: -1\nhead_grow copy\n  rotate: true\n  xy: 816, 5\n  size: 108, 128\n  orig: 108, 128\n  offset: 0, 0\n  index: -1\nr_arm_A_core\n  rotate: true\n  xy: 429, 465\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nr_arm_C_01\n  rotate: true\n  xy: 512, 6\n  size: 84, 73\n  orig: 84, 73\n  offset: 0, 0\n  index: -1\nring_01\n  rotate: false\n  xy: 992, 60\n  size: 30, 46\n  orig: 30, 46\n  offset: 0, 0\n  index: -1\nring_02\n  rotate: false\n  xy: 992, 20\n  size: 30, 38\n  orig: 30, 38\n  offset: 0, 0\n  index: -1\nring_03\n  rotate: false\n  xy: 363, 465\n  size: 64, 57\n  orig: 64, 57\n  offset: 0, 0\n  index: -1\n\nshimma2.png\nsize: 1024,1023\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nL_arm_A\n  rotate: false\n  xy: 2, 4\n  size: 130, 129\n  orig: 130, 129\n  offset: 0, 0\n  index: -1\nL_arm_B_03\n  rotate: true\n  xy: 982, 133\n  size: 65, 31\n  orig: 65, 31\n  offset: 0, 0\n  index: -1\nL_arm_C_02\n  rotate: true\n  xy: 866, 44\n  size: 48, 90\n  orig: 48, 90\n  offset: 0, 0\n  index: -1\nL_arm_C_03\n  rotate: false\n  xy: 982, 375\n  size: 36, 49\n  orig: 36, 49\n  offset: 0, 0\n  index: -1\nL_arm_C_05\n  rotate: false\n  xy: 982, 254\n  size: 33, 68\n  orig: 33, 68\n  offset: 0, 0\n  index: -1\nr_arm_C_05\n  rotate: false\n  xy: 982, 254\n  size: 33, 68\n  orig: 33, 68\n  offset: 0, 0\n  index: -1\nL_leg_core\n  rotate: true\n  xy: 991, 984\n  size: 37, 28\n  orig: 37, 28\n  offset: 0, 0\n  index: -1\nLayer 82\n  rotate: false\n  xy: 982, 200\n  size: 32, 52\n  orig: 32, 52\n  offset: 0, 0\n  index: -1\nR_leg_core\n  rotate: true\n  xy: 449, 94\n  size: 39, 27\n  orig: 39, 27\n  offset: 0, 0\n  index: -1\nbody_01\n  rotate: true\n  xy: 903, 15\n  size: 27, 48\n  orig: 27, 48\n  offset: 0, 0\n  index: -1\nbody_02\n  rotate: false\n  xy: 866, 12\n  size: 35, 30\n  orig: 35, 30\n  offset: 0, 0\n  index: -1\nbody_07_d\n  rotate: true\n  xy: 982, 477\n  size: 49, 40\n  orig: 49, 40\n  offset: 0, 0\n  index: -1\nbody_07_d_grow\n  rotate: true\n  xy: 982, 426\n  size: 49, 40\n  orig: 49, 40\n  offset: 0, 0\n  index: -1\nbody_09\n  rotate: true\n  xy: 487, 536\n  size: 90, 68\n  orig: 90, 68\n  offset: 0, 0\n  index: -1\nbody_11_grow\n  rotate: true\n  xy: 495, 10\n  size: 82, 97\n  orig: 82, 97\n  offset: 0, 0\n  index: -1\nbody_core_01\n  rotate: true\n  xy: 594, 19\n  size: 73, 100\n  orig: 73, 100\n  offset: 0, 0\n  index: -1\neffect/2xring_big\n  rotate: false\n  xy: 958, 5\n  size: 59, 59\n  orig: 59, 59\n  offset: 0, 0\n  index: -1\neffect/bit_05\n  rotate: false\n  xy: 2, 628\n  size: 553, 393\n  orig: 553, 393\n  offset: 0, 0\n  index: -1\neffect/core light\n  rotate: false\n  xy: 557, 528\n  size: 432, 493\n  orig: 432, 493\n  offset: 0, 0\n  index: -1\neffect/core light2\n  rotate: true\n  xy: 487, 94\n  size: 432, 493\n  orig: 432, 493\n  offset: 0, 0\n  index: -1\neffect/light_001\n  rotate: true\n  xy: 2, 135\n  size: 491, 483\n  orig: 491, 483\n  offset: 0, 0\n  index: -1\neffect/ring_05\n  rotate: false\n  xy: 399, 2\n  size: 94, 90\n  orig: 94, 90\n  offset: 0, 0\n  index: -1\neffect/ringring\n  rotate: true\n  xy: 696, 22\n  size: 70, 168\n  orig: 70, 168\n  offset: 0, 0\n  index: -1\neffect_body light effect\n  rotate: true\n  xy: 134, 9\n  size: 124, 129\n  orig: 124, 129\n  offset: 0, 0\n  index: -1\neffect_core_C\n  rotate: true\n  xy: 399, 95\n  size: 38, 48\n  orig: 38, 48\n  offset: 0, 0\n  index: -1\nr_arm_A\n  rotate: true\n  xy: 265, 11\n  size: 122, 132\n  orig: 122, 132\n  offset: 0, 0\n  index: -1\nr_arm_B_03\n  rotate: true\n  xy: 982, 66\n  size: 65, 31\n  orig: 65, 31\n  offset: 0, 0\n  index: -1\nr_arm_C_03\n  rotate: false\n  xy: 982, 324\n  size: 36, 49\n  orig: 36, 49\n  offset: 0, 0\n  index: -1\n\nshimma3.png\nsize: 994,624\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nL_arm_C_04\n  rotate: false\n  xy: 867, 163\n  size: 72, 59\n  orig: 72, 59\n  offset: 0, 0\n  index: -1\nL_arm_C__BACK\n  rotate: false\n  xy: 164, 12\n  size: 60, 44\n  orig: 60, 44\n  offset: 0, 0\n  index: -1\nr_arm_C_BACK\n  rotate: false\n  xy: 164, 12\n  size: 60, 44\n  orig: 60, 44\n  offset: 0, 0\n  index: -1\nR_leg\n  rotate: false\n  xy: 448, 34\n  size: 52, 46\n  orig: 52, 46\n  offset: 0, 0\n  index: -1\nR_leg_grow\n  rotate: false\n  xy: 502, 34\n  size: 52, 46\n  orig: 52, 46\n  offset: 0, 0\n  index: -1\nbody_06\n  rotate: false\n  xy: 923, 371\n  size: 63, 68\n  orig: 63, 68\n  offset: 0, 0\n  index: -1\nbody_06_grow\n  rotate: true\n  xy: 378, 17\n  size: 63, 68\n  orig: 63, 68\n  offset: 0, 0\n  index: -1\nbody_08\n  rotate: false\n  xy: 867, 224\n  size: 101, 113\n  orig: 101, 113\n  offset: 0, 0\n  index: -1\nbody_08_grow\n  rotate: false\n  xy: 884, 48\n  size: 101, 113\n  orig: 101, 113\n  offset: 0, 0\n  index: -1\nbody_10\n  rotate: false\n  xy: 923, 441\n  size: 69, 43\n  orig: 69, 43\n  offset: 0, 0\n  index: -1\nbody_BACK\n  rotate: false\n  xy: 770, 7\n  size: 112, 140\n  orig: 112, 140\n  offset: 0, 0\n  index: -1\nbody_core_02\n  rotate: true\n  xy: 94, 6\n  size: 50, 68\n  orig: 50, 68\n  offset: 0, 0\n  index: -1\neffect/2xring\n  rotate: false\n  xy: 2, 58\n  size: 300, 298\n  orig: 300, 298\n  offset: 0, 0\n  index: -1\neffect/attack_after1\n  rotate: false\n  xy: 2, 358\n  size: 342, 264\n  orig: 342, 264\n  offset: 0, 0\n  index: -1\neffect/attack_light\n  rotate: false\n  xy: 638, 339\n  size: 283, 283\n  orig: 283, 283\n  offset: 0, 0\n  index: -1\neffect/bit_03\n  rotate: true\n  xy: 346, 339\n  size: 283, 290\n  orig: 283, 290\n  offset: 0, 0\n  index: -1\neffect/r_light2\n  rotate: true\n  xy: 304, 82\n  size: 255, 297\n  orig: 255, 297\n  offset: 0, 0\n  index: -1\neffect/smoke_02\n  rotate: false\n  xy: 603, 149\n  size: 262, 188\n  orig: 262, 188\n  offset: 0, 0\n  index: -1\neffect/summon_t\n  rotate: true\n  xy: 603, 10\n  size: 137, 165\n  orig: 137, 165\n  offset: 0, 0\n  index: -1\neffect_core_D\n  rotate: true\n  xy: 923, 486\n  size: 136, 68\n  orig: 136, 68\n  offset: 0, 0\n  index: -1\nr_arm_B_04\n  rotate: false\n  xy: 226, 12\n  size: 60, 44\n  orig: 60, 44\n  offset: 0, 0\n  index: -1\nr_arm_B_04_grow\n  rotate: false\n  xy: 884, 2\n  size: 60, 44\n  orig: 60, 44\n  offset: 0, 0\n  index: -1\nr_arm_C_02\n  rotate: true\n  xy: 2, 8\n  size: 48, 90\n  orig: 48, 90\n  offset: 0, 0\n  index: -1\nr_arm_C_04\n  rotate: false\n  xy: 304, 21\n  size: 72, 59\n  orig: 72, 59\n  offset: 0, 0\n  index: -1\n"/>
+	<sound name="8240147"/>
+	<canvas name="shimma.png" width="1024" height="1024">
+		<vector name="origin" x="512" y="512"/>
+		<int name="z" value="0"/>
+	</canvas>
+	<canvas name="shimma2.png" width="1024" height="1023">
+		<vector name="origin" x="512" y="511"/>
+		<int name="z" value="0"/>
+	</canvas>
+	<canvas name="shimma3.png" width="994" height="624">
+		<vector name="origin" x="687" y="125"/>
+		<int name="z" value="0"/>
+	</canvas>
+</imgdir>

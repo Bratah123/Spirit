@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="EliteMobEff.img">
+	<imgdir name="0">
+		<imgdir name="skill">
+			<string name="100" value=""/>
+			<string name="110" value=""/>
+		</imgdir>
+		<imgdir name="effect_regen">
+			<canvas name="0" width="38" height="37">
+				<vector name="origin" x="20" y="103"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="1" width="64" height="63">
+				<vector name="origin" x="33" y="116"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="2" width="93" height="101">
+				<vector name="origin" x="47" y="135"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="3" width="116" height="112">
+				<vector name="origin" x="59" y="141"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="4" width="122" height="132">
+				<vector name="origin" x="62" y="151"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="5" width="104" height="112">
+				<vector name="origin" x="53" y="141"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="6" width="137" height="128">
+				<vector name="origin" x="69" y="149"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="7" width="135" height="133">
+				<vector name="origin" x="68" y="151"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="8" width="116" height="112">
+				<vector name="origin" x="59" y="141"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="9" width="122" height="132">
+				<vector name="origin" x="62" y="151"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="10" width="104" height="112">
+				<vector name="origin" x="53" y="141"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="11" width="137" height="128">
+				<vector name="origin" x="69" y="149"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="12" width="135" height="133">
+				<vector name="origin" x="68" y="151"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="13" width="116" height="112">
+				<vector name="origin" x="59" y="141"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="14" width="122" height="132">
+				<vector name="origin" x="62" y="151"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="15" width="104" height="112">
+				<vector name="origin" x="53" y="141"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="16" width="137" height="128">
+				<vector name="origin" x="69" y="149"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="17" width="135" height="133">
+				<vector name="origin" x="68" y="151"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="18" width="116" height="112">
+				<vector name="origin" x="59" y="141"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="19" width="122" height="132">
+				<vector name="origin" x="62" y="151"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="20" width="104" height="112">
+				<vector name="origin" x="53" y="141"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="21" width="137" height="128">
+				<vector name="origin" x="69" y="149"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="22" width="135" height="133">
+				<vector name="origin" x="68" y="151"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="23" width="405" height="294">
+				<vector name="origin" x="203" y="232"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="24" width="409" height="297">
+				<vector name="origin" x="205" y="233"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="25" width="413" height="302">
+				<vector name="origin" x="207" y="236"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="26" width="404" height="306">
+				<vector name="origin" x="203" y="238"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="27" width="394" height="310">
+				<vector name="origin" x="198" y="240"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="28" width="373" height="284">
+				<vector name="origin" x="187" y="227"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="29" width="344" height="250">
+				<vector name="origin" x="173" y="210"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="30" width="265" height="247">
+				<vector name="origin" x="133" y="208"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<canvas name="31" width="213" height="229">
+				<vector name="origin" x="107" y="199"/>
+				<int name="delay" value="120"/>
+			</canvas>
+			<int name="delayedFrame" value="22"/>
+		</imgdir>
+		<string name="modifier" value="Powerful"/>
+	</imgdir>
+	<imgdir name="1">
+		<imgdir name="skill">
+			<string name="102" value=""/>
+			<string name="112" value=""/>
+		</imgdir>
+		<string name="modifier" value="Beefy"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="2">
+		<imgdir name="skill">
+			<string name="103" value=""/>
+			<string name="113" value=""/>
+		</imgdir>
+		<string name="modifier" value="Magic Resistant"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="3">
+		<imgdir name="skill">
+			<string name="114" value=""/>
+		</imgdir>
+		<string name="modifier" value="Healer"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="4">
+		<imgdir name="skill">
+			<string name="115" value=""/>
+		</imgdir>
+		<string name="modifier" value="Speedy"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="5">
+		<imgdir name="skill">
+			<string name="120" value=""/>
+		</imgdir>
+		<string name="modifier" value="Seal Master"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="6">
+		<imgdir name="skill">
+			<string name="121" value=""/>
+		</imgdir>
+		<string name="modifier" value="Evasive"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="7">
+		<imgdir name="skill">
+			<string name="122" value=""/>
+		</imgdir>
+		<string name="modifier" value="Fragile"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="8">
+		<imgdir name="skill">
+			<string name="123" value=""/>
+		</imgdir>
+		<string name="modifier" value="KO"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="9">
+		<imgdir name="skill">
+			<string name="124" value=""/>
+		</imgdir>
+		<string name="modifier" value="Accursed"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="10">
+		<imgdir name="skill">
+			<string name="125" value=""/>
+		</imgdir>
+		<string name="modifier" value="Poisonous"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="11">
+		<imgdir name="skill">
+			<string name="126" value=""/>
+		</imgdir>
+		<string name="modifier" value="Sticky"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="12">
+		<imgdir name="skill">
+			<string name="127" value=""/>
+		</imgdir>
+		<string name="modifier" value="Magic Eater"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="13">
+		<imgdir name="skill">
+			<string name="128" value=""/>
+		</imgdir>
+		<string name="modifier" value="Seductive"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="14">
+		<imgdir name="skill">
+			<string name="131" value=""/>
+		</imgdir>
+		<string name="modifier" value="Gassy"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="15">
+		<imgdir name="skill">
+			<string name="132" value=""/>
+		</imgdir>
+		<string name="modifier" value="Befuddling"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="16">
+		<imgdir name="skill">
+			<string name="133" value=""/>
+		</imgdir>
+		<string name="modifier" value="Undead"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="17">
+		<imgdir name="skill">
+			<string name="134" value=""/>
+		</imgdir>
+		<string name="modifier" value="Dry"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="18">
+		<imgdir name="skill">
+			<string name="135" value=""/>
+		</imgdir>
+		<string name="modifier" value="Overwhelming"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="19">
+		<imgdir name="skill">
+			<string name="136" value=""/>
+		</imgdir>
+		<string name="modifier" value="Shadowy"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="20">
+		<imgdir name="skill">
+			<string name="142" value=""/>
+		</imgdir>
+		<string name="modifier" value="Solid"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="21">
+		<imgdir name="skill">
+			<string name="145" value=""/>
+		</imgdir>
+		<string name="modifier" value="Reflective"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="22">
+		<imgdir name="skill">
+			<string name="146" value=""/>
+		</imgdir>
+		<string name="modifier" value="Invincible"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="23">
+		<imgdir name="skill">
+			<string name="172" value=""/>
+		</imgdir>
+		<string name="modifier" value="Transformative"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="24">
+		<imgdir name="skill">
+			<string name="174" value=""/>
+		</imgdir>
+		<string name="modifier" value="Petrifying"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="25">
+		<imgdir name="skill">
+			<string name="181" value=""/>
+		</imgdir>
+		<string name="modifier" value="Magnetic"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="26">
+		<imgdir name="skill">
+			<string name="211" value=""/>
+		</imgdir>
+		<string name="modifier" value="Debilitating"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="27">
+		<imgdir name="skill">
+			<string name="212" value=""/>
+		</imgdir>
+		<string name="modifier" value="Commanding"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="28">
+		<imgdir name="skill">
+			<string name="213" value=""/>
+		</imgdir>
+		<string name="modifier" value="Black Chains"/>
+		<imgdir name="effect_regen">
+			<int name="delayedFrame" value="22"/>
+			<uol name="0" value="../../0/effect_regen/0"/>
+			<uol name="1" value="../../0/effect_regen/1"/>
+			<uol name="2" value="../../0/effect_regen/2"/>
+			<uol name="3" value="../../0/effect_regen/3"/>
+			<uol name="4" value="../../0/effect_regen/4"/>
+			<uol name="5" value="../../0/effect_regen/5"/>
+			<uol name="6" value="../../0/effect_regen/6"/>
+			<uol name="7" value="../../0/effect_regen/7"/>
+			<uol name="8" value="../../0/effect_regen/8"/>
+			<uol name="9" value="../../0/effect_regen/9"/>
+			<uol name="10" value="../../0/effect_regen/10"/>
+			<uol name="11" value="../../0/effect_regen/11"/>
+			<uol name="12" value="../../0/effect_regen/12"/>
+			<uol name="13" value="../../0/effect_regen/13"/>
+			<uol name="14" value="../../0/effect_regen/14"/>
+			<uol name="15" value="../../0/effect_regen/15"/>
+			<uol name="16" value="../../0/effect_regen/16"/>
+			<uol name="17" value="../../0/effect_regen/17"/>
+			<uol name="18" value="../../0/effect_regen/18"/>
+			<uol name="19" value="../../0/effect_regen/19"/>
+			<uol name="20" value="../../0/effect_regen/20"/>
+			<uol name="21" value="../../0/effect_regen/21"/>
+			<uol name="22" value="../../0/effect_regen/22"/>
+			<uol name="23" value="../../0/effect_regen/23"/>
+			<uol name="24" value="../../0/effect_regen/24"/>
+			<uol name="25" value="../../0/effect_regen/25"/>
+			<uol name="26" value="../../0/effect_regen/26"/>
+			<uol name="27" value="../../0/effect_regen/27"/>
+			<uol name="28" value="../../0/effect_regen/28"/>
+			<uol name="29" value="../../0/effect_regen/29"/>
+			<uol name="30" value="../../0/effect_regen/30"/>
+			<uol name="31" value="../../0/effect_regen/31"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="eliteMonster">
+		<imgdir name="0">
+			<canvas name="0" width="544" height="224">
+				<vector name="origin" x="276" y="123"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="1" width="544" height="224">
+				<vector name="origin" x="276" y="123"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="2" width="544" height="224">
+				<vector name="origin" x="276" y="123"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="3" width="544" height="224">
+				<vector name="origin" x="276" y="123"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="4" width="544" height="224">
+				<vector name="origin" x="276" y="123"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="5" width="544" height="224">
+				<vector name="origin" x="276" y="123"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<uol name="6" value="0"/>
+			<uol name="7" value="1"/>
+			<uol name="8" value="2"/>
+			<uol name="9" value="3"/>
+			<uol name="10" value="4"/>
+			<uol name="11" value="5"/>
+			<uol name="12" value="0"/>
+			<uol name="13" value="1"/>
+			<uol name="14" value="2"/>
+			<uol name="15" value="3"/>
+			<uol name="16" value="4"/>
+			<uol name="17" value="5"/>
+			<int name="moveType" value="3"/>
+			<string name="sound" value="Field.img/eliteMonster/warning1"/>
+		</imgdir>
+		<imgdir name="1">
+			<canvas name="0" width="1496" height="800">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="1980"/>
+			</canvas>
+			<int name="moveTime" value="700"/>
+			<int name="moveType" value="0"/>
+			<int name="delayedTime" value="2550"/>
+			<string name="sound" value="Field.img/eliteMonster/warning2"/>
+		</imgdir>
+		<imgdir name="2">
+			<canvas name="0" width="1492" height="904">
+				<vector name="origin" x="1494" y="100"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="1980"/>
+			</canvas>
+			<int name="moveTime" value="700"/>
+			<int name="delayedTime" value="2550"/>
+			<int name="moveType" value="1"/>
+		</imgdir>
+		<imgdir name="3">
+			<canvas name="0" width="2852" height="1604">
+				<vector name="origin" x="0" y="840"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="1950"/>
+			</canvas>
+			<int name="moveTime" value="700"/>
+			<int name="delayedTime" value="4250"/>
+			<int name="moveType" value="2"/>
+			<string name="sound" value="Field.img/eliteMonster/warning3"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="eliteMonsterFrame">
+		<canvas name="800" width="800" height="600">
+			<vector name="origin" x="0" y="22"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1024" width="1024" height="768">
+			<vector name="origin" x="0" y="190"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1366" width="1368" height="768">
+			<vector name="origin" x="0" y="190"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<int name="delayedTime" value="4000"/>
+	</imgdir>
+	<imgdir name="eliteMonsterEffect">
+		<imgdir name="800">
+			<canvas name="0" width="800" height="600">
+				<vector name="origin" x="0" y="22"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="800" height="600">
+				<vector name="origin" x="0" y="22"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="800" height="600">
+				<vector name="origin" x="0" y="22"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="800" height="600">
+				<vector name="origin" x="0" y="22"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="800" height="600">
+				<vector name="origin" x="0" y="22"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="800" height="600">
+				<vector name="origin" x="0" y="22"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="800" height="600">
+				<vector name="origin" x="0" y="22"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="800" height="600">
+				<vector name="origin" x="0" y="22"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1024">
+			<canvas name="0" width="1028" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="1028" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="1028" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="1028" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="1028" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="1028" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="1028" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="1028" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1366">
+			<canvas name="0" width="1368" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="1368" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="1368" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="1368" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="1368" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="1368" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="1368" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="1368" height="768">
+				<vector name="origin" x="0" y="190"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+	<imgdir name="eliteGradeEffect">
+		<imgdir name="0">
+			<imgdir name="effect_head">
+				<canvas name="0" width="68" height="107">
+					<vector name="origin" x="30" y="115"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="1" width="72" height="106">
+					<vector name="origin" x="34" y="116"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="2" width="71" height="107">
+					<vector name="origin" x="37" y="118"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="3" width="63" height="109">
+					<vector name="origin" x="36" y="120"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="4" width="73" height="111">
+					<vector name="origin" x="35" y="121"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="5" width="72" height="113">
+					<vector name="origin" x="35" y="122"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="effect_origin">
+				<canvas name="0" width="206" height="29">
+					<vector name="origin" x="103" y="7"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="1" width="117" height="23">
+					<vector name="origin" x="58" y="8"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="2" width="121" height="23">
+					<vector name="origin" x="60" y="8"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="3" width="121" height="22">
+					<vector name="origin" x="60" y="7"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="4" width="121" height="20">
+					<vector name="origin" x="60" y="6"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="5" width="119" height="16">
+					<vector name="origin" x="59" y="4"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1">
+			<imgdir name="effect_head">
+				<canvas name="0" width="68" height="107">
+					<vector name="origin" x="30" y="115"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="72" height="106">
+					<vector name="origin" x="34" y="116"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="71" height="107">
+					<vector name="origin" x="37" y="118"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="63" height="109">
+					<vector name="origin" x="36" y="120"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="73" height="111">
+					<vector name="origin" x="35" y="121"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="72" height="113">
+					<vector name="origin" x="35" y="122"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="effect_origin">
+				<canvas name="0" width="79" height="19">
+					<vector name="origin" x="39" y="7"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="117" height="23">
+					<vector name="origin" x="58" y="8"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="121" height="23">
+					<vector name="origin" x="60" y="8"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="121" height="22">
+					<vector name="origin" x="60" y="7"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="121" height="20">
+					<vector name="origin" x="60" y="6"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="119" height="16">
+					<vector name="origin" x="59" y="4"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2">
+			<imgdir name="effect_head">
+				<canvas name="0" width="68" height="107">
+					<vector name="origin" x="30" y="115"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+				<canvas name="1" width="72" height="106">
+					<vector name="origin" x="34" y="116"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+				<canvas name="2" width="71" height="107">
+					<vector name="origin" x="37" y="118"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+				<canvas name="3" width="63" height="109">
+					<vector name="origin" x="36" y="120"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+				<canvas name="4" width="73" height="111">
+					<vector name="origin" x="35" y="121"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+				<canvas name="5" width="72" height="113">
+					<vector name="origin" x="35" y="122"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="effect_origin">
+				<canvas name="0" width="79" height="19">
+					<vector name="origin" x="39" y="7"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+				<canvas name="1" width="117" height="23">
+					<vector name="origin" x="58" y="8"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+				<canvas name="2" width="121" height="23">
+					<vector name="origin" x="60" y="8"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+				<canvas name="3" width="121" height="22">
+					<vector name="origin" x="60" y="7"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+				<canvas name="4" width="121" height="20">
+					<vector name="origin" x="60" y="6"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+				<canvas name="5" width="119" height="16">
+					<vector name="origin" x="59" y="4"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="60"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="eliteBonusStage">
+		<canvas name="0" width="61" height="72">
+			<vector name="origin" x="281" y="150"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="1" width="115" height="85">
+			<vector name="origin" x="283" y="151"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="2" width="176" height="97">
+			<vector name="origin" x="284" y="150"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="3" width="229" height="97">
+			<vector name="origin" x="284" y="149"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="4" width="275" height="98">
+			<vector name="origin" x="284" y="150"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="5" width="341" height="99">
+			<vector name="origin" x="284" y="150"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="6" width="392" height="98">
+			<vector name="origin" x="284" y="150"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="7" width="437" height="90">
+			<vector name="origin" x="284" y="142"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="8" width="489" height="98">
+			<vector name="origin" x="284" y="151"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="9" width="539" height="97">
+			<vector name="origin" x="284" y="150"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="10" width="567" height="99">
+			<vector name="origin" x="284" y="151"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="11" width="569" height="90">
+			<vector name="origin" x="284" y="142"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="12" width="570" height="82">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="13" width="570" height="80">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="14" width="570" height="193">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="15" width="570" height="194">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="16" width="570" height="193">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="17" width="570" height="167">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="18" width="570" height="167">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="19" width="570" height="167">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="20" width="570" height="167">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="21" width="570" height="167">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="22" width="570" height="192">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="23" width="570" height="194">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="24" width="570" height="193">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="25" width="570" height="166">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="26" width="570" height="166">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="27" width="570" height="166">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="28" width="570" height="166">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="29" width="570" height="166">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="30" width="570" height="192">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="31" width="570" height="194">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="32" width="570" height="192">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="33" width="570" height="166">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="34" width="570" height="166">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="35" width="570" height="166">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="36" width="570" height="166">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="37" width="570" height="166">
+			<vector name="origin" x="284" y="134"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="38" width="552" height="131">
+			<vector name="origin" x="276" y="124"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="39" width="574" height="135">
+			<vector name="origin" x="287" y="126"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="40" width="580" height="134">
+			<vector name="origin" x="290" y="126"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="41" width="484" height="116">
+			<vector name="origin" x="242" y="117"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="42" width="484" height="116">
+			<vector name="origin" x="242" y="117"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="43" width="484" height="116">
+			<vector name="origin" x="242" y="117"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="44" width="482" height="115">
+			<vector name="origin" x="241" y="116"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="45" width="480" height="113">
+			<vector name="origin" x="240" y="115"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+		<canvas name="46" width="478" height="110">
+			<vector name="origin" x="239" y="114"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+	</imgdir>
+</imgdir>

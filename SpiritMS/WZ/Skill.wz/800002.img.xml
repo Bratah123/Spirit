@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="800002.img">
+	<imgdir name="info">
+		<canvas name="icon" width="26" height="30">
+			<vector name="origin" x="-4" y="30"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="skill">
+		<imgdir name="80000200">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="20"/>
+				<string name="madX" value="20"/>
+				<string name="strX" value="50"/>
+				<string name="dexX" value="50"/>
+				<string name="intX" value="50"/>
+				<string name="lukX" value="50"/>
+				<string name="bdR" value="30"/>
+				<string name="ignoreMobpdpR" value="30"/>
+				<string name="mhpX" value="2000"/>
+				<string name="mmpX" value="2000"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000201">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="5"/>
+				<string name="madX" value="5"/>
+				<string name="strX" value="20"/>
+				<string name="dexX" value="20"/>
+				<string name="intX" value="20"/>
+				<string name="lukX" value="20"/>
+				<string name="bdR" value="10"/>
+				<string name="ignoreMobpdpR" value="10"/>
+				<string name="mhpX" value="500"/>
+				<string name="mmpX" value="500"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000202">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="3"/>
+				<string name="madX" value="3"/>
+				<string name="strX" value="8"/>
+				<string name="dexX" value="8"/>
+				<string name="intX" value="8"/>
+				<string name="lukX" value="8"/>
+				<string name="ignoreMobpdpR" value="5"/>
+				<string name="mhpX" value="300"/>
+				<string name="mmpX" value="300"/>
+				<string name="bdR" value="5"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000203">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="strX" value="5"/>
+				<string name="dexX" value="5"/>
+				<string name="intX" value="5"/>
+				<string name="lukX" value="5"/>
+				<string name="mhpX" value="500"/>
+				<string name="mmpX" value="500"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000204">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="30"/>
+				<string name="madX" value="30"/>
+				<string name="strX" value="50"/>
+				<string name="dexX" value="50"/>
+				<string name="intX" value="50"/>
+				<string name="lukX" value="50"/>
+				<string name="bdR" value="30"/>
+				<string name="ignoreMobpdpR" value="30"/>
+				<string name="mhpX" value="2000"/>
+				<string name="mmpX" value="2000"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000205">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="3"/>
+				<string name="madX" value="3"/>
+				<string name="strX" value="3"/>
+				<string name="dexX" value="3"/>
+				<string name="intX" value="3"/>
+				<string name="lukX" value="3"/>
+				<string name="mhpX" value="200"/>
+				<string name="mmpX" value="200"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000206">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="5"/>
+				<string name="madX" value="5"/>
+				<string name="strX" value="5"/>
+				<string name="dexX" value="5"/>
+				<string name="intX" value="5"/>
+				<string name="lukX" value="5"/>
+				<string name="mhpX" value="200"/>
+				<string name="mmpX" value="200"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000207">
+			<canvas name="icon" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="10"/>
+				<string name="madX" value="10"/>
+				<string name="mhpX" value="500"/>
+				<string name="mmpX" value="500"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000208">
+			<canvas name="icon" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="10"/>
+				<string name="madX" value="10"/>
+				<string name="mhpX" value="500"/>
+				<string name="mmpX" value="500"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000209">
+			<canvas name="icon" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="10"/>
+				<string name="madX" value="10"/>
+				<string name="mhpX" value="500"/>
+				<string name="mmpX" value="500"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000277">
+			<canvas name="icon" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="intX" value="1"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000278">
+			<canvas name="icon" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="dexX" value="1"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000279">
+			<canvas name="icon" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="mhpX" value="50"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000280">
+			<canvas name="icon" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="mhpX" value="80"/>
+				<string name="mmpX" value="80"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000281">
+			<canvas name="icon" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="lukX" value="1"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000282">
+			<canvas name="icon" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="strX" value="1"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000283">
+			<canvas name="icon" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="pddX" value="30"/>
+				<string name="mddX" value="30"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000284">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="7"/>
+				<string name="madX" value="7"/>
+				<string name="strX" value="10"/>
+				<string name="dexX" value="10"/>
+				<string name="intX" value="10"/>
+				<string name="lukX" value="10"/>
+				<string name="mhpX" value="500"/>
+				<string name="mmpX" value="500"/>
+				<string name="ignoreMobpdpR" value="5"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000285">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="5"/>
+				<string name="madX" value="5"/>
+				<string name="strX" value="7"/>
+				<string name="dexX" value="7"/>
+				<string name="intX" value="7"/>
+				<string name="lukX" value="7"/>
+				<string name="mhpX" value="400"/>
+				<string name="mmpX" value="400"/>
+				<string name="ignoreMobpdpR" value="3"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000286">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="3"/>
+				<string name="madX" value="3"/>
+				<string name="strX" value="5"/>
+				<string name="dexX" value="5"/>
+				<string name="intX" value="5"/>
+				<string name="lukX" value="5"/>
+				<string name="mhpX" value="300"/>
+				<string name="mmpX" value="300"/>
+			</imgdir>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="pvp" value="0"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000288">
+			<int name="invisible" value="1"/>
+			<int name="setItemPartsCount" value="1"/>
+			<int name="setItemReason" value="344"/>
+			<int name="disable" value="1"/>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="magicSteal" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<string name="padX" value="3"/>
+				<string name="madX" value="3"/>
+				<int name="maxLevel" value="1"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="petPassive" value="1"/>
+		</imgdir>
+		<imgdir name="80000289">
+			<int name="invisible" value="1"/>
+			<int name="setItemPartsCount" value="2"/>
+			<int name="setItemReason" value="344"/>
+			<int name="disable" value="1"/>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="magicSteal" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<string name="padX" value="5"/>
+				<string name="madX" value="5"/>
+				<int name="maxLevel" value="1"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="petPassive" value="1"/>
+		</imgdir>
+		<imgdir name="80000290">
+			<int name="invisible" value="1"/>
+			<int name="setItemPartsCount" value="3"/>
+			<int name="setItemReason" value="344"/>
+			<int name="disable" value="1"/>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="magicSteal" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<string name="padX" value="7"/>
+				<string name="madX" value="7"/>
+				<int name="maxLevel" value="1"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="petPassive" value="1"/>
+		</imgdir>
+		<imgdir name="80000291">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="2"/>
+				<string name="madX" value="2"/>
+			</imgdir>
+			<int name="maxLevel" value="1"/>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000292">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="1"/>
+				<string name="madX" value="1"/>
+			</imgdir>
+			<int name="maxLevel" value="1"/>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000293">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="1"/>
+				<string name="madX" value="1"/>
+			</imgdir>
+			<int name="maxLevel" value="1"/>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000294">
+			<int name="invisible" value="1"/>
+			<int name="setItemPartsCount" value="1"/>
+			<int name="setItemReason" value="345"/>
+			<int name="disable" value="1"/>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="magicSteal" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<string name="padX" value="3"/>
+				<string name="madX" value="3"/>
+				<int name="maxLevel" value="1"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="petPassive" value="1"/>
+		</imgdir>
+		<imgdir name="80000295">
+			<int name="invisible" value="1"/>
+			<int name="setItemPartsCount" value="1"/>
+			<int name="setItemReason" value="377"/>
+			<int name="disable" value="1"/>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="magicSteal" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<string name="padX" value="3"/>
+				<string name="madX" value="3"/>
+				<int name="maxLevel" value="1"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="petPassive" value="1"/>
+		</imgdir>
+		<imgdir name="80000296">
+			<int name="invisible" value="1"/>
+			<int name="setItemPartsCount" value="2"/>
+			<int name="setItemReason" value="377"/>
+			<int name="disable" value="1"/>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="magicSteal" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<string name="padX" value="5"/>
+				<string name="madX" value="5"/>
+				<int name="maxLevel" value="1"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="petPassive" value="1"/>
+		</imgdir>
+		<imgdir name="80000297">
+			<int name="invisible" value="1"/>
+			<int name="setItemPartsCount" value="3"/>
+			<int name="setItemReason" value="377"/>
+			<int name="disable" value="1"/>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+				<int name="magicSteal" value="1"/>
+			</imgdir>
+			<imgdir name="common">
+				<string name="padX" value="7"/>
+				<string name="madX" value="7"/>
+				<int name="maxLevel" value="1"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<int name="petPassive" value="1"/>
+		</imgdir>
+		<imgdir name="80000298">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="padX" value="2"/>
+				<string name="madX" value="2"/>
+			</imgdir>
+			<int name="maxLevel" value="1"/>
+			<imgdir name="info">
+				<int name="type" value="50"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<int name="psd" value="1"/>
+		</imgdir>
+		<imgdir name="80000299">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="info">
+				<int name="type" value="10"/>
+			</imgdir>
+			<int name="invisible" value="1"/>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="time" value="7+2*x"/>
+				<string name="cooltime" value="180"/>
+				<string name="x" value="x*5"/>
+				<string name="y" value="2+x*2"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="203" height="203">
+					<vector name="origin" x="99" y="145"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="171" height="171">
+					<vector name="origin" x="84" y="130"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="178" height="170">
+					<vector name="origin" x="87" y="129"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="183" height="162">
+					<vector name="origin" x="88" y="126"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="188" height="154">
+					<vector name="origin" x="89" y="118"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="141" height="134">
+					<vector name="origin" x="69" y="111"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="136" height="129">
+					<vector name="origin" x="66" y="108"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="129" height="123">
+					<vector name="origin" x="62" y="106"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="8" width="127" height="119">
+					<vector name="origin" x="61" y="104"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="9" width="121" height="112">
+					<vector name="origin" x="58" y="100"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<int name="disable" value="1"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

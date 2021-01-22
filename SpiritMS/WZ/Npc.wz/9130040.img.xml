@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9130040.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="takedaSick1"/>
+			</imgdir>
+		</imgdir>
+		<int name="dcLeft" value="-57"/>
+		<int name="dcRight" value="57"/>
+		<int name="dcTop" value="-170"/>
+		<int name="dcBottom" value="0"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="87" height="105">
+			<vector name="origin" x="41" y="105"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="blink">
+		<canvas name="0" width="87" height="105">
+			<vector name="origin" x="41" y="105"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="87" height="105">
+			<vector name="origin" x="41" y="105"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="speak">
+		<canvas name="0" width="87" height="105">
+			<vector name="origin" x="41" y="105"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/9130040.img/blink/1"/>
+		</canvas>
+		<canvas name="1" width="87" height="105">
+			<vector name="origin" x="41" y="105"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="87" height="105">
+				<vector name="origin" x="41" y="105"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9130040.img/stand/0"/>
+			</canvas>
+		</imgdir>
+		<int name="57055" value="2"/>
+		<int name="hide" value="1"/>
+		<imgdir name="blink">
+			<canvas name="0" width="87" height="105">
+				<vector name="origin" x="41" y="105"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9130040.img/blink/0"/>
+			</canvas>
+			<canvas name="1" width="87" height="105">
+				<vector name="origin" x="41" y="105"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9130040.img/blink/1"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="speak">
+			<canvas name="0" width="87" height="105">
+				<vector name="origin" x="41" y="105"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9130040.img/blink/1"/>
+			</canvas>
+			<canvas name="1" width="87" height="105">
+				<vector name="origin" x="41" y="105"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/9130040.img/speak/1"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+</imgdir>

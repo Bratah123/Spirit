@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="0113.img">
+	<imgdir name="info">
+		<int name="gender" value="0"/>
+		<int name="chatBalloon" value="36"/>
+		<int name="nameTag" value="38"/>
+	</imgdir>
+	<imgdir name="basic">
+		<int name="accessory" value="1032096"/>
+		<int name="longcoat" value="1050111"/>
+		<int name="shoes" value="1072232"/>
+		<int name="gloves" value="1082040"/>
+	</imgdir>
+	<imgdir name="costume">
+		<imgdir name="skin">
+			<string name="0" value="2004"/>
+		</imgdir>
+		<imgdir name="hair">
+			<int name="0" value="30531"/>
+		</imgdir>
+		<imgdir name="face">
+			<int name="0" value="23430"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="action">
+		<imgdir name="hello">
+			<imgdir name="0">
+				<string name="sound" value="hello"/>
+				<string name="face" value="smile"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="sound" value="hello"/>
+				<string name="face" value="wink"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="levelup">
+			<imgdir name="0">
+				<string name="face" value="glitter"/>
+				<string name="chat" value="uuuunnhh~"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="chat" value="aaaaaarghh!!!"/>
+				<string name="face" value="bewildered"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="dead">
+			<imgdir name="0">
+				<string name="face" value="cry"/>
+				<string name="chat" value="gaaaaahhh..."/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="face" value="despair"/>
+				<string name="chat" value="eeeeh!"/>
+				<string name="action" value="dead"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="bye">
+			<imgdir name="0">
+				<string name="sound" value="bye"/>
+				<string name="face" value="cry"/>
+				<string name="chat" value="uuuunnhh~"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="job">
+			<imgdir name="0">
+				<string name="face" value="shine"/>
+				<string name="chat" value="aaaaaarghh!!!"/>
+				<string name="sound" value="bye"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="alert">
+			<imgdir name="0">
+				<string name="face" value="hit"/>
+				<string name="action" value="alert"/>
+				<int name="prob" value="10"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="prob" value="90"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

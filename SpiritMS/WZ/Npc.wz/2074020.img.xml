@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2074020.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+		<canvas name="default" width="109" height="102">
+			<vector name="origin" x="62" y="105"/>
+		</canvas>
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="89" height="51">
+			<vector name="origin" x="44" y="51"/>
+			<int name="delay" value="3000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="89" height="51">
+			<vector name="origin" x="44" y="51"/>
+			<int name="delay" value="3000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="30920">
+			<string name="value" value="1"/>
+		</imgdir>
+		<uol name="stand" value="../stand"/>
+		<uol name="eye" value="../eye"/>
+	</imgdir>
+	<imgdir name="condition2">
+		<imgdir name="30920">
+			<string name="value" value="2"/>
+			<int name="hide" value="1"/>
+		</imgdir>
+		<uol name="stand" value="../stand"/>
+		<uol name="eye" value="../eye"/>
+	</imgdir>
+</imgdir>

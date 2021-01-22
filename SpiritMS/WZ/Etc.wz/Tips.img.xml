@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="Tips.img">
+	<imgdir name="normal">
+		<imgdir name="info">
+			<imgdir name="0">
+				<int name="levelMin" value="1"/>
+				<int name="levelMax" value="5"/>
+				<int name="interval" value="30000"/>
+				<int name="all" value="20"/>
+				<string name="tip" value="novice"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="levelMin" value="6"/>
+				<int name="levelMax" value="10"/>
+				<int name="interval" value="60000"/>
+				<int name="all" value="40"/>
+				<string name="tip" value="novice"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="levelMin" value="11"/>
+				<int name="levelMax" value="20"/>
+				<int name="interval" value="300000"/>
+				<int name="all" value="50"/>
+				<string name="tip" value="novice2"/>
+				<int name="job" value="15"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="levelMin" value="21"/>
+				<int name="levelMax" value="30"/>
+				<int name="interval" value="600000"/>
+				<int name="all" value="60"/>
+				<string name="tip" value="novice3"/>
+				<int name="job" value="15"/>
+			</imgdir>
+			<imgdir name="4">
+				<int name="levelMin" value="31"/>
+				<int name="levelMax" value="60"/>
+				<int name="interval" value="600000"/>
+				<int name="all" value="70"/>
+				<string name="tip" value="novice4"/>
+				<int name="job" value="15"/>
+			</imgdir>
+			<imgdir name="5">
+				<int name="levelMin" value="61"/>
+				<int name="levelMax" value="199"/>
+				<int name="interval" value="600000"/>
+				<int name="all" value="80"/>
+				<string name="tip" value="novice5"/>
+				<int name="job" value="15"/>
+			</imgdir>
+			<imgdir name="6">
+				<int name="levelMin" value="200"/>
+				<int name="levelMax" value="200"/>
+				<int name="interval" value="600000"/>
+				<int name="all" value="90"/>
+				<string name="tip" value="novice6"/>
+			</imgdir>
+			<imgdir name="7">
+				<int name="levelMin" value="11"/>
+				<int name="levelMax" value="30"/>
+				<int name="interval" value="300000"/>
+				<int name="all" value="20"/>
+				<string name="tip" value="novice7"/>
+				<int name="job" value="16"/>
+			</imgdir>
+			<imgdir name="8">
+				<int name="levelMin" value="31"/>
+				<int name="levelMax" value="60"/>
+				<int name="interval" value="600000"/>
+				<int name="all" value="70"/>
+				<string name="tip" value="novice8"/>
+				<int name="job" value="16"/>
+			</imgdir>
+			<imgdir name="9">
+				<int name="levelMin" value="61"/>
+				<int name="levelMax" value="100"/>
+				<int name="interval" value="600000"/>
+				<int name="all" value="80"/>
+				<string name="tip" value="novice9"/>
+				<int name="job" value="16"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="all">
+			<string name="0" value="Speak nicely and be nice."/>
+			<string name="1" value="Trash talk and other abusive language while playing will result in bans."/>
+			<string name="2" value="No MapleStory administrator will ever ask for your password."/>
+			<string name="3" value="Don't tell anyone else your password!"/>
+			<string name="4" value=" Please contact Customer Support on the MapleStory homepage to report bugs."/>
+			<string name="5" value="Head to the official MapleStory website to see your rankings."/>
+			<string name="6" value="Participating in illegal activities, such as hacking, while playing will get you banned."/>
+			<string name="7" value="Use the system options in the menu to adjust the game sounds."/>
+			<string name="8" value="Use the game options in the menu to toggle ON/OFF chatting, trade, whisper, and other functions."/>
+			<string name="9" value="Type '/?' or '/help' to see more about '/' commands."/>
+			<string name="10" value="Some cash items can be deleted by donating them to the Clothes Collector."/>
+			<string name="11" value="To gift a cash item, simply select 'Purchase' -&gt; 'Give Gift', then enter the name of the character you want to gift it to."/>
+			<string name="12" value="To prevent hacking, be careful about what attachments you open from e-mails or instant messages."/>
+			<string name="13" value="Some cash items can be exchanged once before being used with Personal Shops or Hired Merchants."/>
+			<string name="14" value="To use items purchased in the Cash Shop, you must double-click them to add them to your in-game Inventory first."/>
+			<string name="15" value=" Karma Koin cards can be purchased from most major retailers."/>
+			<string name="16" value="Using macro (automatic hunting) programs can result in disconnections and bans against your Maple ID without warning."/>
+			<string name="17" value="Mesos and items cannot be duplicated. Please be wary of item fraud."/>
+			<string name="18" value="Please be aware that playing for too long may be harmful to your health."/>
+			<string name="19" value="You cannot get compensation for the restrictions you get from using illegal programs."/>
+			<string name="20" value=" Please use valid information when you create your Nexon account."/>
+			<string name="21" value=" Please refer to the MapleStory homepage if you need customer support at any time."/>
+			<string name="22" value=" Please change your Nexon ID password and Maple ID password regularly to help protect your account."/>
+			<string name="23" value="You can use Duey's Delivery System to send items or mesos to other players."/>
+			<string name="24" value="If you're on a public PC, please check the security programs and use your personal PC later to change your passwords."/>
+			<string name="25" value="Please be extra careful not to enter your ID and password outside of the official website."/>
+			<string name="26" value="Using illegal programs and unauthorized websites may put you at risk for hacking."/>
+			<string name="27" value="We recommend you use a combination of letters and numbers that are hard to predict for your password."/>
+			<string name="28" value="Party leaders can right-click on any other player and click 'Invite to Party' to send them an invite."/>
+			<string name="29" value="Right-click on other players and use the Fame +/- feature to make them more, or less, famous!"/>
+			<string name="30" value="Fame can be changed only once a day! You can fame or defame a particular character once a month."/>
+			<string name="31" value="Type '/Trade CharacterName' to open the Trade Window."/>
+			<string name="32" value="Some classes may not always be available for creation."/>
+			<string name="33" value="Try Monster Life, another fun element of MapleStory!"/>
+			<string name="34" value="Please look under the Guide section and on the official forums if you have any questions about the game."/>
+		</imgdir>
+		<imgdir name="novice">
+			<string name="0" value="Use shortcut keys (I, E, S, K, W, M, R, H) to easily open menus."/>
+			<string name="1" value="Find and use hidden portals in the map."/>
+			<string name="2" value="Press F1-F7 to express various emotions."/>
+			<string name="3" value="Use portals to move to other areas."/>
+			<string name="4" value="Portals to other areas are displayed in the Minimap as blue circles."/>
+			<string name="5" value="Press the Details button to see your stats in more detail."/>
+			<string name="6" value="All player characters will be shown as red dots on the Minimap."/>
+			<string name="7" value="Standing still restores your HP."/>
+			<string name="8" value="Press Z to pick up items on the ground, or you can set your own Pick Up key in the Key Settings."/>
+			<string name="9" value="Press the Ctrl key to attack and the Alt key to jump."/>
+			<string name="10" value="You can buy equipment and potions for your adventure from NPC shops in the game."/>
+			<string name="11" value="You can distribute the AP you earn when you gain a level in the Stats window."/>
+			<string name="12" value="You cannot switch to different job after your 1st Job Advancement."/>
+			<string name="13" value="Double-click an equipment item in your Inventory window, or drag it into the Equip window to equip it."/>
+			<string name="14" value="Press W to open the World Map."/>
+			<string name="15" value="Press E to open the Equip window."/>
+			<string name="16" value="Press I to open the Inventory window to see the items you own."/>
+			<string name="17" value="Press M to open the Minimap."/>
+			<string name="18" value="Press K to open the Skill window."/>
+			<string name="19" value="Press S to look at your character's stats."/>
+			<string name="20" value="Press R to look at information about your friends, party, and guild."/>
+			<string name="21" value="You can take a Job Advancement at level 10."/>
+			<string name="22" value="If you level up after you take a Job Advancement, you will receive Skill Points."/>
+		</imgdir>
+		<imgdir name="novice2">
+			<string name="0" value="There is a shop in every town where you can purchase equipment and potions."/>
+			<string name="1" value="Some items can only be used by a certain gender or class. Double-check before you buy!"/>
+			<string name="2" value="Be careful! Death will cause you to lose some EXP after you take your job advancement."/>
+			<string name="3" value="Completing quests will earn you items you can't find in shops."/>
+		</imgdir>
+		<imgdir name="novice3">
+			<string name="0" value="Passive Skills begin working automatically as soon as you learn them."/>
+			<string name="1" value="To use Active skills faster, drag the icon from the Skill window into one of your quickslots."/>
+			<string name="2" value="Each town sells unique equipment."/>
+			<string name="3" value="Distribute Skill Points in the Skills window."/>
+			<string name="4" value=" Be careful! Powerful monsters dwell in the underground dungeons."/>
+			<string name="5" value="Defeating more powerful monsters will earn you treasures not found in any shop."/>
+			<string name="6" value="MP recovers little by little after a set amount of time has passed."/>
+			<string name="7" value="Skills that cost MP cannot be used without MP."/>
+			<string name="8" value="Return Scrolls will get you back to town and back into action much faster than walking."/>
+			<string name="9" value="If you run out of Stars and Bullets, they will not disappear from your inventory."/>
+			<string name="10" value="Keep up your Star and Bullet supplies at the Weapon/General Stores in each Town."/>
+			<string name="11" value="During the 2nd Job Advancement, Explorer Warriors can pick between Fighter, Page, and Spearman."/>
+			<string name="12" value="During the 2nd Job Advancement, Explorer Bowmen can pick between Hunter and Crossbowman."/>
+			<string name="13" value="During the 2nd Job Advancement, Explorer Magicians can pick between Wizard and Cleric."/>
+			<string name="14" value="During the 2nd Job Advancement, Explorer Thiefs can pick between Assassin and Bandit."/>
+			<string name="15" value="During the 2nd Job Advancement, Explorer Pirates can pick between Brawler and Gunslinger."/>
+			<string name="16" value="Use the sauna in Sleepywood to recover HP and MP faster."/>
+		</imgdir>
+		<imgdir name="novice4">
+			<string name="0" value="There are some skills that will not stack with other skills."/>
+			<string name="1" value="Use a variety of skills to beef up your weapons and armor!"/>
+			<string name="2" value="Some quests and items have a Fame requirement."/>
+			<string name="3" value="The Magician's 2nd Job Skills will increase your Magic Attack, but the damage will vary with each monster."/>
+		</imgdir>
+		<imgdir name="novice5">
+			<string name="0" value="There are some quests that can be completed multiple times."/>
+			<string name="1" value="Some 4th Job skills require Mastery Books to upgrade."/>
+			<string name="2" value="Some quests will earn you new 4th Job skills."/>
+			<string name="3" value="Some 4th Job skill quests require specific starting conditions. Keep an eye out!"/>
+		</imgdir>
+		<imgdir name="novice6">
+		</imgdir>
+		<imgdir name="novice7">
+			<string name="0" value="Some items can only be used by a certain gender or class. Double-check before you buy!"/>
+			<string name="1" value="You can dash by pressing &gt; -&gt; or &lt; &lt;-."/>
+		</imgdir>
+		<imgdir name="novice8">
+		</imgdir>
+		<imgdir name="novice9">
+		</imgdir>
+	</imgdir>
+	<imgdir name="reboot">
+		<imgdir name="info">
+			<imgdir name="0">
+				<int name="levelMin" value="1"/>
+				<int name="levelMax" value="250"/>
+				<int name="interval" value="60000"/>
+				<int name="all" value="100"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="all">
+			<string name="0" value="Speak nicely and be nice."/>
+			<string name="1" value="Trash talk and other abusive language while playing will result in bans."/>
+			<string name="2" value="No MapleStory administrator will ever ask for your password."/>
+			<string name="3" value="Don't tell anyone else your password!"/>
+			<string name="4" value=" Please contact Customer Support on the MapleStory homepage to report bugs."/>
+			<string name="5" value="Head to the official MapleStory website to see your rankings."/>
+			<string name="6" value="Participating in illegal activities, such as hacking, while playing will get you banned."/>
+			<string name="7" value="Use the system options in the menu to adjust the game sounds."/>
+			<string name="8" value="Some cash items can be deleted by donating them to the Clothes Collector."/>
+			<string name="9" value="To gift a cash item, simply select 'Purchase' -&gt; 'Give Gift', then enter the name of the character you want to gift it to."/>
+			<string name="10" value="To prevent hacking, be careful about what attachments you open from e-mails or instant messages."/>
+			<string name="11" value="To use items purchased in the Cash Shop, you must double-click them to add them to your in-game Inventory first."/>
+			<string name="12" value=" Karma Koin cards can be purchased from most major retailers."/>
+			<string name="13" value="Using macro (automatic hunting) programs can result in disconnections and bans against your Maple ID without warning."/>
+			<string name="14" value="Mesos and items cannot be duplicated. Please be wary of item fraud."/>
+			<string name="15" value="Please be aware that playing for too long may be harmful to your health."/>
+			<string name="16" value="You cannot get compensation for the restrictions you get from using illegal programs."/>
+			<string name="17" value=" Please use valid information when you create your Nexon account."/>
+			<string name="18" value=" Please refer to the MapleStory homepage if you need customer support at any time."/>
+			<string name="19" value=" Please change your Nexon ID password and Maple ID password regularly to help protect your account."/>
+			<string name="20" value="If you're on a public PC, please check the security programs and use your personal PC later to change your passwords."/>
+			<string name="21" value="Please be extra careful not to enter your ID and password outside of the official website."/>
+			<string name="22" value="Using illegal programs and unauthorized websites may put you at risk for hacking."/>
+			<string name="23" value="We recommend you use a combination of letters and numbers that are hard to predict for your password."/>
+			<string name="24" value="Party leaders can right-click on any other player and click 'Invite to Party' to send them an invite."/>
+			<string name="25" value="Right-click on other players and use the Fame +/- feature to make them more, or less, famous!"/>
+			<string name="26" value="Fame can be changed only once a day! You can fame or defame a particular character once a month."/>
+			<string name="27" value="Some classes may not always be available for creation."/>
+			<string name="28" value="Please look under the Guide section and on the official forums if you have any questions about the game."/>
+			<string name="29" value="You cannot trade with others in Reboot World."/>
+		</imgdir>
+	</imgdir>
+</imgdir>

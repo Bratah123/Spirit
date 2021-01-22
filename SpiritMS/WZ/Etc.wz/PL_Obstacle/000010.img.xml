@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="000010.img">
+	<imgdir name="stand">
+		<canvas name="0" width="1" height="1">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="120"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="attack">
+		<imgdir name="info">
+			<int name="damage" value="0"/>
+			<int name="type" value="0"/>
+			<imgdir name="hit">
+				<canvas name="0" width="1" height="1">
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<canvas name="0" width="1" height="1">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="1600"/>
+			<string name="source" value="Map/Back/critias_destroyed.img/ani/1/0"/>
+		</canvas>
+		<canvas name="1" width="355" height="89">
+			<vector name="origin" x="172" y="71"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Map/Effect.img/event/start/0"/>
+		</canvas>
+		<canvas name="2" width="294" height="82">
+			<vector name="origin" x="138" y="69"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Map/Effect.img/event/start/1"/>
+		</canvas>
+		<canvas name="3" width="627" height="154">
+			<vector name="origin" x="299" y="104"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Map/Effect.img/event/start/2"/>
+		</canvas>
+		<canvas name="4" width="699" height="172">
+			<vector name="origin" x="336" y="115"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Map/Effect.img/event/start/3"/>
+		</canvas>
+		<canvas name="5" width="691" height="170">
+			<vector name="origin" x="331" y="114"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Map/Effect.img/event/start/4"/>
+		</canvas>
+		<canvas name="6" width="648" height="161">
+			<vector name="origin" x="311" y="111"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Map/Effect.img/event/start/5"/>
+		</canvas>
+		<canvas name="7" width="290" height="78">
+			<vector name="origin" x="136" y="67"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="500"/>
+			<string name="source" value="Map/Effect.img/event/start/6"/>
+		</canvas>
+		<canvas name="8" width="295" height="78">
+			<vector name="origin" x="138" y="67"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Map/Effect.img/event/start/7"/>
+		</canvas>
+		<canvas name="9" width="325" height="84">
+			<vector name="origin" x="153" y="70"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Map/Effect.img/event/start/8"/>
+		</canvas>
+		<canvas name="10" width="332" height="81">
+			<vector name="origin" x="157" y="69"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Map/Effect.img/event/start/9"/>
+		</canvas>
+	</imgdir>
+</imgdir>

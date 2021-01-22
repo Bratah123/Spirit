@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2400002.img">
+	<imgdir name="info">
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+		<int name="trunkPut" value="100"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<uol name="1" value="3"/>
+		<canvas name="2" width="64" height="78">
+			<vector name="origin" x="33" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="3" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="4" width="65" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="5" width="65" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="6" width="65" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="7" width="65" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="210"/>
+		</canvas>
+		<canvas name="8" width="65" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2400002.img/stand/5"/>
+		</canvas>
+		<canvas name="9" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="900"/>
+			<string name="source" value="Npc/2400002.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/2400002.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="2" width="64" height="78">
+			<vector name="origin" x="32" y="79"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="3" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="4" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/2400002.img/stand/0"/>
+		</canvas>
+		<canvas name="5" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="6" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/2400002.img/stand/0"/>
+		</canvas>
+		<canvas name="7" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="8" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="2100"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/2400002.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/2400002.img/say/1"/>
+		</canvas>
+		<canvas name="2" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="3" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/2400002.img/say/1"/>
+		</canvas>
+		<uol name="4" value="2"/>
+		<uol name="5" value="3"/>
+		<canvas name="6" width="64" height="78">
+			<vector name="origin" x="32" y="78"/>
+			<int name="delay" value="1800"/>
+			<string name="source" value="Npc/2400002.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="64" height="78">
+				<vector name="origin" x="32" y="78"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<uol name="1" value="0"/>
+			<uol name="2" value="0"/>
+			<uol name="3" value="0"/>
+			<uol name="4" value="0"/>
+			<uol name="5" value="0"/>
+			<uol name="6" value="0"/>
+			<uol name="7" value="0"/>
+			<uol name="8" value="0"/>
+			<uol name="9" value="0"/>
+		</imgdir>
+		<imgdir name="say">
+			<imgdir name="speak">
+				<string name="0" value="n0"/>
+				<string name="1" value="n1"/>
+				<int name="delay" value="180"/>
+			</imgdir>
+			<canvas name="0" width="64" height="78">
+				<vector name="origin" x="32" y="78"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2400002.img/condition1/stand/0"/>
+			</canvas>
+			<uol name="1" value="0"/>
+			<uol name="2" value="0"/>
+			<uol name="3" value="0"/>
+			<uol name="4" value="0"/>
+			<uol name="5" value="0"/>
+			<uol name="6" value="0"/>
+			<uol name="7" value="0"/>
+			<uol name="8" value="0"/>
+		</imgdir>
+		<imgdir name="eye">
+			<canvas name="0" width="64" height="78">
+				<vector name="origin" x="32" y="78"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2400002.img/condition1/stand/0"/>
+			</canvas>
+			<uol name="1" value="0"/>
+			<uol name="2" value="0"/>
+			<uol name="3" value="0"/>
+			<uol name="4" value="0"/>
+			<uol name="5" value="0"/>
+			<uol name="6" value="0"/>
+		</imgdir>
+		<imgdir name="40516">
+			<string name="value" value="1"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

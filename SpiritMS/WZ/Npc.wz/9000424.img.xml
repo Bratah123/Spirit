@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9000424.img">
+	<imgdir name="info">
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="67" height="91">
+			<vector name="origin" x="31" y="91"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="500"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="blink">
+		<canvas name="0" width="67" height="91">
+			<vector name="origin" x="31" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="67" height="91">
+			<vector name="origin" x="31" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="67" height="91">
+			<vector name="origin" x="31" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="67" height="91">
+			<vector name="origin" x="31" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="67" height="91">
+			<vector name="origin" x="31" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="66" height="92">
+			<vector name="origin" x="31" y="92"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="66" height="92">
+			<vector name="origin" x="31" y="92"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="hello">
+		<canvas name="0" width="67" height="91">
+			<vector name="origin" x="31" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="66" height="92">
+			<vector name="origin" x="31" y="92"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="87" height="92">
+			<vector name="origin" x="52" y="92"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="85" height="92">
+			<vector name="origin" x="50" y="92"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="85" height="91">
+			<vector name="origin" x="49" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="5" width="86" height="91">
+			<vector name="origin" x="50" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="6" width="87" height="91">
+			<vector name="origin" x="51" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="7" width="89" height="91">
+			<vector name="origin" x="53" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+</imgdir>

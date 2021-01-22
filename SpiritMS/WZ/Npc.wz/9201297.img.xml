@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9201297.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="check_Submarine"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="143" height="130">
+			<vector name="origin" x="60" y="128"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="1" width="145" height="130">
+			<vector name="origin" x="60" y="128"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="2" width="146" height="131">
+			<vector name="origin" x="60" y="129"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="135" height="96">
+				<vector name="origin" x="60" y="95"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="1" width="135" height="96">
+				<vector name="origin" x="60" y="93"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="2" width="135" height="96">
+				<vector name="origin" x="60" y="92"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="3" width="135" height="96">
+				<vector name="origin" x="60" y="93"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="4" width="135" height="96">
+				<vector name="origin" x="60" y="95"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="5" width="135" height="96">
+				<vector name="origin" x="60" y="96"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="5767">
+			<string name="value" value="good"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

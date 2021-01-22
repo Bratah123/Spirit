@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9400086.img">
+	<imgdir name="info">
+		<int name="level" value="190"/>
+		<string name="mobType" value="1N"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="8"/>
+		<int name="ignoreMoveImpact" value="1"/>
+		<int name="mpRecovery" value="10000"/>
+		<int name="maxHP" value="2000000000"/>
+		<int name="maxMP" value="100000"/>
+		<int name="PADamage" value="1"/>
+		<int name="MADamage" value="1"/>
+		<int name="noFlip" value="1"/>
+		<int name="pushed" value="1000000000"/>
+		<float name="fs" value="10.0"/>
+		<int name="removeAfter" value="22"/>
+		<int name="skeleton" value="1"/>
+		<int name="boss" value="1"/>
+		<int name="invincible" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<string name="aniName" value="20_wind"/>
+	</imgdir>
+	<imgdir name="die1">
+		<string name="aniName" value="00_idle"/>
+	</imgdir>
+	<imgdir name="HitParts">
+		<imgdir name="bbox_wind">
+			<imgdir name="0">
+				<imgdir name="stat">
+					<string name="info" value="부위의 속성값"/>
+					<int name="durability" value="100"/>
+					<int name="hardness" value="40"/>
+				</imgdir>
+				<imgdir name="hitEvent">
+					<string name="info" value="해당 부위 타격시 처리해야할 내용들"/>
+					<string name="replaceHitEffect" value="Mob/9400080.img/HitEffect/0"/>
+					<string name="replaceHitSound" value="Sound/SoundEff.img/urus/midHit"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<string name="9400086.atlas" value="\neff_wind.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\neffect/eff_wind_attack_0\n  rotate: false\n  xy: 2, 337\n  size: 514, 659\n  orig: 514, 659\n  offset: 0, 0\n  index: -1\neffect/eff_wind_over_0\n  rotate: true\n  xy: 2, 118\n  size: 217, 365\n  orig: 217, 365\n  offset: 0, 0\n  index: -1\neffect/eff_wind_over_1\n  rotate: false\n  xy: 518, 631\n  size: 217, 365\n  orig: 217, 365\n  offset: 0, 0\n  index: -1\neffect/eff_wind_over_2\n  rotate: false\n  xy: 737, 631\n  size: 217, 365\n  orig: 217, 365\n  offset: 0, 0\n  index: -1\neffect/eff_wind_over_3\n  rotate: true\n  xy: 518, 412\n  size: 217, 365\n  orig: 217, 365\n  offset: 0, 0\n  index: -1\neffect/eff_wind_tail_0\n  rotate: false\n  xy: 479, 2\n  size: 279, 59\n  orig: 279, 59\n  offset: 0, 0\n  index: -1\neffect/eff_wind_tail_1\n  rotate: true\n  xy: 956, 668\n  size: 328, 57\n  orig: 328, 57\n  offset: 0, 0\n  index: -1\neffect/eff_wind_tail_2\n  rotate: false\n  xy: 479, 244\n  size: 360, 89\n  orig: 360, 89\n  offset: 0, 0\n  index: -1\neffect/eff_wind_tail_3\n  rotate: false\n  xy: 518, 335\n  size: 412, 75\n  orig: 412, 75\n  offset: 0, 0\n  index: -1\neffect/eff_wind_tail_4\n  rotate: false\n  xy: 2, 25\n  size: 475, 91\n  orig: 475, 91\n  offset: 0, 0\n  index: -1\neffect/eff_wind_tail_5\n  rotate: true\n  xy: 479, 63\n  size: 179, 231\n  orig: 179, 231\n  offset: 0, 0\n  index: -1\n\neff_wind2.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\neffect/eff_wind_attack_1\n  rotate: false\n  xy: 2, 2\n  size: 514, 659\n  orig: 514, 659\n  offset: 0, 0\n  index: -1\n\neff_wind3.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\neffect/eff_wind_attack_2\n  rotate: false\n  xy: 2, 2\n  size: 514, 659\n  orig: 514, 659\n  offset: 0, 0\n  index: -1\n\neff_wind4.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\neffect/eff_wind_attack_3\n  rotate: false\n  xy: 2, 2\n  size: 514, 659\n  orig: 514, 659\n  offset: 0, 0\n  index: -1\n"/>
+	<sound name="9400086"/>
+	<canvas name="eff_wind.png" width="1024" height="1024">
+		<vector name="origin" x="512" y="512"/>
+		<int name="z" value="0"/>
+	</canvas>
+	<canvas name="eff_wind2.png" width="1024" height="1024">
+		<vector name="origin" x="512" y="512"/>
+		<int name="z" value="0"/>
+	</canvas>
+	<canvas name="eff_wind3.png" width="1024" height="1024">
+		<vector name="origin" x="512" y="512"/>
+		<int name="z" value="0"/>
+	</canvas>
+	<canvas name="eff_wind4.png" width="1024" height="1024">
+		<vector name="origin" x="512" y="512"/>
+		<int name="z" value="0"/>
+	</canvas>
+</imgdir>

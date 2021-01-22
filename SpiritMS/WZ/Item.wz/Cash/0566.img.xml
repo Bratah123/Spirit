@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="0566.img">
+	<imgdir name="05660000">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="32">
+				<vector name="origin" x="-2" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="31">
+				<vector name="origin" x="-2" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+		<imgdir name="questAccept">
+			<imgdir name="disallow">
+				<string name="0" value="3706"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05660001">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="32">
+				<vector name="origin" x="-2" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="31">
+				<vector name="origin" x="-2" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+		<imgdir name="questComplete">
+			<imgdir name="disallow">
+				<string name="0" value="32700"/>
+				<string name="1" value="32701"/>
+				<string name="2" value="32702"/>
+				<string name="3" value="32703"/>
+				<string name="4" value="32704"/>
+				<string name="5" value="32705"/>
+				<string name="6" value="33530"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05660002">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="32">
+				<vector name="origin" x="-2" y="31"/>
+				<string name="source" value="Item/Cash/0566.img/05660000/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="31">
+				<vector name="origin" x="-2" y="31"/>
+				<string name="source" value="Item/Cash/0566.img/05660000/info/iconRaw"/>
+			</canvas>
+			<int name="noMoveToLocker" value="1"/>
+			<int name="cash" value="1"/>
+		</imgdir>
+		<imgdir name="questAccept">
+			<imgdir name="disallow">
+				<string name="0" value="3706"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05660003">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="32">
+				<vector name="origin" x="-2" y="31"/>
+				<string name="source" value="Item/Cash/0566.img/05660001/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="31">
+				<vector name="origin" x="-2" y="31"/>
+				<string name="source" value="Item/Cash/0566.img/05660001/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="noMoveToLocker" value="1"/>
+		</imgdir>
+		<imgdir name="questComplete">
+			<imgdir name="disallow">
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

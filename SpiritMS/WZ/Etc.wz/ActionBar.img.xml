@@ -1,0 +1,1868 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="ActionBar.img">
+	<imgdir name="ActionBar">
+		<imgdir name="0">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to forfeit and go back to the start?"/>
+				<int name="fieldType" value="68"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001275"/>
+				<string name="tooltip" value="Flame Toss: Lights up the air to burn down Hornets."/>
+				<string name="type" value="skill"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Ctrl"/>
+				<string name="id" value="80001276"/>
+				<string name="tooltip" value="Hack Job: Cuts down any nearby Flora."/>
+				<string name="type" value="skill"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Go back to the start."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to forfeit and go to the exit?\n(You won't get any rewards if you leave now.)"/>
+				<int name="fieldType" value="70"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001283"/>
+				<string name="tooltip" value="Teleport: Use your arrow keys to direct a short-distance teleport. Can be used once every 8 seconds."/>
+				<string name="type" value="skill"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Go to the exit."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to forfeit and go to the exit?\n(You won't get any rewards if you leave now.)"/>
+				<int name="fieldType" value="71"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Ctrl"/>
+				<string name="id" value="90000"/>
+				<string name="tooltip" value="Timer Plus: Adds seconds to the bomb timer."/>
+				<string name="type" value="event"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="90001"/>
+				<string name="tooltip" value="Timer Minus:  Subtracts seconds from the bomb timer."/>
+				<string name="type" value="event"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="90002"/>
+				<string name="tooltip" value="Pass Bomb: Pass the bomb to the next player."/>
+				<string name="type" value="event"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Go to the exit."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to forfeit and go to the exit?\n(You won't get any rewards if you leave now.)"/>
+				<int name="fieldType" value="72"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001284"/>
+				<string name="tooltip" value="Invincibility: Grants you temporary invulnerability. Can only be used once."/>
+				<string name="type" value="skill"/>
+				<int name="useOnce" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Go to the exit."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="4">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to forfeit and go to the exit?\n(You won't get any rewards if you leave now.)"/>
+				<int name="fieldType" value="13"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="F1"/>
+				<string name="id" value="2270002"/>
+				<string name="tooltip" value="Element Rock: A special alchemist tool that converts the essence of a monster into a jewel."/>
+				<string name="type" value="item"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="F2"/>
+				<string name="id" value="2100067"/>
+				<string name="tooltip" value="Mail Order Bombs: Causes victims to drop things when hit."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="10"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2100067"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="5">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to forfeit and go to the exit?\n(You won't get any rewards if you leave now.)"/>
+				<int name="fieldType" value="19"/>
+				<imgdir name="msgFont">
+					<int name="fontNameType" value="3"/>
+					<int name="fontSize" value="20"/>
+					<int name="fontColorType" value="16"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="2022539"/>
+				<string name="tooltip" value="Little Lamb Bleet Lv. 1: Nearby Wolves lose speed for 5 seconds."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2022539"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001299"/>
+				<string name="tooltip" value="Danger Dodge: Teleport away from danger."/>
+				<string name="type" value="skill"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2022540"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="2022541"/>
+				<string name="tooltip" value="Steel Wool: Protects from one Wolf attack."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2022541"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="F"/>
+				<string name="id" value="90017"/>
+				<string name="tooltip" value="Wool Massage: Use 1 Wool to revive your naked ally."/>
+				<string name="type" value="event"/>
+				<string name="unusableMessage" value="There are no naked allies nearby. You must step closer."/>
+				<int name="coolTime" value="5"/>
+				<int name="changeDisable" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Go to the exit."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="6">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to forfeit and go to the exit?\n(You won't get any rewards if you leave now.)"/>
+				<int name="fieldType" value="19"/>
+				<imgdir name="msgFont">
+					<int name="fontNameType" value="3"/>
+					<int name="fontSize" value="20"/>
+					<int name="fontColorType" value="16"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="2023210"/>
+				<string name="tooltip" value="Little Lamb Bleet Lv. 2: Nearby Wolves lose speed for 6 seconds."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2022539"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001299"/>
+				<string name="tooltip" value="Danger Dodge: Teleport away from danger."/>
+				<string name="type" value="skill"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2022540"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="2022541"/>
+				<string name="tooltip" value="Steel Wool: Protects from one Wolf attack."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2022541"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="F"/>
+				<string name="id" value="90017"/>
+				<string name="tooltip" value="Wool Massage: Use 1 Wool to revive your naked ally."/>
+				<string name="type" value="event"/>
+				<string name="unusableMessage" value="There are no naked allies nearby. You must step closer."/>
+				<int name="coolTime" value="5"/>
+				<int name="changeDisable" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Go to the exit."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="7">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to forfeit and go to the exit?\n(You won't get any rewards if you leave now.)"/>
+				<int name="fieldType" value="19"/>
+				<imgdir name="msgFont">
+					<int name="fontNameType" value="3"/>
+					<int name="fontSize" value="20"/>
+					<int name="fontColorType" value="16"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="2109004"/>
+				<string name="tooltip" value="Explosive Shear Lv. 1: Drops a bomb to make Sheep lose their wool. #cQuantity: 20# "/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="20"/>
+				<int name="resetCooltime" value="10"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2109004"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="2022543"/>
+				<string name="tooltip" value="Pack Howl: Causes Sheep to become confused, and lose direction."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2022543"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="2022549"/>
+				<string name="tooltip" value="Snarl 'n Snap: Intimidates all Sheep, making them unable to jump."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2022549"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="F"/>
+				<string name="id" value="2210118"/>
+				<string name="tooltip" value="Sheep's Clothing Lv. 1: Disguise yourself as a sheep to trick them. #cCooldown: 90 sec#"/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="1"/>
+				<int name="resetCooltime" value="90"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2210118"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Go to the exit."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="8">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to forfeit and go to the exit?\n(You won't get any rewards if you leave now.)"/>
+				<int name="fieldType" value="19"/>
+				<imgdir name="msgFont">
+					<int name="fontNameType" value="3"/>
+					<int name="fontSize" value="20"/>
+					<int name="fontColorType" value="16"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="2109004"/>
+				<string name="tooltip" value="Explosive Shear Lv. 2: Drops a better bomb to make Sheep lose their wool. #cQuantity: 20# "/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="30"/>
+				<int name="resetCooltime" value="10"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2109004"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="2022543"/>
+				<string name="tooltip" value="Pack Howl: Causes Sheep to become confused, and lose direction."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2022543"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="2022549"/>
+				<string name="tooltip" value="Snarl 'n Snap: Intimidates all Sheep, making them unable to jump."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2022549"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="F"/>
+				<string name="id" value="2210118"/>
+				<string name="tooltip" value="Sheep's Clothing Lv. 2: Disguise yourself as a sheep to trick them. #cCooldown: 60 sec#"/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="1"/>
+				<int name="resetCooltime" value="60"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2210118"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Go to the exit."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="9">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to forfeit and go to the exit?\n(You won't get any rewards if you leave now.)"/>
+				<int name="fieldType" value="19"/>
+				<imgdir name="msgFont">
+					<int name="fontNameType" value="3"/>
+					<int name="fontSize" value="20"/>
+					<int name="fontColorType" value="16"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="90005"/>
+				<string name="tooltip" value="You are a Naked Sheep and cannot use the skill. Ask your allies for help."/>
+				<string name="type" value="event"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="90006"/>
+				<string name="tooltip" value="You are a Naked Sheep and cannot use the skill. Ask your allies for help."/>
+				<string name="type" value="event"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="90007"/>
+				<string name="tooltip" value="You are a Naked Sheep and cannot use the skill. Ask your allies for help."/>
+				<string name="type" value="event"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="F"/>
+				<string name="id" value="90008"/>
+				<string name="tooltip" value="You are a Naked Sheep and cannot use the skill. Ask your allies for help."/>
+				<string name="type" value="event"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Go to the exit."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="10">
+			<imgdir name="info">
+				<int name="fieldType" value="75"/>
+				<int name="subCnt" value="3"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="200000000"/>
+				<string name="tooltip" value="Spin Slash: Magnus spins his sword, pushing opponents back. Hold the button down for a longer attack. Cooldown: 6 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="6"/>
+				<int name="coolTimeDelay" value="660"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="200000100"/>
+				<string name="tooltip" value="Rush Slash: Magnus rushes forward to attack enemies ahead of him. Hold the button down for a longer attack.  Cooldown: 2 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTimeDelay" value="450"/>
+				<int name="coolTime" value="2"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="200000200"/>
+				<string name="tooltip" value="Strength Release: Magnus focuses his energy to release a powerful wave at enemies on his left and right. Cooldown: 35 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="35"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="Q"/>
+				<string name="id" value="200001000"/>
+				<string name="tooltip" value="Slow: Slows down opponents for 10 seconds, and blocks the use of Flash Jump. Cooldown: 40 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="40"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="W"/>
+				<string name="id" value="200001100"/>
+				<string name="tooltip" value="Undeadify: Makes the opponent undead for 60 seconds and deals damage upon recovery. Cooldown: 90 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="90"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="keyName" value="E"/>
+				<string name="id" value="200001200"/>
+				<string name="tooltip" value="Summon Meteorite: Summons meteorites near Magnus. Cooldown: 30 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="30"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="keyName" value="R"/>
+				<string name="id" value="200001300"/>
+				<string name="tooltip" value="Clear Status: Clears all Abnormal Statuses affecting you. Also clears advantageous effects, though! Cooldown: 4 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="selectEntry" value="1"/>
+				<int name="coolTime" value="4"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="keyName" value="T"/>
+				<string name="id" value="200001400"/>
+				<string name="tooltip" value="Recall: Teleport to your starting point. Cooldown: 30 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="30"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="keyName" value="Y"/>
+				<string name="id" value="200001500"/>
+				<string name="tooltip" value="Stun Attack: Adds a Stun effect to all attacks for 10 seconds. Damages opponent when in contact. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="keyName" value="U"/>
+				<string name="id" value="200001600"/>
+				<string name="tooltip" value="Heal: Recovers some HP. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="11">
+			<imgdir name="info">
+				<int name="fieldType" value="75"/>
+				<int name="subCnt" value="3"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="200000000"/>
+				<string name="tooltip" value="Retreat Attack: Attack nearby targets."/>
+				<string name="type" value="bossArena"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="200000100"/>
+				<string name="tooltip" value="Shout: Pushes away opponents by yelling really loud. Is not used if no targets are in range. Hold the button down for a longer attack. Cooldown: 5 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="5"/>
+				<int name="coolTimeDelay" value="1080"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="200000200"/>
+				<string name="tooltip" value="Fire Blast: Summon a fire pillar to attack across a wide range. Cooldown: 25 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="25"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="Q"/>
+				<string name="id" value="200001000"/>
+				<string name="tooltip" value="Obsidian Skin: Greatly increases DEF for a short time. Cooldown: 15 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="15"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="W"/>
+				<string name="id" value="200001100"/>
+				<string name="tooltip" value="Seduce: Makes opponent unable to control their character for 6 sec. Cooldown: 15 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="15"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="keyName" value="E"/>
+				<string name="id" value="200001200"/>
+				<string name="tooltip" value="Slow: Slows down opponent for 5 seconds. Cooldown: 15 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="15"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="keyName" value="R"/>
+				<string name="id" value="200001300"/>
+				<string name="tooltip" value="Clear Status: Clears all Abnormal Statuses affecting you. Also clears advantageous effects, though! Cooldown: 4 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="selectEntry" value="1"/>
+				<int name="coolTime" value="4"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="keyName" value="T"/>
+				<string name="id" value="200001400"/>
+				<string name="tooltip" value="Recall: Teleport to your starting point. Cooldown: 30 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="30"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="keyName" value="Y"/>
+				<string name="id" value="200001500"/>
+				<string name="tooltip" value="Stun Attack: Adds a Stun effect to all attacks for 10 seconds. Damages opponent when in contact. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="keyName" value="U"/>
+				<string name="id" value="200001600"/>
+				<string name="tooltip" value="Heal: Recovers some HP. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="12">
+			<imgdir name="info">
+				<int name="fieldType" value="75"/>
+				<int name="subCnt" value="3"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="200000000"/>
+				<string name="tooltip" value="Snake Attack: Uses a snake to attack opponents far away. Cooldown: 5 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="5"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="200000100"/>
+				<string name="tooltip" value="Illusion Ball: Attacks by throwing a ball. Is not used if no targets are in range."/>
+				<string name="type" value="bossArena"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="200000200"/>
+				<string name="tooltip" value="Dark Thunder: Attacks a wide area with thunder. Cooldown: 25 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="25"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="Q"/>
+				<string name="id" value="200001000"/>
+				<string name="tooltip" value="Seduce: Makes opponent unable to control their character for 10 sec. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="W"/>
+				<string name="id" value="200001100"/>
+				<string name="tooltip" value="Poison Cloud: Transforms opponent and makes them unable to attack for 5 sec. Summons a poisonous cloud near their location to deal damage. Cooldown: 30 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="30"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="keyName" value="E"/>
+				<string name="id" value="200001200"/>
+				<string name="tooltip" value="Damage Reflection: When an opponent attacks, they will take the damage they deal themselves. Duration: 15 sec Cooldown: 180 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="180"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="keyName" value="R"/>
+				<string name="id" value="200001300"/>
+				<string name="tooltip" value="Clear Status: Clears all Abnormal Statuses affecting you. Also clears advantageous effects, though! Cooldown: 4 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="selectEntry" value="1"/>
+				<int name="coolTime" value="4"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="keyName" value="T"/>
+				<string name="id" value="200001400"/>
+				<string name="tooltip" value="Recall: Teleport to your starting point. Cooldown: 30 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="30"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="keyName" value="Y"/>
+				<string name="id" value="200001500"/>
+				<string name="tooltip" value="Stun Attack: Adds a Stun effect to all attacks for 10 seconds. Damages opponent when in contact. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="keyName" value="U"/>
+				<string name="id" value="200001600"/>
+				<string name="tooltip" value="Heal: Recovers some HP. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="13">
+			<imgdir name="info">
+				<int name="fieldType" value="75"/>
+				<int name="subCnt" value="3"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="200000000"/>
+				<string name="tooltip" value="Dragon Fire: Shoots fireballs at far away opponents. Is not used if no targets are in range."/>
+				<string name="type" value="bossArena"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="200000100"/>
+				<string name="tooltip" value="Dragon Breath: Attacks a wide area by breathing fire. Hold down the button to perform the attack.  Cooldown: 5 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="5"/>
+				<int name="coolTimeDelay" value="960"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="200000200"/>
+				<string name="tooltip" value="Dragon Rush: Rushes forward to attack. Stuns opponents for 5 sec. Cooldown: 10 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="10"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="Q"/>
+				<string name="id" value="200001000"/>
+				<string name="tooltip" value="DEF Boost: Boosts DEF for 10 sec. Cooldown: 20 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="20"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="W"/>
+				<string name="id" value="200001100"/>
+				<string name="tooltip" value="ATT Boost: Boosts ATT for 10 sec. Cooldown: 20 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="20"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="keyName" value="E"/>
+				<string name="id" value="200001200"/>
+				<string name="tooltip" value="Slow: Slows down opponents for 5 seconds. Cooldown: 10 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="10"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="keyName" value="R"/>
+				<string name="id" value="200001300"/>
+				<string name="tooltip" value="Clear Status: Clears all Abnormal Statuses affecting you. Also clears advantageous effects, though! Cooldown: 4 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="selectEntry" value="1"/>
+				<int name="coolTime" value="4"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="keyName" value="T"/>
+				<string name="id" value="200001400"/>
+				<string name="tooltip" value="Recall: Teleport to your starting point. Cooldown: 30 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="30"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="keyName" value="Y"/>
+				<string name="id" value="200001500"/>
+				<string name="tooltip" value="Stun Attack: Adds a Stun effect to all attacks for 10 seconds. Damages opponent when in contact. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="keyName" value="U"/>
+				<string name="id" value="200001600"/>
+				<string name="tooltip" value="Heal: Recovers some HP. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="14">
+			<imgdir name="info">
+				<int name="fieldType" value="75"/>
+				<int name="subCnt" value="3"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="200000000"/>
+				<string name="tooltip" value="Dark Genesis: Launches continuous attacks over a wide range. Cooldown: 10 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="10"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="200000100"/>
+				<string name="tooltip" value="Dark Sphere: Attacks with an orb of darkness. Is not used if no targets are in range."/>
+				<string name="type" value="bossArena"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="200000200"/>
+				<string name="tooltip" value="Abyss Tornado: Traps the opponent in a whirlwind. Cooldown: 15 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="15"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="Q"/>
+				<string name="id" value="200001000"/>
+				<string name="tooltip" value="Transformation: Transforms opponent and makes them unable to attack for 10 seconds. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="W"/>
+				<string name="id" value="200001100"/>
+				<string name="tooltip" value="Summon: Summons the Chief Knight to protect you. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="keyName" value="E"/>
+				<string name="id" value="200001200"/>
+				<string name="tooltip" value="Heal: Recovers some HP.  Cooldown: 120 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="120"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="keyName" value="R"/>
+				<string name="id" value="200001300"/>
+				<string name="tooltip" value="Clear Status: Clears all Abnormal Statuses affecting you. Also clears advantageous effects, though! Cooldown: 4 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="selectEntry" value="1"/>
+				<int name="coolTime" value="4"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="keyName" value="T"/>
+				<string name="id" value="200001400"/>
+				<string name="tooltip" value="Recall: Teleport to your starting point. Cooldown: 30 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="30"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="keyName" value="Y"/>
+				<string name="id" value="200001500"/>
+				<string name="tooltip" value="Stun Attack: Adds a Stun effect to all attacks for 10 seconds. Damages opponent when in contact. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="keyName" value="U"/>
+				<string name="id" value="200001600"/>
+				<string name="tooltip" value="Heal: Recovers some HP. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="15">
+			<imgdir name="info">
+				<int name="fieldType" value="75"/>
+				<int name="subCnt" value="3"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="200000000"/>
+				<string name="tooltip" value="Lion Claw: Attacks nearby opponents with brutal claws. Cooldown: 2 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="2"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="200000100"/>
+				<string name="tooltip" value="Call of the Wild: Stuns the opponent for 5 seconds by yelling really loud. Hold down the button to perform attack. Cooldown: 15 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="15"/>
+				<int name="coolTimeDelay" value="630"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="200000200"/>
+				<string name="tooltip" value="Eye of Terror: Shoot lasers from your eyes to attack nearby opponents. Hold down the button to perform attack. Cooldown: 30 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="30"/>
+				<int name="coolTimeDelay" value="1800"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="Q"/>
+				<string name="id" value="200001000"/>
+				<string name="tooltip" value="Clear Buffs: Clears all beneficial effects on opponents. Cooldown: 20 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="20"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="W"/>
+				<string name="id" value="200001100"/>
+				<string name="tooltip" value="Teleport: Teleport to location of target. Cooldown: 30 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="30"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="keyName" value="E"/>
+				<string name="id" value="200001200"/>
+				<string name="tooltip" value="Potential Seal: Seals potentials on opponent's equipped items for 1 minute. Cooldown: 180 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="180"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="keyName" value="R"/>
+				<string name="id" value="200001300"/>
+				<string name="tooltip" value="Clear Status: Clears all Abnormal Statuses affecting you. Also clears advantageous effects, though! Cooldown: 4 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="selectEntry" value="1"/>
+				<int name="coolTime" value="4"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="keyName" value="T"/>
+				<string name="id" value="200001400"/>
+				<string name="tooltip" value="Recall: Teleport to your starting point. Cooldown: 30 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="30"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="keyName" value="Y"/>
+				<string name="id" value="200001500"/>
+				<string name="tooltip" value="Stun Attack: Adds a Stun effect to all attacks for 10 seconds. Damages opponent when in contact. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="keyName" value="U"/>
+				<string name="id" value="200001600"/>
+				<string name="tooltip" value="Heal: Recovers some HP. Cooldown: 60 sec"/>
+				<string name="type" value="bossArena"/>
+				<int name="coolTime" value="60"/>
+				<int name="selectEntry" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="16">
+			<imgdir name="info">
+				<int name="fieldType" value="75"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Not"/>
+				<string name="id" value="80001350"/>
+				<string name="tooltip" value="You can jump once more in the air after a Flash Jump or jump. You can use it 10 times."/>
+				<string name="type" value="skill"/>
+				<int name="usableCount" value="10"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="17">
+			<imgdir name="info">
+				<string name="exitMsg" value="Forfeit and exit?"/>
+				<int name="fieldType" value="82"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Ctrl"/>
+				<string name="id" value="80001387"/>
+				<string name="tooltip" value="Arrow Launch: Blow up the balloons to make the mice fall. "/>
+				<string name="type" value="skill"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2023274"/>
+				</imgdir>
+				<int name="usableCount" value="30"/>
+				<int name="resetCooltime" value="15"/>
+				<string name="fullCountMessage" value="You cannot have any more."/>
+				<string name="unusableMessage" value="All arrows have been used. Pick up charging items from the ground to charge arrows."/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="90010"/>
+				<string name="tooltip" value="Upgrade: Upgrades arrows by stages. \r\n\r\nStage 1: Power Shot - Range boost (Use 100 points) \r\nStage 2: Multi Shot - Arrow count boost (Use 300 points) \r\nStage 3: Wild Shot - Consecutive arrow shots (Use 500 points)"/>
+				<string name="type" value="event"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Go back to the start."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="18">
+			<imgdir name="info">
+				<string name="exitMsg" value="Forfeit game and exit?"/>
+				<int name="fieldType" value="81"/>
+				<int name="vtop" value="620"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001389"/>
+				<string name="tooltip" value="Laser: Shoot lasers to defeat Space Pirate Bunnies"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Exit game."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="19">
+			<imgdir name="info">
+				<string name="exitMsg" value="Forfeit game and exit?"/>
+				<int name="fieldType" value="81"/>
+				<int name="vtop" value="620"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001390"/>
+				<string name="tooltip" value="Laser: Shoot lasers to defeat Space Pirate Bunnies"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Exit game."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="20">
+			<imgdir name="info">
+				<string name="exitMsg" value="Forfeit game and exit?"/>
+				<int name="fieldType" value="81"/>
+				<int name="vtop" value="620"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001391"/>
+				<string name="tooltip" value="Laser: Shoot lasers to defeat Space Pirate Bunnies"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Exit game."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="21">
+			<imgdir name="info">
+				<string name="exitMsg" value="Forfeit game and exit?"/>
+				<int name="fieldType" value="81"/>
+				<int name="vtop" value="620"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001392"/>
+				<string name="tooltip" value="Laser: Shoot lasers to defeat Space Pirate Bunnies"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Exit game."/>
+				<string name="type" value="event"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="22">
+			<imgdir name="info">
+				<int name="fieldType" value="84"/>
+				<int name="vtop" value="620"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="A"/>
+				<string name="id" value="2023295"/>
+				<string name="tooltip" value="Heavy Stander: Makes you immune to knockbacks."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="1"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2023295"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+				<int name="linkedSkillID" value="80001415"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="S"/>
+				<string name="id" value="2023296"/>
+				<string name="tooltip" value="High Jump: Allows you to jump higher than usual one time."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="1"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2023296"/>
+				</imgdir>
+				<int name="0" value="2023295"/>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+				<int name="linkedSkillID" value="80001416"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="D"/>
+				<string name="id" value="2023297"/>
+				<string name="tooltip" value="Slipstream: Move you forward at high speed."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2023297"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+				<int name="linkedSkillID" value="80001417"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="F"/>
+				<string name="id" value="2023298"/>
+				<string name="tooltip" value="Cannon: Knocks back players hit by it."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="10"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2023298"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+				<int name="linkedSkillID" value="80001418"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="G"/>
+				<string name="id" value="2023301"/>
+				<string name="tooltip" value="On My Way: Teleports you to a random guild member in the Flag Race."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="1"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2023301"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+				<int name="linkedSkillID" value="80001425"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="keyName" value="H"/>
+				<string name="id" value="2023302"/>
+				<string name="tooltip" value="I Summon Thee: Summons a random guild member in the Flag Race to you."/>
+				<string name="type" value="item"/>
+				<int name="usableCount" value="1"/>
+				<int name="defaultNotUse" value="1"/>
+				<imgdir name="usableCountItem">
+					<int name="0" value="2023302"/>
+				</imgdir>
+				<string name="fullCountMessage" value="You can't have any more. Use the skill, and try again."/>
+				<string name="unusableMessage" value="You can't use that yet. "/>
+				<int name="linkedSkillID" value="80001426"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="23">
+		</imgdir>
+		<imgdir name="24">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to forfeit and exit?\n(You won't get any rewards if you leave now.)"/>
+				<int name="fieldType" value="87"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="F1"/>
+				<string name="id" value="90015"/>
+				<string name="tooltip" value="Eliminate all monsters of the same color."/>
+				<string name="type" value="event"/>
+				<int name="coolTime" value="50000"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="F2"/>
+				<string name="id" value="90016"/>
+				<string name="tooltip" value="Recovers 50 HP."/>
+				<string name="type" value="event"/>
+				<int name="coolTime" value="50000"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="F3"/>
+				<string name="id" value="90014"/>
+				<string name="tooltip" value="Other players will temporarily be unable to see questions."/>
+				<string name="type" value="event"/>
+				<int name="coolTime" value="50000"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="type" value="event"/>
+				<string name="tooltip" value="Exit: Exit game."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="25">
+		</imgdir>
+		<imgdir name="26">
+			<imgdir name="info">
+				<string name="info" value="RP Mercedes"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001881"/>
+				<string name="tooltip" value="Teleport"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001914"/>
+				<string name="tooltip" value="Combo A"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001910"/>
+				<string name="tooltip" value="Combo B"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="27">
+			<imgdir name="info">
+				<string name="info" value="RP Aran"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001881"/>
+				<string name="tooltip" value="Teleport"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001925"/>
+				<string name="tooltip" value="Smash Swing"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001884"/>
+				<string name="tooltip" value="Final Toss"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="28">
+			<imgdir name="info">
+				<string name="info" value="RP Phantom"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001881"/>
+				<string name="tooltip" value="Teleport"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001887"/>
+				<string name="tooltip" value="Mille Aiguilles"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001888"/>
+				<string name="tooltip" value="Skill Swipe"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+				<int name="defaultNotUse" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="29">
+			<imgdir name="info">
+				<string name="info" value="RP Luminous"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001898"/>
+				<string name="tooltip" value="Light Speed"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001891"/>
+				<string name="tooltip" value="Reflection"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001892"/>
+				<string name="tooltip" value="Apocalypse"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="30">
+			<imgdir name="info">
+				<string name="info" value="RP Evan"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001881"/>
+				<string name="tooltip" value="Teleport"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001893"/>
+				<string name="tooltip" value="Wind Circle"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001894"/>
+				<string name="tooltip" value="Dragon Flash"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="31">
+			<imgdir name="info">
+				<string name="info" value="RP Shade"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001881"/>
+				<string name="tooltip" value="Teleport"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001895"/>
+				<string name="tooltip" value="Bomb Punch"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001896"/>
+				<string name="tooltip" value="Blade Imp Slash"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="32">
+			<imgdir name="info">
+				<string name="info" value="RP Evan - No Mir"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001881"/>
+				<string name="tooltip" value="Teleport"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001893"/>
+				<string name="tooltip" value="Wind Circle"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001894"/>
+				<string name="tooltip" value="Dragon Flash"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+				<int name="defaultNotUse" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="33">
+			<imgdir name="info">
+				<string name="info" value="RP Evan - No Mir"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001881"/>
+				<string name="tooltip" value="Teleport"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001944"/>
+				<string name="tooltip" value="Thunder Circle"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001945"/>
+				<string name="tooltip" value="Dragon Dive"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+				<int name="defaultNotUse" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="34">
+			<imgdir name="info">
+				<string name="info" value="RP Mercedes"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001881"/>
+				<string name="tooltip" value="Teleport"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001914"/>
+				<string name="tooltip" value="Combo A"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001910"/>
+				<string name="tooltip" value="Combo B"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="35">
+			<imgdir name="info">
+				<string name="info" value="RP Phantom"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001881"/>
+				<string name="tooltip" value="Teleport"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001887"/>
+				<string name="tooltip" value="Mille Aiguilles"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001888"/>
+				<string name="tooltip" value="Skill Swipe"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+				<int name="defaultNotUse" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="36">
+			<imgdir name="info">
+				<string name="info" value="RP Mercedes"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001881"/>
+				<string name="tooltip" value="Teleport"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001914"/>
+				<string name="tooltip" value="Combo A"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001910"/>
+				<string name="tooltip" value="Combo B"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="37">
+			<imgdir name="info">
+				<string name="info" value="RP Phantom"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001881"/>
+				<string name="tooltip" value="Teleport"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001887"/>
+				<string name="tooltip" value="Mille Aiguilles"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001888"/>
+				<string name="tooltip" value="Skill Swipe"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+				<int name="defaultNotUse" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="38">
+			<imgdir name="info">
+				<string name="info" value="RP Luminous"/>
+				<imgdir name="fieldID">
+					<string name="0" value="350110000-350169999"/>
+				</imgdir>
+				<int name="fieldType" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Tab"/>
+				<string name="id" value="3"/>
+				<string name="tooltip" value="Character Switch"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001898"/>
+				<string name="tooltip" value="Light Speed"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="A"/>
+				<string name="id" value="80001891"/>
+				<string name="tooltip" value="Reflection"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="S"/>
+				<string name="id" value="80001892"/>
+				<string name="tooltip" value="Apocalypse"/>
+				<string name="type" value="skill"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+				<string name="type" value="event"/>
+				<int name="drawKey" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="100">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to give up your voyage?\r\n"/>
+				<int name="fieldType" value="56"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="F1"/>
+				<string name="id" value="80011001"/>
+				<string name="tooltip" value="Fire Cannon\r\n"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="101">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to give up your voyage?"/>
+				<int name="fieldType" value="56"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="F1"/>
+				<string name="id" value="80011001"/>
+				<string name="tooltip" value="Fire Cannon\r\n"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="F2"/>
+				<string name="id" value="80011002"/>
+				<string name="tooltip" value="Emboldening Horn Flute"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="102">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to give up your voyage?"/>
+				<int name="fieldType" value="56"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="F1"/>
+				<string name="id" value="80011001"/>
+				<string name="tooltip" value="Fire Cannon"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="F2"/>
+				<string name="id" value="80011002"/>
+				<string name="tooltip" value="Emboldening Horn Flute"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="F3"/>
+				<string name="id" value="80011003"/>
+				<string name="tooltip" value="Magic Arrow Shower\r\n"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="103">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to give up your voyage?"/>
+				<int name="fieldType" value="57"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="F1"/>
+				<string name="id" value="80011001"/>
+				<string name="tooltip" value="Fire Cannon"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="104">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to give up your voyage?"/>
+				<int name="fieldType" value="57"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="F2"/>
+				<string name="id" value="80011002"/>
+				<string name="tooltip" value="Emboldening Horn Flute"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="105">
+			<imgdir name="info">
+				<string name="exitMsg" value="Do you want to give up your voyage?"/>
+				<int name="fieldType" value="57"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="F3"/>
+				<string name="id" value="80011003"/>
+				<string name="tooltip" value="Magic Arrow Shower"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3800">
+			<imgdir name="info">
+				<int name="fieldType" value="112"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Ctrl"/>
+				<string name="id" value="80011171"/>
+				<string name="tooltip" value="Short Jump: Jumps 2 spaces on the viaduct. Carefully checks the viaduct ahead before using."/>
+				<string name="type" value="skill"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80011172"/>
+				<string name="tooltip" value="Power Jump: Jumps 3 spaces on the viaduct. Carefully checks the viaduct ahead before using."/>
+				<string name="type" value="skill"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="200">
+			<imgdir name="info">
+				<int name="fieldType" value="146"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Ctrl"/>
+				<string name="id" value="80011393"/>
+				<string name="tooltip" value="Press CTRL to draw your Basic Hydroblaster and blast key members of the Resistance. Teach them a lesson!"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="201">
+			<imgdir name="info">
+				<int name="fieldType" value="146"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Ctrl"/>
+				<string name="id" value="80011394"/>
+				<string name="tooltip" value="Press CTRL to draw your Quackmaster Jr. and blast key members of the Cygnus Knights. Teach them a lesson!"/>
+				<string name="type" value="skill"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

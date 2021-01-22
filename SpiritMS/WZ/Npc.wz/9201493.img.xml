@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9201493.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+		<int name="dcLeft" value="-50"/>
+		<string name="dcTop" value="-160"/>
+		<int name="dcRight" value="50"/>
+		<int name="dcBottom" value="0"/>
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="madHouse_switch"/>
+			</imgdir>
+		</imgdir>
+		<canvas name="default" width="77" height="88">
+			<vector name="origin" x="37" y="88"/>
+			<int name="delay" value="3000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="118" height="166">
+			<vector name="origin" x="51" y="170"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+		</canvas>
+		<canvas name="1" width="118" height="166">
+			<vector name="origin" x="51" y="170"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+		</canvas>
+		<canvas name="2" width="118" height="166">
+			<vector name="origin" x="51" y="170"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+		</canvas>
+		<canvas name="3" width="118" height="166">
+			<vector name="origin" x="51" y="170"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+		</canvas>
+		<canvas name="4" width="118" height="166">
+			<vector name="origin" x="51" y="170"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+		</canvas>
+		<canvas name="5" width="120" height="166">
+			<vector name="origin" x="53" y="170"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="118" height="166">
+				<vector name="origin" x="51" y="170"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="100"/>
+			</canvas>
+		</imgdir>
+		<int name="61226" value="2"/>
+	</imgdir>
+</imgdir>

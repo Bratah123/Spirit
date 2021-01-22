@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="UIGhostPark.img">
+	<imgdir name="Enter">
+		<canvas name="backgrnd" width="453" height="329">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="backgrnd2" width="269" height="297">
+			<vector name="origin" x="-10" y="-22"/>
+			<int name="z" value="1"/>
+		</canvas>
+		<canvas name="backgrnd3" width="224" height="154">
+			<vector name="origin" x="-33" y="-92"/>
+			<int name="z" value="2"/>
+		</canvas>
+		<canvas name="backgrnd4" width="161" height="253">
+			<vector name="origin" x="-282" y="-22"/>
+			<int name="z" value="1"/>
+		</canvas>
+		<imgdir name="gage">
+			<canvas name="center" width="1" height="7">
+				<int name="z" value="3"/>
+				<vector name="origin" x="-30" y="-297"/>
+			</canvas>
+			<canvas name="cover" width="229" height="4">
+				<vector name="origin" x="-30" y="-297"/>
+				<int name="z" value="4"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="button:Start">
+			<imgdir name="normal">
+				<canvas name="0" width="161" height="41">
+					<vector name="origin" x="-282" y="-278"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="161" height="41">
+					<vector name="origin" x="-282" y="-278"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="161" height="41">
+					<vector name="origin" x="-282" y="-278"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="161" height="41">
+					<vector name="origin" x="-282" y="-278"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1001"/>
+		</imgdir>
+		<imgdir name="button:Exit">
+			<imgdir name="normal">
+				<canvas name="0" width="13" height="13">
+					<vector name="origin" x="-433" y="-4"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="13" height="13">
+					<vector name="origin" x="-433" y="-4"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="11" height="11">
+					<vector name="origin" x="-434" y="-5"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="13" height="13">
+					<vector name="origin" x="-433" y="-4"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1000"/>
+		</imgdir>
+		<imgdir name="button:Wrath">
+			<imgdir name="normal">
+				<canvas name="0" width="46" height="55">
+					<vector name="origin" x="-56" y="-100"/>
+					<int name="z" value="20"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="55" height="57">
+					<vector name="origin" x="-50" y="-100"/>
+					<int name="z" value="20"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="53" height="56">
+					<vector name="origin" x="-51" y="-100"/>
+					<int name="z" value="20"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1100"/>
+			<string name="ToolTip" value="#c&lt;Rage&gt; Charm Enhancement#\r\nClick to activate. Instead of an EXP bonus, random areas will become dangerous."/>
+		</imgdir>
+		<imgdir name="button:Regret">
+			<imgdir name="normal">
+				<canvas name="0" width="46" height="55">
+					<vector name="origin" x="-123" y="-100"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="51" height="55">
+					<vector name="origin" x="-119" y="-100"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="49" height="54">
+					<vector name="origin" x="-120" y="-100"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1101"/>
+			<string name="ToolTip" value="#c&lt;Regret&gt; Charm Enhancement#\r\nClick to activate. Instead of an EXP bonus, monsters will regenerate and gain attack power after a short time."/>
+		</imgdir>
+		<imgdir name="button:Greed">
+			<imgdir name="normal">
+				<canvas name="0" width="46" height="55">
+					<vector name="origin" x="-190" y="-100"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="55" height="57">
+					<vector name="origin" x="-184" y="-100"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="47" height="53">
+					<vector name="origin" x="-188" y="-100"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1102"/>
+			<string name="ToolTip" value="#c&lt;Greed&gt; Charm Enhancement#\r\nClick to activate. Instead of an EXP bonus, the size and HP of monsters will increase over time."/>
+		</imgdir>
+		<imgdir name="button:Sloth">
+			<imgdir name="normal">
+				<canvas name="0" width="46" height="55">
+					<vector name="origin" x="-33" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="55" height="57">
+					<vector name="origin" x="-27" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="47" height="53">
+					<vector name="origin" x="-31" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1103"/>
+			<string name="ToolTip" value="#c&lt;Sloth&gt; Charm Enhancement#\r\nClick to activate. Instead of an EXP bonus, you will take damage for standing still."/>
+		</imgdir>
+		<imgdir name="button:Envy">
+			<imgdir name="normal">
+				<canvas name="0" width="46" height="55">
+					<vector name="origin" x="-93" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="55" height="57">
+					<vector name="origin" x="-87" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="47" height="53">
+					<vector name="origin" x="-91" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1104"/>
+			<string name="ToolTip" value="#c&lt;Envy&gt; Charm Enhancement#\r\nClick to activate. Instead of an EXP bonus, a banshee will stalk you."/>
+		</imgdir>
+		<imgdir name="button:Gluttony">
+			<imgdir name="normal">
+				<canvas name="0" width="47" height="55">
+					<vector name="origin" x="-153" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="55" height="57">
+					<vector name="origin" x="-148" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="49" height="53">
+					<vector name="origin" x="-151" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1105"/>
+			<string name="ToolTip" value="#c&lt;Gluttony&gt; Charm Enhancement#\r\nClick to activate. Instead of an EXP bonus, the recovery rune will be less effective."/>
+		</imgdir>
+		<imgdir name="button:Jealousy">
+			<imgdir name="normal">
+				<canvas name="0" width="47" height="55">
+					<vector name="origin" x="-213" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="55" height="57">
+					<vector name="origin" x="-208" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="49" height="53">
+					<vector name="origin" x="-211" y="-195"/>
+					<int name="z" value="4"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1106"/>
+			<string name="ToolTip" value="#c&lt;Jealousy&gt; Charm Enhancement#\r\nClick to activate. Instead of an EXP bonus, random projectiles will attack you."/>
+		</imgdir>
+		<imgdir name="paper">
+			<canvas name="1" width="39" height="39">
+				<int name="z" value="3"/>
+			</canvas>
+			<canvas name="2" width="52" height="51">
+				<int name="z" value="3"/>
+			</canvas>
+			<canvas name="3" width="60" height="59">
+				<int name="z" value="3"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="paperOrigin_Wrath">
+			<vector name="1" x="58" y="83"/>
+			<vector name="2" x="53" y="71"/>
+			<vector name="3" x="50" y="63"/>
+		</imgdir>
+		<imgdir name="paperOrigin_Regret">
+			<vector name="1" x="125" y="83"/>
+			<vector name="2" x="120" y="71"/>
+			<vector name="3" x="117" y="63"/>
+		</imgdir>
+		<imgdir name="paperOrigin_Greed">
+			<vector name="1" x="192" y="83"/>
+			<vector name="2" x="187" y="71"/>
+			<vector name="3" x="184" y="63"/>
+		</imgdir>
+		<imgdir name="paperOrigin_Sloth">
+			<vector name="1" x="35" y="178"/>
+			<vector name="2" x="30" y="166"/>
+			<vector name="3" x="27" y="158"/>
+		</imgdir>
+		<imgdir name="paperOrigin_Envy">
+			<vector name="1" x="95" y="178"/>
+			<vector name="2" x="90" y="166"/>
+			<vector name="3" x="87" y="158"/>
+		</imgdir>
+		<imgdir name="paperOrigin_Gluttony">
+			<vector name="1" x="156" y="178"/>
+			<vector name="2" x="151" y="166"/>
+			<vector name="3" x="148" y="158"/>
+		</imgdir>
+		<imgdir name="paperOrigin_Jealousy">
+			<vector name="1" x="216" y="178"/>
+			<vector name="2" x="211" y="166"/>
+			<vector name="3" x="208" y="158"/>
+		</imgdir>
+		<imgdir name="number">
+			<canvas name="0" width="12" height="17">
+			</canvas>
+			<canvas name="1" width="10" height="17">
+			</canvas>
+			<canvas name="2" width="12" height="17">
+			</canvas>
+			<canvas name="3" width="11" height="17">
+			</canvas>
+			<canvas name="4" width="14" height="17">
+			</canvas>
+			<canvas name="5" width="11" height="17">
+			</canvas>
+			<canvas name="6" width="12" height="17">
+			</canvas>
+			<canvas name="7" width="12" height="16">
+			</canvas>
+			<canvas name="8" width="12" height="17">
+			</canvas>
+			<canvas name="9" width="12" height="17">
+			</canvas>
+		</imgdir>
+	</imgdir>
+	<imgdir name="Bonus">
+		<canvas name="backgrnd" width="311" height="85">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="backgrnd2" width="293" height="60">
+			<vector name="origin" x="-9" y="-16"/>
+			<int name="z" value="1"/>
+		</canvas>
+		<canvas name="lastSpurt" width="136" height="92">
+			<vector name="origin" x="118" y="0"/>
+			<int name="z" value="-1"/>
+		</canvas>
+		<imgdir name="gage">
+			<canvas name="black" width="1" height="11">
+				<int name="z" value="3"/>
+				<vector name="origin" x="-196" y="-59"/>
+			</canvas>
+			<canvas name="cover" width="182" height="11">
+				<vector name="origin" x="-16" y="-59"/>
+				<int name="z" value="4"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="number">
+			<canvas name="0" width="12" height="17">
+			</canvas>
+			<canvas name="1" width="10" height="17">
+			</canvas>
+			<canvas name="2" width="12" height="17">
+			</canvas>
+			<canvas name="3" width="11" height="17">
+			</canvas>
+			<canvas name="4" width="14" height="17">
+			</canvas>
+			<canvas name="5" width="11" height="17">
+			</canvas>
+			<canvas name="6" width="12" height="17">
+			</canvas>
+			<canvas name="7" width="12" height="16">
+			</canvas>
+			<canvas name="8" width="12" height="17">
+			</canvas>
+			<canvas name="9" width="12" height="17">
+			</canvas>
+		</imgdir>
+	</imgdir>
+</imgdir>

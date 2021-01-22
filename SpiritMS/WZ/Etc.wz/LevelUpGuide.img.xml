@@ -1,0 +1,2173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="LevelUpGuide.img">
+	<imgdir name="Contents">
+		<imgdir name="0">
+			<string name="title" value="[Info]\nStat Info"/>
+			<string name="message" value="Increasing Stats: How to Get Mega Tough"/>
+			<imgdir name="desc">
+				<string name="0" value="Starting at Lv. 10, you can open the Character Stat (S key) window and assign AP to your stats."/>
+				<string name="1" value="Raise your class's important stats to become a powerhouse!\n"/>
+				<string name="2" value="#fEtc/LevelUpGuide.img/Image/0_0#"/>
+				<string name="3" value="\n#e1. Ability Point#n: Points you can assign to increase your stats."/>
+				<string name="4" value="\n#e2. Auto-Assign#n: Auto-Assign AP based on your class."/>
+				<string name="5" value="\n#e3. Stat Types#n"/>
+				<string name="6" value="-STR: Determines the attack power of Warriors and Pirates (Brawlers)"/>
+				<string name="7" value="-DEX: Determines the attack power of Bowmen and Pirates (Gunslingers)"/>
+				<string name="8" value="-INT: Determines the attack power of Magicians"/>
+				<string name="9" value="-LUK: Determines the Accuracy of Magicians and attack power of Thieves#n"/>
+				<string name="10" value="\n#bTIP: Click on Auto-Assign to distribute AP to your stats based on your class."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1">
+			<string name="title" value="[Theme Dungeon]\nMushroom Castle (Lv. 30 - 40) "/>
+			<string name="message" value="Rescue the Mushking Empire!"/>
+			<int name="npc" value="1300000"/>
+			<imgdir name="desc">
+				<string name="0" value="The Mushking Empire is in danger! The kingdom has been overtaken by the evil King Pepe and the lovely Princess Violetta is being forced to marry his filthy son, Prince Giuseppe! Help the Mushking defeat King Pepe and rescue Princess Violetta!"/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 30 - 40"/>
+				<string name="2" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="3" value="1) Mushking in Danger quest"/>
+				<string name="4" value="2) Go west from Henesys"/>
+				<string name="5" value="\n#e-Final Reward#n"/>
+				<string name="6" value="#i1142188##t1142188#"/>
+				<string name="7" value="\n#eHow to Start:"/>
+				<string name="8" value="You will receive an invitation to the Mushroom after your 2nd Job Advancement. You can usually use this invitation to get back any time."/>
+				<string name="9" value="You can also enter from the Ghost Mushroom Forest near Henesys."/>
+				<string name="10" value="#fEtc/LevelUpGuide.img/Image/1_0#"/>
+				<string name="11" value="\n#eHow to Clear:"/>
+				<string name="12" value="Enter the Mushroom Castle to find the mushrooms that were driven out by the Pepes."/>
+				<string name="13" value="First, help the Mushking finish his tasks, then speak to the other mushrooms."/>
+				<string name="14" value="#fEtc/LevelUpGuide.img/Image/1_1#"/>
+				<string name="15" value="\nTo enter the Mushroom Castle, you must first remove the Barrier of the Magic Spore and the thorny vines blocking the entrance."/>
+				<string name="16" value="Helping the mushrooms will should give you everything you need to get into the Mushroom Castle."/>
+				<string name="17" value="#fEtc/LevelUpGuide.img/Image/1_2#"/>
+				<string name="18" value="\nEnter the castle to challenge King Pepe's henchmen, such as Helmet Pepes."/>
+				<string name="19" value="Eliminate these monsters and reach the Entrance to Wedding Hall to begin the Bringing Down King Pepe quest."/>
+				<string name="20" value="#fEtc/LevelUpGuide.img/Image/1_3#"/>
+				<string name="21" value="\nWhen you begin Bringing Down King Pepe, King Pepe will appear on his Yeti."/>
+				<string name="22" value="#fEtc/LevelUpGuide.img/Image/1_4#"/>
+				<string name="23" value="If you can win 3 times, you will get the Wedding Hall Key. Use this key to proceed to the Saving Violetta quest."/>
+				<string name="24" value="\nTake the Saving Violetta quest at the Entrance to Wedding Hall to aid Violetta in defeating the Prime Minister."/>
+				<string name="25" value="#fEtc/LevelUpGuide.img/Image/1_5#"/>
+				<string name="26" value="Eliminate the Prime Minister and return to Mushroom Castle town to complete the quest."/>
+			</imgdir>
+			<int name="addNpcX" value="10"/>
+			<int name="addNpcY" value="10"/>
+			<int name="npcScale" value="70"/>
+		</imgdir>
+		<imgdir name="2">
+			<string name="title" value="[Theme Dungeon]\nKerning Square (Lv. 35 - 45)"/>
+			<string name="message" value="Help Enin support Blake's Autograph Event!"/>
+			<int name="npc" value="1052117"/>
+			<int name="naviField" value="103040000"/>
+			<imgdir name="desc">
+				<string name="0" value="After finding success as a musical artist, Blake is returning to Kerning Square for an autograph signing event. Enin, one of his biggest fans, wants your help and support for this event to be one of the most awesome events of all time."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 35 - 45"/>
+				<string name="2" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="3" value="Accept Blake's Autograph quest"/>
+				<string name="4" value="\n#e-Final Reward#n"/>
+				<string name="5" value="#i1032167##t1032167# "/>
+				<string name="6" value="\n#eHow to Start:"/>
+				<string name="7" value="Start by clicking the light bulb icon on the left. Find the Blake's Autographs quest and accept it to teleport to Kerning Square Lobby."/>
+				<string name="8" value="\n#eHow to Clear!"/>
+				<string name="9" value="Once you arrive at Kerning Square Lobby, talk to Enin to officially begin the quest."/>
+				<string name="10" value="\nFirst, help Enin get a ticket to Blake's event by defeating Bubble Teas. After that, You will be helping out with preparing the event through a series of quests where you must liaise with a record executive, a make-up artist, hair designer, and a composer. You will even have to obtain perfumes, CDs, hats, and many more to make sure the event is successful."/>
+				<string name="11" value="#fEtc/LevelUpGuide.img/Image/2_2#"/>
+				<string name="12" value="\nWhen you are almost done helping out, Lala will ask you for help finding out the cause of why Blake has changed. Go to the top of Kerning Square and talk to Blake's old friend June to find out more and then ask Blake and Lana about it. After You are done talking to Lana, click the Light Bulb icon to learn what Blake's True Self has to say by accepting the Like the First Time quest. Accept Blake's True Self's request to retrieve Blake's Memories and go back to the top of Kerning Square to defeat Spirit of Rock and his Amplifier minions."/>
+				<string name="13" value="#fEtc/LevelUpGuide.img/Image/2_3#"/>
+				<string name="14" value="#fEtc/LevelUpGuide.img/Image/2_4#"/>
+				<string name="15" value="#b(Defeat Spirit of Rock!)"/>
+				<string name="16" value="\nOnce you defeat the Spirit of Rock and his Amplifier minions, talk to Blake's True Self again and obtain Blake's Memories."/>
+				<string name="17" value="Return to Kerning Square Lobby and present Blake his memories."/>
+				<string name="18" value="#fEtc/LevelUpGuide.img/Image/2_5#"/>
+				<string name="19" value="Blake will thank you for all your hard work and will give you your reward completing the quest."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3">
+			<string name="title" value="[Info]\nIntercontinent Travel"/>
+			<string name="message" value="A whole new world awaits!"/>
+			<imgdir name="desc">
+				<string name="0" value="Various continents exist in Maple World. If you wish to encounter stronger monsters and more interesting stories, journey across different continents right now!"/>
+				<string name="1" value="#fEtc/LevelUpGuide.img/Image/3_0#"/>
+				<string name="2" value="To travel to different continents, you must use the transportation method provided by the stations on each continent."/>
+				<string name="3" value="#fEtc/LevelUpGuide.img/Image/3_1#"/>
+				<string name="4" value="\n#eVictoria Island Station#n"/>
+				<string name="5" value="Station Location: Port Road"/>
+				<string name="6" value="Connects To: Edelstein/Orbis/Ereve"/>
+				<string name="7" value="\n#eEreve Station#n"/>
+				<string name="8" value="Station Location: Sky Ferry"/>
+				<string name="9" value="Connects To: Victoria Island/Orbis"/>
+				<string name="10" value="\n#ePaths in Aqua Road#n"/>
+				<string name="11" value="Station Location: The Sharp Unknown"/>
+				<string name="12" value="Connects To: Pond in Korean Folk Town"/>
+				<string name="13" value="Station Location: Ocean I.C"/>
+				<string name="14" value="Connects To: Orbis Tower "/>
+				<string name="15" value="Station Location: Aquarium (Dolphin)"/>
+				<string name="16" value="Connect To: The Sharp Unknown/Herb Town/Sea of Fog"/>
+				<string name="17" value="\n#eEl Nath Station#n"/>
+				<string name="18" value="Station Location: Orbis Station"/>
+				<string name="19" value="Connects To: Victoria Island/Ludibrium/Leafre/Ariant/Mu Lung Garden/Ereve/Edelstein"/>
+				<string name="20" value="\n#eRien Station#n"/>
+				<string name="21" value="Station Location: Penguin Port"/>
+				<string name="22" value="Connect To: Victoria Island"/>
+				<string name="23" value="\n#eLudus Lake Station#n"/>
+				<string name="24" value="Station Location: Ludibrium Station"/>
+				<string name="25" value="Connects To: Orbis"/>
+				<string name="26" value="\n#eNihal Desert Station#n"/>
+				<string name="27" value="Station Location: Ariant Station"/>
+				<string name="28" value="Connects To: Orbis"/>
+				<string name="29" value="\n#eMu Lung Garden Station#n"/>
+				<string name="30" value="Station Location: Mu Lung Temple"/>
+				<string name="31" value="Connects To: Mu Lung Garden/Orbis"/>
+				<string name="32" value="\n#eMinar Forest Station#n"/>
+				<string name="33" value="Station Location: Leafre Station"/>
+				<string name="34" value="Connects To: Temple of Time/Orbis"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="4">
+			<string name="title" value="[Party Quest]\nMoon Bunny's Rice Cake (Lv. 50 - 69)"/>
+			<string name="message" value="Obtain Moon Bunny's Rice Cake from Growlie!"/>
+			<int name="npc" value="1012112"/>
+			<imgdir name="desc">
+				<string name="0" value="#b#p1012112##k at #b#m100000200##k is looking for adventurers who can find #r#t04001101##k for #b#p1012114##k. Go to Primrose Hill, the home of the Moon Bunny."/>
+				<string name="1" value="\n1. Eliminate the Pigs and retrieve the Primrose Seeds they stole."/>
+				<string name="2" value="2. Plant the seeds at the designated locations. The Moon Bunny will appear once 6 Primroses bloom."/>
+				<string name="3" value="3. Protect the Moon Bunny from the violent animals until it makes #r10 Rice Cakes#k."/>
+				<string name="4" value="4. Bring the Rice Cakes to Tory to receive a gift."/>
+				<string name="5" value="\n#e-Time Limit#n: 10 min"/>
+				<string name="6" value="\n#e-Number of Participants#n: 3 - 6 players"/>
+				<string name="7" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="8" value="\n#e-Special Reward#n: "/>
+				<string name="9" value="#b#i1003418:# #t1003418##k\n"/>
+				<string name="10" value="#b#i1003419:# #t1003419##k\n"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="5">
+			<string name="title" value="[Party Quest]\nFirst Time Together (Lv. 50 - 69)"/>
+			<string name="message" value="Defeat the King Slime!"/>
+			<int name="npc" value="9020000"/>
+			<imgdir name="desc">
+				<string name="0" value="#b#p9020000##k of #b#m103000000##k is searching for brave explorers. Use the #bDimensional Mirror#k to meet up with Lakelis and complete her requests, then defeat the #r#o9300003##k! "/>
+				<string name="1" value="\nStage 1: Collect the required passes"/>
+				<string name="2" value="Stage 2: Find the rope to the next stage"/>
+				<string name="3" value="Stage 3: Find the cat platform to the next area"/>
+				<string name="4" value="Stage 4: Eliminate all Curse Eyes"/>
+				<string name="5" value="Stage 5: Eliminate the King Slime"/>
+				<string name="6" value="\n#e-Time Limit#n: 20 min"/>
+				<string name="7" value="\n#e-Number of Participants#n: 3 - 6 players"/>
+				<string name="8" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="9" value="#e-Special Reward#n : "/>
+				<string name="10" value=" #b#i1072533:# #t1072533# #k"/>
+				<string name="11" value="\n#eHow to Start:"/>
+				<string name="12" value="A three-player party, all Lv. 50 or higher, is required to do the First Time Together Party Quest. Click &quot;First Time Together&quot; from the Dimensional Mirror or Move Quickly menu in each town to start."/>
+				<string name="13" value="#fEtc/LevelUpGuide.img/Image/5_0#"/>
+				<string name="14" value="#fEtc/LevelUpGuide.img/Image/5_1#"/>
+				<string name="15" value="\n#eHow to Clear:"/>
+				<string name="16" value="First Time Together is comprised of 5 stages total. The quest is complete once you eliminate King Slime. Each party member is to complete the given missions and the party leader must talk to Cloto to proceed to the next stage."/>
+				<string name="17" value="\n#bTIP: Assign the roles of party leader and party members and collaborate in solving the quiz."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="6">
+			<string name="title" value="[Party Quest]\nDimensional Crack (Lv. 50 - 69)"/>
+			<string name="message" value="Stop the monsters that came through the Dimensional Crack!"/>
+			<int name="npc" value="2040034"/>
+			<imgdir name="desc">
+				<string name="0" value="Oh no! A Dimensional Crack was found at #b#m220000000##k! In order to prevent otherworldly monsters from invading, we need courageous explorers to seal it up. Use the #bDimensional Mirror#k to travel to the crack."/>
+				<string name="1" value="\nStage 1: Eliminate all Ratz and Black Ratz"/>
+				<string name="2" value="Stage 2: Eliminate all monsters behind the door"/>
+				<string name="3" value="Stage 3: Enter the hidden portal on top of the box"/>
+				<string name="4" value="Stage 4: Eliminate Rombot"/>
+				<string name="5" value="Stage 5: Solve the quiz"/>
+				<string name="6" value="Stage 6: Eliminate Alishar"/>
+				<string name="7" value="\n#e-Time Limit#n: 20 min"/>
+				<string name="8" value="\n#e-Number of Participants#n: 3 - 6 players"/>
+				<string name="9" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="10" value="\n#e-Special Reward#n: "/>
+				<string name="11" value=" #b#i1022073:# #t1022073# #k"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="7">
+			<string name="title" value="[Party Quest]\nThe Ice Knight's Curse (Lv. 90 - 109)"/>
+			<string name="message" value="Help Jun, who's been cursed by the Ice Knight!"/>
+			<int name="npc" value="2159018"/>
+			<imgdir name="desc">
+				<string name="0" value="#b#p2159018##k at #b#m932000000##k is looking for adventures to help #b#p2159017##k, who has been cursed by #b#o9300442##k. Use the Dimensional Mirror to get to the Dangerous Forest."/>
+				<string name="1" value="\n#e-Time Limit#n: 20 min"/>
+				<string name="2" value="\n#e-Number of Participants#n: 2 - 6 players"/>
+				<string name="3" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="4" value="\n#e-Special Reward#n: "/>
+				<string name="5" value="#b#i1152127:# #t1152127##k\n#b#i1072819:# #t1072819##k\n"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="8">
+			<string name="title" value="[Boss Content]\nLord Balrog (Lv. 45 - 200)"/>
+			<string name="message" value="Defeat Lord Balrog!"/>
+			<int name="npc" value="1061014"/>
+			<int name="naviField" value="105100000"/>
+			<imgdir name="desc">
+				<string name="0" value="The hero Tristan dropped Lord Balrog to the bottom of the Cursed Temple, but the seal on his tomb was never completed. Defeat Lord Balrog and put a lid on his enormous power."/>
+				<string name="1" value="\n#e-Expedition Participation Condition#n: Lv. 45 - 200"/>
+				<string name="3" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="4" value="Sleepywood, at the end of Cursed Temple"/>
+				<string name="5" value="\n#e-Final Reward#n"/>
+				<string name="6" value="Bain items"/>
+				<string name="7" value="\n#eHow Do I Start?#n"/>
+				<string name="8" value="To fight against the Lord Balrog, you must head to &quot;Bottom of the Temple&quot;."/>
+				<string name="9" value="#fEtc/LevelUpGuide.img/Image/8_0#"/>
+				<string name="10" value="To get there, you can walk from Sleepywood, or you can get there through Manji in Perion. Once you reach Bottom of the Temple, talk to Mu Young to enter Balrog's Altar."/>
+				<string name="11" value="\n#eParticipate in the Expedition!#n"/>
+				<string name="12" value="#fEtc/LevelUpGuide.img/Image/8_1#"/>
+				<string name="14" value="\n#eFight with Lord Balrog!#n"/>
+				<string name="15" value="Once the battle with Lord Balrog begins, your stats will decrease and a buff that forbids you from using 3rd and 4th job skills will take effect. Take note that this buff cannot be removed."/>
+				<string name="16" value="\n#bTIP: If the Balrog tries to recover its HP through the altar, attack the altar with normal attacks."/>
+				<string name="17" value="#bTIP: When the damage reflect skill activates, stop your attacks. If you keep attacking at this time, damage dealt will be reflected back to you."/>
+				<string name="2" value="\n#e-Players#n : Balrog Expedition of 1 or more players"/>
+				<string name="13" value="To fight against Lord Balrog, you must create a Balrog Expedition comprised of at least 1 player."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="9">
+			<string name="title" value="[Theme Dungeon]\nFloating Island of Chryse (Lv. 55 - 70)"/>
+			<string name="message" value="Save the giants who are in danger!"/>
+			<int name="npc" value="2012018"/>
+			<imgdir name="desc">
+				<string name="0" value="There's trouble brewing at Chryse, the island above Orbis where giants live. Xer, Michaela's pet mountain goat, got hold of an evil power by accident. Save the giants from this evil."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 55 - 70"/>
+				<string name="2" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="3" value="\nGet there through Ericsson at Orbis Park"/>
+				<string name="4" value="\n#e-Final Reward#n"/>
+				<string name="5" value="#i1142259##t1142259#"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="10">
+			<string name="title" value="[Monster Park]\nTemple of Darkness (Lv. 60 - 69)"/>
+			<string name="message" value="Defeat the monsters in the Monster Park!"/>
+			<int name="npc" value="9071000"/>
+			<imgdir name="desc">
+				<string name="0" value="#e-Recommended Level#n: Lv. 60 - 69, have Monster Park Ticket"/>
+				<string name="1" value="#e-Getting There#n: Monster Park Shuttle in each town or use the Move Quickly menu"/>
+				<string name="2" value="#e-Final Reward#n"/>
+				<string name="3" value="Spiegelmann's Badge Chest (30 Monster Park Commemorative Coins needed)"/>
+				<string name="4" value="Spiegelmann's Mustache (50 Monster Park Commemorative Coins needed)"/>
+				<string name="5" value="Spiegelmann's Autograph (100 Monster Park Commemorative Coins needed)"/>
+				<string name="6" value="Spiegelmann's Hot-Air Balloon 7-Day Coupon (70 Monster Park Commemorative Coins needed)"/>
+				<string name="7" value="\n#eWhat is the Monster Park?#n"/>
+				<string name="8" value="#fEtc/LevelUpGuide.img/Image/10_0#"/>
+				<string name="9" value="The Monster Park is where Spiegelmann keeps the monsters he collected while traveling Maple World. Make a party and defeat the monsters to obtain additional EXP and special items."/>
+				<string name="10" value="\n#eHow Do I Start?#n"/>
+				<string name="11" value="#fEtc/LevelUpGuide.img/Image/10_1#"/>
+				<string name="12" value="#b(Use the Monster Park Shuttle parked in town)"/>
+				<string name="13" value="\nUse the Monster Park Shuttle parked in each town to enter the Monster Park."/>
+				<string name="14" value="You'll need a ticket to get in. Collect &quot;ticket pieces&quot; by hunting monsters on normal maps and exchanging them for a full ticket through Mary at the Monster Park."/>
+				<string name="15" value="You can also purchase tickets directly from Mary at the Monster Park (max 5 tickets per day, no matter the ticket type)."/>
+				<string name="16" value="\n#fEtc/LevelUpGuide.img/Image/10_2#"/>
+				<string name="17" value="#b(Collect ticket pieces and exchange them for a ticket)"/>
+				<string name="18" value="#fEtc/LevelUpGuide.img/Image/10_3#"/>
+				<string name="19" value="#b(Bring the pieces to Mary to get a full ticket)"/>
+				<string name="20" value="\n#eCreate a Party!#n"/>
+				<string name="21" value="Use the Party Search, hotkey (O), or recruit people on your channel to make a party."/>
+				<string name="22" value="\n#eStart Monster Park!#n"/>
+				<string name="23" value="Once a party has been formed, you can jump into the Monster Park. The party leader can enter the park and select the dungeon. "/>
+				<string name="24" value="#fEtc/LevelUpGuide.img/Image/10_4#"/>
+				<string name="25" value="#b(Select a dungeon through the portals next to Spiegelmann)"/>
+				<string name="26" value="#fEtc/LevelUpGuide.img/Image/10_5#"/>
+				<string name="27" value="#bTIP: Don't forget to grab those &quot;Monster Park Commemorative Coins&quot; from monsters in the Monster Park! Laku the merchant will give you special items."/>
+				<string name="28" value="#fEtc/LevelUpGuide.img/Image/10_6#"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="11">
+			<string name="title" value="[Battle Quest]\nNett's Pyramid - Normal (Lv. 60 - 89)"/>
+			<string name="message" value="Challenge the Pharaoh Yeti!"/>
+			<int name="npc" value="2103013"/>
+			<imgdir name="desc">
+				<string name="0" value="#rNett's Pyramid#k was buried deep inside the desert for ages, but has recently resurfaced! Go to to the pyramid to challenge the Pharaoh Yeti."/>
+				<string name="1" value="\n#e-Number of Participants#n: 4-Person Party"/>
+				<string name="2" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="3" value="\n#e-Special Reward: "/>
+				<string name="4" value="#b#i1132013:# #t1132013##k\n#b#i1132012:# #t1132012##k"/>
+				<string name="5" value="\n#eHow to Start:"/>
+				<string name="6" value="For the Nett's Pyramid Party Quest, you need 4 users that are Lv. 60 or higher."/>
+				<string name="7" value="First, complete the &quot;In Search of the Mysterious Pyramid&quot; quest from Byron in Ariant."/>
+				<string name="8" value="#fEtc/LevelUpGuide.img/Image/11_0#"/>
+				<string name="9" value="#b(Go see Byron in Ariant to start the quest)"/>
+				<string name="10" value="\nIf you completed the quest, go to the Dimensional Mirror in each town (can also be accessed through Move Quickly menu) and click &quot;Nett's Pyramid&quot;. Afterwards, talk to Duarte and enter the pyramid."/>
+				<string name="11" value="#fEtc/LevelUpGuide.img/Image/11_1#"/>
+				<string name="12" value="#b(Click on Move Quickly menu and select &quot;Nett's Pyramid&quot;)"/>
+				<string name="13" value="#fEtc/LevelUpGuide.img/Image/11_2#"/>
+				<string name="14" value="#b(Talk to Duarte to enter the pyramid)"/>
+				<string name="15" value="\n#eHow to Clear:"/>
+				<string name="16" value="Once you enter the pyramid, various monsters will be summoned from the rightmost path on 1st - 4th floors in each stage."/>
+				<string name="17" value="Summoned monsters will move to the left to destroy the Obelisk, the holy artifact of Nett. Stop the monsters from destroying the Obelisk!"/>
+				<string name="18" value="#fEtc/LevelUpGuide.img/Image/11_3#"/>
+				<string name="19" value="#b(Protect the Obelisk!)"/>
+				<string name="20" value="\n#eUse various eye items, each with different effects!"/>
+				<string name="21" value="You can obtain points by defeating the summoned monsters. Use these points to purchase various eye items that can enhance your character or inflict abnormal status on monsters. "/>
+			</imgdir>
+			<int name="npcScale" value="85"/>
+			<int name="addNpcY" value="10"/>
+		</imgdir>
+		<imgdir name="12">
+			<string name="title" value="[Monster Park]\nWitch Snowfield (Lv. 70 - 79)"/>
+			<string name="message" value="Defeat the monsters in the Monster Park!"/>
+			<int name="npc" value="9071000"/>
+			<imgdir name="desc">
+				<string name="0" value="#e-Recommended Level#n: Lv. 70 - 79, have Monster Park Ticket"/>
+				<string name="1" value="#e-Getting There#n: Monster Park Shuttle in each town or use the Move Quickly menu"/>
+				<string name="2" value="\n#e-Final Reward"/>
+				<string name="3" value="Spiegelmann's Badge Chest (30 Monster Park Commemorative Coins needed)"/>
+				<string name="4" value="Spiegelmann's Mustache (50 Monster Park Commemorative Coins needed)"/>
+				<string name="5" value="Spiegelmann's Autograph (100 Monster Park Commemorative Coins needed)"/>
+				<string name="6" value="Spiegelmann's Hot-Air Balloon 7-Day Coupon (70 Monster Park Commemorative Coins needed)"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="13">
+			<string name="title" value="[Party Quest]\nRemnant of the Goddess (Lv. 70 - 119)"/>
+			<string name="message" value="Rescue the goddess of Orbis!"/>
+			<int name="npc" value="2013000"/>
+			<imgdir name="desc">
+				<string name="0" value="The journey to rescue the goddess of #b#m200000000##k begins! Use the #bDimensional Mirror#k to go to the Tower of Minerva.  "/>
+				<string name="1" value="\nLobby: Find the record and play it on the record player"/>
+				<string name="2" value="Storage Room: Eliminate the Celions in the order they appear"/>
+				<string name="3" value="Strolling Path: Eliminate the Pixies and collect their pieces"/>
+				<string name="4" value="The Road Up: Find the platform with the answer and take it up"/>
+				<string name="5" value="Statue Hall: Fix the statue using the pieces you collected"/>
+				<string name="6" value="Garden: Eliminate Papa Pixie"/>
+				<string name="7" value="\n#e-Time Limit#n: 20 min"/>
+				<string name="8" value="\n#e-Number of Participants#n: 3 - 6 players"/>
+				<string name="9" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="10" value="\n#e-Special Reward#n: "/>
+				<string name="11" value="#b#i01082232:# #t01082232##k\n"/>
+				<string name="12" value="(#r15 Feathers of Goddess needed)"/>
+				<string name="13" value=" #b#i01072455:# #t01072455##k\n"/>
+				<string name="14" value=" (#r10 Feathers of Goddess needed)"/>
+				<string name="15" value="#b#i01082322:# #t01082322##k\n"/>
+				<string name="16" value="(#r1 #t1082232# and 30 Feathers of Goddess needed)"/>
+				<string name="17" value=" #b#i01072534:# #t01072534##k\n"/>
+				<string name="18" value="(#r1 #t1072534# and 20 Feathers of Goddess needed)"/>
+			</imgdir>
+			<int name="npcScale" value="80"/>
+			<int name="addNpcY" value="10"/>
+		</imgdir>
+		<imgdir name="14">
+			<string name="title" value="[Party Quest]\nRomeo and Juliet (Lv. 70 - 119)"/>
+			<string name="message" value="Go see the star-crossed lovers!"/>
+			<int name="npc" value="2112018"/>
+			<imgdir name="desc">
+				<string name="0" value="The star-crossed lovers of #b#m261000000##k, #b#p2112004##k and #b#p2112003##k, need your help. Use the #bDimensional Mirror#k to meet Romeo and Juliet, and find the true cause of the hatred between the Zenumists and Alcadnos!"/>
+				<string name="1" value="\nStage 1: Find the strange switch inside the laboratory"/>
+				<string name="2" value="Stage 2: Eliminate all monsters"/>
+				<string name="3" value="Stage 3: Collect the Suspicious Liquid inside the Beaker"/>
+				<string name="4" value="Stage 4: Enter the Dark Lab and obtain the experimental data"/>
+				<string name="5" value="Stage 5: After eliminating the monsters, look for another strange switch"/>
+				<string name="6" value="Stage 6: Locate the correct footholds and climb up"/>
+				<string name="7" value="Stage 7: Eliminate Frankenroid"/>
+				<string name="8" value="\n#e-Time Limit#n: 20 min"/>
+				<string name="9" value="\n#e-Number of Participants#n: 4 players"/>
+				<string name="10" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="11" value="\n#e-Special Reward#n: "/>
+				<string name="12" value="#b#i1122116:# #t1122116##k"/>
+				<string name="13" value="#b#i1122117:# #t1122117##k"/>
+				<string name="14" value="#b#i1122118:# #t1122118##k"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="15">
+			<string name="title" value="[Party Quest]\nLord Pirate (Lv. 100 - 129)"/>
+			<string name="message" value="Stop Lord Pirate!"/>
+			<int name="npc" value="2094000"/>
+			<imgdir name="desc">
+				<string name="0" value="The #r#o9300119##k has launched a surprise attack on #b#m251000000##k! Use the #bDimensional Mirror#k to the cell where #b#p2094001##k, the King of Bellflowers, is being held!"/>
+				<string name="1" value="\n#e-Time Limit#n:\n    1) Stage 1: 4 min\n    2) Stage 2: 7 min\n    3) Stage 3: 5 min\n    4) Stage 4: 6 min\n"/>
+				<string name="2" value="\n#e-Number of Participants#n: 3 - 6 players"/>
+				<string name="3" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="4" value="\n#e-Special Reward#n: "/>
+				<string name="5" value="#b#i1003267:# #t1003267##k"/>
+			</imgdir>
+			<int name="npcScale" value="80"/>
+		</imgdir>
+		<imgdir name="16">
+			<string name="title" value="[Party Quest]\nForest of Poison Haze (Lv. 100 - 129)"/>
+			<string name="message" value="Save the polluted Ellin Forest!"/>
+			<int name="npc" value="2133000"/>
+			<imgdir name="desc">
+				<string name="0" value="The #bBroken Gate of Time on the 101st floor of Helios Tower#k is said to have the power to fling daring adventurers into the past, where the Fairy of Ellin Forest awaits a hero to save her polluted forest."/>
+				<string name="1" value="\n#e-Time Limit#n: 20 min"/>
+				<string name="2" value="\n#e-Number of Participants#n: 3 - 5 players"/>
+				<string name="3" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="4" value="\n#e-Special Reward#n: "/>
+				<string name="5" value="#b#i1032101:# #t1032101##k"/>
+			</imgdir>
+			<int name="addNpcY" value="20"/>
+			<int name="addNpcX" value="-5"/>
+		</imgdir>
+		<imgdir name="17">
+			<string name="title" value="[Monster Park]\nSilent Sea (Lv. 75 - 84)"/>
+			<string name="message" value="Defeat the monsters in the Monster Park!"/>
+			<int name="npc" value="9071000"/>
+			<imgdir name="desc">
+				<string name="0" value="#e-Recommended Level#n: Lv. 75 - 84, have Monster Park Ticket"/>
+				<string name="1" value="#e-Getting There#n: Monster Park Shuttle in each town or use the Move Quickly menu"/>
+				<string name="2" value="\n#e-Final Reward#n"/>
+				<string name="3" value="Spiegelmann's Badge Chest (30 Monster Park Commemorative Coins needed)"/>
+				<string name="4" value="Spiegelmann's Mustache (50 Monster Park Commemorative Coins needed)"/>
+				<string name="5" value="Spiegelmann's Autograph (100 Monster Park Commemorative Coins needed)"/>
+				<string name="6" value="Spiegelmann's Hot-Air Balloon 7-Day Coupon (70 Monster Park Commemorative Coins needed)"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="18">
+			<string name="title" value="[Monster Park]\nBlack Mountain Hill (Lv. 80 - 89)"/>
+			<string name="message" value="Defeat the monsters in the Monster Park!"/>
+			<int name="npc" value="9071000"/>
+			<imgdir name="desc">
+				<string name="0" value="#e-Recommended Level#n: Lv. 80 - 89, have Monster Park Ticket"/>
+				<string name="1" value="#e-Getting There#n: Monster Park Shuttle in each town or use the Move Quickly menu"/>
+				<string name="2" value="\n#e-Final Reward#n"/>
+				<string name="3" value="Spiegelmann's Badge Chest (30 Monster Park Commemorative Coins needed)"/>
+				<string name="4" value="Spiegelmann's Mustache (50 Monster Park Commemorative Coins needed)"/>
+				<string name="5" value="Spiegelmann's Autograph (100 Monster Park Commemorative Coins needed)"/>
+				<string name="6" value="Spiegelmann's Hot-Air Balloon 7-Day Coupon (70 Monster Park Commemorative Coins needed)"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="19">
+			<string name="title" value="[Monster Park]\nGray's Hideout (Lv. 85 - 94)"/>
+			<string name="message" value="Defeat the monsters in the Monster Park!"/>
+			<int name="npc" value="9071000"/>
+			<imgdir name="desc">
+				<string name="0" value="#e-Recommended Level#n: Lv. 85 - 94, have Monster Park Ticket"/>
+				<string name="1" value="#e-Getting There#n: Monster Park Shuttle in each town or use the Move Quickly menu"/>
+				<string name="2" value="\n#e-Final Reward#n"/>
+				<string name="3" value="Spiegelmann's Badge Chest (30 Monster Park Commemorative Coins needed)"/>
+				<string name="4" value="Spiegelmann's Mustache (50 Monster Park Commemorative Coins needed)"/>
+				<string name="5" value="Spiegelmann's Autograph (100 Monster Park Commemorative Coins needed)"/>
+				<string name="6" value="Spiegelmann's Hot-Air Balloon 7-Day Coupon (70 Monster Park Commemorative Coins needed)"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="20">
+			<string name="title" value="[Party Quest]\nNett's Pyramid - Hard (Lv. 90 - 109)"/>
+			<string name="message" value="Challenge the Pharaoh Yeti!"/>
+			<int name="npc" value="2103013"/>
+			<imgdir name="desc">
+				<string name="0" value="#rNett's Pyramid#k was buried deep inside the desert for ages, but has recently resurfaced! Go to to the pyramid to challenge the Pharaoh Yeti."/>
+				<string name="1" value="\n#e-Number of Participants#n: 4-Person Party"/>
+				<string name="2" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="3" value="\n#e-Special Reward#n: "/>
+				<string name="4" value="#b#i1132013:# #t1132013##k\n#b#i1132012:# #t1132012##k"/>
+			</imgdir>
+			<int name="addNpcY" value="10"/>
+			<int name="npcScale" value="85"/>
+		</imgdir>
+		<imgdir name="21">
+			<string name="title" value="[Theme Dungeon]\nElin Forest (Lv. 95 - 105)"/>
+			<string name="message" value="Take a journey back in time!"/>
+			<int name="npc" value="9071000"/>
+			<int name="naviField" value="222020400"/>
+			<imgdir name="desc">
+				<string name="0" value="Spiegelmann brings you some interesting news. Time has stopped in the Toy Castle of Ludibrium and the Clocktower to preserve the innocence of childhood. However, one of the towers started malfunctioning and it's allowing people to slip through time... to the past! Let's hurry on over to Helios Tower to go on a mysterious journey through time."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 95 - 105"/>
+				<string name="2" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="3" value="Helios Tower 101st Floor, Broken Gate of Time"/>
+				<string name="4" value="\n#e-Final Reward#n"/>
+				<string name="5" value="Elin Forest Guardian (Title)"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="22">
+			<string name="title" value="[Boss Content]\nZakum (Lv. 50 - 200)"/>
+			<string name="message" value="Defeat Zakum and save the underground tribe!"/>
+			<int name="npc" value="2030013"/>
+			<imgdir name="desc">
+				<string name="0" value="Deep inside of El Nath Dead Mine, a statue of worship has been mutated into a thing of terror by a corrupted Zakum tree. Save the underground tribe by defeating Zakum."/>
+				<string name="1" value="\n#e-Expedition Participation Condition#n"/>
+				<string name="2" value="1) Normal Mode: Lv. 50+"/>
+				<string name="3" value="2) Chaos Mode: Lv. 100+"/>
+				<string name="4" value="\n#e-Party Size#n: Zakum Expedition of at least 1 player"/>
+				<string name="5" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="6" value="Deep Inside the Dead Mine in El Nath"/>
+				<string name="7" value="\n#e-Final Reward#n"/>
+				<string name="8" value="#i1002357# #t1002357#"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="23">
+			<string name="title" value="[Theme Dungeon]\nLion King's Castle (Lv. 110 - 125)"/>
+			<string name="message" value="Remove the seal on Lion King's Castle!"/>
+			<int name="npc" value="2161002"/>
+			<imgdir name="desc">
+				<string name="0" value="Krag, a Silent Crusade agent has sent a letter. Icy terror and dark energy can be felt from Lion King's Castle at El Nath, but his investigation is stopped because of the magic wards there. Help him defeat the dark energy!"/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 110 - 125"/>
+				<string name="2" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="3" value="Read &quot;Desolate Castle&quot; from the Maple Mailbox "/>
+				<string name="4" value="\n#e-Players#n : Zakum Expedition of 1 or more players"/>
+				<string name="5" value="Luden's Mastery Book, Heart of a Lion"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="24">
+			<string name="title" value="[Party Quest]\nDragon Rider (Lv. 120 - 200)"/>
+			<string name="message" value="Discover the true identity of the Dragon Rider!"/>
+			<int name="npc" value="2085000"/>
+			<imgdir name="desc">
+				<string name="0" value="Use the #bDimensional Mirror#k to get to the #b&lt;Heavenly Doorway&gt;#k, where the true identity of the #rDragon Rider#k awaits. You might be able to catch him if you use the #bSoaring#k skill. Keep up your pursuit and defeat any Wyverns you see along the way."/>
+				<string name="1" value="\n#e-Participation Condition#n: Soaring skill obtained"/>
+				<string name="2" value="\n#e-Time Limit#n: 20 min"/>
+				<string name="3" value="\n#e-Number of Participants#n: 3 - 6 players"/>
+				<string name="4" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="5" value="\n#e-Special Reward#n: "/>
+				<string name="6" value="#b#i2430376:# #t2430376##k\n"/>
+				<string name="7" value="#b#i2430377:# #t2430377##k\n"/>
+				<string name="8" value="#b#i2430379:# #t2430379##k\n"/>
+				<string name="9" value="#b#i2430378:# #t2430378##k\n"/>
+				<string name="10" value="#b#i2430380:# #t2430380##k\n"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="25">
+			<string name="title" value="[Party Quest]\nKenta in Danger (Lv. 140 - 200)"/>
+			<string name="message" value="Help Kenta!"/>
+			<int name="npc" value="9020003"/>
+			<imgdir name="desc">
+				<string name="0" value="#b#p9020003##k at #b#m923040000##k is looking for someone to get #bKenta#k out of danger. Use the Dimensional Mirror to go to Forked Road: Dangerous Sea."/>
+				<string name="1" value="\n1. Defeat the monsters threatening Kenta."/>
+				<string name="2" value="2. Defeat the monsters and get 20 Air Bubbles for Kenta before he drowns."/>
+				<string name="3" value="3. Protect Kenta from the enraged sea creatures for 3 minutes."/>
+				<string name="4" value="4. Defeat Pianus inside the Dangerous Cave to help Kenta's research."/>
+				<string name="5" value="\n#e-Time Limit#n: 20 min"/>
+				<string name="6" value="\n#e-Number of Participants#n: 2 - 6 players"/>
+				<string name="7" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="8" value="\n#e-Special Reward#n: "/>
+				<string name="9" value="#b#i1022175:# #t1022175##k\n"/>
+			</imgdir>
+			<int name="npcScale" value="80"/>
+			<int name="addNpcY" value="50"/>
+		</imgdir>
+		<imgdir name="26">
+			<string name="title" value="[Party Quest]\nEscape (Lv. 120 - 200)"/>
+			<string name="message" value="Rescue the prisoners at Aerial Prison!"/>
+			<int name="npc" value="9020005"/>
+			<imgdir name="desc">
+				<string name="0" value="#bJenn#k at #b#m923040000##k is looking for adventurers to rescue inmates from the Hidden Tower's Aerial Prison."/>
+				<string name="1" value="\n1. Evade the obstacles and infiltrate the prison."/>
+				<string name="2" value="2. Eliminate all guards on the map."/>
+				<string name="3" value="3. Make it through the maze and find the prison entrance."/>
+				<string name="4" value="4. Eliminate all guards protecting the prison door."/>
+				<string name="5" value="5. Evade the booby traps and get into the Aerial Prison."/>
+				<string name="6" value="6. Eliminate all guards and find the Prison Key."/>
+				<string name="7" value="7. Defeat Prison Guard Ani and free the prisoners."/>
+				<string name="8" value="\n#e-Time Limit#n: 20 min"/>
+				<string name="9" value="\n#e-Number of Participants#n: 3 - 6 players"/>
+				<string name="10" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="11" value="\n#e-Special Reward#n: "/>
+				<string name="12" value="#b#i1132094:# #t1132094##k\n"/>
+				<string name="13" value="#b#i1132095:# #t1132095##k\n"/>
+				<string name="14" value="#b#i1132096:# #t1132096##k\n"/>
+				<string name="15" value="#b#i1132097:# #t1132097##k\n"/>
+				<string name="16" value="#b#i1132098:# #t1132098##k\n"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="27">
+			<string name="title" value="[Party Quest]\nHoblin King (Lv. 120 - 200)"/>
+			<string name="message" value="Discover the true identity of the Dragon Rider!"/>
+			<int name="npc" value="2022005"/>
+			<imgdir name="desc">
+				<string name="0" value="The Seal Stone that once held #r#o9300281##k at bay is losing its power. Take the #bDimensional Mirror#k to meet with #b#p2022005##k before the beast escapes his bonds!"/>
+				<string name="1" value="\n#e-Time Limit#n: 20 min"/>
+				<string name="2" value="\n#e-Number of Participants#n: 3 - 6 players"/>
+				<string name="3" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="4" value="\n#e-Special Reward#n: "/>
+				<string name="5" value="#b#i1032102:# #t1032102##k\n"/>
+				<string name="6" value="#b#i1032103:# #t1032103##k\n"/>
+				<string name="7" value="#b#i1032104:# #t1032104##k\n"/>
+				<string name="8" value="#b#i1902048:# #t1902048##k"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="28">
+			<string name="title" value="[Competitive Content]\nGhost Ship (Lv. 120 - 159)"/>
+			<string name="message" value="Let an intense battle unfold at the Ghost Ship!"/>
+			<int name="npc" value="2060103"/>
+			<imgdir name="desc">
+				<string name="0" value="Participate in #b#eParty vs. Party Raid#n#k where two parties enter and the #bparty that defeats the boss first#k wins."/>
+				<string name="1" value="\n#e-Participation Condition#n: 3-Person Party comprised of Lv. 120 - 159 characters"/>
+				<string name="2" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="3" value="\n#e-Final Reward#n"/>
+				<string name="4" value="#b#i1102227# #t1102227##k\n"/>
+				<string name="5" value="Can be obtained from Ghost Ship Captain\n"/>
+				<string name="6" value="(100 #t4001533# items,\n#t1102227# needed)\"/>
+				<string name="7" value="#b#i1082400# #t1082400##k\n#r(100 #t4001533# items needed)"/>
+				<string name="8" value="\n#eWhat is Ghost Ship?#n"/>
+				<string name="9" value="Ghost Ship is a 3-on-3 competitive mode."/>
+				<string name="10" value="The team that defeats the boss within the time limit wins"/>
+				<string name="11" value="\n#eHow Do I Start?#n"/>
+				<string name="12" value="To start Ghost Ship, you must first do the &quot;Rumor on the Sea of Fog&quot; quest from &quot;Captain Hwang&quot; in Herb Town."/>
+				<string name="13" value="#fEtc/LevelUpGuide.img/Image/29_0#"/>
+				<string name="14" value="Once you complete the quest, go to the Ghost Ship and the Sea of Fog through the Dimensional Mirror in each town or through the &quot;Dolphin Taxi&quot; in Herb Town."/>
+				<string name="15" value="#fEtc/LevelUpGuide.img/Image/29_1#"/>
+				<string name="16" value="\n#eCreate a Party!#n"/>
+				<string name="17" value="Ghost Ship can only be done when in a party. Click the Party Search, hotkey (O), or recruit players in the same channel to create a party."/>
+				<string name="18" value="\n#eBout on the Ghost Ship!#n"/>
+				<string name="19" value="Once the party has been formed, you can officially begin the bout at Ghost Ship. Once the party leader talk to Norrington to create a room and the opposing team is set, the game begins."/>
+				<string name="20" value="Including the final fight with Ghost Ship, there are a total of 6 stages. Cooperate with party members to clear the stages quickly. The team that defeats the Ghost Ship Captain first wins."/>
+				<string name="21" value="#fEtc/LevelUpGuide.img/Image/29_2#"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="29">
+			<string name="title" value="[Boss Content]\nVon Leon the Lion King (Lv. 120 - 200)"/>
+			<string name="message" value="Defeat Von Leon the Lion King!"/>
+			<int name="npc" value="2161000"/>
+			<int name="naviField" value="211060000"/>
+			<imgdir name="desc">
+				<string name="0" value="Von Leon the Lion King, who sold his soul to the Black Mage to seek revenge, has returned. Defeat Von Leon!"/>
+				<string name="1" value="\n#e-Expedition Participation Condition#n: Lv. 120 - 200"/>
+				<string name="2" value="\n#e-Party Size#n: Von Leon Expedition of at least 1 player"/>
+				<string name="3" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="4" value="Go to Lion King's Castle from El Nath"/>
+				<string name="5" value="\n#e-Final Reward#n"/>
+				<string name="6" value="Von Leon item set"/>
+			</imgdir>
+			<int name="npcScale" value="80"/>
+			<int name="addNpcY" value="10"/>
+		</imgdir>
+		<imgdir name="30">
+			<string name="title" value="[Boss Content]\nPianus (Lv. 120 - 200)"/>
+			<string name="message" value="Defeat Pianus deep beneath the ocean!"/>
+			<int name="npc" value="2060101"/>
+			<imgdir name="desc">
+				<string name="0" value="In the Aquarium Deep Sea, a trapped monster named Pianus is terrorizing the locals. Defeat Pianus."/>
+				<string name="1" value="\n#e-Expedition Participation Condition#n: Lv. 120 - 200"/>
+				<string name="2" value="\n#e-Players#n : Von Leon Expedition of 1 or more players"/>
+				<string name="3" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="4" value="Inside The Dangerous Cave at Deep Sea"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="31">
+			<string name="title" value="[Boss Content]\nHorntail (Lv. 110 - 200)"/>
+			<string name="message" value="Defeat Horntail, the traitor of the dragon race!"/>
+			<int name="npc" value="2081006"/>
+			<imgdir name="desc">
+				<string name="0" value="Defeat Horntail, the dragon traitor living in Minar Forest, and obtain the Nine Spirit's Egg."/>
+				<string name="1" value="\n#e-Expedition Participation Condition#n"/>
+				<string name="2" value="1) Normal Mode: Lv. 80+"/>
+				<string name="3" value="2) Chaos Mode: Lv. 110+"/>
+				<string name="4" value="\n#e-Number of Participants#n: Horntail Expedition, Chaos Horntail Expedition"/>
+				<string name="5" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="6" value="Below the Dangerous Nest, Cave of Life"/>
+				<string name="7" value="\n#e-Final Reward#n"/>
+				<string name="8" value="#i1122000# #t1122000#"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="32">
+			<string name="title" value="[Theme Dungeon]\nNeo City (Lv. 125 - 135)"/>
+			<string name="message" value="Help Andy in fixing the distorted time!"/>
+			<int name="npc" value="2082004"/>
+			<imgdir name="desc">
+				<string name="0" value="Andy the time traveler has come from the year 2503 to fix the past. Yet his time travel has failed and he has fallen into Minar Forest. Help Andy however you can."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 125 - 135"/>
+				<string name="2" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="3" value="Walk east from Leafre"/>
+				<string name="4" value="\n#e-Final Reward#n"/>
+				<string name="5" value="#i1003039##t1003039#"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="33">
+			<string name="title" value="[Boss Content]\nPapulatus (Lv. 130 - 200)"/>
+			<string name="message" value="Defeat Papulatus!"/>
+			<int name="npc" value="2041023"/>
+			<imgdir name="desc">
+				<string name="0" value="A hole in time has appeared deep inside the Ludibrium Clocktower. This is the perfect opportunity to eliminate the monster from another world, Papulatus!"/>
+				<string name="1" value="\n#e-Expedition Participation Condition#n: Lv. 130 - 200"/>
+				<string name="2" value="\n#e-Number of Participants#n: Solo, or party"/>
+				<string name="3" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="4" value="Deep Inside the Clocktower"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="34">
+			<string name="title" value="[Monster Park]\nAuto Security Area (Lv. 135 - 144)"/>
+			<string name="message" value="Defeat the monsters in the Monster Park!"/>
+			<int name="npc" value="9071000"/>
+			<imgdir name="desc">
+				<string name="0" value="#e-Recommended Level#n: Lv. 135 - 144, have Monster Park Ticket"/>
+				<string name="1" value="#e-Getting There#n: Monster Park Shuttle in each town or use the Move Quickly menu"/>
+				<string name="2" value="\n#e-Final Reward#n"/>
+				<string name="3" value="Spiegelmann's Badge Chest (30 Monster Park Commemorative Coins needed)"/>
+				<string name="4" value="Spiegelmann's Mustache (50 Monster Park Commemorative Coins needed)"/>
+				<string name="5" value="Spiegelmann's Autograph (100 Monster Park Commemorative Coins needed)"/>
+				<string name="6" value="Spiegelmann's Hot-Air Balloon 7-Day Coupon (70 Monster Park Commemorative Coins needed)"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="35">
+			<string name="title" value="[Chain Quest]\nSilent Crusade (Lv. 75 - 160)"/>
+			<string name="message" value="The Silent Crusade Challenge awaits!"/>
+			<int name="npc" value="9073000"/>
+			<imgdir name="desc">
+				<string name="0" value="#bStarling#k has sent a call for emergency aid after being attacked by a Black Wing Henchman. Rush to #bKerning City Subway#k to help her."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 75 - 160"/>
+				<string name="2" value="\n#e- Starting Out#n: "/>
+				<string name="3" value="After answering the emergency call, move to the Kerning City Subway Ticketing Booth\n#b&quot;Subway Construction Site&quot;#k"/>
+				<string name="4" value="\n#eChapter 1: Qualification#n"/>
+				<string name="5" value="- Eliminate Timer (Lv. 75)"/>
+				<string name="6" value="- Eliminate Zeno (Lv. 78)"/>
+				<string name="7" value="- Eliminate Deo (Lv. 80)"/>
+				<string name="8" value="- Eliminate Master Dummy (Lv. 86)"/>
+				<string name="9" value="- Eliminate Deet and Roi (Lv. 96)"/>
+				<string name="10" value="\n\n#eChapter 2: Test of Skill#n"/>
+				<string name="11" value="- Eliminate King Centipede (Lv. 100)"/>
+				<string name="12" value="- Eliminate Master Hoblin (Lv. 106)"/>
+				<string name="13" value="- Eliminate Master Harp (Lv. 113)"/>
+				<string name="14" value="- Eliminate Master Birk (Lv. 117)"/>
+				<string name="15" value="- Eliminate King Kentaurus (Lv. 119)"/>
+				<string name="16" value="\n#eChapter 3: The Long Road#n"/>
+				<string name="17" value="- Eliminate Chimera (Lv. 120)"/>
+				<string name="18" value="- Eliminate Manon (Lv. 125)"/>
+				<string name="19" value="- Eliminate Griffey (Lv. 130)"/>
+				<string name="20" value="- Eliminate Papulatus (Lv. 135)"/>
+				<string name="21" value="- Eliminate Riche (Lv. 140)"/>
+				<string name="22" value="\n\n\n#eChapter 4: The Hunter#n"/>
+				<string name="23" value="- Eliminate Pianus (Lv. 140)"/>
+				<string name="24" value="- Eliminate Leviathan (Lv. 145)"/>
+				<string name="25" value="- Eliminate Dodo (Lv. 150)"/>
+				<string name="26" value="- Eliminate Lilynouch (Lv. 155)"/>
+				<string name="27" value="- Eliminate Lyka (Lv. 160)"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="36">
+			<string name="title" value="[Battle Content]\nMu Lung Dojo (Lv. 90 - 200)"/>
+			<string name="message" value="Would you like to test your skills?"/>
+			<int name="npc" value="2091005"/>
+			<int name="naviField" value="250000100"/>
+			<imgdir name="desc">
+				<string name="0" value="Ready for a challenge? Want to see how strong you REALLY are? Then go talk to #bSo Gong#k in #bMu Lung Dojo#k."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 90 - 200"/>
+				<string name="2" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="3" value="Dimensional Mirror in Each Town"/>
+				<string name="4" value="\n#e&lt;Hard Mode Rewards&gt;#b#n"/>
+				<string name="5" value="SS Rank: #i1022135:# #t1022135#"/>
+				<string name="6" value="S Rank: #i1022136:# #t1022135#"/>
+				<string name="7" value="A Rank: #i2022957:# #t2022957#"/>
+				<string name="8" value="B Rank: #i2001505:# #t2001505#"/>
+				<string name="9" value="\n\n#e&lt;Ranked Mode Rewards&gt;#b#n"/>
+				<string name="10" value="1st Place: #i1082392:# #t1082392#"/>
+				<string name="11" value="2nd Place: #i1082393:# #t1082393#"/>
+				<string name="12" value="3rd Place: #i1082394:# #t1082394#"/>
+				<string name="13" value="\n#e&lt;Mu Gong's Emblem Rewards&gt;#b#n"/>
+				<string name="14" value="#i1132112:# #t1132112# #r(#t4001620# x 25 required)#b"/>
+				<string name="15" value="#i1132113:# #t1132113# #r(#t4001620# x 50 required)#b"/>
+				<string name="16" value="#i1132114:# #t1132114# #r(#t4001620# x 100 required)#b"/>
+				<string name="17" value="#i1132115:# #t1132115# #r(#t4001620# x 125 required)#b"/>
+				<string name="18" value="\n#eWhat is Mu Lung Dojo?"/>
+				<string name="19" value="Want to see how strong you REALLY are? Tnen head to the Mu Lung Dojo to test your skills in challenges that'll pit you against different boss monsters!"/>
+				<string name="20" value="\n#eHow to Start:"/>
+				<string name="21" value="Mu Lung Dojo is located in Mu Lung Temple. To enter the dojo, use the Mu Lung Dojo Board at Mu Lung Temple or the Dimensional Mirror located in each town."/>
+				<string name="22" value="\n#eSo Gong's Test"/>
+				<string name="23" value="To begin your challenges in Mu Lung Dojo, you must first fight the guard of the dojo, So Gong. Once you beat him, you can officially start the dojo's real challenges."/>
+				<string name="24" value="\n#eChallenge! Mu Lung Dojo"/>
+				<string name="25" value="Mu Lung Dojo has 3 difficulties: Normal, Hard, and Ranked Mode. You can enter Normal Mode at Lv. 90, Hard Mode at Lv. 120, and Ranked Mode at Lv. 130. "/>
+				<string name="26" value="In Hard Mode, you can accumulate Mu Lung Points based on your performance. Your rank will be determined based on the number of points you've earned in a week, and you'll get special rewards based on this rank."/>
+				<string name="27" value="\n#eCharacteristics of Mu Lung Dojo"/>
+				<string name="28" value="1.  You can only use potions exclusive to Mu Lung Dojo."/>
+				<string name="29" value="You cannot use regular potions in Mu Lung Dojo. As you eliminate monsters in the dojo, they'll drop potions. The effects of these potions kick in the moment you grab them, so pick them up strategically. "/>
+				<string name="30" value="\n2. You'll get a buff each time you eliminate a boss monster."/>
+				<string name="31" value="Once you eliminate a boss monster, 10 different buff items will drop. You can only select one, which will activate immediately. The rest will disappear."/>
+				<string name="32" value="\n3. Eat my special skill!"/>
+				<string name="33" value="There are three different kinds of special skills you can use in the dojo. Just fill up the Kill Gauge at the top left, then enter the command of the skill you want to use."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="37">
+			<string name="title" value="[Theme Dungeon]\nGolden Temple (Lv. 115 - 125)"/>
+			<string name="message" value="Save the Golden Temple before it's too late!"/>
+			<int name="npc" value="9000074"/>
+			<imgdir name="desc">
+				<string name="0" value="The Golden Temple has been overrun by crazy monkeys! Worse, the monks that guard the temple have started to disappear, one by one. Head to the temple and save it before it's too late!"/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 115 - 125"/>
+				<string name="2" value="\n#e-How to Get There#n"/>
+				<string name="3" value="Upon starting the &quot;Noi the Monk's Plea&quot; quest, \nuse a Dimensional Mirror or the Crane (Taxi) in Mu Lung Temple."/>
+				<string name="4" value="\n#e-Final Reward#n"/>
+				<string name="5" value="#i1003455:# #t1003455#"/>
+				<string name="6" value="#i1142385:# #t1142385#"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="38">
+			<string name="title" value="[Theme Dungeon]\nFantasy Theme World (Lv. 120 - 130)"/>
+			<string name="message" value="Unearth the secrets of Fantasy Theme World."/>
+			<int name="npc" value="2190001"/>
+			<imgdir name="desc">
+				<string name="0" value="Fantasy Theme World, the latest in Madame Ming's highly-successful line of amusement parks, has officially opened its doors! You'll laugh, you'll cry, you may even wet your pants! Don't miss out on the fun!"/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 120 - 130"/>
+				<string name="2" value="\n#e-How to Get There#n"/>
+				<string name="3" value="Use the cable car to the east of Ludibrium\nafter beginning the &quot;Awkward Celebration&quot; quest."/>
+				<string name="4" value="#fEtc/LevelUpGuide.img/Image/39_0#"/>
+				<string name="5" value="\n#e-Final Reward#n"/>
+				<string name="6" value="#i1142409:# #t1142409#"/>
+				<string name="7" value="(Can be obtained after completing the following quests: &quot;Enjoying the Big 3&quot;, &quot;Open Event: Treasure Hunt&quot;, &quot;Dangerous Performance&quot;, &quot;Graffiti Absolutely Forbidden!&quot;)"/>
+				<string name="8" value="#i1082431:# #t1082431#"/>
+				<string name="9" value="#i1003534:# #t1003534#"/>
+				<string name="10" value="#i1003535:# #t1003535#"/>
+				<string name="11" value="(Can be obtained from #o8145100#, #o8145200#)"/>
+				<string name="12" value="\n#e- Fantasy Theme World?#n"/>
+				<string name="13" value="Fantasy Theme World is broken up into three stations: #e&lt;Funky&gt;, &lt;Extreme&gt;, and &lt;Fantasy&gt;#n. "/>
+				<string name="14" value="#fEtc/LevelUpGuide.img/Image/39_1#"/>
+				<string name="15" value="\n#e★Big3?#n"/>
+				<string name="16" value="Each station has its own main attraction."/>
+				<string name="17" value="The #e&lt;Ghostacular Mansion&gt;#n#k is the star of Funky Station. You'll find thrills and chills as you face a host of spooky ghosts and ghoulish beasts ready to knock your socks off!"/>
+				<string name="18" value="#fEtc/LevelUpGuide.img/Image/39_2#"/>
+				<string name="19" value="The #e&lt;Gyro Drop&gt;#n#k is the star of Extreme Station. Do you have the guts to drop from the top? The kids love this one!"/>
+				<string name="20" value="#fEtc/LevelUpGuide.img/Image/39_3#"/>
+				<string name="21" value="The #e&lt;Viking&gt;#n#k is the star of Fantasy Station. Relive the excitement of the majestic Nordic warriors in a fun and safe environment!"/>
+				<string name="22" value="#fEtc/LevelUpGuide.img/Image/39_4#"/>
+				<string name="23" value="\n\n    "/>
+				<string name="24" value="\n#e- Ursa Awesome Show?#n"/>
+				<string name="25" value="Complete the rest of the park to get inside the Fantasy Crittertorium, home of the ultimate bear show! Inside, you'll face off with the mighty #eTarga#n and #eScarboss#n, and gain access to unique Fantasy Theme World items! "/>
+				<string name="26" value="#fEtc/LevelUpGuide.img/Image/39_5#"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="39">
+			<string name="title" value="[Boss Content]\nEmpress Cygnus (Lv. 170 - 200)"/>
+			<string name="message" value="Defeat Empress Cygnus!"/>
+			<int name="npc" value="2143004"/>
+			<int name="naviField" value="271040000"/>
+			<imgdir name="desc">
+				<string name="0" value="The corrupted Cygnus Knights have turned Ereve into a Black Mage Stronghold. You're not sure who's side you're on anymore, but there's only one thing left to do!"/>
+				<string name="1" value="\n#e-Expedition Participation Condition#n: Lv. 170 - 200"/>
+				<string name="2" value="\n#e-Participants#n : Cygnus Expedition of 3 - 18 members"/>
+				<string name="3" value="#fEtc/LevelUpGuide.img/Image/40_3#"/>
+				<string name="4" value="#e-Final Reward#n : Lv. 140 Weapon"/>
+				<string name="5" value="#i1302152:##i1332130:##i1372084:##i1382104:##i1402095:##i1432086:##i1442116:##i1452111:##i1462099:##i1472122:##i1482084:##i1492085:##i1522018:##i1532018:##i1362019:##i1312065:##i1322096:##i1342036:##i1412065:##i1422066:#"/>
+				<string name="6" value="\n#e-Getting There $LVUPNVBT$#n"/>
+				<string name="7" value="Temple of Time, Gate to the Future, Cygnus's Chamber"/>
+				<string name="8" value="#fEtc/LevelUpGuide.img/Image/40_0#"/>
+				<string name="9" value="\n#eHow Do I Start?#n"/>
+				<string name="10" value="Move to the Gate to the Future from the Temple of Time. Form an Expedition from Cygnus Garden to enter."/>
+				<string name="11" value="\n#e- Requirements to Enter#n"/>
+				<string name="12" value="You can only move to Cygnus's Chamber from channel 13."/>
+				<string name="13" value="You can only enter twice in one day"/>
+				<string name="14" value="\n#e- Battle with Empress Cygnus!#n"/>
+				<string name="15" value="Empress Cygnus is summoning hordes of corrupted knights, but the pentacle is protecting her! You must attack when the pentacle's magic weakens!"/>
+				<string name="16" value="#fEtc/LevelUpGuide.img/Image/40_2#"/>
+				<string name="17" value="#bTIP: Stop attacking immediately when the damage reflect spell activates."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="40">
+			<string name="title" value="[Boss Content]\nHilla (Lv. 120 - 200)"/>
+			<string name="message" value="Defeat Hilla!"/>
+			<int name="npc" value="2184000"/>
+			<int name="naviField" value="262000000"/>
+			<imgdir name="desc">
+				<string name="0" value="Defeat Hilla, the shamaness obsessed with youth and beauty, to free the lost souls of Azwan from her tyrannical reign!"/>
+				<string name="1" value="\n#e-Expedition Participation Condition#n"/>
+				<string name="2" value="Normal Mode&gt; Lv. 120 or higher"/>
+				<string name="3" value="Hard Mode&gt; Lv. 170 or higher"/>
+				<string name="4" value="\n#e-Party Size#n: Hilla Expedition of at least 1 player"/>
+				<string name="5" value="#fEtc/LevelUpGuide.img/Image/41_0#"/>
+				<string name="6" value="\n#e-Final Reward#n"/>
+				<string name="7" value="Normal Mode&gt;"/>
+				<string name="8" value="20 Necromancer Weapons"/>
+				<string name="9" value="#i1162009:# #i5000217:# #i1802354:#"/>
+				<string name="10" value="Hard Mode&gt;"/>
+				<string name="11" value="20 Necromancer Weapons, Necromancer Weapon Scroll"/>
+				<string name="12" value="#i1032136:# #i1162009:# #i5000217:# #i1802354:#"/>
+				<string name="13" value="\n#e-How to Get There#n"/>
+				<string name="14" value="Take the eastern portal from Nihal Desert, Azwan, and Azwan Refugee Zone to enter."/>
+				<string name="15" value="You can enter through the Dimensional Mirror"/>
+				<string name="16" value="#fEtc/LevelUpGuide.img/Image/41_1#"/>
+				<string name="17" value="\n#eHow Do I Start?#n"/>
+				<string name="18" value="Talk to Medina once you form an Expedition. Go through Hilla Tower Entrance to the Azwan Refugee Zone."/>
+				<string name="19" value="You can choose between Normal and Hard Mode when you enter."/>
+				<string name="20" value="\n#e- Requirements to Enter#n"/>
+				<string name="21" value="You can only enter twice in one day"/>
+				<string name="22" value="#fEtc/LevelUpGuide.img/Image/41_2#"/>
+				<string name="23" value="\n#e- Battle with Hilla!#n"/>
+				<string name="24" value="Hilla will grow stronger every time someone in the Expedition dies. If your Expedition members fall 15 times, Hilla will become too strong to fight and you will have to flee."/>
+				<string name="25" value="#fEtc/LevelUpGuide.img/Image/41_4#"/>
+				<string name="26" value="Hilla's black magic can summon stone statues that will capture any nearby warriors. Destroy them to free the captives!"/>
+				<string name="27" value="#fEtc/LevelUpGuide.img/Image/41_3#"/>
+				<string name="28" value="Hilla can sacrifice a member of your Expedition to recover her HP. Make sure to save your friends if you see them being targetted!"/>
+				<string name="29" value="#fEtc/LevelUpGuide.img/Image/41_7#"/>
+				<string name="30" value="Medina will appear and use her protective magic to protect the Expedition."/>
+				<string name="31" value="#fEtc/LevelUpGuide.img/Image/41_5#"/>
+				<string name="32" value="Hilla will visibly age as her magic weakens. Take advantage and put her down!"/>
+				<string name="33" value="#fEtc/LevelUpGuide.img/Image/41_6#"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="41">
+			<string name="title" value="[Theme Dungeon]\nOf Sun and Sand (Lv. 40 - 45)"/>
+			<string name="message" value="Gold Beach is covered in goo!"/>
+			<int name="npc" value="1082100"/>
+			<int name="naviField" value="120040000"/>
+			<imgdir name="desc">
+				<string name="0" value="An exclusive invitation to get a sneak peek at Gold Richie's newest resort before it opens to the public! Check out Gold Beach today!"/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 40 - 45"/>
+				<string name="2" value="\n#e-Route #n"/>
+				<string name="3" value="Talk to Pilot Irvin at the #m104020000#"/>
+				<string name="4" value="\n#e-Players#n : Hilla Expedition of 1 or more players"/>
+				<string name="5" value="\n#e-Final Reward#n"/>
+				<string name="6" value="#i1142551##t1142551#"/>
+				<string name="7" value="#i1012346##t1012346#"/>
+				<string name="8" value="\n#eHow to Start:"/>
+				<string name="9" value="Wait until you receive the quest, A Golden Opportunity, from Gold Richie. "/>
+				<string name="10" value="#b(Accept Gold Richie's invitation and visit Gold Beach Resort.)"/>
+				<string name="11" value="#eHow to Clear!"/>
+				<string name="12" value="Talk to Irvin in Gold Beach to start the quest."/>
+				<string name="13" value="\nOnce you complete all the quests, you will face off against the nefarious Captain Darkgoo!"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="42">
+			<string name="title" value="[Party Quest]\nCooking with Tangyoon (Lv. 60 - 90)"/>
+			<string name="message" value="Nothing but the finest dishes for the Nautilus crew!"/>
+			<int name="npc" value="1092000"/>
+			<imgdir name="desc">
+				<string name="0" value="If you have passion for making delicious food, take the #bDimensional Mirror#k to Tangyoon's."/>
+				<string name="1" value="\n1. Prepare your ingredients."/>
+				<string name="2" value="2. Control the heat and keep your food from burning by eliminating Tasteburners."/>
+				<string name="3" value="3. Add the right spices to give your food some kick."/>
+				<string name="4" value="\n#e-Time Limit#n: 30 min"/>
+				<string name="5" value="\n#e-Number of Participants#n: 1 - 4 players"/>
+				<string name="6" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="7" value="\n#e-Special Reward#n: "/>
+				<string name="8" value="#b#i1003762:# #t1003762##k\n"/>
+				<string name="9" value="#b#i1052578:# #t1052578##k\n"/>
+				<string name="10" value="#b#i1142589:# #t1142589##k\n"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="43">
+			<string name="title" value="[Theme Dungeon]\nCrimsonwood Keep (Lv. 130 - 140)"/>
+			<string name="message" value="Masteria the Forgotten"/>
+			<int name="npc" value="2134012"/>
+			<int name="naviField" value="301000000"/>
+			<imgdir name="desc">
+				<string name="0" value="Grendel the Really Old has word from Masteria... what's going on there?"/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 130 - 140"/>
+				<string name="2" value="\n#e-Route #n"/>
+				<string name="3" value="Progress to the quest, To Grendel the Really Old's Library"/>
+				<string name="4" value="\n#e-Getting There#n: Dimensional Mirror in each town"/>
+				<string name="5" value="\n#e-Final Reward#n"/>
+				<string name="6" value="#i1142619##t1142619#"/>
+				<string name="7" value="\n#eHow to Start:"/>
+				<string name="8" value="Accept the quest, Reading With Grendel."/>
+				<string name="9" value="#b(Meet Grendel the Really Old in the Ellinia Magic Library.)"/>
+				<string name="10" value="#eHow to Clear!"/>
+				<string name="11" value="Take the Dimensional Mirror to Crimsonwood to start the Masteria quest line."/>
+				<string name="12" value="\nComplete all quests and rescue the imprisoned Demons."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="44">
+			<string name="title" value="[Theme Dungeon]\nStone Colossus (Lv. 150 - 160)"/>
+			<string name="message" value="The Stone Colossus has appeared in South Minar Forest!"/>
+			<int name="npc" value="2081000"/>
+			<int name="naviField" value="240090000"/>
+			<imgdir name="desc">
+				<string name="0" value="The Minar Forest is home to a giant... but where did it come from?"/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 150 - 160"/>
+				<string name="2" value="\n#e-Route #n"/>
+				<string name="3" value="Take the #m240010400# in Minar Forest to the Colossus."/>
+				<string name="4" value="A Giant of a Rumor"/>
+				<string name="5" value="\n#e-Final Reward#n"/>
+				<string name="6" value="#i1142618##t1142618#"/>
+				<string name="7" value="#i2550014##t2550014#"/>
+				<string name="8" value="#i2431745##t2431745#"/>
+				<string name="9" value="\n#eHow to Start:"/>
+				<string name="10" value="Accept the quest, A Giant of a Rumor. "/>
+				<string name="11" value="#b(There's talk of a giant rock man. Talk to Chief Tatamo in Leafre.)"/>
+				<string name="12" value="#eHow to Clear!"/>
+				<string name="13" value="Discover the truth behind the Stone Colossus in Minar Forest."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="45">
+			<string name="title" value="[Theme Dungeon]\nEllinel Fairy Academy (Lv. 30 - 40)"/>
+			<string name="message" value="Help out the Ellinel Fairy Academy!"/>
+			<int name="npc" value="1500011"/>
+			<int name="naviField" value="101030000"/>
+			<imgdir name="desc">
+				<string name="0" value="Something strange is going on at the Ellinel Fairy Academy in Ellinia."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 30 - 40"/>
+				<string name="2" value="\n#e-Route #n"/>
+				<string name="3" value="Warp to Ellinel from the portal in the bottom left corner of #m101030000#'s North Forest."/>
+				<string name="4" value="[Ellinel Fairy Academy] Fairynapped!"/>
+				<string name="5" value="\n#e-Final Reward#n"/>
+				<string name="6" value="#i1102590##t1102590#"/>
+				<string name="7" value="#i1082533##t1082533#"/>
+				<string name="8" value="#i2047954##t2047954#"/>
+				<string name="9" value="\n#eHow to Start:"/>
+				<string name="10" value="Accept the quest from a Job Instructor or Fanzy."/>
+				<string name="11" value="#b(Meet with Fanzy, then go to Ellinel. )"/>
+				<string name="12" value="#eHow to Clear!"/>
+				<string name="13" value="Go take care of some business at the Ellinel Fairy Academy. "/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="46">
+			<string name="title" value="[Theme Dungeon]\nEllinel Fairy Academy (Lv. 30 - 40)"/>
+			<string name="message" value="Help out the Ellinel Fairy Academy!"/>
+			<int name="npc" value="1510009"/>
+			<imgdir name="desc">
+				<string name="0" value="Something strange is going on at the Ellinel Fairy Academy in Ellinia."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 30 - 40"/>
+				<string name="2" value="\n#e-Route #n"/>
+				<string name="3" value="Warp to Ellinel from the portal in the bottom left corner of #m101030000#'s North Forest."/>
+				<string name="4" value="[Ellinel Fairy Academy] Fairynapped!"/>
+				<string name="5" value="\n#e-Final Reward#n"/>
+				<string name="6" value="#i1102590##t1102590#"/>
+				<string name="7" value="#i1082533##t1082533#"/>
+				<string name="9" value="\n#eHow to Start:"/>
+				<string name="10" value="Accept the quest from a Job Instructor or Fanzy."/>
+				<string name="11" value="#b(Meet with Fanzy, then go to Ellinel. )"/>
+				<string name="12" value="#eHow to Clear:"/>
+				<string name="13" value="Go take care of some business at the Ellinel Fairy Academy. "/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="47">
+			<string name="title" value="[Party Quest]\nCrimsonheart Altar (Lv. 130 - 150)"/>
+			<string name="message" value="Untwisting the Masters"/>
+			<int name="npc" value="2135017"/>
+			<imgdir name="desc">
+				<string name="0" value="You must return to #b#m930100000##k with the legendary weapons after you defeat the #rTwisted Masters#k of #bTynerum#k! Take the #bDimensional Mirror#k to Crimsonheart Castle and head to Crimsonheart Altar."/>
+				<string name="1" value="\nStage 1: Activate the portal of the Twisted Masters"/>
+				<string name="2" value="Stage 2: Evade the obstacles and activate all portals"/>
+				<string name="3" value="Stage 3: Defeat the Twisted Masters and return the legendary weapons to the altar"/>
+				<string name="4" value="Stage 4: Accept your reward and enter the bonus stage"/>
+				<string name="5" value="\n#e-Time Limit#n: 30 min"/>
+				<string name="6" value="\n#e-Party Size#n: 3 - 5 players"/>
+				<string name="7" value="\n#e-Route#n: Take the Dimensional Mirror to Crimsonheart Castle, then move to #m930100000#."/>
+				<string name="8" value="\n#e-Special Reward#n: "/>
+				<string name="9" value=" #b#i1152135:# #t1152135# #k"/>
+			</imgdir>
+			<int name="npcScale" value="55"/>
+			<int name="addNpcY" value="36"/>
+		</imgdir>
+		<imgdir name="48">
+			<string name="title" value="[Competition]\nAriant Coliseum (Lv.50-80)"/>
+			<string name="message" value="Compete against other players at the coliseum!"/>
+			<int name="npc" value="2101014"/>
+			<imgdir name="desc">
+				<string name="0" value="2-6 players must be present to #breduce the monster's HP and use the #t2270002##k to absorb its power."/>
+				<string name="1" value="\n#e-Required Level#n: Lv. 50 - 80"/>
+				<string name="2" value="\n#e-Route#n: Take the Dimensional Mirror from any town"/>
+				<string name="3" value="\n#e-Final Reward#n"/>
+				<string name="4" value="#b#i1113048# #t1113048##k\n"/>
+				<string name="5" value="Obtain from Abdullah VIII or Cesar in the Party Quest wait map\n"/>
+				<string name="6" value="#b(A coliseum score of 150 is needed)"/>
+				<string name="7" value="\n#eAriant Coliseum#n"/>
+				<string name="8" value="A group of 2-6 players will have to capture monsters in the Ariant Coliseum."/>
+				<string name="9" value="Whoever obtains the most Spirit Jewels within the time limit will win the match."/>
+				<string name="10" value="\n#eHow to Start:#n"/>
+				<string name="11" value="Talk to Cesar in the Party Quest waiting map."/>
+				<string name="12" value="\n#eAriant Coliseum#n"/>
+				<string name="13" value="You will be able to compete against other players once you join the waiting list."/>
+				<string name="14" value="Whoever obtains the most Spirit Jewels within the time limit will win the match. Stop other players from collecting jewels to take the lead!"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="49">
+			<string name="title" value="[Theme Dungeon]\nRiena Strait (Lv. 50 - 70)"/>
+			<int name="npc" value="9270039"/>
+			<imgdir name="desc">
+				<string name="0" value="Find out why the people of Riena have formed an alliance against the Frostwitch."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 50 - 70"/>
+				<string name="2" value="\n#e-Route #n"/>
+				<string name="3" value="Talk to Puro the Penguin at Lith Harbor to go to Rien."/>
+				<string name="4" value="Get it Strait"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="51">
+			<string name="title" value="Singapore Ghost Ship (Lv. 145 - 155) "/>
+			<int name="npc" value="9270030"/>
+			<imgdir name="desc">
+				<string name="0" value="A mysterious ship has taken up anchor just offshore of Boat Quay Town, and it's believed to be haunted. Only #b#p9270030##k knows what's really going on, but you'll have to help convince him he hasn't gone mad before he can help."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 145 - 155"/>
+				<string name="2" value="\n#e-Route#n"/>
+				<string name="3" value="1) Talk to #b#p9270030##k in #bBoat Quay Town#k"/>
+				<string name="4" value="2) Accept the quest, 'Ghosts of the Past'"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="52">
+			<string name="title" value="Singapore Ulu City (Lv. 150 - 165) "/>
+			<int name="npc" value="9270030"/>
+			<imgdir name="desc">
+				<string name="0" value="The evil Captain Latanica is terrorizing Ulu City with an ancient evil ghost. But when an evil ghost comes haunting, who ya gonna call? #b#p9270044##k and the Ulu Patrol Squad!"/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 150 - 165"/>
+				<string name="2" value="\n#e-Route#n"/>
+				<string name="3" value="1) Talk to #b#p9270030##k in #bBoat Quay Town#k"/>
+				<string name="4" value="2) Accept the quest, 'Entering Ulu City'"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="53">
+			<string name="title" value="Trend Zone Metropolis (Lv. 120 - 145) "/>
+			<int name="npc" value="9270061"/>
+			<imgdir name="desc">
+				<string name="0" value="Malaysia's feeling the heat! Between a nonstop heat wave and a series of attacks at the ever-popular Fantasy Theme Park, the people of Malaysia could use your help."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 120 - 145"/>
+				<string name="2" value="\n#e-Route#n"/>
+				<string name="3" value="1) Talk to #b#p9270061##k in #bTrend Zone Metropolis#k"/>
+				<string name="4" value="2) Accept the quest, 'A Bright and Sunny Day'"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="54">
+			<string name="title" value="Temple of Time (Lv. 140 - 160) "/>
+			<int name="npc" value="2140000"/>
+			<imgdir name="desc">
+				<string name="0" value="Someone has broken into the Temple of Time, and the Door to the Past is in ruins! Help the #b#p2140000##k find the culprit and protect the space-time continuum before it's too late."/>
+				<string name="1" value="\n#e-Recommended Level#n: Lv. 140 - 160"/>
+				<string name="2" value="\n#e-Route#n"/>
+				<string name="3" value="1) Talk to the #b#p2140000##k at the #bTemple of Time#k"/>
+				<string name="4" value="2) Accept the quest, 'Path to the Past'"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="Guide">
+		<imgdir name="1">
+			<imgdir name="info">
+				<string name="message" value="Welcome to Maple World!\nUse this Level-Up Guide speed up your progress!"/>
+				<int name="lvmax" value="9"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="23000"/>
+					<string name="goal" value="(Tutorial)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="22000"/>
+					<string name="goal" value="(Tutorial)"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="questId" value="21000"/>
+					<string name="goal" value="(Tutorial)"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="questId" value="1000"/>
+					<string name="goal" value="(Tutorial)"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="questId" value="20010"/>
+					<string name="goal" value="(Tutorial)"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="questId" value="24000"/>
+					<string name="goal" value="(Tutorial)"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="questId" value="2573"/>
+					<string name="goal" value="(Tutorial)"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="questId" value="25000"/>
+					<string name="goal" value="(Tutorial)"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="questId" value="2750"/>
+					<string name="goal" value="(Lv. 8) - Eliminate Giant Lupin "/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+			</imgdir>
+			<imgdir name="contents">
+			</imgdir>
+		</imgdir>
+		<imgdir name="10">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 10!\nHere is the recommended content for Lv. 10 to 19!"/>
+				<int name="lvmax" value="19"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="23010"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="21100"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="questId" value="1400"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="questId" value="22100"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="questId" value="2570"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="questId" value="25400"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="questId" value="2800"/>
+					<string name="goal" value="(Lv. 10) - Eliminate Stumpy the Ent"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="questId" value="2850"/>
+					<string name="goal" value="(Lv. 10) - Eliminate Dyle"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="questId" value="2900"/>
+					<string name="goal" value="(Lv. 10) - Eliminate King Clang"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="0"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="20">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 20!\nHere is the recommended content for Lv. 20 to 29!"/>
+				<int name="lvmax" value="29"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="2725"/>
+					<string name="goal" value="(Lv20)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="2622"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="100040100"/>
+				<int name="1" value="310030300"/>
+				<int name="2" value="310040000"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="0"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="30">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 30!\nHere is the recommended content for Lv. 30 to 34!"/>
+				<int name="lvmax" value="34"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="23020"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="21200"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="questId" value="20200"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="questId" value="1410"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="questId" value="1414"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="questId" value="1418"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="questId" value="1421"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="questId" value="1424"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="questId" value="25100"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="questId" value="22102"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="questId" value="23021"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="questId" value="23210"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="12">
+					<int name="questId" value="24010"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="13">
+					<int name="questId" value="1427"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="14">
+					<int name="questId" value="23022"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="15">
+					<int name="questId" value="2087"/>
+					<string name="goal" value="(Lv 30)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="1"/>
+				<int name="1" value="45"/>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="103020000"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="35">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 35!\nHere is the recommended content for Lv. 35 to 39!"/>
+				<int name="lvmax" value="39"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="2650"/>
+					<string name="goal" value="(Lv. 35) - Eliminate Spirit of Rock"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="2"/>
+				<int name="1" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="40">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 40!\nHere is the recommended content for Lv. 40 to 44!"/>
+				<int name="lvmax" value="44"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="2096"/>
+					<string name="goal" value="(Lv 40)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="2038"/>
+					<string name="goal" value="(Lv 43)"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="questId" value="2043"/>
+					<string name="goal" value="(Lv 43)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="105020000"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="41"/>
+				<int name="1" value="1"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="45">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 45!\nHere is the recommended content for Lv. 45 to 49!"/>
+				<int name="lvmax" value="49"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="2047"/>
+					<string name="goal" value="(Lv 45)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="2235"/>
+					<string name="goal" value="(Lv 48)"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="questId" value="2641"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="105030100"/>
+				<int name="1" value="200010100"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="3"/>
+				<int name="1" value="41"/>
+				<int name="2" value="2"/>
+				<int name="3" value="8"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="50">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 50!\nHere is the recommended content for Lv. 50 to 54!"/>
+				<int name="lvmax" value="54"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3111"/>
+					<string name="goal" value="(Lv. 53) - Eliminate Eliza"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="200070000"/>
+				<int name="1" value="200010300"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="8"/>
+				<int name="1" value="6"/>
+				<int name="2" value="48"/>
+				<int name="3" value="46"/>
+				<int name="4" value="54"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="55">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 55!\nHere is the recommended content for Lv. 55 to 59!"/>
+				<int name="lvmax" value="59"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3004"/>
+					<string name="goal" value="(Lv 55)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="3184"/>
+					<string name="goal" value="(Lv 57)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="220010400"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="9"/>
+				<int name="1" value="8"/>
+				<int name="2" value="6"/>
+				<int name="3" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="60">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 60!\nHere is the recommended content for Lv. 60 to 64!"/>
+				<int name="lvmax" value="64"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3601"/>
+					<string name="goal" value="(Lv 55)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="3641"/>
+					<string name="goal" value="(Lv. 60)"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="questId" value="3256"/>
+					<string name="goal" value="(Lv 60)"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="questId" value="23030"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="questId" value="23031"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="questId" value="23032"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="questId" value="21300"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="questId" value="20300"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="questId" value="1430"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="questId" value="1434"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="questId" value="1438"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="questId" value="1441"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="12">
+					<int name="questId" value="1444"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="13">
+					<int name="questId" value="22106"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="14">
+					<int name="questId" value="24012"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="15">
+					<int name="questId" value="1448"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="16">
+					<int name="questId" value="25110"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="17">
+					<int name="questId" value="20320"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="260010700"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="11"/>
+				<int name="1" value="10"/>
+				<int name="2" value="9"/>
+				<int name="3" value="8"/>
+				<int name="5" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="65">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 65!\nHere is the recommended content for Lv. 65 to 69!"/>
+				<int name="lvmax" value="69"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3239"/>
+					<string name="goal" value="(Lv 65)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="3251"/>
+					<string name="goal" value="(Lv 65)"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="questId" value="3230"/>
+					<string name="goal" value="(Lv 68)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="260010100"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="11"/>
+				<int name="1" value="10"/>
+				<int name="2" value="9"/>
+				<int name="3" value="8"/>
+				<int name="5" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="70">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 70!\nHere is the recommended content for Lv. 70 to 74!"/>
+				<int name="lvmax" value="74"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3097"/>
+					<string name="goal" value="(Lv. 70) - Eliminate Papa Pixie"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="3430"/>
+					<string name="goal" value="(Lv 70)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="260020630"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="14"/>
+				<int name="1" value="13"/>
+				<int name="2" value="12"/>
+				<int name="3" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="75">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 75!\nHere is the recommended content for Lv. 75 to 79!"/>
+				<int name="lvmax" value="79"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3900"/>
+					<string name="goal" value="(Lv 75)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="3927"/>
+					<string name="goal" value="(Lv 75)"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="questId" value="3952"/>
+					<string name="goal" value="(Lv. 75) - Eliminate Deo"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="questId" value="3453"/>
+					<string name="goal" value="(Lv. 75) - Eliminate Zeno"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="260020620"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="17"/>
+				<int name="1" value="35"/>
+				<int name="2" value="14"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="80">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 80!\nHere is the recommended content for Lv. 80 to 84!"/>
+				<int name="lvmax" value="84"/>
+			</imgdir>
+			<imgdir name="quest">
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="250010302"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="18"/>
+				<int name="1" value="17"/>
+				<int name="2" value="35"/>
+				<int name="4" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="85">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 85!\nHere is the recommended content for Lv. 85 to 89!"/>
+				<int name="lvmax" value="89"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3835"/>
+					<string name="goal" value="(Lv. 85) - Eliminate Tae Roon"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="3300"/>
+					<string name="goal" value="(Lv 85)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="261010101"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="19"/>
+				<int name="1" value="18"/>
+				<int name="2" value="35"/>
+				<int name="4" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="90">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 90!\nHere is the recommended content for Lv. 90 to 94!"/>
+				<int name="lvmax" value="94"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3840"/>
+					<string name="goal" value="(Lv. 90) - Eliminate King Sage Cat"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="261010102"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="20"/>
+				<int name="1" value="36"/>
+				<int name="2" value="19"/>
+				<int name="3" value="35"/>
+				<int name="4" value="7"/>
+				<int name="5" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="95">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 95!\nHere is the recommended content for Lv. 95 to 99!"/>
+				<int name="lvmax" value="99"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="31200"/>
+					<string name="goal" value="(Lv. 95) - Eliminate Ephenia"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="251010401"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="21"/>
+				<int name="1" value="20"/>
+				<int name="2" value="36"/>
+				<int name="3" value="35"/>
+				<int name="4" value="7"/>
+				<int name="5" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="100">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 100!\nHere is the recommended content for Lv. 100 to 104!"/>
+				<int name="lvmax" value="104"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3851"/>
+					<string name="goal" value="(Lv 100)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="23040"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="questId" value="23041"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="questId" value="23042"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="4">
+					<int name="questId" value="21400"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="5">
+					<int name="questId" value="1450"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="6">
+					<int name="questId" value="1452"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="7">
+					<int name="questId" value="1454"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="8">
+					<int name="questId" value="1456"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="9">
+					<int name="questId" value="1458"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="10">
+					<int name="questId" value="20400"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="11">
+					<int name="questId" value="23215"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="12">
+					<int name="questId" value="24013"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="13">
+					<int name="questId" value="25120"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="14">
+					<int name="questId" value="20410"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="251010403"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="22"/>
+				<int name="1" value="21"/>
+				<int name="2" value="20"/>
+				<int name="3" value="36"/>
+				<int name="4" value="35"/>
+				<int name="5" value="15"/>
+				<int name="6" value="50"/>
+				<int name="7" value="7"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="105">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 105!\nHere is the recommended content for Lv. 105 to 109!"/>
+				<int name="lvmax" value="109"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3702"/>
+					<string name="goal" value="(Lv 105)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="220070200"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="22"/>
+				<int name="1" value="21"/>
+				<int name="2" value="20"/>
+				<int name="3" value="36"/>
+				<int name="4" value="35"/>
+				<int name="5" value="16"/>
+				<int name="6" value="15"/>
+				<int name="7" value="7"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="110">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 110!\nHere is the recommended content for Lv. 110 to 114!"/>
+				<int name="lvmax" value="114"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3444"/>
+					<string name="goal" value="(Lv 112)"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="240020500"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="23"/>
+				<int name="1" value="36"/>
+				<int name="2" value="35"/>
+				<int name="3" value="22"/>
+				<int name="4" value="16"/>
+				<int name="5" value="15"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="115">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 115!\nHere is the recommended content for Lv. 115 to 119!"/>
+				<int name="lvmax" value="119"/>
+			</imgdir>
+			<imgdir name="quest">
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="220060300"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="37"/>
+				<int name="1" value="23"/>
+				<int name="2" value="36"/>
+				<int name="3" value="35"/>
+				<int name="4" value="22"/>
+				<int name="5" value="16"/>
+				<int name="6" value="15"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="120">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 120!\nHere is the recommended content for Lv. 120 to 124!"/>
+				<int name="lvmax" value="124"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="22108"/>
+					<string name="goal" value="(Job Advancement)"/>
+				</imgdir>
+				<imgdir name="1">
+					<int name="questId" value="3075"/>
+					<string name="goal" value="(Lv. 120) - Eliminate Pianus"/>
+				</imgdir>
+				<imgdir name="2">
+					<int name="questId" value="7300"/>
+					<string name="goal" value="(Lv. 120) - Eliminate Horntail"/>
+				</imgdir>
+				<imgdir name="3">
+					<int name="questId" value="3105"/>
+					<string name="goal" value="(Lv. 120) - Eliminate Snowman"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="240030000"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="28"/>
+				<int name="1" value="27"/>
+				<int name="2" value="26"/>
+				<int name="3" value="24"/>
+				<int name="4" value="38"/>
+				<int name="5" value="52"/>
+				<int name="6" value="16"/>
+				<int name="7" value="15"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="125">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 125!\nHere is the recommended content for Lv. 125 to 129!"/>
+				<int name="lvmax" value="129"/>
+			</imgdir>
+			<imgdir name="quest">
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="211041500"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="32"/>
+				<int name="1" value="29"/>
+				<int name="2" value="30"/>
+				<int name="3" value="28"/>
+				<int name="4" value="31"/>
+				<int name="5" value="52"/>
+				<int name="6" value="16"/>
+				<int name="7" value="15"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="130">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 130!\nHere is the recommended content for Lv. 130 to 134!"/>
+				<int name="lvmax" value="134"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="7100"/>
+					<string name="goal" value="(Lv. 130) - Eliminate Papulatus"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="270010100"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="32"/>
+				<int name="1" value="43"/>
+				<int name="2" value="33"/>
+				<int name="3" value="30"/>
+				<int name="4" value="29"/>
+				<int name="5" value="31"/>
+				<int name="6" value="47"/>
+				<int name="7" value="52"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="135">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 135!\nHere is the recommended content for Lv. 135 to 139!"/>
+				<int name="lvmax" value="139"/>
+			</imgdir>
+			<imgdir name="quest">
+				<imgdir name="0">
+					<int name="questId" value="3188"/>
+					<string name="goal" value="(Lv. 135) - Eliminate Riche"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="240030300"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="34"/>
+				<int name="1" value="33"/>
+				<int name="2" value="32"/>
+				<int name="3" value="30"/>
+				<int name="4" value="31"/>
+				<int name="5" value="49"/>
+				<int name="6" value="52"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="140">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 140!\nRecommend for Lv. 140 and up are being prepared."/>
+				<int name="lvmax" value="159"/>
+			</imgdir>
+			<imgdir name="quest">
+			</imgdir>
+			<imgdir name="field">
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="40"/>
+				<int name="1" value="49"/>
+				<int name="2" value="50"/>
+				<int name="3" value="51"/>
+				<int name="4" value="52"/>
+				<int name="5" value="53"/>
+				<int name="6" value="25"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="160">
+			<imgdir name="info">
+				<string name="message" value="Congrats on reaching Lv. 160!\nRecommend for Lv. 160 and up are being prepared."/>
+				<int name="lvmax" value="200"/>
+			</imgdir>
+			<imgdir name="quest">
+			</imgdir>
+			<imgdir name="field">
+				<int name="0" value="271030100"/>
+				<int name="1" value="271030300"/>
+			</imgdir>
+			<imgdir name="contents">
+				<int name="0" value="39"/>
+				<int name="1" value="40"/>
+				<int name="2" value="48"/>
+				<int name="3" value="51"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="Image">
+		<canvas name="0_0" width="157" height="126">
+			<vector name="origin" x="78" y="63"/>
+		</canvas>
+		<canvas name="1_0" width="331" height="159">
+			<vector name="origin" x="165" y="79"/>
+		</canvas>
+		<canvas name="1_1" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="1_2" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="1_3" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="1_4" width="331" height="144">
+			<vector name="origin" x="165" y="72"/>
+		</canvas>
+		<canvas name="1_5" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="2_0" width="332" height="143">
+			<vector name="origin" x="166" y="71"/>
+		</canvas>
+		<canvas name="2_1" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="2_2" width="331" height="115">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="2_3" width="332" height="115">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="2_4" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="2_5" width="332" height="115">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="3_0" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="3_1" width="184" height="151">
+			<vector name="origin" x="92" y="75"/>
+		</canvas>
+		<canvas name="5_0" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="5_1" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="8_0" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="8_1" width="332" height="288">
+			<vector name="origin" x="166" y="144"/>
+		</canvas>
+		<canvas name="10_0" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="10_1" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="10_2" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="10_3" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="10_4" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="10_5" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="10_6" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="11_0" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="11_1" width="332" height="288">
+			<vector name="origin" x="166" y="144"/>
+		</canvas>
+		<canvas name="11_2" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="11_3" width="332" height="288">
+			<vector name="origin" x="166" y="144"/>
+		</canvas>
+		<canvas name="11_4" width="332" height="288">
+			<vector name="origin" x="166" y="144"/>
+		</canvas>
+		<canvas name="19_0" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="19_1" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="19_2" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="29_0" width="333" height="145">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="29_1" width="332" height="144">
+			<vector name="origin" x="166" y="72"/>
+		</canvas>
+		<canvas name="29_2" width="324" height="160">
+			<vector name="origin" x="162" y="80"/>
+		</canvas>
+		<canvas name="39_0" width="368" height="166">
+			<vector name="origin" x="159" y="107"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="39_1" width="321" height="184">
+			<vector name="origin" x="160" y="116"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="39_2" width="201" height="233">
+			<vector name="origin" x="100" y="116"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="39_3" width="254" height="223">
+			<vector name="origin" x="127" y="111"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="39_4" width="294" height="213">
+			<vector name="origin" x="147" y="106"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="39_5" width="329" height="176">
+			<vector name="origin" x="164" y="88"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="40_0" width="258" height="109">
+			<vector name="origin" x="129" y="54"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="40_1" width="225" height="182">
+			<vector name="origin" x="112" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="40_2" width="308" height="192">
+			<vector name="origin" x="154" y="96"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="40_3" width="250" height="52">
+			<vector name="origin" x="125" y="26"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="41_0" width="250" height="52">
+			<vector name="origin" x="125" y="26"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="41_1" width="121" height="130">
+			<vector name="origin" x="60" y="65"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="41_2" width="269" height="160">
+			<vector name="origin" x="134" y="80"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="41_3" width="138" height="139">
+			<vector name="origin" x="69" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="41_4" width="247" height="120">
+			<vector name="origin" x="123" y="60"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="41_5" width="253" height="143">
+			<vector name="origin" x="126" y="71"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="41_6" width="161" height="112">
+			<vector name="origin" x="80" y="56"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="41_7" width="324" height="138">
+			<vector name="origin" x="162" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+</imgdir>

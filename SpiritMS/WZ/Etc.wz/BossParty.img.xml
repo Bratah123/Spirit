@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="BossParty.img">
+	<imgdir name="0">
+		<string name="info" value="Balrog"/>
+		<imgdir name="0">
+			<int name="levelMin" value="65"/>
+			<int name="levelMax" value="100"/>
+			<int name="difficulty" value="0"/>
+			<imgdir name="QuestDamand">
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="1"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="7 times a day"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="1">
+		<string name="info" value="Zakum"/>
+		<imgdir name="0">
+			<int name="levelMin" value="50"/>
+			<int name="difficulty" value="0"/>
+			<imgdir name="QuestDamand">
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="2"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Twice a day (regardless of difficulty)"/>
+			<int name="reqItem" value="4001796"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="90"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="3"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Twice a day (regardless of difficulty)"/>
+			<int name="reqItem" value="4001017"/>
+		</imgdir>
+		<imgdir name="2">
+			<int name="levelMin" value="90"/>
+			<int name="difficulty" value="3"/>
+			<imgdir name="QuestDamand">
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="4"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Twice a day (regardless of difficulty)"/>
+			<int name="reqItem" value="4001017"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="2">
+		<string name="info" value="Horntail"/>
+		<imgdir name="0">
+			<int name="levelMin" value="130"/>
+			<int name="difficulty" value="0"/>
+			<imgdir name="QuestDamand">
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+					</imgdir>
+				</imgdir>
+				<string name="7313" value="2"/>
+			</imgdir>
+			<int name="waitingQueueID" value="27"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Twice a day (regardless of difficulty)"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="130"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+					</imgdir>
+				</imgdir>
+				<string name="7313" value="2"/>
+			</imgdir>
+			<int name="waitingQueueID" value="5"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Twice a day (regardless of difficulty)"/>
+		</imgdir>
+		<imgdir name="2">
+			<int name="levelMin" value="135"/>
+			<int name="difficulty" value="3"/>
+			<imgdir name="QuestDamand">
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="6"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Twice a day (regardless of difficulty)"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="3">
+		<string name="info" value="Hilla"/>
+		<imgdir name="0">
+			<int name="levelMin" value="120"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="7"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Twice a day (regardless of difficulty)"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="170"/>
+			<int name="difficulty" value="2"/>
+			<imgdir name="QuestDamand">
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="8"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Twice a day (regardless of difficulty)"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="4">
+		<string name="info" value="Pierre"/>
+		<imgdir name="0">
+			<int name="levelMin" value="125"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="30007" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="30007" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="9"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once a day"/>
+			<int name="reqItem" value="4033611"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="180"/>
+			<int name="difficulty" value="3"/>
+			<imgdir name="QuestDamand">
+				<string name="30007" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="30007" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="10"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once in 7 days"/>
+			<int name="reqItem" value="4033611"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="5">
+		<string name="info" value="Von Bon"/>
+		<imgdir name="0">
+			<int name="levelMin" value="125"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="30007" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="30007" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="11"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once a day"/>
+			<int name="reqItem" value="4033611"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="180"/>
+			<int name="difficulty" value="3"/>
+			<imgdir name="QuestDamand">
+				<string name="30007" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="30007" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="12"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once in 7 days"/>
+			<int name="reqItem" value="4033611"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="6">
+		<string name="info" value="Crimson Queen"/>
+		<imgdir name="0">
+			<int name="levelMin" value="125"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="30007" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="30007" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="13"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once a day"/>
+			<int name="reqItem" value="4033611"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="180"/>
+			<int name="difficulty" value="3"/>
+			<imgdir name="QuestDamand">
+				<string name="30007" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="30007" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="14"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once in 7 days"/>
+			<int name="reqItem" value="4033611"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="7">
+		<string name="info" value="Vellum"/>
+		<imgdir name="0">
+			<int name="levelMin" value="125"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="30007" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="30007" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="15"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once a day"/>
+			<int name="reqItem" value="4033611"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="180"/>
+			<int name="difficulty" value="3"/>
+			<imgdir name="QuestDamand">
+				<string name="30007" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="30007" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="16"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once in 7 days"/>
+			<int name="reqItem" value="4033611"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="8">
+		<string name="info" value="Von Leon"/>
+		<imgdir name="0">
+			<int name="levelMin" value="125"/>
+			<int name="difficulty" value="0"/>
+			<imgdir name="QuestDamand">
+				<string name="3170" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="3170" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="17"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once a day (regardless of difficulty)"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="125"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="3170" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="3170" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="18"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once a day (regardless of difficulty)"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="9">
+		<string name="info" value="Arkarium"/>
+		<imgdir name="0">
+			<int name="levelMin" value="140"/>
+			<int name="difficulty" value="0"/>
+			<imgdir name="QuestDamand">
+				<string name="31179" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="31198" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="19"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once a day (regardless of difficulty)"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="140"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="31179" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="31198" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="20"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once a day (regardless of difficulty)"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="10">
+		<string name="info" value="Magnus"/>
+		<imgdir name="0">
+			<int name="levelMin" value="115"/>
+			<int name="difficulty" value="0"/>
+			<imgdir name="QuestDamand">
+				<string name="31851" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="31851" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="21"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once a day"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="155"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="31833" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="61">
+						<string name="31498" value="2"/>
+					</imgdir>
+					<imgdir name="65">
+						<string name="31686" value="2"/>
+					</imgdir>
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="31833" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="22"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once a day"/>
+		</imgdir>
+		<imgdir name="2">
+			<int name="levelMin" value="175"/>
+			<int name="difficulty" value="2"/>
+			<imgdir name="QuestDamand">
+				<string name="31833" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="61">
+						<string name="31498" value="2"/>
+					</imgdir>
+					<imgdir name="65">
+						<string name="31686" value="2"/>
+					</imgdir>
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="31833" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="23"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once in 7 days"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="11">
+		<string name="info" value="Pink Bean"/>
+		<imgdir name="0">
+			<int name="levelMin" value="160"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="3521" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="3521" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="24"/>
+			<string name="waitingType" value="boss"/>
+			<int name="reqItem" value="4032002"/>
+			<string name="enterCount" value="Once a day (regardless of difficulty)"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="170"/>
+			<int name="difficulty" value="3"/>
+			<imgdir name="QuestDamand">
+				<string name="3521" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="3521" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="25"/>
+			<string name="waitingType" value="boss"/>
+			<int name="reqItem" value="4032002"/>
+			<string name="enterCount" value="Once a day (regardless of difficulty)"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="12">
+		<string name="info" value="Cygnus"/>
+		<imgdir name="0">
+			<int name="levelMin" value="170"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="31152" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="31152" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="26"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Twice in 7 days"/>
+			<int name="reqItem" value="4032923"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="13">
+		<string name="info" value="Lotus"/>
+		<imgdir name="0">
+			<int name="levelMin" value="190"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="33294" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="33294" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="29"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once Every 7 Days"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="190"/>
+			<int name="difficulty" value="2"/>
+			<imgdir name="QuestDamand">
+				<string name="33294" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="33294" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="28"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once Every 7 Days"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="14">
+		<string name="info" value="Ursus"/>
+		<imgdir name="0">
+			<int name="levelMin" value="100"/>
+			<int name="difficulty" value="1"/>
+			<string name="enterCount" value="3 times a day"/>
+			<int name="enterFieldID" value="970072200"/>
+			<int name="canGoAnyone" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="order">
+		<int name="0" value="0"/>
+		<int name="1" value="1"/>
+		<int name="2" value="14"/>
+		<int name="3" value="10"/>
+		<int name="4" value="3"/>
+		<int name="5" value="4"/>
+		<int name="6" value="5"/>
+		<int name="7" value="6"/>
+		<int name="8" value="7"/>
+		<int name="9" value="8"/>
+		<int name="10" value="2"/>
+		<int name="11" value="9"/>
+		<int name="12" value="11"/>
+		<int name="13" value="12"/>
+		<int name="14" value="13"/>
+		<int name="15" value="15"/>
+		<int name="16" value="103"/>
+		<int name="17" value="104"/>
+		<int name="18" value="105"/>
+	</imgdir>
+	<imgdir name="15">
+		<string name="info" value="Damien"/>
+		<imgdir name="0">
+			<int name="levelMin" value="190"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="34015" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="34015" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="32"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once in 7 days"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="190"/>
+			<int name="difficulty" value="2"/>
+			<imgdir name="QuestDamand">
+				<string name="34015" value="2"/>
+				<imgdir name="Except">
+					<imgdir name="101">
+						<string name="40905" value="2"/>
+						<string name="34015" value="2"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<int name="waitingQueueID" value="33"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once in 7 days"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="16">
+		<string name="info" value="Vellum"/>
+	</imgdir>
+	<imgdir name="17">
+		<string name="info" value="Ranmaru"/>
+	</imgdir>
+	<imgdir name="18">
+		<string name="info" value="Princess No"/>
+	</imgdir>
+	<imgdir name="103">
+		<string name="info" value="Gollux"/>
+		<imgdir name="0">
+			<int name="levelMin" value="140"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="17523" value="2"/>
+			</imgdir>
+			<int name="waitingQueueID" value="103"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Once a day"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="104">
+		<string name="info" value="Ranmaru"/>
+		<imgdir name="0">
+			<int name="levelMin" value="120"/>
+			<int name="difficulty" value="1"/>
+			<int name="waitingQueueID" value="104"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Available twice a day."/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="levelMin" value="180"/>
+			<int name="difficulty" value="2"/>
+			<int name="waitingQueueID" value="109"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="Available once a day."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="105">
+		<string name="info" value="Princess No"/>
+		<imgdir name="0">
+			<int name="levelMin" value="140"/>
+			<int name="difficulty" value="1"/>
+			<imgdir name="QuestDamand">
+				<string name="58913" value="2"/>
+				<string name="58955" value="2"/>
+			</imgdir>
+			<int name="waitingQueueID" value="105"/>
+			<string name="waitingType" value="boss"/>
+			<string name="enterCount" value="10 times a day"/>
+			<int name="reqItem" value="4009283"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

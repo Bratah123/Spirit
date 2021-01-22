@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9201562.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="52" height="83">
+			<vector name="origin" x="22" y="83"/>
+			<int name="delay" value="1000"/>
+		</canvas>
+		<canvas name="1" width="52" height="83">
+			<vector name="origin" x="22" y="83"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="2" width="52" height="83">
+			<vector name="origin" x="22" y="83"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="3" width="52" height="83">
+			<vector name="origin" x="22" y="83"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="4" width="52" height="83">
+			<vector name="origin" x="22" y="83"/>
+			<int name="delay" value="180"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="52" height="83">
+			<vector name="origin" x="22" y="83"/>
+		</canvas>
+		<canvas name="1" width="52" height="83">
+			<vector name="origin" x="22" y="83"/>
+		</canvas>
+		<canvas name="2" width="52" height="83">
+			<vector name="origin" x="22" y="83"/>
+		</canvas>
+		<canvas name="3" width="52" height="83">
+			<vector name="origin" x="22" y="83"/>
+		</canvas>
+		<canvas name="4" width="52" height="83">
+			<vector name="origin" x="22" y="83"/>
+		</canvas>
+		<canvas name="5" width="52" height="83">
+			<vector name="origin" x="22" y="83"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="hurt">
+		<canvas name="0" width="91" height="97">
+			<vector name="origin" x="42" y="85"/>
+		</canvas>
+		<canvas name="1" width="93" height="92">
+			<vector name="origin" x="43" y="80"/>
+		</canvas>
+		<canvas name="2" width="95" height="94">
+			<vector name="origin" x="45" y="82"/>
+		</canvas>
+		<canvas name="3" width="94" height="95">
+			<vector name="origin" x="47" y="83"/>
+		</canvas>
+		<canvas name="4" width="94" height="98">
+			<vector name="origin" x="47" y="86"/>
+		</canvas>
+		<canvas name="5" width="95" height="98">
+			<vector name="origin" x="47" y="86"/>
+		</canvas>
+		<int name="special" value="1"/>
+	</imgdir>
+</imgdir>

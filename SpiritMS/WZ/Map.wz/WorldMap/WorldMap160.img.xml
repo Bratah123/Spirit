@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="WorldMap160.img">
+	<imgdir name="info">
+		<string name="parentMap" value="WorldMap"/>
+		<string name="WorldMap" value="WorldMap160"/>
+	</imgdir>
+	<imgdir name="BaseImg">
+		<canvas name="0" width="640" height="470">
+			<vector name="origin" x="320" y="235"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="MapList">
+		<imgdir name="0">
+			<int name="type" value="0"/>
+			<imgdir name="mapNo">
+				<int name="0" value="800000000"/>
+				<int name="1" value="800000100"/>
+				<int name="2" value="800000101"/>
+				<int name="3" value="800000102"/>
+				<int name="4" value="800000200"/>
+				<int name="5" value="800000201"/>
+				<int name="6" value="800000202"/>
+				<int name="7" value="800000300"/>
+				<int name="8" value="800000301"/>
+				<int name="9" value="800000302"/>
+				<int name="10" value="800000303"/>
+				<int name="11" value="800010000"/>
+				<int name="12" value="800010100"/>
+				<int name="13" value="800010200"/>
+				<int name="14" value="802000000"/>
+				<int name="15" value="802000100"/>
+				<int name="16" value="802000101"/>
+				<int name="17" value="800020000"/>
+				<int name="18" value="800022000"/>
+				<int name="19" value="800026000"/>
+			</imgdir>
+			<vector name="spot" x="6" y="-30"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="type" value="0"/>
+			<imgdir name="mapNo">
+				<int name="0" value="807000000"/>
+				<int name="1" value="807010000"/>
+				<int name="2" value="807010100"/>
+				<int name="3" value="807020000"/>
+				<int name="4" value="807020100"/>
+				<int name="5" value="807030000"/>
+				<int name="6" value="807030100"/>
+				<int name="7" value="807030200"/>
+				<int name="8" value="807040000"/>
+				<int name="9" value="807040100"/>
+			</imgdir>
+			<vector name="spot" x="-233" y="-82"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="MapLink">
+		<imgdir name="0">
+			<imgdir name="link">
+				<string name="linkMap" value="WorldMap161"/>
+				<canvas name="linkImg" width="418" height="258">
+					<vector name="origin" x="174" y="157"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<string name="toolTip" value="Mushroom Shrine"/>
+		</imgdir>
+		<imgdir name="1">
+			<imgdir name="link">
+				<string name="linkMap" value="WorldMap171"/>
+				<canvas name="linkImg" width="146" height="142">
+					<vector name="origin" x="294" y="152"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<string name="toolTip" value="Momijigaoka"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

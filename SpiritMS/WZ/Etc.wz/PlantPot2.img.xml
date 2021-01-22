@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="PlantPot2.img">
+	<imgdir name="0">
+		<imgdir name="info">
+			<string name="name" value="bingsooLeft"/>
+			<int name="endPhase" value="5"/>
+			<int name="openUI" value="277"/>
+			<int name="recordQuest" value="14939"/>
+			<int name="checkQuest" value="18583"/>
+			<string name="endDay" value="2016/06/22 00:00:00"/>
+			<imgdir name="rewardPhase">
+				<int name="0" value="4"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Phase">
+			<imgdir name="0">
+				<int name="count" value="5"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="count" value="5"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="count" value="5"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="count" value="5"/>
+			</imgdir>
+			<imgdir name="4">
+				<int name="click" value="1"/>
+			</imgdir>
+			<imgdir name="5">
+				<int name="noMoreToday" value="1"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="1">
+		<imgdir name="info">
+			<string name="name" value="bingsooCenter"/>
+			<int name="endPhase" value="5"/>
+			<int name="openUI" value="277"/>
+			<int name="recordQuest" value="14940"/>
+			<int name="checkQuest" value="18584"/>
+			<string name="endDay" value="2016/06/22 00:00:00"/>
+			<imgdir name="rewardPhase">
+				<int name="0" value="4"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Phase">
+			<imgdir name="0">
+				<int name="count" value="10"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="count" value="10"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="count" value="10"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="count" value="10"/>
+			</imgdir>
+			<imgdir name="4">
+				<int name="click" value="1"/>
+			</imgdir>
+			<imgdir name="5">
+				<int name="noMoreToday" value="1"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="2">
+		<imgdir name="info">
+			<string name="name" value="bingsooRight"/>
+			<int name="endPhase" value="5"/>
+			<int name="openUI" value="277"/>
+			<int name="recordQuest" value="14941"/>
+			<int name="checkQuest" value="18585"/>
+			<string name="endDay" value="2016/06/22 00:00:00"/>
+			<imgdir name="rewardPhase">
+				<int name="0" value="4"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Phase">
+			<imgdir name="0">
+				<string name="count" value="25"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="count" value="25"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="count" value="25"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="count" value="25"/>
+			</imgdir>
+			<imgdir name="4">
+				<int name="click" value="1"/>
+			</imgdir>
+			<imgdir name="5">
+				<int name="noMoreToday" value="1"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2159423.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="26" height="25">
+			<vector name="origin" x="13" y="26"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="1" width="26" height="25">
+			<vector name="origin" x="13" y="26"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2159423.img/stand/0"/>
+		</canvas>
+		<canvas name="2" width="26" height="25">
+			<vector name="origin" x="13" y="26"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2159423.img/stand/0"/>
+		</canvas>
+		<canvas name="3" width="26" height="25">
+			<vector name="origin" x="13" y="26"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2159423.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<int name="23724" value="1"/>
+		<imgdir name="stand">
+			<canvas name="0" width="49" height="33">
+				<vector name="origin" x="30" y="34"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="1" width="43" height="33">
+				<vector name="origin" x="24" y="34"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="2" width="47" height="34">
+				<vector name="origin" x="16" y="35"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="3" width="37" height="35">
+				<vector name="origin" x="16" y="36"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+</imgdir>

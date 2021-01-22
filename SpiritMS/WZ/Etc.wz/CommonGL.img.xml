@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="CommonGL.img">
+	<imgdir name="도움말">
+		<string name="0" value="이 Property는 실제로 사용되지 않는 데이터이며, 파일 설정과 관련된 Help 메시지를 기록하기 위해 생성하였다."/>
+		<imgdir name="npc">
+			<imgdir name="9010000">
+				<imgdir name="도움말">
+					<string name="0" value="blackList와 whiteList는 둘 중 하나만 존재해야 한다."/>
+					<string name="1" value="각 항목은 [mapID = 정보]로 설정한다. 실제로 로드하는 정보는 mapID이며 정보는 단순 참고용이다."/>
+				</imgdir>
+				<imgdir name="blackList">
+					<string name="100000000" value="henesis"/>
+				</imgdir>
+				<imgdir name="whiteList">
+					<string name="100000000" value="henesis"/>
+				</imgdir>
+				<string name="hideNpc" value="[True/False] 값으로 설정 / 기본값은 False이며, True이면 예외처리된 맵에서는 해당 Npc가 사라진다."/>
+				<string name="hideQuest" value="[True/False] 값으로 설정 / 기본값은 False이며, True이면 예외처리된 맵에서는 해당 Npc의 퀘스트가 목록이 클라이언트에서 보이지 않는다. "/>
+				<string name="replace" value="[Integer] 값으로 설정 / 기본값은 0이며, NpcID로 설정하면 예외처리된 맵에서는 replace 값의 Npc로 변경된다."/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="npc">
+		<imgdir name="9010000">
+			<imgdir name="whiteList">
+				<string name="820000000" value="Event Hall"/>
+			</imgdir>
+			<short name="hideNpc" value="-1"/>
+		</imgdir>
+		<imgdir name="9010010">
+			<imgdir name="whiteList">
+				<string name="820000000" value="Event Hall"/>
+			</imgdir>
+			<short name="hideNpc" value="-1"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

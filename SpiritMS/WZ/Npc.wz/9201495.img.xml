@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9201495.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+		<int name="dcLeft" value="-80"/>
+		<string name="dcTop" value="-130"/>
+		<int name="dcRight" value="45"/>
+		<int name="dcBottom" value="0"/>
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="madHouse_paperBox"/>
+			</imgdir>
+		</imgdir>
+		<canvas name="default" width="110" height="80">
+			<vector name="origin" x="53" y="80"/>
+			<int name="delay" value="3000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="174" height="127">
+			<vector name="origin" x="80" y="127"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="1000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="203" height="132">
+				<vector name="origin" x="109" y="132"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="1000"/>
+			</canvas>
+		</imgdir>
+		<int name="61228" value="2"/>
+	</imgdir>
+</imgdir>

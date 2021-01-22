@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9062006.img">
+	<imgdir name="info">
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="43" height="73">
+			<vector name="origin" x="24" y="73"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="hair">
+		<canvas name="0" width="43" height="73">
+			<vector name="origin" x="24" y="73"/>
+			<int name="delay" value="1200"/>
+			<string name="source" value="Npc/9062006.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="43" height="73">
+			<vector name="origin" x="24" y="73"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="2" width="44" height="73">
+			<vector name="origin" x="25" y="73"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="3" width="43" height="73">
+			<vector name="origin" x="24" y="73"/>
+			<int name="delay" value="150"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="32413">
+			<string name="value" value="1"/>
+		</imgdir>
+		<imgdir name="stand">
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<imgdir name="hair">
+			<uol name="0" value="../../hair/0"/>
+			<uol name="1" value="../../hair/1"/>
+			<uol name="2" value="../../hair/2"/>
+			<uol name="3" value="../../hair/3"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

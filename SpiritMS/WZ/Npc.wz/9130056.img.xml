@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9130056.img">
+	<imgdir name="info">
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="118" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="2000"/>
+			<string name="source" value="Npc/9130001.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="118" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130001.img/stand/0"/>
+		</canvas>
+		<canvas name="2" width="118" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130001.img/stand/2"/>
+		</canvas>
+		<canvas name="3" width="118" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130001.img/stand/3"/>
+		</canvas>
+		<canvas name="4" width="118" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130001.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="weapon">
+		<canvas name="0" width="118" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="1000"/>
+			<string name="source" value="Npc/9130023.img/weapon/0"/>
+		</canvas>
+		<canvas name="1" width="118" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130023.img/weapon/1"/>
+		</canvas>
+		<canvas name="2" width="118" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130001.img/stand/0"/>
+		</canvas>
+		<canvas name="3" width="118" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130001.img/stand/0"/>
+		</canvas>
+		<canvas name="4" width="118" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130001.img/stand/0"/>
+		</canvas>
+		<canvas name="5" width="118" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130001.img/stand/0"/>
+		</canvas>
+		<canvas name="6" width="106" height="119">
+			<vector name="origin" x="58" y="118"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130023.img/weapon/6"/>
+		</canvas>
+		<canvas name="7" width="128" height="133">
+			<vector name="origin" x="56" y="132"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130023.img/weapon/7"/>
+		</canvas>
+		<canvas name="8" width="108" height="127">
+			<vector name="origin" x="32" y="121"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130023.img/weapon/8"/>
+		</canvas>
+		<canvas name="9" width="100" height="121">
+			<vector name="origin" x="45" y="105"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130023.img/weapon/9"/>
+		</canvas>
+		<canvas name="10" width="124" height="115">
+			<vector name="origin" x="53" y="106"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/9130023.img/weapon/10"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<int name="57112" value="2"/>
+		<int name="hide" value="1"/>
+		<imgdir name="stand">
+			<uol name="0" value="../../stand/0"/>
+			<uol name="1" value="../../stand/1"/>
+			<uol name="2" value="../../stand/2"/>
+			<uol name="3" value="../../stand/3"/>
+			<uol name="4" value="../../stand/4"/>
+		</imgdir>
+		<imgdir name="weapon">
+			<uol name="0" value="../../weapon/0"/>
+			<uol name="1" value="../../weapon/1"/>
+			<uol name="2" value="../../weapon/2"/>
+			<uol name="3" value="../../weapon/3"/>
+			<uol name="4" value="../../weapon/4"/>
+			<uol name="5" value="../../weapon/5"/>
+			<uol name="6" value="../../weapon/6"/>
+			<uol name="7" value="../../weapon/7"/>
+			<uol name="8" value="../../weapon/8"/>
+			<uol name="9" value="../../weapon/9"/>
+			<uol name="10" value="../../weapon/10"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="condition2">
+		<int name="57111" value="3"/>
+		<imgdir name="stand">
+			<uol name="0" value="../../stand/0"/>
+			<uol name="1" value="../../stand/1"/>
+			<uol name="2" value="../../stand/2"/>
+			<uol name="3" value="../../stand/3"/>
+			<uol name="4" value="../../stand/4"/>
+		</imgdir>
+		<imgdir name="weapon">
+			<uol name="0" value="../../weapon/0"/>
+			<uol name="1" value="../../weapon/1"/>
+			<uol name="2" value="../../weapon/2"/>
+			<uol name="3" value="../../weapon/3"/>
+			<uol name="4" value="../../weapon/4"/>
+			<uol name="5" value="../../weapon/5"/>
+			<uol name="6" value="../../weapon/6"/>
+			<uol name="7" value="../../weapon/7"/>
+			<uol name="8" value="../../weapon/8"/>
+			<uol name="9" value="../../weapon/9"/>
+			<uol name="10" value="../../weapon/10"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

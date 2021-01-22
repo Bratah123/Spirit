@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="UI.img">
+	<imgdir name="JobFreeChange">
+		<imgdir name="112">
+			<string name="0" value="This class mainly uses two-handed weapons, and possesses great attack power. While attacking you'll gain combo orbs, which you can use to inflict great damage."/>
+			<string name="1" value="Activate Combo Attack for a chance to gaining combo orbs while attacking. When you gain combo orbs, the Combo icon appears, your ATT increases for each combo orb, and you can spend them to cast your secondary skills. One such skill is Enrage, while limited to a single enemy, significantly increases your ATT and lets you use Enhanced Raging Blow.  Magic Crash, the common skill of the Warrior classes, is useful for canceling buff effects on Boss monsters."/>
+		</imgdir>
+		<imgdir name="122">
+			<string name="0" value="This class wields one-handed weapons in combination with shields for enhanced Defense power and defensive skills. It uses a combination of different elemental skills to increase ATT, to maximize allied survivability, and to revive downed comrades."/>
+			<string name="1" value="Use different types of charging skills to gain Elemental Charges, which increase your ATT and DEF.  Elemental Charges can be consumed to cast Blast, granting a significant ATT boost for a short time. Armed with powerful defensive skills like Shield Mastery and Sacrosanctity, as well as the healing skill HP Recovery, this class provides strong support in battle. Guardian, Smite Shield, Parashock Guard, and Magic Crash are especially useful for party play and Boss battles."/>
+		</imgdir>
+		<imgdir name="132">
+			<string name="0" value="This class specializes in spears and polearms, weapons with a long reach. Its minion Beholder negates skill cooldown time, allowing it to use powerful skills without delay. This class can revive on its own in some situations."/>
+			<string name="1" value="The class minion Beholder offers many useful abilities, such as buffs and area-effective skills. By Sacrificing Beholder, you can use the powerful Gungnir's Descent skill without delay. Use Reincarnation to fight strong Boss monsters, keeping you alive even after your HP drops to 0, and enabling you to use Gungnir's Descent freely. While the skill is in effect, you can fully resurrect under certain conditions. Magic Crash, the common skill of the Warrior classes, is useful for canceling buff effects on Boss monsters."/>
+		</imgdir>
+		<imgdir name="212">
+			<string name="0" value="This class specializes in Fire and Poison magic. Most attack skills inflict damage over time (DoT) and increase your ATT by as many points as the number of DoT attacks. The class can envelop giant monsters in blazing smoke, preventing yourself and your friends from bumping into the monsters."/>
+			<string name="1" value="Elemental Drain gives an ATT buff depending on the number of times of your DoT attacks. To get the most out of the skill, use as many different DoT skills as you can while fighting formidable monsters. To inflict massive damage, create multiple Poison Mist areas and then detonate them using Mist Eruption. Paralyze paralyzes regular monsters, allowing for stable, smooth hunts. Flame Haze protects you against damage when you come in contact with enemies that have been attacked by skills. Flame Haze also creates Poison Mist, which can be followed by Mist Eruption."/>
+		</imgdir>
+		<imgdir name="222">
+			<string name="0" value="This class specializes in Lightning and Ice magic. Ice attacks have a chance of freezing enemies. The more Freezing effects stack, the slower enemies move and the more vulnerable they are to damage.  The class can immobilize giant monsters to aid their team."/>
+			<string name="1" value="Use Freezing skills to stack freezing effects on enemies. When stacked, the freezing effects slow down the enemies more and more until they become completely immobilized. Frozen enemies take damage in proportion to their freezing effect count.  Chilling Step freezes the ground as you teleport, inflicting damage and freezing enemies in your way. Chain Lightning stuns regular enemies and attacks enemies around its target. Freezing Breath, while immobilizing you, also freezes your enemies and decreases their Defense."/>
+		</imgdir>
+		<imgdir name="232">
+			<string name="0" value="This class has powerful buff and healing skills for itself and party members, and its ATT increases by the number of party members that are being affected by its buff effects. The class can increase damage on enemies and decrease their Defense, perfect for large group fights."/>
+			<string name="1" value="This class can use a variety of healing and buff skills. Blessed Ensemble increases its ATT by the number of party members that are being affected by its buff effects. Divine Protection protects the class against abnormal status effects, and its cooldown decreases by the number of abnormal status effects removed by Dispel, which makes Divine Protection all the more effective. Big Bang, fully charged when used while Genesis is in downtime, casts a debuff that decreases the enemy's DEF. Angel's Ray attacks the enemy and heals party members in its way."/>
+		</imgdir>
+		<imgdir name="312">
+			<string name="0" value="This class specializes in long-ranged attacks using bows. It has a fast attack speed, and is equipped with a quiver full of different elemental arrows that are useful for different combat situations."/>
+			<string name="1" value="Possessing quick attack skills, this class facilitates fast-paced, technique-driven combat. Quiver Cartridge uses 3 different arrowheads to add elemental properties to your attacks. Covering Fire attacks an enemy while simultaneously increasing the distance between you and the enemy. Use Steigeisen, the common skill of the Bowman classes, to instantly approach your target. Hurricane rapidly attacks your enemy even when you move around as long as you hold down on the skill key. Arrow Blaster improves Hurricane. Armor Break inflicts additional damage on enemies regardless of their Defense."/>
+		</imgdir>
+		<imgdir name="322">
+			<string name="0" value="This class specializes in long-ranged attacks using crossbows, and is capable of crushing single blows. It activates various additional effects depending on the distance between it and its target. Its damage is greater on a single enemy than a group."/>
+			<string name="1" value="This class has a long attack range, and uses skills that inflict devastating damage in a single attack. Rangefinder and Vital Hunter inflict greater damage on enemies from a greater distance. Pain Killer instantly cancels abnormal status effects cast on you, increasing your survivability. Piercing's damage increases each time it penetrates an enemy, inflicting great damage on the last enemy. Snipe can attack only a single enemy, but it inflicts great damage. It even takes down regular monsters in one attack. Use Hookshot, the common skill of the Bowman classes, to quickly approach your target."/>
+		</imgdir>
+		<imgdir name="0">
+			<string name="0" value=""/>
+		</imgdir>
+		<imgdir name="412">
+			<string name="0" value="This class specializes in long-ranged attacks using shooting stars. It leaves marks on damaged enemies, and when attacking them again the marks produce projectiles that deal damage to nearby enemies."/>
+			<string name="1" value="The Mark of Assassins grants a chance of leaving an assassin's mark on your target. The next attack on a marked enemy will cause a throwing star to form from that enemy and attack other enemies nearby. Throw skills let you attack enemies from a distance by throwing shooting stars. Fake and Frailty Curse help this class survive in combat. Shadow Partner creates mirror images and significantly increases ATT."/>
+		</imgdir>
+		<imgdir name="422">
+			<string name="0" value="This class wields daggers swiftly, and its critical rate increases periodically until a critical attack lands."/>
+			<string name="1" value="Critical Growth grants critical attacks periodically on every few attacks. The ability to use shields and learn Shield Mastery give this class high Defense. Steal, Pick Pocket, Meso Guard, and Meso Explosion enables the class to steal items and mesos from the enemy, and even use the stolen mesos for attacks. Assassinate has great attack power by default, and its ATT can be increased by kill points. Assassinate's ATT also increases during the stealth mode. Shadow Partner creates mirror images and significantly increases ATT."/>
+		</imgdir>
+		<imgdir name="434">
+			<string name="0" value="These mysterious blademasters face an internal power struggle that threatens the future of their secretive organization, but a greater threat looms on the horizon. As the name suggests, this class uses a pair of bladed weapons to unleash devastating attacks. "/>
+			<string name="1" value="This class has a variety of rushing skills, and boasts fast movement speed from Self Haste. Final Cut inflicts great damage and increases ATT for a short time. Phantom Blow inflicts huge damage on a single target, and its power intensifies when used after Final Cut. Mirror Image creates mirror images and significantly increases ATT."/>
+		</imgdir>
+		<imgdir name="512">
+			<string name="0" value="This class specializes in technique-driven combat using knuckles. While attacking, it stores energy for later use. When fully charged, the energy can be used to deliver powerful blows."/>
+			<string name="1" value="Energy Charge builds up energy with each attack. When the energy is fully charged, a powerful effect triggers and your attack skills improve. Buccaneer Blast inflicts long-ranged damage over a wide area. Its damage intensifies when fully charged. Time Leap resets the skill cooldown time for party members, promoting effective party play. Roll of the Dice, the common skill of the Pirate classes, casts dice and activates a random buff."/>
+		</imgdir>
+		<imgdir name="522">
+			<string name="0" value="This class specializes in long-ranged attacks using guns, and commands the crew of the Nautilus. The crew can take abnormal status effects for you, and each one of them offers a different buff effect."/>
+			<string name="1" value="Rapid Fire has high attack speed, rapidly attacking your enemy even when you move around, as long as you hold down the skill key. This class can summon different sailors who each cast a unique buff. Roll of the Dice, the common skill of the Pirate classes, casts dice and activates a random buff."/>
+		</imgdir>
+		<imgdir name="532">
+			<string name="0" value="This class wields Hand Cannons to launch powerful long-range attacks. It also comes with a pet monkey!"/>
+			<string name="1" value="Most attack skills have long range and inflict damage over an area. Anchors Away pulls your enemies toward your anchor, and Cannon Bazooka inflicts damage on all pulled enemies. The partner monkey offers useful skills, such as Barrel Bomb, Monkey Madness, Monkey Wave, and Monkey Militia. Roll of the Dice, the common skill of the Pirate classes, casts dice and activates a random buff."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="invasion">
+		<imgdir name="message">
+			<imgdir name="0">
+				<string name="0" value="Take this!"/>
+				<string name="1" value="You're already done."/>
+				<string name="2" value="Attack!"/>
+				<string name="3" value="Bwa ha ha ha ha!"/>
+				<string name="4" value="Another foolish moth to my flames."/>
+				<string name="5" value="Let us be united."/>
+				<string name="6" value="I've got a really good item being auctioned right now."/>
+				<string name="7" value="I'm the Master Thief Phantom. I'm many things, but I'm not a quitter."/>
+				<string name="8" value="I want to join the Invasion. I'm serious this time."/>
+				<string name="9" value="You attack me. I attack you!"/>
+				<string name="10" value="I'm going to dig a tunnel all the way to Chryse!"/>
+				<string name="11" value="You're darker than...the darkness!"/>
+				<string name="12" value="You'll take it, whether you like it or not."/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="0" value="Powerful Blow"/>
+				<string name="1" value="Sharp Attack"/>
+				<string name="2" value="Ultimate Skill"/>
+				<string name="3" value="Rough Bare Fist"/>
+				<string name="4" value="Sleazy Grin"/>
+				<string name="5" value="Wad of Money"/>
+				<string name="6" value="Chopstick"/>
+				<string name="7" value="Helping Left Hand"/>
+				<string name="8" value="Exploded Radiator"/>
+				<string name="9" value="Void"/>
+				<string name="10" value="Scissors"/>
+				<string name="11" value="German Suplex"/>
+				<string name="12" value="Straight Shot"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="0" value="I'LL FINISH YOU!"/>
+				<string name="1" value="Game Over."/>
+				<string name="2" value="I won."/>
+				<string name="3" value="MapleStory is not child's play!"/>
+				<string name="4" value="I want more allowance!"/>
+				<string name="5" value="I crashed and burned..."/>
+				<string name="6" value="I'll be the defending champion!"/>
+				<string name="7" value="The quality of the finishing blow is what separates me from you."/>
+				<string name="8" value="Freud is gone! He's no more! But his spirit lives forever inside me!"/>
+				<string name="9" value="Why so serious?"/>
+				<string name="10" value="Save yourself some trouble and yield to the last blow."/>
+				<string name="11" value="What was the best moment of your life? For me, it was a second ago."/>
+				<string name="12" value="I rose above the finishing blow!"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="boss">
+			<string name="0" value="Magnus"/>
+			<string name="1" value="Hilla"/>
+			<string name="2" value="Von Leon"/>
+			<string name="3" value="Arkarium"/>
+		</imgdir>
+		<imgdir name="phase">
+			<string name="0" value=""/>
+			<string name="1" value="The Invasion is intensifying!  More powerful enemies will appear!"/>
+			<string name="2" value="The Invasion is intensifying!  More powerful enemies will appear!"/>
+			<string name="3" value="I've received reports that the enemy Commander will be taking the field! Be on your guard."/>
+		</imgdir>
+		<imgdir name="invasionStatus">
+			<string name="start" value="We've detected signs of enemy invasion! Maplers, we need your help!"/>
+			<string name="start1" value="Help us defend Kritias! Please come to the Northern Barracks and receive the Defense mission!"/>
+			<string name="change" value="In 30 seconds, the Invasion will begin! Be careful--a great disaster is on its way to Kritias!"/>
+			<string name="fail" value="With your help, the enemy Commander has retreated for now... But the damage is done."/>
+			<string name="success" value="The enemies have retreated! %s delivered the finishing blow to the Commander!"/>
+			<string name="after" value="Warriors, thank you for your help. Please come to the Northern Barracks and claim your rightful rewards."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="bossArena">
+		<imgdir name="skill">
+			<string name="0" value="Clear Status: Clears all Abnormal Statuses affecting you. Also clears advantageous effects, though! Cooldown: 4 sec"/>
+			<string name="1" value="Recall: Teleport to your starting point. Cooldown: 30 sec"/>
+			<string name="2" value="Stun Attack: Adds a Stun effect to all attacks for 10 seconds. Damages opponent when in contact. Cooldown: 60 sec"/>
+			<string name="3" value="Heal: Recovers some HP. Cooldown: 60 sec"/>
+		</imgdir>
+		<imgdir name="boss">
+			<string name="0" value="Magnus: Skilled in close and mid-range combat, and can summon meteorites to pressure others."/>
+			<string name="1" value="Prison Guard Ani: Slow but extremely powerful in close-range combat with Seduce skill and Retreat attack."/>
+			<string name="2" value="Arkarium: Good for long-range combat. Possesses multiple skills to incapacitate opponents that come near."/>
+			<string name="3" value="Dragonoir: Quickly use the jump skill twice to fly temporarily. You can attack and use skills during the flight, and there is a cooldown for flying."/>
+			<string name="4" value="Cygnus: Can pressure the opponent by using both summoning skills and long, wide-range attacks."/>
+			<string name="5" value="Von Leon: Powerful in close-range combat and can use Teleport to approach opponents."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="party">
+		<imgdir name="create">
+			<string name="0" value="Party with me!"/>
+			<string name="1" value="Let's party!"/>
+			<string name="2" value="Best party ever!"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="itemCollection">
+		<imgdir name="0">
+			<string name="name" value="3rd Anniversary Weapon"/>
+		</imgdir>
+		<imgdir name="1">
+			<string name="name" value="4th Anniversary Maple Cape"/>
+		</imgdir>
+		<imgdir name="2">
+			<string name="name" value="4th Anniversary Maple Leaf"/>
+		</imgdir>
+		<imgdir name="3">
+			<string name="name" value="6th Anniversary Pyrope Weapon"/>
+		</imgdir>
+		<imgdir name="4">
+			<string name="name" value="7th Anniversary Beryl Weapon"/>
+		</imgdir>
+		<imgdir name="5">
+			<string name="name" value="7th Anniversary Crimson Maple Weapon"/>
+		</imgdir>
+		<imgdir name="6">
+			<string name="name" value="8th Anniversary Amethysian Weapon"/>
+		</imgdir>
+		<imgdir name="7">
+			<string name="name" value="Pearl Maple Weapon"/>
+		</imgdir>
+		<imgdir name="8">
+			<string name="name" value="Onyx Maple Weapon"/>
+		</imgdir>
+		<imgdir name="9">
+			<string name="name" value="Onyx Maple Secondary Weapon"/>
+		</imgdir>
+		<imgdir name="10">
+			<string name="name" value="Maple Saint Weapon"/>
+		</imgdir>
+		<imgdir name="11">
+			<string name="name" value="1500 Anniv. Flag"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="monsterCollection">
+		<imgdir name="title">
+			<string name="0" value="Victoria Island"/>
+			<string name="0_0" value="Victoria Island"/>
+			<string name="0_1" value="Victoria Island"/>
+			<string name="0_2" value="Victoria Island"/>
+			<string name="0_3" value="Victoria Island"/>
+			<string name="0_4" value="Sleepywood"/>
+			<string name="1" value="Near Victoria"/>
+			<string name="1_0" value="Near Victoria"/>
+			<string name="2" value="Edelstein"/>
+			<string name="2_0" value="Edelstein"/>
+			<string name="2_1" value="Scrapyard"/>
+			<string name="3" value="El Nath"/>
+			<string name="3_0" value="Orbis"/>
+			<string name="3_1" value="El Nath"/>
+			<string name="3_2" value="El Nath"/>
+			<string name="4" value="Ludus Lake"/>
+			<string name="4_0" value="Ludibrium"/>
+			<string name="4_1" value="Ludibrium"/>
+			<string name="4_2" value="Ellin Forest"/>
+			<string name="5" value="Aqua Road"/>
+			<string name="5_0" value="Aqua Road"/>
+			<string name="6" value="Nihal Desert"/>
+			<string name="6_0" value="Nihal Desert"/>
+			<string name="6_1" value="Magatia"/>
+			<string name="7" value="Mu Lung Garden"/>
+			<string name="7_0" value="Mu Lung Garden"/>
+			<string name="7_1" value="Mu Lung Garden"/>
+			<string name="8" value="Minar Forest"/>
+			<string name="8_0" value="Minar Forest"/>
+			<string name="8_1" value="Dragon Forest"/>
+			<string name="8_2" value="Kritias"/>
+			<string name="9" value="Temple of Time"/>
+			<string name="9_0" value="Gate of the Past"/>
+			<string name="9_1" value="Gate to the Future"/>
+			<string name="10" value="Grandis"/>
+			<string name="10_0" value="Grandis"/>
+			<string name="10_1" value="Grandis"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

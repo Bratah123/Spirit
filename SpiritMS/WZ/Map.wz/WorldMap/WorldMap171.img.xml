@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="WorldMap171.img">
+	<imgdir name="info">
+		<string name="parentMap" value="WorldMap160"/>
+		<string name="WorldMap" value="WorldMap171"/>
+	</imgdir>
+	<imgdir name="BaseImg">
+		<canvas name="0" width="645" height="474">
+			<vector name="origin" x="320" y="235"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="MapList">
+		<imgdir name="0">
+			<vector name="spot" x="-108" y="115"/>
+			<int name="type" value="0"/>
+			<imgdir name="mapNo">
+				<int name="0" value="807000000"/>
+				<int name="1" value="807030000"/>
+				<int name="2" value="807030100"/>
+				<int name="3" value="807030200"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1">
+			<vector name="spot" x="32" y="159"/>
+			<int name="type" value="1"/>
+			<imgdir name="mapNo">
+				<int name="0" value="807040000"/>
+				<int name="1" value="807040100"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="2">
+			<vector name="spot" x="-140" y="-3"/>
+			<int name="type" value="1"/>
+			<imgdir name="mapNo">
+				<int name="0" value="807010000"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="3">
+			<vector name="spot" x="-192" y="-33"/>
+			<int name="type" value="1"/>
+			<imgdir name="mapNo">
+				<int name="0" value="807010100"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="4">
+			<vector name="spot" x="-50" y="-5"/>
+			<int name="type" value="1"/>
+			<imgdir name="mapNo">
+				<int name="0" value="807020000"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="5">
+			<vector name="spot" x="41" y="5"/>
+			<int name="type" value="1"/>
+			<imgdir name="mapNo">
+				<int name="0" value="807020100"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

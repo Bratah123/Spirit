@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1064030.img">
+	<imgdir name="info">
+		<canvas name="default" width="102" height="143">
+			<vector name="origin" x="51" y="71"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/1064017.img/info/default"/>
+		</canvas>
+		<int name="hideName" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="allure">
+		<int name="special" value="1"/>
+		<canvas name="0" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="1" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="2" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="30000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="anger">
+		<int name="special" value="1"/>
+		<canvas name="0" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1064030.img/allure/0"/>
+		</canvas>
+		<canvas name="1" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1064030.img/allure/1"/>
+		</canvas>
+		<canvas name="2" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="30000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="giggle">
+		<int name="special" value="1"/>
+		<canvas name="0" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1064030.img/allure/0"/>
+		</canvas>
+		<canvas name="1" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1064030.img/allure/1"/>
+		</canvas>
+		<canvas name="2" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="30000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="cry">
+		<int name="special" value="1"/>
+		<canvas name="0" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1064030.img/allure/0"/>
+		</canvas>
+		<canvas name="1" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/1064030.img/allure/1"/>
+		</canvas>
+		<canvas name="2" width="297" height="496">
+			<vector name="origin" x="129" y="476"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="30000"/>
+		</canvas>
+	</imgdir>
+</imgdir>

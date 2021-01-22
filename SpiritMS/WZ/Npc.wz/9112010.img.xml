@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9112010.img">
+	<imgdir name="info">
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="64" height="72">
+			<vector name="origin" x="33" y="72"/>
+			<vector name="lt" x="-32" y="-77"/>
+			<vector name="rb" x="26" y="-7"/>
+			<vector name="head" x="-11" y="-54"/>
+			<int name="delay" value="130"/>
+		</canvas>
+		<canvas name="1" width="62" height="71">
+			<vector name="origin" x="33" y="72"/>
+			<vector name="lt" x="-32" y="-77"/>
+			<vector name="rb" x="26" y="-7"/>
+			<vector name="head" x="-11" y="-54"/>
+			<int name="delay" value="130"/>
+		</canvas>
+		<canvas name="2" width="62" height="71">
+			<vector name="origin" x="33" y="72"/>
+			<vector name="lt" x="-32" y="-77"/>
+			<vector name="rb" x="26" y="-7"/>
+			<vector name="head" x="-11" y="-54"/>
+			<int name="delay" value="130"/>
+		</canvas>
+		<canvas name="3" width="62" height="71">
+			<vector name="origin" x="33" y="72"/>
+			<vector name="lt" x="-32" y="-77"/>
+			<vector name="rb" x="26" y="-7"/>
+			<vector name="head" x="-11" y="-54"/>
+			<int name="delay" value="130"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<string name="58745" value="2"/>
+		<int name="hide" value="1"/>
+		<imgdir name="stand">
+			<canvas name="0" width="64" height="72">
+				<vector name="origin" x="33" y="72"/>
+				<vector name="lt" x="-32" y="-77"/>
+				<vector name="rb" x="26" y="-7"/>
+				<vector name="head" x="-11" y="-54"/>
+				<int name="delay" value="130"/>
+			</canvas>
+			<canvas name="1" width="62" height="71">
+				<vector name="origin" x="33" y="72"/>
+				<vector name="lt" x="-32" y="-77"/>
+				<vector name="rb" x="26" y="-7"/>
+				<vector name="head" x="-11" y="-54"/>
+				<int name="delay" value="130"/>
+			</canvas>
+			<canvas name="2" width="62" height="71">
+				<vector name="origin" x="33" y="72"/>
+				<vector name="lt" x="-32" y="-77"/>
+				<vector name="rb" x="26" y="-7"/>
+				<vector name="head" x="-11" y="-54"/>
+				<int name="delay" value="130"/>
+			</canvas>
+			<canvas name="3" width="62" height="71">
+				<vector name="origin" x="33" y="72"/>
+				<vector name="lt" x="-32" y="-77"/>
+				<vector name="rb" x="26" y="-7"/>
+				<vector name="head" x="-11" y="-54"/>
+				<int name="delay" value="130"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1540914.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+		<int name="forceMove" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="193" height="89">
+			<vector name="origin" x="81" y="89"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="193" height="89">
+			<vector name="origin" x="80" y="89"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="195" height="91">
+			<vector name="origin" x="82" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="195" height="89">
+			<vector name="origin" x="83" y="89"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="195" height="89">
+			<vector name="origin" x="82" y="89"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="special">
+		<int name="special" value="1"/>
+		<canvas name="0" width="195" height="96">
+			<vector name="origin" x="79" y="77"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100000000"/>
+		</canvas>
+	</imgdir>
+</imgdir>

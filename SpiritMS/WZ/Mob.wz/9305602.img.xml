@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9305602.img">
+	<imgdir name="info">
+		<int name="firstAttack" value="1"/>
+		<string name="link" value="3220000"/>
+		<int name="ignoreFieldOut" value="1"/>
+		<int name="bodyAttack" value="1"/>
+		<imgdir name="attack">
+			<imgdir name="0">
+				<int name="action" value="1"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="jumpAttack" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="action" value="2"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="2"/>
+				<int name="bulletSpeed" value="140"/>
+			</imgdir>
+		</imgdir>
+		<int name="level" value="104"/>
+		<int name="maxHP" value="3153600"/>
+		<int name="maxMP" value="3000"/>
+		<int name="speed" value="-60"/>
+		<int name="PADamage" value="1272"/>
+		<int name="PDDamage" value="50"/>
+		<int name="PDRate" value="50"/>
+		<int name="MADamage" value="1260"/>
+		<int name="MDDamage" value="70"/>
+		<int name="MDRate" value="50"/>
+		<int name="acc" value="303"/>
+		<int name="eva" value="80"/>
+		<int name="pushed" value="1000000000"/>
+		<float name="fs" value="10.0"/>
+		<int name="boss" value="1"/>
+		<int name="exp" value="18580"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="2"/>
+		<int name="hpRecovery" value="35"/>
+		<int name="mpRecovery" value="1"/>
+		<string name="mobType" value="7N"/>
+		<float name="finalAdjustedDamageRate" value="0.1"/>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1104305.img">
+	<imgdir name="info">
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="48" height="82">
+			<vector name="origin" x="21" y="82"/>
+			<int name="delay" value="3000"/>
+			<string name="source" value="Npc/1064000.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="48" height="82">
+				<vector name="origin" x="31" y="82"/>
+			</canvas>
+		</imgdir>
+		<int name="20950" value="2"/>
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="condition2">
+		<imgdir name="stand">
+			<canvas name="0" width="48" height="82">
+				<vector name="origin" x="21" y="82"/>
+				<int name="delay" value="3000"/>
+				<string name="source" value="Npc/1064000.img/stand/0"/>
+			</canvas>
+		</imgdir>
+		<int name="20950" value="1"/>
+	</imgdir>
+	<imgdir name="condition3">
+		<imgdir name="stand">
+			<canvas name="0" width="48" height="82">
+				<vector name="origin" x="21" y="82"/>
+				<int name="delay" value="3000"/>
+			</canvas>
+		</imgdir>
+		<int name="20956" value="1"/>
+	</imgdir>
+	<imgdir name="condition4">
+		<imgdir name="stand">
+			<canvas name="0" width="48" height="82">
+				<vector name="origin" x="31" y="82"/>
+			</canvas>
+		</imgdir>
+		<int name="20956" value="2"/>
+		<int name="hide" value="1"/>
+	</imgdir>
+</imgdir>

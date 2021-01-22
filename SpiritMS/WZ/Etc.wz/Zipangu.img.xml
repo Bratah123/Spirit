@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="Zipangu.img">
+	<imgdir name="Npc">
+		<imgdir name="0">
+			<int name="skillID" value="-1"/>
+		</imgdir>
+		<imgdir name="1">
+			<int name="skillID" value="80011290"/>
+		</imgdir>
+		<imgdir name="2">
+			<int name="skillID" value="80011294"/>
+		</imgdir>
+		<imgdir name="3">
+			<int name="skillID" value="-5"/>
+		</imgdir>
+		<imgdir name="4">
+			<int name="skillID" value="-3"/>
+		</imgdir>
+		<imgdir name="5">
+			<int name="skillID" value="-2"/>
+		</imgdir>
+		<imgdir name="6">
+			<int name="skillID" value="80011291"/>
+		</imgdir>
+		<imgdir name="7">
+			<int name="skillID" value="80011293"/>
+		</imgdir>
+		<imgdir name="8">
+			<int name="skillID" value="-4"/>
+		</imgdir>
+		<imgdir name="9">
+			<int name="skillID" value="80011292"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="Combine">
+		<imgdir name="012">
+			<int name="option" value="70000"/>
+			<string name="name" value="Between Human and Yokai"/>
+			<string name="0" value="Hmph, it's a clear fact that Yokai cannot coexist with Humans..."/>
+			<string name="1" value="I believe that someday Humans and Yokai will get along."/>
+			<string name="2" value="Sooooo.... By that logic, how do you coexist with your sister?"/>
+		</imgdir>
+		<imgdir name="013">
+			<int name="option" value="70001"/>
+			<string name="name" value="Damsels and Detectives"/>
+			<string name="0" value="What do you want with my sister, old-manbaby?"/>
+			<string name="1" value="I'm grateful I have both of you to take care of me."/>
+			<string name="3" value="I'll tolerate that because Takeno is here..."/>
+		</imgdir>
+		<imgdir name="014">
+			<int name="option" value="70002"/>
+			<string name="name" value="Stilted Romance"/>
+			<string name="0" value="Why is he always bothering Takeno?"/>
+			<string name="1" value="I think Nue is just being nice because he's a good person."/>
+			<string name="4" value="Excuse me... Takeno..."/>
+		</imgdir>
+		<imgdir name="015">
+			<int name="option" value="70003"/>
+			<string name="name" value="Flowers and Fiends"/>
+			<string name="0" value="I don't care what some Yokai thinks. "/>
+			<string name="1" value="I hate it when you talk like that..."/>
+			<string name="5" value="Everyone has their own tragedy. Get over yourself."/>
+		</imgdir>
+		<imgdir name="016">
+			<int name="option" value="70004"/>
+			<string name="name" value="Bound By Duty"/>
+			<string name="0" value="Why are you worrying over some Fox?"/>
+			<string name="1" value="I'm happy that Kurama is no longer a hermit."/>
+			<string name="6" value="Are you really sisters? You seem like complete opposites!"/>
+		</imgdir>
+		<imgdir name="017">
+			<int name="option" value="70005"/>
+			<string name="name" value="Zipangu Flowers"/>
+			<string name="0" value="Isn't Takeno the prettiest in all of Zipangu?"/>
+			<string name="1" value="No, no... I think Kino and Izuna are prettier."/>
+			<string name="7" value="Girls, please. Let's not fight over who's prettiest. I don't want to hurt anyone's feelings."/>
+		</imgdir>
+		<imgdir name="018">
+			<int name="option" value="70006"/>
+			<string name="name" value="Great Benefactor"/>
+			<string name="0" value="What's Tengu really after? "/>
+			<string name="1" value="I wouldn't be here today if it weren't for Tengu's help. "/>
+			<string name="8" value="………"/>
+		</imgdir>
+		<imgdir name="019">
+			<int name="option" value="70007"/>
+			<string name="name" value="Bickering Beauties"/>
+			<string name="0" value="Takeno doesn't have to listen to some kid like you."/>
+			<string name="1" value="If I was healthy everyone wouldn't have to fuss over me."/>
+			<string name="9" value="After everything, a bunch of Yokai have done more for your sister than you!"/>
+		</imgdir>
+		<imgdir name="023">
+			<int name="option" value="70008"/>
+			<string name="name" value="More than Meets the Eye"/>
+			<string name="0" value="I can't tell if you're both acting or just really weird."/>
+			<string name="2" value="I'm a man of many mysteries!"/>
+			<string name="3" value="I'm not gonna take any guff from you, kid!"/>
+		</imgdir>
+		<imgdir name="024">
+			<int name="option" value="70009"/>
+			<string name="name" value="An Unlikely Bunch"/>
+			<string name="0" value="Takeno doesn't need any of you when she's got me!"/>
+			<string name="2" value="You just keep telling yourself that, buddy."/>
+			<string name="4" value="Even if you're right... I'm not won't give up on her! "/>
+		</imgdir>
+		<imgdir name="025">
+			<int name="option" value="70010"/>
+			<string name="name" value="Stubborn By Blood"/>
+			<string name="0" value="Even if Humans and Yokai are the same, my behavior was justified. "/>
+			<string name="2" value="Don't sweat it. Everybody's got some kinda crippling tragedy."/>
+			<string name="5" value="Tragedy? Ibaraki had a choice, I did not. "/>
+		</imgdir>
+		<imgdir name="026">
+			<int name="option" value="70011"/>
+			<string name="name" value="Dumb and Dumber"/>
+			<string name="0" value="I don't think you're in a position to be giving advice."/>
+			<string name="2" value="You should be more positive."/>
+			<string name="6" value="Okay! I'll do my best!"/>
+		</imgdir>
+		<imgdir name="027">
+			<int name="option" value="70012"/>
+			<string name="name" value="Lunch Buddies"/>
+			<string name="0" value="I'm eating with two Yokai instead of my sister? I think I need a minute..."/>
+			<string name="2" value="How 'bout now? I'm starving!"/>
+			<string name="7" value="We should grab a bite together sometime! "/>
+		</imgdir>
+		<imgdir name="028">
+			<int name="option" value="70013"/>
+			<string name="name" value="Silence is Golden"/>
+			<string name="0" value="I would not have let Ibaraki stay at the shrine if I knew he'd be this loud."/>
+			<string name="2" value="What? This is my normal speaking voice! If anything, you're talking too quiet."/>
+			<string name="8" value="……."/>
+		</imgdir>
+		<imgdir name="029">
+			<int name="option" value="70014"/>
+			<string name="name" value="Strange Companions"/>
+			<string name="0" value="Yokai are so mysterious and hard to understand."/>
+			<string name="2" value="What? Humans are the weird ones! "/>
+			<string name="9" value="I think Humans are strange too. Falling for an obvious ploy like Genkou's..."/>
+		</imgdir>
+		<imgdir name="034">
+			<string name="0" value="As Yokai go, you two are the worst of the worst."/>
+			<string name="3" value="You're welcome to hate me, but how could you lump me in with a drama-king like that kid?"/>
+			<string name="4" value="Pfft. I don't care what some Human thinks."/>
+			<string name="name" value="The Insufferables"/>
+			<int name="option" value="70015"/>
+		</imgdir>
+		<imgdir name="035">
+			<string name="0" value="Is the old weasel trying to justify himself?"/>
+			<string name="3" value="What? I had no choice!"/>
+			<string name="5" value="I will claim my revenge some day. "/>
+			<string name="name" value="Obvious Enemies"/>
+			<int name="option" value="70016"/>
+		</imgdir>
+		<imgdir name="036">
+			<string name="0" value="I can't tell which of you looks younger."/>
+			<string name="3" value="Wha...? What's wrong with my face?"/>
+			<string name="6" value="There's nothing wrong with being young! "/>
+			<string name="name" value="Babyfaced"/>
+			<int name="option" value="70017"/>
+		</imgdir>
+		<imgdir name="037">
+			<string name="0" value="Why are you both always asking my sister to do things? "/>
+			<string name="3" value="If she didn't want to buy me dango, she would've said something!"/>
+			<string name="7" value="Takeno isn't your personal property!"/>
+			<string name="name" value="Possessive"/>
+			<int name="option" value="70018"/>
+		</imgdir>
+		<imgdir name="038">
+			<string name="0" value="Something strange is going on between you two..."/>
+			<string name="3" value="Huh? What are you talking about?"/>
+			<string name="8" value="Err..."/>
+			<string name="name" value="Embarrassing Secrets"/>
+			<int name="option" value="70019"/>
+		</imgdir>
+		<imgdir name="039">
+			<string name="0" value="Why do you have the face of a child?"/>
+			<string name="3" value="Heh, you're just jealous of my baby-smooth skin."/>
+			<string name="9" value="YOROZU HAS THE NICEST SKIN OF ANYONE!"/>
+			<string name="name" value="Youthful Glow"/>
+			<int name="option" value="70020"/>
+		</imgdir>
+		<imgdir name="045">
+			<string name="0" value="Kubinashi... Why do you hang out with Nue of all people? "/>
+			<string name="4" value="That's because I'm so obviously great! Muhahaha!"/>
+			<string name="5" value="...I look to the future, not the present."/>
+			<string name="name" value="Late Bloomer"/>
+			<int name="option" value="70021"/>
+		</imgdir>
+		<imgdir name="046">
+			<string name="0" value="You know, you two sort of look alike."/>
+			<string name="4" value="Don't be ridiculous!"/>
+			<string name="6" value="...Huh?"/>
+			<string name="name" value="Living in Denial"/>
+			<int name="option" value="70022"/>
+		</imgdir>
+		<imgdir name="047">
+			<string name="0" value="Why don't you stop bothering my sister and go hang out with that Fox Yokai over there?"/>
+			<string name="4" value="Izuna is also pretty but... Ta... Takeno is the only one for me!"/>
+			<string name="7" value="HAHAHAHAHAHA! ...Oh sorry, you were serious. "/>
+			<string name="name" value="Stubborn Love"/>
+			<int name="option" value="70023"/>
+		</imgdir>
+		<imgdir name="048">
+			<string name="0" value="Takeno wouldn't waste her time with either of you!"/>
+			<string name="4" value="I'm a far more suitable match than some crow!"/>
+			<string name="8" value="Huh? Takeno is like a little sister to me."/>
+			<string name="name" value="Love Rivals(?)"/>
+			<int name="option" value="70024"/>
+		</imgdir>
+		<imgdir name="049">
+			<string name="0" value="If you don't stop bugging my sister, I'm going to kick you out of the Mushroom Shrine! "/>
+			<string name="4" value="Y-you can't do that! It's destiny!"/>
+			<string name="9" value="Your sister isn't going to find ANYBODY with you hovering around all the time."/>
+			<string name="name" value="Overprotective"/>
+			<int name="option" value="70025"/>
+		</imgdir>
+		<imgdir name="056">
+			<string name="0" value="I think Kubinashi and I might actually get along if I met her before she was a creepy ghost lady. "/>
+			<string name="5" value="What do you expect me to do? Travel back in time? "/>
+			<string name="6" value="I wouldn't mind a do-over either... "/>
+			<string name="name" value="Ancient History"/>
+			<int name="option" value="70026"/>
+		</imgdir>
+		<imgdir name="057">
+			<string name="0" value="I don't like how Kubinashi acts towards my sister. And Izuna's way too close!"/>
+			<string name="5" value="..."/>
+			<string name="7" value="Someone needs to chill out."/>
+			<string name="name" value="Oversensitive"/>
+			<int name="option" value="70027"/>
+		</imgdir>
+		<imgdir name="058">
+			<string name="0" value="I feel like Tengu's plotting something..."/>
+			<string name="5" value="That piercing gaze... It's as though he's reading my thoughts."/>
+			<string name="8" value="W-what? I think you have the wrong idea bout me."/>
+			<string name="name" value="The Misunderstanding"/>
+			<int name="option" value="70028"/>
+		</imgdir>
+		<imgdir name="059">
+			<string name="0" value="It's amazing that there are Yokai smarter than Humans..."/>
+			<string name="5" value="Hmph. Yorozu cannot match my years of experience."/>
+			<string name="9" value="Clearly quality of study is more important than quantity. YOROZU IS SMARTER THAN YOU!"/>
+			<string name="name" value="Elitist Yokai"/>
+			<int name="option" value="70029"/>
+		</imgdir>
+		<imgdir name="067">
+			<string name="0" value="I don't really care or anything, but... why aren't you two going out?"/>
+			<string name="6" value="Heh... I like Izuna, but she can be a little scary sometimes."/>
+			<string name="7" value="Hmph! I already get enough attention."/>
+			<string name="name" value="Kooky Kids"/>
+			<int name="option" value="70030"/>
+		</imgdir>
+		<imgdir name="068">
+			<string name="0" value="I don't have the patience to be nice to any Yokai that isn't my sister."/>
+			<string name="6" value="This place is full of scary people!"/>
+			<string name="8" value="I'm not scary. "/>
+			<string name="name" value="Subjective Terror"/>
+			<int name="option" value="70031"/>
+		</imgdir>
+		<imgdir name="069">
+			<string name="0" value="Why does Kurama smell more like a fox than Izuna?"/>
+			<string name="6" value="That's because the of the Nine-Tailed Fox is still inside me. "/>
+			<string name="9" value="Yorozu will investigate the source of the Nine-Tailed Fox's power! ...REVEAL YOUR SECRETS!"/>
+			<string name="name" value="Power of the Nine-Tailed Fox"/>
+			<int name="option" value="70032"/>
+		</imgdir>
+		<imgdir name="078">
+			<string name="0" value="Acting mature isn't proof someone's a good person. "/>
+			<string name="7" value="I think Tengu still acts like a kid sometimes."/>
+			<string name="8" value="How do adults act?"/>
+			<string name="name" value="Mature Adult"/>
+			<int name="option" value="70033"/>
+		</imgdir>
+		<imgdir name="079">
+			<string name="0" value="I guess I can put up with anything as long as Takeno is happy..."/>
+			<string name="7" value="I'm just happy that Kura is back in my life. "/>
+			<string name="9" value="Yorozu's life is free of hardship as long as she has access to cucumbers and bathes regularly!"/>
+			<string name="name" value="Self-Sacrifice"/>
+			<int name="option" value="70034"/>
+		</imgdir>
+		<imgdir name="089">
+			<string name="0" value="Don't you think Yorozu's a little young to be doing all your work for you?"/>
+			<string name="8" value="Huh? But I never ask her to do anything..."/>
+			<string name="9" value="Mr. Tengu's only flaw is his laziness. It's okay! YOROZU WILL DO IT!"/>
+			<string name="name" value="Brutal Taskmaster"/>
+			<int name="option" value="70035"/>
+		</imgdir>
+		<imgdir name="123">
+			<string name="1" value="Ibaraki lost Gyuki... Would things be different if I was more self-reliant?"/>
+			<string name="2" value="Don't be ridiculous. I miss Gyuki,  but what happened to him is no one's fault."/>
+			<string name="3" value="Such a tragedy should never have happened in the first place!"/>
+			<string name="name" value="Condolences"/>
+			<int name="option" value="70036"/>
+		</imgdir>
+		<imgdir name="124">
+			<string name="1" value="I think both Ibaraki and Nue are good people."/>
+			<string name="2" value="Ugh. Please don't compare me to Nue... "/>
+			<string name="4" value="Ibaraki, I challenge you to a duel!"/>
+			<string name="name" value="Dangerous Attention"/>
+			<int name="option" value="70037"/>
+		</imgdir>
+		<imgdir name="125">
+			<string name="1" value="There's no reason for any of us to fight."/>
+			<string name="2" value="Good luck convincing Kubinashi of that."/>
+			<string name="5" value="Hmph. I don't know whether you are naive, or a fool. "/>
+			<string name="name" value="Difference of Opinion"/>
+			<int name="option" value="70038"/>
+		</imgdir>
+		<imgdir name="126">
+			<string name="1" value="Kurama and Ibaraki are always so cheerful! "/>
+			<string name="2" value="You only get one life, no point wasting time complaining! "/>
+			<string name="6" value="I'm the king of positivity!"/>
+			<string name="name" value="Unjustifiably Cheerful"/>
+			<int name="option" value="70039"/>
+		</imgdir>
+		<imgdir name="127">
+			<string name="1" value="Please don't hate my sister."/>
+			<string name="2" value="Hate her? She's the reason I've made so many friends!"/>
+			<string name="7" value="I don't hate her. We were able to help Kurama by gathering the Five Elements. "/>
+			<string name="name" value="Alternative Perspective"/>
+			<int name="option" value="70040"/>
+		</imgdir>
+		<imgdir name="128">
+			<string name="1" value="I am truly grateful to all those that helped me."/>
+			<string name="2" value="Takeno has a heart of gold."/>
+			<string name="8" value="I merely did what was required of me."/>
+			<string name="name" value="Gratitude"/>
+			<int name="option" value="70041"/>
+		</imgdir>
+		<imgdir name="129">
+			<string name="1" value="I wish all Yokai could get along with Humans like Ibaraki does."/>
+			<string name="2" value="Give it a few decades! We'll be there sooner than you think. "/>
+			<string name="9" value="YOROZU DOES NOT WANT TO HANG OUT WITH SMELLY HUMANS!"/>
+			<string name="name" value="Love for Humanity"/>
+			<int name="option" value="70042"/>
+		</imgdir>
+		<imgdir name="134">
+			<string name="1" value="I'm grateful to you both for spending so much time looking after me."/>
+			<string name="3" value="It's because you're like a daughter to me."/>
+			<string name="4" value="Get lost, creepy old weasel! Stay away from Takeno!"/>
+			<string name="name" value="Questionable Motive"/>
+			<int name="option" value="70043"/>
+		</imgdir>
+		<imgdir name="135">
+			<string name="1" value="Kubinashi, I'm really sorry about what happened to you but... Kamaitachi regrets his actions!"/>
+			<string name="3" value="I don't know how many times I've apologized!"/>
+			<string name="5" value="No amount of apologies will ever be sufficient recourse for taking my life. "/>
+			<string name="name" value="Accidental Murder"/>
+			<int name="option" value="70044"/>
+		</imgdir>
+		<imgdir name="136">
+			<string name="1" value="Kamaitachi's role as chief investigator is a great help to the Mushroom Shrine."/>
+			<string name="3" value="Heh, I'm a shining example to young Yokai everywhere!"/>
+			<string name="6" value="Heh... I'm happy the way I am."/>
+			<string name="name" value="Chief Investigator Kamaitachi"/>
+			<int name="option" value="70045"/>
+		</imgdir>
+		<imgdir name="137">
+			<string name="1" value="I enjoy tea time with Izuna."/>
+			<string name="3" value="I like tea! How come I wasn't invited?"/>
+			<string name="7" value="I always have time for tea with Takeno. "/>
+			<string name="name" value="Afternoon Tea Time"/>
+			<int name="option" value="70046"/>
+		</imgdir>
+		<imgdir name="138">
+			<string name="1" value="I'm so thankful that Daidarabotchi sent you both to help me."/>
+			<string name="3" value="Daidarabotchi? I don't take orders from from magic spirit-ladies!  "/>
+			<string name="8" value="It was fate that brought us together, not Daidarabotchi. "/>
+			<string name="name" value="Daidarabotchi's Will"/>
+			<int name="option" value="70047"/>
+		</imgdir>
+		<imgdir name="139">
+			<string name="1" value="I think Yorozu would be even cuter if she dressed more like a child. "/>
+			<string name="3" value="I think Yorozu's personality is what makes her so cute."/>
+			<string name="9" value="YOROZU DOES NOT WANY ANY MORE ATTENTION!"/>
+			<string name="name" value="Room for Improvement"/>
+			<int name="option" value="70048"/>
+		</imgdir>
+		<imgdir name="145">
+			<string name="1" value="I think Kubinashi and Nue look like a family."/>
+			<string name="4" value="Takeno Konoko... will you be my family?"/>
+			<string name="5" value="Nue, stop being silly."/>
+			<string name="name" value="Silly"/>
+			<int name="option" value="70049"/>
+		</imgdir>
+		<imgdir name="146">
+			<string name="1" value="My sister is my family. I don't know what I'd do without her. "/>
+			<string name="4" value="I have Kubinashi!"/>
+			<string name="6" value="I have Izuna!"/>
+			<string name="name" value="Never Alone"/>
+			<int name="option" value="70050"/>
+		</imgdir>
+		<imgdir name="147">
+			<string name="1" value="Nue is so kind. Why don't the three of us have tea next time? "/>
+			<string name="4" value="I'm only kind to you, Takeno. "/>
+			<string name="7" value="Takeno is oblivious... Nue should just give up. "/>
+			<string name="name" value="Nue's Kindness"/>
+			<int name="option" value="70051"/>
+		</imgdir>
+		<imgdir name="148">
+			<string name="1" value="Nue and Tengu are always there for me."/>
+			<string name="4" value="You! Why are you hanging around Takeno?"/>
+			<string name="8" value="I think there's been a misunderstanding..."/>
+			<string name="name" value="Love Triangle (?)"/>
+			<int name="option" value="70052"/>
+		</imgdir>
+		<imgdir name="149">
+			<string name="1" value="Do I really look like an old lady?"/>
+			<string name="4" value="Takeno Konoko is p... pretty... don't listen to her words. She's just blinded by jealousy. "/>
+			<string name="9" value="ANY LADY OLDER THAN YOROZU IS AN OLD LADY!"/>
+			<string name="name" value="Age is a Number"/>
+			<int name="option" value="70053"/>
+		</imgdir>
+		<imgdir name="156">
+			<string name="1" value="Kura, are you still afraid of the Nine-Tailed Fox's power?"/>
+			<string name="5" value="It's natural to be afraid of power stronger than you. There's no need to be ashamed. "/>
+			<string name="6" value="The Nine-Tailed Fox is still part of me, but I'm not afraid anymore. Hehe."/>
+			<string name="name" value="A New Leaf"/>
+			<int name="option" value="70054"/>
+		</imgdir>
+		<imgdir name="157">
+			<string name="1" value="Brawns' food is delicious."/>
+			<string name="5" value="One of the things I miss most about being alive is hot food. "/>
+			<string name="7" value="I prefer a hot glass of tea myself."/>
+			<string name="name" value="Hot Food"/>
+			<int name="option" value="70055"/>
+		</imgdir>
+		<imgdir name="158">
+			<string name="1" value="Tengu, what kind of person were you in the past? Where did you come from?"/>
+			<string name="5" value="Some questions are best unanswered. "/>
+			<string name="8" value="I committed many sins in my former life. "/>
+			<string name="name" value="Shadow of a Dark Past"/>
+			<int name="option" value="70056"/>
+		</imgdir>
+		<imgdir name="159">
+			<string name="1" value="Yorozu, I heard you studied in Showa. Is that why you're so smart? "/>
+			<string name="5" value="Is Showa known for its education programs?"/>
+			<string name="9" value="Yorozu learned a lot in Showa! It's way more advanced than here!"/>
+			<string name="name" value="Yorozu, Student from Showa"/>
+			<int name="option" value="70057"/>
+		</imgdir>
+		<imgdir name="167">
+			<string name="1" value="Back when I lived in the village, Izuna would visit me from time to time. "/>
+			<string name="6" value="Is that where Izuna went at night? "/>
+			<string name="7" value="I'm not like Kura, I feel cooped up spending all my time on Fox Mountain. "/>
+			<string name="name" value="Izuna's Night in Town"/>
+			<int name="option" value="70058"/>
+		</imgdir>
+		<imgdir name="168">
+			<string name="1" value="Tengu... you always protect me without a complaint!"/>
+			<string name="6" value="When I'm older I want to be like Tengu!"/>
+			<string name="8" value="I'm not that mature..."/>
+			<string name="name" value="Better with Age"/>
+			<int name="option" value="70059"/>
+		</imgdir>
+		<imgdir name="169">
+			<string name="1" value="It's hard for me to feel bad about Genkou."/>
+			<string name="6" value="Ugh... And what he did to those monks..."/>
+			<string name="9" value="I wouldn't be who I am today if it wasn't for Genkou's cruelty."/>
+			<string name="name" value="Genkou"/>
+			<int name="option" value="70060"/>
+		</imgdir>
+		<imgdir name="178">
+			<string name="1" value="You know, I don't think I've ever seen Tengu laugh. "/>
+			<string name="7" value="Tengu's laughter... even I'm curious what that sounds like. "/>
+			<string name="8" value="Not everyone laughs. "/>
+			<string name="name" value="A Crow's Laughter"/>
+			<int name="option" value="70061"/>
+		</imgdir>
+		<imgdir name="179">
+			<string name="1" value="Are all Kappas rude?"/>
+			<string name="7" value="ARE YOU CALLING ME OLD?! How dare you! I'm not even married yet..."/>
+			<string name="9" value="Yorozu doesn't want to be like you when she grows up!"/>
+			<string name="name" value="Age Before Beauty"/>
+			<int name="option" value="70062"/>
+		</imgdir>
+		<imgdir name="189">
+			<string name="1" value="Tengu, I'm grateful for all your help."/>
+			<string name="8" value="I did no more than anyone else. "/>
+			<string name="9" value="You should thank Yorozu too!"/>
+			<string name="name" value="Thanks To"/>
+			<int name="option" value="70063"/>
+		</imgdir>
+		<imgdir name="234">
+			<string name="2" value="Somebody said Kamaitachi's scythe is made from Moonstones... Is it true?"/>
+			<string name="3" value="Huh? Where did you hear that rumor?"/>
+			<string name="4" value="... (I definitely heard Yorozu say something like that...)"/>
+			<string name="name" value="News Travels Fast"/>
+			<int name="option" value="70064"/>
+		</imgdir>
+		<imgdir name="235">
+			<string name="2" value="I'm sure Kamaitachi and Kubinashi will be able to set aside their grudge someday."/>
+			<string name="3" value="It's gonna be hard while she's trying to kill me..."/>
+			<string name="5" value="I won't give up until my enemy is dead."/>
+			<string name="name" value="The Immortal Grudge"/>
+			<int name="option" value="70065"/>
+		</imgdir>
+		<imgdir name="236">
+			<string name="2" value="Hey Kurama, show us the Nine-Tailed Fox!"/>
+			<string name="3" value="How about a duel? My scythe against your Nine-Tailed Fox?"/>
+			<string name="6" value="I'm not going to awaken the Nine-Tailed Fox for your amusement!"/>
+			<string name="name" value="Curiosity Kills"/>
+			<int name="option" value="70066"/>
+		</imgdir>
+		<imgdir name="237">
+			<string name="2" value="It's hard to find a beauty like Izuna, even in the Human world."/>
+			<string name="3" value="Wait... Are you saying some Human girls are even prettier? I'm just asking out of curiosity..."/>
+			<string name="7" value="Hahaha. I was once crowned 'Miss Fox Mountain,' and I didn't even enter the contest! "/>
+			<string name="name" value="Miss Fox Mountain"/>
+			<int name="option" value="70067"/>
+		</imgdir>
+		<imgdir name="238">
+			<string name="2" value="Kamaitachi, what's up with Tengu staring at you all the time?"/>
+			<string name="3" value="What? Is Tengu out to get me like Kubinashi?"/>
+			<string name="8" value="You misinterpret my look."/>
+			<string name="name" value="A Significant Look"/>
+			<int name="option" value="70068"/>
+		</imgdir>
+		<imgdir name="239">
+			<string name="2" value="Y'know, I think that between the two of you, Yorozu actually looks younger."/>
+			<string name="3" value="Hahaha! You'd better stop before you make her mad."/>
+			<string name="9" value="YOROZU WILL NOT BE ASHAMED OF HER YOUTHFUL APPEARANCE! "/>
+			<string name="name" value="Yorozu and Kamaitachi"/>
+			<int name="option" value="70069"/>
+		</imgdir>
+		<imgdir name="245">
+			<string name="2" value="Hey, Nue I'm sorry you blew it with Takeno. Even if it was hilarious."/>
+			<string name="4" value="Ibaraki! You have to help me from now on."/>
+			<string name="5" value="Nue, this is no time for childish crushes."/>
+			<string name="name" value="The (Immature) Young Master"/>
+			<int name="option" value="70070"/>
+		</imgdir>
+		<imgdir name="246">
+			<string name="2" value="I'm the smartest one here."/>
+			<string name="4" value="Don't be silly. There's no one that can beat my dazzling intellect."/>
+			<string name="6" value="Huh? Don't look at me..."/>
+			<string name="name" value="3 Idiot"/>
+			<int name="option" value="70071"/>
+		</imgdir>
+		<imgdir name="247">
+			<string name="2" value="Nue, what do you think of Izuna? "/>
+			<string name="4" value="Izuna's beauty makes her a suitable match for someone like me."/>
+			<string name="7" value="Sorry Nue, you're not my type."/>
+			<string name="name" value="Self-Confidence"/>
+			<int name="option" value="70072"/>
+		</imgdir>
+		<imgdir name="248">
+			<string name="2" value="It seems Nue thinks Tengu is his rival..."/>
+			<string name="4" value="I won't forgive you if you keep hanging around Takeno!"/>
+			<string name="8" value="This is all a misunderstanding."/>
+			<string name="name" value="Selective Hearing"/>
+			<int name="option" value="70073"/>
+		</imgdir>
+		<imgdir name="249">
+			<string name="2" value="There are always a few bad apples, but most Humans are good."/>
+			<string name="4" value="You two are so nice to Humans. It's weird. "/>
+			<string name="9" value="Any Human is better than a cannibalistic Yokai! That's what Yorozu thinks."/>
+			<string name="name" value="Fans of Humanity"/>
+			<int name="option" value="70074"/>
+		</imgdir>
+		<imgdir name="256">
+			<string name="2" value="Hey Kubinashi, do you wear that scarf because it matches your clothes?"/>
+			<string name="5" value="This ribbon is dyed red with my own blood, a symbol of the revenge that is to come. "/>
+			<string name="6" value="Huh? Didn't Nue say it was to cover the wound on your neck...?"/>
+			<string name="name" value="Secret Of the Scarf"/>
+			<int name="option" value="70075"/>
+		</imgdir>
+		<imgdir name="257">
+			<string name="2" value="That hardest thing to do while pretending to be a Human is eating... Oh! But that delicious soda pop."/>
+			<string name="5" value="I haven't been able to taste anything since I died.... Kamaitachi! You will pay for this!"/>
+			<string name="7" value="...I like cherries."/>
+			<string name="name" value="Same Bed, Different Dreams"/>
+			<int name="option" value="70076"/>
+		</imgdir>
+		<imgdir name="258">
+			<string name="2" value="Tengu's solemn attitude is a little spooky."/>
+			<string name="5" value="Isn't it better than being hopelessly sunny all the time?"/>
+			<string name="8" value="Light and dark exist to give balance to one another."/>
+			<string name="name" value="Light and Darkness"/>
+			<int name="option" value="70077"/>
+		</imgdir>
+		<imgdir name="259">
+			<string name="2" value="(Sighs) It's hard living as a Human."/>
+			<string name="5" value="I would happily rejoin their ranks, had I the choice. "/>
+			<string name="9" value="I liked the time I spent in Showa Town."/>
+			<string name="name" value="Living with Humans"/>
+			<int name="option" value="70078"/>
+		</imgdir>
+		<imgdir name="267">
+			<string name="2" value="Seeing Kurama and Izuna together reminds me of my friendship with Gyuki."/>
+			<string name="6" value="Izuna is more important to me than family. We grew up together."/>
+			<string name="7" value="...Kura is precious to me too. "/>
+			<string name="name" value="Childhood Friends"/>
+			<int name="option" value="70079"/>
+		</imgdir>
+		<imgdir name="268">
+			<string name="2" value="(Whisper, whisper)"/>
+			<string name="6" value="(Whisper, whisper)"/>
+			<string name="8" value="You two are beginning to resemble one another."/>
+			<string name="name" value="Instant Friends"/>
+			<int name="option" value="70080"/>
+		</imgdir>
+		<imgdir name="269">
+			<string name="2" value="If Yorozu is going to act like a child, she should hang out with other kids."/>
+			<string name="6" value="She's really smart for her age."/>
+			<string name="9" value="YOROZU IS NOT A CHILD!"/>
+			<string name="name" value="Elegant Lady"/>
+			<int name="option" value="70081"/>
+		</imgdir>
+		<imgdir name="278">
+			<string name="2" value="Nice girls like Izuna should be careful around people like Tengu."/>
+			<string name="7" value="I'm always careful about everything."/>
+			<string name="8" value="I see you're the source of the rumors..."/>
+			<string name="name" value="Mudslinging"/>
+			<int name="option" value="70082"/>
+		</imgdir>
+		<imgdir name="279">
+			<string name="2" value="Haha, I wouldn't mind having a little sister like Yorozu, if she were a little sweeter."/>
+			<string name="7" value="You can't talk about sweetness and leave me out."/>
+			<string name="9" value="Hmph. Being sweet is just a ruse to hide one's flaws."/>
+			<string name="name" value="Sweet Izuna"/>
+			<int name="option" value="70083"/>
+		</imgdir>
+		<imgdir name="289">
+			<string name="2" value="Don't look at me like that, pal."/>
+			<string name="8" value="You seem to be acting as though you've done something wrong..."/>
+			<string name="9" value="WHAT ARE YOU UP TO, SPIKEY HEAD? "/>
+			<string name="name" value="Guilty Conscience"/>
+			<int name="option" value="70084"/>
+		</imgdir>
+		<imgdir name="345">
+			<string name="3" value="You're not going to start another cult up, are you Nue?"/>
+			<string name="4" value="I refuse to relive the humiliation of that day, but one day I will resume preaching the TRUE gospel of Nue."/>
+			<string name="5" value="I'd rather you didn't bring it up... "/>
+			<string name="name" value="One Step Forward"/>
+			<int name="option" value="70085"/>
+		</imgdir>
+		<imgdir name="346">
+			<string name="3" value="What's up with this generation? An angsty young narcissist, and an antisocial hermit..."/>
+			<string name="4" value="I'm not angsty!"/>
+			<string name="6" value="Huh? Are you talking about me?"/>
+			<string name="name" value="Kids These Days"/>
+			<int name="option" value="70086"/>
+		</imgdir>
+		<imgdir name="347">
+			<string name="3" value="There ought to be more girls out there like Izuna. "/>
+			<string name="4" value="You old pervert... Are women all you think about?"/>
+			<string name="7" value="Nue... you realize you spend half your time following Takeno around, right?"/>
+			<string name="name" value="Hypocrisy"/>
+			<int name="option" value="70087"/>
+		</imgdir>
+		<imgdir name="348">
+			<string name="3" value="Ugh, my head hurts."/>
+			<string name="4" value="One day, I'll rule Zipangu... and then the world!"/>
+			<string name="8" value="Take deep breaths, Kamaitachi. In, and out..."/>
+			<string name="name" value="Long-term Goals"/>
+			<int name="option" value="70088"/>
+		</imgdir>
+		<imgdir name="349">
+			<string name="3" value="Listen kid, if we're taking bets, my money's on Yorozu."/>
+			<string name="4" value="How dare you ignore me... You'll regret it when I conquer the world!"/>
+			<string name="9" value="YOROZU WILL BE A KIND AND REASONABLE LEADER, AND SHE WILL RULE WITH AN IRON FIST."/>
+			<string name="name" value="Plans for World Domination"/>
+			<int name="option" value="70089"/>
+		</imgdir>
+		<imgdir name="356">
+			<string name="3" value="I thought we had a truce?"/>
+			<string name="5" value="I agreed to no such thing!"/>
+			<string name="6" value="Kubinashi, calm down! Revenge won't get you anywhere."/>
+			<string name="name" value="Renewing the Ceasefire"/>
+			<int name="option" value="70090"/>
+		</imgdir>
+		<imgdir name="357">
+			<string name="3" value="I'm sorry, Izuna, but there's somebody else... Kubinashi and I..."/>
+			<string name="5" value="W-what? Enough of your pranks, weasel."/>
+			<string name="7" value="What are you talkin about? I don't understand what's happening right now..."/>
+			<string name="name" value="Strange Secrets"/>
+			<int name="option" value="70091"/>
+		</imgdir>
+		<imgdir name="358">
+			<string name="3" value="I'm sorry! I'm sorry! "/>
+			<string name="5" value="I won't accept an apology that's not from the heart."/>
+			<string name="8" value="This isn't a bad look on you, Kamaitachi."/>
+			<string name="name" value="Natural Enemies"/>
+			<int name="option" value="70092"/>
+		</imgdir>
+		<imgdir name="359">
+			<string name="3" value="Hey, Yorozu. Can you talk some sense into Kubinashi?"/>
+			<string name="5" value="You think I'll listen if she tries to stop me?"/>
+			<string name="9" value="Oh no, I think getting revenge is the right call."/>
+			<string name="name" value="Unexpected Allies"/>
+			<int name="option" value="70093"/>
+		</imgdir>
+		<imgdir name="367">
+			<string name="3" value="Hey, is it true you proposed to Izuna?"/>
+			<string name="6" value="Eek! Who said that? That's something that happened when we were kids..."/>
+			<string name="7" value="Hmph, I don't care even if he proposes 100 times."/>
+			<string name="name" value="Sleeping Dogs"/>
+			<int name="option" value="70094"/>
+		</imgdir>
+		<imgdir name="368">
+			<string name="3" value="I'm way better than Tengu!"/>
+			<string name="6" value="Umm, I want to be like Tengu."/>
+			<string name="8" value="I am already Tengu. There is no need for another..."/>
+			<string name="name" value="Tengu and Kamaitachi"/>
+			<int name="option" value="70095"/>
+		</imgdir>
+		<imgdir name="369">
+			<string name="3" value="Yorozu is adorable."/>
+			<string name="6" value="She is cute with those glasses..."/>
+			<string name="9" value="LEAVE YOROZU ALONE!"/>
+			<string name="name" value="Yorozu - Mushroom Shrine's Idol"/>
+			<int name="option" value="70096"/>
+		</imgdir>
+		<imgdir name="378">
+			<string name="3" value="You kids make such a cute couple. Best of luck to you both!"/>
+			<string name="7" value="(Blushes) Tengu and me? Ha-ha-ha-ha! Don't be s-silly..."/>
+			<string name="8" value="I'm afraid there's... someone else."/>
+			<string name="name" value="Tactless Matchmaker"/>
+			<int name="option" value="70097"/>
+		</imgdir>
+		<imgdir name="379">
+			<string name="3" value="Hey, it's two of my favorite people!"/>
+			<string name="7" value="Hah. You never change, Kamaitachi."/>
+			<string name="9" value="GO AWAY OLD MAN."/>
+			<string name="name" value="Kamaitachi's Happy Place"/>
+			<int name="option" value="70098"/>
+		</imgdir>
+		<imgdir name="389">
+			<string name="3" value="My keen insight and investigative skills can't be beat!"/>
+			<string name="8" value="I will not engage in pointless contests... Besides, my skills are clearly superior."/>
+			<string name="9" value="You're both being ridiculous. YOROZU DOES ALL THE LEGWORK!"/>
+			<string name="name" value="Investigative Prowess"/>
+			<int name="option" value="70099"/>
+		</imgdir>
+		<imgdir name="456">
+			<string name="4" value="Kurama! You must have seen my greatness! You should join my order!"/>
+			<string name="5" value="Ahem. Nue be praised."/>
+			<string name="6" value="I... um... I have to go now."/>
+			<string name="name" value="Old Habits"/>
+			<int name="option" value="70100"/>
+		</imgdir>
+		<imgdir name="457">
+			<string name="4" value="I will fight every day until I win Takeno's love!"/>
+			<string name="5" value="There is no greater challenge than being in love with someone oblivious."/>
+			<string name="7" value="I never realized Kurama felt that way about me... Huh? What were we talking about? "/>
+			<string name="name" value="Hopeless Romantics"/>
+			<int name="option" value="70101"/>
+		</imgdir>
+		<imgdir name="458">
+			<string name="4" value="I must keep Tengu away from Takeno!"/>
+			<string name="5" value="When will Nue return to his old self?"/>
+			<string name="8" value="I do not believe his condition will simply resolve itself..."/>
+			<string name="name" value="Believe What You Want"/>
+			<int name="option" value="70102"/>
+		</imgdir>
+		<imgdir name="459">
+			<string name="4" value="Kubinashi is a better advisor than some kid could hope to be..."/>
+			<string name="5" value="Of course, I have many years of experience..."/>
+			<string name="9" value="YOROZU SAYS AGE IS JUST A CONSTRUCT!"/>
+			<string name="name" value="Just a Number"/>
+			<int name="option" value="70103"/>
+		</imgdir>
+		<imgdir name="467">
+			<string name="4" value="Takeno has not returned my feeling yet, but love is a flame that must be kindled!"/>
+			<string name="6" value="The first time my heart fluttered for Izuna was under the cherry tree."/>
+			<string name="7" value="I guess women sometimes like those who like them..."/>
+			<string name="name" value="Love is Fickle"/>
+			<int name="option" value="70104"/>
+		</imgdir>
+		<imgdir name="468">
+			<string name="4" value="Tengu has nothing on me!"/>
+			<string name="6" value="Yeah! Even though he's taller, and more handsome, and has a voice like butter..."/>
+			<string name="8" value="There is no need for comparisons. We each have our own merits. Besides, you cannot compare two things with such stark differences... "/>
+			<string name="name" value="Clear Differences"/>
+			<int name="option" value="70105"/>
+		</imgdir>
+		<imgdir name="469">
+			<string name="4" value="W-what? How could you put me on the same level as Kurama?"/>
+			<string name="6" value="Heheh. I don't mind being compared to Nue."/>
+			<string name="9" value="Don't you both have the same IQ?"/>
+			<string name="name" value="Double Digit IQ"/>
+			<int name="option" value="70106"/>
+		</imgdir>
+		<imgdir name="478">
+			<string name="4" value="H-huh? A secret about Takeno that I don't know?"/>
+			<string name="7" value="I know Takeno Konoko's secret. Hehe."/>
+			<string name="8" value="Izuna, please. We should not make Nue feel bad."/>
+			<string name="name" value="Takeno's Secret"/>
+			<int name="option" value="70107"/>
+		</imgdir>
+		<imgdir name="479">
+			<string name="4" value="Having tea with Takeno Konoko... I'm so jealous..."/>
+			<string name="7" value="Hey Yorozu, want to join us for tea?"/>
+			<string name="9" value="Yorozu has more important things to do with her time. Like science!"/>
+			<string name="name" value="Tea Invitation"/>
+			<int name="option" value="70108"/>
+		</imgdir>
+		<imgdir name="489">
+			<string name="4" value="Tengu must be lazy to make Yorozu do everything for him."/>
+			<string name="8" value="An odd thing to say, for someone who preyed upon the fears of the dead."/>
+			<string name="9" value="YOROZU ONLY DOES WHAT YOROZU WANTS! "/>
+			<string name="name" value="Lazy or Eager?"/>
+			<int name="option" value="70109"/>
+		</imgdir>
+		<imgdir name="567">
+			<string name="5" value="I'm curious... does Kurama still like Izuna?"/>
+			<string name="6" value="Err... I don't want to talk about something so embarrassing... "/>
+			<string name="7" value="Would things have been different if I knew how he felt before?"/>
+			<string name="name" value="Opportunities Lost &amp; Found"/>
+			<int name="option" value="70110"/>
+		</imgdir>
+		<imgdir name="568">
+			<string name="5" value="I wish Nue would stop following Takeno Konoko around."/>
+			<string name="6" value="Heh... Why don't you just tell Nue that?"/>
+			<string name="8" value="I've tried but Nue is persistent."/>
+			<string name="name" value="Stubborn Love"/>
+			<int name="option" value="70111"/>
+		</imgdir>
+		<imgdir name="569">
+			<string name="5" value="Why is a smart child like Yorozu running errands for Tengu?"/>
+			<string name="6" value="Those two make me feel like the dumbest person in Zipangu..."/>
+			<string name="9" value="Why is a smart lady like Kubinashi working for Nue?"/>
+			<string name="name" value="Personal Reasons"/>
+			<int name="option" value="70112"/>
+		</imgdir>
+		<imgdir name="578">
+			<string name="5" value="Life favors the strong. Fight hard, or you will be doomed to suffer."/>
+			<string name="7" value="...You're both real downers."/>
+			<string name="8" value="I have found the same to be true at times..."/>
+			<string name="name" value="Optimism vs. Pessimism"/>
+			<int name="option" value="70113"/>
+		</imgdir>
+		<imgdir name="579">
+			<string name="5" value="Consuming a warm drink feels good, even if I can't taste it."/>
+			<string name="7" value="Tea is a great way to relax! "/>
+			<string name="9" value="Tea is like drinking bathtime. YOROZU IS IN HEAVEN! "/>
+			<string name="name" value="Relaxing Cup of Tea"/>
+			<int name="option" value="70114"/>
+		</imgdir>
+		<imgdir name="589">
+			<string name="5" value="Your relationship with each other is different than the one I have with Nue. "/>
+			<string name="8" value="Yorozu is not a child of my blood, but rather my sin. "/>
+			<string name="9" value="Papa Tengu has always been there for Yorozu! Even if he's a little lazy... "/>
+			<string name="name" value="Parental Figures"/>
+			<int name="option" value="70115"/>
+		</imgdir>
+		<imgdir name="678">
+			<string name="6" value="I feel like I'm so behind in life when I see Tengu. You're so put-together!"/>
+			<string name="7" value="Kura is so childish."/>
+			<string name="8" value="Hmm? Oh, hello. When did you both get here?"/>
+			<string name="name" value="Adulthood is Subjective"/>
+			<int name="option" value="70116"/>
+		</imgdir>
+		<imgdir name="679">
+			<string name="6" value="I was in the top of my class when I was a kid!"/>
+			<string name="7" value="You were on top because everyone else was off playing..."/>
+			<string name="9" value="Certainly there are smarter people among the Fox Yokai..."/>
+			<string name="name" value="Debatable Accomplishments"/>
+			<int name="option" value="70117"/>
+		</imgdir>
+		<imgdir name="689">
+			<string name="6" value="Ugh... I feel like a zoo animal."/>
+			<string name="8" value="Is something supposed to happen?"/>
+			<string name="9" value="QUIET! Yorozu is studying the power of the Nine-Tailed Fox. "/>
+			<string name="name" value="Captive Research"/>
+			<int name="option" value="70118"/>
+		</imgdir>
+		<imgdir name="789">
+			<string name="7" value="T-Tengu. Why don't you have tea with us sometime? "/>
+			<string name="8" value="Will Takeno be there? I would be more than happy to come. "/>
+			<string name="9" value="...Does Izuna have a thing for Mr. Tengu?"/>
+			<string name="name" value="Transparent Motives"/>
+			<int name="option" value="70119"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

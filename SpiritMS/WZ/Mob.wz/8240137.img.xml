@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="8240137.img">
+	<imgdir name="info">
+		<imgdir name="revive">
+			<int name="0" value="8240138"/>
+		</imgdir>
+		<int name="useReaction" value="1"/>
+		<int name="skeleton" value="1"/>
+		<int name="level" value="5"/>
+		<int name="maxHP" value="100"/>
+		<int name="acc" value="203"/>
+		<int name="eva" value="51"/>
+		<int name="pushed" value="900"/>
+		<float name="fs" value="10.0"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="8"/>
+		<string name="mobType" value="1N"/>
+		<int name="hideHP" value="1"/>
+		<int name="hideName" value="1"/>
+		<int name="noFlip" value="1"/>
+		<int name="boss" value="1"/>
+		<int name="underObject" value="1"/>
+		<int name="blockUserMove" value="1"/>
+		<int name="bodyAttack" value="1"/>
+		<int name="hideUserDamage" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<string name="aniName" value="01"/>
+	</imgdir>
+	<imgdir name="hit1">
+		<string name="aniName" value="01"/>
+	</imgdir>
+	<imgdir name="die1">
+		<string name="aniName" value="02"/>
+	</imgdir>
+	<canvas name="01_iceeffect_A3.png" width="983" height="495">
+		<vector name="origin" x="910" y="51"/>
+		<int name="z" value="0"/>
+	</canvas>
+	<sound name="8240137"/>
+	<string name="8240137.atlas" value="\n01_iceeffect_A3.png\nsize: 993,500\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbit down_A\n  rotate: true\n  xy: 645, 217\n  size: 40, 53\n  orig: 40, 53\n  offset: 0, 0\n  index: -1\nbit down_B\n  rotate: true\n  xy: 890, 95\n  size: 78, 96\n  orig: 78, 96\n  offset: 0, 0\n  index: -1\nbit down_c\n  rotate: true\n  xy: 654, 15\n  size: 54, 51\n  orig: 54, 51\n  offset: 0, 0\n  index: -1\nbit_01\n  rotate: false\n  xy: 656, 262\n  size: 40, 53\n  orig: 40, 53\n  offset: 0, 0\n  index: -1\nbit_02\n  rotate: false\n  xy: 757, 6\n  size: 34, 61\n  orig: 34, 61\n  offset: 0, 0\n  index: -1\nbit_03\n  rotate: true\n  xy: 555, 14\n  size: 55, 97\n  orig: 55, 97\n  offset: 0, 0\n  index: -1\nbit_04\n  rotate: true\n  xy: 430, 3\n  size: 63, 123\n  orig: 63, 123\n  offset: 0, 0\n  index: -1\nbit_05\n  rotate: false\n  xy: 906, 175\n  size: 73, 165\n  orig: 73, 165\n  offset: 0, 0\n  index: -1\nbit_06\n  rotate: true\n  xy: 890, 15\n  size: 78, 96\n  orig: 78, 96\n  offset: 0, 0\n  index: -1\nbit_07\n  rotate: false\n  xy: 793, 27\n  size: 34, 40\n  orig: 34, 40\n  offset: 0, 0\n  index: -1\nbit_08\n  rotate: true\n  xy: 429, 213\n  size: 44, 95\n  orig: 44, 95\n  offset: 0, 0\n  index: -1\nbit_09\n  rotate: true\n  xy: 707, 14\n  size: 53, 48\n  orig: 53, 48\n  offset: 0, 0\n  index: -1\nbody2_01\n  rotate: false\n  xy: 829, 342\n  size: 162, 156\n  orig: 162, 156\n  offset: 0, 0\n  index: -1\nbody2_02\n  rotate: false\n  xy: 281, 12\n  size: 147, 54\n  orig: 147, 54\n  offset: 0, 0\n  index: -1\nbody_01\n  rotate: false\n  xy: 429, 259\n  size: 225, 239\n  orig: 225, 239\n  offset: 0, 0\n  index: -1\nbody_02\n  rotate: false\n  xy: 700, 242\n  size: 204, 73\n  orig: 204, 73\n  offset: 0, 0\n  index: -1\ndust_A\n  rotate: true\n  xy: 656, 317\n  size: 181, 171\n  orig: 181, 171\n  offset: 0, 0\n  index: -1\ndust_B\n  rotate: false\n  xy: 707, 69\n  size: 181, 171\n  orig: 181, 171\n  offset: 0, 0\n  index: -1\ndust_C\n  rotate: true\n  xy: 526, 226\n  size: 31, 117\n  orig: 31, 117\n  offset: 0, 0\n  index: -1\ndust_D\n  rotate: false\n  xy: 281, 68\n  size: 232, 136\n  orig: 232, 136\n  offset: 0, 0\n  index: -1\ndust_D_01\n  rotate: true\n  xy: 2, 176\n  size: 322, 206\n  orig: 322, 206\n  offset: 0, 0\n  index: -1\ndust_E_01\n  rotate: false\n  xy: 515, 71\n  size: 190, 140\n  orig: 190, 140\n  offset: 0, 0\n  index: -1\ns_smoke\n  rotate: false\n  xy: 2, 2\n  size: 277, 172\n  orig: 277, 172\n  offset: 0, 0\n  index: -1\nsmoke2\n  rotate: true\n  xy: 210, 206\n  size: 292, 217\n  orig: 292, 217\n  offset: 0, 0\n  index: -1\n"/>
+</imgdir>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9500613.img">
+	<imgdir name="info">
+		<int name="fixedDamage" value="999999"/>
+		<float name="fs" value="10.0"/>
+		<int name="exp" value="0"/>
+		<int name="summonType" value="1"/>
+		<string name="mobType" value="1N"/>
+		<int name="publicReward" value="1"/>
+		<int name="boss" value="1"/>
+		<int name="partyBonusMob" value="1"/>
+		<int name="level" value="15"/>
+		<int name="bodyAttack" value="1"/>
+		<int name="maxHP" value="78000000"/>
+		<int name="maxMP" value="20"/>
+		<int name="PADamage" value="5"/>
+		<int name="PDDamage" value="1"/>
+		<int name="PDRate" value="1"/>
+		<int name="MADamage" value="5"/>
+		<int name="MDDamage" value="1"/>
+		<int name="MDRate" value="1"/>
+		<int name="acc" value="100"/>
+		<int name="eva" value="100"/>
+		<int name="pushed" value="88887"/>
+		<imgdir name="speak">
+			<imgdir name="con">
+				<imgdir name="0">
+					<imgdir name="quest">
+						<int name="questID" value="26397"/>
+						<int name="state" value="1"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<imgdir name="0">
+				<int name="hp" value="20000000"/>
+				<string name="0" value="W-wait, your discipline is getting worse!"/>
+			</imgdir>
+			<int name="chatBalloon" value="0"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="181" height="266">
+			<vector name="origin" x="101" y="264"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+		</canvas>
+		<canvas name="1" width="182" height="266">
+			<vector name="origin" x="101" y="264"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+		</canvas>
+		<canvas name="2" width="183" height="266">
+			<vector name="origin" x="101" y="263"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+		</canvas>
+		<canvas name="3" width="186" height="266">
+			<vector name="origin" x="101" y="261"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+		</canvas>
+		<canvas name="4" width="189" height="266">
+			<vector name="origin" x="101" y="258"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+		</canvas>
+		<canvas name="5" width="186" height="266">
+			<vector name="origin" x="101" y="257"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+		</canvas>
+		<canvas name="6" width="183" height="266">
+			<vector name="origin" x="101" y="258"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+		</canvas>
+		<canvas name="7" width="182" height="266">
+			<vector name="origin" x="101" y="260"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+		</canvas>
+		<canvas name="8" width="180" height="266">
+			<vector name="origin" x="101" y="263"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="181" height="266">
+			<vector name="origin" x="101" y="264"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+			<string name="source" value="Mob/9500613.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="182" height="266">
+			<vector name="origin" x="101" y="264"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+			<string name="source" value="Mob/9500613.img/stand/1"/>
+		</canvas>
+		<canvas name="2" width="183" height="266">
+			<vector name="origin" x="101" y="263"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+			<string name="source" value="Mob/9500613.img/stand/2"/>
+		</canvas>
+		<canvas name="3" width="186" height="266">
+			<vector name="origin" x="101" y="261"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+			<string name="source" value="Mob/9500613.img/stand/3"/>
+		</canvas>
+		<canvas name="4" width="189" height="266">
+			<vector name="origin" x="101" y="258"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+			<string name="source" value="Mob/9500613.img/stand/4"/>
+		</canvas>
+		<canvas name="5" width="186" height="266">
+			<vector name="origin" x="101" y="257"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+			<string name="source" value="Mob/9500613.img/stand/5"/>
+		</canvas>
+		<canvas name="6" width="183" height="266">
+			<vector name="origin" x="101" y="258"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+			<string name="source" value="Mob/9500613.img/stand/6"/>
+		</canvas>
+		<canvas name="7" width="182" height="266">
+			<vector name="origin" x="101" y="260"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+			<string name="source" value="Mob/9500613.img/stand/7"/>
+		</canvas>
+		<canvas name="8" width="180" height="266">
+			<vector name="origin" x="101" y="263"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+			<string name="source" value="Mob/9500613.img/stand/8"/>
+		</canvas>
+		<imgdir name="speak">
+			<int name="prob" value="100"/>
+			<string name="0" value="Aren't you curious about Soul Weapons?"/>
+			<string name="1" value="I'll help you find awesome items!"/>
+			<string name="2" value="I'm a clone of the great Murgoth."/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="jump">
+		<canvas name="0" width="189" height="266">
+			<vector name="origin" x="108" y="248"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-91" y="-261"/>
+			<vector name="rb" x="75" y="-5"/>
+			<vector name="head" x="-5" y="-186"/>
+			<string name="source" value="Mob/9500613.img/stand/4"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="hit1">
+		<canvas name="0" width="251" height="302">
+			<vector name="origin" x="127" y="311"/>
+			<int name="z" value="0"/>
+			<vector name="lt" x="-111" y="-289"/>
+			<int name="delay" value="600"/>
+			<vector name="rb" x="108" y="-18"/>
+			<vector name="head" x="-5" y="-186"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="die1">
+		<canvas name="0" width="181" height="266">
+			<vector name="origin" x="101" y="264"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Mob/9500613.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="251" height="302">
+			<vector name="origin" x="127" y="311"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Mob/9500613.img/hit1/0"/>
+		</canvas>
+		<canvas name="2" width="252" height="305">
+			<vector name="origin" x="132" y="317"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="252" height="302">
+			<vector name="origin" x="133" y="316"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="248" height="297">
+			<vector name="origin" x="132" y="313"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="5" width="247" height="318">
+			<vector name="origin" x="133" y="305"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="6" width="271" height="301">
+			<vector name="origin" x="137" y="290"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="7" width="290" height="285">
+			<vector name="origin" x="140" y="271"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="8" width="328" height="252">
+			<vector name="origin" x="144" y="238"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<imgdir name="speak">
+			<int name="prob" value="100"/>
+			<string name="0" value="What cruel business..."/>
+			<string name="1" value="Y-you can have it!"/>
+			<string name="2" value="I'll do anything for my master!"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

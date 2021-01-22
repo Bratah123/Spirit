@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="8240168.img">
+	<imgdir name="info">
+		<int name="useReaction" value="1"/>
+		<int name="skeleton" value="1"/>
+		<int name="level" value="5"/>
+		<int name="maxHP" value="100"/>
+		<int name="acc" value="203"/>
+		<int name="eva" value="51"/>
+		<int name="pushed" value="900"/>
+		<float name="fs" value="10.0"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="8"/>
+		<string name="mobType" value="1N"/>
+		<int name="hideHP" value="1"/>
+		<int name="hideName" value="1"/>
+		<int name="noFlip" value="1"/>
+		<int name="boss" value="1"/>
+		<imgdir name="revive">
+			<int name="0" value="8240171"/>
+		</imgdir>
+		<int name="hideUserDamage" value="1"/>
+		<int name="explosiveReward" value="1"/>
+	</imgdir>
+	<imgdir name="hit1">
+		<string name="aniName" value="01"/>
+	</imgdir>
+	<imgdir name="die1">
+		<string name="aniName" value="02"/>
+	</imgdir>
+	<imgdir name="stand">
+		<string name="aniName" value="01"/>
+	</imgdir>
+	<string name="8240168.atlas" value="\nceramics_B.png\nsize: 408,524\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbit_A\n  rotate: false\n  xy: 340, 291\n  size: 49, 62\n  orig: 49, 62\n  offset: 0, 0\n  index: -1\nbit_B\n  rotate: true\n  xy: 296, 5\n  size: 32, 51\n  orig: 32, 51\n  offset: 0, 0\n  index: -1\nbit_C\n  rotate: false\n  xy: 349, 19\n  size: 25, 41\n  orig: 25, 41\n  offset: 0, 0\n  index: -1\nbit_D\n  rotate: false\n  xy: 376, 25\n  size: 27, 35\n  orig: 27, 35\n  offset: 0, 0\n  index: -1\nbit_E\n  rotate: false\n  xy: 340, 226\n  size: 20, 33\n  orig: 20, 33\n  offset: 0, 0\n  index: -1\nbit_F\n  rotate: false\n  xy: 340, 261\n  size: 25, 28\n  orig: 25, 28\n  offset: 0, 0\n  index: -1\nbit_G\n  rotate: true\n  xy: 376, 10\n  size: 13, 25\n  orig: 13, 25\n  offset: 0, 0\n  index: -1\nbits\n  rotate: false\n  xy: 182, 39\n  size: 146, 137\n  orig: 146, 137\n  offset: 0, 0\n  index: -1\nceramics2_all\n  rotate: true\n  xy: 330, 62\n  size: 117, 76\n  orig: 117, 76\n  offset: 0, 0\n  index: -1\nceramics2_down bit\n  rotate: false\n  xy: 182, 2\n  size: 112, 35\n  orig: 112, 35\n  offset: 0, 0\n  index: -1\nrin_A\n  rotate: false\n  xy: 276, 355\n  size: 126, 167\n  orig: 126, 167\n  offset: 0, 0\n  index: -1\nrin_B_\n  rotate: false\n  xy: 2, 5\n  size: 178, 171\n  orig: 178, 171\n  offset: 0, 0\n  index: -1\nsmoke\n  rotate: true\n  xy: 2, 178\n  size: 344, 272\n  orig: 344, 272\n  offset: 0, 0\n  index: -1\nsmoke_B\n  rotate: false\n  xy: 276, 181\n  size: 62, 172\n  orig: 62, 172\n  offset: 0, 0\n  index: -1\n"/>
+	<sound name="8240168"/>
+	<canvas name="ceramics_B.png" width="408" height="524">
+		<vector name="origin" x="204" y="262"/>
+		<int name="z" value="0"/>
+	</canvas>
+</imgdir>

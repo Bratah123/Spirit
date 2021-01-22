@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9201505.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="npc_rudolph2"/>
+			</imgdir>
+		</imgdir>
+		<int name="hide" value="1"/>
+		<int name="forceMove" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="1" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="2" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="3" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="4" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="5" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="6" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="7" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="1" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="2" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="3" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="4" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="5" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="1" width="91" height="86">
+			<vector name="origin" x="61" y="86"/>
+		</canvas>
+		<canvas name="2" width="92" height="84">
+			<vector name="origin" x="62" y="84"/>
+		</canvas>
+		<canvas name="3" width="93" height="85">
+			<vector name="origin" x="62" y="85"/>
+		</canvas>
+		<canvas name="4" width="92" height="86">
+			<vector name="origin" x="61" y="86"/>
+		</canvas>
+		<canvas name="5" width="94" height="84">
+			<vector name="origin" x="62" y="84"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="63" height="69">
+				<vector name="origin" x="37" y="101"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+			<canvas name="1" width="63" height="69">
+				<vector name="origin" x="37" y="102"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+			<canvas name="2" width="63" height="69">
+				<vector name="origin" x="37" y="103"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+			<canvas name="3" width="63" height="69">
+				<vector name="origin" x="37" y="102"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="say">
+			<canvas name="0" width="63" height="69">
+				<vector name="origin" x="37" y="101"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+			<canvas name="1" width="63" height="69">
+				<vector name="origin" x="37" y="102"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+			<canvas name="2" width="63" height="69">
+				<vector name="origin" x="37" y="103"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+			<canvas name="3" width="63" height="69">
+				<vector name="origin" x="37" y="102"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="move">
+			<canvas name="0" width="63" height="69">
+				<vector name="origin" x="37" y="101"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+			<canvas name="1" width="63" height="69">
+				<vector name="origin" x="37" y="102"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+			<canvas name="2" width="63" height="69">
+				<vector name="origin" x="37" y="103"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+			<canvas name="3" width="63" height="69">
+				<vector name="origin" x="37" y="102"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="210"/>
+			</canvas>
+		</imgdir>
+		<int name="61309" value="2"/>
+	</imgdir>
+	<imgdir name="condition2">
+		<imgdir name="stand">
+			<canvas name="0" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="76" height="94">
+				<vector name="origin" x="50" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="8" width="76" height="94">
+				<vector name="origin" x="50" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="say">
+			<canvas name="0" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="76" height="94">
+				<vector name="origin" x="50" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="move">
+			<canvas name="0" width="77" height="94">
+				<vector name="origin" x="51" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="82" height="94">
+				<vector name="origin" x="56" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="86" height="94">
+				<vector name="origin" x="60" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="88" height="94">
+				<vector name="origin" x="62" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="91" height="94">
+				<vector name="origin" x="65" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="92" height="94">
+				<vector name="origin" x="65" y="94"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<int name="61305" value="2"/>
+	</imgdir>
+	<imgdir name="condition3">
+		<imgdir name="stand">
+			<canvas name="0" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="1" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="2" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="3" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="4" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="5" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="6" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="7" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="say">
+			<canvas name="0" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="1" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="2" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="3" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="4" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="5" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="move">
+			<canvas name="0" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="1" width="91" height="86">
+				<vector name="origin" x="61" y="86"/>
+			</canvas>
+			<canvas name="2" width="92" height="84">
+				<vector name="origin" x="62" y="84"/>
+			</canvas>
+			<canvas name="3" width="93" height="85">
+				<vector name="origin" x="62" y="85"/>
+			</canvas>
+			<canvas name="4" width="92" height="86">
+				<vector name="origin" x="61" y="86"/>
+			</canvas>
+			<canvas name="5" width="94" height="84">
+				<vector name="origin" x="62" y="84"/>
+			</canvas>
+		</imgdir>
+		<int name="61316" value="2"/>
+	</imgdir>
+</imgdir>

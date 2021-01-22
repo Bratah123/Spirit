@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9960681.img">
+	<imgdir name="info">
+		<int name="range" value="800"/>
+		<imgdir name="skill">
+			<int name="id" value="910"/>
+			<int name="effectAfter" value="300"/>
+		</imgdir>
+		<int name="level" value="226"/>
+		<int name="pad" value="3520"/>
+		<int name="grade" value="2"/>
+	</imgdir>
+	<imgdir name="move">
+		<string name="link" value="move"/>
+	</imgdir>
+	<imgdir name="stand">
+		<string name="link" value="stand"/>
+	</imgdir>
+	<imgdir name="fly">
+		<string name="link" value="move"/>
+	</imgdir>
+	<imgdir name="jump">
+		<canvas name="0" width="74" height="119">
+			<vector name="origin" x="40" y="119"/>
+			<int name="z" value="0"/>
+			<vector name="head" x="-14" y="-65"/>
+			<vector name="lt" x="-41" y="-81"/>
+			<vector name="rb" x="30" y="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="attack">
+		<imgdir name="info">
+			<imgdir name="hit">
+				<int name="attach" value="1"/>
+				<canvas name="0" width="166" height="69">
+					<vector name="origin" x="82" y="55"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="1" width="157" height="75">
+					<vector name="origin" x="81" y="55"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="2" width="160" height="77">
+					<vector name="origin" x="82" y="55"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="3" width="155" height="76">
+					<vector name="origin" x="81" y="57"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="4" width="145" height="79">
+					<vector name="origin" x="78" y="60"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<int name="attackAfter" value="480"/>
+		</imgdir>
+		<string name="link" value="attack1"/>
+	</imgdir>
+	<imgdir name="skill">
+		<string name="link" value="move"/>
+	</imgdir>
+</imgdir>

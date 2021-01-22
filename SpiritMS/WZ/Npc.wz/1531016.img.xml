@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1531016.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+		<canvas name="default" width="41" height="52">
+			<vector name="origin" x="20" y="52"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="41" height="52">
+			<vector name="origin" x="20" y="52"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="1" width="41" height="52">
+			<vector name="origin" x="20" y="52"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="glad">
+		<int name="special" value="1"/>
+		<canvas name="0" width="46" height="66">
+			<vector name="origin" x="24" y="66"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="1" width="49" height="66">
+			<vector name="origin" x="24" y="66"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="180"/>
+		</canvas>
+	</imgdir>
+</imgdir>

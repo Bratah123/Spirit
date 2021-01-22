@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="SWorldMap.img">
+	<imgdir name="info">
+		<string name="WorldMap" value="SWorldMap"/>
+	</imgdir>
+	<imgdir name="BaseImg">
+		<canvas name="0" width="640" height="470">
+			<vector name="origin" x="320" y="235"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="MapList">
+		<imgdir name="0">
+			<vector name="spot" x="0" y="-33"/>
+			<int name="type" value="0"/>
+			<string name="title" value="Central Plaza"/>
+			<string name="desc" value="A hangout space where World Events take place."/>
+			<int name="noToolTip" value="1"/>
+			<imgdir name="mapNo">
+				<int name="0" value="340000010"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="1">
+			<vector name="spot" x="0" y="113"/>
+			<int name="type" value="1"/>
+			<string name="title" value="Main Entrance"/>
+			<imgdir name="mapNo">
+				<int name="0" value="340000012"/>
+			</imgdir>
+			<int name="noToolTip" value="1"/>
+		</imgdir>
+		<imgdir name="2">
+			<vector name="spot" x="-154" y="66"/>
+			<int name="type" value="1"/>
+			<string name="title" value="West Entrance"/>
+			<imgdir name="mapNo">
+				<int name="0" value="340000011"/>
+			</imgdir>
+			<int name="noToolTip" value="1"/>
+		</imgdir>
+		<imgdir name="3">
+			<vector name="spot" x="-154" y="-56"/>
+			<int name="type" value="1"/>
+			<string name="title" value="West Avenue"/>
+			<string name="desc" value="A place to chill. The cafeteria is here."/>
+			<imgdir name="mapNo">
+				<int name="0" value="340000014"/>
+			</imgdir>
+			<int name="noToolTip" value="1"/>
+		</imgdir>
+		<imgdir name="4">
+			<vector name="spot" x="0" y="-169"/>
+			<int name="type" value="2"/>
+			<string name="title" value="Star Arena Street"/>
+			<string name="desc" value="The path that leads to the game area."/>
+			<imgdir name="mapNo">
+				<int name="0" value="340000016"/>
+			</imgdir>
+			<int name="noToolTip" value="1"/>
+		</imgdir>
+		<imgdir name="5">
+			<vector name="spot" x="154" y="-56"/>
+			<int name="type" value="1"/>
+			<string name="title" value="East Avenue"/>
+			<string name="desc" value="A place where players can play Poof's mini-game."/>
+			<imgdir name="mapNo">
+				<int name="0" value="340000015"/>
+			</imgdir>
+			<int name="noToolTip" value="1"/>
+		</imgdir>
+		<imgdir name="6">
+			<vector name="spot" x="154" y="66"/>
+			<int name="type" value="1"/>
+			<string name="title" value="East Entrance"/>
+			<imgdir name="mapNo">
+				<int name="0" value="340000013"/>
+			</imgdir>
+			<int name="noToolTip" value="1"/>
+		</imgdir>
+		<imgdir name="7">
+			<vector name="spot" x="247" y="-140"/>
+			<int name="type" value="1"/>
+			<string name="title" value="Star Arena Floor 1"/>
+			<imgdir name="mapNo">
+				<int name="0" value="340000020"/>
+			</imgdir>
+			<int name="noToolTip" value="1"/>
+		</imgdir>
+		<imgdir name="8">
+			<vector name="spot" x="247" y="-196"/>
+			<int name="type" value="1"/>
+			<string name="title" value="Star Arena Floor 2"/>
+			<imgdir name="mapNo">
+				<int name="0" value="340000021"/>
+			</imgdir>
+			<int name="noToolTip" value="1"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="0216.img">
+	<imgdir name="info">
+		<int name="speed" value="100"/>
+		<int name="jump" value="100"/>
+		<float name="fs" value="10.0"/>
+		<float name="swim" value="100.0"/>
+		<int name="noCancelDamage" value="1"/>
+		<int name="noMove" value="1"/>
+	</imgdir>
+	<imgdir name="walk">
+		<canvas name="0" width="104" height="118">
+			<vector name="origin" x="44" y="115"/>
+			<vector name="lt" x="-41" y="-107"/>
+			<vector name="rb" x="36" y="-1"/>
+			<vector name="head" x="1" y="-90"/>
+		</canvas>
+		<canvas name="1" width="109" height="120">
+			<vector name="origin" x="44" y="117"/>
+			<vector name="lt" x="-41" y="-107"/>
+			<vector name="rb" x="36" y="-1"/>
+			<vector name="head" x="1" y="-90"/>
+		</canvas>
+		<canvas name="2" width="127" height="121">
+			<vector name="origin" x="61" y="118"/>
+			<vector name="lt" x="-41" y="-107"/>
+			<vector name="rb" x="36" y="-1"/>
+			<vector name="head" x="1" y="-90"/>
+		</canvas>
+		<canvas name="3" width="127" height="122">
+			<vector name="origin" x="62" y="119"/>
+			<vector name="lt" x="-41" y="-107"/>
+			<vector name="rb" x="36" y="-1"/>
+			<vector name="head" x="1" y="-90"/>
+		</canvas>
+		<canvas name="4" width="123" height="121">
+			<vector name="origin" x="61" y="118"/>
+			<vector name="lt" x="-41" y="-107"/>
+			<vector name="rb" x="36" y="-1"/>
+			<vector name="head" x="1" y="-90"/>
+		</canvas>
+		<canvas name="5" width="112" height="120">
+			<vector name="origin" x="55" y="117"/>
+			<vector name="lt" x="-41" y="-107"/>
+			<vector name="rb" x="36" y="-1"/>
+			<vector name="head" x="1" y="-90"/>
+		</canvas>
+		<canvas name="6" width="100" height="120">
+			<vector name="origin" x="50" y="117"/>
+			<vector name="lt" x="-41" y="-107"/>
+			<vector name="rb" x="36" y="-1"/>
+			<vector name="head" x="1" y="-90"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand">
+		<uol name="0" value="../walk/0"/>
+		<uol name="1" value="../walk/1"/>
+		<uol name="2" value="../walk/2"/>
+		<uol name="3" value="../walk/3"/>
+		<uol name="4" value="../walk/4"/>
+		<uol name="5" value="../walk/5"/>
+		<uol name="6" value="../walk/6"/>
+	</imgdir>
+	<imgdir name="prone">
+		<uol name="0" value="../walk/0"/>
+		<uol name="1" value="../walk/1"/>
+		<uol name="2" value="../walk/2"/>
+		<uol name="3" value="../walk/3"/>
+		<uol name="4" value="../walk/4"/>
+		<uol name="5" value="../walk/5"/>
+		<uol name="6" value="../walk/6"/>
+	</imgdir>
+	<imgdir name="fly">
+		<uol name="0" value="../walk/0"/>
+		<uol name="1" value="../walk/1"/>
+		<uol name="2" value="../walk/2"/>
+		<uol name="3" value="../walk/3"/>
+		<uol name="4" value="../walk/4"/>
+		<uol name="5" value="../walk/5"/>
+		<uol name="6" value="../walk/6"/>
+	</imgdir>
+	<imgdir name="jump">
+		<uol name="0" value="../walk/0"/>
+	</imgdir>
+	<imgdir name="rope">
+		<uol name="0" value="../walk/0"/>
+		<uol name="1" value="../walk/1"/>
+		<uol name="2" value="../walk/2"/>
+		<uol name="3" value="../walk/3"/>
+		<uol name="4" value="../walk/4"/>
+		<uol name="5" value="../walk/5"/>
+		<uol name="6" value="../walk/6"/>
+	</imgdir>
+	<imgdir name="ladder">
+		<uol name="0" value="../walk/0"/>
+		<uol name="1" value="../walk/1"/>
+		<uol name="2" value="../walk/2"/>
+		<uol name="3" value="../walk/3"/>
+		<uol name="4" value="../walk/4"/>
+		<uol name="5" value="../walk/5"/>
+		<uol name="6" value="../walk/6"/>
+	</imgdir>
+</imgdir>

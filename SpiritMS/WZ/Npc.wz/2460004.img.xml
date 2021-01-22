@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2460004.img">
+	<imgdir name="info">
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="50" height="91">
+			<vector name="origin" x="22" y="91"/>
+			<int name="delay" value="5000"/>
+			<string name="source" value="Npc/2112002.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="50" height="91">
+			<vector name="origin" x="22" y="91"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/2112002.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="50" height="91">
+			<vector name="origin" x="22" y="91"/>
+			<int name="delay" value="180"/>
+			<string name="source" value="Npc/2112002.img/eye/1"/>
+		</canvas>
+		<uol name="2" value="0"/>
+		<uol name="3" value="1"/>
+		<uol name="4" value="0"/>
+		<uol name="5" value="1"/>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="50" height="91">
+			<vector name="origin" x="22" y="91"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112002.img/say/0"/>
+		</canvas>
+		<canvas name="1" width="50" height="91">
+			<vector name="origin" x="22" y="91"/>
+			<int name="delay" value="210"/>
+			<string name="source" value="Npc/2112002.img/say/1"/>
+		</canvas>
+		<uol name="2" value="0"/>
+		<uol name="3" value="1"/>
+		<uol name="4" value="0"/>
+		<uol name="5" value="1"/>
+		<uol name="6" value="0"/>
+		<uol name="7" value="1"/>
+		<uol name="8" value="0"/>
+		<uol name="9" value="1"/>
+		<uol name="10" value="0"/>
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="67" height="94">
+				<vector name="origin" x="28" y="94"/>
+				<int name="delay" value="5000"/>
+				<string name="source" value="Npc/2112000.img/stand/0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="eye">
+			<canvas name="0" width="67" height="94">
+				<vector name="origin" x="28" y="94"/>
+				<int name="delay" value="180"/>
+				<string name="source" value="Npc/2112000.img/stand/0"/>
+			</canvas>
+			<canvas name="1" width="67" height="94">
+				<vector name="origin" x="28" y="94"/>
+				<int name="delay" value="180"/>
+				<string name="source" value="Npc/2112000.img/eye/1"/>
+			</canvas>
+			<uol name="2" value="0"/>
+			<uol name="3" value="1"/>
+			<uol name="4" value="0"/>
+			<uol name="5" value="1"/>
+		</imgdir>
+		<imgdir name="say">
+			<canvas name="0" width="67" height="94">
+				<vector name="origin" x="28" y="94"/>
+				<int name="delay" value="210"/>
+				<string name="source" value="Npc/2112000.img/stand/0"/>
+			</canvas>
+			<canvas name="1" width="67" height="94">
+				<vector name="origin" x="28" y="94"/>
+				<int name="delay" value="210"/>
+				<string name="source" value="Npc/2112000.img/say/1"/>
+			</canvas>
+			<uol name="2" value="0"/>
+			<uol name="3" value="1"/>
+			<uol name="4" value="0"/>
+			<uol name="5" value="1"/>
+			<uol name="6" value="0"/>
+			<uol name="7" value="1"/>
+			<uol name="8" value="0"/>
+			<uol name="9" value="1"/>
+			<uol name="10" value="0"/>
+			<imgdir name="speak">
+				<string name="0" value="s0"/>
+				<string name="1" value="s1"/>
+			</imgdir>
+		</imgdir>
+		<int name="41270" value="2"/>
+	</imgdir>
+	<imgdir name="condition2">
+		<imgdir name="stand">
+			<canvas name="0" width="85" height="30">
+				<vector name="origin" x="32" y="30"/>
+				<int name="delay" value="5000"/>
+				<string name="source" value="Npc/2112001.img/stand/0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="eye">
+			<canvas name="0" width="85" height="30">
+				<vector name="origin" x="32" y="30"/>
+				<int name="delay" value="180"/>
+				<string name="source" value="Npc/2112001.img/stand/0"/>
+			</canvas>
+			<uol name="1" value="0"/>
+			<uol name="2" value="0"/>
+			<uol name="3" value="0"/>
+			<uol name="4" value="0"/>
+			<uol name="5" value="0"/>
+		</imgdir>
+		<imgdir name="say">
+			<canvas name="0" width="85" height="30">
+				<vector name="origin" x="32" y="30"/>
+				<int name="delay" value="210"/>
+				<string name="source" value="Npc/2112001.img/stand/0"/>
+			</canvas>
+			<uol name="1" value="0"/>
+			<uol name="2" value="0"/>
+			<uol name="3" value="0"/>
+			<uol name="4" value="0"/>
+			<uol name="5" value="0"/>
+			<uol name="6" value="0"/>
+			<uol name="7" value="0"/>
+			<uol name="8" value="0"/>
+			<uol name="9" value="0"/>
+			<uol name="10" value="0"/>
+		</imgdir>
+		<int name="41270" value="1"/>
+	</imgdir>
+</imgdir>

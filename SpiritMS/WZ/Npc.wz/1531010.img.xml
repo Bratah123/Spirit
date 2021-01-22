@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1531010.img">
+	<imgdir name="info">
+		<int name="forceMove" value="1"/>
+		<canvas name="default" width="29" height="24">
+			<vector name="origin" x="13" y="28"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="29" height="24">
+			<vector name="origin" x="13" y="24"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="29" height="24">
+			<vector name="origin" x="13" y="24"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="28" height="25">
+			<vector name="origin" x="13" y="25"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="30" height="24">
+			<vector name="origin" x="13" y="24"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="29" height="25">
+			<vector name="origin" x="13" y="25"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="29" height="24">
+			<vector name="origin" x="13" y="24"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="29" height="24">
+			<vector name="origin" x="13" y="24"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="29" height="24">
+			<vector name="origin" x="13" y="24"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="29" height="24">
+			<vector name="origin" x="13" y="24"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="angry">
+		<canvas name="0" width="32" height="26">
+			<vector name="origin" x="13" y="26"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="31" height="28">
+			<vector name="origin" x="13" y="28"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="32" height="26">
+			<vector name="origin" x="13" y="26"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="31" height="28">
+			<vector name="origin" x="13" y="28"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="32" height="26">
+			<vector name="origin" x="13" y="26"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<int name="special" value="1"/>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<imgdir name="move">
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<imgdir name="eye">
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<imgdir name="angry">
+			<int name="special" value="1"/>
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<int name="hide" value="1"/>
+		<int name="22833" value="1"/>
+	</imgdir>
+	<imgdir name="condition2">
+		<imgdir name="stand">
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<imgdir name="move">
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<imgdir name="eye">
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<imgdir name="angry">
+			<int name="special" value="1"/>
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<int name="hide" value="1"/>
+		<int name="22729" value="1"/>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="UIActionBar.img">
+	<imgdir name="ActionBar">
+		<imgdir name="0">
+			<imgdir name="info">
+				<int name="top" value="-150"/>
+				<string name="exitMsg" value="Do you want to forfeit and go back to the start?"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="keyName" value="Shift"/>
+				<string name="id" value="80001275"/>
+				<string name="tooltip" value="Flame Toss: Lights up the air to burn down Hornets."/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="keyName" value="Ctrl"/>
+				<string name="id" value="80001276"/>
+				<string name="tooltip" value="Hack Job: Cuts down any nearby Flora."/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="keyName" value="Alt"/>
+				<string name="id" value="2"/>
+				<string name="tooltip" value="Jump"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="keyName" value="None"/>
+				<string name="id" value="1"/>
+				<string name="tooltip" value="Exit: Go back to the start."/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

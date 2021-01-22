@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9201308.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="check_Ship"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="116" height="156">
+			<vector name="origin" x="46" y="137"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="1000"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="116" height="177">
+				<vector name="origin" x="46" y="182"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="1" width="116" height="176">
+				<vector name="origin" x="46" y="183"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="2" width="116" height="176">
+				<vector name="origin" x="46" y="184"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="3" width="116" height="177">
+				<vector name="origin" x="46" y="184"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="4" width="116" height="179">
+				<vector name="origin" x="46" y="185"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+			<canvas name="5" width="116" height="179">
+				<vector name="origin" x="46" y="181"/>
+				<int name="z" value="0"/>
+				<int name="delay" value="150"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="5778">
+			<string name="value" value="good"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

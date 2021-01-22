@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="UIWindowTW.img">
+	<imgdir name="TimeCapsule">
+		<canvas name="backgrnd" width="200" height="250">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="slot" width="40" height="40">
+			<vector name="origin" x="-21" y="-33"/>
+			<int name="z" value="1"/>
+		</canvas>
+		<imgdir name="BtOK">
+			<imgdir name="normal">
+				<canvas name="0" width="96" height="32">
+					<vector name="origin" x="-55" y="-204"/>
+					<int name="z" value="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="96" height="32">
+					<vector name="origin" x="-55" y="-204"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="96" height="32">
+					<vector name="origin" x="-55" y="-204"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="96" height="32">
+					<vector name="origin" x="-55" y="-204"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="BtClose">
+			<imgdir name="normal">
+				<canvas name="0" width="13" height="13">
+					<vector name="origin" x="-179" y="-5"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="13" height="13">
+					<vector name="origin" x="-179" y="-5"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="13" height="13">
+					<vector name="origin" x="-179" y="-5"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="13" height="13">
+					<vector name="origin" x="-179" y="-5"/>
+					<int name="z" value="1"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="origin">
+			<vector name="originNpc" x="104" y="175"/>
+			<vector name="originItem" x="25" y="37"/>
+		</imgdir>
+		<imgdir name="Gauge">
+			<canvas name="base" width="164" height="15">
+				<vector name="origin" x="-18" y="-182"/>
+				<int name="z" value="1"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+</imgdir>

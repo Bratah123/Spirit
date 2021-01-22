@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9300795.img">
+	<imgdir name="info">
+		<int name="bodyDisease" value="120"/>
+		<int name="bodyDiseaseLevel" value="13"/>
+		<int name="level" value="162"/>
+		<int name="bodyAttack" value="1"/>
+		<int name="maxHP" value="2535170"/>
+		<int name="maxMP" value="115893"/>
+		<int name="speed" value="-30"/>
+		<int name="PADamage" value="4717"/>
+		<int name="PDDamage" value="650"/>
+		<int name="PDRate" value="20"/>
+		<int name="MADamage" value="4409"/>
+		<int name="MDDamage" value="670"/>
+		<int name="MDRate" value="20"/>
+		<int name="acc" value="640"/>
+		<int name="eva" value="180"/>
+		<int name="pushed" value="5000"/>
+		<float name="fs" value="10.0"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="6"/>
+		<int name="undead" value="1"/>
+		<string name="elemAttr" value="H3I2D2"/>
+		<string name="mobType" value="13N"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="76" height="72">
+			<vector name="origin" x="38" y="72"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="76" height="72">
+			<vector name="origin" x="38" y="73"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/stand/1"/>
+		</canvas>
+		<canvas name="2" width="76" height="72">
+			<vector name="origin" x="38" y="75"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/stand/2"/>
+		</canvas>
+		<canvas name="3" width="76" height="72">
+			<vector name="origin" x="38" y="76"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/stand/3"/>
+		</canvas>
+		<canvas name="4" width="76" height="72">
+			<vector name="origin" x="38" y="74"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/stand/4"/>
+		</canvas>
+		<canvas name="5" width="76" height="74">
+			<vector name="origin" x="38" y="73"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/stand/5"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="90" height="73">
+			<vector name="origin" x="38" y="72"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/move/0"/>
+		</canvas>
+		<canvas name="1" width="104" height="74">
+			<vector name="origin" x="38" y="73"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/move/1"/>
+		</canvas>
+		<canvas name="2" width="98" height="76">
+			<vector name="origin" x="38" y="75"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/move/2"/>
+		</canvas>
+		<canvas name="3" width="99" height="77">
+			<vector name="origin" x="38" y="76"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/move/3"/>
+		</canvas>
+		<canvas name="4" width="92" height="75">
+			<vector name="origin" x="38" y="74"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/move/4"/>
+		</canvas>
+		<canvas name="5" width="76" height="74">
+			<vector name="origin" x="38" y="73"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/stand/5"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="hit1">
+		<canvas name="0" width="76" height="72">
+			<vector name="origin" x="34" y="76"/>
+			<vector name="lt" x="-38" y="-72"/>
+			<vector name="rb" x="38" y="0"/>
+			<vector name="head" x="-10" y="-37"/>
+			<string name="source" value="Mob/9300763.img/hit1/0"/>
+		</canvas>
+		<int name="delay" value="600"/>
+	</imgdir>
+	<imgdir name="die1">
+		<canvas name="0" width="76" height="72">
+			<vector name="origin" x="34" y="76"/>
+			<string name="source" value="Mob/9300763.img/hit1/0"/>
+		</canvas>
+		<canvas name="1" width="74" height="70">
+			<vector name="origin" x="7" y="75"/>
+			<string name="source" value="Mob/9300763.img/die1/1"/>
+		</canvas>
+		<canvas name="2" width="77" height="65">
+			<vector name="origin" x="5" y="72"/>
+			<string name="source" value="Mob/9300763.img/die1/2"/>
+		</canvas>
+		<canvas name="3" width="64" height="60">
+			<vector name="origin" x="-7" y="70"/>
+			<string name="source" value="Mob/9300763.img/die1/3"/>
+		</canvas>
+		<canvas name="4" width="134" height="132">
+			<vector name="origin" x="26" y="106"/>
+			<string name="source" value="Mob/9300763.img/die1/4"/>
+		</canvas>
+		<canvas name="5" width="138" height="135">
+			<vector name="origin" x="28" y="108"/>
+			<string name="source" value="Mob/9300763.img/die1/5"/>
+		</canvas>
+		<canvas name="6" width="130" height="128">
+			<vector name="origin" x="24" y="104"/>
+			<string name="source" value="Mob/9300763.img/die1/6"/>
+		</canvas>
+		<canvas name="7" width="127" height="125">
+			<vector name="origin" x="22" y="102"/>
+			<string name="source" value="Mob/9300763.img/die1/7"/>
+		</canvas>
+		<canvas name="8" width="78" height="39">
+			<vector name="origin" x="-1" y="44"/>
+			<string name="source" value="Mob/9300763.img/die1/8"/>
+		</canvas>
+	</imgdir>
+</imgdir>

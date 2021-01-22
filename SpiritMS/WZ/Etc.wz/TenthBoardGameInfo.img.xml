@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="TenthBoardGameInfo.img">
+	<imgdir name="cell">
+		<imgdir name="bottom">
+			<imgdir name="0">
+				<int name="uiType" value="4"/>
+				<int name="x" value="689"/>
+				<int name="y" value="425"/>
+				<imgdir name="illust">
+					<int name="3" value="10"/>
+					<imgdir name="string">
+						<string name="3" value="Starting Line! Recover 100 HP!"/>
+					</imgdir>
+				</imgdir>
+				<imgdir name="atPosSound">
+					<imgdir name="3">
+						<string name="uol" value="starMarble/goal"/>
+						<int name="delay" value="0"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<imgdir name="1">
+				<int name="uiType" value="0"/>
+				<int name="x" value="617"/>
+				<int name="y" value="425"/>
+				<string name="toolTipInfo" value="Sage Cat"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9300163"/>
+					<int name="mobDamage0" value="50"/>
+					<int name="mobDamage1" value="75"/>
+					<int name="mobDamage2" value="125"/>
+					<int name="mobDamage3" value="200"/>
+					<int name="tameDamage0" value="50"/>
+					<int name="tameDamage1" value="25"/>
+					<int name="tameDamage2" value="50"/>
+					<int name="tameDamage3" value="75"/>
+					<int name="addX" value="8"/>
+					<int name="addY" value="5"/>
+					<int name="addForTooltipX" value="8"/>
+					<int name="addForTooltipY" value="3"/>
+					<int name="addForDlgX" value="8"/>
+					<int name="addForDlgY" value="3"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="2">
+				<int name="uiType" value="0"/>
+				<int name="x" value="545"/>
+				<int name="y" value="425"/>
+				<string name="toolTipInfo" value="Bellflower Root"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9300672"/>
+					<int name="addX" value="1"/>
+					<int name="addY" value="-8"/>
+					<int name="mobDamage0" value="55"/>
+					<int name="mobDamage1" value="82"/>
+					<int name="mobDamage2" value="136"/>
+					<int name="mobDamage3" value="217"/>
+					<int name="tameDamage0" value="55"/>
+					<int name="tameDamage1" value="27"/>
+					<int name="tameDamage2" value="54"/>
+					<int name="tameDamage3" value="81"/>
+					<int name="addForTooltipX" value="1"/>
+					<int name="addForTooltipY" value="-8"/>
+					<int name="addForDlgX" value="1"/>
+					<int name="addForDlgY" value="-8"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="3">
+				<int name="uiType" value="0"/>
+				<int name="x" value="473"/>
+				<int name="y" value="425"/>
+				<string name="toolTipInfo" value="Coolie Zombie"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9800087"/>
+					<int name="addX" value="2"/>
+					<int name="addY" value="-4"/>
+					<int name="mobDamage0" value="60"/>
+					<int name="mobDamage1" value="90"/>
+					<int name="mobDamage2" value="150"/>
+					<int name="mobDamage3" value="240"/>
+					<int name="60" value="50"/>
+					<int name="tameDamage0" value="60"/>
+					<int name="tameDamage1" value="30"/>
+					<int name="tameDamage2" value="60"/>
+					<int name="tameDamage3" value="90"/>
+					<int name="addForTooltipX" value="2"/>
+					<int name="addForTooltipY" value="-4"/>
+					<int name="addForDlgX" value="2"/>
+					<int name="addForDlgY" value="-4"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="4">
+				<int name="uiType" value="0"/>
+				<int name="x" value="401"/>
+				<int name="y" value="425"/>
+				<string name="toolTipInfo" value="Hogul"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="5100005"/>
+					<int name="addX" value="14"/>
+					<int name="addY" value="2"/>
+					<int name="scale" value="90"/>
+					<int name="mobDamage0" value="65"/>
+					<int name="mobDamage1" value="97"/>
+					<int name="mobDamage2" value="161"/>
+					<int name="mobDamage3" value="257"/>
+					<int name="tameDamage0" value="65"/>
+					<int name="tameDamage1" value="32"/>
+					<int name="tameDamage2" value="64"/>
+					<int name="tameDamage3" value="96"/>
+					<int name="addForTooltipX" value="2"/>
+					<int name="addForTooltipY" value="2"/>
+					<int name="addForDlgX" value="2"/>
+					<int name="addForDlgY" value="2"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="5">
+				<int name="uiType" value="0"/>
+				<int name="x" value="329"/>
+				<int name="y" value="425"/>
+				<int name="bossId" value="1"/>
+				<string name="toolTipInfo" value="Hilla the school nurse has prescribed \nthe red potion to recover 200 HP.\nHilla is deploying a powerful attack \nto deal 200 damage after 3 turns to the marked areas."/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9300691"/>
+					<int name="addX" value="1"/>
+					<int name="addY" value="-8"/>
+					<int name="mobDamage0" value="200"/>
+					<int name="tameDamage0" value="200"/>
+					<int name="addForTooltipX" value="-1"/>
+					<int name="addForTooltipY" value="-20"/>
+					<int name="addForDlgX" value="-1"/>
+					<int name="addForDlgY" value="-20"/>
+					<int name="noUpgrade" value="1"/>
+				</imgdir>
+				<imgdir name="HealCell">
+					<int name="turn" value="1"/>
+					<int name="value" value="200"/>
+					<int name="target" value="0"/>
+				</imgdir>
+				<imgdir name="ReserveDamageCell">
+					<int name="turn" value="2"/>
+					<int name="value" value="200"/>
+					<int name="delay" value="4"/>
+				</imgdir>
+				<imgdir name="illust">
+					<int name="0" value="2"/>
+					<int name="1" value="2"/>
+					<imgdir name="string">
+						<string name="0" value="Red Potion prescribed! Recover 200 HP!"/>
+						<string name="1" value="Hilla attacks red!"/>
+					</imgdir>
+				</imgdir>
+				<imgdir name="atPosSound">
+					<imgdir name="0">
+						<string name="uol" value="starMarble/hilla1"/>
+						<int name="delay" value="0"/>
+					</imgdir>
+					<imgdir name="1">
+						<string name="uol" value="starMarble/hilla2"/>
+						<int name="delay" value="0"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<imgdir name="6">
+				<int name="uiType" value="0"/>
+				<int name="x" value="257"/>
+				<int name="y" value="425"/>
+				<string name="toolTipInfo" value="Three-Tailed Fox"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9800033"/>
+					<int name="addX" value="15"/>
+					<int name="addY" value="-8"/>
+					<int name="mobDamage0" value="70"/>
+					<int name="mobDamage1" value="105"/>
+					<int name="mobDamage2" value="175"/>
+					<int name="mobDamage3" value="280"/>
+					<int name="tameDamage0" value="70"/>
+					<int name="tameDamage1" value="35"/>
+					<int name="tameDamage2" value="70"/>
+					<int name="tameDamage3" value="105"/>
+					<int name="addForTooltipX" value="3"/>
+					<int name="addForTooltipY" value="5"/>
+					<int name="addForDlgX" value="3"/>
+					<int name="addForDlgY" value="5"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="7">
+				<int name="uiType" value="0"/>
+				<int name="x" value="185"/>
+				<int name="y" value="425"/>
+				<string name="toolTipInfo" value="Rash"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="7130500"/>
+					<int name="addX" value="4"/>
+					<int name="addY" value="-15"/>
+					<int name="mobDamage0" value="75"/>
+					<int name="mobDamage1" value="112"/>
+					<int name="mobDamage2" value="186"/>
+					<int name="mobDamage3" value="297"/>
+					<int name="tameDamage0" value="75"/>
+					<int name="tameDamage1" value="37"/>
+					<int name="tameDamage2" value="74"/>
+					<int name="tameDamage3" value="111"/>
+					<int name="addForTooltipX" value="3"/>
+					<int name="addForTooltipY" value="5"/>
+					<int name="addForDlgX" value="3"/>
+					<int name="addForDlgY" value="5"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="8">
+				<int name="uiType" value="0"/>
+				<int name="x" value="113"/>
+				<int name="y" value="425"/>
+				<imgdir name="areaInfo">
+					<int name="addX" value="2"/>
+					<int name="addY" value="-12"/>
+					<int name="HP_Area" value="100"/>
+					<string name="name" value="[ Heart + 100 ] \n\nUse a potion!"/>
+					<string name="imgPath" value="Item/Consume/0200.img/02000002/info/icon"/>
+					<int name="addForTooltipX" value="14"/>
+					<int name="addForTooltipY" value="10"/>
+				</imgdir>
+				<imgdir name="illust">
+					<int name="3" value="0"/>
+					<imgdir name="string">
+						<string name="3" value="Potion taken! Recovered 100 HP!"/>
+					</imgdir>
+				</imgdir>
+				<imgdir name="atPosSound">
+					<imgdir name="3">
+						<string name="uol" value="starMarble/potion"/>
+						<int name="delay" value="0"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<imgdir name="9">
+				<int name="uiType" value="3"/>
+				<int name="x" value="11"/>
+				<int name="y" value="425"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="left">
+			<imgdir name="0">
+				<int name="uiType" value="2"/>
+				<int name="x" value="11"/>
+				<int name="y" value="365"/>
+				<string name="toolTipInfo" value="Racoco"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="7150000"/>
+					<int name="addX" value="27"/>
+					<int name="addY" value="5"/>
+					<int name="scale" value="90"/>
+					<int name="mobDamage0" value="80"/>
+					<int name="mobDamage1" value="120"/>
+					<int name="mobDamage2" value="200"/>
+					<int name="mobDamage3" value="320"/>
+					<int name="tameDamage0" value="80"/>
+					<int name="tameDamage1" value="40"/>
+					<int name="tameDamage2" value="80"/>
+					<int name="tameDamage3" value="120"/>
+					<int name="addForTooltipX" value="2"/>
+					<int name="addForTooltipY" value="5"/>
+					<int name="addForDlgX" value="2"/>
+					<int name="addForDlgY" value="5"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="1">
+				<int name="uiType" value="2"/>
+				<int name="x" value="11"/>
+				<int name="y" value="305"/>
+				<int name="bossId" value="2"/>
+				<string name="toolTipInfo" value="Deals 100 damage to all players\nother than his owner.\nNo special effects."/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9500536"/>
+					<int name="addX" value="3"/>
+					<int name="addY" value="1"/>
+					<int name="mobDamage0" value="250"/>
+					<int name="tameDamage0" value="250"/>
+					<int name="addForTooltipX" value="-18"/>
+					<int name="addForTooltipY" value="-18"/>
+					<int name="addForDlgX" value="-18"/>
+					<int name="addForDlgY" value="-18"/>
+					<int name="noUpgrade" value="1"/>
+				</imgdir>
+				<imgdir name="AreaDamageCell">
+					<int name="turn" value="1"/>
+					<int name="damage" value="100"/>
+				</imgdir>
+				<imgdir name="illust">
+					<int name="0" value="4"/>
+					<int name="1" value="4"/>
+					<imgdir name="string">
+						<string name="0" value="Arkarium's total attack!"/>
+						<string name="1" value="Arkarium's attack!"/>
+					</imgdir>
+				</imgdir>
+				<imgdir name="atPosSound">
+					<imgdir name="0">
+						<string name="uol" value="starMarble/akayrum"/>
+						<int name="delay" value="0"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<imgdir name="2">
+				<int name="uiType" value="2"/>
+				<int name="x" value="11"/>
+				<int name="y" value="245"/>
+				<string name="toolTipInfo" value="Grizzly"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9300244"/>
+					<int name="addX" value="29"/>
+					<int name="addY" value="12"/>
+					<int name="scale" value="90"/>
+					<int name="mobDamage0" value="85"/>
+					<int name="mobDamage1" value="127"/>
+					<int name="mobDamage2" value="211"/>
+					<int name="mobDamage3" value="337"/>
+					<int name="tameDamage0" value="85"/>
+					<int name="tameDamage1" value="42"/>
+					<int name="tameDamage2" value="84"/>
+					<int name="tameDamage3" value="126"/>
+					<int name="addForTooltipX" value="0"/>
+					<int name="addForTooltipY" value="1"/>
+					<int name="addForDlgX" value="0"/>
+					<int name="addForDlgY" value="1"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="3">
+				<int name="uiType" value="2"/>
+				<int name="x" value="11"/>
+				<int name="y" value="185"/>
+				<string name="toolTipInfo" value="White Desert Rabbit"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9800142"/>
+					<int name="addX" value="16"/>
+					<int name="addY" value="-1"/>
+					<int name="mobDamage0" value="90"/>
+					<int name="mobDamage1" value="135"/>
+					<int name="mobDamage2" value="225"/>
+					<int name="mobDamage3" value="360"/>
+					<int name="tameDamage0" value="90"/>
+					<int name="tameDamage1" value="45"/>
+					<int name="tameDamage2" value="90"/>
+					<int name="tameDamage3" value="135"/>
+					<int name="addForTooltipX" value="3"/>
+					<int name="addForTooltipY" value="2"/>
+					<int name="addForDlgX" value="3"/>
+					<int name="addForDlgY" value="2"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="4">
+				<int name="uiType" value="2"/>
+				<int name="x" value="11"/>
+				<int name="y" value="125"/>
+				<string name="toolTipInfo" value="Iron Hog"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9300060"/>
+					<int name="addX" value="24"/>
+					<int name="addY" value="1"/>
+					<int name="mobDamage0" value="95"/>
+					<int name="mobDamage1" value="142"/>
+					<int name="mobDamage2" value="236"/>
+					<int name="mobDamage3" value="377"/>
+					<int name="tameDamage0" value="95"/>
+					<int name="tameDamage1" value="47"/>
+					<int name="tameDamage2" value="94"/>
+					<int name="tameDamage3" value="141"/>
+					<int name="addForTooltipX" value="1"/>
+					<int name="addForTooltipY" value="7"/>
+					<int name="addForDlgX" value="1"/>
+					<int name="addForDlgY" value="7"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="top">
+			<imgdir name="0">
+				<int name="uiType" value="3"/>
+				<int name="x" value="11"/>
+				<int name="y" value="23"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="uiType" value="0"/>
+				<int name="x" value="114"/>
+				<int name="y" value="23"/>
+				<string name="toolTipInfo" value="Lunar Pixie"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="4230106"/>
+					<int name="addX" value="0"/>
+					<int name="addY" value="-16"/>
+					<int name="mobDamage0" value="100"/>
+					<int name="mobDamage1" value="150"/>
+					<int name="mobDamage2" value="250"/>
+					<int name="mobDamage3" value="400"/>
+					<int name="tameDamage0" value="100"/>
+					<int name="tameDamage1" value="50"/>
+					<int name="tameDamage2" value="100"/>
+					<int name="tameDamage3" value="150"/>
+					<int name="addForTooltipX" value="4"/>
+					<int name="addForTooltipY" value="2"/>
+					<int name="addForDlgX" value="4"/>
+					<int name="addForDlgY" value="2"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="2">
+				<int name="uiType" value="0"/>
+				<int name="x" value="186"/>
+				<int name="y" value="23"/>
+				<string name="toolTipInfo" value="Golden Phenec"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="6160000"/>
+					<int name="scale" value="90"/>
+					<int name="addX" value="0"/>
+					<int name="addY" value="7"/>
+					<int name="mobDamage0" value="105"/>
+					<int name="mobDamage1" value="157"/>
+					<int name="mobDamage2" value="261"/>
+					<int name="mobDamage3" value="417"/>
+					<int name="tameDamage0" value="105"/>
+					<int name="tameDamage1" value="52"/>
+					<int name="tameDamage2" value="104"/>
+					<int name="tameDamage3" value="156"/>
+					<int name="addForTooltipX" value="-37"/>
+					<int name="addForTooltipY" value="7"/>
+					<int name="addForDlgX" value="-37"/>
+					<int name="addForDlgY" value="7"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="3">
+				<int name="uiType" value="0"/>
+				<int name="x" value="258"/>
+				<int name="y" value="23"/>
+				<int name="bossId" value="3"/>
+				<string name="toolTipInfo" value="Von Leon's teleport allows you to \npick a place to go on the next turn. \nStunned on the next turn\n from being locked in Von Leon's Aerial Prison."/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9300685"/>
+					<int name="scale" value="90"/>
+					<int name="addX" value="3"/>
+					<int name="addY" value="-8"/>
+					<int name="mobDamage0" value="250"/>
+					<int name="tameDamage0" value="250"/>
+					<int name="addForTooltipX" value="1"/>
+					<int name="addForTooltipY" value="-8"/>
+					<int name="addForDlgX" value="1"/>
+					<int name="addForDlgY" value="-8"/>
+					<int name="noUpgrade" value="1"/>
+				</imgdir>
+				<imgdir name="TeleportCell">
+					<int name="turn" value="1"/>
+				</imgdir>
+				<imgdir name="TrapCell">
+					<int name="turn" value="2"/>
+					<int name="value" value="1"/>
+				</imgdir>
+				<imgdir name="illust">
+					<int name="0" value="5"/>
+					<int name="1" value="5"/>
+					<imgdir name="string">
+						<string name="0" value="Teleport: Free moves on the next turn"/>
+						<string name="1" value="Aerial Prison: Stunned on the next turn"/>
+					</imgdir>
+				</imgdir>
+				<imgdir name="atPosSound">
+					<imgdir name="1">
+						<string name="uol" value="starMarble/vonleon"/>
+						<int name="delay" value="0"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<imgdir name="4">
+				<int name="uiType" value="0"/>
+				<int name="x" value="330"/>
+				<int name="y" value="23"/>
+				<string name="toolTipInfo" value="Cellion"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="5120001"/>
+					<int name="addX" value="1"/>
+					<int name="addY" value="-16"/>
+					<int name="mobDamage0" value="110"/>
+					<int name="mobDamage1" value="165"/>
+					<int name="mobDamage2" value="275"/>
+					<int name="mobDamage3" value="440"/>
+					<int name="tameDamage0" value="110"/>
+					<int name="tameDamage1" value="55"/>
+					<int name="tameDamage2" value="110"/>
+					<int name="tameDamage3" value="165"/>
+					<int name="addForTooltipX" value="6"/>
+					<int name="addForTooltipY" value="2"/>
+					<int name="addForDlgX" value="6"/>
+					<int name="addForDlgY" value="2"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="5">
+				<int name="uiType" value="0"/>
+				<int name="x" value="402"/>
+				<int name="y" value="23"/>
+				<int name="bossId" value="5"/>
+				<string name="toolTipInfo" value="Recovers bonus 100 HP\n when someone other than the owner visits."/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9300886"/>
+					<int name="addX" value="24"/>
+					<int name="addY" value="0"/>
+					<int name="scale" value="100"/>
+					<int name="mobDamage0" value="250"/>
+					<int name="tameDamage0" value="250"/>
+					<int name="addForTooltipX" value="-31"/>
+					<int name="addForTooltipY" value="-20"/>
+					<int name="addForDlgX" value="-31"/>
+					<int name="addForDlgY" value="-20"/>
+					<int name="noUpgrade" value="1"/>
+				</imgdir>
+				<imgdir name="illust">
+					<int name="1" value="11"/>
+					<imgdir name="string">
+						<string name="1" value="Luminous casts recovery magic on his owner!"/>
+					</imgdir>
+				</imgdir>
+				<imgdir name="HealCell">
+					<int name="turn" value="2"/>
+					<int name="value" value="100"/>
+					<int name="target" value="1"/>
+				</imgdir>
+				<imgdir name="atPosSound">
+					<imgdir name="1">
+						<string name="uol" value="starMarble/luminous"/>
+						<int name="delay" value="0"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<imgdir name="6">
+				<int name="uiType" value="0"/>
+				<int name="cardId" value="18"/>
+				<int name="x" value="474"/>
+				<int name="y" value="23"/>
+				<string name="toolTipInfo" value="Master Birk"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9300481"/>
+					<int name="addX" value="11"/>
+					<int name="addY" value="-23"/>
+					<int name="scale" value="100"/>
+					<int name="mobDamage0" value="120"/>
+					<int name="mobDamage1" value="180"/>
+					<int name="mobDamage2" value="300"/>
+					<int name="mobDamage3" value="480"/>
+					<int name="tameDamage0" value="120"/>
+					<int name="tameDamage1" value="60"/>
+					<int name="tameDamage2" value="120"/>
+					<int name="tameDamage3" value="180"/>
+					<int name="addForTooltipX" value="-7"/>
+					<int name="addForTooltipY" value="-20"/>
+					<int name="addForDlgX" value="-7"/>
+					<int name="addForDlgY" value="-20"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="7">
+				<int name="uiType" value="0"/>
+				<int name="x" value="546"/>
+				<int name="y" value="23"/>
+				<imgdir name="areaInfo">
+					<string name="imgPath" value="Item/Cash/0502.img/05021013/info/icon"/>
+					<int name="addX" value="1"/>
+					<int name="addY" value="-12"/>
+					<int name="HP_Area" value="-200"/>
+					<string name="name" value="[ Heart - 200 ] \n\nBummer!"/>
+					<int name="addForTooltipX" value="15"/>
+					<int name="addForTooltipY" value="15"/>
+				</imgdir>
+				<imgdir name="illust">
+					<int name="3" value="7"/>
+					<imgdir name="string">
+						<string name="3" value="Explosive damage! 200 points!"/>
+					</imgdir>
+				</imgdir>
+				<imgdir name="atPosSound">
+					<imgdir name="3">
+						<string name="uol" value="starMarble/explosion"/>
+						<int name="delay" value="0"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<imgdir name="8">
+				<int name="uiType" value="0"/>
+				<int name="x" value="618"/>
+				<int name="y" value="23"/>
+				<string name="toolTipInfo" value="Pharaoh Yeti"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9305408"/>
+					<int name="scale" value="100"/>
+					<int name="addX" value="-4"/>
+					<int name="addY" value="-15"/>
+					<int name="mobDamage0" value="125"/>
+					<int name="mobDamage1" value="187"/>
+					<int name="mobDamage2" value="311"/>
+					<int name="mobDamage3" value="497"/>
+					<int name="tameDamage0" value="125"/>
+					<int name="tameDamage1" value="62"/>
+					<int name="tameDamage2" value="124"/>
+					<int name="tameDamage3" value="186"/>
+					<int name="addForTooltipX" value="1"/>
+					<int name="addForTooltipY" value="5"/>
+					<int name="addForDlgX" value="1"/>
+					<int name="addForDlgY" value="5"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="9">
+				<int name="uiType" value="3"/>
+				<int name="x" value="689"/>
+				<int name="y" value="23"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="right">
+			<imgdir name="0">
+				<int name="uiType" value="1"/>
+				<int name="x" value="689"/>
+				<int name="y" value="125"/>
+				<string name="toolTipInfo" value="Dark Pepe"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="6230200"/>
+					<int name="scale" value="100"/>
+					<int name="addX" value="-7"/>
+					<int name="addY" value="5"/>
+					<int name="mobDamage0" value="130"/>
+					<int name="mobDamage1" value="195"/>
+					<int name="mobDamage2" value="325"/>
+					<int name="mobDamage3" value="520"/>
+					<int name="tameDamage0" value="130"/>
+					<int name="tameDamage1" value="65"/>
+					<int name="tameDamage2" value="130"/>
+					<int name="tameDamage3" value="195"/>
+					<int name="addForTooltipX" value="8"/>
+					<int name="addForTooltipY" value="5"/>
+					<int name="addForDlgX" value="8"/>
+					<int name="addForDlgY" value="5"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="1">
+				<int name="uiType" value="1"/>
+				<int name="x" value="689"/>
+				<int name="y" value="185"/>
+				<string name="toolTipInfo" value="Star Pixie"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9300726"/>
+					<int name="scale" value="100"/>
+					<int name="addX" value="-16"/>
+					<int name="addY" value="1"/>
+					<int name="mobDamage0" value="135"/>
+					<int name="mobDamage1" value="202"/>
+					<int name="mobDamage2" value="336"/>
+					<int name="mobDamage3" value="537"/>
+					<int name="tameDamage0" value="135"/>
+					<int name="tameDamage1" value="67"/>
+					<int name="tameDamage2" value="134"/>
+					<int name="tameDamage3" value="201"/>
+					<int name="addForTooltipX" value="5"/>
+					<int name="addForTooltipY" value="2"/>
+					<int name="addForDlgX" value="5"/>
+					<int name="addForDlgY" value="2"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="2">
+				<int name="uiType" value="1"/>
+				<int name="x" value="689"/>
+				<int name="y" value="245"/>
+				<int name="bossId" value="4"/>
+				<string name="toolTipInfo" value="Random areas will turn into damaging \npurple meteor areas.\nIf you land there when the area \nturns green, you will be stunned for three turns \nby knockout gas."/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9500535"/>
+					<int name="scale" value="100"/>
+					<int name="addX" value="-13"/>
+					<int name="addY" value="2"/>
+					<int name="mobDamage0" value="300"/>
+					<int name="tameDamage0" value="300"/>
+					<int name="addForTooltipX" value="-6"/>
+					<int name="addForTooltipY" value="-5"/>
+					<int name="addForDlgX" value="-6"/>
+					<int name="addForDlgY" value="5"/>
+					<int name="noUpgrade" value="1"/>
+				</imgdir>
+				<imgdir name="ReserveAreaDamageCell">
+					<int name="turn" value="1"/>
+					<int name="value" value="100"/>
+					<int name="count" value="4"/>
+				</imgdir>
+				<imgdir name="RandomTrap">
+					<int name="turn" value="2"/>
+					<int name="value" value="1"/>
+					<int name="count" value="4"/>
+				</imgdir>
+				<imgdir name="illust">
+					<int name="0" value="9"/>
+					<string name="1" value="9"/>
+					<imgdir name="string">
+						<string name="0" value="Purple meteor strikes!"/>
+						<string name="1" value="Crazy green knockout gas!"/>
+					</imgdir>
+				</imgdir>
+				<imgdir name="atPosSound">
+					<imgdir name="0">
+						<string name="uol" value="starMarble/magnus"/>
+						<int name="delay" value="0"/>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+			<imgdir name="3">
+				<int name="uiType" value="1"/>
+				<int name="x" value="689"/>
+				<int name="y" value="305"/>
+				<string name="toolTipInfo" value="Moon Bunny"/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9300061"/>
+					<int name="scale" value="100"/>
+					<int name="addX" value="-14"/>
+					<int name="addY" value="23"/>
+					<int name="mobDamage0" value="140"/>
+					<int name="mobDamage1" value="210"/>
+					<int name="mobDamage2" value="350"/>
+					<int name="mobDamage3" value="560"/>
+					<int name="tameDamage0" value="140"/>
+					<int name="tameDamage1" value="70"/>
+					<int name="tameDamage2" value="140"/>
+					<int name="tameDamage3" value="210"/>
+					<int name="addForTooltipX" value="-14"/>
+					<int name="addForTooltipY" value="-6"/>
+					<int name="addForDlgX" value="-14"/>
+					<int name="addForDlgY" value="-6"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="4">
+				<int name="uiType" value="1"/>
+				<int name="x" value="689"/>
+				<int name="y" value="365"/>
+				<int name="bossId" value="6"/>
+				<string name="toolTipInfo" value="All costs with owning, taming, enhancing, charming \nmonsters will be cut down by 10%."/>
+				<imgdir name="mobInfo">
+					<int name="mobCode" value="9300887"/>
+					<int name="scale" value="90"/>
+					<int name="addX" value="10"/>
+					<int name="addY" value="12"/>
+					<int name="mobDamage0" value="300"/>
+					<int name="tameDamage0" value="300"/>
+					<int name="addForTooltipX" value="1"/>
+					<int name="addForTooltipY" value="-2"/>
+					<int name="addForDlgX" value="1"/>
+					<int name="addForDlgY" value="-2"/>
+					<int name="noUpgrade" value="1"/>
+				</imgdir>
+				<imgdir name="HaveDiscount">
+					<int name="value" value="10"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="etc">
+		<int name="HP" value="1000"/>
+		<float name="takeOverRate" value="2.0"/>
+		<int name="pay" value="100"/>
+		<int name="maxDouble" value="3"/>
+		<int name="timeLimitToDice" value="15000"/>
+		<int name="timeLimitToTame" value="15000"/>
+		<int name="timeLimitToSelectCell" value="15000"/>
+		<int name="clickCheck" value="5"/>
+		<imgdir name="string">
+			<string name="canNotTame" value="You don't have enough hearts to tame the monster."/>
+			<string name="canNotUpgradeBecausePerfection" value="You can't enhance monsters that have been enhanced to the max."/>
+			<string name="canNotUpgrade" value="You don't have enough hearts to enhance the monster."/>
+			<string name="noCellToReinforce" value="There are no monsters available for enhancement."/>
+			<string name="warningMsg" value="If you give up, \nyou won't get the completion reward. \nDo you really want to exit?"/>
+			<string name="noCellToTakeOver" value="The opponents have no monsters available for seducing."/>
+			<string name="canNotTakeOver" value="You don't have enough hearts to seduce the monster."/>
+			<string name="canNotTakeOverBecausePerfection" value="You can't seduce monsters that have been enhanced to the max. "/>
+			<string name="toolTipHP" value="Hearts are used for taming monsters\nor seducing the opponent's monsters."/>
+			<string name="toolTipTotalHP" value="Maple Leaves are the total of hearts \nplus the Monster Points you have."/>
+			<string name="playcount" value="Shows the number of monsters currently in possession."/>
+			<string name="averageRank" value="This is the current average rankings score."/>
+			<string name="defaultSpecialCardMsg" value="You don't have a monster available. Your special card has been canceled."/>
+			<imgdir name="SpecialCardSound">
+				<imgdir name="0">
+					<string name="uol" value="starMarble/shield"/>
+					<int name="delay" value="0"/>
+				</imgdir>
+				<imgdir name="1">
+					<string name="uol" value="starMarble/freeMove"/>
+					<int name="delay" value="0"/>
+				</imgdir>
+				<imgdir name="2">
+					<string name="uol" value="starMarble/upgrade"/>
+					<int name="delay" value="600"/>
+				</imgdir>
+				<imgdir name="3">
+					<string name="uol" value="oneCard/turn"/>
+					<int name="delay" value="0"/>
+				</imgdir>
+				<imgdir name="4">
+					<string name="uol" value="starMarble/mobUpgrade"/>
+					<int name="delay" value="0"/>
+				</imgdir>
+				<imgdir name="6">
+					<string name="uol" value="starMarble/setFree"/>
+					<int name="delay" value="0"/>
+				</imgdir>
+				<imgdir name="7">
+					<string name="uol" value="starMarble/selectGive"/>
+					<int name="delay" value="0"/>
+				</imgdir>
+				<imgdir name="8">
+					<string name="uol" value="starMarble/attackBuff"/>
+					<int name="delay" value="0"/>
+				</imgdir>
+				<imgdir name="9">
+					<string name="uol" value="starMarble/giveHP"/>
+					<int name="delay" value="0"/>
+				</imgdir>
+				<imgdir name="10">
+					<string name="uol" value="starMarble/giveMob"/>
+					<int name="delay" value="0"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="StateSound">
+				<imgdir name="9">
+					<string name="uol" value="starMarble/goal"/>
+					<int name="delay" value="0"/>
+				</imgdir>
+				<imgdir name="11">
+					<string name="uol" value="starMarble/gameOver"/>
+					<int name="delay" value="0"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

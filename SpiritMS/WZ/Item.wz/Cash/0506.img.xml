@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="0506.img">
+	<imgdir name="05060000">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="31">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="30">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060001">
+		<imgdir name="info">
+			<canvas name="icon" width="26" height="29">
+				<vector name="origin" x="-4" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="23" height="26">
+				<vector name="origin" x="-5" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060002">
+		<imgdir name="info">
+			<canvas name="icon" width="28" height="31">
+				<vector name="origin" x="-2" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="28" height="30">
+				<vector name="origin" x="-2" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05061000">
+		<imgdir name="info">
+			<canvas name="icon" width="26" height="29">
+				<vector name="origin" x="-4" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="23" height="26">
+				<vector name="origin" x="-4" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="protectTime" value="7"/>
+			<int name="maxDays" value="365"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05061001">
+		<imgdir name="info">
+			<canvas name="icon" width="26" height="29">
+				<vector name="origin" x="-3" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="23" height="26">
+				<vector name="origin" x="-4" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="protectTime" value="30"/>
+			<int name="maxDays" value="365"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05061002">
+		<imgdir name="info">
+			<canvas name="icon" width="26" height="29">
+				<vector name="origin" x="-3" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="23" height="26">
+				<vector name="origin" x="-4" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="protectTime" value="90"/>
+			<int name="maxDays" value="365"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05061003">
+		<imgdir name="info">
+			<canvas name="icon" width="26" height="29">
+				<vector name="origin" x="-3" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="23" height="26">
+				<vector name="origin" x="-4" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="protectTime" value="365"/>
+			<int name="maxDays" value="365"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062000">
+		<imgdir name="info">
+			<canvas name="icon" width="37" height="38">
+				<vector name="origin" x="2" y="35"/>
+			</canvas>
+			<canvas name="iconRaw" width="37" height="38">
+				<vector name="origin" x="2" y="35"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062002">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/MiracleCube_Master"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062100">
+		<imgdir name="info">
+			<canvas name="icon" width="36" height="37">
+				<vector name="origin" x="2" y="34"/>
+			</canvas>
+			<canvas name="iconRaw" width="41" height="38">
+				<vector name="origin" x="5" y="35"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/MiracleCube_8th"/>
+		</imgdir>
+		<imgdir name="req">
+			<int name="0" value="1003243"/>
+			<int name="1" value="1052358"/>
+			<int name="2" value="1072522"/>
+			<int name="3" value="1082315"/>
+			<int name="4" value="1102295"/>
+			<int name="5" value="1132093"/>
+			<int name="6" value="1302170"/>
+			<int name="7" value="1312069"/>
+			<int name="8" value="1322101"/>
+			<int name="9" value="1332145"/>
+			<int name="10" value="1372097"/>
+			<int name="11" value="1382121"/>
+			<int name="12" value="1402107"/>
+			<int name="13" value="1412068"/>
+			<int name="14" value="1422070"/>
+			<int name="15" value="1432096"/>
+			<int name="16" value="1442133"/>
+			<int name="17" value="1452126"/>
+			<int name="18" value="1462114"/>
+			<int name="19" value="1472137"/>
+			<int name="20" value="1482099"/>
+			<int name="21" value="1492098"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062103">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="33">
+				<vector name="origin" x="2" y="34"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="33">
+				<vector name="origin" x="2" y="34"/>
+				<string name="source" value="Item/Cash/0506.img/05062103/info/icon"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/MiracleCube_9th"/>
+		</imgdir>
+		<imgdir name="req">
+			<int name="0" value="1003529"/>
+			<int name="1" value="1052457"/>
+			<int name="2" value="1082430"/>
+			<int name="3" value="1072660"/>
+			<int name="4" value="1102394"/>
+			<int name="5" value="1132151"/>
+			<int name="6" value="1302212"/>
+			<int name="7" value="1312114"/>
+			<int name="8" value="1322154"/>
+			<int name="9" value="1332186"/>
+			<int name="10" value="1362060"/>
+			<int name="11" value="1372131"/>
+			<int name="12" value="1382160"/>
+			<int name="13" value="1402145"/>
+			<int name="14" value="1412102"/>
+			<int name="15" value="1422105"/>
+			<int name="16" value="1432135"/>
+			<int name="17" value="1442173"/>
+			<int name="18" value="1452165"/>
+			<int name="19" value="1462156"/>
+			<int name="20" value="1472177"/>
+			<int name="21" value="1482138"/>
+			<int name="22" value="1492138"/>
+			<int name="23" value="1522068"/>
+			<int name="24" value="1532073"/>
+			<int name="25" value="1152088"/>
+			<int name="26" value="1003552"/>
+			<int name="27" value="1052461"/>
+			<int name="28" value="1082433"/>
+			<int name="29" value="1072666"/>
+			<int name="30" value="1102441"/>
+			<int name="31" value="1132154"/>
+			<int name="32" value="1112742"/>
+			<int name="33" value="1112743"/>
+			<int name="34" value="1302227"/>
+			<int name="35" value="1312116"/>
+			<int name="36" value="1322162"/>
+			<int name="37" value="1332193"/>
+			<int name="38" value="1362067"/>
+			<int name="39" value="1372139"/>
+			<int name="40" value="1382168"/>
+			<int name="41" value="1402151"/>
+			<int name="42" value="1412104"/>
+			<int name="43" value="1422107"/>
+			<int name="44" value="1432138"/>
+			<int name="45" value="1442182"/>
+			<int name="46" value="1452170"/>
+			<int name="47" value="1462159"/>
+			<int name="48" value="1472179"/>
+			<int name="49" value="1482140"/>
+			<int name="50" value="1492152"/>
+			<int name="51" value="1522071"/>
+			<int name="52" value="1532074"/>
+			<int name="53" value="1152089"/>
+			<int name="54" value="1552058"/>
+			<int name="55" value="1552059"/>
+			<int name="56" value="1542058"/>
+			<int name="57" value="1542059"/>
+			<int name="58" value="1212068"/>
+			<int name="59" value="1212069"/>
+			<int name="60" value="1222063"/>
+			<int name="61" value="1222064"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062200">
+		<imgdir name="info">
+			<canvas name="icon" width="26" height="32">
+				<vector name="origin" x="-3" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="26" height="32">
+				<vector name="origin" x="-3" y="32"/>
+				<string name="source" value="Item/Cash/0506.img/05062200/info/icon"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062201">
+		<imgdir name="info">
+			<canvas name="icon" width="26" height="32">
+				<vector name="origin" x="-3" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="26" height="32">
+				<vector name="origin" x="-3" y="32"/>
+				<string name="source" value="Item/Cash/0506.img/05062201/info/icon"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062202">
+		<imgdir name="info">
+			<canvas name="icon" width="26" height="29">
+				<vector name="origin" x="-4" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05060001/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="23" height="26">
+				<vector name="origin" x="-5" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05060001/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062400">
+		<imgdir name="info">
+			<canvas name="icon" width="35" height="32">
+				<vector name="origin" x="2" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="35" height="32">
+				<vector name="origin" x="2" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Synthesizing"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062401">
+		<imgdir name="info">
+			<canvas name="icon" width="34" height="32">
+				<vector name="origin" x="2" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="35" height="32">
+				<vector name="origin" x="3" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Synthesizing"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062402">
+		<imgdir name="info">
+			<canvas name="icon" width="34" height="32">
+				<vector name="origin" x="2" y="31"/>
+				<string name="source" value="Item/Cash/0506.img/05062401/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="35" height="32">
+				<vector name="origin" x="3" y="31"/>
+				<string name="source" value="Item/Cash/0506.img/05062401/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Synthesizing"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062403">
+		<imgdir name="info">
+			<canvas name="icon" width="35" height="32">
+				<vector name="origin" x="2" y="31"/>
+				<string name="source" value="Item/Cash/0506.img/05062400/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="35" height="32">
+				<vector name="origin" x="2" y="31"/>
+				<string name="source" value="Item/Cash/0506.img/05062400/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Synthesizing"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062405">
+		<imgdir name="info">
+			<canvas name="icon" width="35" height="32">
+				<vector name="origin" x="2" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="35" height="32">
+				<vector name="origin" x="2" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Synthesizing"/>
+			<int name="noMoveToLocker" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05063000">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="30">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="26">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05063100">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05064000">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05064100">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="28">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05064200">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="reset" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05064300">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05065000">
+		<imgdir name="info">
+			<canvas name="icon" width="31" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="31" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+		<imgdir name="effect">
+			<imgdir name="default">
+				<canvas name="0" width="24" height="48">
+					<vector name="origin" x="15" y="169"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="1" width="45" height="92">
+					<vector name="origin" x="30" y="213"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="2" width="60" height="96">
+					<vector name="origin" x="37" y="224"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="3" width="93" height="94">
+					<vector name="origin" x="44" y="221"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="4" width="155" height="121">
+					<vector name="origin" x="93" y="249"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="5" width="163" height="136">
+					<vector name="origin" x="98" y="269"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="6" width="201" height="129">
+					<vector name="origin" x="99" y="269"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="7" width="206" height="135">
+					<vector name="origin" x="100" y="269"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="8" width="207" height="140">
+					<vector name="origin" x="100" y="268"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="9" width="207" height="141">
+					<vector name="origin" x="99" y="266"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="10" width="163" height="172">
+					<vector name="origin" x="49" y="297"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="11" width="169" height="171">
+					<vector name="origin" x="49" y="295"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="12" width="171" height="124">
+					<vector name="origin" x="49" y="295"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="13" width="170" height="126">
+					<vector name="origin" x="48" y="294"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="14" width="127" height="121">
+					<vector name="origin" x="4" y="288"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<canvas name="15" width="123" height="116">
+					<vector name="origin" x="2" y="282"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+				</canvas>
+				<int name="z" value="-1"/>
+				<int name="pos" value="1"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05065100">
+		<imgdir name="info">
+			<canvas name="icon" width="31" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<string name="source" value="Item/Cash/0506.img/05065000/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="31" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<string name="source" value="Item/Cash/0506.img/05065000/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+		<imgdir name="effect">
+			<imgdir name="default">
+				<canvas name="0" width="24" height="48">
+					<vector name="origin" x="15" y="169"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/0"/>
+				</canvas>
+				<canvas name="1" width="45" height="92">
+					<vector name="origin" x="30" y="213"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/1"/>
+				</canvas>
+				<canvas name="2" width="60" height="96">
+					<vector name="origin" x="37" y="224"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/2"/>
+				</canvas>
+				<canvas name="3" width="93" height="94">
+					<vector name="origin" x="44" y="221"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/3"/>
+				</canvas>
+				<canvas name="4" width="155" height="121">
+					<vector name="origin" x="93" y="249"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/4"/>
+				</canvas>
+				<canvas name="5" width="163" height="136">
+					<vector name="origin" x="98" y="269"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/5"/>
+				</canvas>
+				<canvas name="6" width="201" height="129">
+					<vector name="origin" x="99" y="269"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/6"/>
+				</canvas>
+				<canvas name="7" width="206" height="135">
+					<vector name="origin" x="100" y="269"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/7"/>
+				</canvas>
+				<canvas name="8" width="207" height="140">
+					<vector name="origin" x="100" y="268"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/8"/>
+				</canvas>
+				<canvas name="9" width="207" height="141">
+					<vector name="origin" x="99" y="266"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/9"/>
+				</canvas>
+				<canvas name="10" width="163" height="172">
+					<vector name="origin" x="49" y="297"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/10"/>
+				</canvas>
+				<canvas name="11" width="169" height="171">
+					<vector name="origin" x="49" y="295"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/11"/>
+				</canvas>
+				<canvas name="12" width="171" height="124">
+					<vector name="origin" x="49" y="295"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/12"/>
+				</canvas>
+				<canvas name="13" width="170" height="126">
+					<vector name="origin" x="48" y="294"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/13"/>
+				</canvas>
+				<canvas name="14" width="127" height="121">
+					<vector name="origin" x="4" y="288"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/14"/>
+				</canvas>
+				<canvas name="15" width="123" height="116">
+					<vector name="origin" x="2" y="282"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="150"/>
+					<string name="source" value="Item/Cash/0506.img/05065000/effect/default/15"/>
+				</canvas>
+				<int name="z" value="-1"/>
+				<int name="pos" value="1"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05068000">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05063100/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05063100/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05068100">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="28">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064100/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064100/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05068200">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064300/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064300/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060003">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<string name="source" value="Item/Cash/0506.img/05060003/info/icon"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060004">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="27">
+				<vector name="origin" x="-2" y="27"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="23">
+				<vector name="origin" x="-2" y="27"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060005">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="32">
+				<vector name="origin" x="-1" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="32">
+				<vector name="origin" x="-1" y="32"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060006">
+		<imgdir name="info">
+			<canvas name="icon" width="25" height="32">
+				<vector name="origin" x="-4" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="26" height="32">
+				<vector name="origin" x="-3" y="32"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060006"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060007">
+		<imgdir name="info">
+			<canvas name="icon" width="39" height="36">
+				<vector name="origin" x="3" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="39" height="36">
+				<vector name="origin" x="3" y="33"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060007"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060008">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="30">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060008"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060012">
+		<imgdir name="info">
+			<canvas name="icon" width="31" height="30">
+				<vector name="origin" x="-1" y="30"/>
+			</canvas>
+			<canvas name="iconRaw" width="31" height="29">
+				<vector name="origin" x="-1" y="30"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060012"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060013">
+		<imgdir name="info">
+			<canvas name="icon" width="31" height="30">
+				<vector name="origin" x="-1" y="30"/>
+			</canvas>
+			<canvas name="iconRaw" width="31" height="29">
+				<vector name="origin" x="-1" y="30"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060013"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060014">
+		<imgdir name="info">
+			<canvas name="icon" width="31" height="30">
+				<vector name="origin" x="-1" y="30"/>
+			</canvas>
+			<canvas name="iconRaw" width="31" height="29">
+				<vector name="origin" x="-1" y="30"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060014"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060016">
+		<imgdir name="info">
+			<canvas name="icon" width="35" height="34">
+				<vector name="origin" x="1" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="35" height="34">
+				<vector name="origin" x="1" y="33"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060016"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060017">
+		<imgdir name="info">
+			<canvas name="icon" width="37" height="34">
+				<vector name="origin" x="3" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="37" height="34">
+				<vector name="origin" x="3" y="33"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060017"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060018">
+		<imgdir name="info">
+			<canvas name="icon" width="34" height="32">
+				<vector name="origin" x="1" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="34" height="32">
+				<vector name="origin" x="1" y="32"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060018"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060019">
+		<imgdir name="info">
+			<canvas name="icon" width="31" height="31">
+				<vector name="origin" x="1" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="29">
+				<vector name="origin" x="1" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060019"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060022">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="33">
+				<vector name="origin" x="-1" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="33">
+				<vector name="origin" x="-1" y="33"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060022"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060023">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="29">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060023"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060024">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="31">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="29">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060024"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062001">
+		<imgdir name="info">
+			<canvas name="icon" width="41" height="40">
+				<vector name="origin" x="4" y="36"/>
+			</canvas>
+			<canvas name="iconRaw" width="41" height="40">
+				<vector name="origin" x="4" y="36"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05067000">
+		<imgdir name="info">
+			<canvas name="icon" width="27" height="29">
+				<vector name="origin" x="-3" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="27" height="27">
+				<vector name="origin" x="-3" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062003">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="-1" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="-1" y="31"/>
+				<string name="source" value="Item/Cash/0506.img/05062003/info/icon"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062300">
+		<imgdir name="info">
+			<canvas name="icon" width="35" height="35">
+				<vector name="origin" x="1" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="34" height="35">
+				<vector name="origin" x="0" y="33"/>
+			</canvas>
+			<string name="path" value="UI/UIWindow2.img/PotentialStamp2"/>
+			<int name="success" value="100"/>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062005">
+		<imgdir name="info">
+			<canvas name="icon" width="34" height="33">
+				<vector name="origin" x="1" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="37" height="36">
+				<vector name="origin" x="2" y="35"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/MiracleCube_Amazing"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062006">
+		<imgdir name="info">
+			<canvas name="icon" width="35" height="34">
+				<vector name="origin" x="1" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="35" height="34">
+				<vector name="origin" x="1" y="32"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/MiracleCube_Platinum"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062090">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="33">
+				<vector name="origin" x="0" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="33"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/MiracleCube_Memorial"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05064002">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064000/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064000/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="limitedLv" value="105"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05064003">
+		<imgdir name="info">
+			<canvas name="icon" width="30" height="28">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="maxSuperiorEqp" value="7"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05064004">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064000/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064000/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05064101">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="28">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064100/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064100/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="limitedLv" value="105"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05064201">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064200/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064200/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="reset" value="1"/>
+			<int name="limitedLv" value="105"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05064301">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064300/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+				<string name="source" value="Item/Cash/0506.img/05064300/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="limitedLv" value="105"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05064400">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="29">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="26">
+				<vector name="origin" x="-1" y="29"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062500">
+		<imgdir name="info">
+			<canvas name="icon" width="35" height="34">
+				<vector name="origin" x="1" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="35" height="34">
+				<vector name="origin" x="1" y="33"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/MiracleCube_Additional"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062501">
+		<imgdir name="info">
+			<canvas name="icon" width="35" height="34">
+				<vector name="origin" x="1" y="33"/>
+				<string name="source" value="Item/Cash/0506.img/05062500/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="35" height="34">
+				<vector name="origin" x="1" y="33"/>
+				<string name="source" value="Item/Cash/0506.img/05062500/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/MiracleCube_Additional"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062503">
+		<imgdir name="info">
+			<canvas name="icon" width="34" height="35">
+				<vector name="origin" x="1" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="34" height="34">
+				<vector name="origin" x="1" y="32"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/AdditionalCube_White"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062800">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="33">
+				<vector name="origin" x="0" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="33">
+				<vector name="origin" x="0" y="33"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062101">
+		<imgdir name="info">
+			<canvas name="icon" width="37" height="38">
+				<vector name="origin" x="2" y="35"/>
+				<string name="source" value="Item/Cash/0506.img/05062000/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="37" height="38">
+				<vector name="origin" x="2" y="35"/>
+				<string name="source" value="Item/Cash/0506.img/05062000/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="noMoveToLocker" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/MiracleCube_Guide"/>
+		</imgdir>
+		<imgdir name="req">
+			<int name="0" value="1062164"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060025">
+		<imgdir name="info">
+			<canvas name="icon" width="36" height="36">
+				<vector name="origin" x="1" y="34"/>
+			</canvas>
+			<canvas name="iconRaw" width="34" height="37">
+				<vector name="origin" x="1" y="35"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060025"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060026">
+		<imgdir name="info">
+			<canvas name="icon" width="31" height="31">
+				<vector name="origin" x="1" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="30" height="29">
+				<vector name="origin" x="0" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060026"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060027">
+		<imgdir name="info">
+			<canvas name="icon" width="35" height="41">
+				<vector name="origin" x="0" y="35"/>
+			</canvas>
+			<canvas name="iconRaw" width="35" height="40">
+				<vector name="origin" x="0" y="35"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060027"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060028">
+		<imgdir name="info">
+			<canvas name="icon" width="35" height="33">
+				<vector name="origin" x="1" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="35" height="33">
+				<vector name="origin" x="1" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060028"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060029">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="26">
+				<vector name="origin" x="-2" y="26"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="22">
+				<vector name="origin" x="-2" y="26"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060029"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060032">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="26">
+				<vector name="origin" x="-2" y="26"/>
+				<string name="source" value="Item/Cash/0506.img/05060029/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="22">
+				<vector name="origin" x="-2" y="26"/>
+				<string name="source" value="Item/Cash/0506.img/05060029/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060032"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060046">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="24">
+				<vector name="origin" x="-2" y="25"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="22">
+				<vector name="origin" x="-2" y="25"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060046"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060047">
+		<imgdir name="info">
+			<canvas name="icon" width="29" height="24">
+				<vector name="origin" x="-2" y="25"/>
+			</canvas>
+			<canvas name="iconRaw" width="29" height="22">
+				<vector name="origin" x="-2" y="25"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060047"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062009">
+		<imgdir name="info">
+			<canvas name="icon" width="36" height="34">
+				<vector name="origin" x="3" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="36" height="34">
+				<vector name="origin" x="3" y="33"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Cube_Red"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062010">
+		<imgdir name="info">
+			<canvas name="icon" width="36" height="36">
+				<vector name="origin" x="2" y="34"/>
+			</canvas>
+			<canvas name="iconRaw" width="36" height="36">
+				<vector name="origin" x="2" y="34"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Cube_Black"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062801">
+		<imgdir name="info">
+			<canvas name="icon" width="33" height="33">
+				<vector name="origin" x="0" y="33"/>
+				<string name="source" value="Item/Cash/0506.img/05062800/info/icon"/>
+			</canvas>
+			<canvas name="iconRaw" width="33" height="33">
+				<vector name="origin" x="0" y="33"/>
+				<string name="source" value="Item/Cash/0506.img/05062800/info/iconRaw"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="noMoveToLocker" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05069000">
+		<imgdir name="info">
+			<canvas name="icon" width="37" height="38">
+				<vector name="origin" x="2" y="35"/>
+			</canvas>
+			<canvas name="iconRaw" width="38" height="38">
+				<vector name="origin" x="3" y="35"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="tradeReward" value="0"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05069001">
+		<imgdir name="info">
+			<canvas name="icon" width="38" height="38">
+				<vector name="origin" x="3" y="35"/>
+			</canvas>
+			<canvas name="iconRaw" width="38" height="38">
+				<vector name="origin" x="3" y="35"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<int name="tradeReward" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060015">
+		<imgdir name="info">
+			<canvas name="icon" width="36" height="32">
+				<vector name="origin" x="3" y="31"/>
+			</canvas>
+			<canvas name="iconRaw" width="36" height="32">
+				<vector name="origin" x="3" y="31"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindow2.img/Incubator/5060015"/>
+			<int name="noMoveToLocker" value="1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05060042">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="34">
+				<vector name="origin" x="0" y="33"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="34">
+				<vector name="origin" x="0" y="33"/>
+			</canvas>
+			<int name="cash" value="1"/>
+			<string name="path" value="UI/UIWindowJP.img/Incubator_JP/5060042"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="05062024">
+		<imgdir name="info">
+			<canvas name="iconRaw" width="25" height="26">
+				<vector name="origin" x="-4" y="28"/>
+			</canvas>
+			<canvas name="icon" width="25" height="26">
+				<vector name="origin" x="-4" y="28"/>
+			</canvas>
+			<int name="cash" value="1"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

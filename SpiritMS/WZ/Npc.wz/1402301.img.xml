@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1402301.img">
+	<imgdir name="info">
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="78" height="80">
+			<vector name="origin" x="41" y="80"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="3000"/>
+			<string name="source" value="Npc/0010200.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="78" height="80">
+			<vector name="origin" x="41" y="80"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/0010200.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="78" height="80">
+			<vector name="origin" x="41" y="80"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/1012100.img/eye/1"/>
+		</canvas>
+		<canvas name="2" width="78" height="80">
+			<vector name="origin" x="41" y="80"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/1012100.img/eye/2"/>
+		</canvas>
+	</imgdir>
+</imgdir>

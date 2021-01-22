@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2430009.img">
+	<imgdir name="info">
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="56" height="55">
+			<vector name="origin" x="27" y="55"/>
+			<int name="z" value="0"/>
+			<string name="delay" value="1500"/>
+			<string name="source" value="Npc/0002101.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="56" height="55">
+			<vector name="origin" x="27" y="55"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+			<string name="source" value="Npc/0002101.img/stand/1"/>
+		</canvas>
+		<canvas name="2" width="56" height="55">
+			<vector name="origin" x="27" y="55"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/0002101.img/stand/2"/>
+		</canvas>
+	</imgdir>
+</imgdir>

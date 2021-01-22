@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2460014.img">
+	<imgdir name="info">
+		<int name="dcLeft" value="-57"/>
+		<int name="dcTop" value="-149"/>
+		<int name="dcRight" value="72"/>
+		<int name="dcBottom" value="0"/>
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="q41267_script"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="129" height="150">
+			<vector name="origin" x="58" y="150"/>
+			<int name="delay" value="7000"/>
+			<string name="source" value="Npc/2111026.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="129" height="150">
+				<vector name="origin" x="58" y="150"/>
+				<int name="delay" value="7000"/>
+				<string name="source" value="Npc/2111026.img/scavenger/5"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="41271">
+			<string name="value" value="3"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="condition2">
+		<imgdir name="stand">
+			<canvas name="0" width="129" height="150">
+				<vector name="origin" x="58" y="150"/>
+				<int name="delay" value="7000"/>
+				<string name="source" value="Npc/2111026.img/scavenger/3"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="41271">
+			<string name="value" value="2"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="condition3">
+		<imgdir name="stand">
+			<canvas name="0" width="129" height="150">
+				<vector name="origin" x="58" y="150"/>
+				<int name="delay" value="7000"/>
+				<string name="source" value="Npc/2111026.img/scavenger/1"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="41271">
+			<string name="value" value="1"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

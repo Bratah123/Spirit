@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="UIMesoMarket.img">
+	<imgdir name="Number">
+		<canvas name="0" width="16" height="23">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="12" height="22">
+			<vector name="origin" x="-2" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="15" height="22">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="14" height="23">
+			<vector name="origin" x="-1" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="16" height="22">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="5" width="14" height="22">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="6" width="16" height="23">
+			<vector name="origin" x="-1" y="-1"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="7" width="15" height="22">
+			<vector name="origin" x="-1" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="8" width="15" height="23">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="9" width="16" height="23">
+			<vector name="origin" x="-1" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="bidding">
+		<canvas name="backgrnd" width="608" height="444">
+			<vector name="origin" x="-1" y="-1"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="layer:shadow" width="307" height="7">
+			<vector name="origin" x="-6" y="-76"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="edit:Point" width="62" height="21">
+			<vector name="origin" x="-194" y="-112"/>
+			<int name="z" value="1"/>
+			<int name="number" value="1"/>
+			<int name="maxlen" value="5"/>
+			<string name="font" value="나눔고딕 ExtraBold"/>
+			<string name="color" value="ffffcc00"/>
+			<int name="height" value="16"/>
+			<int name="id" value="1033"/>
+		</canvas>
+		<imgdir name="button:Buy">
+			<imgdir name="normal">
+				<canvas name="0" width="141" height="28">
+					<vector name="origin" x="-15" y="-54"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="141" height="28">
+					<vector name="origin" x="-15" y="-54"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1010"/>
+			<string name="ToolTip" value="Attempt to purchase with Maple Points."/>
+		</imgdir>
+		<imgdir name="button:Sell">
+			<imgdir name="normal">
+				<canvas name="0" width="141" height="28">
+					<vector name="origin" x="-161" y="-54"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="141" height="28">
+					<vector name="origin" x="-161" y="-54"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1011"/>
+			<string name="ToolTip" value="Purchase Maple Points with mesos."/>
+		</imgdir>
+		<imgdir name="button:Exit">
+			<imgdir name="normal">
+				<canvas name="0" width="22" height="21">
+					<vector name="origin" x="-574" y="-14"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="22" height="21">
+					<vector name="origin" x="-574" y="-14"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="22" height="21">
+					<vector name="origin" x="-574" y="-14"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="22" height="21">
+					<vector name="origin" x="-574" y="-14"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1000"/>
+			<string name="ToolTip" value="Exit Meso Market."/>
+		</imgdir>
+		<imgdir name="Helpbutton">
+			<imgdir name="normal">
+				<canvas name="0" width="22" height="21">
+					<vector name="origin" x="-550" y="-14"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="22" height="21">
+					<vector name="origin" x="-550" y="-14"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="22" height="21">
+					<vector name="origin" x="-550" y="-14"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="22" height="21">
+					<vector name="origin" x="-550" y="-14"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1020"/>
+		</imgdir>
+		<imgdir name="BuyMain">
+			<canvas name="backgrnd" width="577" height="374">
+				<vector name="origin" x="-20" y="-51"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="SellMain">
+			<canvas name="backgrnd" width="577" height="374">
+				<vector name="origin" x="-20" y="-51"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="button:Start">
+			<imgdir name="normal">
+				<canvas name="0" width="278" height="57">
+					<vector name="origin" x="-322" y="-377"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="278" height="57">
+					<vector name="origin" x="-322" y="-377"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="278" height="57">
+					<vector name="origin" x="-322" y="-377"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="278" height="57">
+					<vector name="origin" x="-322" y="-377"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1031"/>
+			<string name="ToolTip" value="Start trading."/>
+		</imgdir>
+		<imgdir name="combo:Discount">
+			<vector name="lt" x="33" y="312"/>
+			<vector name="rb" x="287" y="339"/>
+			<string name="backColor" value="ff888888"/>
+			<string name="backFocusedColor" value="ff888888"/>
+			<int name="fType" value="144"/>
+			<int name="fTypeSelect" value="40"/>
+			<int name="fTypeSelectFouced" value="36"/>
+			<int name="textLeft" value="3"/>
+			<int name="textTop" value="8"/>
+			<string name="sButtonUOL" value="UI/Basic.img/ComboBox7"/>
+			<int name="id" value="1034"/>
+		</imgdir>
+		<imgdir name="combo:Bonus">
+			<vector name="lt" x="33" y="380"/>
+			<vector name="rb" x="287" y="407"/>
+			<string name="backColor" value="ff888888"/>
+			<string name="backFocusedColor" value="ff888888"/>
+			<int name="id" value="1035"/>
+			<int name="fType" value="144"/>
+			<int name="fTypeSelect" value="40"/>
+			<int name="fTypeSelectFouced" value="36"/>
+			<int name="textLeft" value="3"/>
+			<int name="textTop" value="8"/>
+			<string name="sButtonUOL" value="UI/Basic.img/ComboBox7"/>
+		</imgdir>
+		<imgdir name="combo:Count">
+			<vector name="lt" x="186" y="140"/>
+			<vector name="rb" x="289" y="168"/>
+			<string name="backColor" value="ff444444"/>
+			<string name="backFocusedColor" value="ff444444"/>
+			<int name="fType" value="143"/>
+			<int name="fTypeSelect" value="40"/>
+			<int name="fTypeSelectFouced" value="36"/>
+			<int name="textLeft" value="3"/>
+			<int name="textTop" value="8"/>
+			<string name="sButtonUOL" value="UI/Basic.img/ComboBox10"/>
+			<int name="id" value="1032"/>
+		</imgdir>
+		<imgdir name="combo:BuyBonus">
+			<vector name="lt" x="33" y="312"/>
+			<vector name="rb" x="287" y="339"/>
+			<string name="backColor" value="ff888888"/>
+			<string name="backFocusedColor" value="ff888888"/>
+			<int name="fType" value="144"/>
+			<int name="fTypeSelect" value="40"/>
+			<int name="fTypeSelectFouced" value="36"/>
+			<int name="textLeft" value="3"/>
+			<int name="textTop" value="8"/>
+			<string name="sButtonUOL" value="UI/Basic.img/ComboBox7"/>
+			<int name="id" value="1035"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="afterBidding">
+		<canvas name="backgrnd" width="608" height="444">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="layer:Disabled" width="276" height="329">
+			<vector name="origin" x="-21" y="-97"/>
+			<int name="z" value="1"/>
+		</canvas>
+		<imgdir name="button:Cancel">
+			<imgdir name="normal">
+				<canvas name="0" width="178" height="26">
+					<vector name="origin" x="-361" y="-184"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="178" height="26">
+					<vector name="origin" x="-361" y="-184"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="178" height="26">
+					<vector name="origin" x="-361" y="-184"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="178" height="26">
+					<vector name="origin" x="-361" y="-184"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1021"/>
+			<string name="ToolTip" value="Cancel all current trades."/>
+		</imgdir>
+		<imgdir name="button:Collect">
+			<imgdir name="normal">
+				<canvas name="0" width="178" height="26">
+					<vector name="origin" x="-361" y="-359"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="pressed">
+				<canvas name="0" width="178" height="26">
+					<vector name="origin" x="-361" y="-359"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="disabled">
+				<canvas name="0" width="178" height="26">
+					<vector name="origin" x="-361" y="-359"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="mouseOver">
+				<canvas name="0" width="178" height="26">
+					<vector name="origin" x="-361" y="-359"/>
+				</canvas>
+			</imgdir>
+			<int name="id" value="1022"/>
+			<string name="ToolTip" value="Collect canceled trade deposits and completed trades."/>
+		</imgdir>
+	</imgdir>
+</imgdir>

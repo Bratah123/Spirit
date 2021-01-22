@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9600186.img">
+	<imgdir name="info">
+		<int name="level" value="13"/>
+		<int name="bodyAttack" value="1"/>
+		<int name="maxHP" value="20140000"/>
+		<int name="fixedDamage" value="2014"/>
+		<int name="maxMP" value="120"/>
+		<int name="speed" value="-20"/>
+		<int name="PADamage" value="1"/>
+		<int name="PDDamage" value="1"/>
+		<int name="PDRate" value="20"/>
+		<int name="MADamage" value="1"/>
+		<int name="MDDamage" value="1"/>
+		<int name="MDRate" value="20"/>
+		<int name="acc" value="40"/>
+		<int name="eva" value="3"/>
+		<int name="pushed" value="150"/>
+		<float name="fs" value="10.0"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="6"/>
+		<string name="mobType" value="7N"/>
+		<string name="link" value="9600063"/>
+		<imgdir name="attack">
+			<imgdir name="0">
+				<int name="action" value="1"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="1"/>
+				<int name="conMP" value="1"/>
+				<int name="disease" value="121"/>
+				<int name="level" value="2"/>
+			</imgdir>
+		</imgdir>
+		<int name="boss" value="1"/>
+		<int name="hpTagColor" value="1"/>
+		<int name="hpTagBgcolor" value="5"/>
+		<int name="HPgaugeHide" value="0"/>
+	</imgdir>
+</imgdir>

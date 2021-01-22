@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2120003.img">
+	<imgdir name="info">
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="53" height="69">
+			<vector name="origin" x="24" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="52" height="69">
+			<vector name="origin" x="23" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="53" height="69">
+			<vector name="origin" x="24" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="52" height="69">
+			<vector name="origin" x="23" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+		<canvas name="0" width="53" height="69">
+			<vector name="origin" x="24" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="52" height="69">
+			<vector name="origin" x="23" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="53" height="69">
+			<vector name="origin" x="24" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="52" height="69">
+			<vector name="origin" x="23" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<uol name="4" value="../stand/0"/>
+		<uol name="5" value="../stand/1"/>
+		<uol name="6" value="../stand/2"/>
+		<uol name="7" value="../stand/3"/>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="53" height="69">
+			<vector name="origin" x="24" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="52" height="69">
+			<vector name="origin" x="23" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="53" height="69">
+			<vector name="origin" x="24" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="52" height="69">
+			<vector name="origin" x="23" y="69"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<uol name="4" value="../stand/0"/>
+		<uol name="5" value="../stand/1"/>
+		<uol name="6" value="../stand/2"/>
+		<uol name="7" value="../stand/3"/>
+	</imgdir>
+	<imgdir name="condition1">
+		<int name="15102" value="2"/>
+		<imgdir name="stand">
+			<canvas name="0" width="53" height="69">
+				<vector name="origin" x="24" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="52" height="69">
+				<vector name="origin" x="23" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="53" height="69">
+				<vector name="origin" x="24" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="52" height="69">
+				<vector name="origin" x="23" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="say">
+			<imgdir name="speak">
+				<string name="0" value="n0"/>
+				<string name="1" value="n1"/>
+			</imgdir>
+			<canvas name="0" width="53" height="69">
+				<vector name="origin" x="24" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="52" height="69">
+				<vector name="origin" x="23" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="53" height="69">
+				<vector name="origin" x="24" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="52" height="69">
+				<vector name="origin" x="23" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<uol name="4" value="../stand/0"/>
+			<uol name="5" value="../stand/1"/>
+			<uol name="6" value="../stand/2"/>
+			<uol name="7" value="../stand/3"/>
+		</imgdir>
+		<imgdir name="eye">
+			<canvas name="0" width="53" height="69">
+				<vector name="origin" x="24" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="52" height="69">
+				<vector name="origin" x="23" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="53" height="69">
+				<vector name="origin" x="24" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="52" height="69">
+				<vector name="origin" x="23" y="69"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<uol name="4" value="../stand/0"/>
+			<uol name="5" value="../stand/1"/>
+			<uol name="6" value="../stand/2"/>
+			<uol name="7" value="../stand/3"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

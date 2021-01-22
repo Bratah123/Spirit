@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2232018.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="talk_nita"/>
+			</imgdir>
+		</imgdir>
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="76" height="79">
+			<vector name="origin" x="36" y="79"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="1000"/>
+			<string name="source" value="Npc/2230101.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+		<canvas name="0" width="76" height="79">
+			<vector name="origin" x="36" y="79"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2230101.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="76" height="79">
+			<vector name="origin" x="36" y="79"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2230101.img/say/1"/>
+		</canvas>
+		<uol name="2" value="0"/>
+		<canvas name="3" width="76" height="79">
+			<vector name="origin" x="36" y="79"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2230101.img/say/3"/>
+		</canvas>
+		<uol name="4" value="0"/>
+		<uol name="5" value="1"/>
+		<uol name="6" value="0"/>
+		<uol name="7" value="3"/>
+		<uol name="8" value="0"/>
+		<uol name="9" value="1"/>
+		<uol name="10" value="0"/>
+		<uol name="11" value="3"/>
+		<canvas name="12" width="76" height="79">
+			<vector name="origin" x="36" y="79"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="500"/>
+			<string name="source" value="Npc/2230101.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="76" height="79">
+			<vector name="origin" x="36" y="79"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2230101.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="76" height="79">
+			<vector name="origin" x="36" y="79"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2230101.img/eye/1"/>
+		</canvas>
+		<uol name="2" value="0"/>
+		<canvas name="3" width="76" height="79">
+			<vector name="origin" x="36" y="79"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/2230101.img/eye/3"/>
+		</canvas>
+		<uol name="4" value="0"/>
+		<uol name="5" value="1"/>
+		<uol name="6" value="0"/>
+		<uol name="7" value="3"/>
+		<uol name="8" value="0"/>
+		<canvas name="9" width="76" height="79">
+			<vector name="origin" x="36" y="79"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="500"/>
+			<string name="source" value="Npc/2230101.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<int name="32509" value="1"/>
+		<imgdir name="stand">
+			<uol name="0" value="../../stand/0"/>
+		</imgdir>
+		<imgdir name="say">
+			<imgdir name="speak">
+				<string name="0" value="n0"/>
+				<string name="1" value="n1"/>
+			</imgdir>
+			<uol name="0" value="../../say/0"/>
+			<uol name="1" value="../../say/1"/>
+			<uol name="2" value="../../say/0"/>
+			<uol name="3" value="../../say/3"/>
+			<uol name="4" value="../../say/0"/>
+			<uol name="5" value="../../say/1"/>
+			<uol name="6" value="../../say/0"/>
+			<uol name="7" value="../../say/3"/>
+			<uol name="8" value="../../say/0"/>
+			<uol name="9" value="../../say/1"/>
+			<uol name="10" value="../../say/0"/>
+			<uol name="11" value="../../say/3"/>
+			<uol name="12" value="../../say/12"/>
+		</imgdir>
+		<imgdir name="eye">
+			<uol name="0" value="../../eye/0"/>
+			<uol name="1" value="../../eye/1"/>
+			<uol name="2" value="../../eye/0"/>
+			<uol name="3" value="../../eye/3"/>
+			<uol name="4" value="../../eye/0"/>
+			<uol name="5" value="../../eye/1"/>
+			<uol name="6" value="../../eye/0"/>
+			<uol name="7" value="../../eye/3"/>
+			<uol name="8" value="../../eye/0"/>
+			<uol name="9" value="../../eye/9"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

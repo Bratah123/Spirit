@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9310585.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="q62003_check"/>
+			</imgdir>
+		</imgdir>
+		<int name="hideName" value="1"/>
+		<int name="dcLeft" value="-100"/>
+		<int name="dcRight" value="100"/>
+		<int name="dcTop" value="-250"/>
+		<int name="dcBottom" value="10"/>
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="17" height="131">
+			<vector name="origin" x="12" y="131"/>
+			<vector name="head" x="-1" y="-150"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition">
+		<imgdir name="stand">
+			<canvas name="0" width="17" height="131">
+				<vector name="origin" x="12" y="131"/>
+				<vector name="head" x="-1" y="-150"/>
+			</canvas>
+		</imgdir>
+		<int name="62003" value="1"/>
+	</imgdir>
+</imgdir>

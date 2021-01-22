@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="AchievementsPL.img">
+	<imgdir name="0">
+		<int name="category" value="1"/>
+		<string name="title" value="Nene Hunter"/>
+		<string name="desc" value="Hunt Nene once"/>
+		<int name="grade" value="0"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59600"/>
+			<string name="recordQuestSubStr" value="59600_1"/>
+			<int name="completeCondition" value="1"/>
+			<int name="rewardQuestID" value="59601"/>
+		</imgdir>
+		<int name="itemID" value="2028338"/>
+	</imgdir>
+	<imgdir name="1">
+		<int name="category" value="1"/>
+		<string name="title" value="Pure Nene"/>
+		<string name="desc" value="Hunt Nene 5 times"/>
+		<int name="grade" value="1"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59600"/>
+			<string name="recordQuestSubStr" value="59600_2"/>
+			<int name="completeCondition" value="5"/>
+			<int name="rewardQuestID" value="59602"/>
+		</imgdir>
+		<int name="itemID" value="2591561"/>
+	</imgdir>
+	<imgdir name="2">
+		<int name="category" value="1"/>
+		<string name="title" value="Fragment Fiend"/>
+		<string name="desc" value="Defeat Nene with at least 5 fragments remaining"/>
+		<int name="grade" value="2"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59600"/>
+			<string name="recordQuestSubStr" value="59600_3"/>
+			<int name="completeCondition" value="1"/>
+			<int name="rewardQuestID" value="59603"/>
+		</imgdir>
+		<int name="itemID" value="2435499"/>
+	</imgdir>
+	<imgdir name="3">
+		<int name="category" value="1"/>
+		<string name="title" value="TuTu Hunter"/>
+		<string name="desc" value="Hunt TuTu once"/>
+		<int name="grade" value="0"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59620"/>
+			<string name="recordQuestSubStr" value="59620_1"/>
+			<int name="completeCondition" value="1"/>
+			<int name="rewardQuestID" value="59621"/>
+		</imgdir>
+		<int name="itemID" value="2028338"/>
+	</imgdir>
+	<imgdir name="4">
+		<int name="category" value="1"/>
+		<string name="title" value="Pure TuTu"/>
+		<string name="desc" value="Hunt TuTu 5 times"/>
+		<int name="grade" value="1"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59620"/>
+			<string name="recordQuestSubStr" value="59620_2"/>
+			<int name="completeCondition" value="5"/>
+			<int name="rewardQuestID" value="59622"/>
+		</imgdir>
+		<int name="itemID" value="2591552"/>
+	</imgdir>
+	<imgdir name="5">
+		<int name="category" value="1"/>
+		<string name="title" value="Faster Than Light"/>
+		<string name="desc" value="Hunt TuTu without getting hit by the beam"/>
+		<int name="grade" value="2"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59620"/>
+			<string name="recordQuestSubStr" value="59620_3"/>
+			<int name="completeCondition" value="1"/>
+			<int name="rewardQuestID" value="59623"/>
+		</imgdir>
+		<int name="itemID" value="2435499"/>
+	</imgdir>
+	<imgdir name="6">
+		<int name="category" value="1"/>
+		<string name="title" value="Nowhere to Hide"/>
+		<string name="desc" value="Defeat Tutu after summoning 7 Photons"/>
+		<int name="grade" value="3"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59620"/>
+			<string name="recordQuestSubStr" value="59620_4"/>
+			<int name="completeCondition" value="1"/>
+			<int name="rewardQuestID" value="59624"/>
+		</imgdir>
+		<int name="itemID" value="2435499"/>
+	</imgdir>
+	<imgdir name="7">
+		<int name="category" value="1"/>
+		<string name="title" value="Two in Once"/>
+		<string name="desc" value="Hunt the Dual Boss once"/>
+		<int name="grade" value="0"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59640"/>
+			<string name="recordQuestSubStr" value="59640_1"/>
+			<int name="completeCondition" value="1"/>
+			<int name="rewardQuestID" value="59641"/>
+		</imgdir>
+		<int name="itemID" value="2028338"/>
+	</imgdir>
+	<imgdir name="8">
+		<int name="category" value="1"/>
+		<string name="title" value="Double Trouble"/>
+		<string name="desc" value="Hunt the Dual Boss 5 times"/>
+		<int name="grade" value="1"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59640"/>
+			<string name="recordQuestSubStr" value="59640_2"/>
+			<int name="completeCondition" value="5"/>
+			<int name="rewardQuestID" value="59642"/>
+		</imgdir>
+		<int name="itemID" value="2435499"/>
+	</imgdir>
+	<imgdir name="9">
+		<int name="category" value="1"/>
+		<string name="title" value="I Hate Tutu More"/>
+		<string name="desc" value="Defeat Tutu before Nene"/>
+		<int name="grade" value="2"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59640"/>
+			<string name="recordQuestSubStr" value="59640_3"/>
+			<int name="completeCondition" value="1"/>
+			<int name="rewardQuestID" value="59643"/>
+		</imgdir>
+		<int name="itemID" value="2435499"/>
+	</imgdir>
+	<imgdir name="10">
+		<int name="category" value="0"/>
+		<string name="title" value="The Day It Rained Frogs"/>
+		<string name="desc" value="Hunt 100 Tutu Clones"/>
+		<int name="grade" value="0"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59785"/>
+			<string name="recordQuestSubStr" value="f"/>
+			<int name="completeCondition" value="100"/>
+			<int name="rewardQuestID" value="59651"/>
+		</imgdir>
+		<int name="itemID" value="1142973"/>
+	</imgdir>
+	<imgdir name="11">
+		<int name="category" value="0"/>
+		<string name="title" value="A Speedy Exit"/>
+		<string name="desc" value="Hunt 100 Grouchy Nene Clones"/>
+		<int name="grade" value="0"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59785"/>
+			<string name="recordQuestSubStr" value="t"/>
+			<int name="completeCondition" value="100"/>
+			<int name="rewardQuestID" value="59652"/>
+		</imgdir>
+		<int name="itemID" value="1142974"/>
+	</imgdir>
+	<imgdir name="12">
+		<int name="category" value="0"/>
+		<string name="title" value="Here Kitty, Kitty"/>
+		<string name="desc" value="Hunt 100 Lingling or Infiltrator Linglings"/>
+		<int name="grade" value="1"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59785"/>
+			<string name="recordQuestSubStr" value="c"/>
+			<int name="completeCondition" value="100"/>
+			<int name="rewardQuestID" value="59653"/>
+		</imgdir>
+		<int name="itemID" value="1142975"/>
+	</imgdir>
+	<imgdir name="13">
+		<int name="category" value="0"/>
+		<string name="title" value="Black Not White"/>
+		<string name="desc" value="Hunt 10 Alpha Linglings"/>
+		<int name="grade" value="0"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59785"/>
+			<string name="recordQuestSubStr" value="ac"/>
+			<int name="completeCondition" value="10"/>
+			<int name="rewardQuestID" value="59654"/>
+		</imgdir>
+		<int name="itemID" value="2435488"/>
+	</imgdir>
+	<imgdir name="14">
+		<int name="category" value="0"/>
+		<string name="title" value="Frog in the Cube"/>
+		<string name="desc" value="Hunt 10 Alpha Tutus"/>
+		<int name="grade" value="0"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59785"/>
+			<string name="recordQuestSubStr" value="af"/>
+			<int name="completeCondition" value="10"/>
+			<int name="rewardQuestID" value="59655"/>
+		</imgdir>
+		<int name="itemID" value="2435486"/>
+	</imgdir>
+	<imgdir name="15">
+		<int name="category" value="0"/>
+		<string name="title" value="If It Looks Like a Turtle..."/>
+		<string name="desc" value="Hunt 10 Alpha Nenes"/>
+		<int name="grade" value="0"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59785"/>
+			<string name="recordQuestSubStr" value="at"/>
+			<int name="completeCondition" value="10"/>
+			<int name="rewardQuestID" value="59656"/>
+		</imgdir>
+		<int name="itemID" value="2435487"/>
+	</imgdir>
+	<imgdir name="16">
+		<int name="category" value="0"/>
+		<string name="title" value="Alien Eradicator"/>
+		<string name="desc" value="Hunt 100 PULSAR Members"/>
+		<int name="grade" value="0"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59785"/>
+			<string name="recordQuestSubStr" value="h"/>
+			<int name="completeCondition" value="100"/>
+			<int name="rewardQuestID" value="59657"/>
+		</imgdir>
+		<int name="itemID" value="2435454"/>
+	</imgdir>
+	<imgdir name="17">
+		<int name="category" value="0"/>
+		<string name="title" value="Bounty Hunter"/>
+		<string name="desc" value="Hunt 100 PULSAR Commanders"/>
+		<int name="grade" value="0"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59785"/>
+			<string name="recordQuestSubStr" value="ah"/>
+			<int name="completeCondition" value="100"/>
+			<int name="rewardQuestID" value="59658"/>
+		</imgdir>
+		<int name="itemID" value="1142976"/>
+	</imgdir>
+	<imgdir name="18">
+		<int name="category" value="0"/>
+		<string name="title" value="An Unlikely Friend"/>
+		<string name="desc" value="Meet all the Hidden NPC Merchants."/>
+		<int name="grade" value="2"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59785"/>
+			<string name="recordQuestSubStr" value="shop"/>
+			<int name="completeCondition" value="1"/>
+			<int name="rewardQuestID" value="59659"/>
+		</imgdir>
+		<int name="itemID" value="2028338"/>
+	</imgdir>
+	<imgdir name="19">
+		<int name="category" value="0"/>
+		<string name="title" value="Alien Technology Expert"/>
+		<string name="desc" value="TRIGGER ALL THE TRAPS!"/>
+		<int name="grade" value="2"/>
+		<imgdir name="quest">
+			<int name="attendQuestID" value="59741"/>
+			<int name="recordQuestID" value="59785"/>
+			<string name="recordQuestSubStr" value="stage"/>
+			<int name="completeCondition" value="1"/>
+			<int name="rewardQuestID" value="59660"/>
+		</imgdir>
+		<int name="itemID" value="2435498"/>
+	</imgdir>
+</imgdir>

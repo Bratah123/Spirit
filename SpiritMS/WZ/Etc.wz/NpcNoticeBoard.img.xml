@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="NpcNoticeBoard.img">
+	<imgdir name="1">
+		<int name="npcID" value="9000453"/>
+		<canvas name="backgrnd" width="374" height="85">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<int name="noticeLeft" value="6"/>
+		<int name="noticeTop" value="10"/>
+		<int name="noticeWidth" value="350"/>
+		<int name="noticeHeight" value="55"/>
+		<int name="marginX" value="-192"/>
+		<int name="marginY" value="-143"/>
+		<imgdir name="number">
+			<canvas name="0" width="37" height="52">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="37" height="52">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="37" height="52">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="37" height="52">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="37" height="52">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="37" height="52">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="37" height="52">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="37" height="52">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="8" width="37" height="52">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="9" width="37" height="52">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="fieldList">
+			<int name="0" value="180000000"/>
+			<int name="1" value="100000000"/>
+			<int name="2" value="240000000"/>
+			<int name="3" value="310070000"/>
+			<int name="4" value="211042300"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

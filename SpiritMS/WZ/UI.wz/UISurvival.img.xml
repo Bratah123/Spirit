@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="UISurvival.img">
+	<imgdir name="islandSurvival">
+		<canvas name="backgrd" width="443" height="105">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<imgdir name="Num">
+			<canvas name="0" width="22" height="33">
+				<vector name="origin" x="-90" y="-19"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="1" width="16" height="33">
+				<vector name="origin" x="-92" y="-19"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="2" width="20" height="32">
+				<vector name="origin" x="-91" y="-20"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="3" width="19" height="33">
+				<vector name="origin" x="-92" y="-19"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="4" width="23" height="33">
+				<vector name="origin" x="-89" y="-19"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="5" width="19" height="32">
+				<vector name="origin" x="-92" y="-20"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="6" width="21" height="33">
+				<vector name="origin" x="-90" y="-19"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="7" width="22" height="33">
+				<vector name="origin" x="-90" y="-19"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="8" width="22" height="33">
+				<vector name="origin" x="-90" y="-19"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="9" width="22" height="33">
+				<vector name="origin" x="-90" y="-19"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="zero" width="20" height="29">
+				<vector name="origin" x="-91" y="-21"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="gauge">
+			<imgdir name="15210">
+				<canvas name="gauge" width="1" height="10">
+					<vector name="origin" x="-236" y="-16"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="front" width="124" height="3">
+					<vector name="origin" x="-235" y="-17"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<imgdir name="warning">
+					<canvas name="0" width="141" height="20">
+						<vector name="origin" x="-228" y="-11"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="1" width="141" height="20">
+						<vector name="origin" x="-228" y="-11"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="2" width="141" height="20">
+						<vector name="origin" x="-228" y="-11"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="3" width="141" height="20">
+						<vector name="origin" x="-228" y="-11"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="4" width="139" height="18">
+						<vector name="origin" x="-229" y="-12"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="5" width="137" height="16">
+						<vector name="origin" x="-230" y="-13"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<canvas name="bar" width="131" height="10">
+					<vector name="origin" x="-233" y="-16"/>
+				</canvas>
+				<vector name="point" x="375" y="16"/>
+			</imgdir>
+			<imgdir name="15211">
+				<canvas name="gauge" width="1" height="10">
+					<vector name="origin" x="-236" y="-41"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="front" width="124" height="3">
+					<vector name="origin" x="-235" y="-42"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<imgdir name="warning">
+					<canvas name="0" width="141" height="20">
+						<vector name="origin" x="-228" y="-36"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="1" width="141" height="20">
+						<vector name="origin" x="-228" y="-36"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="2" width="141" height="20">
+						<vector name="origin" x="-228" y="-36"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="3" width="141" height="20">
+						<vector name="origin" x="-228" y="-36"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="4" width="139" height="18">
+						<vector name="origin" x="-229" y="-37"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="5" width="137" height="16">
+						<vector name="origin" x="-230" y="-38"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<canvas name="bar" width="131" height="10">
+					<vector name="origin" x="-233" y="-41"/>
+				</canvas>
+				<vector name="point" x="375" y="41"/>
+			</imgdir>
+			<imgdir name="15212">
+				<canvas name="gauge" width="1" height="10">
+					<vector name="origin" x="-236" y="-66"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="front" width="124" height="3">
+					<vector name="origin" x="-235" y="-67"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<imgdir name="warning">
+					<canvas name="0" width="141" height="20">
+						<vector name="origin" x="-228" y="-61"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="1" width="141" height="20">
+						<vector name="origin" x="-228" y="-61"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="2" width="141" height="20">
+						<vector name="origin" x="-228" y="-61"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="3" width="141" height="20">
+						<vector name="origin" x="-228" y="-61"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="4" width="139" height="18">
+						<vector name="origin" x="-229" y="-62"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="5" width="137" height="16">
+						<vector name="origin" x="-230" y="-63"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<canvas name="bar" width="131" height="10">
+					<vector name="origin" x="-233" y="-66"/>
+				</canvas>
+				<vector name="point" x="375" y="66"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="day">
+			<imgdir name="15208">
+				<vector name="dayPoint" x="0" y="0"/>
+				<vector name="timerPoint" x="161" y="66"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

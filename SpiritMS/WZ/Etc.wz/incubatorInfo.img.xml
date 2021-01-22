@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="incubatorInfo.img">
+	<imgdir name="5060002">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="0"/>
+				<int name="max" value="12"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You need an Incubator to grow the Pigmy Egg."/>
+			<string name="wrongEgg" value="부화시킬 수 없는 아이템입니다."/>
+			<string name="noEgg" value="부화시킬 아이템을 먼저 선택하여 주십시요 "/>
+			<string name="sucess" value="피그미 에그 안에서 아이템이 나왔습니다."/>
+			<string name="finalConfirm" value="장비창 %d개, 소비창 %d개, 기타창 %d개,\n설치창 %d개의 빈 공간이 있어야 합니다.\n피그미 에그를 부화시키겠습니까?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="equip" value="1"/>
+				<int name="consume" value="1"/>
+				<int name="etc" value="1"/>
+				<int name="install" value="1"/>
+			</imgdir>
+		</imgdir>
+		<string name="sucessNpcID" value="9050008"/>
+	</imgdir>
+	<imgdir name="5060003">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="23"/>
+				<int name="max" value="23"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You must purchase a Peanut Machine from the cash shop\r\n to crack open the peanut."/>
+			<string name="wrongEgg" value="This item can not be cracked."/>
+			<string name="noEgg" value="Please select an item that you want to crack."/>
+			<string name="sucess" value="The machine spits out an item covered in peanut shell dust. "/>
+			<string name="finalConfirm" value="You must have\n 2 empty slots in Equip Inventory,\n 2 empty slots in Use Inventory,\n and 1 empty slot in Set-up Inventory.\n Do you want to crack a peanut?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="equip" value="1"/>
+				<int name="consume" value="1"/>
+				<int name="install" value="1"/>
+				<int name="etc" value="0"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060004">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="24"/>
+				<int name="max" value="24"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="In order to defrost an Ice Cube,\nyou must purchase a Microwave\nfrom the Cash Shop."/>
+			<string name="wrongEgg" value="The selected item cannot be defrosted."/>
+			<string name="noEgg" value="Select an item to defrost. "/>
+			<string name="sucess" value="You obtained an item from the Ice Cube."/>
+			<string name="finalConfirm" value="Requires empty slots in the following Inventory tabs:\nEquip x%d, Use x%d,\nSet-up x%d, Etc x%d.\nDo you still want to defrost the Ice Cube?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="equip" value="1"/>
+				<int name="consume" value="1"/>
+				<int name="install" value="1"/>
+				<int name="etc" value="2"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060005">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="0"/>
+				<int name="max" value="12"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You need an Incubator to grow the Pigmy Egg."/>
+			<string name="wrongEgg" value="부화시킬 수 없는 아이템입니다."/>
+			<string name="noEgg" value="부화시킬 아이템을 먼저 선택하여 주십시요 "/>
+			<string name="sucess" value="피그미 에그 안에서 아이템이 나왔습니다."/>
+			<string name="finalConfirm" value="장비창 %d개, 소비창 %d개, 기타창 %d개,\n설치창 %d개의 빈 공간이 있어야 합니다.\n피그미 에그를 부화시키겠습니까?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="equip" value="1"/>
+				<int name="consume" value="1"/>
+				<int name="etc" value="1"/>
+				<int name="install" value="1"/>
+			</imgdir>
+		</imgdir>
+		<string name="sucessNpcID" value="9050008"/>
+		<int name="selfSelectReward" value="1"/>
+		<int name="fixedSelectReward" value="0"/>
+	</imgdir>
+	<imgdir name="5060006">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="27"/>
+				<int name="max" value="27"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value=" Hero Keys can open the \nMagic Music Box from the Cash Shop."/>
+			<string name="wrongEgg" value="This item cannot open the Music Box."/>
+			<string name="noEgg" value="Please get a  Hero Key first."/>
+			<string name="sucess" value="An item came out of the Music Box."/>
+			<string name="finalConfirm" value="Requires empty slots in the following Inventory tabs: Equip x%d, Use x%d,\nSet-up x%d, Etc x%d.\nOpen the Magic Music Box?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="equip" value="1"/>
+				<int name="consume" value="1"/>
+				<int name="install" value="1"/>
+				<int name="etc" value="2"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060007">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="28"/>
+				<int name="max" value="28"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="Place the Renegades Gem on the Crystal Scale \nfrom the Cash Shop to obtain \nsecret items."/>
+			<string name="wrongEgg" value="This item cannot be placed on the scale."/>
+			<string name="noEgg" value="Insert a Renegades Gem first."/>
+			<string name="sucess" value="You got an item from the Crystal Scale."/>
+			<string name="finalConfirm" value="Requires empty slots in the following Inventory\n tabs: Equip x%d, Use x%d, Set-up x%d, Etc x%d.\nUse the Crystal Scale?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="equip" value="1"/>
+				<int name="consume" value="1"/>
+				<int name="install" value="1"/>
+				<int name="etc" value="2"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060008">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="29"/>
+				<int name="max" value="29"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="Use Enchanted Teabags in the Magical Teapot\nfrom the Cash Shop to obtain \nsecret items."/>
+			<string name="wrongEgg" value="You can't fit that in the Magical Teapot."/>
+			<string name="noEgg" value="Put an Enchanted Teabag inside."/>
+			<string name="sucess" value="There's an item in the bottom of the Magical Teapot."/>
+			<string name="finalConfirm" value="Requires empty slots in the following tabs:\nEquip x%d, Use x%d, Set-up x%d, Etc x%d.\nUse the Magical Teapot?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="equip" value="1"/>
+				<int name="consume" value="1"/>
+				<int name="install" value="1"/>
+				<int name="etc" value="2"/>
+			</imgdir>
+		</imgdir>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060012">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="37"/>
+				<int name="max" value="37"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="Place a sheet of Clear Mirror Glass on the \nMermaid Mirror from the Cash Shop \nto obtain secret items."/>
+			<string name="wrongEgg" value="That item cannot be placed on the Mermaid Mirror."/>
+			<string name="noEgg" value="A sheet of Clear Mirror Glass\nmust be placed on the mirror first."/>
+			<string name="sucess" value="An item spilled out of the Mermaid Mirror!"/>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip, %d in Use,\n%d in Set-up, and %d in Etc.\nUse the Mermaid Mirror?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="equip" value="1"/>
+				<int name="consume" value="1"/>
+				<int name="install" value="1"/>
+				<int name="etc" value="2"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060013">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="32"/>
+				<int name="max" value="32"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="Place a sheet of Emerald Mirror Glass on the \nEmerald Mirror from the Cash Shop \nto obtain secret items."/>
+			<string name="wrongEgg" value="That item cannot be placed on the Emerald Mirror."/>
+			<string name="noEgg" value="A sheet of Emerald Mirror Glass\nmust be placed on the mirror first."/>
+			<string name="sucess" value="An item spilled out of the Emerald Mirror!"/>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip, %d in Use and %d in Etc.\nUse the Emerald Mirror?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="equip" value="1"/>
+				<int name="consume" value="2"/>
+				<int name="etc" value="2"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060014">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="33"/>
+				<int name="max" value="33"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="Place a sheet of Spinel Mirror Glass on the \nSpinel Mirror from the Cash Shop \nto obtain secret items."/>
+			<string name="wrongEgg" value="That item cannot be placed on the Spinel Mirror."/>
+			<string name="noEgg" value="A sheet of Spinel Mirror Glass\nmust be placed on the mirror first."/>
+			<string name="sucess" value="An item spilled out of the Spinel Mirror!"/>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip, %d in Use and %d in Etc.\nUse the Spinel Mirror?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+				<int name="install" value="1"/>
+				<int name="etc" value="1"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060016">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="35"/>
+				<int name="max" value="35"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="마법의 깃털펫을 캐시샵에서 판매하는 \n마법의 서 위에 올리면 \n비밀 아이템들을 얻을 수 있습니다."/>
+			<string name="wrongEgg" value="마법의 서에 올릴 수 없는 아이템입니다."/>
+			<string name="noEgg" value="마법의 깃털펜을 먼저 올려 놓아주세요."/>
+			<string name="sucess" value="마법의 서에서 아이템이 나왔습니다."/>
+			<string name="finalConfirm" value="장비창 %d개, \n소비창 %d, 기타창 %d개의 빈 공간이 있어야 합니다.\n마법의 서를 열어 보시겠습니까?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="2"/>
+				<int name="etc" value="2"/>
+				<int name="equip" value="1"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060017">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="36"/>
+				<int name="max" value="36"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="Place a Philosoquill Pen on the Philosopher's book \nfrom the Cash Shop to obtain secret items."/>
+			<string name="wrongEgg" value="That item cannot be placed\n on the Philosopher's Book."/>
+			<string name="noEgg" value="A Philosoquill Pen must be placed\n on the Philosopher's Book first."/>
+			<string name="sucess" value="Two items spilled out of the Philosopher's Book!"/>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip, %d in Use,\n%d in Set-up, and %d in Etc.\nUse the Philosopher's Book?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="2"/>
+				<int name="etc" value="1"/>
+				<int name="equip" value="1"/>
+				<int name="install" value="2"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060018">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="38"/>
+				<int name="max" value="38"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="Place an Infiniquill Pen on the \nInfinity Book from the Cash Shop \nto obtain secret items."/>
+			<string name="wrongEgg" value="This item cannot be placed on the Infinity Book."/>
+			<string name="noEgg" value="Use an Infiniquill Pen."/>
+			<string name="sucess" value="An item fell out of the Infinity Book."/>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip, \n%d in Use, %d in Set-up, and %d in Etc.\nDo you want to open the Infinity Book?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+				<int name="etc" value="2"/>
+				<int name="equip" value="1"/>
+				<int name="install" value="1"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060019">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="39"/>
+				<int name="max" value="39"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="Magi-Stone Box required."/>
+			<string name="wrongEgg" value="This item cannot be used."/>
+			<string name="noEgg" value="Stone Seal Breaker required."/>
+			<string name="sucess" value="The Magi-Stone Box has been unsealed\nusing the Stone Seal Breaker."/>
+			<string name="cashshop" value="You will need a Stone Seal Breaker \nto unseal the Magi-Stone Box.\nVisit Cash Shop now?"/>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip, \n%d in Use, %d in Set-up, and %d in Etc.\nDo you wish to use the Stone Seal Breaker?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+				<int name="etc" value="2"/>
+				<int name="equip" value="1"/>
+				<int name="install" value="1"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060022">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="40"/>
+				<int name="max" value="40"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="The Fairy Vial must be filled with \nFairy Tears from the Cash Shop \nto reveal the magical item within. "/>
+			<string name="wrongEgg" value="This item cannot be placed into the Fairy Vial."/>
+			<string name="noEgg" value="It must be filled with Fairy Tears first."/>
+			<string name="sucess" value="An item poured out of the Fairy Vial."/>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip, %d in Use,\n %d in Etc and %d in Setup.\nDo you wish to open the Fairy Vial?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+				<int name="etc" value="1"/>
+				<int name="equip" value="1"/>
+				<int name="install" value="1"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060023">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="41"/>
+				<int name="max" value="41"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="Chaos Box required."/>
+			<string name="wrongEgg" value="This item cannot be used."/>
+			<string name="noEgg" value="Chaos Purification Stone required."/>
+			<string name="sucess" value="The Chaos Box was cleansed\nby the Chaos Purification Stone."/>
+			<string name="cashshop" value="The Chaos Box must be cleansed with a\n Chaos Purification Stone from the Cash Shop. \nVisit Cash Shop now?"/>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip, %d in Use,\nand %d in Etc.\nDo you wish to use the Stone Seal Breaker?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+				<int name="etc" value="2"/>
+				<int name="equip" value="1"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060024">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="42"/>
+				<int name="max" value="42"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="Cryptic Chest required."/>
+			<string name="wrongEgg" value="This item cannot be used."/>
+			<string name="noEgg" value="Cryptic Stone required."/>
+			<string name="sucess" value="The Cryptic Chest opened\nwhen it touched the Cryptic Stone."/>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip, %d in Use,\nand %d in Etc.\nDo you wish to use the Cryptic Stone?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+				<int name="etc" value="1"/>
+				<int name="equip" value="1"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060025">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="43"/>
+				<int name="max" value="43"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You need a Magic Harp. "/>
+			<string name="wrongEgg" value="This item cannot be used."/>
+			<string name="noEgg" value="You need a Magic Note."/>
+			<string name="sucess" value="The Magic Harp \nused the Magic Note to play a beautiful melody."/>
+			<string name="finalConfirm" value="You need %d empty Equip slots, \n%d Use slots, and %d Etc slots. \nUse the Magic Harp now?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+				<int name="etc" value="1"/>
+				<int name="equip" value="2"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+		<int name="gaugeQrId" value="26363"/>
+		<imgdir name="gaugeCharge">
+			<imgdir name="0">
+				<int name="prop" value="10"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="7"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="prop" value="15"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="8"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="prop" value="25"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="9"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="prop" value="30"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="10"/>
+			</imgdir>
+			<imgdir name="4">
+				<int name="prop" value="15"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="11"/>
+			</imgdir>
+			<imgdir name="5">
+				<int name="prop" value="5"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="12"/>
+			</imgdir>
+			<imgdir name="6">
+				<int name="prop" value="0"/>
+				<int name="eventProp" value="100"/>
+				<int name="value" value="20"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="5060026">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="44"/>
+				<int name="max" value="44"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You need an Ancient Box."/>
+			<string name="wrongEgg" value="This item will not work."/>
+			<string name="noEgg" value="You need a Miracle Stone."/>
+			<string name="sucess" value="The Miracle Stone \nbroke the seal."/>
+			<string name="cashshop" value="You need a Miracle Stone from the Cash Shop \nto open the Ancient Chest. \nGo to the Cash Shop now?"/>
+			<string name="finalConfirm" value="You need %d empty Equip slots, %d Use slots, %d Etc slots and %d Set-up slots. \nUse the Miracle Stone now?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+				<int name="etc" value="1"/>
+				<int name="equip" value="1"/>
+				<int name="install" value="1"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060027">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="45"/>
+				<int name="max" value="45"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You need an Emerald Harp."/>
+			<string name="wrongEgg" value="This item will not work."/>
+			<string name="noEgg" value="You need an Enchanting Melody."/>
+			<string name="sucess" value="The Enchanting Melody \nmade lovely music on the Emerald Harp."/>
+			<string name="finalConfirm" value="You need %d empty Equip slots, \nand %d Use slots. \nUse the Emerald Harp now?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="2"/>
+				<int name="equip" value="1"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+		<int name="gaugeQrId" value="26371"/>
+		<imgdir name="gaugeCharge">
+			<imgdir name="0">
+				<int name="prop" value="10"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="7"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="prop" value="15"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="8"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="prop" value="25"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="9"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="prop" value="30"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="10"/>
+			</imgdir>
+			<imgdir name="4">
+				<int name="prop" value="15"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="11"/>
+			</imgdir>
+			<imgdir name="5">
+				<int name="prop" value="5"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="12"/>
+			</imgdir>
+			<imgdir name="6">
+				<int name="prop" value="0"/>
+				<int name="eventProp" value="100"/>
+				<int name="value" value="20"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="5060028">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="49"/>
+				<int name="max" value="49"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You need Tommelise's Box."/>
+			<string name="wrongEgg" value="This item will not work."/>
+			<string name="noEgg" value="A Tommelise's Key must be placed on the Tommelise's Box first."/>
+			<string name="sucess" value="You've opened Tommelise's Box with a Tommelise's Key. \nWould you like to open Tommelise's Box one more time?"/>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip, \n%d in Use, and %d in Etc.\nOpen Tommelise's Box?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+				<int name="equip" value="1"/>
+				<int name="etc" value="1"/>
+			</imgdir>
+		</imgdir>
+		<int name="isBonus" value="1"/>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+		<int name="gaugeQrId" value="26371"/>
+		<imgdir name="gaugeCharge">
+			<imgdir name="0">
+				<int name="prop" value="10"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="7"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="prop" value="15"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="8"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="prop" value="25"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="9"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="prop" value="30"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="10"/>
+			</imgdir>
+			<imgdir name="4">
+				<int name="prop" value="15"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="11"/>
+			</imgdir>
+			<imgdir name="5">
+				<int name="prop" value="5"/>
+				<int name="eventProp" value="0"/>
+				<int name="value" value="12"/>
+			</imgdir>
+			<imgdir name="6">
+				<int name="prop" value="0"/>
+				<int name="eventProp" value="100"/>
+				<int name="value" value="20"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="5060029">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="50"/>
+				<int name="max" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You need Andersen's Box."/>
+			<string name="wrongEgg" value="This item will not work."/>
+			<string name="noEgg" value="A Andersen's Key must be placed on the Andersen's Box first."/>
+			<string name="sucess" value="You've opened Andersen's Box with an Andersen's Key. \nWould you like to open Andersen's Box one more time?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+				<int name="equip" value="1"/>
+				<int name="install" value="1"/>
+				<int name="etc" value="1"/>
+			</imgdir>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip,\n %d in Use, %d in Set-up, and %d in Etc.\nOpen Andersen's Box?"/>
+		</imgdir>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060032">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="50"/>
+				<int name="max" value="50"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You need Andersen's Box."/>
+			<string name="wrongEgg" value="This item will not work."/>
+			<string name="noEgg" value="You need Andersen's Key."/>
+			<string name="sucess" value="You've opened Andersen's Box with an Andersen's Key. \nWould you like to open Andersen's Box one more time?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+				<int name="equip" value="1"/>
+				<int name="install" value="1"/>
+				<int name="etc" value="1"/>
+			</imgdir>
+			<string name="finalConfirm" value="Requires %d empty slots in Equip, %d in Use, %d in Set-up, and %d in Etc.\nOpen Andersen's Box?"/>
+		</imgdir>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+		<int name="isReplacedProb" value="1"/>
+	</imgdir>
+	<imgdir name="5060046">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="60"/>
+				<int name="max" value="60"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You need Andersen's Chair Box."/>
+			<string name="wrongEgg" value="This item will not work."/>
+			<string name="noEgg" value="You need Andersen's Chair Key."/>
+			<string name="sucess" value="You've opened Andersen's Chair Box with Andersen's Chair Key. \nWould you like to open Andersen's Chair Box again?"/>
+			<string name="finalConfirm" value="Requires %d empty slots in Set-up.\nOpen Andersen's Chair Box?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="install" value="1"/>
+			</imgdir>
+		</imgdir>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060047">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="61"/>
+				<int name="max" value="61"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You need Andersen's Mount Box."/>
+			<string name="wrongEgg" value="This item will not work."/>
+			<string name="noEgg" value="You need Andersen's Mount Key."/>
+			<string name="sucess" value="You've opened Andersen's Mount Box with Andersen's Mount Key. \nWould you like to open Andersen's Mount Box again?"/>
+			<string name="finalConfirm" value="Requires %d empty slots in your Use tab.\nOpen Andersen's Mount Box?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="consume" value="1"/>
+			</imgdir>
+		</imgdir>
+		<string name="sucessNpcID" value="9010000"/>
+		<int name="isNoGradeResult" value="1"/>
+	</imgdir>
+	<imgdir name="5060015">
+		<imgdir name="usingEggType">
+			<imgdir name="0">
+				<int name="min" value="34"/>
+				<int name="max" value="34"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="msg">
+			<string name="noIncubator" value="You must complete the event to get\nthe Dark Rack to open the sculpture. "/>
+			<string name="wrongEgg" value="This item cannot be broken with the Dark Rack."/>
+			<string name="noEgg" value="Place the Shadowy Sculpture on the rack first."/>
+			<string name="sucess" value="A totem has emerged from the rack."/>
+			<string name="finalConfirm" value="You need %d empty slots in your Equip tab.\nDo you want to break the sculpture open?"/>
+			<imgdir name="finalConfirmNum">
+				<int name="equip" value="1"/>
+			</imgdir>
+		</imgdir>
+		<string name="sucessNpcID" value="9330195"/>
+	</imgdir>
+</imgdir>

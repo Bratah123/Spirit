@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="FieldSkill.img">
+	<imgdir name="100000">
+		<string name="info1" value="Ghost Park - Wrath (Warning Area Attack)"/>
+		<string name="info2" value="x: Damage (%) | \r\ninterval: Interval| \r\ndelay: afterEff | \r\ntype: 1(User Target), 2(Field Random)"/>
+		<imgdir name="level">
+			<imgdir name="1">
+				<int name="x" value="10"/>
+				<int name="interval" value="5000"/>
+				<int name="delay" value="1860"/>
+				<int name="type" value="2"/>
+				<vector name="lt" x="-100" y="-1600"/>
+				<vector name="rb" x="100" y="0"/>
+				<imgdir name="areaWarning">
+					<canvas name="0" width="350" height="1600">
+						<vector name="origin" x="165" y="1594"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="1500"/>
+					</canvas>
+					<canvas name="1" width="211" height="1602">
+						<vector name="origin" x="105" y="1592"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="2" width="229" height="1629">
+						<vector name="origin" x="122" y="1611"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="3" width="293" height="1627">
+						<vector name="origin" x="148" y="1607"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="4" width="332" height="1609">
+						<vector name="origin" x="157" y="1590"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="5" width="354" height="1605">
+						<vector name="origin" x="170" y="1584"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="6" width="385" height="1629">
+						<vector name="origin" x="192" y="1605"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="7" width="379" height="1602">
+						<vector name="origin" x="182" y="1585"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="8" width="356" height="1606">
+						<vector name="origin" x="165" y="1589"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="9" width="389" height="1601">
+						<vector name="origin" x="164" y="1589"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="10" width="391" height="1610">
+						<vector name="origin" x="184" y="1587"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="11" width="370" height="1621">
+						<vector name="origin" x="186" y="1601"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="12" width="381" height="1606">
+						<vector name="origin" x="188" y="1588"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="13" width="354" height="1603">
+						<vector name="origin" x="157" y="1586"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="14" width="394" height="1611">
+						<vector name="origin" x="165" y="1594"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="15" width="383" height="1601">
+						<vector name="origin" x="180" y="1582"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="16" width="354" height="1613">
+						<vector name="origin" x="157" y="1598"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="17" width="341" height="1592">
+						<vector name="origin" x="160" y="1583"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="18" width="168" height="1597">
+						<vector name="origin" x="70" y="1588"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="19" width="144" height="1573">
+						<vector name="origin" x="56" y="1579"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="20" width="46" height="1587">
+						<vector name="origin" x="10" y="1588"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+					<canvas name="21" width="24" height="1600">
+						<vector name="origin" x="1" y="1580"/>
+						<int name="z" value="0"/>
+						<int name="delay" value="60"/>
+					</canvas>
+				</imgdir>
+				<int name="attackCount" value="1"/>
+				<int name="splitCount" value="10"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="x" value="10"/>
+				<int name="interval" value="3000"/>
+				<int name="delay" value="1860"/>
+				<int name="type" value="2"/>
+				<vector name="lt" x="-100" y="-1600"/>
+				<vector name="rb" x="100" y="0"/>
+				<imgdir name="areaWarning">
+					<uol name="0" value="../../1/areaWarning/0"/>
+					<uol name="1" value="../../1/areaWarning/1"/>
+					<uol name="2" value="../../1/areaWarning/2"/>
+					<uol name="3" value="../../1/areaWarning/3"/>
+					<uol name="4" value="../../1/areaWarning/4"/>
+					<uol name="5" value="../../1/areaWarning/5"/>
+					<uol name="6" value="../../1/areaWarning/6"/>
+					<uol name="7" value="../../1/areaWarning/7"/>
+					<uol name="8" value="../../1/areaWarning/8"/>
+					<uol name="9" value="../../1/areaWarning/9"/>
+					<uol name="10" value="../../1/areaWarning/10"/>
+					<uol name="11" value="../../1/areaWarning/11"/>
+					<uol name="12" value="../../1/areaWarning/12"/>
+					<uol name="13" value="../../1/areaWarning/13"/>
+					<uol name="14" value="../../1/areaWarning/14"/>
+					<uol name="15" value="../../1/areaWarning/15"/>
+					<uol name="16" value="../../1/areaWarning/16"/>
+					<uol name="17" value="../../1/areaWarning/17"/>
+					<uol name="18" value="../../1/areaWarning/18"/>
+					<uol name="19" value="../../1/areaWarning/19"/>
+					<uol name="20" value="../../1/areaWarning/20"/>
+					<uol name="21" value="../../1/areaWarning/21"/>
+				</imgdir>
+				<int name="attackCount" value="2"/>
+				<int name="splitCount" value="10"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="x" value="10"/>
+				<int name="interval" value="1000"/>
+				<int name="delay" value="1860"/>
+				<int name="type" value="2"/>
+				<vector name="lt" x="-100" y="-1600"/>
+				<vector name="rb" x="100" y="0"/>
+				<imgdir name="areaWarning">
+					<uol name="0" value="../../1/areaWarning/0"/>
+					<uol name="1" value="../../1/areaWarning/1"/>
+					<uol name="2" value="../../1/areaWarning/2"/>
+					<uol name="3" value="../../1/areaWarning/3"/>
+					<uol name="4" value="../../1/areaWarning/4"/>
+					<uol name="5" value="../../1/areaWarning/5"/>
+					<uol name="6" value="../../1/areaWarning/6"/>
+					<uol name="7" value="../../1/areaWarning/7"/>
+					<uol name="8" value="../../1/areaWarning/8"/>
+					<uol name="9" value="../../1/areaWarning/9"/>
+					<uol name="10" value="../../1/areaWarning/10"/>
+					<uol name="11" value="../../1/areaWarning/11"/>
+					<uol name="12" value="../../1/areaWarning/12"/>
+					<uol name="13" value="../../1/areaWarning/13"/>
+					<uol name="14" value="../../1/areaWarning/14"/>
+					<uol name="15" value="../../1/areaWarning/15"/>
+					<uol name="16" value="../../1/areaWarning/16"/>
+					<uol name="17" value="../../1/areaWarning/17"/>
+					<uol name="18" value="../../1/areaWarning/18"/>
+					<uol name="19" value="../../1/areaWarning/19"/>
+					<uol name="20" value="../../1/areaWarning/20"/>
+					<uol name="21" value="../../1/areaWarning/21"/>
+				</imgdir>
+				<int name="attackCount" value="5"/>
+				<int name="splitCount" value="10"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="100001">
+		<string name="info1" value="Ghost Park - Regret (ATT Enhanced)"/>
+		<string name="info2" value="x: Enhancement(%) (Orig. fixDamR + x) | \r\nz: Enhancement Period | \r\ninterval: Timer Start Time | \r\ntime: Duration"/>
+		<imgdir name="level">
+			<imgdir name="1">
+				<int name="x" value="100"/>
+				<int name="z" value="15000"/>
+				<int name="interval" value="5000"/>
+				<int name="time" value="600000"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="x" value="200"/>
+				<int name="z" value="15000"/>
+				<int name="interval" value="5000"/>
+				<int name="time" value="600000"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="x" value="300"/>
+				<int name="z" value="5000"/>
+				<int name="interval" value="5000"/>
+				<int name="time" value="600000"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="100002">
+		<string name="info1" value="Ghost Park - Greed (HP and Size Increased)"/>
+		<string name="info2" value="x: Increase per second HP(%) | \r\ny: Size increase per second (%) | \r\ninterval: Interval | \r\nlimitX: x Limit (%) (Orig. HP + limitX) | \r\nlimitY: y Limit (%)"/>
+		<imgdir name="level">
+			<imgdir name="1">
+				<int name="x" value="20"/>
+				<int name="y" value="15"/>
+				<int name="interval" value="1000"/>
+				<int name="limitX" value="100"/>
+				<int name="limitY" value="150"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="x" value="20"/>
+				<int name="y" value="13"/>
+				<int name="interval" value="1000"/>
+				<int name="limitX" value="200"/>
+				<int name="limitY" value="200"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="x" value="30"/>
+				<int name="y" value="12"/>
+				<int name="interval" value="1000"/>
+				<int name="limitX" value="400"/>
+				<int name="limitY" value="300"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="100003">
+		<imgdir name="level">
+			<imgdir name="1">
+				<int name="x" value="1"/>
+				<int name="interval" value="2000"/>
+				<vector name="lt" x="-20" y="-20"/>
+				<vector name="rb" x="20" y="20"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="x" value="2"/>
+				<int name="interval" value="2000"/>
+				<vector name="lt" x="-20" y="-20"/>
+				<vector name="rb" x="20" y="20"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="x" value="5"/>
+				<int name="interval" value="2000"/>
+				<vector name="lt" x="-20" y="-20"/>
+				<vector name="rb" x="20" y="20"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

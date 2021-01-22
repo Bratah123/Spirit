@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="0127.img">
+	<imgdir name="info">
+		<int name="gender" value="1"/>
+		<int name="chatBalloon" value="34"/>
+		<int name="nameTag" value="95"/>
+	</imgdir>
+	<imgdir name="basic">
+		<int name="accessory" value="1032097"/>
+		<int name="cap" value="1004201"/>
+		<int name="longcoat" value="1052773"/>
+		<int name="shoes" value="1072944"/>
+		<int name="gloves" value="1082591"/>
+	</imgdir>
+	<imgdir name="costume">
+		<imgdir name="skin">
+			<string name="0" value="2012"/>
+		</imgdir>
+		<imgdir name="hair">
+			<int name="0" value="34783"/>
+		</imgdir>
+		<imgdir name="face">
+			<int name="0" value="24038"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="action">
+		<imgdir name="hello">
+			<imgdir name="0">
+				<string name="sound" value="hello"/>
+				<string name="face" value="smile"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="sound" value="hello"/>
+				<string name="face" value="shine"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="levelup">
+			<imgdir name="0">
+				<string name="face" value="smile"/>
+				<string name="chat" value="I expect great things from you."/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="chat" value="Great! Show me how strong you have become!"/>
+				<string name="face" value="shine"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="dead">
+			<imgdir name="0">
+				<string name="face" value="angry"/>
+				<string name="chat" value="Be strong. Today may have ended in defeat, but tomorrow shall see you victorious!"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="face" value="angry"/>
+				<string name="chat" value="Stand and fight! Show me your true power!"/>
+				<string name="action" value="dead"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="bye">
+			<imgdir name="0">
+				<string name="sound" value="bye"/>
+				<string name="face" value="wink"/>
+				<string name="chat" value="I look forward to meeting you on fields of battle once again."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="job">
+			<imgdir name="0">
+				<string name="face" value="shine"/>
+				<string name="chat" value="Awesome! Time to seek out and destroy your enemies!"/>
+				<string name="sound" value="bye"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="alert">
+			<imgdir name="0">
+				<string name="face" value="hit"/>
+				<string name="action" value="alert"/>
+				<int name="prob" value="10"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="prob" value="90"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

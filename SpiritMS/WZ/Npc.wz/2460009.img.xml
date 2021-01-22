@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2460009.img">
+	<imgdir name="info">
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="5000"/>
+			<string name="source" value="Npc/2111002.img/stand/0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="200"/>
+			<string name="source" value="Npc/2111002.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="200"/>
+			<string name="source" value="Npc/2111002.img/eye/1"/>
+		</canvas>
+		<canvas name="2" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2111002.img/eye/2"/>
+		</canvas>
+		<canvas name="3" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="200"/>
+			<string name="source" value="Npc/2111002.img/stand/0"/>
+		</canvas>
+		<canvas name="4" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="200"/>
+			<string name="source" value="Npc/2111002.img/eye/4"/>
+		</canvas>
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="potion">
+		<canvas name="0" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2111002.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2111002.img/potion/1"/>
+		</canvas>
+		<canvas name="2" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2111002.img/potion/2"/>
+		</canvas>
+		<canvas name="3" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2111002.img/potion/3"/>
+		</canvas>
+		<canvas name="4" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2111002.img/potion/4"/>
+		</canvas>
+		<canvas name="5" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Npc/2111002.img/potion/5"/>
+		</canvas>
+		<uol name="6" value="0"/>
+		<uol name="7" value="1"/>
+		<uol name="8" value="2"/>
+		<uol name="9" value="3"/>
+		<uol name="10" value="4"/>
+		<uol name="11" value="5"/>
+	</imgdir>
+	<imgdir name="bubble">
+		<canvas name="0" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="100"/>
+			<string name="source" value="Npc/2111002.img/bubble/0"/>
+		</canvas>
+		<canvas name="1" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="delay" value="100"/>
+			<string name="source" value="Npc/2111002.img/bubble/1"/>
+		</canvas>
+		<canvas name="2" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+			<string name="source" value="Npc/2111002.img/bubble/2"/>
+		</canvas>
+		<canvas name="3" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+			<string name="source" value="Npc/2111002.img/bubble/3"/>
+		</canvas>
+		<canvas name="4" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="z" value="0"/>
+			<int name="delay" value="100"/>
+			<string name="source" value="Npc/2111002.img/bubble/4"/>
+		</canvas>
+		<canvas name="5" width="70" height="84">
+			<vector name="origin" x="37" y="84"/>
+			<int name="z" value="0"/>
+			<int name="dealy" value="600"/>
+			<string name="source" value="Npc/2111002.img/bubble/5"/>
+		</canvas>
+		<uol name="6" value="0"/>
+		<uol name="7" value="1"/>
+		<uol name="8" value="2"/>
+		<uol name="9" value="3"/>
+		<uol name="10" value="4"/>
+		<uol name="11" value="5"/>
+	</imgdir>
+</imgdir>

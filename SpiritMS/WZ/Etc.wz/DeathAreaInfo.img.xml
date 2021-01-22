@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="DeathAreaInfo.img">
+	<imgdir name="749080990-749080999">
+		<int name="left" value="1900"/>
+		<int name="top" value="-321"/>
+		<int name="right" value="3171"/>
+		<int name="bottom" value="133"/>
+		<int name="shift_amount" value="-100"/>
+		<int name="cell_width" value="50"/>
+		<int name="cell_height" value="50"/>
+		<imgdir name="effects">
+			<imgdir name="0">
+				<string name="path" value="Map/EffectTW.img/arisan/explosion_Big"/>
+				<int name="count" value="70"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="path" value="Map/EffectTW.img/arisan/explosion_Small"/>
+				<int name="count" value="30"/>
+			</imgdir>
+		</imgdir>
+		<double name="tremble_force" value="30.0"/>
+		<int name="tremble_delay" value="3500"/>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9400008.img">
+	<imgdir name="info">
+		<imgdir name="conditionEffect">
+			<canvas name="0" width="1" height="1">
+			</canvas>
+		</imgdir>
+		<imgdir name="button">
+			<imgdir name="0">
+				<imgdir name="normal">
+					<canvas name="0" width="30" height="30">
+						<vector name="origin" x="15" y="15"/>
+						<int name="z" value="-1"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="pressed">
+					<canvas name="0" width="30" height="30">
+						<vector name="origin" x="15" y="15"/>
+						<int name="z" value="-1"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disabled">
+					<canvas name="0" width="30" height="30">
+						<vector name="origin" x="15" y="15"/>
+						<int name="z" value="-1"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="keyFocused">
+					<canvas name="0" width="30" height="30">
+						<vector name="origin" x="15" y="15"/>
+						<int name="z" value="-1"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="mouseOver">
+					<canvas name="0" width="30" height="30">
+						<vector name="origin" x="15" y="15"/>
+						<int name="z" value="-1"/>
+					</canvas>
+				</imgdir>
+				<int name="action" value="0"/>
+				<vector name="origin" x="-61" y="-205"/>
+			</imgdir>
+			<imgdir name="1">
+				<imgdir name="normal">
+					<canvas name="0" width="30" height="30">
+						<vector name="origin" x="15" y="15"/>
+						<int name="z" value="-1"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="pressed">
+					<canvas name="0" width="30" height="30">
+						<vector name="origin" x="15" y="15"/>
+						<int name="z" value="-1"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disabled">
+					<canvas name="0" width="30" height="30">
+						<vector name="origin" x="15" y="15"/>
+						<int name="z" value="-1"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="keyFocused">
+					<canvas name="0" width="30" height="30">
+						<vector name="origin" x="15" y="15"/>
+						<int name="z" value="-1"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="mouseOver">
+					<canvas name="0" width="30" height="30">
+						<vector name="origin" x="15" y="15"/>
+						<int name="z" value="-1"/>
+					</canvas>
+				</imgdir>
+				<int name="action" value="1"/>
+				<vector name="origin" x="14" y="-205"/>
+			</imgdir>
+		</imgdir>
+		<int name="hideName" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="1" height="1">
+			<vector name="origin" x="0" y="0"/>
+			<int name="z" value="-1"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<imgdir name="stand">
+			<canvas name="0" width="307" height="202">
+				<vector name="origin" x="187" y="433"/>
+				<int name="z" value="-1"/>
+			</canvas>
+		</imgdir>
+		<int name="dayOfWeek" value="1"/>
+	</imgdir>
+	<imgdir name="condition2">
+		<imgdir name="stand">
+			<canvas name="0" width="307" height="202">
+				<vector name="origin" x="187" y="433"/>
+				<int name="z" value="-1"/>
+			</canvas>
+		</imgdir>
+		<int name="dayOfWeek" value="2"/>
+	</imgdir>
+	<imgdir name="condition3">
+		<imgdir name="stand">
+			<canvas name="0" width="182" height="174">
+				<vector name="origin" x="117" y="418"/>
+				<int name="z" value="-1"/>
+			</canvas>
+		</imgdir>
+		<int name="dayOfWeek" value="3"/>
+	</imgdir>
+	<imgdir name="condition4">
+		<imgdir name="stand">
+			<canvas name="0" width="182" height="173">
+				<vector name="origin" x="117" y="417"/>
+				<int name="z" value="-1"/>
+			</canvas>
+		</imgdir>
+		<int name="dayOfWeek" value="4"/>
+	</imgdir>
+	<imgdir name="condition5">
+		<imgdir name="stand">
+			<canvas name="0" width="182" height="174">
+				<vector name="origin" x="117" y="418"/>
+				<int name="z" value="-1"/>
+			</canvas>
+		</imgdir>
+		<int name="dayOfWeek" value="5"/>
+	</imgdir>
+	<imgdir name="condition6">
+		<imgdir name="stand">
+			<canvas name="0" width="182" height="174">
+				<vector name="origin" x="117" y="418"/>
+				<int name="z" value="-1"/>
+			</canvas>
+		</imgdir>
+		<int name="dayOfWeek" value="6"/>
+	</imgdir>
+	<imgdir name="condition7">
+		<imgdir name="stand">
+			<canvas name="0" width="234" height="173">
+				<vector name="origin" x="117" y="417"/>
+				<int name="z" value="-1"/>
+			</canvas>
+		</imgdir>
+		<int name="dayOfWeek" value="0"/>
+	</imgdir>
+</imgdir>

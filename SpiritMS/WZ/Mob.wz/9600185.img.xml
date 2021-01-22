@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9600185.img">
+	<imgdir name="info">
+		<int name="level" value="13"/>
+		<int name="bodyAttack" value="1"/>
+		<int name="maxHP" value="20140000"/>
+		<int name="fixedDamage" value="2014"/>
+		<int name="maxMP" value="120"/>
+		<int name="speed" value="-20"/>
+		<int name="PADamage" value="1"/>
+		<int name="PDDamage" value="1"/>
+		<int name="PDRate" value="20"/>
+		<int name="MADamage" value="1"/>
+		<int name="MDDamage" value="1"/>
+		<int name="MDRate" value="20"/>
+		<int name="acc" value="40"/>
+		<int name="eva" value="3"/>
+		<int name="pushed" value="150"/>
+		<float name="fs" value="10.0"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="6"/>
+		<string name="mobType" value="7N"/>
+		<string name="link" value="9600025"/>
+		<imgdir name="attack">
+			<imgdir name="0">
+				<int name="action" value="1"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="conMP" value="100"/>
+				<int name="magic" value="1"/>
+				<int name="deadlyAttack" value="1"/>
+				<int name="tremble" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="action" value="2"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="conMP" value="100"/>
+			</imgdir>
+			<imgdir name="2">
+				<int name="action" value="3"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="conMP" value="100"/>
+			</imgdir>
+			<imgdir name="3">
+				<int name="action" value="4"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="conMP" value="100"/>
+				<int name="magic" value="1"/>
+				<int name="doFirst" value="1"/>
+				<int name="disease" value="122"/>
+				<int name="level" value="1"/>
+			</imgdir>
+			<imgdir name="4">
+				<int name="action" value="5"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="conMP" value="100"/>
+				<int name="magic" value="1"/>
+				<int name="disease" value="126"/>
+				<int name="level" value="1"/>
+			</imgdir>
+			<imgdir name="5">
+				<int name="action" value="6"/>
+				<int name="attackRatio" value="100"/>
+				<int name="type" value="0"/>
+				<int name="conMP" value="100"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

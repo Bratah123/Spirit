@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="UIToolTip.img">
+	<imgdir name="Item">
+		<imgdir name="Frame">
+			<canvas name="top" width="261" height="13">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="line" width="261" height="1">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="dotline" width="261" height="2">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="bottom" width="261" height="13">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="cover" width="53" height="43">
+				<vector name="origin" x="-3" y="-3"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="ItemIcon">
+			<canvas name="base" width="82" height="82">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="old" width="10" height="10">
+				<vector name="origin" x="-5" y="-5"/>
+			</canvas>
+			<canvas name="new" width="6" height="6">
+				<vector name="origin" x="-7" y="-7"/>
+			</canvas>
+			<canvas name="shade" width="49" height="15">
+				<vector name="origin" x="-17" y="-64"/>
+			</canvas>
+			<canvas name="cover" width="74" height="74">
+				<vector name="origin" x="-4" y="-4"/>
+			</canvas>
+			<canvas name="0" width="90" height="80">
+				<vector name="origin" x="-1" y="-1"/>
+			</canvas>
+			<canvas name="1" width="90" height="80">
+				<vector name="origin" x="-1" y="-1"/>
+			</canvas>
+			<canvas name="2" width="90" height="80">
+				<vector name="origin" x="-1" y="-1"/>
+			</canvas>
+			<canvas name="3" width="90" height="80">
+				<vector name="origin" x="-1" y="-1"/>
+			</canvas>
+			<canvas name="4" width="90" height="80">
+				<vector name="origin" x="-1" y="-1"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="Equip">
+			<imgdir name="Can">
+				<canvas name="reqLEV" width="49" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqSTR" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqDEX" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqINT" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqLUK" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqPOP" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="0" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="1" width="2" height="5">
+					<vector name="origin" x="-1" y="0"/>
+					<string name="source" value="UI/CashShop.img/CSStatus/WishNumber/1"/>
+				</canvas>
+				<canvas name="2" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="3" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="4" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="5" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="6" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="7" width="4" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="8" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="9" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="%" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="none" width="5" height="1">
+					<vector name="origin" x="0" y="-3"/>
+				</canvas>
+				<canvas name="+" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="-" width="5" height="1">
+					<vector name="origin" x="0" y="-3"/>
+					<string name="source" value="UI/UIToolTip.img/Item/Equip/Can/none"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Cannot">
+				<canvas name="reqLEV" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqSTR" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqDEX" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqINT" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqLUK" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqPOP" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="0" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="1" width="2" height="5">
+					<vector name="origin" x="-1" y="0"/>
+				</canvas>
+				<canvas name="2" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="3" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="4" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="5" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="6" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="7" width="4" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="8" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="9" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="percent" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="none" width="5" height="1">
+					<vector name="origin" x="0" y="-3"/>
+				</canvas>
+				<canvas name="plus" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="minus" width="5" height="1">
+					<vector name="origin" x="0" y="-3"/>
+					<string name="source" value="UI/UIToolTip.img/Item/Equip/Cannot/none"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Disabled">
+				<canvas name="reqLEV" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqSTR" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqDEX" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqINT" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqLUK" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="reqPOP" width="50" height="6">
+					<vector name="origin" x="0" y="0"/>
+					<string name="source" value="UI/UIToolTip.img/Item/Equip/Cannot/reqPOP"/>
+				</canvas>
+				<canvas name="0" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="1" width="2" height="5">
+					<vector name="origin" x="-1" y="0"/>
+				</canvas>
+				<canvas name="2" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="3" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="4" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="5" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="6" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="7" width="4" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="8" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="9" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="percent" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="none" width="5" height="1">
+					<vector name="origin" x="0" y="-2"/>
+				</canvas>
+				<canvas name="plus" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="minus" width="5" height="1">
+					<vector name="origin" x="0" y="-2"/>
+					<string name="source" value="UI/UIToolTip.img/Item/Equip/Disabled/none"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="LookAhead">
+				<canvas name="0" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="1" width="2" height="5">
+					<vector name="origin" x="-1" y="0"/>
+				</canvas>
+				<canvas name="2" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="3" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="4" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="5" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="6" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="7" width="4" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="8" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="9" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="none" width="5" height="1">
+					<vector name="origin" x="0" y="-3"/>
+				</canvas>
+				<canvas name="%" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="+" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="-" width="5" height="1">
+					<vector name="origin" x="0" y="-2"/>
+					<string name="source" value="UI/UIToolTip.img/Item/Equip/LookAhead/none"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Star">
+				<canvas name="Star0" width="11" height="10">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="Star" width="11" height="10">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="Star1" width="11" height="10">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="AddOption">
+				<canvas name="0" width="20" height="11">
+					<vector name="origin" x="-1" y="0"/>
+				</canvas>
+				<canvas name="1" width="20" height="11">
+					<vector name="origin" x="-1" y="0"/>
+					<string name="source" value="UI/UIToolTip.img/Item/Equip/AddOption/0"/>
+				</canvas>
+				<canvas name="2" width="25" height="11">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="3" width="31" height="11">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="4" width="37" height="11">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="5" width="43" height="11">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Summary">
+				<imgdir name="incline">
+					<canvas name="0" width="19" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="1" width="14" height="26">
+						<vector name="origin" x="-4" y="-1"/>
+					</canvas>
+					<canvas name="2" width="18" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="3" width="17" height="26">
+						<vector name="origin" x="-2" y="-1"/>
+					</canvas>
+					<canvas name="4" width="20" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="5" width="17" height="26">
+						<vector name="origin" x="-2" y="-1"/>
+					</canvas>
+					<canvas name="6" width="18" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="7" width="18" height="26">
+						<vector name="origin" x="-2" y="-1"/>
+					</canvas>
+					<canvas name="8" width="19" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="9" width="19" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="plus" width="18" height="18">
+						<vector name="origin" x="-1" y="-5"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="decline">
+					<canvas name="0" width="19" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="1" width="14" height="26">
+						<vector name="origin" x="-4" y="-1"/>
+					</canvas>
+					<canvas name="2" width="18" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="3" width="17" height="26">
+						<vector name="origin" x="-2" y="-1"/>
+					</canvas>
+					<canvas name="4" width="20" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="5" width="17" height="26">
+						<vector name="origin" x="-2" y="-1"/>
+					</canvas>
+					<canvas name="6" width="18" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="7" width="18" height="26">
+						<vector name="origin" x="-2" y="-1"/>
+					</canvas>
+					<canvas name="8" width="19" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="9" width="19" height="26">
+						<vector name="origin" x="-1" y="-1"/>
+					</canvas>
+					<canvas name="minus" width="16" height="8">
+						<vector name="origin" x="-2" y="-10"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="icon">
+					<canvas name="pdd" width="17" height="17">
+						<vector name="origin" x="-1" y="-6"/>
+					</canvas>
+					<canvas name="mdd" width="17" height="17">
+						<vector name="origin" x="0" y="0"/>
+					</canvas>
+					<canvas name="bdr" width="17" height="17">
+						<vector name="origin" x="0" y="0"/>
+					</canvas>
+					<canvas name="igpddr" width="16" height="16">
+						<vector name="origin" x="0" y="0"/>
+					</canvas>
+				</imgdir>
+			</imgdir>
+			<imgdir name="Job">
+				<canvas name="normal" width="237" height="24">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<canvas name="expand" width="237" height="40">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<imgdir name="enable">
+					<canvas name="0" width="19" height="11">
+						<vector name="origin" x="-14" y="-7"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="1" width="17" height="11">
+						<vector name="origin" x="-56" y="-7"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="2" width="19" height="11">
+						<vector name="origin" x="-95" y="-7"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="3" width="17" height="11">
+						<vector name="origin" x="-135" y="-7"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="4" width="20" height="5">
+						<vector name="origin" x="-166" y="-10"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="5" width="25" height="5">
+						<vector name="origin" x="-198" y="-10"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+				<imgdir name="disable">
+					<canvas name="0" width="19" height="11">
+						<vector name="origin" x="-14" y="-7"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="1" width="17" height="11">
+						<vector name="origin" x="-56" y="-7"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="2" width="19" height="11">
+						<vector name="origin" x="-95" y="-7"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="3" width="17" height="11">
+						<vector name="origin" x="-135" y="-7"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="4" width="20" height="5">
+						<vector name="origin" x="-166" y="-10"/>
+						<int name="z" value="0"/>
+					</canvas>
+					<canvas name="5" width="25" height="5">
+						<vector name="origin" x="-198" y="-10"/>
+						<int name="z" value="0"/>
+					</canvas>
+				</imgdir>
+			</imgdir>
+			<imgdir name="YellowNumber">
+				<canvas name="0" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="1" width="2" height="5">
+					<vector name="origin" x="-1" y="0"/>
+				</canvas>
+				<canvas name="2" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="3" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="4" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="5" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="6" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="7" width="4" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="8" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="9" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="%" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="none" width="5" height="1">
+					<vector name="origin" x="0" y="-2"/>
+				</canvas>
+				<canvas name="+" width="5" height="5">
+					<vector name="origin" x="0" y="0"/>
+				</canvas>
+				<canvas name="-" width="5" height="1">
+					<vector name="origin" x="0" y="-2"/>
+					<string name="source" value="UI/UIToolTip.img/Item/Equip/YellowNumber/none"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="Growth">
+				<canvas name="backgrnd" width="237" height="26">
+					<vector name="origin" x="0" y="0"/>
+					<int name="z" value="0"/>
+				</canvas>
+				<imgdir name="Guage">
+					<imgdir name="0">
+						<canvas name="0" width="1" height="3">
+							<vector name="origin" x="0" y="0"/>
+							<int name="z" value="0"/>
+						</canvas>
+					</imgdir>
+					<imgdir name="itemLev">
+						<imgdir name="abled">
+							<canvas name="0" width="19" height="5">
+								<vector name="origin" x="0" y="0"/>
+								<int name="z" value="0"/>
+							</canvas>
+							<canvas name="1" width="19" height="5">
+								<vector name="origin" x="0" y="0"/>
+								<int name="z" value="0"/>
+							</canvas>
+						</imgdir>
+					</imgdir>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Frame2">
+			<canvas name="nw" width="13" height="13">
+				<vector name="origin" x="13" y="13"/>
+			</canvas>
+			<canvas name="ne" width="13" height="13">
+				<vector name="origin" x="0" y="13"/>
+			</canvas>
+			<canvas name="sw" width="13" height="13">
+				<vector name="origin" x="13" y="0"/>
+			</canvas>
+			<canvas name="se" width="13" height="13">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="n" width="1" height="13">
+				<vector name="origin" x="0" y="13"/>
+			</canvas>
+			<canvas name="s" width="1" height="13">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="w" width="13" height="1">
+				<vector name="origin" x="13" y="0"/>
+			</canvas>
+			<canvas name="e" width="13" height="1">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="c" width="1" height="1">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<canvas name="cover" width="53" height="43">
+				<vector name="origin" x="-3" y="-3"/>
+				<string name="source" value="UI/UIToolTip.img/Item/Frame/cover"/>
+			</canvas>
+			<canvas name="dotline" width="5" height="21">
+				<vector name="origin" x="0" y="0"/>
+				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="FarmFrame">
+			<canvas name="nw" width="13" height="13">
+				<vector name="origin" x="13" y="13"/>
+				<string name="source" value="UI/UIToolTip.img/Item/Frame2/nw"/>
+			</canvas>
+			<canvas name="ne" width="13" height="13">
+				<vector name="origin" x="0" y="13"/>
+				<string name="source" value="UI/UIToolTip.img/Item/Frame2/ne"/>
+			</canvas>
+			<canvas name="sw" width="13" height="13">
+				<vector name="origin" x="13" y="0"/>
+				<string name="source" value="UI/UIToolTip.img/Item/Frame2/sw"/>
+			</canvas>
+			<canvas name="se" width="13" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<string name="source" value="UI/UIToolTip.img/Item/Frame2/se"/>
+			</canvas>
+			<canvas name="n" width="1" height="13">
+				<vector name="origin" x="0" y="13"/>
+				<string name="source" value="UI/UIToolTip.img/Item/Frame2/n"/>
+			</canvas>
+			<canvas name="s" width="1" height="13">
+				<vector name="origin" x="0" y="0"/>
+				<string name="source" value="UI/UIToolTip.img/Item/Frame2/s"/>
+			</canvas>
+			<canvas name="w" width="13" height="1">
+				<vector name="origin" x="13" y="0"/>
+				<string name="source" value="UI/UIToolTip.img/Item/Frame2/w"/>
+			</canvas>
+			<canvas name="e" width="13" height="1">
+				<vector name="origin" x="0" y="0"/>
+				<string name="source" value="UI/UIToolTip.img/Item/Frame2/e"/>
+			</canvas>
+			<canvas name="c" width="1" height="1">
+				<vector name="origin" x="0" y="0"/>
+				<string name="source" value="UI/UIToolTip.img/Item/Frame2/c"/>
+			</canvas>
+			<canvas name="cover" width="53" height="43">
+				<vector name="origin" x="-3" y="-3"/>
+				<string name="source" value="UI/UIToolTip.img/Item/Frame/cover"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="GrowthInfoGauge">
+			<canvas name="box" width="239" height="13">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+			<imgdir name="gauge">
+				<canvas name="0" width="1" height="9">
+					<vector name="origin" x="0" y="-2"/>
+				</canvas>
+				<canvas name="1" width="1" height="9">
+					<vector name="origin" x="0" y="-2"/>
+				</canvas>
+				<canvas name="2" width="1" height="9">
+					<vector name="origin" x="0" y="-2"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="Guild">
+		<imgdir name="frameLike">
+			<canvas name="nw" width="23" height="21">
+				<vector name="origin" x="23" y="21"/>
+			</canvas>
+			<canvas name="ne" width="23" height="21">
+				<vector name="origin" x="-1" y="21"/>
+			</canvas>
+			<canvas name="sw" width="23" height="21">
+				<vector name="origin" x="23" y="-1"/>
+			</canvas>
+			<canvas name="se" width="23" height="21">
+				<vector name="origin" x="-1" y="-1"/>
+			</canvas>
+			<canvas name="n" width="1" height="21">
+				<vector name="origin" x="0" y="21"/>
+			</canvas>
+			<canvas name="s" width="1" height="21">
+				<vector name="origin" x="0" y="-1"/>
+			</canvas>
+			<canvas name="w" width="23" height="1">
+				<vector name="origin" x="23" y="0"/>
+			</canvas>
+			<canvas name="e" width="23" height="1">
+				<vector name="origin" x="-1" y="0"/>
+			</canvas>
+			<canvas name="c" width="1" height="1">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+</imgdir>

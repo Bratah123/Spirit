@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9831005.img">
+	<imgdir name="info">
+		<int name="level" value="30"/>
+		<int name="maxHP" value="100"/>
+		<int name="maxMP" value="200"/>
+		<int name="speed" value="-20"/>
+		<int name="pushed" value="9999999"/>
+		<float name="fs" value="10.0"/>
+		<int name="exp" value="6"/>
+		<int name="summonType" value="1"/>
+		<int name="category" value="7"/>
+		<string name="mobType" value="7N"/>
+		<int name="lifePoint" value="1"/>
+		<int name="defenseMob" value="1"/>
+		<int name="boss" value="1"/>
+		<int name="changeableMob" value="1"/>
+		<string name="changeableMob_Type" value="PoloWaveMob2_3"/>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="105" height="128">
+			<vector name="origin" x="56" y="128"/>
+			<vector name="lt" x="-56" y="-111"/>
+			<vector name="rb" x="49" y="0"/>
+			<vector name="head" x="-10" y="-105"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="1" width="102" height="128">
+			<vector name="origin" x="53" y="128"/>
+			<vector name="lt" x="-56" y="-111"/>
+			<vector name="rb" x="49" y="0"/>
+			<vector name="head" x="-10" y="-105"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="2" width="99" height="125">
+			<vector name="origin" x="50" y="125"/>
+			<vector name="lt" x="-56" y="-111"/>
+			<vector name="rb" x="49" y="0"/>
+			<vector name="head" x="-10" y="-105"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="3" width="105" height="129">
+			<vector name="origin" x="56" y="129"/>
+			<vector name="lt" x="-56" y="-111"/>
+			<vector name="rb" x="49" y="0"/>
+			<vector name="head" x="-10" y="-105"/>
+			<int name="delay" value="180"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="105" height="127">
+			<vector name="origin" x="56" y="127"/>
+			<vector name="lt" x="-56" y="-111"/>
+			<vector name="rb" x="49" y="0"/>
+			<vector name="head" x="-10" y="-105"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="1" width="105" height="127">
+			<vector name="origin" x="56" y="127"/>
+			<vector name="lt" x="-56" y="-111"/>
+			<vector name="rb" x="49" y="0"/>
+			<vector name="head" x="-10" y="-105"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="2" width="105" height="124">
+			<vector name="origin" x="56" y="124"/>
+			<vector name="lt" x="-56" y="-111"/>
+			<vector name="rb" x="49" y="0"/>
+			<vector name="head" x="-10" y="-105"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="3" width="105" height="127">
+			<vector name="origin" x="56" y="127"/>
+			<vector name="lt" x="-56" y="-111"/>
+			<vector name="rb" x="49" y="0"/>
+			<vector name="head" x="-10" y="-105"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="4" width="105" height="129">
+			<vector name="origin" x="56" y="129"/>
+			<vector name="lt" x="-56" y="-111"/>
+			<vector name="rb" x="49" y="0"/>
+			<vector name="head" x="-10" y="-105"/>
+			<int name="delay" value="180"/>
+		</canvas>
+		<canvas name="5" width="105" height="130">
+			<vector name="origin" x="56" y="130"/>
+			<vector name="lt" x="-56" y="-111"/>
+			<vector name="rb" x="49" y="0"/>
+			<vector name="head" x="-10" y="-105"/>
+			<int name="delay" value="180"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="hit1">
+		<canvas name="0" width="144" height="126">
+			<vector name="origin" x="73" y="131"/>
+			<vector name="lt" x="-36" y="-112"/>
+			<vector name="rb" x="53" y="-5"/>
+			<vector name="head" x="2" y="-109"/>
+			<int name="delay" value="600"/>
+		</canvas>
+		<imgdir name="speak">
+			<int name="prob" value="100"/>
+			<string name="0" value="아이고~"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="die1">
+		<canvas name="0" width="144" height="126">
+			<vector name="origin" x="72" y="131"/>
+			<vector name="head" x="2" y="-108"/>
+			<int name="delay" value="150"/>
+			<string name="source" value="Mob/3220001.img/hit1/0"/>
+		</canvas>
+		<canvas name="1" width="149" height="127">
+			<vector name="origin" x="74" y="129"/>
+			<vector name="head" x="7" y="-106"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="2" width="153" height="127">
+			<vector name="origin" x="76" y="128"/>
+			<vector name="head" x="12" y="-101"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="3" width="152" height="126">
+			<vector name="origin" x="76" y="125"/>
+			<vector name="head" x="10" y="-99"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="4" width="152" height="127">
+			<vector name="origin" x="76" y="124"/>
+			<vector name="head" x="14" y="-100"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="5" width="153" height="126">
+			<vector name="origin" x="76" y="119"/>
+			<vector name="head" x="15" y="-97"/>
+			<int name="delay" value="150"/>
+		</canvas>
+		<canvas name="6" width="155" height="126">
+			<vector name="origin" x="76" y="117"/>
+			<vector name="head" x="19" y="-91"/>
+			<int name="delay" value="300"/>
+		</canvas>
+		<imgdir name="speak">
+			<int name="prob" value="100"/>
+			<string name="0" value="노인을 공경할 줄 모르다니..."/>
+		</imgdir>
+	</imgdir>
+</imgdir>

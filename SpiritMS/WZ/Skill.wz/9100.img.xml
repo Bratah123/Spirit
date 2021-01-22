@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9100.img">
+	<imgdir name="info">
+		<canvas name="icon" width="26" height="30">
+			<vector name="origin" x="-4" y="30"/>
+			<string name="source" value="Skill/1112.img/info/icon"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="skill">
+		<imgdir name="91000000">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="5"/>
+				<string name="price" value="160*x*x*x"/>
+				<string name="extendPrice" value="250+150*x"/>
+				<string name="reqGuildLevel" value="-1+2*x"/>
+				<string name="ar" value="2*x"/>
+				<string name="er" value="2*x"/>
+				<string name="period" value="60"/>
+				<string name="priceUnit" value="10000"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000001">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="5"/>
+				<string name="expR" value="2*x"/>
+				<string name="price" value="200*x*x*x"/>
+				<string name="extendPrice" value="250+150*x"/>
+				<string name="reqGuildLevel" value="2*x"/>
+				<string name="period" value="30"/>
+				<string name="priceUnit" value="10000"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000002">
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="5"/>
+				<string name="pddR" value="5*x"/>
+				<string name="mddR" value="5*x"/>
+				<string name="price" value="100*x*x*x"/>
+				<string name="reqGuildLevel" value="-1+2*x"/>
+				<string name="extendPrice" value="250+50*x"/>
+				<string name="period" value="60"/>
+				<string name="priceUnit" value="10000"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000003">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="5"/>
+				<string name="padX" value="4*x"/>
+				<string name="madX" value="4*x"/>
+				<string name="price" value="200*x*x*x"/>
+				<string name="reqGuildLevel" value="2*x"/>
+				<string name="extendPrice" value="250+150*x"/>
+				<string name="period" value="30"/>
+				<string name="priceUnit" value="10000"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000004">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="psdJump" value="5*x"/>
+				<string name="psdSpeed" value="5*x"/>
+				<string name="price" value="100*x*x*x"/>
+				<string name="extendPrice" value="300+50*x"/>
+				<string name="reqGuildLevel" value="1+2*x"/>
+				<string name="period" value="60"/>
+				<string name="priceUnit" value="10000"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000005">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="price" value="160*x*x*x"/>
+				<string name="extendPrice" value="400+150*x"/>
+				<string name="reqGuildLevel" value="2+2*x"/>
+				<string name="period" value="30"/>
+				<string name="priceUnit" value="10000"/>
+				<string name="cr" value="x+1"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000006">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="10"/>
+				<string name="price" value="1000*x"/>
+				<string name="reqGuildLevel" value="x"/>
+				<string name="priceUnit" value="10000"/>
+				<string name="u" value="20*x"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000007">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="mileage" value="1+x"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="91000011" value="4"/>
+				<int name="reqTierPoint" value="8"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000008">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="disCountR" value="x"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="91000011" value="4"/>
+				<int name="reqTierPoint" value="16"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000009">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="x" value="15*x"/>
+				<string name="y" value="5*x"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000010">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="pqPointR" value="x"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="reqTierPoint" value="16"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000011">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="mesoG" value="2*x"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000012">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="itemUpgradeBonusR" value="x"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="reqTierPoint" value="24"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000013">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="itemCursedProtectR" value="x"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="reqTierPoint" value="32"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000014">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="itemTUCProtectR" value="x"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="91000012" value="4"/>
+				<int name="91000013" value="4"/>
+				<int name="reqTierPoint" value="32"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91000015">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="4"/>
+				<string name="expLossReduceR" value="1+x"/>
+			</imgdir>
+			<int name="psd" value="1"/>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91001016">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="3"/>
+				<string name="igpCon" value="2000-200*x"/>
+				<string name="cooltime" value="21600-3600*x"/>
+				<string name="x" value="6-x"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="reqTierPoint" value="8"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91001017">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="3"/>
+				<string name="igpCon" value="2000-200*x"/>
+				<string name="cooltime" value="21600-3600*x"/>
+				<string name="x" value="6-x"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="reqTierPoint" value="24"/>
+				<int name="91001016" value="3"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="68" height="62">
+					<vector name="origin" x="31" y="154"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="1" width="98" height="100">
+					<vector name="origin" x="47" y="162"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="2" width="104" height="105">
+					<vector name="origin" x="50" y="167"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="3" width="108" height="109">
+					<vector name="origin" x="52" y="171"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="4" width="110" height="111">
+					<vector name="origin" x="53" y="174"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="5" width="112" height="111">
+					<vector name="origin" x="54" y="175"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="6" width="231" height="223">
+					<vector name="origin" x="114" y="232"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="7" width="236" height="218">
+					<vector name="origin" x="116" y="233"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="8" width="215" height="192">
+					<vector name="origin" x="100" y="220"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="9" width="193" height="175">
+					<vector name="origin" x="85" y="215"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="10" width="198" height="182">
+					<vector name="origin" x="88" y="217"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="11" width="200" height="184">
+					<vector name="origin" x="89" y="216"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="12" width="191" height="163">
+					<vector name="origin" x="85" y="193"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="13" width="154" height="147">
+					<vector name="origin" x="75" y="182"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="14" width="144" height="98">
+					<vector name="origin" x="70" y="161"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="action">
+				<string name="0" value="alert3"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91001018">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="gpCon" value="20000"/>
+				<string name="cooltime" value="604800"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="reqTierPoint" value="32"/>
+				<int name="91001019" value="1"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="128" height="102">
+					<vector name="origin" x="53" y="188"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="1" width="144" height="132">
+					<vector name="origin" x="60" y="213"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="2" width="160" height="145">
+					<vector name="origin" x="66" y="222"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="3" width="178" height="157">
+					<vector name="origin" x="78" y="229"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="4" width="231" height="223">
+					<vector name="origin" x="106" y="258"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="5" width="249" height="243">
+					<vector name="origin" x="115" y="268"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="6" width="252" height="253">
+					<vector name="origin" x="116" y="269"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="7" width="249" height="243">
+					<vector name="origin" x="115" y="268"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="8" width="244" height="237">
+					<vector name="origin" x="112" y="265"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="9" width="231" height="227">
+					<vector name="origin" x="106" y="258"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="10" width="198" height="205">
+					<vector name="origin" x="86" y="237"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="11" width="200" height="211">
+					<vector name="origin" x="86" y="237"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="12" width="200" height="217">
+					<vector name="origin" x="85" y="235"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="13" width="193" height="213">
+					<vector name="origin" x="83" y="233"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="14" width="169" height="206">
+					<vector name="origin" x="73" y="227"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="15" width="157" height="187">
+					<vector name="origin" x="72" y="203"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="16" width="140" height="46">
+					<vector name="origin" x="62" y="103"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="action">
+				<string name="0" value="alert3"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91001019">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="1"/>
+				<string name="gpCon" value="80000"/>
+				<string name="cooltime" value="604800"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="reqTierPoint" value="16"/>
+				<int name="91000009" value="4"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91001020">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="3"/>
+				<string name="cooltime" value="21600-3600*x"/>
+				<string name="igpCon" value="2000-200*x"/>
+				<string name="x" value="6-x"/>
+				<vector name="lt" x="-400" y="-350"/>
+				<vector name="rb" x="400" y="250"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="reqTierPoint" value="24"/>
+				<int name="91001021" value="3"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="180" height="163">
+					<vector name="origin" x="97" y="230"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="1" width="225" height="223">
+					<vector name="origin" x="100" y="264"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="2" width="205" height="267">
+					<vector name="origin" x="99" y="309"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="3" width="257" height="225">
+					<vector name="origin" x="154" y="270"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="4" width="219" height="207">
+					<vector name="origin" x="115" y="256"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="5" width="224" height="185">
+					<vector name="origin" x="110" y="245"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="6" width="329" height="310">
+					<vector name="origin" x="163" y="293"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="7" width="336" height="314">
+					<vector name="origin" x="167" y="298"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="8" width="341" height="316">
+					<vector name="origin" x="169" y="300"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="9" width="343" height="317">
+					<vector name="origin" x="170" y="301"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="10" width="343" height="317">
+					<vector name="origin" x="170" y="302"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="11" width="334" height="314">
+					<vector name="origin" x="166" y="302"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="12" width="214" height="275">
+					<vector name="origin" x="105" y="264"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="13" width="214" height="197">
+					<vector name="origin" x="105" y="262"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="14" width="214" height="195">
+					<vector name="origin" x="105" y="263"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="15" width="214" height="195">
+					<vector name="origin" x="105" y="264"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="16" width="208" height="194">
+					<vector name="origin" x="102" y="264"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="17" width="202" height="192">
+					<vector name="origin" x="99" y="264"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="18" width="110" height="185">
+					<vector name="origin" x="53" y="262"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="affected">
+				<canvas name="0" width="101" height="25">
+					<vector name="origin" x="49" y="17"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="1" width="103" height="32">
+					<vector name="origin" x="50" y="23"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="2" width="110" height="36">
+					<vector name="origin" x="53" y="25"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="3" width="111" height="166">
+					<vector name="origin" x="54" y="154"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="4" width="118" height="204">
+					<vector name="origin" x="56" y="192"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="5" width="140" height="202">
+					<vector name="origin" x="55" y="190"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="6" width="161" height="197">
+					<vector name="origin" x="63" y="185"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="7" width="170" height="145">
+					<vector name="origin" x="67" y="133"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="8" width="175" height="132">
+					<vector name="origin" x="70" y="121"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="9" width="178" height="120">
+					<vector name="origin" x="72" y="111"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="10" width="172" height="96">
+					<vector name="origin" x="71" y="88"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="120"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="action">
+				<string name="0" value="resurrectionNew"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91001021">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="3"/>
+				<string name="cooltime" value="72000"/>
+				<string name="igpCon" value="2000-200*x"/>
+				<string name="x" value="x"/>
+			</imgdir>
+			<imgdir name="req">
+				<int name="reqTierPoint" value="8"/>
+			</imgdir>
+			<imgdir name="effect">
+				<canvas name="0" width="108" height="107">
+					<vector name="origin" x="60" y="86"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="1" width="120" height="131">
+					<vector name="origin" x="66" y="98"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="2" width="116" height="135">
+					<vector name="origin" x="64" y="100"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="3" width="143" height="127">
+					<vector name="origin" x="77" y="97"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="4" width="144" height="127">
+					<vector name="origin" x="78" y="97"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="5" width="209" height="208">
+					<vector name="origin" x="110" y="248"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="6" width="216" height="206">
+					<vector name="origin" x="112" y="248"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="7" width="221" height="203">
+					<vector name="origin" x="112" y="247"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="8" width="193" height="202">
+					<vector name="origin" x="97" y="248"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="9" width="198" height="203">
+					<vector name="origin" x="100" y="249"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="10" width="200" height="202">
+					<vector name="origin" x="101" y="250"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="11" width="191" height="204">
+					<vector name="origin" x="97" y="251"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="12" width="150" height="196">
+					<vector name="origin" x="81" y="247"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="13" width="148" height="178">
+					<vector name="origin" x="80" y="237"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="14" width="146" height="160">
+					<vector name="origin" x="79" y="225"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="15" width="142" height="137">
+					<vector name="origin" x="77" y="214"/>
+					<int name="delay" value="120"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="action">
+				<string name="0" value="alert2"/>
+			</imgdir>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91001022">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="10"/>
+				<string name="indieBDR" value="2*x"/>
+				<string name="y" value="3*x"/>
+				<string name="z" value="120-6*x"/>
+				<string name="time" value="180*x"/>
+				<string name="igpCon" value="2000-100*x"/>
+				<string name="cooltime" value="7200-360*x"/>
+			</imgdir>
+			<int name="notRemoved" value="1"/>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91001023">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="10"/>
+				<string name="indieIgnoreMobpdpR" value="2*x"/>
+				<string name="y" value="3*x"/>
+				<string name="z" value="120-6*x"/>
+				<string name="time" value="180*x"/>
+				<string name="igpCon" value="2000-100*x"/>
+				<string name="cooltime" value="7200-360*x"/>
+			</imgdir>
+			<int name="notRemoved" value="1"/>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+		<imgdir name="91001024">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<imgdir name="common">
+				<int name="maxLevel" value="10"/>
+				<string name="indieDamR" value="2*x"/>
+				<string name="y" value="3*x"/>
+				<string name="z" value="120-6*x"/>
+				<string name="time" value="180*x"/>
+				<string name="igpCon" value="2000-100*x"/>
+				<string name="cooltime" value="7200-360*x"/>
+			</imgdir>
+			<int name="notRemoved" value="1"/>
+			<int name="notCooltimeReset" value="1"/>
+			<int name="notIncBuffDuration" value="1"/>
+		</imgdir>
+	</imgdir>
+</imgdir>

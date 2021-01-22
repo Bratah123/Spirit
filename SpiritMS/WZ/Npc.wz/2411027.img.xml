@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2411027.img">
+	<imgdir name="info">
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+		</imgdir>
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="239" height="89">
+			<vector name="origin" x="90" y="87"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="239" height="88">
+			<vector name="origin" x="90" y="86"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="239" height="89">
+			<vector name="origin" x="90" y="87"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="239" height="88">
+			<vector name="origin" x="90" y="86"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="239" height="90">
+			<vector name="origin" x="90" y="88"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="5" width="239" height="89">
+			<vector name="origin" x="90" y="87"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="cry">
+		<canvas name="0" width="239" height="91">
+			<vector name="origin" x="90" y="89"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="239" height="93">
+			<vector name="origin" x="90" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="239" height="93">
+			<vector name="origin" x="90" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="239" height="93">
+			<vector name="origin" x="90" y="91"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="239" height="92">
+			<vector name="origin" x="90" y="90"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition">
+		<int name="41016" value="2"/>
+		<imgdir name="stand">
+			<canvas name="0" width="239" height="89">
+				<vector name="origin" x="90" y="87"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2411027.img/stand/0"/>
+			</canvas>
+			<canvas name="1" width="239" height="88">
+				<vector name="origin" x="90" y="86"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2411027.img/stand/1"/>
+			</canvas>
+			<canvas name="2" width="239" height="89">
+				<vector name="origin" x="90" y="87"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2411027.img/stand/2"/>
+			</canvas>
+			<canvas name="3" width="239" height="88">
+				<vector name="origin" x="90" y="86"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2411027.img/stand/3"/>
+			</canvas>
+			<canvas name="4" width="239" height="90">
+				<vector name="origin" x="90" y="88"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2411027.img/stand/4"/>
+			</canvas>
+			<canvas name="5" width="239" height="89">
+				<vector name="origin" x="90" y="87"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2411027.img/stand/5"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="cry">
+			<canvas name="0" width="239" height="91">
+				<vector name="origin" x="90" y="89"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2411027.img/cry/0"/>
+			</canvas>
+			<canvas name="1" width="239" height="93">
+				<vector name="origin" x="90" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2411027.img/cry/1"/>
+			</canvas>
+			<canvas name="2" width="239" height="93">
+				<vector name="origin" x="90" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2411027.img/cry/2"/>
+			</canvas>
+			<canvas name="3" width="239" height="93">
+				<vector name="origin" x="90" y="91"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2411027.img/cry/3"/>
+			</canvas>
+			<canvas name="4" width="239" height="92">
+				<vector name="origin" x="90" y="90"/>
+				<int name="z" value="0"/>
+				<string name="source" value="Npc/2411027.img/cry/4"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+</imgdir>

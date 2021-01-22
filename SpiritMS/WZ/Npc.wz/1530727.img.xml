@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1530727.img">
+	<imgdir name="info">
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="141" height="77">
+			<vector name="origin" x="61" y="77"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="condition1">
+		<int name="33524" value="2"/>
+		<int name="hide" value="1"/>
+		<uol name="stand" value="../stand"/>
+	</imgdir>
+	<imgdir name="condition2">
+		<int name="33524" value="1"/>
+		<int name="hide" value="1"/>
+		<uol name="stand" value="../stand"/>
+	</imgdir>
+</imgdir>

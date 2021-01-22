@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="KannaFox.img">
+	<imgdir name="default">
+		<imgdir name="info">
+			<int name="chatBalloon" value="96"/>
+			<int name="nameTag" value="96"/>
+			<string name="name" value="Haku"/>
+		</imgdir>
+		<imgdir name="Event">
+			<imgdir name="bind">
+				<int name="skill" value="42101023"/>
+				<string name="chat" value="Breath of the Unseen!!"/>
+			</imgdir>
+			<imgdir name="heal">
+				<int name="skill" value="42101020"/>
+				<string name="chat" value="Haku's Gift!!"/>
+				<imgdir name="condition">
+					<int name="remainHp" value="60"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="fireBarrier">
+				<int name="skill" value="42101021"/>
+				<string name="chat" value="Foxfire!!"/>
+			</imgdir>
+			<imgdir name="foxBless">
+				<int name="skill" value="42101022"/>
+				<string name="chat" value="Haku's Blessing!!"/>
+			</imgdir>
+			<imgdir name="levelup">
+				<string name="emotion" value="glitter"/>
+			</imgdir>
+			<imgdir name="dead">
+				<string name="emotion" value="cry"/>
+			</imgdir>
+			<imgdir name="heal02">
+				<int name="skill" value="42121020"/>
+				<string name="chat" value="Haku's Gift!!"/>
+				<imgdir name="condition">
+					<int name="remainHp" value="70"/>
+				</imgdir>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Effect">
+			<imgdir name="teleport">
+				<imgdir name="condition">
+					<vector name="lt" x="-300" y="-70"/>
+					<vector name="rb" x="100" y="0"/>
+				</imgdir>
+				<canvas name="0" width="65" height="62">
+					<vector name="origin" x="25" y="67"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="70" height="70">
+					<vector name="origin" x="35" y="74"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="84" height="68">
+					<vector name="origin" x="41" y="73"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="86" height="93">
+					<vector name="origin" x="42" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="119" height="90">
+					<vector name="origin" x="62" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="111" height="100">
+					<vector name="origin" x="54" y="88"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="144" height="144">
+					<vector name="origin" x="72" y="113"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="129" height="113">
+					<vector name="origin" x="57" y="92"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="8" width="110" height="101">
+					<vector name="origin" x="59" y="90"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="9" width="109" height="105">
+					<vector name="origin" x="59" y="95"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="10" width="88" height="101">
+					<vector name="origin" x="42" y="94"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="trans">
+				<canvas name="0" width="65" height="62">
+					<vector name="origin" x="25" y="67"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="70" height="70">
+					<vector name="origin" x="35" y="74"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="84" height="68">
+					<vector name="origin" x="41" y="73"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="86" height="93">
+					<vector name="origin" x="42" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="119" height="90">
+					<vector name="origin" x="62" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="111" height="100">
+					<vector name="origin" x="54" y="88"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="144" height="144">
+					<vector name="origin" x="72" y="113"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="129" height="113">
+					<vector name="origin" x="57" y="92"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="8" width="110" height="101">
+					<vector name="origin" x="59" y="90"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="9" width="109" height="105">
+					<vector name="origin" x="59" y="95"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="10" width="88" height="101">
+					<vector name="origin" x="42" y="94"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="teleportBig">
+				<imgdir name="condition">
+					<vector name="lt" x="-300" y="-70"/>
+					<vector name="rb" x="100" y="0"/>
+				</imgdir>
+				<canvas name="0" width="65" height="62">
+					<vector name="origin" x="25" y="67"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="70" height="70">
+					<vector name="origin" x="35" y="74"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="84" height="68">
+					<vector name="origin" x="41" y="73"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="86" height="93">
+					<vector name="origin" x="42" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="119" height="90">
+					<vector name="origin" x="62" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="111" height="100">
+					<vector name="origin" x="54" y="88"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="144" height="144">
+					<vector name="origin" x="72" y="113"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="129" height="113">
+					<vector name="origin" x="57" y="92"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="8" width="110" height="101">
+					<vector name="origin" x="59" y="90"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="9" width="109" height="105">
+					<vector name="origin" x="59" y="95"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="10" width="88" height="101">
+					<vector name="origin" x="42" y="94"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="teleportSmall">
+				<imgdir name="condition">
+					<vector name="lt" x="-300" y="-70"/>
+					<vector name="rb" x="100" y="0"/>
+				</imgdir>
+				<canvas name="0" width="65" height="62">
+					<vector name="origin" x="25" y="67"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="70" height="70">
+					<vector name="origin" x="35" y="74"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="84" height="68">
+					<vector name="origin" x="41" y="73"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="86" height="93">
+					<vector name="origin" x="42" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="119" height="90">
+					<vector name="origin" x="62" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="111" height="100">
+					<vector name="origin" x="54" y="88"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="144" height="144">
+					<vector name="origin" x="72" y="113"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="129" height="113">
+					<vector name="origin" x="57" y="92"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="8" width="110" height="101">
+					<vector name="origin" x="59" y="90"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="9" width="109" height="105">
+					<vector name="origin" x="59" y="95"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="10" width="88" height="101">
+					<vector name="origin" x="42" y="94"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Clothes">
+			<int name="face" value="24065"/>
+			<int name="skin" value="12"/>
+			<imgdir name="Basic">
+				<int name="Longcoat" value="1052949"/>
+				<int name="hair" value="38920"/>
+			</imgdir>
+			<imgdir name="Upgrade">
+				<int name="Longcoat" value="1052949"/>
+				<int name="hair" value="38920"/>
+			</imgdir>
+			<imgdir name="Upgrade02">
+				<int name="Longcoat" value="1052949"/>
+				<int name="hair" value="38920"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="rolePlaying">
+		<imgdir name="info">
+			<int name="chatBalloon" value="96"/>
+			<int name="nameTag" value="96"/>
+			<string name="name" value="Haku"/>
+		</imgdir>
+		<imgdir name="Event">
+			<imgdir name="bind">
+				<int name="skill" value="80011059"/>
+				<string name="chat" value="Breath of the Unseen!!"/>
+			</imgdir>
+			<imgdir name="heal">
+				<int name="skill" value="80011056"/>
+				<string name="chat" value="Haku's Gift!!"/>
+				<imgdir name="condition">
+					<int name="remainHp" value="50"/>
+				</imgdir>
+			</imgdir>
+			<imgdir name="fireBarrier">
+				<int name="skill" value="80011057"/>
+				<string name="chat" value="Foxfire!!"/>
+			</imgdir>
+			<imgdir name="foxBless">
+				<int name="skill" value="80011058"/>
+				<string name="chat" value="Haku's Blessing!!"/>
+			</imgdir>
+			<imgdir name="levelup">
+				<string name="emotion" value="glitter"/>
+			</imgdir>
+			<imgdir name="dead">
+				<string name="emotion" value="cry"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="BasicClothes">
+			<int name="face" value="20079"/>
+			<imgdir name="0">
+				<int name="Longcoat" value="1052471"/>
+				<int name="hair" value="36320"/>
+				<int name="cape" value="1102490"/>
+			</imgdir>
+			<imgdir name="1">
+				<int name="Longcoat" value="1052475"/>
+				<int name="hair" value="36321"/>
+				<int name="cape" value="1102493"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Effect">
+			<imgdir name="teleport">
+				<imgdir name="condition">
+					<vector name="lt" x="-300" y="-70"/>
+					<vector name="rb" x="100" y="0"/>
+				</imgdir>
+				<canvas name="0" width="65" height="62">
+					<vector name="origin" x="25" y="67"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="70" height="70">
+					<vector name="origin" x="35" y="74"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="84" height="68">
+					<vector name="origin" x="41" y="73"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="86" height="93">
+					<vector name="origin" x="42" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="119" height="90">
+					<vector name="origin" x="62" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="111" height="100">
+					<vector name="origin" x="54" y="88"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="144" height="144">
+					<vector name="origin" x="72" y="113"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="129" height="113">
+					<vector name="origin" x="57" y="92"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="8" width="110" height="101">
+					<vector name="origin" x="59" y="90"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="9" width="109" height="105">
+					<vector name="origin" x="59" y="95"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="10" width="88" height="101">
+					<vector name="origin" x="42" y="94"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="trans">
+				<canvas name="0" width="65" height="62">
+					<vector name="origin" x="25" y="67"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="70" height="70">
+					<vector name="origin" x="35" y="74"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="84" height="68">
+					<vector name="origin" x="41" y="73"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="86" height="93">
+					<vector name="origin" x="42" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="119" height="90">
+					<vector name="origin" x="62" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="111" height="100">
+					<vector name="origin" x="54" y="88"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="144" height="144">
+					<vector name="origin" x="72" y="113"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="129" height="113">
+					<vector name="origin" x="57" y="92"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="8" width="110" height="101">
+					<vector name="origin" x="59" y="90"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="9" width="109" height="105">
+					<vector name="origin" x="59" y="95"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="10" width="88" height="101">
+					<vector name="origin" x="42" y="94"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="teleportBig">
+				<imgdir name="condition">
+					<vector name="lt" x="-300" y="-70"/>
+					<vector name="rb" x="100" y="0"/>
+				</imgdir>
+				<canvas name="0" width="65" height="62">
+					<vector name="origin" x="25" y="67"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="70" height="70">
+					<vector name="origin" x="35" y="74"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="84" height="68">
+					<vector name="origin" x="41" y="73"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="86" height="93">
+					<vector name="origin" x="42" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="119" height="90">
+					<vector name="origin" x="62" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="111" height="100">
+					<vector name="origin" x="54" y="88"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="144" height="144">
+					<vector name="origin" x="72" y="113"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="129" height="113">
+					<vector name="origin" x="57" y="92"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="8" width="110" height="101">
+					<vector name="origin" x="59" y="90"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="9" width="109" height="105">
+					<vector name="origin" x="59" y="95"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="10" width="88" height="101">
+					<vector name="origin" x="42" y="94"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+			<imgdir name="teleportSmall">
+				<imgdir name="condition">
+					<vector name="lt" x="-300" y="-70"/>
+					<vector name="rb" x="100" y="0"/>
+				</imgdir>
+				<canvas name="0" width="65" height="62">
+					<vector name="origin" x="25" y="67"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="1" width="70" height="70">
+					<vector name="origin" x="35" y="74"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="2" width="84" height="68">
+					<vector name="origin" x="41" y="73"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="3" width="86" height="93">
+					<vector name="origin" x="42" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="4" width="119" height="90">
+					<vector name="origin" x="62" y="85"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="5" width="111" height="100">
+					<vector name="origin" x="54" y="88"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="6" width="144" height="144">
+					<vector name="origin" x="72" y="113"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="7" width="129" height="113">
+					<vector name="origin" x="57" y="92"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="8" width="110" height="101">
+					<vector name="origin" x="59" y="90"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="9" width="109" height="105">
+					<vector name="origin" x="59" y="95"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+				<canvas name="10" width="88" height="101">
+					<vector name="origin" x="42" y="94"/>
+					<int name="z" value="0"/>
+					<int name="delay" value="90"/>
+				</canvas>
+			</imgdir>
+		</imgdir>
+		<imgdir name="Clothes">
+			<int name="face" value="20079"/>
+			<imgdir name="Basic">
+				<int name="Longcoat" value="1052471"/>
+				<int name="hair" value="36320"/>
+				<int name="cape" value="1102490"/>
+			</imgdir>
+			<imgdir name="Upgrade">
+				<int name="Longcoat" value="1052475"/>
+				<int name="hair" value="36321"/>
+				<int name="cape" value="1102493"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2120028.img">
+	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="rouletteNPC_2015"/>
+			</imgdir>
+		</imgdir>
+		<int name="dcLeft" value="-47"/>
+		<int name="dcTop" value="-126"/>
+		<int name="dcRight" value="80"/>
+		<int name="dcBottom" value="0"/>
+		<int name="hide" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="158" height="181">
+			<vector name="origin" x="65" y="181"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="153" height="180">
+			<vector name="origin" x="65" y="180"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="158" height="180">
+			<vector name="origin" x="65" y="180"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="153" height="180">
+			<vector name="origin" x="65" y="180"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="158" height="181">
+			<vector name="origin" x="65" y="181"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="153" height="180">
+			<vector name="origin" x="65" y="180"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="158" height="180">
+			<vector name="origin" x="65" y="180"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="153" height="180">
+			<vector name="origin" x="65" y="180"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+</imgdir>

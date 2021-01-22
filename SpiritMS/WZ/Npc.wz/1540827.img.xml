@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1540827.img">
+	<imgdir name="info">
+		<int name="hideName" value="1"/>
+		<int name="forceMove" value="1"/>
+	</imgdir>
+	<imgdir name="stand">
+		<canvas name="0" width="52" height="66">
+			<vector name="origin" x="22" y="66"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="59" height="67">
+			<vector name="origin" x="29" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="52" height="66">
+			<vector name="origin" x="22" y="66"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="52" height="67">
+			<vector name="origin" x="22" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="52" height="66">
+			<vector name="origin" x="22" y="66"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="eye">
+		<canvas name="0" width="52" height="66">
+			<vector name="origin" x="22" y="66"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="52" height="66">
+			<vector name="origin" x="22" y="66"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="52" height="66">
+			<vector name="origin" x="22" y="66"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="52" height="66">
+			<vector name="origin" x="22" y="66"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="52" height="66">
+			<vector name="origin" x="22" y="66"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="1" width="52" height="67">
+			<vector name="origin" x="22" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="52" height="66">
+			<vector name="origin" x="22" y="66"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="52" height="67">
+			<vector name="origin" x="22" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="stand2">
+		<uol name="0" value="../stand/0"/>
+		<int name="special" value="1"/>
+	</imgdir>
+</imgdir>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1010100.img">
+	<imgdir name="stand">
+		<canvas name="0" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="blink">
+		<canvas name="0" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+			<string name="delay" value="150"/>
+			<string name="source" value="Npc/1010100.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+			<string name="delay" value="100"/>
+		</canvas>
+		<canvas name="2" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+			<string name="delay" value="1200"/>
+		</canvas>
+		<uol name="3" value="0"/>
+		<uol name="4" value="1"/>
+		<uol name="5" value="2"/>
+		<uol name="6" value="0"/>
+		<uol name="7" value="1"/>
+		<uol name="8" value="2"/>
+		<uol name="9" value="0"/>
+		<uol name="10" value="0"/>
+		<uol name="11" value="0"/>
+		<uol name="12" value="0"/>
+		<uol name="13" value="0"/>
+		<uol name="14" value="0"/>
+		<uol name="15" value="0"/>
+		<uol name="16" value="0"/>
+	</imgdir>
+	<imgdir name="say">
+		<canvas name="0" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/1010100.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/1010100.img/stand/0"/>
+		</canvas>
+		<canvas name="3" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/1010100.img/say/1"/>
+		</canvas>
+		<imgdir name="speak">
+			<string name="0" value="n0"/>
+			<string name="1" value="n1"/>
+			<string name="2" value="n2"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="hair">
+		<canvas name="0" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/1010100.img/stand/0"/>
+		</canvas>
+		<canvas name="1" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="2" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="3" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="4" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+		</canvas>
+		<canvas name="5" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/1010100.img/blink/1"/>
+		</canvas>
+		<canvas name="6" width="50" height="67">
+			<vector name="origin" x="25" y="67"/>
+			<int name="z" value="0"/>
+			<string name="source" value="Npc/1010100.img/blink/2"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="info">
+	</imgdir>
+</imgdir>
