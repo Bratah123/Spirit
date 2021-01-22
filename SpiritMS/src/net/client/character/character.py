@@ -46,7 +46,9 @@ class Character:
             face=face,
             hair=hair
         )
+
         hair_equips = []
+
         for item_id in items:
             pass
 
