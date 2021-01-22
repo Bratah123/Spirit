@@ -25,3 +25,7 @@ async def check_name_taken(name):
     except Exception:
         return False
     return True
+
+
+async def register_account(username, password):
+    pass
