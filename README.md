@@ -7,6 +7,7 @@ Current Conventions:
 - methods: snake_case
 - variables: snake_case
 - classes: PascalCase
+- "Constants": MACRO_CASE
 - Note: Only use `@staticmethod` for out_packet functions, else use top level functions
 
 Current Progress:
