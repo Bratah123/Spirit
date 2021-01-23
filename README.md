@@ -10,6 +10,16 @@ Current Conventions:
 - "Constants": MACRO_CASE
 - Note: Only use `@staticmethod` for out_packet functions, else use top level functions
 
+Installation:
+- Install [Python](https://www.python.org/)
+  - Preferably v3.8.5+
+- Install dependencies by using `pip install -r requirements.txt`
+  - Note: It is recommended to create a virtual environment (VENV)
+  - If you wish to manually install dependencies (on venv) here is the list:
+    - pip install swordiedb==1.0.2
+    - pip install mysql-connector-python-rf==2.2.2
+    - pip install pycryptodomex==3.9.9
+
 Current Progress:
 - Server is now able to reach character selection screen!
 
