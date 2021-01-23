@@ -14,6 +14,7 @@ class Character:
             You guessed it, this attribute stores all of the characters cosmetic related stats.
             (I.E. HAIR, FACE, EYE)
     """
+
     def __init__(
             self,
             chr_id=0,
