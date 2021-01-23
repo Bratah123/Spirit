@@ -63,11 +63,16 @@ class LoginHandler:
         if db_user is None and AUTO_REGISTER:
             # if there is no user in the database we register one
             await database_manager.register_account(username, password)
+            await client.send_packet(
+                WvsContext.broadcast_msg(
+                    BroadcastMsg.pop_up_message("Your account has now been registered.")
+                )
+            )
 
         if db_user is not None:
             if password.lower() == "fixme":
                 await client.send_packet(
-                    WvsContext.broadcast_msg(BroadcastMsg.pop_up_message("Your account is now logged out"))
+                    WvsContext.broadcast_msg(BroadcastMsg.pop_up_message("Your account is now logged out."))
                 )
             db_password = db_user.password
             success = db_password == password

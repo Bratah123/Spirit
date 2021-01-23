@@ -11,7 +11,7 @@ SCHEMA_NAME = "spirit"
         port=3306
 """
 # TODO: Implement the rest of the constants for DB
-HOST = "localhost"
-USER = "root"
+DATABASE_HOST = "localhost"
+DATABASE_USER = "root"
 DATABASE_PASSWORD = ""
-PORT = 3306
+DATABASE_PORT = 3306
