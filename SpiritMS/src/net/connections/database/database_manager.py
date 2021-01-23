@@ -2,6 +2,9 @@ from swordie_db.database import SwordieDB
 
 from src.net.connections.database.database_constants import SCHEMA_NAME
 from src.net.debug import debug
+import mysql.connector
+
+from src.net.enum.account_type import AccountType
 
 """
     Please keep all database functions async - Brandon
@@ -28,4 +31,16 @@ async def check_name_taken(name):
 
 
 async def register_account(username, password):
-    pass
+    try:
+        con = mysql.connector.connect(database=SCHEMA_NAME)
+        cursor = con.cursor(dictionary=True)
+        cursor.execute(
+            f"INSERT INTO users (name, password, accounttype, characterslots VALUES " +
+            f"{username}, {password}, {AccountType.Player.value}, 4"
+        )
+        con.commit()
+        con.disconnect()
+        return True
+    except Exception as e:
+        print("[ERROR] Error trying to register account", e)
+        return False

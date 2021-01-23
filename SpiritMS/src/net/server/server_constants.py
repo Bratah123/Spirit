@@ -7,6 +7,7 @@ EVENT_MESSAGE = "Maplestory in python poggies!"
 RECOMMEND_MSG = "Scania Gang"
 
 DEBUG_MODE = True
+AUTO_REGISTER = True
 SERVER_VERSION = 176
 MINOR_VERSION = "1"
 LOCALE = 8

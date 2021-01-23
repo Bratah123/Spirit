@@ -18,6 +18,7 @@ from src.net.packets.recv_ops import InPacket
 from src.net.packets.send_ops import OutPacket
 from src.net.server import server_constants, global_states
 from src.net.server.global_states import worlds
+from src.net.server.server_constants import AUTO_REGISTER
 
 
 class LoginHandler:
@@ -58,6 +59,10 @@ class LoginHandler:
         db_user = await database_manager.get_user_from_db(username)
         # this user is the User object in the source
         user = None
+
+        if db_user is None and AUTO_REGISTER:
+            # if there is no user in the database we register one
+            await database_manager.register_account(username, password)
 
         if db_user is not None:
             if password.lower() == "fixme":
