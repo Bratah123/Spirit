@@ -12,7 +12,6 @@ async def get_equip_info(equip_id, equip_category):
     equip_id: int
     equip_category: str
 
-    Returns: dict
     -------
 
     """
