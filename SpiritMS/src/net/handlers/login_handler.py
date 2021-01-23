@@ -62,7 +62,7 @@ class LoginHandler:
 
         if db_user is None and AUTO_REGISTER:
             # if there is no user in the database we register one
-            await database_manager.register_account(username, password)
+            await database_manager.register_user(username, password)
             await client.send_packet(
                 WvsContext.broadcast_msg(
                     BroadcastMsg.pop_up_message("Your account has now been registered.")
@@ -71,6 +71,7 @@ class LoginHandler:
 
         if db_user is not None:
             if password.lower() == "fixme":
+                # TODO, implement a loggedin check
                 await client.send_packet(
                     WvsContext.broadcast_msg(BroadcastMsg.pop_up_message("Your account is now logged out."))
                 )
@@ -130,12 +131,13 @@ class LoginHandler:
         success_code = 0
         user = client.user
 
-        account = user.get_account_by_world_id(world_id)
+        account = user.get_account_from_db()
         world = global_states.worlds[0]  # This way only allows us to have one world will change in the future
 
         if user is not None and world is not None and world.get_channel_by_id(channel) is not None:
             if account is None:
                 account = Account(user=user, world_id=world_id)
+                await database_manager.create_account(account)  # create a new row in SQL if account doesn't exist
                 user.add_account(account)
             client.account = account
             client.wid = world_id
@@ -215,4 +217,3 @@ class LoginHandler:
         char = Character(
             acc_id=account.account_id,
         )
-

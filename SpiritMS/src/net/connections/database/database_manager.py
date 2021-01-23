@@ -1,5 +1,6 @@
 from swordie_db.database import SwordieDB
 
+from src.net.client.account import Account
 from src.net.connections.database.database_constants import *
 from src.net.debug import debug
 import mysql.connector
@@ -30,7 +31,7 @@ async def check_name_taken(name):
     return True
 
 
-async def register_account(username, password):
+async def register_user(username, password):
     try:
         con = mysql.connector.connect(
             database=SCHEMA_NAME,
@@ -49,4 +50,28 @@ async def register_account(username, password):
         return True
     except Exception as e:
         print("[ERROR] Error trying to register account", e)
+        return False
+
+
+async def create_account(account: Account):
+    """This creates a new row "Account" object into the database"""
+    try:
+        con = mysql.connector.connect(
+            database=SCHEMA_NAME,
+            host=DATABASE_HOST,
+            user=DATABASE_USER,
+            password=DATABASE_PASSWORD,
+            port=DATABASE_PORT,
+        )
+        cursor = con.cursor(dictionary=True)
+        cursor.execute(
+            f"INSERT INTO accounts (worldid, userid) VALUES " +
+            f"({account.world_id}, {account.user_id})"
+        )
+        con.commit()
+        con.disconnect()
+        # debug.logs(f"Successfully created account object in DB userid: {account.user_id}")
+        return True
+    except Exception as e:
+        print("[ERROR] Error trying to create new account", e)
         return False

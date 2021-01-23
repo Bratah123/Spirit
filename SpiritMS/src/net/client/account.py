@@ -9,7 +9,8 @@ class Account:
             world_id=0
     ):
         self._id = 0
-        self._world_id = 0
+        self._world_id = world_id
+        self._user_id = user.user_id
 
         self._characters = []
 
@@ -18,7 +19,7 @@ class Account:
 
         self._friends = []
 
-        self._user = None
+        self._user = user
         self._current_chr = None
 
     @property
@@ -28,6 +29,10 @@ class Account:
     @property
     def world_id(self):
         return self._world_id
+
+    @property
+    def user_id(self):
+        return self._user_id
 
     @property
     def characters(self):

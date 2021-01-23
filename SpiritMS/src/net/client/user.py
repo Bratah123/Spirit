@@ -1,3 +1,7 @@
+import mysql.connector
+
+from src.net.client.account import Account
+from src.net.connections.database.database_constants import *
 from src.net.enum import account_type
 from src.net.enum.pic_status import PicStatus
 
@@ -217,3 +221,28 @@ class User:
             pic_status = PicStatus.ENTER_PIC
 
         return pic_status
+
+    def get_account_from_db(self):
+        try:
+            con = mysql.connector.connect(
+                database=SCHEMA_NAME,
+                host=DATABASE_HOST,
+                user=DATABASE_USER,
+                password=DATABASE_PASSWORD,
+                port=DATABASE_PORT,
+            )
+
+            cursor = con.cursor(dictionary=True)
+
+            cursor.execute(
+                f"SELECT * FROM accounts WHERE userid = {self.user_id}"
+            )
+            rows = cursor.fetchall()
+            con.disconnect()
+            account = Account(
+                user=self,
+                world_id=rows[0]['worldid']  # we get the first row, cause source don't support multiple worlds
+            )
+            return account
+        except Exception:
+            return None
