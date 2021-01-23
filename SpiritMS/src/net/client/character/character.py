@@ -59,3 +59,9 @@ class Character:
     @property
     def chr_id(self):
         return self._id
+
+    async def save(self):
+        pass
+
+    async def save_all(self):
+        pass

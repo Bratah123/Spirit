@@ -53,3 +53,6 @@ class Account:
     @trunk.setter
     def trunk(self, new_trunk):
         self._trunk = new_trunk
+
+    async def save(self):
+        pass

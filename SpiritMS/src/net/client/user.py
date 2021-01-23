@@ -108,6 +108,9 @@ class User:
         )
         return user
 
+    async def save(self):
+        pass
+
     @property
     def user_id(self):
         return self._id
