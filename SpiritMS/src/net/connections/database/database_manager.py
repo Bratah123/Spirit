@@ -70,7 +70,7 @@ async def create_account(account: Account):
         )
         con.commit()
         con.disconnect()
-        # debug.logs(f"Successfully created account object in DB userid: {account.user_id}")
+        debug.logs(f"Successfully created account object in DB userid: {account.user_id}")
         return True
     except Exception as e:
         print("[ERROR] Error trying to create new account", e)
