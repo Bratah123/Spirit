@@ -1,8 +1,13 @@
+from src.net.constant.job_constants import *
+from src.net.packets.byte_buffer.packet import Packet
+
+
 class CharacterStat:
     def __init__(
             self,
             chr_stat_id=0,
             chr_id=0,
+            chr_id_for_log=0,
             world_id_for_log=0,
             name="",
             gender=0,
@@ -52,12 +57,15 @@ class CharacterStat:
             alba_special_reward=0,
             burning=False,
             character_card=None,
+            extend_sp=None,
+            non_combat_stat_day_limit=None,
             gach_exp=0,
             honor_exp=0,
             wing_item=0
     ):
         self._chr_stat_id = chr_stat_id
         self._chr_id = chr_id
+        self._chr_id_for_log = chr_id_for_log
         self._world_id_for_log = world_id_for_log
         self._name = name
         self._gender = gender
@@ -108,9 +116,83 @@ class CharacterStat:
         self._alba_special_reward = alba_special_reward
         self._burning = burning
         self._character_card = character_card
+        self._extend_sp = extend_sp
+        self._non_combat_stat_day_limit = non_combat_stat_day_limit
         self._gach_exp = gach_exp
         self._honor_exp = honor_exp
         self._wing_item = wing_item
+
+    def encode(self, out_packet: Packet):
+        out_packet.encode_int(self.chr_id)
+        out_packet.encode_int(self.chr_id_for_log)
+        out_packet.encode_int(self.world_id_for_log)
+        out_packet.encode_string(self.name)
+        out_packet.encode_byte(self.gender)
+        out_packet.encode_byte(self.skin)
+        out_packet.encode_int(self.face)
+        out_packet.encode_byte(self.mix_base_hair_color)
+        out_packet.encode_byte(self.mix_add_hair_color)
+        out_packet.encode_byte(self.mix_hair_base_prob)
+        out_packet.encode_byte(self.level)
+        out_packet.encode_short(self.job)
+        out_packet.encode_short(self.strength)
+        out_packet.encode_short(self.dex)
+        out_packet.encode_short(self.inte)
+        out_packet.encode_short(self.luk)
+        out_packet.encode_int(self.hp)
+        out_packet.encode_int(self.max_hp)
+        out_packet.encode_int(self.mp)
+        out_packet.encode_int(self.max_hp)
+        out_packet.encode_short(self.ap)
+
+        if is_extend_sp_job(self.job):
+            # TODO: extendSP
+            self.extend_sp.encode(out_packet)
+        else:
+            out_packet.encode_short(self.sp)
+
+        out_packet.encode_long(self.exp)
+        out_packet.encode_int(self.pop)
+        out_packet.encode_int(self.wp)
+        out_packet.encode_int(self.pos_map)
+        out_packet.encode_byte(self.portal)
+        out_packet.encode_int(0)  # TODO: Figure out
+        out_packet.encode_short(self.sub_job)
+
+        job_id = self.job
+
+        if is_demon(job_id) or is_xenon(job_id) or is_beast_tamer(job_id):
+            out_packet.encode_int(self.def_face_acc)
+
+        out_packet.encode_byte(self.fatigue)
+        out_packet.encode_int(self.last_fatigue_update_time)
+        out_packet.encode_int(self.charisma_exp)
+        out_packet.encode_int(self.insight_exp)
+        out_packet.encode_int(self.will_exp)
+        out_packet.encode_int(self.craft_exp)
+        out_packet.encode_int(self.sense_exp)
+        out_packet.encode_int(self.charm_exp)
+
+        # TODO: nonCombatStatDayLimit
+        self.non_combat_stat_day_limit.encode(out_packet)
+
+        out_packet.encode_int(self.pvp_exp)
+        out_packet.encode_byte(self.pvp_grade)
+        out_packet.encode_int(self.pvp_point)
+        out_packet.encode_byte(2)
+
+        out_packet.encode_byte(self.pvp_mode_type)
+        out_packet.encode_int(self.event_point)
+        out_packet.encode_int(self.alba_activity_id)
+        out_packet.encode_ft(None)  # self.alba_start_time
+        out_packet.encode_int(self.alba_duration)
+        out_packet.encode_byte(self.alba_special_reward)
+
+        # TODO: characterCard
+        self.character_card.encode(out_packet)
+
+        out_packet.encode_ft(None)  # self.last_logout
+        out_packet.encode_byte(self.burning)
 
     @property
     def chr_stat_id(self):
@@ -127,6 +209,14 @@ class CharacterStat:
     @chr_id.setter
     def chr_id(self, new_chr_id):
         self._chr_id = new_chr_id
+
+    @property
+    def chr_id_for_log(self):
+        return self._chr_id_for_log
+
+    @chr_id_for_log.setter
+    def chr_id_for_log(self, chr_id_for_log):
+        self._chr_id_for_log = chr_id_for_log
 
     @property
     def world_id_for_log(self):
@@ -515,6 +605,22 @@ class CharacterStat:
     @character_card.setter
     def character_card(self, new_character_card: bool):
         self._character_card = new_character_card
+
+    @property
+    def extend_sp(self):
+        return self._extend_sp
+
+    @extend_sp.setter
+    def extend_sp(self, extend_sp):
+        self._extend_sp = extend_sp
+
+    @property
+    def non_combat_stat_day_limit(self):
+        return self._non_combat_stat_day_limit
+
+    @non_combat_stat_day_limit.setter
+    def non_combat_stat_day_limit(self, non_csdl):
+        self._non_combat_stat_day_limit = non_csdl
 
     @property
     def gach_exp(self):

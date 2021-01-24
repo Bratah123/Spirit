@@ -102,15 +102,12 @@ def is_beast_tamer(job_id):
     return job_id // 1000 == 11
 
 
-def encode(out_packet: Packet):
-    out_packet.encode_byte(ENABLE_JOBS)
-    out_packet.encode_byte(JOB_ORDER)
-    for job_info in LOGIN_JOB.values():
-        job_type = job_info[0]
-        job_flag = job_info[1]
-        job_enum = job_info[2]
-        out_packet.encode_byte(job_flag.value)
-        out_packet.encode_short(job_flag.value)
+def is_pink_bean(job_id):
+    return job_id == 13000 or job_id == 13100
+
+
+def is_manager(job_id):
+    return job_id == 800
 
 
 def gm(job_id):
@@ -123,3 +120,18 @@ def is_super_gm(job_id):
 
 def is_gm_job(job_id):
     return gm(job_id) or is_super_gm(job_id)
+
+
+def is_extend_sp_job(job_id):
+    return not is_beast_tamer(job_id) and not is_pink_bean(job_id) and not is_gm_job(job_id) and not is_manager(job_id)
+
+
+def encode(out_packet: Packet):
+    out_packet.encode_byte(ENABLE_JOBS)
+    out_packet.encode_byte(JOB_ORDER)
+    for job_info in LOGIN_JOB.values():
+        job_type = job_info[0]
+        job_flag = job_info[1]
+        job_enum = job_info[2]
+        out_packet.encode_byte(job_flag.value)
+        out_packet.encode_short(job_flag.value)
