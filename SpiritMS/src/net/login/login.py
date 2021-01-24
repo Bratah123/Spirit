@@ -212,7 +212,7 @@ class Login:
             has_ranking = char.ranking is not None and not job_constants.is_gm_job(char.job_id)
             send_packet.encode_byte(has_ranking)
             if has_ranking:
-                char.ranking.encode(send_packet)
+                char.ranking.encode(send_packet) # TODO: Rankings encode
 
         send_packet.encode_byte(user.get_pic_status())
         send_packet.encode_byte(False)  # bQuerySSNOnCreateNewCharacter
