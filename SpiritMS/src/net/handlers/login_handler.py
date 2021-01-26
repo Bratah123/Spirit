@@ -224,7 +224,7 @@ class LoginHandler:
             skin=skin,
             face=face,
             hair=hair,
-            items=items
+            items=items,
         )
 
         # TODO: Add Job Manager to Char

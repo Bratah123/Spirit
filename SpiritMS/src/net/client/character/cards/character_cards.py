@@ -46,7 +46,7 @@ class CharacterCards:
     def level(self, new_level):
         self._level = new_level
 
-    def encode(self, out_packet : Packet):
+    def encode(self, out_packet: Packet):
         for i in range(9):
             out_packet.encode_int(self.char_id)
             out_packet.encode_int(self.level)

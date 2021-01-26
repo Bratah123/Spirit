@@ -1,6 +1,8 @@
 from src.net.client.character.avatar.cosmetic_info import CosmeticInfo
 from src.net.client.character.avatar.cosmetic_look import CosmeticLook
 from src.net.client.character.character_stat import CharacterStat
+from src.net.constant.item_constants import is_equip
+from src.net.util import wz_reader
 
 
 class Character:
@@ -54,7 +56,11 @@ class Character:
         hair_equips = []
 
         for item_id in items:
-            pass
+            if is_equip(item_id):
+                hair_equips.append(item_id)
+                pass
+
+        self._cosmetic_info.cosmetic_look.hair_equips = hair_equips
 
         self._func_key_maps = func_key_maps
         self._user = user
@@ -66,6 +72,7 @@ class Character:
             gender=gender,
             skin=skin,
             hair=hair,
+            face=face
         )
 
         self._cosmetic_info.character_stat = character_stat

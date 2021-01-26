@@ -19,8 +19,10 @@ async def get_equip_info(equip_id, equip_category):
     root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
     file_path = f"{root_dir}/{WZ_DIR_NAME}/Character.wz/{equip_category}/{xml_file_name}"
-
-    dom = ElementTree.parse(file_path)
+    try:
+        dom = ElementTree.parse(file_path)
+    except Exception:
+        return None
     item_info = dom.getroot()[0]
     item_stats = {}
 

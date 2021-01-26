@@ -176,6 +176,7 @@ class CharacterStat:
         out_packet.encode_int(self.pop)
         out_packet.encode_int(self.wp)
         out_packet.encode_int(self.pos_map)
+        out_packet.encode_int(self.gach_exp)
         out_packet.encode_byte(self.portal)
         out_packet.encode_int(0)  # TODO: Figure out
         out_packet.encode_short(self.sub_job)
@@ -208,7 +209,6 @@ class CharacterStat:
         out_packet.encode_int(self.alba_duration)
         out_packet.encode_byte(self.alba_special_reward)
 
-        # TODO: characterCard
         self.character_card.encode(out_packet)
 
         out_packet.encode_ft(None)  # self.last_logout

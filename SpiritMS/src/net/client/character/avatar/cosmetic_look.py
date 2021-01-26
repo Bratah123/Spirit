@@ -96,6 +96,7 @@ class CosmeticLook:
             out_packet.encode_int(item_id)
 
         out_packet.encode_byte(-1)  # idk bruh
+
         out_packet.encode_int(self.weapon_sticker_id)
         out_packet.encode_int(self.weapon_id)
         out_packet.encode_int(self.sub_weapon_id)
@@ -103,7 +104,7 @@ class CosmeticLook:
 
         pet_amount = len(self.pet_ids)
         for i in range(3):
-            if pet_amount > 1:
+            if pet_amount > i:
                 out_packet.encode_int(self.pet_ids[i])
             else:
                 out_packet.encode_int(0)
