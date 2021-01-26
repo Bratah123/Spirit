@@ -146,7 +146,6 @@ class CharacterStat:
         out_packet.encode_short(self.ap)
 
         if is_extend_sp_job(self.job):
-            # TODO: extendSP
             self.extend_sp.encode(out_packet)
         else:
             out_packet.encode_short(self.sp)
@@ -173,7 +172,6 @@ class CharacterStat:
         out_packet.encode_int(self.sense_exp)
         out_packet.encode_int(self.charm_exp)
 
-        # TODO: nonCombatStatDayLimit
         self.non_combat_stat_day_limit.encode(out_packet)
 
         out_packet.encode_int(self.pvp_exp)
