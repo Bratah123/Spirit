@@ -14,6 +14,7 @@ def readable_byte_arr(byte_arr):
 
 
 def to_string(bytes_):
+    # Given bytes represent it as a little endian hex array
     return ' '.join(
         [bytes_.hex()[i:i + 2].upper() for i in range(0, len(bytes_.hex()), 2)])
 
