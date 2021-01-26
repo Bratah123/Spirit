@@ -47,6 +47,6 @@ class CosmeticInfo:
         self.character_stat.encode(out_packet)
         self.cosmetic_look.encode(out_packet)
         if job_constants.is_zero(self.character_stat.job):
-            self.zero_cosmetic_look.encode()
+            self.zero_cosmetic_look.encode(out_packet)
 
 
