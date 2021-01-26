@@ -21,6 +21,9 @@ class ByteBuffer(BytesIO):
     def encode_byte(self, value):
         if isinstance(value, Enum):
             value = value.value
+        if value > 128:
+            self.encode_unsigned_byte(value)
+            return self
         self.write(pack('b', value))
         return self
 
