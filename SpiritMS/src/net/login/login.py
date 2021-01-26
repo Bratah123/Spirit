@@ -17,6 +17,7 @@ from src.net.packets.byte_buffer.packet import Packet
 from src.net.server import server_constants
 from src.net.server.global_states import worlds
 from src.net.server.server_constants import CHAT_PORT
+from src.net.world.advertisement import Advertisement
 from src.net.world.world import World
 
 
@@ -151,6 +152,18 @@ class Login:
     def send_world_info_end():
         send_packet = Packet(opcode=OutPacket.WORLD_INFORMATION)
         send_packet.encode_int(255)
+
+        ads = 0
+
+        advertisement = None if not ads else Advertisement()
+        send_packet.encode_byte(ads)
+
+        for i in range(ads):
+            advertisement.encode(out_packet=send_packet)
+
+        send_packet.encode_byte(0)  # NotActiveAccountDlgFocus
+        send_packet.encode_int(49)  # lockAccount Connection count
+
         return send_packet
 
     @staticmethod
@@ -213,7 +226,7 @@ class Login:
             has_ranking = char.ranking is not None and not job_constants.is_gm_job(char.job_id)
             send_packet.encode_byte(has_ranking)
             if has_ranking:
-                char.ranking.encode(send_packet) # TODO: Rankings encode
+                char.ranking.encode(send_packet)  # TODO: Rankings encode
 
         send_packet.encode_byte(user.get_pic_status())
         send_packet.encode_byte(False)  # bQuerySSNOnCreateNewCharacter

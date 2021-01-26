@@ -21,11 +21,13 @@ class ByteBuffer(BytesIO):
     def encode_byte(self, value):
         if isinstance(value, Enum):
             value = value.value
-        if value == -1:
-            self.encode_arr([0xFF, 0xFF, 0xFF, 0xFF])  # Ghetto solution for now
-            return self
-        self.write(bytes([value]))
+        self.write(pack('b', value))
         return self
+
+    def encode_unsigned_byte(self, value):
+        if isinstance(value, Enum):
+            value = value.value
+        self.write(bytes[value])
 
     def encode_short(self, value):
         self.write(pack('H', value))
