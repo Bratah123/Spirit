@@ -33,6 +33,10 @@ class ByteBuffer(BytesIO):
         self.write(pack('H', value))
         return self
 
+    def encode_unsigned_int(self, value):
+        self.write(pack('I', value))
+        return self
+
     def encode_int(self, value):
         self.write(pack('i', value))
         return self

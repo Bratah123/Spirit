@@ -21,8 +21,8 @@ class PacketClient:
 
         send_packet.encode_short(server_constants.SERVER_VERSION)
         send_packet.encode_string(server_constants.MINOR_VERSION)
-        send_packet.encode_int(self.socket.riv.value)
-        send_packet.encode_int(self.socket.siv.value)
+        send_packet.encode_unsigned_int(self.socket.riv.value)
+        send_packet.encode_unsigned_int(self.socket.siv.value)
         send_packet.encode_byte(server_constants.LOCALE)
         send_packet.encode_byte(False)
 
