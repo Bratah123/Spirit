@@ -33,7 +33,7 @@ class ByteBuffer(BytesIO):
 
     def encode_int(self, value):
         if value == -1:
-            self.encode_arr([0xFF, 0xFF, 0xFF, 0xFF])  # Ghetto solution for no
+            self.encode_arr([0xFF, 0xFF, 0xFF, 0xFF])  # Ghetto solution for now
             return self
         self.write(pack('I', value))
         return self
