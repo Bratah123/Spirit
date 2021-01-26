@@ -1,3 +1,6 @@
+from src.net.client.character.cards.character_cards import CharacterCards
+from src.net.client.character.combat_stat_day_limit import NonCombatStatDayLimit
+from src.net.client.character.skill_points import ExtendSP
 from src.net.constant.job_constants import *
 from src.net.packets.byte_buffer.packet import Packet
 
@@ -19,21 +22,21 @@ class CharacterStat:
             mix_hair_base_prob=0,
             level=0,
             job=0,
-            strength=4,
+            strength=12,
             dex=4,
             inte=4,
             luk=4,
             hp=50,
             max_hp=50,
-            mp=50,
-            max_mp=50,
+            mp=5,
+            max_mp=5,
             ap=0,
             sp=0,
             exp=0,
             pop=0,  # fame
             money=0,
             wp=0,
-            pos_map=0,
+            pos_map=100000000,
             portal=0,
             sub_job=0,
             def_face_acc=0,
@@ -85,6 +88,11 @@ class CharacterStat:
         self._max_hp = max_hp
         self._mp = mp
         self._max_mp = max_mp
+
+        if is_no_mana_job(job):
+            self._mp = 0
+            self._max_mp = 0
+
         self._ap = ap
         self._sp = sp
         self._exp = exp
@@ -115,9 +123,22 @@ class CharacterStat:
         self._alba_duration = alba_duration
         self._alba_special_reward = alba_special_reward
         self._burning = burning
+
+        if character_card is None:
+            character_card = CharacterCards()
+
         self._character_card = character_card
+
+        if extend_sp is None:
+            extend_sp = ExtendSP(sub_jobs=7)
+
         self._extend_sp = extend_sp
+
+        if non_combat_stat_day_limit is None:
+            non_combat_stat_day_limit = NonCombatStatDayLimit()
+
         self._non_combat_stat_day_limit = non_combat_stat_day_limit
+
         self._gach_exp = gach_exp
         self._honor_exp = honor_exp
         self._wing_item = wing_item
@@ -130,6 +151,7 @@ class CharacterStat:
         out_packet.encode_byte(self.gender)
         out_packet.encode_byte(self.skin)
         out_packet.encode_int(self.face)
+        out_packet.encode_int(self.hair)
         out_packet.encode_byte(self.mix_base_hair_color)
         out_packet.encode_byte(self.mix_add_hair_color)
         out_packet.encode_byte(self.mix_hair_base_prob)
@@ -181,7 +203,7 @@ class CharacterStat:
 
         out_packet.encode_byte(self.pvp_mode_type)
         out_packet.encode_int(self.event_point)
-        out_packet.encode_int(self.alba_activity_id)
+        out_packet.encode_byte(self.alba_activity_id)
         out_packet.encode_ft(None)  # self.alba_start_time
         out_packet.encode_int(self.alba_duration)
         out_packet.encode_byte(self.alba_special_reward)

@@ -1,4 +1,4 @@
-from src.net.constant import job_constants
+from src.net.constant import job_constants, item_constants
 from src.net.packets.byte_buffer.packet import Packet
 
 
@@ -78,16 +78,28 @@ class CosmeticLook:
         out_packet.encode_int(self.hair)
 
         for item_id in self.hair_equips:
-            body_part = 0  # get_body_part_from_item
+            body_part = item_constants.get_body_part_from_item(item_id, self.gender)
             if body_part != 0:
                 out_packet.encode_byte(body_part)
                 out_packet.encode_int(item_id)
-        out_packet.encode_byte(-1)
 
-        for item_id in self.totems:
-            body_part = 0  # get_body_part_from_item
+        out_packet.encode_byte(0)  # idk what it does
+        for item_id in self.unseen_equips:
+            body_part = item_constants.get_body_part_from_item(item_id, self.gender)
             out_packet.encode_byte(body_part)
             out_packet.encode_int(item_id)
+
+        out_packet.encode_byte(0)  # idk what it does
+        for item_id in self.totems:
+            body_part = item_constants.get_body_part_from_item(item_id, self.gender)
+            out_packet.encode_byte(body_part)
+            out_packet.encode_int(item_id)
+
+        out_packet.encode_byte(0) # idk bruh
+        out_packet.encode_int(self.weapon_sticker_id)
+        out_packet.encode_int(self.weapon_id)
+        out_packet.encode_int(self.sub_weapon_id)
+        out_packet.encode_int(self.draw_elf_ears)
 
         pet_amount = len(self.pet_ids)
         for i in range(3):

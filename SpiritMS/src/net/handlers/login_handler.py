@@ -187,7 +187,7 @@ class LoginHandler:
         key_setting_type = packet.decode_int()
         event_new_char_sale_job = packet.decode_int()
         cur_selected_race = packet.decode_int()
-        job = job_constants.get_login_job_by_id(cur_selected_race)[3]
+        job = job_constants.get_login_job_by_id(cur_selected_race)[2]
         cur_selected_sub_job = packet.decode_short()
         gender = packet.decode_byte()
         skin = packet.decode_byte()
@@ -216,4 +216,36 @@ class LoginHandler:
 
         char = Character(
             acc_id=account.account_id,
+            key_setting_type=key_setting_type,
+            name=name,
+            job_id=job.value[0],
+            cur_selected_sub_job=cur_selected_sub_job,
+            gender=gender,
+            skin=skin,
+            face=face,
+            hair=hair,
+            items=items
+        )
+
+        # TODO: Add Job Manager to Char
+        await char.init_in_db()
+        account.characters.append(char)
+        char_stat = char.cosmetic_info.character_stat
+
+        if cur_selected_race == job_constants.LOGIN_JOB['DUAL_BLADE'][0]:
+            char_stat.sub_job = 1
+
+        char_stat.chr_id = char.chr_id
+        char_stat.chr_id_for_log = char.chr_id
+        char_stat.world_id_for_log = account.world_id
+
+        for hair_id in char.cosmetic_info.cosmetic_look.hair_equips:
+            # TODO: Add item to inventory
+            pass
+
+        # TODO: Codex
+
+        await account.save()
+        await client.send_packet(
+            Login.create_new_char_result(LoginType.Success, char)
         )

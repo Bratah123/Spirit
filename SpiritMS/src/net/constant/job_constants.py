@@ -126,6 +126,22 @@ def is_extend_sp_job(job_id):
     return not is_beast_tamer(job_id) and not is_pink_bean(job_id) and not is_gm_job(job_id) and not is_manager(job_id)
 
 
+def is_angelic_buster(job_id):
+    return job_id == 6001 or job_id // 100 == 65
+
+
+def is_kinesis(job_id):
+    return job_id == 14000 or job_id == 14200 or job_id == 14210 or job_id == 14211 or job_id == 14212
+
+
+def is_kanna(job_id):
+    return job_id == 4002 or job_id // 100 == 42
+
+
+def is_no_mana_job(job_id):
+    return is_demon(job_id) or is_angelic_buster(job_id) or is_zero(job_id) or is_kinesis(job_id) or is_kanna(job_id)
+
+
 def encode(out_packet: Packet):
     out_packet.encode_byte(ENABLE_JOBS)
     out_packet.encode_byte(JOB_ORDER)

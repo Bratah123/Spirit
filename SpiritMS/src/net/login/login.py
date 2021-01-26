@@ -6,6 +6,7 @@ Created: 8/21/2020
 from typing import Tuple, List
 
 from src.net.client.account import Account
+from src.net.client.character.character import Character
 from src.net.client.user import User
 from src.net.constant import job_constants
 from src.net.enum.char_name_result import CharNameResult
@@ -255,5 +256,16 @@ class Login:
 
         send_packet.encode_string(name)
         send_packet.encode_byte(char_name_result.value)
+
+        return send_packet
+
+    @staticmethod
+    def create_new_char_result(success: LoginType, char: Character):
+        send_packet = Packet(opcode=OutPacket.CREATE_NEW_CHARACTER_RESULT)
+
+        send_packet.encode_byte(success.value)
+
+        if success == LoginType.Success:
+            char.cosmetic_info.encode_cosmetic(send_packet)
 
         return send_packet

@@ -1,5 +1,6 @@
 from src.net.client.character.avatar.cosmetic_info import CosmeticInfo
 from src.net.client.character.avatar.cosmetic_look import CosmeticLook
+from src.net.client.character.character_stat import CharacterStat
 
 
 class Character:
@@ -17,18 +18,20 @@ class Character:
 
     def __init__(
             self,
+            name="",
             chr_id=0,
             acc_id=0,
             client=None,
             func_key_maps=None,
             user=None,
-            character_stat=None,
             gender=0,
             skin=0,
             face=0,
             hair=0,
             cur_selected_sub_job=0,
             items=None,
+            key_setting_type=0,
+            job_id=0,
     ):
         # Database attributes
         self._id = chr_id
@@ -45,7 +48,7 @@ class Character:
             gender=gender,
             skin=skin,
             face=face,
-            hair=hair
+            hair=hair,
         )
 
         hair_equips = []
@@ -55,11 +58,34 @@ class Character:
 
         self._func_key_maps = func_key_maps
         self._user = user
-        self._character_stat = character_stat
+
+        character_stat = CharacterStat(  # see character_stat.py for default spawning stats
+            name=name,
+            job=job_id,
+            sub_job=cur_selected_sub_job,
+            gender=gender,
+            skin=skin,
+            hair=hair,
+        )
+
+        self._cosmetic_info.character_stat = character_stat
 
     @property
     def chr_id(self):
         return self._id
+
+    @property
+    def cosmetic_info(self):
+        return self._cosmetic_info
+
+    async def init_in_db(self):
+        """
+        This function should only be used for newly created characters NOT FOR SAVING
+        Returns
+        -------
+
+        """
+        pass
 
     async def save(self):
         pass
