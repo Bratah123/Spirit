@@ -1,6 +1,5 @@
 from src.net.debug import debug
 from src.net.packets.byte_buffer.packet import Packet
-from src.net.packets.send_ops import OutPacket
 from src.net.server import server_constants
 
 
