@@ -21,6 +21,9 @@ class ByteBuffer(BytesIO):
     def encode_byte(self, value):
         if isinstance(value, Enum):
             value = value.value
+        if value == -1:
+            self.encode_arr([0xFF, 0xFF, 0xFF, 0xFF])  # Ghetto solution for now
+            return self
         self.write(bytes([value]))
         return self
 
@@ -29,6 +32,9 @@ class ByteBuffer(BytesIO):
         return self
 
     def encode_int(self, value):
+        if value == -1:
+            self.encode_arr([0xFF, 0xFF, 0xFF, 0xFF])  # Ghetto solution for no
+            return self
         self.write(pack('I', value))
         return self
 
@@ -53,8 +59,9 @@ class ByteBuffer(BytesIO):
         return self
 
     def encode_fixed_string(self, string, length):
-        for i in range(13):
-            if i < len(string):
+        string_length = len(string)
+        for i in range(length):
+            if i < string_length:
                 self.write(string[i].encode())
                 continue
 

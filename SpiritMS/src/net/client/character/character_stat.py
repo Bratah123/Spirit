@@ -147,7 +147,7 @@ class CharacterStat:
         out_packet.encode_int(self.chr_id)
         out_packet.encode_int(self.chr_id_for_log)
         out_packet.encode_int(self.world_id_for_log)
-        out_packet.encode_string(self.name)
+        out_packet.encode_fixed_string(self.name, 13)
         out_packet.encode_byte(self.gender)
         out_packet.encode_byte(self.skin)
         out_packet.encode_int(self.face)

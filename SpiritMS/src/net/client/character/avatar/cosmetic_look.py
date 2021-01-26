@@ -83,19 +83,19 @@ class CosmeticLook:
                 out_packet.encode_byte(body_part)
                 out_packet.encode_int(item_id)
 
-        out_packet.encode_byte(0)  # idk what it does
+        out_packet.encode_byte(-1)  # idk what it does
         for item_id in self.unseen_equips:
             body_part = item_constants.get_body_part_from_item(item_id, self.gender)
             out_packet.encode_byte(body_part)
             out_packet.encode_int(item_id)
 
-        out_packet.encode_byte(0)  # idk what it does
+        out_packet.encode_byte(-1)  # idk what it does
         for item_id in self.totems:
             body_part = item_constants.get_body_part_from_item(item_id, self.gender)
             out_packet.encode_byte(body_part)
             out_packet.encode_int(item_id)
 
-        out_packet.encode_byte(0) # idk bruh
+        out_packet.encode_byte(-1)  # idk bruh
         out_packet.encode_int(self.weapon_sticker_id)
         out_packet.encode_int(self.weapon_id)
         out_packet.encode_int(self.sub_weapon_id)
