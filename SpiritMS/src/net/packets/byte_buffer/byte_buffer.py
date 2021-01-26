@@ -32,10 +32,7 @@ class ByteBuffer(BytesIO):
         return self
 
     def encode_int(self, value):
-        if value == -1:
-            self.encode_arr([0xFF, 0xFF, 0xFF, 0xFF])  # Ghetto solution for now
-            return self
-        self.write(pack('I', value))
+        self.write(pack('i', value))
         return self
 
     def encode_long(self, value):
