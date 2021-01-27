@@ -21,8 +21,9 @@ class PacketReader:
                 raise AttributeError
 
         except AttributeError:
-            debug.warn(
-                f"{self.parent.name} Unhandled InPacket in : {packet.name}")
+            if packet.name.upper() not in recv_ops.recv_spam_ops:
+                debug.warn(
+                    f"{self.parent.name} Unhandled InPacket in : {packet.name}")
 
         else:
             self.parent._loop.create_task(

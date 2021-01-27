@@ -49,5 +49,5 @@ class CharacterCards:
     def encode(self, out_packet: Packet):
         for i in range(9):
             out_packet.encode_int(self.char_id)
-            out_packet.encode_int(self.level)
+            out_packet.encode_byte(self.level)
             out_packet.encode_int(self.job)
