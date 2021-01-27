@@ -21,7 +21,8 @@ Installation:
     - pip install pycryptodomex==3.9.9
 
 Current Progress:
-- Server is now able to reach character selection screen!
+- Character Creation Works!
+  - TODO: Implement Saving/Database
 
 Tech Stack:
 - Python 3.8.5
