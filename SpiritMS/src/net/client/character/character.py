@@ -34,6 +34,7 @@ class Character:
             items=None,
             key_setting_type=0,
             job_id=0,
+            ranking=None,
     ):
         # Database attributes
         self._id = chr_id
@@ -45,7 +46,7 @@ class Character:
         if func_key_maps is None:
             func_key_maps = []
 
-        self._cosmetic_info = CosmeticInfo()
+        self._cosmetic_info = CosmeticInfo(cosmetic_id=chr_id)
         self._cosmetic_info.cosmetic_look = CosmeticLook(
             gender=gender,
             skin=skin,
@@ -84,6 +85,8 @@ class Character:
 
         self._cosmetic_info.character_stat = character_stat
 
+        self._ranking = ranking
+
     @property
     def chr_id(self):
         return self._id
@@ -91,6 +94,10 @@ class Character:
     @property
     def cosmetic_info(self):
         return self._cosmetic_info
+
+    @property
+    def ranking(self):
+        return self._ranking
 
     async def init_in_db(self):
         """

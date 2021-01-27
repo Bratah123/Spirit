@@ -216,7 +216,7 @@ class Login:
         send_packet.encode_int(char_size)
 
         for char in chars:
-            send_packet.encode_int(char.id)
+            send_packet.encode_int(char.chr_id)
 
         send_packet.encode_byte(char_size)
 

@@ -131,7 +131,12 @@ class LoginHandler:
         success_code = 0
         user = client.user
 
-        account = user.get_account_from_db()
+        if len(user.accounts) > 0:
+            account = user.accounts[0]
+            # We get the first one cause user should only have one account in this source
+        else:
+            account = user.get_account_from_db()
+
         world = global_states.worlds[0]  # This way only allows us to have one world will change in the future
 
         if user is not None and world is not None and world.get_channel_by_id(channel) is not None:
@@ -213,8 +218,9 @@ class LoginHandler:
         if name_result_code is not None:
             await client.send_packet(Login.check_duplicated_id_result(name, name_result_code))
             return
-
+        char_id = await database_manager.get_next_available_chr_id()
         char = Character(
+            chr_id=char_id,
             acc_id=account.account_id,
             key_setting_type=key_setting_type,
             name=name,
@@ -229,7 +235,6 @@ class LoginHandler:
 
         # TODO: Add Job Manager to Char
         await char.init_in_db()
-        account.characters.append(char)
         char_stat = char.cosmetic_info.character_stat
 
         if cur_selected_race == job_constants.LOGIN_JOB['DUAL_BLADE'][0]:
@@ -244,7 +249,7 @@ class LoginHandler:
             pass
 
         # TODO: Codex
-
+        account.characters.append(char)
         await account.save()
         await client.send_packet(
             Login.create_new_char_result(LoginType.Success, char)

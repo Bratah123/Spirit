@@ -75,3 +75,28 @@ async def create_account(account: Account):
     except Exception as e:
         print("[ERROR] Error trying to create new account", e)
         return False
+
+
+async def get_next_available_chr_id():
+    """Checks database for the next character id that isn't taken"""
+    try:
+        con = mysql.connector.connect(
+            database=SCHEMA_NAME,
+            host=DATABASE_HOST,
+            user=DATABASE_USER,
+            password=DATABASE_PASSWORD,
+            port=DATABASE_PORT,
+        )
+        cursor = con.cursor(dictionary=True)
+        cursor.execute(
+            "SELECT id FROM `characters` ORDER BY `id` DESC LIMIT 1"
+        )
+        rows = cursor.fetchall()
+        biggest_id = rows[0]
+        con.disconnect()
+        if len(rows) < 1:
+            return 1
+        return int(biggest_id['id']) + 1
+    except Exception as e:
+        print("[ERROR] Error trying to get next character id in Database", e)
+        return None
