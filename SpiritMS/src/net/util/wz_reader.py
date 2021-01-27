@@ -4,7 +4,7 @@ from xml.etree import ElementTree
 WZ_DIR_NAME = "WZ"
 
 
-async def get_equip_info(equip_id, equip_category):
+def get_equip_info(equip_id, equip_category):
     """
     Returns a dictionary of all the item stats stored in the xml wz file give an equip id
     Parameters
@@ -32,5 +32,5 @@ async def get_equip_info(equip_id, equip_category):
     return item_stats
 
 
-async def get_weapon_info(equip_id):
-    return await get_equip_info(equip_id, "Weapon")
+def get_weapon_info(equip_id):
+    return get_equip_info(equip_id, "Weapon")

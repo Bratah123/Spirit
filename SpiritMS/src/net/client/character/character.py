@@ -51,14 +51,21 @@ class Character:
             skin=skin,
             face=face,
             hair=hair,
+            job_id=job_id
         )
 
         hair_equips = []
 
         for item_id in items:
+            weapon_info = wz_reader.get_weapon_info(item_id)
             if is_equip(item_id):
                 hair_equips.append(item_id)
-                pass
+                if weapon_info is not None:
+                    if weapon_info["islot"].lower() == "wp":
+                        if weapon_info["cash"] == "0":
+                            self._cosmetic_info.cosmetic_look.weapon_id = item_id
+                        else:
+                            self._cosmetic_info.cosmetic_look.weapon_sticker_id = item_id
 
         self._cosmetic_info.cosmetic_look.hair_equips = hair_equips
 
@@ -72,7 +79,7 @@ class Character:
             gender=gender,
             skin=skin,
             hair=hair,
-            face=face
+            face=face,
         )
 
         self._cosmetic_info.character_stat = character_stat

@@ -5,7 +5,7 @@ from src.net.enum.equip_prefix import EquipPrefix
 
 
 def is_equip(item_id):
-    return item_id / 1000000 == 1
+    return item_id // 1000000 == 1
 
 
 def get_item_prefix(item_id):
@@ -16,9 +16,14 @@ def get_gender_from_id(item_id):
     if item_id // 1000000 != 1 and get_item_prefix(item_id) or get_item_prefix(item_id) == 119 or get_item_prefix(
             item_id) == 168:
         return 2
-    result = item_id // 1000 % 10
+    check = (item_id // 1000) % 10
 
-    return 2 if result != 0 or result != 1 else result
+    if check == 0:
+        return 0
+    elif check == 1:
+        return 1
+    else:
+        return 2
 
 
 def is_long_or_big_sword(item_id):
@@ -41,7 +46,7 @@ def get_body_part_from_item(item_id, gender):
 
 def get_body_part_arr_from_item(item_id, gender_arg):
     gender = get_gender_from_id(item_id)
-    eqp_prefix = equip_prefix.get_equip_prefix_by_val(get_item_prefix(item_id))
+    eqp_prefix = equip_prefix.get_equip_prefix_by_val(int(get_item_prefix(item_id)))
     body_part_list = []
 
     if eqp_prefix != EquipPrefix.Emblem and \

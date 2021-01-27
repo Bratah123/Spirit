@@ -20,7 +20,7 @@ class CharacterStat:
             mix_base_hair_color=0,
             mix_add_hair_color=0,
             mix_hair_base_prob=0,
-            level=0,
+            level=1,
             job=0,
             strength=12,
             dex=4,

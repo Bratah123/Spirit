@@ -65,12 +65,16 @@ class ByteBuffer(BytesIO):
         return self
 
     def encode_fixed_string(self, string, length):
-        string_length = len(string)
-        for i in range(length):
-            if i < string_length:
-                self.write(string[i].encode())
-                continue
+        if string is None:
+            string = ""
 
+        string_length = len(string)
+
+        if string_length > 0:
+            for c in string:
+                self.write(c.encode())
+
+        for i in range(string_length, length):
             self.encode_byte(0)
 
         return self
