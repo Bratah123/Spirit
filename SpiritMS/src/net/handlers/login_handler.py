@@ -205,7 +205,8 @@ class LoginHandler:
 
         name_result_code = None
         # Add a check if starting items are valid
-        if skin > 13:
+        if skin > 13 or skin < 0 or face < 20000 or face > 29999 or hair < 30000 or hair > 49999:
+            print(f"{name} tried to add items unavailable on character creation")
             name_result_code = CharNameResult.Unavailable_CashItem
 
         name_taken = await database_manager.check_name_taken(name)
