@@ -1,4 +1,5 @@
 from sqlalchemy import Column, Integer, String
+from sqlalchemy.orm import column_property
 from sqlalchemy.orm.attributes import InstrumentedAttribute
 
 from src.net.client.character.cards.character_cards import CharacterCards
@@ -10,6 +11,7 @@ from src.net.server import global_states
 
 
 class CharacterStat(global_states.Base):
+
     __tablename__ = "characterstats"
 
     _chr_stat_id = Column("id", Integer, primary_key=True)
@@ -40,7 +42,7 @@ class CharacterStat(global_states.Base):
     _exp = Column("exp", Integer)
     _pop = Column("pop", Integer)  # fame
     _money = Column("money", Integer)
-    _wp = Column("gender", Integer)
+    _wp = Column("wp", Integer)
     _extend_sp_id = Column("extendsp", Integer)
     _pos_map = Column("posmap", Integer)
     _portal = Column("portal", Integer)

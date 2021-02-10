@@ -1,5 +1,7 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
 
+from src.net.client.character.character import Character
+from src.net.server import global_states
 from src.net.server.global_states import Base
 
 
@@ -10,7 +12,7 @@ class Account(Base):
     """
 
     __tablename__ = "accounts"
-    
+
     _id = Column("id", Integer, primary_key=True)
     _world_id = Column("worldid", Integer)
     _user_id = Column("userid", Integer)
@@ -25,7 +27,7 @@ class Account(Base):
 
     _user = None
     _current_chr = None
-    
+
     def __init__(
             self,
             user=None,
@@ -45,6 +47,8 @@ class Account(Base):
 
         self._user = user
         self._current_chr = None
+
+        self.init_characters()
 
     @property
     def account_id(self):
@@ -80,11 +84,15 @@ class Account(Base):
 
     def init_characters(self):
         """
-        Adds all characters from this account into characters list
-        Returns
+        Adds all characters from this account into characters list (checks db)
+        Returns: void
         -------
 
         """
+        session = global_states.Session()
+        characters = session.query(Character).filter(Character._acc_id == self.account_id)
+        for char in characters:
+            self.characters.append(char)
 
     async def save(self):
         pass

@@ -90,6 +90,8 @@ class Character(global_states.Base):
         character_stat = self.get_chr_stat_from_db()
         if character_stat is None:
             character_stat = CharacterStat(  # see character_stat.py for default spawning stats
+                chr_stat_id=chr_id,
+                chr_id_for_log=chr_id,
                 name=name,
                 job=job_id,
                 sub_job=cur_selected_sub_job,

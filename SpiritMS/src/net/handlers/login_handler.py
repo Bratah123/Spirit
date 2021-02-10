@@ -241,8 +241,6 @@ class LoginHandler:
         if cur_selected_race == job_constants.LOGIN_JOB['DUAL_BLADE'][0]:
             char_stat.sub_job = 1
 
-        char_stat.chr_id = char.chr_id
-        char_stat.chr_id_for_log = char.chr_id
         char_stat.world_id_for_log = account.world_id
 
         for hair_id in char.cosmetic_info.cosmetic_look.hair_equips:
@@ -251,6 +249,7 @@ class LoginHandler:
 
         # TODO: Codex
         account.characters.append(char)
+        await char.save()
         await account.save()
         await client.send_packet(
             Login.create_new_char_result(LoginType.Success, char)
