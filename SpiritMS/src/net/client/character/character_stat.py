@@ -750,6 +750,7 @@ class CharacterStat(global_states.Base):
         session = global_states.Session()
         session.add(self)
         session.commit()
+        session.refresh(self)
         session.close()
 
     async def save(self):
@@ -765,4 +766,3 @@ class CharacterStat(global_states.Base):
 
         session.query(CharacterStat).filter(CharacterStat._chr_stat_id == self.chr_stat_id).update(mapped_values)
         session.commit()
-        session.close()

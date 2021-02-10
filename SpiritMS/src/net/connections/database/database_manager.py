@@ -99,7 +99,7 @@ async def get_next_available_chr_id():
         return int(biggest_id['id']) + 1
     except Exception as e:
         print("[ERROR] Error trying to get next character id in Database", e)
-        return None
+        return 1
 
 
 async def get_next_available_acc_id():

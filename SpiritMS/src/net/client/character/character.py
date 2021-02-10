@@ -67,7 +67,6 @@ class Character(global_states.Base):
             hair=hair,
             job_id=job_id
         )
-        cosmetic_look.init_in_db()
 
         self._cosmetic_info.cosmetic_look = cosmetic_look
 
@@ -85,6 +84,8 @@ class Character(global_states.Base):
                             self._cosmetic_info.cosmetic_look.weapon_sticker_id = item_id
 
         self._cosmetic_info.cosmetic_look.hair_equips = hair_equips
+
+        self._cosmetic_info.cosmetic_look.init_in_db()
 
         self._func_key_maps = func_key_maps
         self._user = user
@@ -147,7 +148,8 @@ class Character(global_states.Base):
         session = global_states.Session()
         session.add(self)
         session.commit()
-        session.expunge_all()
+        session.refresh(self)
+        # session.expunge_all()
         session.close()
 
     async def save(self):
@@ -161,7 +163,7 @@ class Character(global_states.Base):
             if is_column:
                 mapped_values[field_name] = getattr(self, field_name)
 
-        session.query(CosmeticLook).filter(Character._id == self.chr_id).update(mapped_values)
+        session.query(Character).filter(Character._id == self.chr_id).update(mapped_values, synchronize_session=False)
         session.commit()
         session.close()
 
