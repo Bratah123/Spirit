@@ -1,17 +1,50 @@
 import mysql.connector
+from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy.orm.attributes import InstrumentedAttribute
 
 from src.net.client.account import Account
 from src.net.connections.database.database_constants import *
 from src.net.enum import account_type
 from src.net.enum.pic_status import PicStatus
+from src.net.server import global_states
 
 
-class User:
+class User(global_states.Base):
     """This class is a representation of an "Account" in MapleStory
     However, the User Class represents all attributes of an account regardless of World (Scania, ETC)
     Params:
         client: Client
     """
+    __tablename__ = "users"
+
+    _id = Column("id", Integer, primary_key=True)
+    _name = Column("name", String)
+    _password = Column("password", String)
+    _pic = Column("pic", String)
+    _account_type = Column("accounttype", Integer)
+    _vote_point = Column("votepoints", Integer)
+    _donation_points = Column("donationpoints", Integer)
+    _age = Column("age", Integer)
+    _vip_grade = Column("vipgrade", Integer)
+    _block_reason = Column("nblockreason", Integer)
+    _gender = Column("gender", Integer)
+    _msg2 = Column("msg2", Integer)
+    _purchase_exp = Column("purchaseexp", Integer)
+    _p_block_reason = Column("pblockreason", Integer)
+    _grade_code = Column("gradecode", Integer)
+    _chat_unblock_date = Column("chatunblockdate", Integer)
+    _has_censored_nx_login_id = Column("hascensorednxloginid", Integer)
+    _censored_nx_login_id = Column("censorednxloginid", String)
+    _character_slots = Column("characterslots", Integer)
+    _creation_date = Column("creationdate", String)
+    _maple_points = Column("maplePoints", Integer)
+    _nx_prepaid = Column("nxPrepaid", Integer)
+    _ban_reason = Column("banreason", String)
+
+    _current_chr = None
+    _current_account = None
+
+    _accounts = []
 
     def __init__(
             self,
@@ -31,7 +64,7 @@ class User:
             p_block_reason=0,
             grade_code=0,
             chat_unblock_date=0,
-            has_censored_nx_login_id="",
+            has_censored_nx_login_id=0,
             censored_nx_login_id="",
             character_slots=4,
             creation_date=None,
@@ -69,47 +102,23 @@ class User:
         self._accounts = []
 
     @staticmethod
-    async def get_user_from_dbuser(db_user):
+    async def get_user_from_name(username: str):
         """
 
         Parameters
         ----------
-        db_user: User class from SwordieDB
+        username: username aka "name" in database
 
         Returns User (itself)
         -------
 
         """
-        user_stats = db_user.user_stats
-        user = User(
-            user_id=user_stats['id'],
-            name=user_stats['name'],
-            password=db_user.password,
-            pic=db_user.pic,
-            acc_type=account_type.get_account_type_by_name(db_user.get_acc_type_string()),
-            vote_point=db_user.vote_points,
-            donation_points=db_user.donation_points,
-            age=user_stats['age'],
-            vip_grade=user_stats['vipgrade'],
-            block_reason=user_stats['nblockreason'],
-            gender=user_stats['gender'],
-            msg2=user_stats['msg2'],
-            purchase_exp=user_stats['purchaseexp'],
-            p_block_reason=user_stats['pblockreason'],
-            has_censored_nx_login_id=user_stats['hascensorednxloginid'],
-            grade_code=user_stats['gradecode'],
-            censored_nx_login_id=user_stats['censorednxloginid'],
-            character_slots=user_stats['characterslots'],
-            creation_date=user_stats['creationdate'],
-            maple_points=db_user.maple_points,
-            nx_prepaid=db_user.nx_prepaid,
-            ban_reason=db_user.ban_reason
 
-        )
+        session = global_states.Session()
+        user = session.query(User).filter(User._name == username).scalar()
+        session.close()
+
         return user
-
-    async def save(self):
-        pass
 
     @property
     def user_id(self):
@@ -129,7 +138,18 @@ class User:
 
     @property
     def acc_type(self):
-        return self._account_type
+        # Return the Enum AccountType rather than the int
+        acc_type_string = ""
+        if self._account_type == 4:
+            acc_type_string = "Admin"
+        elif self._account_type == 0:
+            acc_type_string = "Player"
+        elif self._account_type == 3:
+            acc_type_string = "Intern"
+        elif self._account_type == 5:
+            acc_type_string = "Tester"
+
+        return account_type.get_account_type_by_name(acc_type_string)
 
     @property
     def vote_points(self):
@@ -206,6 +226,21 @@ class User:
     @property
     def accounts(self):
         return self._accounts
+
+    async def save(self):
+        session = global_states.Session()
+        mapped_values = {}
+
+        for item in User.__dict__.items():
+            field_name = item[0]
+            field_type = item[1]
+            is_column = isinstance(field_type, InstrumentedAttribute)
+            if is_column:
+                mapped_values[field_name] = getattr(self, field_name)
+
+        session.query(User).filter(User.user_id == self.user_id).update(mapped_values)
+        session.commit()
+        session.close()
 
     def get_account_by_world_id(self, world_id):
         for account in self.accounts:

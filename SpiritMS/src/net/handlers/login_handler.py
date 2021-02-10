@@ -79,7 +79,7 @@ class LoginHandler:
             success = db_password == password
             result = LoginType.Success if success else LoginType.IncorrectPassword
             if success:
-                user = await User.get_user_from_dbuser(db_user)
+                user = await User.get_user_from_name(username)
                 client.user = user
         else:
             result = LoginType.NotRegistered
