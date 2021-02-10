@@ -3,6 +3,7 @@ Makes an array of bytes string readable
 Params: byte_arr : byte[]
 """
 import json
+import datetime
 
 
 def readable_byte_arr(byte_arr):
@@ -22,3 +23,8 @@ def to_string(bytes_):
 def print_dict(dictionary):
     # A function that prints out dictionaries neatly
     print(json.dumps(dictionary, indent=4))
+
+
+def get_datetime_now():
+    dt = datetime.datetime.now()
+    return dt.strftime('%Y-%m-%d %H:%M:%S')
