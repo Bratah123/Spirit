@@ -366,9 +366,9 @@ class CosmeticLook(global_states.Base):
         session.add(self)
         session.commit()
         # session.expunge_all()
-        session.expire(self)
-        session.refresh(self)
-        session.close()
+        # session.expire(self)
+        # session.refresh(self)
+        # session.close()
 
     async def save(self):
         session = global_states.Session()

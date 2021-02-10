@@ -149,7 +149,7 @@ class Character(global_states.Base):
         session.add(self)
         session.commit()
         session.refresh(self)
-        # session.expunge_all()
+        session.expunge_all()
         session.close()
 
     async def save(self):
