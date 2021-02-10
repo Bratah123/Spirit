@@ -9,7 +9,6 @@ from src.net.server import global_states
 
 
 class CharacterStat(global_states.Base):
-
     __tablename__ = "characterstats"
 
     _chr_stat_id = Column("id", Integer, primary_key=True)
@@ -70,7 +69,7 @@ class CharacterStat(global_states.Base):
 
     _gach_exp = Column("gachexp", Integer)
     _honor_exp = Column("honorexp", Integer)
-    
+
     def __init__(
             self,
             chr_stat_id=0,
@@ -737,3 +736,9 @@ class CharacterStat(global_states.Base):
     @wing_item.setter
     def wing_item(self, new_wing_item: bool):
         self._wing_item = new_wing_item
+
+    def init_in_db(self):
+        session = global_states.Session()
+        session.add(self)
+        session.commit()
+        session.close()

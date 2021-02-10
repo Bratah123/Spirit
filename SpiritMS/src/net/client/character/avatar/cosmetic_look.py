@@ -354,3 +354,9 @@ class CosmeticLook(global_states.Base):
     @kaiser_tail_id.setter
     def kaiser_tail_id(self, k_tail_id):
         self._kaiser_tail_id = k_tail_id
+
+    def init_in_db(self):
+        session = global_states.Session()
+        session.add(self)
+        session.commit()
+        session.close()

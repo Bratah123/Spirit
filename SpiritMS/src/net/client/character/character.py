@@ -56,13 +56,17 @@ class Character(global_states.Base):
             func_key_maps = []
 
         self._cosmetic_info = CosmeticInfo(cosmetic_id=chr_id)
-        self._cosmetic_info.cosmetic_look = CosmeticLook(
-            gender=gender,
-            skin=skin,
-            face=face,
-            hair=hair,
-            job_id=job_id
-        )
+        cosmetic_look = self.get_cosmetic_look_from_db()
+        if cosmetic_look is None:
+            cosmetic_look = CosmeticLook(
+                gender=gender,
+                skin=skin,
+                face=face,
+                hair=hair,
+                job_id=job_id
+            )
+
+        self._cosmetic_info.cosmetic_look = cosmetic_look
 
         hair_equips = []
 
@@ -82,15 +86,18 @@ class Character(global_states.Base):
         self._func_key_maps = func_key_maps
         self._user = user
 
-        character_stat = CharacterStat(  # see character_stat.py for default spawning stats
-            name=name,
-            job=job_id,
-            sub_job=cur_selected_sub_job,
-            gender=gender,
-            skin=skin,
-            hair=hair,
-            face=face,
-        )
+        character_stat = self.get_chr_stat_from_db()
+        if character_stat is None:
+            character_stat = CharacterStat(  # see character_stat.py for default spawning stats
+                name=name,
+                job=job_id,
+                sub_job=cur_selected_sub_job,
+                gender=gender,
+                skin=skin,
+                hair=hair,
+                face=face,
+            )
+            character_stat.init_in_db()
 
         self._cosmetic_info.character_stat = character_stat
 
@@ -107,6 +114,18 @@ class Character(global_states.Base):
     @property
     def ranking(self):
         return self._ranking
+
+    def get_chr_stat_from_db(self):
+        session = global_states.Session()
+        char_stat = session.query(CharacterStat).filter(CharacterStat._chr_id == self.chr_id).scalar()
+        session.close()
+        return char_stat
+
+    def get_cosmetic_look_from_db(self):
+        session = global_states.Session()
+        cosmetic_look = session.query(CosmeticLook).filter(CosmeticLook.cosmetic_look_id == self.chr_id).scalar()
+        session.close()
+        return cosmetic_look
 
     async def init_in_db(self):
         """
