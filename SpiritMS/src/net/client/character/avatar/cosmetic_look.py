@@ -1,8 +1,36 @@
+from sqlalchemy import Column, Integer
+
 from src.net.constant import job_constants, item_constants
 from src.net.packets.byte_buffer.packet import Packet
+from src.net.server import global_states
 
 
-class CosmeticLook:
+class CosmeticLook(global_states.Base):
+    
+    __tablename__ = "avatarlook"
+    
+    _id = Column("id", Integer, primary_key=True)
+    _gender = Column("gender", Integer)
+    _skin = Column("skin", Integer)
+    _face = Column("face", Integer)
+    _hair = Column("hair", Integer)
+    _weapon_sticker_id = Column("weaponstickerid", Integer)
+    _weapon_id = Column("weaponid", Integer)
+    _sub_weapon_id = Column("subweaponid", Integer)
+
+    _job_id = Column("job", Integer)
+    _draw_elf_ears = Column("drawelfear", Integer)
+
+    _demon_slayer_def_face_acc = Column("demonslayerdeffaceacc", Integer)
+    _xenon_def_face_acc = Column("xenondeffaceacc", Integer)
+    _beast_tamer_def_face_acc = Column("beasttamerdeffaceacc", Integer)
+    _is_zero_beta_look = Column("iszerobetalook", Integer)
+    _mixed_hair_color = Column("mixedhaircolor", Integer)
+    _mix_hair_percent = Column("mixhairpercent", Integer)
+
+    _ears = Column("ears", Integer)
+    _tail = Column("tail", Integer)
+    
     def __init__(
             self,
             cosmetic_look_id=0,
