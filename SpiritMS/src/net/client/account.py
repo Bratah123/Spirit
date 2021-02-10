@@ -48,8 +48,6 @@ class Account(Base):
         self._user = user
         self._current_chr = None
 
-        self.init_characters()
-
     @property
     def account_id(self):
         return self._id
@@ -90,9 +88,12 @@ class Account(Base):
 
         """
         session = global_states.Session()
-        characters = session.query(Character).filter(Character._acc_id == self.account_id)
+        characters = session.query(Character).filter(Character._acc_id == self.account_id).all()
         for char in characters:
+            char.init_avatar_data()
             self.characters.append(char)
+        session.expunge_all()
+        session.close()
 
     async def save(self):
         pass
