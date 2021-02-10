@@ -143,6 +143,7 @@ class LoginHandler:
             if account is None:
                 account = Account(user=user, world_id=world_id)
                 await database_manager.create_account(account)  # create a new row in SQL if account doesn't exist
+            account.init_characters()
             user.add_account(account)
             client.account = account
             client.wid = world_id

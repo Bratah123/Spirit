@@ -8,10 +8,10 @@ from src.net.client.character.skill_points import ExtendSP
 from src.net.constant.job_constants import *
 from src.net.packets.byte_buffer.packet import Packet
 from src.net.server import global_states
+from src.net.util.util import get_datetime_now
 
 
 class CharacterStat(global_states.Base):
-
     __tablename__ = "characterstats"
 
     _chr_stat_id = Column("id", Integer, primary_key=True)
@@ -72,6 +72,10 @@ class CharacterStat(global_states.Base):
 
     _gach_exp = Column("gachexp", Integer)
     _honor_exp = Column("honorexp", Integer)
+
+    _extend_sp = extend_sp = ExtendSP(extend_sp_id=_chr_id, sub_jobs=7)
+    _character_card = CharacterCards()
+    _non_combat_stat_day_limit = NonCombatStatDayLimit(combat_id=_chr_id)
 
     def __init__(
             self,
@@ -186,6 +190,8 @@ class CharacterStat(global_states.Base):
         self._pvp_mode_type = pvp_mode_type
         self._event_point = event_point
         self._alba_activity_id = alba_activity_id
+        if alba_start_time == 0:
+            alba_start_time = get_datetime_now()
         self._alba_start_time = alba_start_time
         self._alba_duration = alba_duration
         self._alba_special_reward = alba_special_reward
@@ -246,10 +252,10 @@ class CharacterStat(global_states.Base):
         else:
             out_packet.encode_short(self.sp)
 
-        out_packet.encode_long(self.exp)
+        out_packet.encode_long(int(self.exp))
         out_packet.encode_int(self.pop)
         out_packet.encode_int(self.wp)
-        out_packet.encode_int(self.pos_map)
+        out_packet.encode_int(int(self.pos_map))
         out_packet.encode_int(self.gach_exp)
         out_packet.encode_byte(self.portal)
         out_packet.encode_int(0)  # TODO: Figure out

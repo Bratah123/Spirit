@@ -211,7 +211,6 @@ class Login:
         send_packet.encode_byte(is_edited)
 
         chars = account.characters
-        chars.sort()
         char_size = len(chars)
         send_packet.encode_int(char_size)
 
