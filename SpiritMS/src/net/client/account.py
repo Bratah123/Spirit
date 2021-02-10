@@ -1,8 +1,31 @@
-class Account:
+from sqlalchemy import Column, Integer, String, ForeignKey
+
+from src.net.server.global_states import Base
+
+
+class Account(Base):
     """
     Represents an Account in MapleStory. Not World-Wide though (Scania, Bera).
     Every User will be assigned a different "account" for each world
     """
+
+    __tablename__ = "accounts"
+    
+    _id = Column("id", Integer, primary_key=True)
+    _world_id = Column("worldid", Integer)
+    _user_id = Column("userid", Integer)
+    _nx_credit = Column("nxCredit", Integer)
+
+    _characters = []
+
+    _trunk = None
+    _employee_trunk = None
+
+    _friends = []
+
+    _user = None
+    _current_chr = None
+    
     def __init__(
             self,
             user=None,
@@ -11,6 +34,7 @@ class Account:
         self._id = 0
         self._world_id = world_id
         self._user_id = user.user_id
+        self._nx_credit = 0
 
         self._characters = []
 

@@ -238,7 +238,7 @@ class User(global_states.Base):
             if is_column:
                 mapped_values[field_name] = getattr(self, field_name)
 
-        session.query(User).filter(User.user_id == self.user_id).update(mapped_values)
+        session.query(User).filter(User._id == self.user_id).update(mapped_values)
         session.commit()
         session.close()
 
@@ -261,26 +261,7 @@ class User(global_states.Base):
         return pic_status
 
     def get_account_from_db(self):
-        try:
-            con = mysql.connector.connect(
-                database=SCHEMA_NAME,
-                host=DATABASE_HOST,
-                user=DATABASE_USER,
-                password=DATABASE_PASSWORD,
-                port=DATABASE_PORT,
-            )
-
-            cursor = con.cursor(dictionary=True)
-
-            cursor.execute(
-                f"SELECT * FROM accounts WHERE userid = {self.user_id}"
-            )
-            rows = cursor.fetchall()
-            con.disconnect()
-            account = Account(
-                user=self,
-                world_id=rows[0]['worldid']  # we get the first row, cause source don't support multiple worlds
-            )
-            return account
-        except Exception:
-            return None
+        session = global_states.Session()
+        account = session.query(Account).filter(Account._user_id == self.user_id).scalar()
+        session.close()
+        return account
