@@ -1,4 +1,5 @@
 from sqlalchemy import Column, Integer, String
+from sqlalchemy.orm.attributes import InstrumentedAttribute
 
 from src.net.client.character.cards.character_cards import CharacterCards
 from src.net.client.character.combat_stat_day_limit import NonCombatStatDayLimit
@@ -740,5 +741,20 @@ class CharacterStat(global_states.Base):
     def init_in_db(self):
         session = global_states.Session()
         session.add(self)
+        session.commit()
+        session.close()
+
+    async def save(self):
+        session = global_states.Session()
+        mapped_values = {}
+
+        for item in CharacterStat.__dict__.items():
+            field_name = item[0]
+            field_type = item[1]
+            is_column = isinstance(field_type, InstrumentedAttribute)
+            if is_column:
+                mapped_values[field_name] = getattr(self, field_name)
+
+        session.query(CharacterStat).filter(CharacterStat._chr_stat_id == self.chr_stat_id).update(mapped_values)
         session.commit()
         session.close()

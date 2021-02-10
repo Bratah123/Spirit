@@ -78,5 +78,13 @@ class Account(Base):
     def trunk(self, new_trunk):
         self._trunk = new_trunk
 
+    def init_characters(self):
+        """
+        Adds all characters from this account into characters list
+        Returns
+        -------
+
+        """
+
     async def save(self):
         pass

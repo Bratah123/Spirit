@@ -1,4 +1,5 @@
 from sqlalchemy import Column, Integer
+from sqlalchemy.orm.attributes import InstrumentedAttribute
 
 from src.net.constant import job_constants, item_constants
 from src.net.packets.byte_buffer.packet import Packet
@@ -358,5 +359,20 @@ class CosmeticLook(global_states.Base):
     def init_in_db(self):
         session = global_states.Session()
         session.add(self)
+        session.commit()
+        session.close()
+
+    async def save(self):
+        session = global_states.Session()
+        mapped_values = {}
+
+        for item in CosmeticLook.__dict__.items():
+            field_name = item[0]
+            field_type = item[1]
+            is_column = isinstance(field_type, InstrumentedAttribute)
+            if is_column:
+                mapped_values[field_name] = getattr(self, field_name)
+
+        session.query(CosmeticLook).filter(CosmeticLook._id == self.cosmetic_look_id).update(mapped_values)
         session.commit()
         session.close()

@@ -1,4 +1,5 @@
 from sqlalchemy import Column, Integer
+from sqlalchemy.orm.attributes import InstrumentedAttribute
 
 from src.net.client.character.avatar.cosmetic_info import CosmeticInfo
 from src.net.client.character.avatar.cosmetic_look import CosmeticLook
@@ -134,10 +135,28 @@ class Character(global_states.Base):
         -------
 
         """
-        pass
+        session = global_states.Session()
+        session.add(self)
+        session.commit()
+        session.close()
 
     async def save(self):
-        pass
+        session = global_states.Session()
+        mapped_values = {}
+
+        for item in Character.__dict__.items():
+            field_name = item[0]
+            field_type = item[1]
+            is_column = isinstance(field_type, InstrumentedAttribute)
+            if is_column:
+                mapped_values[field_name] = getattr(self, field_name)
+
+        session.query(CosmeticLook).filter(Character._id == self.chr_id).update(mapped_values)
+        session.commit()
+        session.close()
+
+        await self.cosmetic_info.cosmetic_look.save()
+        await self.cosmetic_info.character_stat.save()
 
     async def save_all(self):
         pass
