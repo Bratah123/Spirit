@@ -16,9 +16,10 @@ Installation:
 - Install dependencies by using `pip install -r requirements.txt`
   - Note: It is recommended to create a virtual environment (VENV)
   - If you wish to manually install dependencies (on venv) here is the list:
-    - pip install swordiedb==1.0.2
-    - pip install mysql-connector-python-rf==2.2.2
-    - pip install pycryptodomex==3.9.9
+    - pip install swordiedb
+    - pip install mysql-connector-python-rf
+    - pip install pycryptodomex
+    - pip install SQLAlchemy
 
 Current Progress:
 - Characters will now show up upon selecting world
