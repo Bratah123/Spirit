@@ -21,8 +21,8 @@ Installation:
     - pip install pycryptodomex==3.9.9
 
 Current Progress:
-- Character Creation Works!
-  - TODO: Implement Saving/Database
+- Characters will now show up upon selecting world
+  - TODO: Fix character creation not showing character after saving to database (sqlalchemy problem).
 
 Tech Stack:
 - Python 3.8.5
