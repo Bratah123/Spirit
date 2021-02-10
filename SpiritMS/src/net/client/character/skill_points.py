@@ -21,6 +21,10 @@ class ExtendSP:
     def sp_set(self):
         return self._sp_set
 
+    @property
+    def extend_sp_id(self):
+        return self._extend_sp_id
+
     def get_sp_set_size(self):
         return len(self.sp_set)
 

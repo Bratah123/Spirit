@@ -1,11 +1,14 @@
+from sqlalchemy import Column, Integer
+
 from src.net.client.character.avatar.cosmetic_info import CosmeticInfo
 from src.net.client.character.avatar.cosmetic_look import CosmeticLook
 from src.net.client.character.character_stat import CharacterStat
 from src.net.constant.item_constants import is_equip
+from src.net.server import global_states
 from src.net.util import wz_reader
 
 
-class Character:
+class Character(global_states.Base):
     """
     The Character class a representation of a MapleStory "character"
     Notable attributes:
@@ -17,6 +20,12 @@ class Character:
             You guessed it, this attribute stores all of the characters cosmetic related stats.
             (I.E. HAIR, FACE, EYE)
     """
+
+    __tablename__ = "characters"
+
+    _id = Column("id", Integer, primary_key=True)
+    _acc_id = Column("accid", Integer)
+    _cosmetic_data_id = Column("avatardata", Integer)
 
     def __init__(
             self,
