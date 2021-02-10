@@ -264,4 +264,6 @@ class User(global_states.Base):
         session = global_states.Session()
         account = session.query(Account).filter(Account._user_id == self.user_id).scalar()
         session.close()
+        if account is not None:
+            account.init_characters()
         return account

@@ -142,8 +142,9 @@ class LoginHandler:
         if user is not None and world is not None and world.get_channel_by_id(channel) is not None:
             if account is None:
                 account = Account(user=user, world_id=world_id)
+                account.account_id = database_manager.get_next_available_acc_id()
+                account.init_characters()
                 await database_manager.create_account(account)  # create a new row in SQL if account doesn't exist
-            account.init_characters()
             user.add_account(account)
             client.account = account
             client.wid = world_id

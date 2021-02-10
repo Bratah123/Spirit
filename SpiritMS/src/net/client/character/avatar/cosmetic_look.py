@@ -31,6 +31,11 @@ class CosmeticLook(global_states.Base):
 
     _ears = Column("ears", Integer)
     _tail = Column("tail", Integer)
+
+    _hair_equips = []
+    _totems = []
+    _unseen_equips = []
+    _pet_ids = [0, 0, 0]
     
     def __init__(
             self,

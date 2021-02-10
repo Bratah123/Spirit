@@ -52,6 +52,10 @@ class Account(Base):
     def account_id(self):
         return self._id
 
+    @account_id.setter
+    def account_id(self, value):
+        self._id = value
+
     @property
     def world_id(self):
         return self._world_id

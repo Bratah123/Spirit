@@ -28,6 +28,7 @@ class Character(global_states.Base):
     _acc_id = Column("accid", Integer)
     _cosmetic_data_id = Column("avatardata", Integer)
     _cosmetic_info = CosmeticInfo(cosmetic_id=_id)
+    _ranking = None
 
     def __init__(
             self,
