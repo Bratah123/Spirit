@@ -1,11 +1,76 @@
+from sqlalchemy import Column, Integer, String
+
 from src.net.client.character.cards.character_cards import CharacterCards
 from src.net.client.character.combat_stat_day_limit import NonCombatStatDayLimit
 from src.net.client.character.skill_points import ExtendSP
 from src.net.constant.job_constants import *
 from src.net.packets.byte_buffer.packet import Packet
+from src.net.server import global_states
 
 
-class CharacterStat:
+class CharacterStat(global_states.Base):
+
+    __tablename__ = "characterstats"
+
+    _chr_stat_id = Column("id", Integer, primary_key=True)
+    _chr_id = Column("characterid", Integer)
+    _chr_id_for_log = Column("characteridforlog", Integer)
+    _world_id_for_log = Column("worldidforlog", Integer)
+    _name = Column("name", String)
+    _gender = Column("gender", Integer)
+    _skin = Column("skin", Integer)
+    _face = Column("face", Integer)
+    _hair = Column("hair", Integer)
+    _mix_base_hair_color = Column("mixbasehaircolor", Integer)
+    _mix_add_hair_color = Column("mixaddhaircolor", Integer)
+    _mix_hair_base_prob = Column("mixhairbaseprob", Integer)
+    _level = Column("level", Integer)
+    _job = Column("job", Integer)
+    _strength = Column("str", Integer)
+    _dex = Column("dex", Integer)
+    _inte = Column("inte", Integer)
+    _luk = Column("luk", Integer)
+    _hp = Column("hp", Integer)
+    _max_hp = Column("maxhp", Integer)
+    _mp = Column("mp", Integer)
+    _max_mp = Column("maxmp", Integer)
+
+    _ap = Column("ap", Integer)
+    _sp = Column("sp", Integer)
+    _exp = Column("exp", Integer)
+    _pop = Column("pop", Integer)  # fame
+    _money = Column("money", Integer)
+    _wp = Column("gender", Integer)
+    _extend_sp_id = Column("extendsp", Integer)
+    _pos_map = Column("posmap", Integer)
+    _portal = Column("portal", Integer)
+    _sub_job = Column("subjob", Integer)
+    _def_face_acc = Column("deffaceacc", Integer)
+    _fatigue = Column("fatigue", Integer)
+    _last_fatigue_update_time = Column("lastfatigueupdatetime", Integer)
+    _charisma_exp = Column("charismaexp", Integer)
+    _insight_exp = Column("insightexp", Integer)
+    _will_exp = Column("willexp", Integer)
+    _craft_exp = Column("craftexp", Integer)
+    _sense_exp = Column("senseexp", Integer)
+    _charm_exp = Column("charmexp", Integer)
+    _non_combat_stat_day_limit_id = Column("noncombatstatdaylimit", Integer)
+
+    _pvp_exp = Column("pvpexp", Integer)
+    _pvp_grade = Column("pvpgrade", Integer)
+    _pvp_point = Column("pvppoint", Integer)
+    _pvp_mode_level = Column("pvpmodelevel", Integer)
+    _pvp_mode_type = Column("pvpmodetype", Integer)
+    _event_point = Column("eventpoint", Integer)
+    _alba_activity_id = Column("albaactivityid", Integer)
+    _alba_start_time = Column("albastarttime", String)
+    _alba_duration = Column("albaduration", Integer)
+    _alba_special_reward = Column("albaspecialreward", Integer)
+    _burning = Column("burning", Integer)
+
+    _gach_exp = Column("gachexp", Integer)
+    _honor_exp = Column("honorexp", Integer)
+    
     def __init__(
             self,
             chr_stat_id=0,
@@ -130,13 +195,20 @@ class CharacterStat:
         self._character_card = character_card
 
         if extend_sp is None:
-            extend_sp = ExtendSP(sub_jobs=7)
+            extend_sp = ExtendSP(
+                extend_sp_id=self._chr_id,
+                sub_jobs=7
+            )
 
+        self._extend_sp_id = extend_sp.extend_sp_id
         self._extend_sp = extend_sp
 
         if non_combat_stat_day_limit is None:
-            non_combat_stat_day_limit = NonCombatStatDayLimit()
+            non_combat_stat_day_limit = NonCombatStatDayLimit(
+                combat_id=chr_id
+            )
 
+        self._non_combat_stat_day_limit_id = chr_id
         self._non_combat_stat_day_limit = non_combat_stat_day_limit
 
         self._gach_exp = gach_exp
