@@ -27,6 +27,7 @@ class Character(global_states.Base):
     _id = Column("id", Integer, primary_key=True)
     _acc_id = Column("accid", Integer)
     _cosmetic_data_id = Column("avatardata", Integer)
+    _cosmetic_info = CosmeticInfo(cosmetic_id=_id)
 
     def __init__(
             self,
@@ -57,15 +58,15 @@ class Character(global_states.Base):
             func_key_maps = []
 
         self._cosmetic_info = CosmeticInfo(cosmetic_id=chr_id)
-        cosmetic_look = self.get_cosmetic_look_from_db()
-        if cosmetic_look is None:
-            cosmetic_look = CosmeticLook(
-                gender=gender,
-                skin=skin,
-                face=face,
-                hair=hair,
-                job_id=job_id
-            )
+
+        cosmetic_look = CosmeticLook(
+            gender=gender,
+            skin=skin,
+            face=face,
+            hair=hair,
+            job_id=job_id
+        )
+        cosmetic_look.init_in_db()
 
         self._cosmetic_info.cosmetic_look = cosmetic_look
 
@@ -87,20 +88,19 @@ class Character(global_states.Base):
         self._func_key_maps = func_key_maps
         self._user = user
 
-        character_stat = self.get_chr_stat_from_db()
-        if character_stat is None:
-            character_stat = CharacterStat(  # see character_stat.py for default spawning stats
-                chr_stat_id=chr_id,
-                chr_id_for_log=chr_id,
-                name=name,
-                job=job_id,
-                sub_job=cur_selected_sub_job,
-                gender=gender,
-                skin=skin,
-                hair=hair,
-                face=face,
-            )
-            character_stat.init_in_db()
+        character_stat = CharacterStat(  # see character_stat.py for default spawning stats
+            chr_id=chr_id,
+            chr_stat_id=chr_id,
+            chr_id_for_log=chr_id,
+            name=name,
+            job=job_id,
+            sub_job=cur_selected_sub_job,
+            gender=gender,
+            skin=skin,
+            hair=hair,
+            face=face,
+        )
+        character_stat.init_in_db()
 
         self._cosmetic_info.character_stat = character_stat
 
@@ -118,15 +118,21 @@ class Character(global_states.Base):
     def ranking(self):
         return self._ranking
 
+    def init_avatar_data(self):
+        self.cosmetic_info.cosmetic_look = self.get_cosmetic_look_from_db()
+        self.cosmetic_info.character_stat = self.get_chr_stat_from_db()
+
     def get_chr_stat_from_db(self):
         session = global_states.Session()
         char_stat = session.query(CharacterStat).filter(CharacterStat._chr_id == self.chr_id).scalar()
+        session.expunge_all()
         session.close()
         return char_stat
 
     def get_cosmetic_look_from_db(self):
         session = global_states.Session()
-        cosmetic_look = session.query(CosmeticLook).filter(CosmeticLook.cosmetic_look_id == self.chr_id).scalar()
+        cosmetic_look = session.query(CosmeticLook).filter(CosmeticLook._id == self.chr_id).scalar()
+        session.expunge_all()
         session.close()
         return cosmetic_look
 
@@ -140,6 +146,7 @@ class Character(global_states.Base):
         session = global_states.Session()
         session.add(self)
         session.commit()
+        session.expunge_all()
         session.close()
 
     async def save(self):
