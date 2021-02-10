@@ -123,5 +123,5 @@ async def get_next_available_acc_id():
             return 1
         return int(biggest_id['id']) + 1
     except Exception as e:
-        print("[ERROR] Error trying to get next character id in Database", e)
+        print("[ERROR] Error trying to get next account id in Database", e)
         return None
