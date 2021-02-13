@@ -20,10 +20,31 @@ Installation:
     - pip install mysql-connector-python-rf
     - pip install pycryptodomex
     - pip install SQLAlchemy
+  - Make a schema in MySQL named `spirit` and run `initTables_characters.sql` first, and then the rest of them in any order.
+  - Run server.py in PyCharm and you should be good to go.
 
-Current Progress:
-- Characters will now show up upon selecting world
-  - TODO: Fix character creation not showing character after saving to database (sqlalchemy problem).
+## Current Progress:
+  - General:
+    - [x] AES Encryption 
+    - [x] Packet with write/read properties
+    - [x] InPacket Handler
+    - [x] Packet Reader
+    - [x] Database ORM
+  - Login Handler:
+    - [x] Login Server
+    - [x] Login
+    - [x] Auto Register
+    - [x] Select World
+    - [x] Channel Select
+    - [x] Character List
+    - [x] Character Creation (Sorta)
+    - [ ] Pic Creation
+    - [ ] Character Deletion
+    - [ ] Pic Verification
+  - Goals:
+    - [ ] Channel Server
+    - [ ] Get in game
+    
 
 Tech Stack:
 - Python 3.8.5
