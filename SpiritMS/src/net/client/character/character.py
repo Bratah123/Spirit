@@ -120,6 +120,9 @@ class Character(global_states.Base):
     def ranking(self):
         return self._ranking
 
+    def deep_copy(self):
+        pass
+
     def init_avatar_data(self):
         self.cosmetic_info.cosmetic_look = self.get_cosmetic_look_from_db()
         self.cosmetic_info.character_stat = self.get_chr_stat_from_db()
@@ -151,6 +154,8 @@ class Character(global_states.Base):
         session.refresh(self)
         session.expunge_all()
         session.close()
+        self.init_avatar_data()
+        return self
 
     async def save(self):
         session = global_states.Session()

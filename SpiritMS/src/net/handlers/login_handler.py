@@ -237,7 +237,7 @@ class LoginHandler:
         )
 
         # TODO: Add Job Manager to Char
-        await char.init_in_db()
+        char = await char.init_in_db()
         char_stat = char.cosmetic_info.character_stat
 
         if cur_selected_race == job_constants.LOGIN_JOB['DUAL_BLADE'][0]:
