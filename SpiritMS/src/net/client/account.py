@@ -84,6 +84,13 @@ class Account(Base):
     def trunk(self, new_trunk):
         self._trunk = new_trunk
 
+    def get_char_by_id(self, chr_id):
+        chr_id = int(chr_id)
+        for char in self.characters:
+            if char.chr_id == chr_id:
+                return char
+        return None
+
     def init_characters(self):
         """
         Adds all characters from this account into characters list (checks db)

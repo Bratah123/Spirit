@@ -131,6 +131,7 @@ class LoginHandler:
         success_code = 0
         user = client.user
 
+        # Check if the instanced "user" object has accounts already instantiated
         if len(user.accounts) > 0:
             account = user.accounts[0]
             # We get the first one cause user should only have one account in this source
@@ -147,7 +148,7 @@ class LoginHandler:
                 await database_manager.create_account(account)  # create a new row in SQL if account doesn't exist
             user.add_account(account)
             client.account = account
-            client.wid = world_id
+            client.world_id = world_id
             client.channel = channel
 
             await client.send_packet(
@@ -189,6 +190,16 @@ class LoginHandler:
 
     @packet_handler(opcode=InPacket.CREATE_NEW_CHARACTER)
     async def handle_create_new_char(self, client: WvsLoginClient, packet: Packet):
+        """
+        This is where character creation entry begins.
+        Parameters
+        ----------
+        client: WvsLoginClient
+        packet: Packet
+
+        -------
+
+        """
         account = client.account
         name = packet.decode_string()
         key_setting_type = packet.decode_int()
@@ -256,3 +267,34 @@ class LoginHandler:
         await client.send_packet(
             Login.create_new_char_result(LoginType.Success, char)
         )
+
+    @packet_handler(opcode=InPacket.CHAR_SELECT_NO_PIC)
+    async def handle_char_select_no_pic(self, client: WvsLoginClient, packet: Packet):
+        """
+        Pic Creation, if the user does not already have a Pic
+        Parameters
+        ----------
+        client: WvsLoginClient
+        packet: Packet
+
+        -------
+
+        """
+        packet.decode_buffer(2)
+        char_id = packet.decode_int()
+        mac = packet.decode_string()
+        unknown_string = packet.decode_string()
+        pic = packet.decode_string()
+        client.user.pic = pic  # TODO: Hash Pic here if you choose to do so.
+
+        await client.user.save()
+
+        if client.user.get_first_account().get_char_by_id(char_id) is None:
+            await client.send_packet(Login.select_character_result(LoginType.UnauthorizedUser, 0, 0, 0))
+            return
+
+        world_id = client.world_id
+        channel_id = client.channel
+        # Note: We get the first world in worlds list in global_states.py (Not the best solution).
+        channel = global_states.worlds[0].get_channel_by_id(channel_id)
+        await client.send_packet(Login.select_character_result(LoginType.Success, 0, channel.port, char_id))

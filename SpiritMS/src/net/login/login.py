@@ -228,10 +228,11 @@ class Login:
                 char.ranking.encode(send_packet)  # TODO: Rankings encode
 
         send_packet.encode_byte(user.get_pic_status().value)
+        print(user.get_pic_status().value)
         send_packet.encode_byte(False)  # bQuerySSNOnCreateNewCharacter
         send_packet.encode_int(user.character_slots)
         send_packet.encode_int(0)
-        send_packet.encode_int(0)  # nEventNewCharJob
+        send_packet.encode_int(-1)  # nEventNewCharJob
         send_packet.encode_ft(None)
         send_packet.encode_byte(0)  # RenameCount
         send_packet.encode_byte(0)
@@ -245,11 +246,11 @@ class Login:
         send_packet.encode_byte(error_code)
         if login_type == LoginType.Success:
             server = [8, 31, 99, 141]
-            send_packet.encode_buffer(server)
+            send_packet.encode_arr(server)
             send_packet.encode_short(port)
 
             chat_server = [8, 31, 99, 141]
-            send_packet.encode_buffer(chat_server)
+            send_packet.encode_arr(chat_server)
             send_packet.encode_short(CHAT_PORT)
 
             send_packet.encode_int(character_id)

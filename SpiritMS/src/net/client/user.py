@@ -1,9 +1,7 @@
-import mysql.connector
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm.attributes import InstrumentedAttribute
 
 from src.net.client.account import Account
-from src.net.connections.database.database_constants import *
 from src.net.enum import account_type
 from src.net.enum.pic_status import PicStatus
 from src.net.server import global_states
@@ -136,6 +134,10 @@ class User(global_states.Base):
     def pic(self):
         return self._pic
 
+    @pic.setter
+    def pic(self, new_pic):
+        self._pic = new_pic
+
     @property
     def acc_type(self):
         # Return the Enum AccountType rather than the int
@@ -226,6 +228,9 @@ class User(global_states.Base):
     @property
     def accounts(self):
         return self._accounts
+
+    def get_first_account(self) -> Account:
+        return self.accounts[0]
 
     async def save(self):
         session = global_states.Session()

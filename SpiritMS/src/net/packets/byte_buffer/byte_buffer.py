@@ -1,6 +1,7 @@
 from enum import Enum
 from io import BytesIO
 from struct import unpack, pack
+from typing import List
 
 from src.net.util.position import Position
 
@@ -30,7 +31,7 @@ class ByteBuffer(BytesIO):
     def encode_unsigned_byte(self, value):
         if isinstance(value, Enum):
             value = value.value
-        self.write(bytes[value])
+        self.write(pack('B', value))
 
     def encode_short(self, value):
         self.write(pack('H', value))
@@ -100,9 +101,10 @@ class ByteBuffer(BytesIO):
             self.encode_short(0)
             self.encode_short(0)
 
-    def encode_arr(self, aob):
+    def encode_arr(self, aob: List):
         for b in aob:
             self.encode_byte(b)
+        return self
 
     def decode_byte(self):
         return self.read(1)[0]
@@ -122,7 +124,7 @@ class ByteBuffer(BytesIO):
     def decode_buffer(self, size):
         return self.read(size)
 
-    def decode_string(self):
+    def decode_string(self) -> str:
         length = self.decode_short()
         string = ""
 
