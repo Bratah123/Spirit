@@ -37,7 +37,7 @@ Installation:
     - [x] Select World
     - [x] Channel Select
     - [x] Character List
-    - [x] Character Creation (Sorta)
+    - [x] Character Creation
     - [ ] Pic Creation
     - [ ] Character Deletion
     - [ ] Pic Verification
