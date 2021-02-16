@@ -197,7 +197,7 @@ class Login:
 
         send_packet.encode_byte(success_code)
         send_packet.encode_string(special_server)
-        send_packet.encode_int(20)  # trunk/storage slot count
+        send_packet.encode_int(14)  # trunk/storage slot count
         send_packet.encode_byte(burning_event_block)
 
         reserved = 0
@@ -227,7 +227,7 @@ class Login:
             char.cosmetic_info.encode_cosmetic(send_packet)
             send_packet.encode_byte(False)  # Family Stuff
             has_ranking = char.ranking is not None and not job_constants.is_gm_job(char.job_id)
-            send_packet.encode_byte(has_ranking)
+            send_packet.encode_byte(False)
             if has_ranking:
                 char.ranking.encode(send_packet)  # TODO: Rankings encode
 
