@@ -3,6 +3,7 @@ from io import BytesIO
 from struct import unpack, pack
 from typing import List
 
+from src.net.util.filetime import FileTime
 from src.net.util.position import Position
 
 
@@ -85,13 +86,11 @@ class ByteBuffer(BytesIO):
         self.write(bytes.fromhex(string))
         return self
 
-    def encode_ft(self, filetime):
+    def encode_ft(self, filetime: FileTime):
         if filetime is None:
             self.encode_long(0)
         else:
-            pass
-            # TODO, code file time
-            # filetime.encode(self)
+            filetime.encode(self)
 
     def encode_position(self, position: Position):
         if position is not None:
