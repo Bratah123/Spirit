@@ -43,6 +43,9 @@ class ByteBuffer(BytesIO):
         return self
 
     def encode_int(self, value):
+        if value > 214748647:
+            self.encode_unsigned_int(value)
+            return self
         self.write(pack('i', value))
         return self
 

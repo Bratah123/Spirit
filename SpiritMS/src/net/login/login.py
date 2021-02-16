@@ -17,6 +17,7 @@ from src.net.packets.byte_buffer.packet import Packet
 from src.net.server import server_constants
 from src.net.server.global_states import worlds
 from src.net.server.server_constants import CHAT_PORT
+from src.net.util.filetime import FileTime, FileTimeType
 from src.net.world.advertisement import Advertisement
 from src.net.world.world import World
 
@@ -193,6 +194,7 @@ class Login:
     @staticmethod
     def select_world_result(user: User, account: Account, success_code, special_server, burning_event_block):
         send_packet = Packet(opcode=OutPacket.SELECT_WORLD_RESULT)
+
         send_packet.encode_byte(success_code)
         send_packet.encode_string(special_server)
         send_packet.encode_int(20)  # trunk/storage slot count
@@ -200,8 +202,8 @@ class Login:
 
         reserved = 0
         send_packet.encode_int(reserved)  # Reserved size
+        send_packet.encode_ft(FileTime(FileTimeType.ZERO_TIME))
 
-        send_packet.encode_ft(None)
         for i in range(reserved):
             # FileTime
             send_packet.encode_int(0)
@@ -212,6 +214,7 @@ class Login:
 
         chars = account.characters
         char_size = len(chars)
+        chars.sort(key=lambda x: x.chr_id)  # Sort by character ID
         send_packet.encode_int(char_size)
 
         for char in chars:
@@ -228,12 +231,12 @@ class Login:
                 char.ranking.encode(send_packet)  # TODO: Rankings encode
 
         send_packet.encode_byte(user.get_pic_status().value)
-        print(user.get_pic_status().value)
         send_packet.encode_byte(False)  # bQuerySSNOnCreateNewCharacter
         send_packet.encode_int(user.character_slots)
         send_packet.encode_int(0)
         send_packet.encode_int(-1)  # nEventNewCharJob
-        send_packet.encode_ft(None)
+        send_packet.encode_ft(FileTime(FileTimeType.ZERO_TIME))
+
         send_packet.encode_byte(0)  # RenameCount
         send_packet.encode_byte(0)
 

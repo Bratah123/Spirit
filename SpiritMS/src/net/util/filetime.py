@@ -19,6 +19,9 @@ class FileTime:
         if isinstance(self.time, Tuple):
             self.low_date_time = self.time[0]
             self.high_date_time = self.time[1]
+        else:
+            self.low_date_time = int(self.time)
+            self.high_date_time = int(self.time >> 32)
 
         self.is_converted_for_client = is_converted_for_client
 
@@ -26,8 +29,8 @@ class FileTime:
         return self.low_date_time & 0xFFFFFFFF | (self.high_date_time << 32)
 
     def encode(self, out_packet):
-        if self.is_converted_for_client:
-            out_packet.encode_long(self.to_long() * 10000 + 116444736000000000)
+        if not self.is_converted_for_client:
+            out_packet.encode_long(self.to_long() * 10000 + 116444736000000000)  # Out of index issues most likely
         else:
-            out_packet.encode_int(self.high_date_time)
-            out_packet.encode_int(self.low_date_time)
+            out_packet.encode_int(int(self.high_date_time))
+            out_packet.encode_int(int(self.low_date_time))
