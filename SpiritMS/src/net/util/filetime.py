@@ -1,8 +1,6 @@
 from enum import Enum
 from typing import Tuple
 
-from src.net.packets.byte_buffer.packet import Packet
-
 
 class FileTimeType(Enum):
     MAX_TIME = 35120710, -1157267456
