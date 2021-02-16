@@ -8,6 +8,7 @@ from src.net.client.character.skill_points import ExtendSP
 from src.net.constant.job_constants import *
 from src.net.packets.byte_buffer.packet import Packet
 from src.net.server import global_states
+from src.net.util.filetime import FileTime, FileTimeType
 from src.net.util.util import get_datetime_now
 
 
@@ -285,13 +286,13 @@ class CharacterStat(global_states.Base):
         out_packet.encode_byte(self.pvp_mode_type)
         out_packet.encode_int(self.event_point)
         out_packet.encode_byte(self.alba_activity_id)
-        out_packet.encode_ft(None)  # self.alba_start_time
+        out_packet.encode_ft(FileTime(FileTimeType.ZERO_TIME))  # self.alba_start_time
         out_packet.encode_int(self.alba_duration)
         out_packet.encode_byte(self.alba_special_reward)
 
         self.character_card.encode(out_packet)
 
-        out_packet.encode_ft(None)  # self.last_logout
+        out_packet.encode_ft(FileTime(FileTimeType.ZERO_TIME))  # self.last_logout
         out_packet.encode_byte(self.burning)
 
     @property

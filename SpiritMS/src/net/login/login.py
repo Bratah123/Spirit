@@ -213,8 +213,9 @@ class Login:
         send_packet.encode_byte(is_edited)
 
         chars = account.characters
-        char_size = len(chars)
         chars.sort(key=lambda x: x.chr_id)  # Sort by character ID
+        char_size = len(chars)
+
         send_packet.encode_int(char_size)
 
         for char in chars:
@@ -230,7 +231,7 @@ class Login:
             if has_ranking:
                 char.ranking.encode(send_packet)  # TODO: Rankings encode
 
-        send_packet.encode_byte(user.get_pic_status().value)
+        send_packet.encode_byte(user.get_pic_status().value)  # bLoginOpt
         send_packet.encode_byte(False)  # bQuerySSNOnCreateNewCharacter
         send_packet.encode_int(user.character_slots)
         send_packet.encode_int(0)
