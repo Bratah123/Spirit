@@ -38,7 +38,7 @@ Installation:
     - [x] Channel Select
     - [x] Character List
     - [x] Character Creation
-    - [ ] Pic Creation
+    - [x] Pic Creation
     - [ ] Character Deletion
     - [ ] Pic Verification
   - Goals:
