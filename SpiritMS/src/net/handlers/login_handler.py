@@ -24,7 +24,7 @@ from src.net.server.server_constants import AUTO_REGISTER
 class LoginHandler:
 
     @packet_handler(opcode=InPacket.PERMISSION_REQUEST)
-    async def handle_permission_request(self, client, packet):
+    async def handle_permission_request(self, client: WvsLoginClient, packet: Packet):
         locale = packet.decode_byte()
         version = packet.decode_short()
         minor_version = packet.decode_string()
@@ -32,11 +32,11 @@ class LoginHandler:
             client.close()
 
     @packet_handler(opcode=InPacket.USE_AUTH_SERVER)
-    async def handle_auth_server(self, client, packet):
+    async def handle_auth_server(self, client: WvsLoginClient, packet: Packet):
         await client.send_packet(Login.send_auth_server(False))
 
     @packet_handler(opcode=InPacket.CLIENT_START)
-    async def handle_client_start(self, client, packet):
+    async def handle_client_start(self, client: WvsLoginClient, packet: Packet):
         await client.send_packet(Login.send_start_client())
 
     @packet_handler(opcode=InPacket.PRIVATE_SERVER_PACKET)
@@ -46,7 +46,7 @@ class LoginHandler:
         ))
 
     @packet_handler(opcode=InPacket.CHECK_LOGIN_AUTH_INFO)
-    async def handle_check_login_auth_info(self, client, packet):
+    async def handle_check_login_auth_info(self, client: WvsLoginClient, packet: Packet):
         """Where logging in is handled, passwords/username etc"""
         sid = packet.decode_byte()
         password = packet.decode_string()
@@ -87,7 +87,7 @@ class LoginHandler:
         await client.send_packet(Login.check_password_result(success, result, user))
 
     @packet_handler(opcode=InPacket.CLIENT_ERROR)
-    async def handle_client_error(self, client, packet: Packet):
+    async def handle_client_error(self, client: WvsLoginClient, packet: Packet):
         client.close()
         if packet.get_length() < 8:
             debug.error(f"Error: {packet.to_string()}")
@@ -110,7 +110,7 @@ class LoginHandler:
         debug.error(f"Error {error_type} at Opcode: {opcode}")
 
     @packet_handler(opcode=InPacket.WORLD_LIST_REQUEST)
-    async def handle_world_list_request(self, client, packet):
+    async def handle_world_list_request(self, client: WvsLoginClient, packet: Packet):
         for world in worlds:
             await client.send_packet(
                 Login.send_world_information(world, None)
@@ -119,12 +119,12 @@ class LoginHandler:
         await client.send_packet(Login.send_recommended_world_msg(WorldId.Scania.value, server_constants.RECOMMEND_MSG))
 
     @packet_handler(opcode=InPacket.WORLD_STATUS_REQUEST)
-    async def handle_world_status_request(self, client, packet):
+    async def handle_world_status_request(self, client: WvsLoginClient, packet: Packet):
         world_id = packet.decode_byte()
         await client.send_packet(Login.send_server_status(world_id))
 
     @packet_handler(opcode=InPacket.SELECT_WORLD)
-    async def handle_select_world(self, client: WvsLoginClient, packet):
+    async def handle_select_world(self, client: WvsLoginClient, packet: Packet):
         unk1 = packet.decode_byte()
         world_id = packet.decode_byte()
         channel = packet.decode_byte() + 1  # We add one cause channels start at index 0 client-side
