@@ -42,7 +42,7 @@ Installation:
     - [ ] Character Deletion
     - [ ] Pic Verification
   - Goals:
-    - [ ] Channel Server
+    - [x] Channel Server
     - [ ] Get in game
     
 
