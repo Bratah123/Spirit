@@ -30,6 +30,10 @@ class ServerBase:
         self._packet_handlers = []
         self._packet_reader = PacketReader(self)
 
+    @property
+    def clients(self):
+        return self._clients
+
     async def start(self):
         self.is_alive = True
         self._acceptor = ClientListener(self, (HOST_IP, self._port))

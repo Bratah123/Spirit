@@ -1,8 +1,10 @@
 import signal
 from asyncio import get_event_loop
 
+from src.net.connections.channels.channel_server import ChannelServer
 from src.net.connections.logins.login_server import LoginServer
 from src.net.debug import debug
+from src.net.server import global_states
 
 
 class ServerApp:
@@ -49,6 +51,10 @@ class ServerApp:
         print("Initializing Server...")
 
         self.login = await LoginServer.run(self)
+
+        for world in global_states.worlds:
+            for channel in world.channels:
+                await ChannelServer.run(self, channel.port, channel.world_id, channel.channel_id)
 
 
 if __name__ == '__main__':
