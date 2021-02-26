@@ -1,1 +1,5 @@
 BLOCKED_NAMES = ["brandon"]
+
+EXP_RATE = 6
+DROP_RATE = 2
+MESO_RATE = 1

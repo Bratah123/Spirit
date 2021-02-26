@@ -1,6 +1,7 @@
 import inspect
 
 from src.net.client.packet_client import WvsLoginClient
+from src.net.constant.game_constants import EXP_RATE, DROP_RATE, MESO_RATE
 from src.net.handlers.packet_handler import PacketHandler
 from src.net.handlers.user.migration_handler import MigrationHandler
 from src.net.server.server_base import ServerBase
@@ -17,9 +18,9 @@ class ChannelServer(ServerBase):
             MigrationHandler()
         ]
 
-        self._exp_rate = 6
-        self._drop_rate = 2
-        self._meso_rate = 1
+        self._exp_rate = EXP_RATE
+        self._drop_rate = DROP_RATE
+        self._meso_rate = MESO_RATE
 
         self.add_packet_handlers()
 
