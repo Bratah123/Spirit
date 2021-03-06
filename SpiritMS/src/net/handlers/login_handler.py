@@ -111,6 +111,16 @@ class LoginHandler:
 
     @packet_handler(opcode=InPacket.WORLD_LIST_REQUEST)
     async def handle_world_list_request(self, client: WvsLoginClient, packet: Packet):
+        """
+        Packet Handler for loading all the worlds (world selection screen)
+        Parameters
+        ----------
+        client: WvsLoginClient
+        packet: Packet
+
+        -------
+
+        """
         for world in worlds:
             await client.send_packet(
                 Login.send_world_information(world, None)
@@ -178,6 +188,17 @@ class LoginHandler:
 
     @packet_handler(opcode=InPacket.CHECK_DUPLICATE_ID)
     async def handle_check_duplicate_id(self, client: WvsLoginClient, packet: Packet):
+        """
+        The Packet Handler for checking if a name is taken during character creation
+
+        Parameters
+        ----------
+        client: WvsLoginClient
+        packet: Packet
+
+        -------
+
+        """
         name = packet.decode_string()
         code = None
         if name.lower() in BLOCKED_NAMES:

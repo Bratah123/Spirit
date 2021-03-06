@@ -154,16 +154,17 @@ class Login:
         send_packet = Packet(opcode=OutPacket.WORLD_INFORMATION)
         send_packet.encode_int(255)
 
-        ads = 0
-
-        advertisement = None if not ads else Advertisement()
-        send_packet.encode_byte(ads)
-
-        for i in range(ads):
-            advertisement.encode(out_packet=send_packet)
-
-        send_packet.encode_byte(0)  # NotActiveAccountDlgFocus
-        send_packet.encode_int(49)  # lockAccount Connection count
+        # Possible Ads encoding
+        # ads = 0
+        #
+        # advertisement = None if not ads else Advertisement()
+        # send_packet.encode_byte(ads)
+        #
+        # for i in range(ads):
+        #     advertisement.encode(out_packet=send_packet)
+        #
+        # send_packet.encode_byte(0)  # NotActiveAccountDlgFocus
+        # send_packet.encode_int(49)  # lockAccount Connection count
 
         return send_packet
 
