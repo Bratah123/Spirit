@@ -169,7 +169,7 @@ class Login:
         return send_packet
 
     @staticmethod
-    def send_recommended_world_msg(world_id, msg):
+    def send_recommended_world_msg(world_id: int, msg: str):
         send_packet = Packet(opcode=OutPacket.RECOMMENDED_WORLD_MESSAGE)
         send_packet.encode_byte(1)
         send_packet.encode_int(world_id)
@@ -177,7 +177,7 @@ class Login:
         return send_packet
 
     @staticmethod
-    def send_server_status(world_id):
+    def send_server_status(world_id: int):
         send_packet = Packet(opcode=OutPacket.SERVER_STATUS)
         world = None
         for world_created in worlds:
@@ -193,7 +193,22 @@ class Login:
         return send_packet
 
     @staticmethod
-    def select_world_result(user: User, account: Account, success_code, special_server, burning_event_block):
+    def select_world_result(user: User, account: Account, success_code: int, special_server: str,
+                            burning_event_block: bool) -> Packet:
+        """
+        The packet that is sent to client when they Select a World (scania, etc)
+        Parameters
+        ----------
+        user: User
+        account: Account
+        success_code: int
+        special_server: string
+        burning_event_block: bool
+
+        Returns: Packet
+        -------
+
+        """
         send_packet = Packet(opcode=OutPacket.SELECT_WORLD_RESULT)
 
         send_packet.encode_byte(success_code)

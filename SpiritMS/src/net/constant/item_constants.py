@@ -4,6 +4,8 @@ from src.net.enum.body_part import BodyPart
 from src.net.enum.equip_prefix import EquipPrefix
 
 
+# Side note for future developers: // operator is floor division meaning it removes decimals
+
 def is_equip(item_id):
     return item_id // 1000000 == 1
 

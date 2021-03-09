@@ -256,7 +256,7 @@ class User(global_states.Base):
     def add_account(self, account):
         self._accounts.append(account)
 
-    def get_pic_status(self):
+    def get_pic_status(self) -> PicStatus:
         pic_status = None
         if self.pic is None or len(self.pic) <= 0:
             pic_status = PicStatus.CREATE_PIC
