@@ -103,7 +103,7 @@ async def get_next_available_chr_id():
 
 
 async def get_next_available_acc_id():
-    """Checks database for the next character id that isn't taken"""
+    """Checks database for the next account id that isn't taken"""
     try:
         con = mysql.connector.connect(
             database=SCHEMA_NAME,
