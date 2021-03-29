@@ -20,8 +20,8 @@ Installation:
     - pip install mysql-connector-python-rf
     - pip install pycryptodomex
     - pip install SQLAlchemy
-  - Make a schema in MySQL named `spirit` and run `initTables_characters.sql` first, and then the rest of them in any order.
-  - Run server.py in PyCharm and you should be good to go.
+- Make a schema in MySQL named `spirit` and run `initTables_characters.sql` first, and then the rest of them in any order.
+- Run server.py in PyCharm and you should be good to go.
 
 ## Current Progress:
   - General:
