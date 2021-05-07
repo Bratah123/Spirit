@@ -35,7 +35,7 @@ class ChannelServer(ServerBase):
 
     async def client_connect(self, client):
         game_client = WvsLoginClient(self, client)
-        self.parent.clients.append(game_client)
+        self.clients.append(game_client)
 
         return game_client
 
